@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\snddrv">
+      <UniqueIdentifier>{dad79d90-9a74-41a1-8a66-c2606463faaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\snddrv\fmgen">
+      <UniqueIdentifier>{dda6492e-d819-43ca-9317-4fe0ce58104d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\snddrv\xmame">
+      <UniqueIdentifier>{a6d2ba79-55e5-4380-9375-7e0b2a397124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\snddrv\xmame\quasi88">
+      <UniqueIdentifier>{e60453ec-124d-44b5-9adb-18f6fcd5dfa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\snddrv\xmame\quasi88\SDL">
+      <UniqueIdentifier>{eb4f1472-c120-4759-85e7-a5622b1ce415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\snddrv\xmame\src">
+      <UniqueIdentifier>{1deb53b8-411a-4de4-a5b4-77f332f9c424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\snddrv\xmame\src\sound">
+      <UniqueIdentifier>{0e96dbba-81b0-4449-ad68-c002d760c5d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\osdepend">
+      <UniqueIdentifier>{f5e37b6d-2fc9-4670-8acb-6d3a6d7ca0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\osdepend\win">
+      <UniqueIdentifier>{76776fa0-b5ce-4c60-a3bf-b5413c941b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\sysdepend">
+      <UniqueIdentifier>{ac902e86-fbe2-40fe-aeda-c9ceef7a7e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\sysdepend\sdl2">
+      <UniqueIdentifier>{0f44785e-44a5-4b74-b043-5475c7effd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\screen">
+      <UniqueIdentifier>{1499ebd6-ef66-4156-b6d6-fdc843bc729e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tk">
+      <UniqueIdentifier>{7cfdeb04-5b80-4e4e-8362-f60aa35bac92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\pc88">
+      <UniqueIdentifier>{2a20ea6b-c675-4191-b0c9-54b94f2efb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ui">
+      <UniqueIdentifier>{ae34c1b1-3cdc-4435-b153-e72fc8a0f10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\tk\q8tk">
+      <UniqueIdentifier>{275dd571-a869-4242-8635-1ea397397acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ui\menu">
+      <UniqueIdentifier>{f132be90-3a78-4e8f-9d05-86c62d77ea0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mon">
+      <UniqueIdentifier>{bb295c6a-48ae-4026-ae9e-edaffc2f0ef0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\quasi88.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\emu.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\getconf.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\menu.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\monitor.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pause.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\osdepend\win\file-op.c">
+      <Filter>ソース ファイル\osdepend\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screen\menu-screen.c">
+      <Filter>ソース ファイル\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screen\screen.c">
+      <Filter>ソース ファイル\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screen\screen-8bpp.c">
+      <Filter>ソース ファイル\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screen\screen-16bpp.c">
+      <Filter>ソース ファイル\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screen\screen-32bpp.c">
+      <Filter>ソース ファイル\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screen\screen-snapshot.c">
+      <Filter>ソース ファイル\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screen\snapshot.c">
+      <Filter>ソース ファイル\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sysdepend\sdl2\event.c">
+      <Filter>ソース ファイル\sysdepend\sdl2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sysdepend\sdl2\graph.c">
+      <Filter>ソース ファイル\sysdepend\sdl2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sysdepend\sdl2\main.c">
+      <Filter>ソース ファイル\sysdepend\sdl2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sysdepend\sdl2\wait.c">
+      <Filter>ソース ファイル\sysdepend\sdl2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk.c">
+      <Filter>ソース ファイル\tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk-glib.c">
+      <Filter>ソース ファイル\tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\fmgen\fmgen.cpp">
+      <Filter>ソース ファイル\snddrv\fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\fmgen\fmtimer.cpp">
+      <Filter>ソース ファイル\snddrv\fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\fmgen\opna.cpp">
+      <Filter>ソース ファイル\snddrv\fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\fmgen\psg.cpp">
+      <Filter>ソース ファイル\snddrv\fmgen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\quasi88\SDL\audio.c">
+      <Filter>ソース ファイル\snddrv\xmame\quasi88\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\quasi88\SDL\sdl.c">
+      <Filter>ソース ファイル\snddrv\xmame\quasi88\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\quasi88\2203fmgen.cpp">
+      <Filter>ソース ファイル\snddrv\xmame\quasi88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\quasi88\2608fmgen.cpp">
+      <Filter>ソース ファイル\snddrv\xmame\quasi88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\quasi88\beep.c">
+      <Filter>ソース ファイル\snddrv\xmame\quasi88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\quasi88\beepintf.c">
+      <Filter>ソース ファイル\snddrv\xmame\quasi88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\quasi88\mame-quasi88.c">
+      <Filter>ソース ファイル\snddrv\xmame\quasi88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\sound\2203intf.c">
+      <Filter>ソース ファイル\snddrv\xmame\src\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\sound\2608intf.c">
+      <Filter>ソース ファイル\snddrv\xmame\src\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\sound\ay8910.c">
+      <Filter>ソース ファイル\snddrv\xmame\src\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\sound\flt_rc.c">
+      <Filter>ソース ファイル\snddrv\xmame\src\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\sound\flt_vol.c">
+      <Filter>ソース ファイル\snddrv\xmame\src\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\sound\fm.c">
+      <Filter>ソース ファイル\snddrv\xmame\src\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\sound\samples.c">
+      <Filter>ソース ファイル\snddrv\xmame\src\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\sound\wavwrite.c">
+      <Filter>ソース ファイル\snddrv\xmame\src\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\sound\ymdeltat.c">
+      <Filter>ソース ファイル\snddrv\xmame\src\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\driver.c">
+      <Filter>ソース ファイル\snddrv\xmame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\restrack.c">
+      <Filter>ソース ファイル\snddrv\xmame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\sndintrf.c">
+      <Filter>ソース ファイル\snddrv\xmame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\sound.c">
+      <Filter>ソース ファイル\snddrv\xmame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\src\streams.c">
+      <Filter>ソース ファイル\snddrv\xmame\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\basic.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\crtcdmac.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\fdc.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\image.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\intr.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\keyboard.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\memory.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\pc88main.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\pc88sub.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\pio.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\romaji.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\soundbd.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\suspend.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\z80.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pc88\z80-debug.c">
+      <Filter>ソース ファイル\pc88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu-top.c">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\debug.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fname.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utility.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\icon.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\control.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screen\color.c">
+      <Filter>ソース ファイル\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screen\putimage.c">
+      <Filter>ソース ファイル\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk-draw.c">
+      <Filter>ソース ファイル\tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk-event.c">
+      <Filter>ソース ファイル\tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\pause-top.c">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\statusbar.c">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\toolbar.c">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-accel.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-adjustment.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-button.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-combo.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-common.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-container.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-entry.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-frame.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-fselection.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-fviewer.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-grab.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-item.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-label.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-listbox.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-misc.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-notebook.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-signal.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-widget.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tk\q8tk\q8tk-window.c">
+      <Filter>ソース ファイル\tk\q8tk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu\menu-about.c">
+      <Filter>ソース ファイル\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu\menu-common.c">
+      <Filter>ソース ファイル\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu\menu-cpu.c">
+      <Filter>ソース ファイル\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu\menu-disk.c">
+      <Filter>ソース ファイル\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu\menu-graph.c">
+      <Filter>ソース ファイル\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu\menu-key.c">
+      <Filter>ソース ファイル\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu\menu-misc.c">
+      <Filter>ソース ファイル\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu\menu-mouse.c">
+      <Filter>ソース ファイル\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu\menu-reset.c">
+      <Filter>ソース ファイル\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu\menu-tape.c">
+      <Filter>ソース ファイル\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\menu\menu-volume.c">
+      <Filter>ソース ファイル\ui\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sysdepend\sdl2\touchkey.c">
+      <Filter>ソース ファイル\sysdepend\sdl2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\alarm.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\quasi88\pcg.c">
+      <Filter>ソース ファイル\snddrv\xmame\quasi88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\snddrv\xmame\quasi88\pcgintf.c">
+      <Filter>ソース ファイル\snddrv\xmame\quasi88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mon\mon-arg.c">
+      <Filter>ソース ファイル\mon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mon\mon-cmd.c">
+      <Filter>ソース ファイル\mon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mon\mon-debug.c">
+      <Filter>ソース ファイル\mon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mon\mon-image.c">
+      <Filter>ソース ファイル\mon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mon\mon-memory.c">
+      <Filter>ソース ファイル\mon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mon\mon-misc.c">
+      <Filter>ソース ファイル\mon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mon\mon-set.c">
+      <Filter>ソース ファイル\mon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mon\mon-util.c">
+      <Filter>ソース ファイル\mon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\askopenfile-top.c">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\askquit-top.c">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\askreset-top.c">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\askselectdisk-top.c">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\askspeedup-top.c">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\askstatefile-top.c">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
