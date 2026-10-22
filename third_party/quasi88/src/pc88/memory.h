@@ -56,6 +56,7 @@ extern byte kanji_dummy_rom[16][2];		/* 漢字ダミーROM */
 
 
 int  memory_allocate(void);
+void memory_load_rom(void);	/* Kairo88 */
 void memory_free(void);
 
 void memory_reset_font(void);

@@ -27,7 +27,7 @@ QUASI88 keeps its state in globals and cannot be shut down and started again in 
 
 ## Frames
 
-The port's graphics layer gives QUASI88 a 32-bit buffer of `0xAARRGGBB` pixels. With `-notool -nostatus` QUASI88 draws only the machine's 640×400 screen. The wait layer never sleeps; the host paces frames.
+The port's graphics layer gives QUASI88 a 32-bit buffer of RGBA8 pixels (`0xAABBGGRR` as a little-endian `uint32_t`), the layout of an Android `RGBA_8888` window and an OpenGL RGBA texture. With `-notool -nostatus` QUASI88 draws only the machine's 640×400 screen. The wait layer never sleeps; the host paces frames.
 
 ## Sound
 

@@ -13,6 +13,7 @@
 #include "initval.h"
 #include "pc88main.h"
 #include "sound_state.h"
+#include "memory.h"
 
 static int started = 0;
 
@@ -82,6 +83,8 @@ int k88_boot(const k88_machine *machine, const char *disk_a, const char *disk_b)
 	T_RESET_CFG cfg;
 
 	quasi88_disk_eject_all();
+	/* ROM files may have changed since the last boot. */
+	memory_load_rom();
 	if (disk_a != NULL && !quasi88_disk_insert(DRIVE_1, disk_a, 0, FALSE)) {
 		fprintf(stderr, "kairo88: could not open %s\n", disk_a);
 		failed = -1;

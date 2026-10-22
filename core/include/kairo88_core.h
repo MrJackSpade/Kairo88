@@ -29,8 +29,9 @@ typedef struct {
 	int sound;      /* enum k88_sound */
 } k88_machine;
 
-/* Ejects both drives, inserts `disk_a` and `disk_b` (either may be NULL), and
- * resets into `machine`. With no disk in drive A it boots from ROM BASIC.
+/* Ejects both drives, reads the ROM files again (they may have changed since
+ * k88_init), inserts `disk_a` and `disk_b` (either may be NULL), and resets
+ * into `machine`. With no disk in drive A it boots from ROM BASIC.
  * Pending audio is discarded. Returns 0, or -1 when a disk could not be opened
  * (the machine then runs with what was inserted). */
 int k88_boot(const k88_machine *machine, const char *disk_a, const char *disk_b);
@@ -39,7 +40,8 @@ int k88_boot(const k88_machine *machine, const char *disk_a, const char *disk_b)
  * QUASI88 has quit. */
 int k88_run_frame(void);
 
-/* The current frame, 0xAARRGGBB pixels, `*width` x `*height`, no row padding. */
+/* The current frame, `*width` x `*height` pixels with no row padding, each
+ * RGBA8 in memory: 0xAABBGGRR read as a little-endian uint32_t. */
 const uint32_t *k88_frame(int *width, int *height);
 
 /* The machine's frame rate (its vsync frequency) in Hz. */

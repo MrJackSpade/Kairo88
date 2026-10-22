@@ -66,7 +66,7 @@ static int write_ppm(const char *prefix, int frame)
 	fprintf(out, "P6\n%d %d\n255\n", width, height);
 	for (int i = 0; i < width * height; i++) {
 		unsigned char rgb[3] = {
-			(unsigned char) (pixels[i] >> 16), (unsigned char) (pixels[i] >> 8), (unsigned char) pixels[i]
+			(unsigned char) pixels[i], (unsigned char) (pixels[i] >> 8), (unsigned char) (pixels[i] >> 16)
 		};
 		fwrite(rgb, 1, 3, out);
 	}

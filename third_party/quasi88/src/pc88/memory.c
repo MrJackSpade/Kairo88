@@ -338,36 +338,13 @@ static void load_compat_rom_close(OSD_FILE *fp)
 
 #define FONT_SZ (8*256*1)
 
-int memory_allocate(void)
+/* Kairo88: memory_allocate() から分離。確保済みのメモリにROMイメージを読み込む。
+ * Reads every ROM image into the memory memory_allocate() allocated, so a
+ * host can load ROM files that changed after QUASI88 started; a reset must
+ * follow. */
+void memory_load_rom(void)
 {
 	int   size;
-
-
-	/* 標準メモリを確保 */
-
-	mem_alloc_start("Allocating memory for standard ROM/RAM...");
-	{
-		main_rom    = (byte *)           mem_alloc(sizeof(byte) *  0x8000);
-		main_rom_ext = (byte(*)[0x2000]) mem_alloc(sizeof(byte) *  0x2000 * 4);
-		main_rom_n  = (byte *)           mem_alloc(sizeof(byte) *  0x8000);
-		sub_romram  = (byte *)           mem_alloc(sizeof(byte) *  0x8000);
-
-		main_ram    = (byte *)           mem_alloc(sizeof(byte) * 0x10000);
-		main_high_ram = (byte *)         mem_alloc(sizeof(byte) *  0x1000);
-		main_vram   = (byte(*)[0x4])     mem_alloc(sizeof(byte) *  0x4000 * 4);
-
-		kanji_rom   = (byte(*)[65536][2])mem_alloc(sizeof(byte) * 2 * 65536 * 2);
-
-		font_pcg    = (byte *)           mem_alloc(sizeof(byte) * 8 * 256 * 2);
-		font_mem    = (byte *)           mem_alloc(sizeof(byte) * 8 * 256 * 2);
-		font_mem2   = (byte *)           mem_alloc(sizeof(byte) * 8 * 256 * 2);
-	}
-	if (mem_alloc_finish() == FALSE) {
-		return 0;
-	}
-
-
-
 
 	/* ROMイメージをファイルから読み込む */
 
@@ -546,6 +523,48 @@ int memory_allocate(void)
 
 	/* ROMのバージョンを保存 */
 	rom_version = ROM_VERSION;
+
+	/* 辞書ROMは確保済みなら読み込み直す */
+	if (use_jisho_rom && jisho_rom) {
+		load_rom(rom_list[ JISHO_ROM ], jisho_rom[0], 0x4000 * 32, DISP_RESULT);
+	}
+}
+
+
+
+int memory_allocate(void)
+{
+	int   size;
+
+
+	/* 標準メモリを確保 */
+
+	mem_alloc_start("Allocating memory for standard ROM/RAM...");
+	{
+		main_rom    = (byte *)           mem_alloc(sizeof(byte) *  0x8000);
+		main_rom_ext = (byte(*)[0x2000]) mem_alloc(sizeof(byte) *  0x2000 * 4);
+		main_rom_n  = (byte *)           mem_alloc(sizeof(byte) *  0x8000);
+		sub_romram  = (byte *)           mem_alloc(sizeof(byte) *  0x8000);
+
+		main_ram    = (byte *)           mem_alloc(sizeof(byte) * 0x10000);
+		main_high_ram = (byte *)         mem_alloc(sizeof(byte) *  0x1000);
+		main_vram   = (byte(*)[0x4])     mem_alloc(sizeof(byte) *  0x4000 * 4);
+
+		kanji_rom   = (byte(*)[65536][2])mem_alloc(sizeof(byte) * 2 * 65536 * 2);
+
+		font_pcg    = (byte *)           mem_alloc(sizeof(byte) * 8 * 256 * 2);
+		font_mem    = (byte *)           mem_alloc(sizeof(byte) * 8 * 256 * 2);
+		font_mem2   = (byte *)           mem_alloc(sizeof(byte) * 8 * 256 * 2);
+	}
+	if (mem_alloc_finish() == FALSE) {
+		return 0;
+	}
+
+
+
+
+	/* Kairo88: ROMイメージの読み込みは memory_load_rom() に分離 */
+	memory_load_rom();
 
 	/* オプショナルなメモリを確保 */
 

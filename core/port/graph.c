@@ -1,5 +1,7 @@
 /* QUASI88 graphics layer for Kairo88: a 32-bit frame buffer that the host
- * reads after each frame. Pixels are 0xAARRGGBB. */
+ * reads after each frame. Pixels are RGBA8 in memory (0xAABBGGRR as a
+ * little-endian uint32_t), the layout of an Android RGBA_8888 window and an
+ * OpenGL RGBA texture, so frames are shown without conversion. */
 
 #include <stdlib.h>
 
@@ -67,8 +69,8 @@ void graph_exit(void)
 void graph_add_color(const PC88_PALETTE_T color[], int nr_color, unsigned long pixel[])
 {
 	for (int i = 0; i < nr_color; i++) {
-		pixel[i] = 0xff000000ul | ((unsigned long) color[i].red << 16) |
-			((unsigned long) color[i].green << 8) | (unsigned long) color[i].blue;
+		pixel[i] = 0xff000000ul | ((unsigned long) color[i].blue << 16) |
+			((unsigned long) color[i].green << 8) | (unsigned long) color[i].red;
 	}
 }
 
