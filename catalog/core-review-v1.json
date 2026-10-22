@@ -552,6 +552,10 @@
    "reason": "Supplementary title review; adult or uncertain content",
    "title": "Liberty"
   },
+  "pc88:196962": {
+   "reason": "Adult-content review",
+   "title": "Little Vampire"
+  },
   "pc88:196964": {
    "reason": "Previously censored adult title",
    "title": "L♥lita 2"
@@ -1003,10 +1007,6 @@
   "pc88:moby-47527": {
    "reason": "MobyGames Adult genre",
    "title": "Dream Program System SG set 3"
-  },
-  "pc88:moby-58118": {
-   "reason": "MobyGames Adult genre",
-   "title": "Ayayo's Love Affair"
   },
   "pc88:moby-58797": {
    "reason": "MobyGames Adult genre",
