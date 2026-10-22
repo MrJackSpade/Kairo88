@@ -1,0 +1,1074 @@
+{
+ "approvedArtwork": {
+  "art/catalog/pc88/131046/box-4d8c78156b23.webp": "6d5eea747569a0cba87a10440415ad08ee4e82ef681f51240acca3f71a528b9b",
+  "art/catalog/pc88/131046/screenshot-137861ff0ad9.webp": "056e5a5ece050de0c89187e0fb1ee03104ff8375e4463ec69462b30d46e6cfd5",
+  "art/catalog/pc88/137829/box-38d3f07dec5b.webp": "62d385e4caf53c8b8ffa7d225310d0bb825ceea11a06f8b136b94a6cadf928ae",
+  "art/catalog/pc88/137829/screenshot-72d8bebceaf0.webp": "aedee3da0bd9b06947264860a7f46cd6c1442087ea213131af138067678d8d30",
+  "art/catalog/pc88/138423/box-0c3af922a365.webp": "3d186d2575ca4c4a6e546ed064c5e62ee7a54441adf71398fe2825136eceab5b",
+  "art/catalog/pc88/138423/screenshot-fba25197c142.webp": "ba050bc3b4204e6b9f430d7228d10ab09e929249be10c7f8f785761bde8197dd",
+  "art/catalog/pc88/157599/box-db21d59e91b3.webp": "46b84a6c96afcb135366bcda0684a944527f47aa5b7147660a2f2592a157255e",
+  "art/catalog/pc88/157599/screenshot-6253c3148240.webp": "1f24d081c885946aec4d08d4852ac8e64b95b676df753a128a54e050be73da6f",
+  "art/catalog/pc88/157600/box-4a3fb3f07a67.webp": "7c33f5a7ba3f2e04d236fe9d35ea5f4e4526d7962a486154d5f45f23bb81f641",
+  "art/catalog/pc88/157600/screenshot-98000d5d9954.webp": "89a7fd98b2461bd45c5456677b51024ba4ef37c51dc49ee775fff9253fedd13a"
+ },
+ "excluded": {
+  "pc88:133398": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Ashe"
+  },
+  "pc88:140886": {
+   "reason": "Existing adult marker",
+   "title": "L♥lita Syndrome"
+  },
+  "pc88:180982": {
+   "reason": "Existing adult marker",
+   "title": "Crystal Dream"
+  },
+  "pc88:180983": {
+   "reason": "Existing adult marker",
+   "title": "Crystal Dream II: Maou no Genei"
+  },
+  "pc88:181005": {
+   "reason": "Existing adult marker",
+   "title": "The 4th Unit"
+  },
+  "pc88:181006": {
+   "reason": "Same reviewed title on another catalog platform",
+   "title": "The 4th Unit 2"
+  },
+  "pc88:181008": {
+   "reason": "Existing adult marker",
+   "title": "The 4th Unit Act.4: Zero"
+  },
+  "pc88:181009": {
+   "reason": "Existing adult marker",
+   "title": "Abunai Tengu Densetsu"
+  },
+  "pc88:181013": {
+   "reason": "Existing adult marker",
+   "title": "Angel Hearts"
+  },
+  "pc88:181075": {
+   "reason": "Existing adult marker",
+   "title": "Joshiryou Panic"
+  },
+  "pc88:181077": {
+   "reason": "Existing adult marker",
+   "title": "El Dorado Denki"
+  },
+  "pc88:181084": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Mari-chan Kiki Ippatsu"
+  },
+  "pc88:182531": {
+   "reason": "Existing adult marker",
+   "title": "Alpha"
+  },
+  "pc88:186793": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Carmine"
+  },
+  "pc88:186797": {
+   "reason": "MobyGames Adult genre",
+   "title": "Asteka"
+  },
+  "pc88:186801": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Battle Skin Panic"
+  },
+  "pc88:187771": {
+   "reason": "Existing adult marker",
+   "title": "Abunai Josei Shinrigaku Nyuumon"
+  },
+  "pc88:187775": {
+   "reason": "Existing adult marker",
+   "title": "Akujo Densetsu II: Sailor Fuku Rhapsody"
+  },
+  "pc88:187776": {
+   "reason": "Existing adult marker",
+   "title": "Akujo Kamakiri"
+  },
+  "pc88:187780": {
+   "reason": "Existing adult marker",
+   "title": "Alice: Adventures in Wonderland"
+  },
+  "pc88:187831": {
+   "reason": "MobyGames Adult genre",
+   "title": "Attack!! Hiroko-chan"
+  },
+  "pc88:187832": {
+   "reason": "Existing adult marker",
+   "title": "Ayumi"
+  },
+  "pc88:188150": {
+   "reason": "Existing adult marker",
+   "title": "Bishoujo Shasinkan: Moving School"
+  },
+  "pc88:188160": {
+   "reason": "Existing adult marker",
+   "title": "The Byouin"
+  },
+  "pc88:188161": {
+   "reason": "Existing adult marker",
+   "title": "Can Can Bunny"
+  },
+  "pc88:188162": {
+   "reason": "Existing adult marker",
+   "title": "Can Can Bunny Superior"
+  },
+  "pc88:188386": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Chaos Angels"
+  },
+  "pc88:188394": {
+   "reason": "Existing adult marker",
+   "title": "Cosmo Angel"
+  },
+  "pc88:188402": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Danchi-zuma no Yuuwaku"
+  },
+  "pc88:188404": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "DE・JA"
+  },
+  "pc88:188424": {
+   "reason": "Existing adult marker",
+   "title": "Dennou Gakuen"
+  },
+  "pc88:188425": {
+   "reason": "Existing adult marker",
+   "title": "Dennou Gakuen II: Highway Buster!!"
+  },
+  "pc88:188427": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "D.P.S: Dream Program System"
+  },
+  "pc88:188429": {
+   "reason": "Same reviewed title on another catalog platform",
+   "title": "Dragon Eyes"
+  },
+  "pc88:188430": {
+   "reason": "Existing adult marker",
+   "title": "Dragon Knight"
+  },
+  "pc88:188431": {
+   "reason": "Existing adult marker",
+   "title": "Dragon Knight II"
+  },
+  "pc88:188432": {
+   "reason": "Existing adult marker",
+   "title": "Dragoon Armor for Adult"
+  },
+  "pc88:188443": {
+   "reason": "Existing adult marker",
+   "title": "Exterlien"
+  },
+  "pc88:188450": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Foxy"
+  },
+  "pc88:188487": {
+   "reason": "Existing adult marker",
+   "title": "Girls Paradise: Rakuen no Tenshitachi"
+  },
+  "pc88:188494": {
+   "reason": "Existing adult marker",
+   "title": "Hacchake Ayayo-san"
+  },
+  "pc88:188495": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Hacchake Ayayo-san 2: Ikenai Holiday"
+  },
+  "pc88:188507": {
+   "reason": "MobyGames Adult genre",
+   "title": "Hole Chaser"
+  },
+  "pc88:188509": {
+   "reason": "Existing adult marker",
+   "title": "Hoshi no Suna Monogatari"
+  },
+  "pc88:188515": {
+   "reason": "Existing adult marker",
+   "title": "Illumina!"
+  },
+  "pc88:188519": {
+   "reason": "Existing adult marker",
+   "title": "Intruder: Sakura Yashiki no Tansaku"
+  },
+  "pc88:188525": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Joshidaisei Private"
+  },
+  "pc88:188576": {
+   "reason": "Existing adult marker",
+   "title": "Las Vegas"
+  },
+  "pc88:188579": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Lipstick"
+  },
+  "pc88:188580": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Lipstick Adventure"
+  },
+  "pc88:188581": {
+   "reason": "Existing adult marker",
+   "title": "Lipstick Adventure 2"
+  },
+  "pc88:188616": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Night Life"
+  },
+  "pc88:188626": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Holland Tsuma wa Denki Unagi no Yume wo Miruka?"
+  },
+  "pc88:188630": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Peeping Scandal"
+  },
+  "pc88:188636": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Pias"
+  },
+  "pc88:188638": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Pinky Ponky: Beautiful Dream"
+  },
+  "pc88:188639": {
+   "reason": "Existing adult marker",
+   "title": "Pinky Ponky 2: Twilight Games"
+  },
+  "pc88:188640": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Pinky Ponky 3: Battle Lovers"
+  },
+  "pc88:188644": {
+   "reason": "Existing adult marker",
+   "title": "Pocky"
+  },
+  "pc88:188645": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Pocky 2"
+  },
+  "pc88:188648": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Rance: Hikari wo Motomete"
+  },
+  "pc88:188649": {
+   "reason": "Existing adult marker",
+   "title": "Rance II: Hangyaku no Shoujotachi"
+  },
+  "pc88:188650": {
+   "reason": "Existing adult marker",
+   "title": "Ray Gun"
+  },
+  "pc88:188658": {
+   "reason": "Existing adult marker",
+   "title": "Run Run Kyousoukyoku"
+  },
+  "pc88:188670": {
+   "reason": "Existing adult marker",
+   "title": "Skapon Taikentai: The Enchanted Hunters"
+  },
+  "pc88:188681": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Star Ship Rendezvous"
+  },
+  "pc88:188682": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Still Sword for Adult"
+  },
+  "pc88:188688": {
+   "reason": "Existing adult marker",
+   "title": "Tenshitachi no Gogo"
+  },
+  "pc88:188689": {
+   "reason": "Existing adult marker",
+   "title": "Tenshitachi no Gogo II: Minako"
+  },
+  "pc88:188690": {
+   "reason": "Existing adult marker",
+   "title": "Tenshitachi no Gogo II: Bangai-hen"
+  },
+  "pc88:188691": {
+   "reason": "Existing adult marker",
+   "title": "Tenshitachi no Gogo III: Bangai-hen"
+  },
+  "pc88:188692": {
+   "reason": "Existing adult marker",
+   "title": "Tenshitachi no Gogo III: Ribbon"
+  },
+  "pc88:188702": {
+   "reason": "Existing adult marker",
+   "title": "Twilight Zone"
+  },
+  "pc88:188703": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Twilight Zone II: Nagisa no Yakata"
+  },
+  "pc88:188704": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Twilight Zone III: Nagakute Amai Yoru"
+  },
+  "pc88:188706": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Twilight Zone 4: Tokubetsu hen"
+  },
+  "pc88:188711": {
+   "reason": "Existing adult marker",
+   "title": "Urotsuki Douji"
+  },
+  "pc88:188731": {
+   "reason": "MobyGames Adult genre",
+   "title": "Yojigen Shoujo Lydia"
+  },
+  "pc88:188737": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Cyberblock Metal Orange"
+  },
+  "pc88:188742": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "The Peeping"
+  },
+  "pc88:189660": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Dororo: Jigoku Emaki no shou"
+  },
+  "pc88:189883": {
+   "reason": "Existing adult marker",
+   "title": "Love Chaser"
+  },
+  "pc88:190086": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Miko to Akemi no Jungle Adventure"
+  },
+  "pc88:193402": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Ouji Bin Bin Monogatari"
+  },
+  "pc88:193409": {
+   "reason": "Existing adult marker",
+   "title": "Tokyo Nampa Street"
+  },
+  "pc88:196865": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "177"
+  },
+  "pc88:196866": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Battle-Bunnygirl"
+  },
+  "pc88:196867": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Belloncho Series 1: Body Inspection in Belloncho: Girl's High-School Version"
+  },
+  "pc88:196868": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Bishoujo Baseball Gakuen"
+  },
+  "pc88:196869": {
+   "reason": "Existing adult marker",
+   "title": "Bishoujo Noriko"
+  },
+  "pc88:196870": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Bishoujo Shashinkan Series Part III: Photo Club Kyoufu no Yakatahen"
+  },
+  "pc88:196871": {
+   "reason": "Existing adult marker",
+   "title": "Bishoujo Shashinkan Bangai-Hen: Outside Story"
+  },
+  "pc88:196872": {
+   "reason": "Existing adult marker",
+   "title": "Bishoujo Shashinkan: Studio Cut"
+  },
+  "pc88:196875": {
+   "reason": "Existing adult marker",
+   "title": "Blue Moon Story: Part I"
+  },
+  "pc88:196876": {
+   "reason": "Existing adult marker",
+   "title": "Fukashigi Denshou: Kabara no Himitsu"
+  },
+  "pc88:196877": {
+   "reason": "Existing adult marker",
+   "title": "Chotto Meitantei: Misa-chan Monogatari Series"
+  },
+  "pc88:196878": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Chou Bishoujo Densetsu: Croquis"
+  },
+  "pc88:196880": {
+   "reason": "Existing adult marker",
+   "title": "Christine"
+  },
+  "pc88:196881": {
+   "reason": "Existing adult marker",
+   "title": "Cinderella Perudue"
+  },
+  "pc88:196882": {
+   "reason": "Existing adult marker",
+   "title": "Cosmic Psycho"
+  },
+  "pc88:196883": {
+   "reason": "Existing adult marker",
+   "title": "Cosmos Club"
+  },
+  "pc88:196884": {
+   "reason": "Existing adult marker",
+   "title": "Cream Lemon: Star Trap"
+  },
+  "pc88:196886": {
+   "reason": "Existing adult marker",
+   "title": "Derringer"
+  },
+  "pc88:196887": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Doki Doki: Card League"
+  },
+  "pc88:196888": {
+   "reason": "Existing adult marker",
+   "title": "Dokkin Minako-sensei!"
+  },
+  "pc88:196889": {
+   "reason": "Existing adult marker",
+   "title": "Paragon S♥x a Doll"
+  },
+  "pc88:196890": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Don Juan"
+  },
+  "pc88:196892": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Dragon City X Shitei"
+  },
+  "pc88:196902": {
+   "reason": "Existing adult marker",
+   "title": "Yume Shoujo Sayaka"
+  },
+  "pc88:196904": {
+   "reason": "Existing adult marker",
+   "title": "Dreamy Town MAJO Sandra"
+  },
+  "pc88:196906": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Dungeon Buster Ex-Plores"
+  },
+  "pc88:196908": {
+   "reason": "Existing adult marker",
+   "title": "Dwelling"
+  },
+  "pc88:196910": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Emmy II"
+  },
+  "pc88:196913": {
+   "reason": "Existing adult marker",
+   "title": "Erika"
+  },
+  "pc88:196914": {
+   "reason": "Existing adult marker",
+   "title": "Feirie's Residence"
+  },
+  "pc88:196915": {
+   "reason": "Previously censored adult title",
+   "title": "Final L♥lita: Darkside of Software"
+  },
+  "pc88:196917": {
+   "reason": "Existing adult marker",
+   "title": "Five Sweet Dream"
+  },
+  "pc88:196921": {
+   "reason": "Existing adult marker",
+   "title": "Fruit Cocktail"
+  },
+  "pc88:196922": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Gal Wars: kyapi-kyapi-run"
+  },
+  "pc88:196925": {
+   "reason": "Existing adult marker",
+   "title": "Galppo Club"
+  },
+  "pc88:196926": {
+   "reason": "Existing adult marker",
+   "title": "Genji"
+  },
+  "pc88:196928": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Gokuraku Tengoku: Omemie no Maki"
+  },
+  "pc88:196929": {
+   "reason": "Existing adult marker",
+   "title": "Gram Cats"
+  },
+  "pc88:196935": {
+   "reason": "Same reviewed title on another catalog platform",
+   "title": "Harajuku After Dark"
+  },
+  "pc88:196936": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Hard Graphics Soushuu Hen"
+  },
+  "pc88:196937": {
+   "reason": "Existing adult marker",
+   "title": "Hare Nochi Oosawagi!"
+  },
+  "pc88:196943": {
+   "reason": "Existing adult marker",
+   "title": "Hot Milk"
+  },
+  "pc88:196944": {
+   "reason": "Existing adult marker",
+   "title": "Idaten Ikase Otoko: Mugiko ni Aitai"
+  },
+  "pc88:196946": {
+   "reason": "Existing adult marker",
+   "title": "Ikenie no Machi"
+  },
+  "pc88:196947": {
+   "reason": "Existing adult marker",
+   "title": "Imitation wa Aisenai"
+  },
+  "pc88:196954": {
+   "reason": "Existing adult marker",
+   "title": "Kaettekita Tanteidan X"
+  },
+  "pc88:196956": {
+   "reason": "Existing adult marker",
+   "title": "Keiko-chan no Himitsu"
+  },
+  "pc88:196957": {
+   "reason": "Existing adult marker",
+   "title": "Kibun wa Pastel Touch!!"
+  },
+  "pc88:196958": {
+   "reason": "Existing adult marker",
+   "title": "Kudokikata Oshiemasu Part II: Kind Gal's"
+  },
+  "pc88:196960": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Liberty"
+  },
+  "pc88:196964": {
+   "reason": "Previously censored adult title",
+   "title": "L♥lita 2"
+  },
+  "pc88:196965": {
+   "reason": "Existing adult marker",
+   "title": "Yellow Lemon"
+  },
+  "pc88:196966": {
+   "reason": "Existing adult marker",
+   "title": "L♥lita Hime no Densetsu"
+  },
+  "pc88:196968": {
+   "reason": "Existing adult marker",
+   "title": "L♥lita Hime no Enikki"
+  },
+  "pc88:196969": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Love Adventure Play Boy"
+  },
+  "pc88:196970": {
+   "reason": "Existing adult marker",
+   "title": "Luna City Satsujin Jiken"
+  },
+  "pc88:196972": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Mahjong Clinic Zoukangou"
+  },
+  "pc88:196988": {
+   "reason": "Existing adult marker",
+   "title": "Kudokikata Oshiemasu"
+  },
+  "pc88:196989": {
+   "reason": "Existing adult marker",
+   "title": "Kindan no Paradise"
+  },
+  "pc88:196992": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Komori Ai no Doki Doki Rally"
+  },
+  "pc88:196993": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Konya mo Asa made Powerful Mahjong"
+  },
+  "pc88:196994": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Konya mo Asa made Powerful Mahjong 2"
+  },
+  "pc88:196997": {
+   "reason": "Existing adult marker",
+   "title": "Koroshi no Dress"
+  },
+  "pc88:196998": {
+   "reason": "Existing adult marker",
+   "title": "Koroshi no Dress 2"
+  },
+  "pc88:197002": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Mahjong Kyou Jidai Special"
+  },
+  "pc88:197005": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Majaventure: Negi Mahjong"
+  },
+  "pc88:197006": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Majaventure 2: Zenkoku Onsen Mahjong"
+  },
+  "pc88:197007": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Majoriko"
+  },
+  "pc88:197008": {
+   "reason": "Existing adult marker",
+   "title": "Makenshi Kumiko"
+  },
+  "pc88:197009": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Manami Hayakawa's Snake Camp"
+  },
+  "pc88:197010": {
+   "reason": "Existing adult marker",
+   "title": "Märchen Paradise"
+  },
+  "pc88:197011": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Mariko no Heya"
+  },
+  "pc88:197012": {
+   "reason": "Existing adult marker",
+   "title": "Mayonaka no Love Call"
+  },
+  "pc88:197013": {
+   "reason": "Previously censored adult title",
+   "title": "Melon Soda: S♥xy Pet"
+  },
+  "pc88:197015": {
+   "reason": "Existing adult marker",
+   "title": "Mephist"
+  },
+  "pc88:197017": {
+   "reason": "Existing adult marker",
+   "title": "Lovely Horror: Ochame na Yuurei"
+  },
+  "pc88:197018": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Ooi! Kaguya Hime"
+  },
+  "pc88:197019": {
+   "reason": "Existing adult marker",
+   "title": "Otome Party"
+  },
+  "pc88:197020": {
+   "reason": "Existing adult marker",
+   "title": "Pension Story: Hana no Kiyosato"
+  },
+  "pc88:197022": {
+   "reason": "Existing adult marker",
+   "title": "Pop Lemon"
+  },
+  "pc88:197029": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Ojousama Club"
+  },
+  "pc88:197030": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Onna no Ko Keisatsutai"
+  },
+  "pc88:197032": {
+   "reason": "Existing adult marker",
+   "title": "Private School"
+  },
+  "pc88:197033": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Pure"
+  },
+  "pc88:197035": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Pure II"
+  },
+  "pc88:197036": {
+   "reason": "Existing adult marker",
+   "title": "Pure My Dool"
+  },
+  "pc88:197037": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Reina"
+  },
+  "pc88:197038": {
+   "reason": "Existing adult marker",
+   "title": "Rakuen no Shoutaijou"
+  },
+  "pc88:197039": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Rouge"
+  },
+  "pc88:197054": {
+   "reason": "Existing adult marker",
+   "title": "Sailor-fuku Senshi Felis"
+  },
+  "pc88:197056": {
+   "reason": "Existing adult marker",
+   "title": "School Wars"
+  },
+  "pc88:197057": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Seijo Densetsu"
+  },
+  "pc88:197058": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Seijo Densetsu Tokubetsu-hen: Seijo Panic"
+  },
+  "pc88:197059": {
+   "reason": "Existing adult marker",
+   "title": "Sekai de Ichiban Kimi ga suki!"
+  },
+  "pc88:197062": {
+   "reason": "Existing adult marker",
+   "title": "Shiritsu Tantei Max: Sennyuu!! Nazo no Joshikou"
+  },
+  "pc88:197064": {
+   "reason": "Existing adult marker",
+   "title": "Slope"
+  },
+  "pc88:197065": {
+   "reason": "Existing adult marker",
+   "title": "Soapland Story"
+  },
+  "pc88:197066": {
+   "reason": "Existing adult marker",
+   "title": "Soapland Story II: Memory"
+  },
+  "pc88:197068": {
+   "reason": "Existing adult marker",
+   "title": "Telephone Club Story"
+  },
+  "pc88:197070": {
+   "reason": "Existing adult marker",
+   "title": "Tennyo Densetsu"
+  },
+  "pc88:197071": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Tokimeki Sesil"
+  },
+  "pc88:197072": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Tokimeki Sports Gal"
+  },
+  "pc88:197073": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Tokimeki Sports Gal II"
+  },
+  "pc88:197074": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Tokimeki Sports Gal III"
+  },
+  "pc88:197075": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Tokyo Joshikou Seifuku o Nuida Zukan: Part 1"
+  },
+  "pc88:197076": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Tokyo Joshikou Seifuku o Nuida Zukan: Part 2"
+  },
+  "pc88:197077": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Tokyo Joshikou Seifuku o Nuida Zukan: Part 3"
+  },
+  "pc88:197079": {
+   "reason": "Existing adult marker",
+   "title": "Amazoness no Hihou"
+  },
+  "pc88:197080": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Triangle Jungle"
+  },
+  "pc88:197081": {
+   "reason": "Existing adult marker",
+   "title": "Trilogy: Kuki Youka Shinden"
+  },
+  "pc88:197082": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Utsukushiki Emono-tachi"
+  },
+  "pc88:197083": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Utsukushiki Emonotachi Part II"
+  },
+  "pc88:197084": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Utsukushiki Emono-tachi Part III"
+  },
+  "pc88:197085": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Utsukushiki Emono-tachi Part IV"
+  },
+  "pc88:197086": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Utsukushiki Emono-tachi Part V"
+  },
+  "pc88:197087": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Utsukushiki Emono-tachi Part VI"
+  },
+  "pc88:197089": {
+   "reason": "Existing adult marker",
+   "title": "Waterfront Adventure"
+  },
+  "pc88:197090": {
+   "reason": "Existing adult marker",
+   "title": "Wedding Rhapsody"
+  },
+  "pc88:197092": {
+   "reason": "Existing adult marker",
+   "title": "Yoru no Tenshi-tachi: Shitetsu Ensen Satsujiin Jiken"
+  },
+  "pc88:197093": {
+   "reason": "Existing adult marker",
+   "title": "Youkiden"
+  },
+  "pc88:202373": {
+   "reason": "MobyGames Adult genre",
+   "title": "Seiko-Chan SOS"
+  },
+  "pc88:205608": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Still Sword"
+  },
+  "pc88:207462": {
+   "reason": "Existing adult marker",
+   "title": "Oooku Maruhi Monogatari"
+  },
+  "pc88:207463": {
+   "reason": "Existing adult marker",
+   "title": "Gakuen Monogatari"
+  },
+  "pc88:207469": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Suiryuushi"
+  },
+  "pc88:207470": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Suiryuushi II"
+  },
+  "pc88:207477": {
+   "reason": "Existing adult marker",
+   "title": "Review: Jashin Fukkatsu"
+  },
+  "pc88:207482": {
+   "reason": "Existing adult marker",
+   "title": "Lovely Gal"
+  },
+  "pc88:207487": {
+   "reason": "MobyGames Adult genre",
+   "title": "Shuten Douji"
+  },
+  "pc88:207504": {
+   "reason": "Existing adult marker",
+   "title": "Alice-tachi no Gogo Vol. 1"
+  },
+  "pc88:207505": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Apple Club 1"
+  },
+  "pc88:207506": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Apple Club 2"
+  },
+  "pc88:207529": {
+   "reason": "Existing adult marker",
+   "title": "Datenshi Kyouko"
+  },
+  "pc88:207532": {
+   "reason": "Existing adult marker",
+   "title": "Dessert"
+  },
+  "pc88:207534": {
+   "reason": "Existing adult marker",
+   "title": "Doki Doki Shutter Chance!!"
+  },
+  "pc88:207548": {
+   "reason": "Existing adult marker",
+   "title": "Aki to Tsukasa no Fushigi no Kabe"
+  },
+  "pc88:207565": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Joshidaisei Kousai Zukan"
+  },
+  "pc88:207567": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Mahjong Kyou Jidai Special: Part II"
+  },
+  "pc88:207582": {
+   "reason": "Existing adult marker",
+   "title": "Princess wa Street Girl?"
+  },
+  "pc88:207588": {
+   "reason": "Existing adult marker",
+   "title": "Sematte Mitai"
+  },
+  "pc88:207619": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "YJ Gal o Sagase!"
+  },
+  "pc88:207620": {
+   "reason": "Existing adult marker",
+   "title": "Zenkoku Nanpa Shugyou: Tasogare no Kyoto Hen"
+  },
+  "pc88:207703": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "G Senryaku"
+  },
+  "pc88:207718": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Toraware Penguin"
+  },
+  "pc88:207922": {
+   "reason": "Existing adult marker",
+   "title": "Onsen Mimizu Geisha"
+  },
+  "pc88:207927": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Tonari no Onee-san"
+  },
+  "pc88:424143": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Kyan Kyan Collection"
+  },
+  "pc88:424147": {
+   "reason": "MobyGames Adult genre",
+   "title": "Assorted Friendship"
+  },
+  "pc88:440281": {
+   "reason": "MobyGames Adult genre",
+   "title": "Slime Master"
+  },
+  "pc88:440282": {
+   "reason": "MobyGames Adult genre",
+   "title": "Teiō no Yabō"
+  },
+  "pc88:440284": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Cybernetic Hi-School Part 3: Gunbuster"
+  },
+  "pc88:442243": {
+   "reason": "Previously censored adult title",
+   "title": "Karei Naru Er♥chikku Memorī"
+  },
+  "pc88:456637": {
+   "reason": "Supplementary title review; adult or uncertain content",
+   "title": "Suiryuushi Bangaihen: Mediflora no Izumi"
+  },
+  "pc88:461887": {
+   "reason": "Previously censored adult title",
+   "title": "L♥lita"
+  },
+  "pc88:462237": {
+   "reason": "MobyGames Adult genre",
+   "title": "Penki-ya You-chan"
+  },
+  "pc88:462417": {
+   "reason": "Existing adult marker",
+   "title": "Sacchan no Daibouken"
+  },
+  "pc88:462447": {
+   "reason": "Existing adult marker",
+   "title": "Kokuren Uchuu Gun Shikan Gakkou: Saotome Gakuen Nyuugaku Annai"
+  },
+  "pc88:moby-205184": {
+   "reason": "MobyGames Adult genre",
+   "title": "Erika: SF Adult Adventure"
+  },
+  "pc88:moby-256799": {
+   "reason": "MobyGames Adult genre",
+   "title": "Ōi! Kaguya-hime: Kinuginu no Wakare"
+  },
+  "pc88:moby-43465": {
+   "reason": "MobyGames Adult genre",
+   "title": "Urotsukidōji"
+  },
+  "pc88:moby-45190": {
+   "reason": "MobyGames Adult genre",
+   "title": "Shiritsu Tantei Max: Sennyū!! Nazo no Joshikō"
+  },
+  "pc88:moby-45871": {
+   "reason": "MobyGames Adult genre",
+   "title": "Alice-tachi no Gogo Vol. 2"
+  },
+  "pc88:moby-47525": {
+   "reason": "MobyGames Adult genre",
+   "title": "Dream Program System SG"
+  },
+  "pc88:moby-47526": {
+   "reason": "MobyGames Adult genre",
+   "title": "Dream Program System SG set 2"
+  },
+  "pc88:moby-47527": {
+   "reason": "MobyGames Adult genre",
+   "title": "Dream Program System SG set 3"
+  },
+  "pc88:moby-58118": {
+   "reason": "MobyGames Adult genre",
+   "title": "Ayayo's Love Affair"
+  },
+  "pc88:moby-58765": {
+   "reason": "MobyGames Adult genre",
+   "title": "Lolita: Yakyūken"
+  },
+  "pc88:moby-58766": {
+   "reason": "MobyGames Adult genre",
+   "title": "Lolita 2: Gekō Chase"
+  },
+  "pc88:moby-58780": {
+   "reason": "MobyGames Adult genre",
+   "title": "Danchi-zuma no Yūwaku"
+  },
+  "pc88:moby-58797": {
+   "reason": "MobyGames Adult genre",
+   "title": "My Lolita"
+  },
+  "pc88:moby-58802": {
+   "reason": "MobyGames Adult genre",
+   "title": "The Byōin"
+  },
+  "pc88:moby-58836": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pinky Ponky Dai-1 Shū: Beautiful Dream"
+  },
+  "pc88:moby-58838": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pinky Ponky Dai-3 Shū: Battle Lovers"
+  },
+  "pc88:moby-58839": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pinky Ponky Dai-2 Shū: Twilight Games"
+  },
+  "pc88:moby-58868": {
+   "reason": "MobyGames Adult genre",
+   "title": "Pocky 2: Kaijin Aka Manto no Chōsen"
+  },
+  "pc88:moby-58966": {
+   "reason": "MobyGames Adult genre",
+   "title": "Nagakute Amai Yoru: Twilight Zone III"
+  },
+  "pc88:moby-58989": {
+   "reason": "MobyGames Adult genre",
+   "title": "Run Run Kyōsōkyoku"
+  },
+  "pc88:moby-59080": {
+   "reason": "MobyGames Adult genre",
+   "title": "Aya-chan World"
+  },
+  "pc88:moby-59190": {
+   "reason": "MobyGames Adult genre",
+   "title": "Crescent Moon Girl"
+  }
+ },
+ "review": "2026-10-02",
+ "schemaVersion": 1
+}
