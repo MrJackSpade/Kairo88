@@ -15,6 +15,12 @@
 //
 // Output is stereo 16-bit at 48 kHz in a ring buffer the host drains with
 // k88_audio_read().
+//
+// State files carry the chips' whole state (envelopes, phases, ADPCM RAM,
+// rhythm voices), which QUASI88's own sound section does not: it only replays
+// the registers after a load. port/system.c saves it through QUASI88's system
+// hooks; on load it is held until QUASI88 has finished its register replay and
+// then put back over it.
 
 #include <algorithm>
 #include <array>
@@ -125,7 +131,7 @@ public:
 		const int64_t now = now_states();
 		const int64_t elapsed = now - m_last_states;
 		m_last_states = now;
-		if (elapsed <= 0 || m_native_rate == 0) return;
+		if (m_held || elapsed <= 0 || m_native_rate == 0) return;
 		const double cpu_hz = cpu_clock_mhz * 1000000.0;
 		m_native_due += static_cast<double>(elapsed) * m_native_rate / cpu_hz;
 		const auto samples = static_cast<uint32_t>(m_native_due);
@@ -146,6 +152,81 @@ public:
 	}
 
 	uint32_t available() const { return m_ring_count; }
+
+	void clear()
+	{
+		m_ring_read = 0;
+		m_ring_count = 0;
+	}
+
+	// While held, register writes reach the chips but no audio is rendered: a
+	// state load moves the CPU clock, so the time between writes means nothing.
+	void hold() { m_held = true; }
+
+	std::vector<uint8_t> save()
+	{
+		std::vector<uint8_t> chip;
+		ymfm::ymfm_saved_state state(chip, true);
+		if (m_2608) m_2608->save_restore(state);
+		if (m_2203) m_2203->save_restore(state);
+		std::vector<uint8_t> out;
+		put(out, m_board);
+		put(out, static_cast<uint32_t>(chip.size()));
+		out.insert(out.end(), chip.begin(), chip.end());
+		out.insert(out.end(), m_adpcm_ram.begin(), m_adpcm_ram.end());
+		put(out, m_native_due);
+		put(out, m_out_phase);
+		put(out, m_acc_left);
+		put(out, m_acc_right);
+		put(out, m_acc_count);
+		put(out, m_beep_phase);
+		put(out, m_beep_enable);
+		put(out, m_sing);
+		put(out, m_rhythm_total);
+		for (const RhythmVoice &voice : m_rhythm) {
+			put(out, voice.position);
+			put(out, voice.level);
+			put(out, voice.left);
+			put(out, voice.right);
+		}
+		return out;
+	}
+
+	// Puts back what save() wrote, then renders again from the present cycle.
+	// Returns false when `data` is not a sound state this driver wrote.
+	bool restore(const std::vector<uint8_t> &data)
+	{
+		size_t at = 0;
+		int board = 0;
+		uint32_t chip_size = 0;
+		if (!get(data, at, board) || !get(data, at, chip_size) || data.size() - at < chip_size) return false;
+		if (board != m_board) start(board);
+		std::vector<uint8_t> chip(data.begin() + at, data.begin() + at + chip_size);
+		at += chip_size;
+		ymfm::ymfm_saved_state state(chip, false);
+		if (m_2608) m_2608->save_restore(state);
+		if (m_2203) m_2203->save_restore(state);
+		if (data.size() - at < m_adpcm_ram.size()) return false;
+		std::copy(data.begin() + at, data.begin() + at + m_adpcm_ram.size(), m_adpcm_ram.begin());
+		at += m_adpcm_ram.size();
+		bool ok = get(data, at, m_native_due) && get(data, at, m_out_phase) && get(data, at, m_acc_left) &&
+			get(data, at, m_acc_right) && get(data, at, m_acc_count) && get(data, at, m_beep_phase) &&
+			get(data, at, m_beep_enable) && get(data, at, m_sing) && get(data, at, m_rhythm_total);
+		for (RhythmVoice &voice : m_rhythm) {
+			ok = ok && get(data, at, voice.position) && get(data, at, voice.level) && get(data, at, voice.left) &&
+				get(data, at, voice.right);
+		}
+		if (!ok || at != data.size()) return false;
+		release();
+		return true;
+	}
+
+	// Ends a hold without a state to restore, rendering again from the present.
+	void release()
+	{
+		m_held = false;
+		m_last_states = now_states();
+	}
 
 	uint8_t ymfm_external_read(ymfm::access_class type, uint32_t address) override
 	{
@@ -266,6 +347,20 @@ private:
 	}
 
 	// Reads a PCM WAV (8- or 16-bit, mono or stereo) as mono 16-bit samples.
+	template<typename T> static void put(std::vector<uint8_t> &out, const T &value)
+	{
+		const auto *bytes = reinterpret_cast<const uint8_t *>(&value);
+		out.insert(out.end(), bytes, bytes + sizeof value);
+	}
+
+	template<typename T> static bool get(const std::vector<uint8_t> &data, size_t &at, T &value)
+	{
+		if (data.size() - at < sizeof value) return false;
+		std::memcpy(&value, data.data() + at, sizeof value);
+		at += sizeof value;
+		return true;
+	}
+
 	static bool read_wav(const std::string &path, std::vector<int16_t> &samples, uint32_t &rate)
 	{
 		FILE *file = std::fopen(path.c_str(), "rb");
@@ -326,10 +421,13 @@ private:
 	std::array<int16_t, kRingFrames * 2> m_ring{};
 	uint32_t m_ring_read = 0;
 	uint32_t m_ring_count = 0;
+	bool m_held = false;
 };
 
 Driver g_driver;
 bool g_started = false;
+std::vector<uint8_t> g_saved;    // the state statesave_system() writes
+std::vector<uint8_t> g_loaded;   // the state stateload_system() read, until applied
 int g_master_volume = 0;
 int g_mixer_volume[XMAME_MIXER_END] = {100, 100, 60, 60, 100, 100, 100, 100};
 
@@ -456,5 +554,44 @@ int k88_audio_read(int16_t *stereo, int max_frames)
 }
 
 int k88_audio_available(void) { return static_cast<int>(g_driver.available()); }
+
+void k88_audio_clear(void) { g_driver.clear(); }
+
+// State files (port/system.c and kairo88_core.c) ----------------------------
+
+const uint8_t *kairo_sound_state(int *size)
+{
+	g_saved = g_driver.save();
+	*size = static_cast<int>(g_saved.size());
+	return g_saved.data();
+}
+
+void kairo_sound_load_begin(void)
+{
+	g_loaded.clear();
+	g_driver.hold();
+}
+
+uint8_t *kairo_sound_load_buffer(int size)
+{
+	g_loaded.assign(static_cast<size_t>(size), 0);
+	return g_loaded.data();
+}
+
+int kairo_sound_load_end(void)
+{
+	if (g_loaded.empty()) {
+		g_driver.release();
+		return 0;
+	}
+	const bool restored = g_driver.restore(g_loaded);
+	g_loaded.clear();
+	if (!restored) {
+		g_driver.release();
+		std::fprintf(stderr, "kairo88: the state's sound section is not one this version wrote\n");
+		return -1;
+	}
+	return 0;
+}
 
 }  // extern "C"

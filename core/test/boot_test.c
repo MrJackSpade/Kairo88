@@ -96,7 +96,7 @@ int main(int argc, char *argv[])
 	const char *prefix = argv[3];
 
 	argv[split] = argv[0];
-	if (k88_start(argc - split, argv + split) != 0) {
+	if (k88_init(argc - split, argv + split) != 0) {
 		return 1;
 	}
 	char wav_path[1024];
@@ -125,6 +125,5 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 	printf("%s (%u frames)\n", wav_path, wav_frames);
-	k88_stop();
 	return 0;
 }

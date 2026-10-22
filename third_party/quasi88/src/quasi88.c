@@ -31,6 +31,7 @@
 
 #include "emu.h"
 #include "drive.h"
+#include "fdc.h"
 #include "event.h"
 #include "keyboard.h"
 #include "monitor.h"
@@ -122,6 +123,9 @@ void quasi88_start(void)
 
 						set_signal();						/* INTシグナルの処理を設定 */
 						imagefile_all_open(resume_flag);	/* イメージファイルを全て開く */
+						if (resume_flag) {	/* Kairo88 */
+							drive_stateload_position();
+						}
 
 						/* エミュ用ワークを順次初期化   */
 						pc88main_cpu_init();

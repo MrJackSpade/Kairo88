@@ -19,6 +19,7 @@ void fdc_write(byte data);
 byte fdc_read(void);
 byte fdc_status(void);
 void fdc_TC(void);
+void drive_stateload_position(void);
 
 
 void pc88fdc_break_point(void);

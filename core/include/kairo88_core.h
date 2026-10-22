@@ -3,8 +3,9 @@
 
 /* The Kairo88 PC-8801 core: QUASI88 driven one frame at a time.
  *
- * QUASI88 keeps its state in globals, so there is one machine per process.
- * Call k88_start() once; it fails if called again. */
+ * QUASI88 keeps its state in globals and cannot be shut down and started again,
+ * so there is one machine per process: k88_init() starts it once, and each game
+ * is a k88_boot() that inserts its disks and resets the machine. */
 
 #include <stdint.h>
 
@@ -12,11 +13,27 @@
 extern "C" {
 #endif
 
-/* Starts the machine. `argv` is a QUASI88 command line (argv[0] is the program
- * name), for example { "kairo88", "-romdir", "/path", "game.d88" }.
- * Returns 0 on success, or -1 when QUASI88 rejected the options or failed to
- * start; QUASI88 has already printed why to stderr. */
-int k88_start(int argc, char *argv[]);
+/* Starts QUASI88 once per process. `argv` is a QUASI88 command line (argv[0] is
+ * the program name), for example { "kairo88", "-romdir", "/path", "-notool",
+ * "-nostatus" }. Returns 0 on success, or -1 when it was already started, or
+ * QUASI88 rejected the options or failed to start; QUASI88 has already printed
+ * why to stderr. */
+int k88_init(int argc, char *argv[]);
+
+/* The machine a game boots: its BASIC mode, CPU clock and sound board. */
+enum k88_basic { K88_BASIC_N = 0, K88_BASIC_V1S = 1, K88_BASIC_V1H = 2, K88_BASIC_V2 = 3 };
+enum k88_sound { K88_SOUND_I = 0, K88_SOUND_II = 1 };
+typedef struct {
+	int basic;      /* enum k88_basic */
+	int clock_8mhz; /* nonzero for 8 MHz, else 4 MHz */
+	int sound;      /* enum k88_sound */
+} k88_machine;
+
+/* Ejects both drives, inserts `disk_a` and `disk_b` (either may be NULL), and
+ * resets into `machine`. With no disk in drive A it boots from ROM BASIC.
+ * Pending audio is discarded. Returns 0, or -1 when a disk could not be opened
+ * (the machine then runs with what was inserted). */
+int k88_boot(const k88_machine *machine, const char *disk_a, const char *disk_b);
 
 /* Runs the emulator until it completes one video frame. Returns 0, or -1 once
  * QUASI88 has quit. */
@@ -25,8 +42,26 @@ int k88_run_frame(void);
 /* The current frame, 0xAARRGGBB pixels, `*width` x `*height`, no row padding. */
 const uint32_t *k88_frame(int *width, int *height);
 
+/* The machine's frame rate (its vsync frequency) in Hz. */
+double k88_frame_rate(void);
+
 /* A PC-8801 key (QUASI88 KEY88_* code) going down (pressed != 0) or up. */
 void k88_key(int key88, int pressed);
+
+/* A joypad control (QUASI88 KEY88_PAD1_* or KEY88_PAD2_* code) going down or up. */
+void k88_pad(int key88, int pressed);
+
+/* Inserts a disk image into drive 0 or 1, or ejects the drive when `path` is
+ * NULL. Returns 0, or -1 when QUASI88 could not open the image. */
+int k88_disk(int drive, const char *path);
+
+/* Resets the machine, keeping its disks and configuration. */
+void k88_reset(void);
+
+/* Saves or loads the whole machine to or from `path`. A loaded state reopens the
+ * disk images it was saved with, by their paths. Returns 0 or -1. */
+int k88_state_save(const char *path);
+int k88_state_load(const char *path);
 
 /* Audio: stereo 16-bit frames at k88_audio_rate() Hz, produced as frames run.
  * k88_audio_read copies up to `max_frames` frames into `stereo` (interleaved)
@@ -36,8 +71,8 @@ int k88_audio_rate(void);
 int k88_audio_available(void);
 int k88_audio_read(int16_t *stereo, int max_frames);
 
-/* Shuts the machine down. */
-void k88_stop(void);
+/* Discards the audio not yet read. */
+void k88_audio_clear(void);
 
 #ifdef __cplusplus
 }

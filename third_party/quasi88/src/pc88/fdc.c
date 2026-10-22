@@ -3951,6 +3951,7 @@ void quasi88_set_fdc_wait(int wait)
 #define SID				"FDC "
 #define SID_DATA		"FDC0"
 #define SID2			"FDC2"
+#define SID3			"FDC3"
 
 static T_SUSPEND_W suspend_fdc_work[] = {
 	{ TYPE_STR,   &file_disk[0][0],       },
@@ -4050,8 +4051,78 @@ static T_SUSPEND_W suspend_fdc_work2[] = {
 };
 
 
+/* Kairo88: each drive's head position within its track and the sector the FDC
+ * last read, which the tables above leave out. A drive reopened after a load
+ * starts at sector 0 of its cylinder, so a game that reads sector IDs would see
+ * different sectors than it would have without the save. */
+static int  saved_track[ NR_DRIVE ], saved_sec[ NR_DRIVE ], saved_sec_nr[ NR_DRIVE ];
+static long saved_sec_pos[ NR_DRIVE ], saved_track_top[ NR_DRIVE ];
+static int  saved_position = FALSE;
+static struct {
+	Uchar   c, h, r, n, density, deleted, status;
+	int     sec_nr, size, drv;
+} saved_sec_buf;
+
+static T_SUSPEND_W suspend_fdc_work3[] = {
+	{ TYPE_INT,   &saved_track[0],        },
+	{ TYPE_INT,   &saved_track[1],        },
+	{ TYPE_INT,   &saved_sec[0],          },
+	{ TYPE_INT,   &saved_sec[1],          },
+	{ TYPE_INT,   &saved_sec_nr[0],       },
+	{ TYPE_INT,   &saved_sec_nr[1],       },
+	{ TYPE_LONG,  &saved_sec_pos[0],      },
+	{ TYPE_LONG,  &saved_sec_pos[1],      },
+	{ TYPE_LONG,  &saved_track_top[0],    },
+	{ TYPE_LONG,  &saved_track_top[1],    },
+
+	{ TYPE_BYTE,  &saved_sec_buf.c,             },
+	{ TYPE_BYTE,  &saved_sec_buf.h,             },
+	{ TYPE_BYTE,  &saved_sec_buf.r,             },
+	{ TYPE_BYTE,  &saved_sec_buf.n,             },
+	{ TYPE_BYTE,  &saved_sec_buf.density,       },
+	{ TYPE_BYTE,  &saved_sec_buf.deleted,       },
+	{ TYPE_BYTE,  &saved_sec_buf.status,        },
+	{ TYPE_INT,   &saved_sec_buf.sec_nr,        },
+	{ TYPE_INT,   &saved_sec_buf.size,          },
+	{ TYPE_INT,   &saved_sec_buf.drv,           },
+	{ TYPE_END,   0                       },
+};
+
+/* Kairo88: puts back the positions a state load read, once the disk images
+ * are open again. A state without them keeps the reopened positions. */
+void drive_stateload_position(void)
+{
+	int i;
+
+	if (saved_position == FALSE) {
+		return;
+	}
+	for (i = 0; i < NR_DRIVE; i++) {
+		if (drive[ i ].fp) {
+			drive[ i ].track     = saved_track[ i ];
+			drive[ i ].sec       = saved_sec[ i ];
+			drive[ i ].sec_nr    = saved_sec_nr[ i ];
+			drive[ i ].sec_pos   = saved_sec_pos[ i ];
+			drive[ i ].track_top = saved_track_top[ i ];
+		}
+	}
+	sec_buf.c       = saved_sec_buf.c;
+	sec_buf.h       = saved_sec_buf.h;
+	sec_buf.r       = saved_sec_buf.r;
+	sec_buf.n       = saved_sec_buf.n;
+	sec_buf.density = saved_sec_buf.density;
+	sec_buf.deleted = saved_sec_buf.deleted;
+	sec_buf.status  = saved_sec_buf.status;
+	sec_buf.sec_nr  = saved_sec_buf.sec_nr;
+	sec_buf.size    = saved_sec_buf.size;
+	sec_buf.drv     = saved_sec_buf.drv;
+	saved_position = FALSE;
+}
+
 int statesave_fdc(void)
 {
+	int i;
+
 	image_disk[0] = drive[0].selected_image;
 	image_disk[1] = drive[1].selected_image;
 
@@ -4065,6 +4136,27 @@ int statesave_fdc(void)
 	}
 
 	if (statesave_table(SID2, suspend_fdc_work2) != STATE_OK) {
+		return FALSE;
+	}
+
+	for (i = 0; i < NR_DRIVE; i++) {
+		saved_track[ i ]     = drive[ i ].track;
+		saved_sec[ i ]       = drive[ i ].sec;
+		saved_sec_nr[ i ]    = drive[ i ].sec_nr;
+		saved_sec_pos[ i ]   = drive[ i ].sec_pos;
+		saved_track_top[ i ] = drive[ i ].track_top;
+	}
+	saved_sec_buf.c       = sec_buf.c;
+	saved_sec_buf.h       = sec_buf.h;
+	saved_sec_buf.r       = sec_buf.r;
+	saved_sec_buf.n       = sec_buf.n;
+	saved_sec_buf.density = sec_buf.density;
+	saved_sec_buf.deleted = sec_buf.deleted;
+	saved_sec_buf.status  = sec_buf.status;
+	saved_sec_buf.sec_nr  = sec_buf.sec_nr;
+	saved_sec_buf.size    = sec_buf.size;
+	saved_sec_buf.drv     = sec_buf.drv;
+	if (statesave_table(SID3, suspend_fdc_work3) != STATE_OK) {
 		return FALSE;
 	}
 
@@ -4103,6 +4195,8 @@ int stateload_fdc(void)
 		return TRUE;
 
 	}
+
+	saved_position = (stateload_table(SID3, suspend_fdc_work3) == STATE_OK);
 
 	return TRUE;
 }

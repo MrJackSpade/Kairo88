@@ -228,9 +228,12 @@ void sub_INT_init(void)
  * 割り込みを生成する。と同時に、次の割り込みまでの、最小 state も計算
  *      帰り値は、Z80処理強制終了のフラグ(TRUE/FALSE)
  *----------------------------------------------------------------------*/
+/* Kairo88: at file scope so state files save it; it decides when the sub CPU
+ * next breaks off for a frame update. */
+static int sub_total_state = 0;		/* サブCPUが処理した命令数 */
+
 void sub_INT_update(void)
 {
-	static int sub_total_state = 0;		/* サブCPUが処理した命令数 */
 	int icount;
 
 	icount = fdc_ctrl(z80sub_cpu.state0);
@@ -390,6 +393,7 @@ void pc88sub_cpu_update(void)
  ************************************************************************/
 
 #define SID		"SUB "
+#define SID2	"SUB2"
 
 static T_SUSPEND_W suspend_pc88sub_work[] = {
 	{ TYPE_PAIR,  &z80sub_cpu.AF,         },
@@ -424,9 +428,16 @@ static T_SUSPEND_W suspend_pc88sub_work[] = {
 };
 
 
+/* Kairo88: a section of its own, so state files without it still load. */
+static T_SUSPEND_W suspend_pc88sub_work2[] = {
+	{ TYPE_INT,   &sub_total_state,       },
+	{ TYPE_END,   0                       },
+};
+
 int statesave_pc88sub(void)
 {
-	if (statesave_table(SID, suspend_pc88sub_work) == STATE_OK) {
+	if (statesave_table(SID, suspend_pc88sub_work) == STATE_OK &&
+		statesave_table(SID2, suspend_pc88sub_work2) == STATE_OK) {
 		return TRUE;
 	} else {
 		return FALSE;
@@ -436,6 +447,9 @@ int statesave_pc88sub(void)
 int stateload_pc88sub(void)
 {
 	if (stateload_table(SID, suspend_pc88sub_work) == STATE_OK) {
+		if (stateload_table(SID2, suspend_pc88sub_work2) != STATE_OK) {
+			sub_total_state = 0;
+		}
 		return TRUE;
 	} else {
 		return FALSE;

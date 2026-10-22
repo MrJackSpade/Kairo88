@@ -2,19 +2,28 @@
 
 [← Kairo88](../README.md)
 
-`core/` builds QUASI88 (`third_party/quasi88/`, unmodified) as a library that the app drives one frame at a time. The same build runs on the host, so the core can be tested without a device.
+`core/` builds QUASI88 (`third_party/quasi88/`, with the state file changes listed in [source-import.md](source-import.md#local-changes)) as a library that the app drives one frame at a time. The same build runs on the host, so the core can be tested without a device.
 
 ## Layout
 
 | Path | Contents |
 | --- | --- |
-| `core/include/kairo88_core.h` | The core API: start, run a frame, read the frame and audio, send keys, stop. |
-| `core/kairo88_core.c` | The API over QUASI88's `quasi88_start()` / `quasi88_loop()` / `quasi88_stop()`. |
+| `core/include/kairo88_core.h` | The core API: start once, boot a game, run a frame, read the frame and audio, send keys and pads, change disks, reset, save and load states. |
+| `core/kairo88_core.c` | The API over QUASI88's `quasi88_start()` / `quasi88_loop()`, its disk, reset and state functions. |
 | `core/port/` | The QUASI88 system layer (`config.h`, `device.h`, graphics, events, wait, state and menu hooks). It stands in for one of QUASI88's `sysdepend/` ports. |
 | `core/sound/snddrv_ymfm.cpp` | QUASI88's sound driver interface (`snddrv.h`) on ymfm. |
 | `core/test/boot_test.c` | A headless host program that boots a machine and writes frames and audio. |
+| `core/test/restart_test.c` | Boots several games in one process and checks that a save state round trip reproduces the picture and audio exactly. |
 
 QUASI88's own OS layer for Unix (`osdepend/unix/file-op.c`) is used as it is.
+
+## One machine per process
+
+QUASI88 keeps its state in globals and cannot be shut down and started again in one process. `k88_init()` starts it once; each game is a `k88_boot()`, which ejects both drives, inserts the game's disks and resets into the game's BASIC mode, CPU clock and sound board. With no disk in drive A the machine boots ROM BASIC.
+
+## Save states
+
+`k88_state_save()` and `k88_state_load()` use QUASI88's state files, which name the disk images they were saved with: a loaded state reopens them by path. The port adds the sound driver's whole state (sections `KSNL` and `KSND`): QUASI88 itself only replays the sound registers after a load, which restarts held notes. A load holds the driver's rendering until QUASI88 has finished, then puts the chips back exactly.
 
 ## Frames
 
@@ -41,6 +50,12 @@ cmake --build .build/host
 ```
 
 Arguments after `--` are QUASI88 options. It writes `game-NNNNN.ppm` every 300 frames and `game.wav` with all audio.
+
+```sh
+.build/host/restart_test 900 .build/out/restart .build/out/restart.sta bios/ v2-game.d88 v1-game.d88
+```
+
+boots the first disk (V2, 8 MHz, sound board II), the second (V1S, 4 MHz, sound board I) and the first again, then saves a state, runs on, loads it and runs the same frames again. It fails unless both runs end on the same picture with the same audio.
 
 ## Known problems
 

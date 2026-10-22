@@ -46,6 +46,18 @@ There are no local changes to the MAME sources.
 
 The archive was extracted unchanged except that QUASI88's sound output section was removed: `src/snddrv/fmgen/` (fmgen), `src/snddrv/xmame/` and `src/snddrv/xmame-old/` (MAME/XMAME sound code). fmgen requires the author's consent for commercial use, and the MAME/XMAME code is under the pre-2016 MAME license, which forbids sale; neither may ship in Kairo88. QUASI88's own `src/snddrv/snddrv.h` interface remains. Other QUASI88 sources still refer to the removed code through build switches and `#include`s; the Android build will provide the sound output through ymfm instead.
 
+### Local changes
+
+Two kinds of machine state that QUASI88 leaves out of its state files are saved in new sections, so a loaded state runs exactly as the saved machine would have. A state file without these sections still loads as before.
+
+| File | Change |
+| --- | --- |
+| `src/pc88/pc88sub.c` | `sub_total_state`, the sub CPU's count toward its next frame-update break, moves from a static local in `sub_INT_update()` to file scope and is saved in section `SUB2`. Without it the CPUs' scheduling after a load differs, and games diverge within seconds. |
+| `src/pc88/fdc.c`, `src/pc88/fdc.h` | Each drive's head position within its track and the last sector ID the FDC read are saved in section `FDC3`. `drive_stateload_position()` puts them back once the disk images are reopened, which otherwise leaves both drives at sector 0. |
+| `src/control.c`, `src/quasi88.c` | Call `drive_stateload_position()` after the disk images reopen on a state load. |
+
+Each change is marked with a `Kairo88` comment.
+
 ## ymfm snapshot
 
 `third_party/ymfm/` holds [ymfm](https://github.com/aaronsgiles/ymfm) by Aaron Giles at commit `81aec25ccbb98f4873a255f7551ac4dadac59b4a`, the same commit Kairo98 pins. It will supply the YM2203 and YM2608 sound for the QUASI88 core.

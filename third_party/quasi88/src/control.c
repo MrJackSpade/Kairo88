@@ -15,6 +15,7 @@
 
 #include "emu.h"
 #include "drive.h"
+#include "fdc.h"
 #include "event.h"
 #include "snddrv.h"
 #include "wait.h"
@@ -201,6 +202,7 @@ int quasi88_stateload(int serial)
 
 		/* イメージファイルを全て開く*/
 		imagefile_all_open(TRUE);
+		drive_stateload_position();	/* Kairo88 */
 
 		pc88main_init(INIT_STATELOAD);
 		pc88sub_init(INIT_STATELOAD);
