@@ -19,6 +19,7 @@ Both cores read D88 floppy images.
 
 - [Licensing and credits](docs/licensing.md): code license and third-party components
 - [Source provenance](docs/source-import.md): where the emulator sources came from and what was copied
+- [QUASI88 core](docs/quasi88-core.md): how the QUASI88 core is built, driven and tested
 
 ## Help and community
 
