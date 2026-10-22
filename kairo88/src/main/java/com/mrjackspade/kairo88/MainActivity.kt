@@ -5,6 +5,9 @@ import com.mrjackspade.kairo.frontend.ChoiceGroup
 import com.mrjackspade.kairo.frontend.ChoiceOption
 import com.mrjackspade.kairo.frontend.ChoiceSpec
 import com.mrjackspade.kairo.frontend.ControllerLayout
+import com.mrjackspade.kairo.frontend.ControllerGuestSpec
+import com.mrjackspade.kairo.frontend.JoystickInputRouter
+import com.mrjackspade.kairo.frontend.LibraryStrings
 import com.mrjackspade.kairo.frontend.DiskImageEntry
 import com.mrjackspade.kairo.frontend.DiskImageLibrary
 import com.mrjackspade.kairo.frontend.FirmwareSet
@@ -26,18 +29,24 @@ import java.util.concurrent.atomic.AtomicBoolean
 
 /** Kairo88: the PC-8801 on QUASI88, in the shared Kairo frontend. */
 class MainActivity : MachineActivity<DiskImageEntry>() {
-    override val identity = Identity("KAIRO88", "Kairo88", "PC-88", "kairo88", 640, 400, 640.0 / 400.0,
-        "state.q88", "Kairo88 uses QUASI88 and ymfm. Source and provenance: github.com/MrJackSpade/Kairo88.")
+    override val identity = Identity("KAIRO88", "Kairo88", "PC-88", "kairo88", LibraryStrings("KAIRO88", "Kairo88"),
+        "Kairo88 uses QUASI88 and ymfm. Source and provenance: github.com/MrJackSpade/Kairo88.",
+        "Choose a ROM folder to find disk images and the ZIP and 7z archives holding them",
+        "Folder access expired. Select the ROM folder again.",
+        MachineFirstRun.Folder("Choose a ROM folder", "Select the folder containing your PC-88 games. Kairo88 will " +
+            "scan its disk images and the ZIP and 7z archives holding them.", "Choose ROM folder…"),
+        "SAVE STATES")
+    override val machine = Machine(640, 400, 640.0 / 400.0, "state.q88")
     override val bridge = Pc88Native
     override val keyboard = Pc88Keys.layout
     override val maxKeyCode = Pc88Keys.MAX_CODE
-    override fun keyLabel(code: Int) = Pc88Keys.label(code)
     override fun guestKey(androidKey: Int) = Pc88Keys.fromAndroid(androidKey)
-    override val controllerKeyCodes = Pc88Keys.bindableCodes
+    override val controllerSpec = ControllerGuestSpec("PC-88", Pc88Keys.bindableCodes, Pc88Keys::label,
+        Pc88Keys.layout.modifiers, JoystickInputRouter.DEFAULT_CONTROLS.zip(Pc88Keys.joystickLabels),
+        "Uses the joystick port, with a joystick in it: the game's Port setting.",
+        ControllerGuestSpec.STANDARD_ACTIONS, Pc88Keys.layout)
     override val bindingsCodec = Pc88Keys.bindings
     override fun defaultBindings(layout: ControllerLayout) = Pc88Keys.defaults(layout)
-    override val joystickLabels = Pc88Keys.joystickLabels
-    override val joystickHelp = "Uses the joystick port, with a joystick in it: the game's Port setting."
     override val artworkDownloadsEnabled: Boolean get() = resources.getBoolean(R.bool.catalog_art_download_enabled)
 
     private val disks by lazy {
@@ -172,7 +181,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         else -> "code $code"
     }
 
-    override fun gameRows() = listOf(SettingsRow.nav("f-disks", "Disks") { pages.push(disksPage()) })
+    override fun machineRows() = listOf(SettingsRow.nav("f-disks", "Disks") { pages.push(disksPage()) })
 
     private fun disksPage() = GroupsPage("Disks", { currentGame?.title }, {
         listOf(RowGroup("DRIVES", listOf(driveRow(0), driveRow(1)),
