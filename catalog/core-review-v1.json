@@ -1,15 +1,9 @@
 {
- "approvedArtwork": {
-  "art/catalog/pc88/131046/box-4d8c78156b23.webp": "6d5eea747569a0cba87a10440415ad08ee4e82ef681f51240acca3f71a528b9b",
-  "art/catalog/pc88/131046/screenshot-137861ff0ad9.webp": "056e5a5ece050de0c89187e0fb1ee03104ff8375e4463ec69462b30d46e6cfd5",
-  "art/catalog/pc88/137829/box-38d3f07dec5b.webp": "62d385e4caf53c8b8ffa7d225310d0bb825ceea11a06f8b136b94a6cadf928ae",
-  "art/catalog/pc88/137829/screenshot-72d8bebceaf0.webp": "aedee3da0bd9b06947264860a7f46cd6c1442087ea213131af138067678d8d30",
-  "art/catalog/pc88/138423/box-0c3af922a365.webp": "3d186d2575ca4c4a6e546ed064c5e62ee7a54441adf71398fe2825136eceab5b",
-  "art/catalog/pc88/138423/screenshot-fba25197c142.webp": "ba050bc3b4204e6b9f430d7228d10ab09e929249be10c7f8f785761bde8197dd",
-  "art/catalog/pc88/157599/box-db21d59e91b3.webp": "46b84a6c96afcb135366bcda0684a944527f47aa5b7147660a2f2592a157255e",
-  "art/catalog/pc88/157599/screenshot-6253c3148240.webp": "1f24d081c885946aec4d08d4852ac8e64b95b676df753a128a54e050be73da6f",
-  "art/catalog/pc88/157600/box-4a3fb3f07a67.webp": "7c33f5a7ba3f2e04d236fe9d35ea5f4e4526d7962a486154d5f45f23bb81f641",
-  "art/catalog/pc88/157600/screenshot-98000d5d9954.webp": "89a7fd98b2461bd45c5456677b51024ba4ef37c51dc49ee775fff9253fedd13a"
+ "adultArtwork": {
+  "art/catalog/pc88/146989/box-ad0195e7a0df.webp": "Kindan no Paradise",
+  "art/catalog/pc88/146989/screenshot-ab842872cc5d.webp": "Kindan no Paradise",
+  "art/catalog/pc88/90886/box-2b3043de029f.webp": "L♥lita Syndrome",
+  "art/catalog/pc88/90886/screenshot-f5219d2dd985.webp": "L♥lita Syndrome"
  },
  "excluded": {
   "pc88:133398": {
