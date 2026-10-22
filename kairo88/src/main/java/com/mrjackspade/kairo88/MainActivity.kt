@@ -76,8 +76,8 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
 
     override fun startGame(entry: DiskImageEntry, game: CatalogGame, cancelled: AtomicBoolean,
                            progress: (String) -> Unit) {
-        firmwareSets.first().second.missingRequired.takeIf { it.isNotEmpty() }?.let { missing ->
-            error("Import the PC-88 ROMs in Menu › Machine first (missing ${missing.joinToString(", ") { it.label }})")
+        firmwareSets.first().second.takeIf { it.missingRequirements.isNotEmpty() }?.let { roms ->
+            error("Import the PC-88 ROMs in Menu › Machine first (missing ${roms.missingText})")
         }
         val second = game.mediaId("floppyB")?.let { id ->
             mediaFor(id, entry, libraryEntries) ?: error("The second disk this game needs is not in the library")
