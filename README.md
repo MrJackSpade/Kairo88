@@ -4,16 +4,13 @@
 
 ## Status
 
-Early development. There is no release yet. Two emulator cores are pinned in this repository for evaluation on Android devices, and one will be chosen:
-
-- [MAME](https://www.mamedev.org/)'s PC-8801 driver
-- [QUASI88](https://www.eonet.ne.jp/~showtime/quasi88/), with its sound output to be rebuilt on [ymfm](https://github.com/aaronsgiles/ymfm)
+Early development. There is no release yet. The Android app runs [QUASI88](https://www.eonet.ne.jp/~showtime/quasi88/) with its sound output rebuilt on [ymfm](https://github.com/aaronsgiles/ymfm). [MAME](https://www.mamedev.org/)'s PC-8801 driver is also pinned for comparison and will be removed once the choice is settled.
 
 ## Games and firmware
 
 Games, operating systems, and firmware are not supplied. The PC-8801 needs its system ROMs (N88-BASIC, N-BASIC, disk and kanji ROMs), which you provide from your own machine.
 
-Both cores read D88 floppy images.
+Kairo88 reads D88 floppy images (`.d88`, `.88d`), loose or inside ZIP and 7z archives. To import firmware, choose the folder holding your ROM files in the first-run setup or in Menu › Machine; Kairo88 copies the files it recognizes. N88-BASIC (`n88.rom`), its extension 0 (`n88_0.rom`) and the disk sub-system (`disk.rom`) are needed to start games; the YM2608 rhythm samples (`2608_*.wav`) play sound board II's drums.
 
 ## Documentation
 
@@ -42,7 +39,13 @@ Clone with submodules to get the pinned shared frontend:
 git clone --recurse-submodules https://github.com/MrJackSpade/Kairo88.git
 ```
 
-The Android build is not set up yet.
+Build with the pinned shared Gradle setup (see [Android build](shared/docs/android-build.md)), which needs JDK 17, the Android SDK and NDK, and Rust with the `aarch64-linux-android` target:
+
+```sh
+./gradlew :kairo88:assembleWithImagesDebug
+```
+
+On Windows, build from a drive letter mapped to the checkout (`subst`) when its path contains a space.
 
 ## License
 

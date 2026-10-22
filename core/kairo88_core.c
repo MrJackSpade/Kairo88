@@ -14,6 +14,9 @@
 #include "pc88main.h"
 #include "sound_state.h"
 #include "memory.h"
+#include "keyboard.h"
+#include "drive.h"
+#include "fname.h"
 
 static int started = 0;
 
@@ -60,7 +63,37 @@ double k88_frame_rate(void)
 
 void k88_key(int key88, int pressed)
 {
-	quasi88_key(key88, pressed);
+	if (key88 == KEY88_CAPS) {
+		if (pressed) {
+			quasi88_tgl_key_caps();
+		}
+	} else if (key88 == KEY88_KANA) {
+		if (pressed) {
+			quasi88_tgl_key_kana();
+		}
+	} else {
+		quasi88_key(key88, pressed);
+	}
+}
+
+int k88_locks(void)
+{
+	return (quasi88_now_key_caps() ? 1 : 0) | (quasi88_now_key_kana() ? 2 : 0);
+}
+
+void k88_mouse_move(int dx, int dy)
+{
+	quasi88_mouse_moved_rel(dx, dy);
+}
+
+void k88_mouse_button(int button, int pressed)
+{
+	quasi88_mouse(button == 2 ? KEY88_MOUSE_R : KEY88_MOUSE_L, pressed);
+}
+
+const char *k88_disk_path(int unit)
+{
+	return disk_image_exist(unit) ? file_disk[unit] : "";
 }
 
 void k88_pad(int key88, int pressed)
@@ -99,7 +132,10 @@ int k88_boot(const k88_machine *machine, const char *disk_a, const char *disk_b)
 	cfg.sound_board = machine->sound == K88_SOUND_II ? SOUND_II : SOUND_I;
 	cfg.boot_from_rom = disk_a == NULL ? TRUE : FALSE;
 	cpu_clock_mhz = machine->clock_8mhz ? CONST_8MHZ_CLOCK : CONST_4MHZ_CLOCK;
+	mouse_mode = machine->port == K88_PORT_MOUSE ? MOUSE_MOUSE : MOUSE_JOYSTICK;
 	quasi88_reset(&cfg);
+	/* The key and joystick assignments follow the port's device. */
+	keyboard_switch();
 	k88_audio_clear();
 	return failed;
 }

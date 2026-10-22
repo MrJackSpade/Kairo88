@@ -1,0 +1,117 @@
+Kairo88 third-party notices
+These notices apply to the emulator code, libraries, and C++ runtime in this package.
+
+========================================================================
+QUASI88 0.7.4 by Showzoh Fukunaga
+Source: third_party/quasi88/doc/manual.txt (著作権／免責)
+========================================================================
+QUASI88, except its sound output section, is free software under terms following the modified
+BSD license. Kairo88 does not include the sound output section (MAME/XMAME code and fmgen); its
+sound comes from ymfm. Some of QUASI88's built-in images use ICOOON MONO icons and the Shinonome
+font, which remain under their authors' copyrights.
+
+著作権／免責
+	  QUASI88 （サウンド出力処理部を除く）はフリーソフトウェアであり、
+	著作権は作者が保有しています。このソフトは無保証であり、このソフトを
+	使用した事によるいかなる損害も作者は一切の責任を負いません。
+	ライセンスに関しては、修正BSDライセンスに準ずるものとします。
+
+	  QUASI88 のサウンド出力処理部は、MAME および、XMAME のソースコードを
+	使用しています。このソースは、各著作者が著作権を有します。
+	ライセンスに関しては、MAME および、XMAME のドキュメントを参照下さい。
+
+	  QUASI88 のサウンド出力処理部のうち、FM音源ジェネレータには fmgen の
+	ソースコードを使用しています。このソースは cisc氏が著作権を有します。
+	ライセンスに関しては、fmgen のドキュメントを参照ください。
+
+	  QUASI88 の組み込み画像の一部には、アイコン素材サイト ICOOON MONO の
+	アイコン画像、および、東雲フォントを使用しています。
+	これらの画像、フォントの著作権は各著作者が有します。
+
+========================================================================
+ymfm
+Source: third_party/ymfm/LICENSE
+========================================================================
+BSD 3-Clause License
+
+Copyright (c) 2021, Aaron Giles
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+========================================================================
+Shinonome 16-dot bitmap fonts (public domain)
+Source: third_party/shinonome/LICENSE
+========================================================================
+●東雲フォントライセンス
+                                                                    2001
+                                     The Electronic Font Open Laboratory
+                                        http://openlab.ring.gr.jp/efont/
+
+このアーカイブに含まれるすべてのフォントデータ、ドキュメント、スクリプ
+ト類はすべて Public Domain で提供されています 。
+
+但し、日本に於いては現時点で著作権を放棄することは法律上不可能であり、
+AUTHORS に列挙されている作者がその権利を行使しないと宣言することで実質
+的な Public Domain であるとします。
+
+自由な改造、他フォーマットへの変換、組込み、再配布を行うことができます。
+同時に、これらはすべて完全に無保証です。
+
+
+========================================================================
+Apache Commons Compress 1.27.1
+Source: https://commons.apache.org/proper/commons-compress/
+========================================================================
+Apache Commons Compress
+Copyright 2002-2024 The Apache Software Foundation
+
+This product includes software developed at The Apache Software Foundation (https://www.apache.org/).
+
+Licensed under the Apache License, Version 2.0; the license text is in the LLVM section below.
+
+========================================================================
+XZ for Java 1.10
+Source: https://tukaani.org/xz/java.html
+========================================================================
+XZ for Java is licensed under the BSD Zero Clause License (0BSD):
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without
+fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS
+SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
+NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+THIS SOFTWARE.
+
+========================================================================
+Android NDK 28.2.13676358 LLVM toolchain and statically linked C++ runtime
+Source: third_party/android-ndk-llvm-28.2.13676358/NOTICE
+========================================================================
+======

@@ -20,13 +20,16 @@ extern "C" {
  * why to stderr. */
 int k88_init(int argc, char *argv[]);
 
-/* The machine a game boots: its BASIC mode, CPU clock and sound board. */
+/* The machine a game boots: its BASIC mode, CPU clock, sound board, and what
+ * is plugged into the joystick port. */
 enum k88_basic { K88_BASIC_N = 0, K88_BASIC_V1S = 1, K88_BASIC_V1H = 2, K88_BASIC_V2 = 3 };
 enum k88_sound { K88_SOUND_I = 0, K88_SOUND_II = 1 };
+enum k88_port { K88_PORT_JOYSTICK = 0, K88_PORT_MOUSE = 1 };
 typedef struct {
 	int basic;      /* enum k88_basic */
 	int clock_8mhz; /* nonzero for 8 MHz, else 4 MHz */
 	int sound;      /* enum k88_sound */
+	int port;       /* enum k88_port */
 } k88_machine;
 
 /* Ejects both drives, reads the ROM files again (they may have changed since
@@ -47,11 +50,25 @@ const uint32_t *k88_frame(int *width, int *height);
 /* The machine's frame rate (its vsync frequency) in Hz. */
 double k88_frame_rate(void);
 
-/* A PC-8801 key (QUASI88 KEY88_* code) going down (pressed != 0) or up. */
+/* A PC-8801 key (QUASI88 KEY88_* code) going down (pressed != 0) or up. Caps
+ * and Kana lock mechanically on the real keyboard: each press toggles them,
+ * and their release does nothing. */
 void k88_key(int key88, int pressed);
 
-/* A joypad control (QUASI88 KEY88_PAD1_* or KEY88_PAD2_* code) going down or up. */
+/* The lock keys that are on: bit 0 Caps, bit 1 Kana. */
+int k88_locks(void);
+
+/* A joypad control (QUASI88 KEY88_PAD1_* or KEY88_PAD2_* code) going down or up.
+ * The machine reads it while a joystick is in its port. */
 void k88_pad(int key88, int pressed);
+
+/* Mouse movement in PC-8801 mouse counts, and button 1 (left) or 2 (right).
+ * The machine reads them while a mouse is in its port. */
+void k88_mouse_move(int dx, int dy);
+void k88_mouse_button(int button, int pressed);
+
+/* The image in drive 0 or 1, or "" when it is empty. */
+const char *k88_disk_path(int drive);
 
 /* Inserts a disk image into drive 0 or 1, or ejects the drive when `path` is
  * NULL. Returns 0, or -1 when QUASI88 could not open the image. */

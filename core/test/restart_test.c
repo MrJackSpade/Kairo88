@@ -88,8 +88,8 @@ int main(int argc, char *argv[])
 	if (k88_init(5, init_argv) != 0) {
 		return 1;
 	}
-	const k88_machine v2 = { K88_BASIC_V2, 1, K88_SOUND_II };
-	const k88_machine v1s = { K88_BASIC_V1S, 0, K88_SOUND_I };
+	const k88_machine v2 = { K88_BASIC_V2, 1, K88_SOUND_II, K88_PORT_JOYSTICK };
+	const k88_machine v1s = { K88_BASIC_V1S, 0, K88_SOUND_I, K88_PORT_JOYSTICK };
 	const k88_machine *machines[3] = { &v2, &v1s, &v2 };
 	const char *disks[3] = { argv[5], argv[6], argv[5] };
 	for (int n = 1; n <= 3; n++) {
