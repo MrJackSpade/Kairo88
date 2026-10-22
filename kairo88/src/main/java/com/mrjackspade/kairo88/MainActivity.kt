@@ -11,7 +11,7 @@ import com.mrjackspade.kairo.frontend.LayeredGameCatalog
 import com.mrjackspade.kairo.frontend.LibraryStrings
 import com.mrjackspade.kairo.frontend.MachineActivity
 import com.mrjackspade.kairo.frontend.MachineFirstRun
-import com.mrjackspade.kairo.frontend.sameSource
+import com.mrjackspade.kairo.frontend.mediaFor
 
 import java.io.File
 import java.util.concurrent.atomic.AtomicBoolean
@@ -80,9 +80,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
             error("Import the PC-88 ROMs in Menu › Machine first (missing ${missing.joinToString(", ") { it.label }})")
         }
         val second = game.mediaId("floppyB")?.let { id ->
-            val candidates = libraryEntries.filter { it.playable && (it.contentId == id || it.catalogId == id) }
-            candidates.firstOrNull { sameSource(entry, it) } ?: candidates.firstOrNull()
-                ?: error("The second disk this game needs is not in the library")
+            mediaFor(id, entry, libraryEntries) ?: error("The second disk this game needs is not in the library")
         }
         val diskA = disks.prepare(entry, cancelled, progress)
         val diskB = second?.let { disks.prepare(it, cancelled, progress) }

@@ -81,37 +81,3 @@ AUTHORS に列挙されている作者がその権利を行使しないと宣言
 
 自由な改造、他フォーマットへの変換、組込み、再配布を行うことができます。
 同時に、これらはすべて完全に無保証です。
-
-
-========================================================================
-Apache Commons Compress 1.27.1
-Source: https://commons.apache.org/proper/commons-compress/
-========================================================================
-Apache Commons Compress
-Copyright 2002-2024 The Apache Software Foundation
-
-This product includes software developed at The Apache Software Foundation (https://www.apache.org/).
-
-Licensed under the Apache License, Version 2.0; the license text is in the LLVM section below.
-
-========================================================================
-XZ for Java 1.10
-Source: https://tukaani.org/xz/java.html
-========================================================================
-XZ for Java is licensed under the BSD Zero Clause License (0BSD):
-
-Permission to use, copy, modify, and/or distribute this software for any purpose with or without
-fee is hereby granted.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS
-SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
-AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
-NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
-THIS SOFTWARE.
-
-========================================================================
-Android NDK 28.2.13676358 LLVM toolchain and statically linked C++ runtime
-Source: third_party/android-ndk-llvm-28.2.13676358/NOTICE
-========================================================================
-======
