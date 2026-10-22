@@ -45,7 +45,7 @@ Build with the pinned shared Gradle setup (see [Android build](shared/docs/andro
 ./gradlew :kairo88:assembleWithImagesDebug
 ```
 
-On Windows, build from a drive letter mapped to the checkout (`subst`) when its path contains a space.
+On Windows, build with `shared\tools\build.ps1`; it works from a path with spaces.
 
 ## License
 

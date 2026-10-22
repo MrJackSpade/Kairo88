@@ -5,6 +5,7 @@ import com.mrjackspade.kairo.frontend.ControllerBindingsCodec
 import com.mrjackspade.kairo.frontend.ControllerLayout
 import com.mrjackspade.kairo.frontend.GuestKeyboardLayout
 import com.mrjackspade.kairo.frontend.GuestKeyboardPage
+import com.mrjackspade.kairo.frontend.JisKana
 import com.mrjackspade.kairo.frontend.JoystickInputRouter
 import com.mrjackspade.kairo.frontend.KeyboardKey
 import android.view.KeyEvent
@@ -54,22 +55,6 @@ object Pc88Keys {
     const val KETTEI = 189
     const val MAX_CODE = 255
 
-    /** JIS kana legends by character key: the kana, then its Shift form where the key has one. */
-    private val kana = mapOf(
-        '1' to ("ヌ" to null), '2' to ("フ" to null), '3' to ("ア" to "ァ"), '4' to ("ウ" to "ゥ"),
-        '5' to ("エ" to "ェ"), '6' to ("オ" to "ォ"), '7' to ("ヤ" to "ャ"), '8' to ("ユ" to "ュ"),
-        '9' to ("ヨ" to "ョ"), '0' to ("ワ" to "ヲ"), '-' to ("ホ" to null), '^' to ("ヘ" to null),
-        '¥' to ("ー" to null),
-        'q' to ("タ" to null), 'w' to ("テ" to null), 'e' to ("イ" to "ィ"), 'r' to ("ス" to null),
-        't' to ("カ" to null), 'y' to ("ン" to null), 'u' to ("ナ" to null), 'i' to ("ニ" to null),
-        'o' to ("ラ" to null), 'p' to ("セ" to null), '@' to ("゛" to null), '[' to ("゜" to "「"),
-        'a' to ("チ" to null), 's' to ("ト" to null), 'd' to ("シ" to null), 'f' to ("ハ" to null),
-        'g' to ("キ" to null), 'h' to ("ク" to null), 'j' to ("マ" to null), 'k' to ("ノ" to null),
-        'l' to ("リ" to null), ';' to ("レ" to null), ':' to ("ケ" to null), ']' to ("ム" to "」"),
-        'z' to ("ツ" to "ッ"), 'x' to ("サ" to null), 'c' to ("ソ" to null), 'v' to ("ヒ" to null),
-        'b' to ("コ" to null), 'n' to ("ミ" to null), 'm' to ("モ" to null), ',' to ("ネ" to "、"),
-        '.' to ("ル" to "。"), '/' to ("メ" to "・"), '_' to ("ロ" to null))
-
     /** A character key's code: its unshifted character, with letters upper case. */
     private fun code(char: Char): Int = when (char) {
         '¥' -> YEN
@@ -77,8 +62,7 @@ object Pc88Keys {
         else -> char.code
     }
 
-    private fun key(char: Char, shifted: String? = null) = KeyboardKey("$char", code(char), 1f, shifted,
-        kana = kana[char]?.first, kanaShifted = kana[char]?.second)
+    private fun key(char: Char, shifted: String? = null) = JisKana.key(char, code(char), shifted = shifted)
 
     val layout = GuestKeyboardLayout(
         brand = "KAIRO88",
