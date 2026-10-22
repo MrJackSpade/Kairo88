@@ -30707,6 +30707,7 @@
    "title": "AY-1: Fortress Solomon"
   },
   "pc88:207628": {
+   "boxArtUrl": "https://images.launchbox-app.com/94cc9cea-85ae-402a-b007-a665c7da21ab.jpg",
    "launchbox": "207628",
    "screenshotUrl": "https://images.launchbox-app.com/5ad2e151-c17b-4cea-b9ad-ed02d5d455cf.png",
    "title": "Bon Bon"
@@ -30797,6 +30798,7 @@
    "aliases": [
     "Ken to Mahō"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/0edd1040-0178-457c-b2ec-fc277513bf68.jpg",
    "description": "Koei's fantasy role-playing game: an evil wizard has killed the benevolent king of Border Land.",
    "developer": "Koei",
    "launchbox": "207640",
@@ -30820,6 +30822,7 @@
    "title": "Normandy Jouriku Sakusen"
   },
   "pc88:207645": {
+   "boxArtUrl": "https://images.launchbox-app.com/86a9b507-db64-4fb1-9580-cb3e535fa896.jpg",
    "launchbox": "207645",
    "publisher": "Zec Soft",
    "title": "Pio Pio"
@@ -30858,6 +30861,7 @@
    "title": "Shogi Trainer"
   },
   "pc88:207652": {
+   "boxArtUrl": "https://images.launchbox-app.com/c532fb1f-8e21-4d73-b6ae-3cfff0b81bef.jpg",
    "launchbox": "207652",
    "publisher": "Compac",
    "screenshotUrl": "https://images.launchbox-app.com/bae4bc45-413a-40d7-ba4a-0d8fecc1e81d.png",
@@ -30900,12 +30904,14 @@
    "aliases": [
     "Tank Bata Bata"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/5b048c42-e75a-443e-87a5-0adc37ff757c.jpg",
    "launchbox": "207656",
    "publisher": "Magical Zoo",
    "screenshotUrl": "https://images.launchbox-app.com/bce3df35-dfcd-4f6c-9414-12fec1b210ac.png",
    "title": "Tank Batabata"
   },
   "pc88:207657": {
+   "boxArtUrl": "https://images.launchbox-app.com/6c7b5d10-8168-401e-a562-e142beb3a9fa.jpg",
    "launchbox": "207657",
    "publisher": "Compac",
    "screenshotUrl": "https://images.launchbox-app.com/947680ab-737c-4217-9c23-4f71deb13f38.png",
@@ -31577,6 +31583,7 @@
    "aliases": [
     "POPCOM: 1985 05"
    ],
+   "boxArtUrl": "https://images.launchbox-app.com/8cbce90c-b555-4ac6-9037-1d544d0b3881.jpg",
    "description": "An Urusei Yatsura game adapted from the anime episode in which Lum creates a special lipstick.",
    "developer": "I.M.",
    "launchbox": "218376",
@@ -31586,6 +31593,7 @@
    "year": 1985
   },
   "pc88:218379": {
+   "boxArtUrl": "https://images.launchbox-app.com/72fd0b8a-5193-4cae-9a52-dc087dc9eef0.jpg",
    "description": "An Urusei Yatsura game: collect ten dotted flowers while avoiding cats and poisoned mushrooms.",
    "developer": "I.M.",
    "launchbox": "218379",
@@ -42559,12 +42567,20 @@
    "title": "Farm"
   },
   "pc88:moby-10033": {
+   "artwork": {
+    "preview": "art/catalog/moby/10033/screenshot-3f95a9b8df5b.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/10033/screenshot-3f95a9b8df5b.webp"
+   },
    "description": "An expedition role-playing game: lead a team of four explorers into the Amazon to map lost ruins.",
    "mobygames": 10033,
    "title": "Expedition Amazon",
    "year": 1984
   },
   "pc88:moby-10040": {
+   "artwork": {
+    "preview": "art/catalog/moby/10040/screenshot-3c6ebca48985.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/10040/screenshot-3c6ebca48985.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:eca77d8051963d218697912b97f035b1f18a8a5a09bd6f068b421121986f7a42"
    ],
@@ -42577,6 +42593,10 @@
    "year": 1984
   },
   "pc88:moby-10067": {
+   "artwork": {
+    "preview": "art/catalog/moby/10067/screenshot-80d80f2bd91e.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/10067/screenshot-80d80f2bd91e.webp"
+   },
    "description": "Solitaire poker: build poker hands in a grid of cards.",
    "mobygames": 10067,
    "title": "Solitaire Poker",
@@ -42601,6 +42621,10 @@
    "year": 1987
   },
   "pc88:moby-119402": {
+   "artwork": {
+    "preview": "art/catalog/moby/119402/screenshot-c2d2b4d80255.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/119402/screenshot-c2d2b4d80255.webp"
+   },
    "description": "An arcade game starring a tanuki who throws a bouncing ball at enemies.",
    "mobygames": 119402,
    "title": "Chobin",
@@ -42619,6 +42643,10 @@
    "year": 1984
   },
   "pc88:moby-119799": {
+   "artwork": {
+    "preview": "art/catalog/moby/119799/screenshot-71242b01ab8b.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/119799/screenshot-71242b01ab8b.webp"
+   },
    "description": "An adventure based on Rumiko Takahashi's Maison Ikkoku: a student tries to win over the boarding house's young manager.",
    "mobygames": 119799,
    "title": "Maison Ikkoku",
@@ -42631,12 +42659,20 @@
    "year": 1985
   },
   "pc88:moby-130011": {
+   "artwork": {
+    "preview": "art/catalog/moby/130011/screenshot-adf3e4f5e6a0.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/130011/screenshot-adf3e4f5e6a0.webp"
+   },
    "description": "An arcade wrestling game for one or two players, with eight wrestlers to choose from.",
    "mobygames": 130011,
    "title": "Appoooh",
    "year": 1985
   },
   "pc88:moby-13526": {
+   "artwork": {
+    "preview": "art/catalog/moby/13526/screenshot-16b135dc6b01.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/13526/screenshot-16b135dc6b01.webp"
+   },
    "description": "An action role-playing game: a lone hero is foretold to save the people of Hydlide from the evil that descended on them.",
    "mobygames": 13526,
    "title": "Super Hydlide",
@@ -42673,24 +42709,40 @@
    "year": 1983
   },
   "pc88:moby-149959": {
+   "artwork": {
+    "preview": "art/catalog/moby/149959/screenshot-5c43809d5c47.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/149959/screenshot-5c43809d5c47.webp"
+   },
    "description": "A course add-on for Albatross with two professional courses.",
    "mobygames": 149959,
    "title": "Albatross Expansion Course: Expert Course",
    "year": 1986
   },
   "pc88:moby-149960": {
+   "artwork": {
+    "preview": "art/catalog/moby/149960/screenshot-a4a621c4c496.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/149960/screenshot-a4a621c4c496.webp"
+   },
    "description": "A course add-on for Albatross with two visual courses.",
    "mobygames": 149960,
    "title": "Albatross Expansion Course: Visual Course",
    "year": 1986
   },
   "pc88:moby-149964": {
+   "artwork": {
+    "preview": "art/catalog/moby/149964/screenshot-f6d2ecece1da.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/149964/screenshot-f6d2ecece1da.webp"
+   },
    "description": "A course add-on for Albatross with Arctic and Antarctic courses.",
    "mobygames": 149964,
    "title": "Albatross Expansion Course: World Course",
    "year": 1986
   },
   "pc88:moby-149966": {
+   "artwork": {
+    "preview": "art/catalog/moby/149966/screenshot-2b5a385ac9d5.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/149966/screenshot-2b5a385ac9d5.webp"
+   },
    "description": "A course add-on for Albatross featuring the Oak Hills Country Club.",
    "mobygames": 149966,
    "title": "Albatross Prestigious Course I: Oak Hills Country Club",
@@ -42709,6 +42761,10 @@
    "year": 1983
   },
   "pc88:moby-156723": {
+   "artwork": {
+    "preview": "art/catalog/moby/156723/screenshot-0a35719a43a5.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/156723/screenshot-0a35719a43a5.webp"
+   },
    "description": "A map add-on for Daisenryaku with sixteen maps based on real locations.",
    "mobygames": 156723,
    "title": "Strategic Confrontation: Map Collection",
@@ -42769,12 +42825,20 @@
    "year": 1984
   },
   "pc88:moby-1927": {
+   "artwork": {
+    "preview": "art/catalog/moby/1927/screenshot-f213e317b454.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/1927/screenshot-f213e317b454.webp"
+   },
    "description": "Koei's second Genghis Khan: unite the Mongol tribes and conquer the world, now with more rulers to choose from.",
    "mobygames": 1927,
    "title": "Genghis Khan II: Clan of the Gray Wolf",
    "year": 1992
   },
   "pc88:moby-19666": {
+   "artwork": {
+    "preview": "art/catalog/moby/19666/screenshot-0545f2696f5e.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/19666/screenshot-0545f2696f5e.webp"
+   },
    "description": "A horizontal shooter: a transforming robot fights across land and sea in one long continuous marathon.",
    "mobygames": 19666,
    "title": "Aeroboto",
@@ -42799,6 +42863,10 @@
    "year": 1983
   },
   "pc88:moby-199583": {
+   "artwork": {
+    "preview": "art/catalog/moby/199583/screenshot-20c45d593db4.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/199583/screenshot-20c45d593db4.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:8cb76cb849fb5363d393451c055bc8f1148c36cfa2fca1475dfe2752738a1048"
    ],
@@ -42823,6 +42891,10 @@
    "year": 2023
   },
   "pc88:moby-20354": {
+   "artwork": {
+    "preview": "art/catalog/moby/20354/screenshot-a324af6c17af.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/20354/screenshot-a324af6c17af.webp"
+   },
    "description": "ASCII's puzzle platformer sequel to The Castle: the prince explores a new castle to rescue the princess.",
    "mobygames": 20354,
    "title": "Castlequest",
@@ -42830,11 +42902,19 @@
   },
   "pc88:moby-205184": {
    "adult": true,
+   "artwork": {
+    "preview": "art/catalog/moby/205184/screenshot-fef9a8b31f2b.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/205184/screenshot-fef9a8b31f2b.webp"
+   },
    "mobygames": 205184,
    "title": "Erika: SF Adult Adventure",
    "year": 1986
   },
   "pc88:moby-207815": {
+   "artwork": {
+    "preview": "art/catalog/moby/207815/screenshot-f68bb89e975c.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/207815/screenshot-f68bb89e975c.webp"
+   },
    "description": "Heaven and Hell, a game-of-life simulation for one to four players.",
    "mobygames": 207815,
    "title": "Tengoku to Jigoku",
@@ -42865,6 +42945,10 @@
    "year": 1983
   },
   "pc88:moby-217615": {
+   "artwork": {
+    "preview": "art/catalog/moby/217615/screenshot-57a034ad1ddc.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/217615/screenshot-57a034ad1ddc.webp"
+   },
    "description": "An isometric action game: a trash bug collects garbage around Info City.",
    "mobygames": 217615,
    "title": "Gomimushi-kun",
@@ -42895,6 +42979,10 @@
    "year": 1983
   },
   "pc88:moby-219220": {
+   "artwork": {
+    "preview": "art/catalog/moby/219220/screenshot-265f7312a9dc.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/219220/screenshot-265f7312a9dc.webp"
+   },
    "description": "A horror text adventure: a letter from a friend in England draws you to an old mansion.",
    "mobygames": 219220,
    "title": "Wonder House",
@@ -42913,6 +43001,10 @@
    "year": 1983
   },
   "pc88:moby-221185": {
+   "artwork": {
+    "preview": "art/catalog/moby/221185/screenshot-3572817b6ca2.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/221185/screenshot-3572817b6ca2.webp"
+   },
    "description": "An action game: a shepherd gathers all the sheep into the pen.",
    "mobygames": 221185,
    "title": "Pretty Sheep",
@@ -43039,6 +43131,10 @@
    "year": 1985
   },
   "pc88:moby-234938": {
+   "artwork": {
+    "preview": "art/catalog/moby/234938/screenshot-3384c8886228.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/234938/screenshot-3384c8886228.webp"
+   },
    "description": "An action puzzle game: a mother bird rescues her chicks from the ground.",
    "mobygames": 234938,
    "title": "Peetan",
@@ -43051,18 +43147,30 @@
    "year": 1985
   },
   "pc88:moby-234978": {
+   "artwork": {
+    "preview": "art/catalog/moby/234978/screenshot-b92fd322fb3a.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/234978/screenshot-b92fd322fb3a.webp"
+   },
    "description": "A war flight game piloting a Zero fighter against enemy swarms.",
    "mobygames": 234978,
    "title": "Zerosen",
    "year": 1984
   },
   "pc88:moby-235115": {
+   "artwork": {
+    "preview": "art/catalog/moby/235115/screenshot-46329450fbd1.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/235115/screenshot-46329450fbd1.webp"
+   },
    "description": "An improved backgammon with a stronger computer opponent.",
    "mobygames": 235115,
    "title": "Backgammon Excellent",
    "year": 1985
   },
   "pc88:moby-235148": {
+   "artwork": {
+    "preview": "art/catalog/moby/235148/screenshot-ad50552a822e.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/235148/screenshot-ad50552a822e.webp"
+   },
    "description": "A two-player naval war game of rival combined fleets.",
    "mobygames": 235148,
    "title": "Senryaku!! Rengō Kantai",
@@ -43093,6 +43201,10 @@
    "year": 1985
   },
   "pc88:moby-241841": {
+   "artwork": {
+    "preview": "art/catalog/moby/241841/screenshot-0a6acf05ea9a.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/241841/screenshot-0a6acf05ea9a.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:69c23da64285bcc9769780a76dd8246ed95de259571722195fe6555e6e1762d5",
     "sha256-fd-v1:6a881b236ac8ef90eefbc79a0f7bd0cc4b5273eca7b29b77b1a405baefc7130b"
@@ -43166,6 +43278,10 @@
   },
   "pc88:moby-256799": {
    "adult": true,
+   "artwork": {
+    "preview": "art/catalog/moby/256799/screenshot-f88ff26b08f8.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/256799/screenshot-f88ff26b08f8.webp"
+   },
    "mobygames": 256799,
    "title": "Ōi! Kaguya-hime: Kinuginu no Wakare",
    "year": 1983
@@ -43177,6 +43293,10 @@
    "year": 1985
   },
   "pc88:moby-257748": {
+   "artwork": {
+    "preview": "art/catalog/moby/257748/screenshot-b6b1961c19d1.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/257748/screenshot-b6b1961c19d1.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:24ed3f063dd49a24e53cd5bba4153b6f7cb946df19f4bd159565bf82b16b1b6c",
     "sha256-fd-v1:609b120bb16b4c8f0024e9694d0f061990fad6e4dfc47ad0b09515f6d07b69eb"
@@ -43196,6 +43316,10 @@
    "year": 1985
   },
   "pc88:moby-258803": {
+   "artwork": {
+    "preview": "art/catalog/moby/258803/screenshot-094d18e70095.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/258803/screenshot-094d18e70095.webp"
+   },
    "description": "A baseball management game: run a professional team.",
    "mobygames": 258803,
    "title": "Best Nine Pro Yakyū",
@@ -43208,6 +43332,10 @@
    "year": 1985
   },
   "pc88:moby-260112": {
+   "artwork": {
+    "preview": "art/catalog/moby/260112/screenshot-3f7b305484df.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/260112/screenshot-3f7b305484df.webp"
+   },
    "description": "A vertically scrolling shooter piloting the Erfix.",
    "mobygames": 260112,
    "title": "Sentō Densetsu Erf: Erfix in J-Difter",
@@ -43237,12 +43365,20 @@
    "year": 1985
   },
   "pc88:moby-265998": {
+   "artwork": {
+    "preview": "art/catalog/moby/265998/screenshot-6049c616957c.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/265998/screenshot-6049c616957c.webp"
+   },
    "description": "A multidirectional shooter: as the debugger, fly the W-Wing ship to clear out bugs.",
    "mobygames": 265998,
    "title": "IT",
    "year": 1984
   },
   "pc88:moby-29319": {
+   "artwork": {
+    "preview": "art/catalog/moby/29319/screenshot-101b0da8a10d.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/29319/screenshot-101b0da8a10d.webp"
+   },
    "description": "Scott Adams' text adventure set in a funhouse.",
    "mobygames": 29319,
    "title": "Mystery Fun House",
@@ -43279,6 +43415,12 @@
    "year": 1985
   },
   "pc88:moby-43538": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/43538/box-71b0df722e2a.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/43538/box-71b0df722e2a.webp",
+    "preview": "art/catalog/moby/43538/screenshot-a9b37a45d22a.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/43538/screenshot-a9b37a45d22a.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:2aab8de7025baf82f1c330d56dc1c631af1071124d0ff3b6b9e71ed77301eeb0",
     "sha256-fd-v1:747b9e584da44083f85128911bbe7aeafc569714a8b10b197d33d9122df4a46e"
@@ -43318,6 +43460,10 @@
    "year": 1989
   },
   "pc88:moby-47141": {
+   "artwork": {
+    "preview": "art/catalog/moby/47141/screenshot-a60fbf41831d.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/47141/screenshot-a60fbf41831d.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:f559e41c03d8304ad54c320fa1261f2eb42c6bebf891b55916b08ed4bad698f9"
    ],
@@ -43369,6 +43515,10 @@
    "year": 1991
   },
   "pc88:moby-54156": {
+   "artwork": {
+    "preview": "art/catalog/moby/54156/screenshot-8aeb000bd686.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/54156/screenshot-8aeb000bd686.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:66445009bf13cae767057ea528960bb29d4bdc3bd991165c348a7919fa79059c",
     "sha256-fd-v1:6baef5904ec4cfcdefdd2cf75e37da656edd8afa0a00a3038143415fb9be61e7",
@@ -43389,6 +43539,10 @@
    "year": 1984
   },
   "pc88:moby-582": {
+   "artwork": {
+    "preview": "art/catalog/moby/582/screenshot-54a5cdebd141.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/582/screenshot-54a5cdebd141.webp"
+   },
    "description": "Capcom's side-scrolling platformer: the knight Arthur fights through six levels of undead to rescue the princess, losing his armor with each hit.",
    "mobygames": 582,
    "title": "Ghosts 'N Goblins",
@@ -43431,6 +43585,10 @@
    "year": 1989
   },
   "pc88:moby-58792": {
+   "artwork": {
+    "preview": "art/catalog/moby/58792/screenshot-7d247e4bb0ce.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/58792/screenshot-7d247e4bb0ce.webp"
+   },
    "description": "A horizontally scrolling space shooter.",
    "mobygames": 58792,
    "title": "Star Struck",
@@ -43438,6 +43596,10 @@
   },
   "pc88:moby-58797": {
    "adult": true,
+   "artwork": {
+    "preview": "art/catalog/moby/58797/screenshot-95dba01eb578.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/58797/screenshot-95dba01eb578.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:82126852efde965b979f7800e304c49ef3f8790378e984bd30661104a778e25a"
    ],
@@ -43479,6 +43641,10 @@
    "year": 1985
   },
   "pc88:moby-59027": {
+   "artwork": {
+    "preview": "art/catalog/moby/59027/screenshot-dd58d0813902.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/59027/screenshot-dd58d0813902.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:07922a7d1ae94dba230fb28499b9888e57628349381edda2b3fca6d41710cf46",
     "sha256-fd-v1:2ce1f58badcb8c43b5740274164177526f95665a47091a5d48bb3ef28e2b4caf"
@@ -43492,6 +43658,10 @@
    "year": 1990
   },
   "pc88:moby-59033": {
+   "artwork": {
+    "preview": "art/catalog/moby/59033/screenshot-28c32220533b.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/59033/screenshot-28c32220533b.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:60fb2ceade5679513a051782b4fc6109b5d96a355d0d8d7ab1fdb28b22d6444f",
     "sha256-fd-v1:b8329107bb73c1eab0116a89d6e763970aeed391c3f5eb0b92a6e513a7ad1527"
@@ -43506,6 +43676,10 @@
   },
   "pc88:moby-59080": {
    "adult": true,
+   "artwork": {
+    "preview": "art/catalog/moby/59080/screenshot-ac73f421893d.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/59080/screenshot-ac73f421893d.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:7661dfcde97feed62e83f07b5bcb6f3d6b46e05ff5c040e497be0489f33c6be7"
    ],
@@ -43518,6 +43692,10 @@
    "year": 1989
   },
   "pc88:moby-59120": {
+   "artwork": {
+    "preview": "art/catalog/moby/59120/screenshot-8c6e3fe23482.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/59120/screenshot-8c6e3fe23482.webp"
+   },
    "contentIds": [
     "sha256-fd-v1:7556bbf8d0815f253c9f7063508ee50af73e07211a43e8263bcee2c906048808"
    ],
@@ -43530,6 +43708,10 @@
    "year": 1990
   },
   "pc88:moby-59124": {
+   "artwork": {
+    "preview": "art/catalog/moby/59124/screenshot-e99071e83d83.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/59124/screenshot-e99071e83d83.webp"
+   },
    "description": "An adventure starring a young man on a madcap quest.",
    "mobygames": 59124,
    "title": "Bargon no Paka-paka Shōbōken",
@@ -43543,6 +43725,10 @@
    "year": 1989
   },
   "pc88:moby-5960": {
+   "artwork": {
+    "preview": "art/catalog/moby/5960/screenshot-586a8f9c9953.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/5960/screenshot-586a8f9c9953.webp"
+   },
    "description": "Irem's side-scrolling shooter: fly the R-9 against the Bydo Empire, attaching the detachable Force pod to absorb and fire.",
    "mobygames": 5960,
    "title": "R-Type",
@@ -43579,6 +43765,12 @@
    "year": 1986
   },
   "pc88:moby-9320": {
+   "artwork": {
+    "boxArt": "art/catalog/moby/9320/box-57cc6a487689.webp",
+    "boxArtUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/9320/box-57cc6a487689.webp",
+    "preview": "art/catalog/moby/9320/screenshot-5e94222ed254.webp",
+    "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/9320/screenshot-5e94222ed254.webp"
+   },
    "description": "An overhead dungeon crawler: Ali Baba and his allies take on the forty thieves to rescue the princess.",
    "mobygames": 9320,
    "title": "Ali Baba and the Forty Thieves",

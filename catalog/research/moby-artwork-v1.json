@@ -1,0 +1,240 @@
+{
+ "images": {
+  "art/catalog/moby/10033/screenshot-3f95a9b8df5b.webp": {
+   "game": "pc88:moby-10033",
+   "sha256": "d0da9f7cc6553fc995e82743c3a0062f9f446f4e9861427120884a81d90761b2",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/17028979-expedition-amazon-pc-88-gonna-buy-some-equipment.png"
+  },
+  "art/catalog/moby/10040/screenshot-3c6ebca48985.webp": {
+   "game": "pc88:moby-10040",
+   "sha256": "15419527694b2ffacda36393f24e6e4289c61ebaf5cb25ec1e9e4578c0f9ad2b",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16326036-bug-attack-pc-88-second-stage.png"
+  },
+  "art/catalog/moby/10067/screenshot-80d80f2bd91e.webp": {
+   "game": "pc88:moby-10067",
+   "sha256": "6492cec519e0398fe8b27154c78843e956e4dbb6e5a33c836d098ab4dba80881",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/12572927-solitaire-poker-pc-88-round-hard-here-you-can-see-two-more-rows-.png"
+  },
+  "art/catalog/moby/119402/screenshot-c2d2b4d80255.webp": {
+   "game": "pc88:moby-119402",
+   "sha256": "8b0e85c6b0eaad122a9979e098fd633ab599fe38d7cbb9bc52a2ccabd2377812",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/12384909-chobin-pc-88-going-to-the-next-level.png"
+  },
+  "art/catalog/moby/119799/screenshot-71242b01ab8b.webp": {
+   "game": "pc88:moby-119799",
+   "sha256": "75bf31cf169914fbdc0356dfe39b3d738fa3a565432382245327d18382fc79ad",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/10023678-maison-ikkoku-pc-88-bar.png"
+  },
+  "art/catalog/moby/130011/screenshot-adf3e4f5e6a0.webp": {
+   "game": "pc88:moby-130011",
+   "sha256": "c368ad62a227dc7e860c2441a575a635d1978b5a0ad27d0326e56aa8b68b63a4",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/10036734-appoooh-pc-88-won-round-2.png"
+  },
+  "art/catalog/moby/13526/screenshot-16b135dc6b01.webp": {
+   "game": "pc88:moby-13526",
+   "sha256": "848cb68806de3800af002e9ac76dae810d07ac97475275b2d01a61a5c9e21d6e",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/6699327-super-hydlide-pc-88-dungeon-during-the-day.png"
+  },
+  "art/catalog/moby/149959/screenshot-5c43809d5c47.webp": {
+   "game": "pc88:moby-149959",
+   "sha256": "d116f203fefe9545a39d8d373d6b127cee4a25a9e6a0600866d28804d0fc351f",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/11364777-albatross-expansion-course-expert-course-pc-88-pro-1-course-comp.png"
+  },
+  "art/catalog/moby/149960/screenshot-a4a621c4c496.webp": {
+   "game": "pc88:moby-149960",
+   "sha256": "56f814bebddd2ac3197385afca31fc5fbf3ebff48951324bb520667b34db8b61",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/11549414-albatross-expansion-course-visual-course-pc-88-hole-15-is-a-cat.png"
+  },
+  "art/catalog/moby/149964/screenshot-f6d2ecece1da.webp": {
+   "game": "pc88:moby-149964",
+   "sha256": "486743ea8c361d045005a5b72d7b16be0cc7f738b50c93e601c2d730d8eb5460",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/12067784-albatross-expansion-course-world-course-pc-88-trying-to-get-out-.png"
+  },
+  "art/catalog/moby/149966/screenshot-2b5a385ac9d5.webp": {
+   "game": "pc88:moby-149966",
+   "sha256": "d21137f9044e531dc93a9a23c415ff23c9592c0cfc4b83c73e933710f920061e",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/12088421-albatross-prestigious-course-i-oak-hills-country-club-pc-88-regu.png"
+  },
+  "art/catalog/moby/156723/screenshot-0a35719a43a5.webp": {
+   "game": "pc88:moby-156723",
+   "sha256": "5a6dc94c5fb5582f123cef0ee76e7cd2ecd4df8b9b2f2d2eb54c2d3e31d0845a",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/7236218-strategic-confrontation-map-collection-pc-88-list-of-maps.png"
+  },
+  "art/catalog/moby/1927/screenshot-f213e317b454.webp": {
+   "game": "pc88:moby-1927",
+   "sha256": "9121f88c3ffc5a2999817814c924d25703e6a1dd6bc63915ce4040406bf13871",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/6644056-genghis-khan-ii-clan-of-the-gray-wolf-pc-88-natural-disasters.png"
+  },
+  "art/catalog/moby/19666/screenshot-0545f2696f5e.webp": {
+   "game": "pc88:moby-19666",
+   "sha256": "91b11fd366fbec4aa9f7fc96ecb0e386e9fede3bb36fef0adb519ef15534052b",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/9978471-aeroboto-pc-88-this-stage-is-set-on-water-so-its-plane-only.png"
+  },
+  "art/catalog/moby/199583/screenshot-20c45d593db4.webp": {
+   "game": "pc88:moby-199583",
+   "sha256": "ff9abfafa42f4ed7f8ec01bbf6991000ce3fc2f1d6f8c9f7d48b09a7112f7598",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/12602663-wild-cat-pc-88-manta-rays-coming-to-get-you.png"
+  },
+  "art/catalog/moby/20354/screenshot-a324af6c17af.webp": {
+   "game": "pc88:moby-20354",
+   "sha256": "5d0104b9a95c112bf373b34d9cbf36b3364bbd8ca8e8fb635ab9b471753cbe30",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/12622298-castlequest-pc-88-brick-crushed-by-elevator.png"
+  },
+  "art/catalog/moby/205184/screenshot-fef9a8b31f2b.webp": {
+   "game": "pc88:moby-205184",
+   "sha256": "a7df3670b2288ac5a0d68752a3b703a057dbf59470b11ca3b99a6f493c0098c8",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/17332199-erika-sf-adult-adventure-pc-88-oh-no-the-pilot-attacks-do-someth.png"
+  },
+  "art/catalog/moby/207815/screenshot-f68bb89e975c.webp": {
+   "game": "pc88:moby-207815",
+   "sha256": "0fe0773c3cbd1f41ffb8fb8e09d7e2561b91bfc5c9d8d26dd7449ee1ccbefeee",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/17554910-tengoku-to-jigoku-pc-88-four-player-game-player-1-has-won-and-pl.png"
+  },
+  "art/catalog/moby/217615/screenshot-57a034ad1ddc.webp": {
+   "game": "pc88:moby-217615",
+   "sha256": "8971a69f931ba792de31dad6aa55d1bb341851b893d6647f618bcfc845775114",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/18237548-gomimushi-kun-pc-88-game-start.png"
+  },
+  "art/catalog/moby/219220/screenshot-265f7312a9dc.webp": {
+   "game": "pc88:moby-219220",
+   "sha256": "e7839d71c8da0982cea69af9d568ec4c12f1b66bbe510a8f5ee3cdf667dab048",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/18365789-wonder-house-pc-88-if-you-want-to-know-what-you-have-in-your-pos.png"
+  },
+  "art/catalog/moby/221185/screenshot-3572817b6ca2.webp": {
+   "game": "pc88:moby-221185",
+   "sha256": "fb5d72ccee4ecd487c0ad4c426e910b920234290de41a416a08d0dac95c3e21e",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/18676567-pretty-sheep-pc-88-if-you-kiss-the-girl-you-get-a-bonus-also-in-.png"
+  },
+  "art/catalog/moby/234938/screenshot-3384c8886228.webp": {
+   "game": "pc88:moby-234938",
+   "sha256": "77994535928c4b0a27c86fbd1cdeea85b4fa0f47e7d33279de3e5ad31f46e26b",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19513022-peetan-pc-88-round-6.png"
+  },
+  "art/catalog/moby/234978/screenshot-b92fd322fb3a.webp": {
+   "game": "pc88:moby-234978",
+   "sha256": "af0901608bac833b19c79fb9218283c6cdd30b4af2a54aa65a741b4bff35b57f",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19777206-zerosen-pc-88-zero-comeback.png"
+  },
+  "art/catalog/moby/235115/screenshot-46329450fbd1.webp": {
+   "game": "pc88:moby-235115",
+   "sha256": "7ceb28937321d5cb66c19e09360fd1bed3752440ddcdaa709ca3019d4d8be21d",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19537094-backgammon-excellent-pc-88-its-finally-my-turn-the-objective-of-.png"
+  },
+  "art/catalog/moby/235148/screenshot-ad50552a822e.webp": {
+   "game": "pc88:moby-235148",
+   "sha256": "278c81f949f7c015e62a09344f5e135bc65a177179da38c4951edee14607eee0",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/19539428-senryaku-rengo-kantai-pc-88-battle-plan.png"
+  },
+  "art/catalog/moby/241841/screenshot-0a6acf05ea9a.webp": {
+   "game": "pc88:moby-241841",
+   "sha256": "8f9070eff241960bf160c4873fda9c3b81f0cc7868813303dff08ae48dd941a1",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/20111391-treasure-island-pc-88-settings-and-instructions-for-the-type-esc.png"
+  },
+  "art/catalog/moby/256799/screenshot-f88ff26b08f8.webp": {
+   "game": "pc88:moby-256799",
+   "sha256": "f717bdac8e90a2626f2f0b576be790c1a7ae67f2226874fe6d27c800a23e59a5",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/31713557-oi-kaguya-hime-kinuginu-no-wakare-pc-88-she-takes-off-a-piece-of.png"
+  },
+  "art/catalog/moby/257748/screenshot-b6b1961c19d1.webp": {
+   "game": "pc88:moby-257748",
+   "sha256": "ad79ba13b4b1828c887e2cdaa86eb48009d177be3b12cd5eea8da79c67a45627",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/31980372-celia-pc-88-stage-21.png"
+  },
+  "art/catalog/moby/258803/screenshot-094d18e70095.webp": {
+   "game": "pc88:moby-258803",
+   "sha256": "3612d7229b382771726a4503b57208f14be4781e4c9fc7e679fc7c019d703058",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/32602324-best-nine-pro-yakyu-pc-88-title-screen-2.png"
+  },
+  "art/catalog/moby/260112/screenshot-3f7b305484df.webp": {
+   "game": "pc88:moby-260112",
+   "sha256": "ccc9c3187f678f9d7103aee07b286e572105d20ab31b8c36fb4bf3302cbe87e6",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/33832591-sento-densetsu-erf-erfix-in-j-difter-pc-88-game-over.png"
+  },
+  "art/catalog/moby/265998/screenshot-6049c616957c.webp": {
+   "game": "pc88:moby-265998",
+   "sha256": "6eb505e0beeb03da86f13a3b2b6504a4f3bda967c6fe665921b138fc23c29366",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/39262662-it-pc-88-w-wing.png"
+  },
+  "art/catalog/moby/29319/screenshot-101b0da8a10d.webp": {
+   "game": "pc88:moby-29319",
+   "sha256": "051c40ab24449be90b3559cc2def5aeaf8d91bf3bbd754be06f8e1f0a557e6fb",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16566823-mystery-fun-house-pc-88-taking-a-comb-from-a-creepy-clown.png"
+  },
+  "art/catalog/moby/43538/box-71b0df722e2a.webp": {
+   "game": "pc88:moby-43538",
+   "sha256": "9382ec7eb4a636d59e6419249f083a95e92b885344621e2e0c4479e8bc3c3b07",
+   "sourceUrl": "https://cdn.mobygames.com/covers/9141331-fortress-pc-88-front-cover.jpg"
+  },
+  "art/catalog/moby/43538/screenshot-a9b37a45d22a.webp": {
+   "game": "pc88:moby-43538",
+   "sha256": "5d388d2feeaef653203dfec0abba848b4d62762c1f64a4ff72fc04d82ed8ce51",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/6421654-fortress-pc-88-the-board.png"
+  },
+  "art/catalog/moby/47141/screenshot-a60fbf41831d.webp": {
+   "game": "pc88:moby-47141",
+   "sha256": "877d2a2f0de22571d3bf38e45056fa3ebe5715591b4f56ed8334504655931b6b",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16122579-doujin-kaizokuban-pc-88-triple-electric-beam.png"
+  },
+  "art/catalog/moby/54156/screenshot-8aeb000bd686.webp": {
+   "game": "pc88:moby-54156",
+   "sha256": "c7bedc1de9f79f8b430019e9cb0155c0f5fe39a74717c467c36d10e0d1fee2bb",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/12616257-diablo-pc-88-ran-out-of-track.png"
+  },
+  "art/catalog/moby/582/screenshot-54a5cdebd141.webp": {
+   "game": "pc88:moby-582",
+   "sha256": "f3698c0317d6522b0f1aa3d124d2aa164f8ab5c778394734962d771cd645b24f",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16211800-ghosts-n-goblins-pc-88-first-boss.png"
+  },
+  "art/catalog/moby/58792/screenshot-7d247e4bb0ce.webp": {
+   "game": "pc88:moby-58792",
+   "sha256": "b0cca312ab1461772c555c56e360ed0316f1842ed5b6163f839675ef07438acd",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/7675789-star-struck-pc-88-stage-2-these-enemies-are-new.png"
+  },
+  "art/catalog/moby/58797/screenshot-95dba01eb578.webp": {
+   "game": "pc88:moby-58797",
+   "sha256": "0cb1a9629df7814359cec2fede9ab8c8e9898b03b3ddbef14f41343faa42e804",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/7675658-my-lolita-pc-88-taking-a-blood-sample-she-doesnt-like-it.png"
+  },
+  "art/catalog/moby/59027/screenshot-dd58d0813902.webp": {
+   "game": "pc88:moby-59027",
+   "sha256": "b223f888669317c9e6cb0f83a24bc5b43f00728f682d259effd3692332d3ea2c",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/7102226-alseides-ushinawareta-zaiho-pc-88-guess-i-chose-the-wrong-way.png"
+  },
+  "art/catalog/moby/59033/screenshot-28c32220533b.webp": {
+   "game": "pc88:moby-59033",
+   "sha256": "825e603ed4b6345d50c00c62de2f00d74a8d93381a709b55ce363871e8492bf4",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/7110695-angels-celica-crisis-pc-88-what-to-do-now.png"
+  },
+  "art/catalog/moby/59080/screenshot-ac73f421893d.webp": {
+   "game": "pc88:moby-59080",
+   "sha256": "94c1c9aa9c26718f8664043fde49d59096d0a09e74cddcec978c92ca60b6e8e6",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/7307890-aya-chan-world-pc-88-careful-careful.png"
+  },
+  "art/catalog/moby/59120/screenshot-8c6e3fe23482.webp": {
+   "game": "pc88:moby-59120",
+   "sha256": "d55ad31a33dda89b538afca585cd3bbc9fc0c3da262c363bf8c0a909e49c0e01",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/7421881-bandits-9-pc-88-a-more-coordinated-assault-on-the-castle.png"
+  },
+  "art/catalog/moby/59124/screenshot-e99071e83d83.webp": {
+   "game": "pc88:moby-59124",
+   "sha256": "711283fb54c02abff9429be68fccd27bcf22f589a23838e44dbdc9db3a7fc052",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/7421890-bargon-no-paka-paka-shoboken-pc-88-exploring-a-cave-beneath-the-.png"
+  },
+  "art/catalog/moby/5960/screenshot-586a8f9c9953.webp": {
+   "game": "pc88:moby-5960",
+   "sha256": "95832a894d68932ec3eefbe1fa87940451b01d07d06043e1d6555b7551937c91",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/16495237-r-type-pc-88-first-boss.png"
+  },
+  "art/catalog/moby/9320/box-57cc6a487689.webp": {
+   "game": "pc88:moby-9320",
+   "sha256": "c93d149bbb5f2549c5d76f564a80e1e9d03bc03efdf9a529c51dd6d1d6fef26a",
+   "sourceUrl": "https://cdn.mobygames.com/covers/11074001-ali-baba-and-the-forty-thieves-pc-88-front-cover.jpg"
+  },
+  "art/catalog/moby/9320/screenshot-5e94222ed254.webp": {
+   "game": "pc88:moby-9320",
+   "sha256": "71ba1364948bfe51d1dee2f089179d29efc44e672f88bdb3f65ff3f79d95d750",
+   "sourceUrl": "https://cdn.mobygames.com/screenshots/6619333-ali-baba-and-the-forty-thieves-pc-88-narrow-corridor.png"
+  }
+ },
+ "schemaVersion": 1
+}

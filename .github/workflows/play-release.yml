@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   publish:
-    uses: MrJackSpade/Kairo/.github/workflows/app-play-release.yml@4a750b4ebeba5c3fa2acd9d5e33d5627ccb5ab60
+    uses: MrJackSpade/Kairo/.github/workflows/app-play-release.yml@e46f82039012226051cb2dbe8223b07b3ad43942
     with:
       name: Kairo88
       package: com.loxifi.kairo88
