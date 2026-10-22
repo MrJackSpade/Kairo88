@@ -1,4 +1,5 @@
 """Kairo88's catalog settings: PC-8801 media, artwork references and the platform's slugs."""
+import re
 import sys
 from pathlib import Path
 
@@ -36,6 +37,31 @@ def GROUP(path):
     return path.split("/", 1)[0]
 
 
-def IGNORE(path):
-    """Neo Kobe keeps BIOS and kanji ROM dumps in [BIOS] folders."""
-    return path.startswith("[BIOS]")
+# The machine settings a game can ask for, as Pc88Native's options name them.
+MACHINE_OPTIONS = {"basic": {"n", "v1s", "v1h", "v2"}, "clock": {"8", "4"}, "sound": {"1", "2"},
+                   "port": {"joystick", "mouse"}}
+_MODES = {"v1 mode": "v1s", "v1s mode": "v1s", "v1h mode": "v1h", "n mode": "n", "boot n mode": "n"}
+
+
+def MACHINE(name, set_name, content_id):
+    """Neo Kobe writes the mode and clock a disk needs in braces: {V1 mode}, {V1H mode}, {4MHz},
+    {V1 mode, RUN MPD1}."""
+    settings = {}
+    for note in re.findall(r"\{([^}]*)\}", name):
+        for part in (part.strip().lower() for part in note.split(",")):
+            if part in _MODES:
+                settings["basic"] = _MODES[part]
+            elif part.startswith("boot n mode"):
+                settings["basic"] = "n"
+            elif part == "4mhz":
+                settings["clock"] = "4"
+    return settings
+
+
+def NOT_GAME(path):
+    """Neo Kobe keeps utilities, system disks and firmware dumps in [Utility], [OS] and [BIOS] folders."""
+    return path.startswith(("[Utility]", "[OS]", "[BIOS]"))
+
+# Disk sets (shared/tools/disk_sets.py): a game boots from its first floppy, with its second in drive 2.
+BOOT_KINDS = ["fd", "tape"]
+COMPANION = {"fd": ("fd", "floppyB", False)}

@@ -40,4 +40,4 @@ The shared RetroArch Slang shader runtime uses librashader under its GPL-3.0-onl
 
 ## Firmware and games
 
-Kairo88 does not include PC-8801 ROMs, operating systems, or games. Users supply any firmware and games they need.
+Kairo88 does not include PC-8801 system firmware (BIOS), operating systems, or games. Users supply any firmware and games they need.

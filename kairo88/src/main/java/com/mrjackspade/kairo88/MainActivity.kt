@@ -18,12 +18,12 @@ import java.util.concurrent.atomic.AtomicBoolean
 
 /** Kairo88: the PC-8801 on QUASI88, in the shared Kairo frontend. */
 class MainActivity : MachineActivity<DiskImageEntry>() {
-    override val identity = Identity("KAIRO88", "Kairo88", "PC-88", "kairo88", LibraryStrings("KAIRO88", "Kairo88"),
+    override val identity = Identity("KAIRO88", 0xffFB981A.toInt(), "Kairo88", "PC-88", "kairo88", LibraryStrings("KAIRO88", "Kairo88"),
         "Kairo88 uses QUASI88 and ymfm. Source and provenance: github.com/MrJackSpade/Kairo88.",
-        "Choose a ROM folder to find disk images and the ZIP and 7z archives holding them",
-        "Folder access expired. Select the ROM folder again.",
-        MachineFirstRun.Folder("Choose a ROM folder", "Select the folder containing your PC-88 games. Kairo88 will " +
-            "scan its disk images and the ZIP and 7z archives holding them.", "Choose ROM folder…"),
+        "Choose a games folder to find disk images and the ZIP and 7z archives holding them",
+        "Folder access expired. Select the games folder again.",
+        MachineFirstRun.Folder("Choose a games folder", "Select the folder containing your PC-88 games. Kairo88 will " +
+            "scan its disk images and the ZIP and 7z archives holding them.", "Choose games folder…"),
         "SAVE STATES", "MrJackSpade/Kairo88")
     override val machine = Machine(640, 400, 640.0 / 400.0, "state.q88")
     override val bridge get() = Pc88Native.machine
@@ -50,34 +50,34 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
 
     private val firmwareDir by lazy { File(filesDir, "firmware") }
     override val firmwareSets by lazy {
-        fun rom(name: String, label: String, required: Boolean, sizes: Set<Int>, vararg aliases: String) =
-            FirmwareSet.Part(name, label, setOf(name) + aliases, required, sizes.map(Int::toLong).toSet())
-        listOf("PC-88 ROMs" to FirmwareSet(firmwareDir, listOf(
-            rom("n88.rom", "N88-BASIC", true, setOf(0x8000)),
-            rom("n88_0.rom", "N88 extension 0", true, setOf(0x2000), "n88ext0.rom"),
-            rom("n88_1.rom", "N88 extension 1", false, setOf(0x2000), "n88ext1.rom"),
-            rom("n88_2.rom", "N88 extension 2", false, setOf(0x2000), "n88ext2.rom"),
-            rom("n88_3.rom", "N88 extension 3", false, setOf(0x2000), "n88ext3.rom"),
-            rom("n80.rom", "N-BASIC", false, setOf(0x8000), "n88n.rom"),
-            rom("disk.rom", "Disk sub-system", true, setOf(0x800, 0x2000), "n88sub.rom"),
-            rom("kanji1.rom", "Kanji ROM 1", false, setOf(0x20000), "n88knj1.rom"),
-            rom("kanji2.rom", "Kanji ROM 2", false, setOf(0x20000), "n88knj2.rom"),
-            rom("jisyo.rom", "Dictionary ROM", false, setOf(0x80000), "n88jisho.rom"),
-            rom("font.rom", "Font ROM", false, setOf(0x800, 0x1000)))),
+        fun rom(name: String, label: String, description: String, required: Boolean, sizes: Set<Int>,
+                vararg aliases: String) = FirmwareSet.Part(name, label, "$name · $description", setOf(name) + aliases,
+            required, sizes.map(Int::toLong).toSet())
+        listOf("PC-88 BIOS" to FirmwareSet(firmwareDir, listOf(
+            rom("n88.rom", "N88-BASIC", "the BIOS and BASIC that start the machine", true, setOf(0x8000)),
+            rom("n88_0.rom", "N88 extension 0", "the first extended BASIC bank, needed to boot", true, setOf(0x2000),
+                "n88ext0.rom"),
+            rom("n88_1.rom", "N88 extension 1", "an extended BASIC bank some games use", false, setOf(0x2000), "n88ext1.rom"),
+            rom("n88_2.rom", "N88 extension 2", "an extended BASIC bank some games use", false, setOf(0x2000), "n88ext2.rom"),
+            rom("n88_3.rom", "N88 extension 3", "an extended BASIC bank some games use", false, setOf(0x2000), "n88ext3.rom"),
+            rom("n80.rom", "N-BASIC", "BASIC for the oldest PC-8001 style games", false, setOf(0x8000), "n88n.rom"),
+            rom("disk.rom", "Disk sub-system", "runs the floppy drives", true, setOf(0x800, 0x2000), "n88sub.rom"),
+            rom("kanji1.rom", "Kanji font 1", "everyday Japanese characters", false, setOf(0x20000), "n88knj1.rom"),
+            rom("kanji2.rom", "Kanji font 2", "rarer Japanese characters", false, setOf(0x20000), "n88knj2.rom"),
+            rom("jisyo.rom", "Dictionary", "kana-to-kanji dictionary for Japanese text entry", false, setOf(0x80000),
+                "n88jisho.rom"),
+            rom("font.rom", "Character font", "replaces the built-in text font", false, setOf(0x800, 0x1000)))),
             "Rhythm samples" to FirmwareSet(firmwareDir, listOf("bd" to "Bass drum", "sd" to "Snare drum",
                 "top" to "Top cymbal", "hh" to "Hi-hat", "tom" to "Tom", "rim" to "Rim shot").map { (name, label) ->
-                FirmwareSet.Part("2608_$name.wav", label, setOf("2608_$name.wav"), true)
+                FirmwareSet.Part("2608_$name.wav", label, "2608_$name.wav · a drum sound for sound board II's music",
+                    setOf("2608_$name.wav"), true)
             }))
     }
-    override val firmwareText get() = Triple("PC-88 firmware",
-        "Choose the folder holding your PC-88 ROM files. Kairo88 copies the files it recognizes.",
-        "N88-BASIC, extension 0 and the disk sub-system are needed to start games. The YM2608 rhythm " +
-            "samples (2608_*.wav) play the drums of sound board II.")
 
     override fun startGame(entry: DiskImageEntry, game: CatalogGame, cancelled: AtomicBoolean,
                            progress: (String) -> Unit) {
         firmwareSets.first().second.takeIf { it.missingRequirements.isNotEmpty() }?.let { roms ->
-            error("Import the PC-88 ROMs in Menu › Machine first (missing ${roms.missingText})")
+            error("Import the PC-88 BIOS in Menu › Machine first (missing ${roms.missingText})")
         }
         val second = game.mediaId("floppyB")?.let { id ->
             mediaFor(id, entry, libraryEntries) ?: error("The second disk this game needs is not in the library")
