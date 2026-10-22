@@ -24,7 +24,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         "Folder access expired. Select the ROM folder again.",
         MachineFirstRun.Folder("Choose a ROM folder", "Select the folder containing your PC-88 games. Kairo88 will " +
             "scan its disk images and the ZIP and 7z archives holding them.", "Choose ROM folder…"),
-        "SAVE STATES")
+        "SAVE STATES", "MrJackSpade/Kairo88")
     override val machine = Machine(640, 400, 640.0 / 400.0, "state.q88")
     override val bridge get() = Pc88Native.machine
     override val keyboard = Pc88Keys.layout
