@@ -4909,6 +4909,7 @@
     "sha256-fd-v1:de8839886da921de73831e3fdbfb1b46a7f28e82c3cdecda7fde83187249e147",
     "sha256-fd-v1:e1b69fabbfc7aa11b5b53e67d1a06e1e7df09001d47672afffce540a29775e1b"
    ],
+   "description": "A story-driven role-playing game: following a prophecy, Gald and Mia, children of a small village in the Barbatus lands, set out to defeat the demon lord.",
    "developer": "Artec",
    "diskSets": {
     "sha256-fd-v1:40c82ca413faad41ae1d9d9732c1b3bf470cbbf9f67677fffb7635fb632f61a2": {
@@ -6951,6 +6952,7 @@
     "sha256-fd-v1:766917142d63eef521a3626e0176ca05e3198054189d3ea0bb3581199bb9a472",
     "sha256-fd-v1:c725d8b63945b370e3ac94ec1c6223065034e3e6e2dbc749995387e954aff480"
    ],
+   "description": "An action adventure 300 years after a nuclear war, in cities run by a giant central computer: ride Craze's air bike through maze-like streets in six stages, collecting items and beating bosses while its fuel drains even standing still; seen from an angled view.",
    "developer": "Heart Soft",
    "diskSets": {
     "sha256-fd-v1:c725d8b63945b370e3ac94ec1c6223065034e3e6e2dbc749995387e954aff480": {
@@ -7513,6 +7515,7 @@
     "sha256-fd-v1:e9de4de9d534d16d5ebf03a35faf3752f60c4a2a959929b14955b4139d5f25d4",
     "sha256-fd-v1:f29154d696740740e143da792eefeac21a362645e2a1f1a62a9bf41563652cf5"
    ],
+   "description": "A robot battle game: as a Prajator, a vaccine program inside a computer network, fight the viruses and hackers' programs disrupting it, stage by stage, spending points on three abilities to shape your own fighter.",
    "developer": "Fireball Systems",
    "diskSets": {
     "sha256-fd-v1:23866a22b47a9457d6e10c4dc1eca6657a18c45a59997d8dd6ee52def9be284a": {
@@ -7599,6 +7602,7 @@
     "sha256-fd-v1:e7e24fdde753c89832f5c2ba2e7c15927b1b5ce816b39b1f7a19f6b4d5bfae90",
     "sha256-fd-v1:e86e655c6c3ff81f4cd5c07bb0caf8b829e18ae088f63beeca9b09d383055a05"
    ],
+   "description": "A science-fiction adventure in 2008: three experimental bio-dolls, androids indistinguishable from people, have escaped and turned on humanity; as a member of the battle-suit squad sent to destroy them, explore a 3D maze and question more than twenty characters.",
    "developer": "Micro Cabin",
    "diskSets": {
     "sha256-fd-v1:ba9750d6d1cb479d4181181bdf7a2bb1e6309c619b9b057b16c1f220cd84d0fe": {
@@ -8579,6 +8583,7 @@
     "sha256-fd-v1:d00c322c83d42568c2d5ef6b2bc79fb5e8077d2ee6c16b4136691a3eef8ce418",
     "sha256-fd-v1:ef2143543804bba9951c9f8d4b25ad5e760a2bcc777760ad0ab167cbc180a428"
    ],
+   "description": "A strategy game with action battles: after World War III, pilot Mei Morikawa deserts the Federal Inspection Bureau that rules the world by force, taking its newest mech, Linus, to the liberation army; meeting an enemy on the map switches to an action fight.",
    "developer": "Family Soft",
    "diskSets": {
     "sha256-fd-v1:d00c322c83d42568c2d5ef6b2bc79fb5e8077d2ee6c16b4136691a3eef8ce418": {
@@ -24926,6 +24931,7 @@
     "sha256-fd-v1:3f35bca47feed966a6fc41745e480ac4589adb3265e141b297bc64a03f836463",
     "sha256-fd-v1:5ff1ad2d0634a577bc512197b8593d634e4ed65367fc0c1a3d5d856d27c2a53d"
    ],
+   "description": "A hex strategy game of Mobile Suit Gundam, an expanded version of the PC-98 Classic Operation with animated battle scenes and larger maps.",
    "developer": "Family Soft",
    "diskSets": {
     "sha256-fd-v1:3f35bca47feed966a6fc41745e480ac4589adb3265e141b297bc64a03f836463": {
@@ -25929,6 +25935,7 @@
     "sha256-fd-v1:d0a54d876be775f84f958f8065e19a318c3b4a47278b5e70d3376c10920474fa",
     "sha256-fd-v1:f5843f4d5a9ec16f9162eeed8f019e64fc733047d6cbfc56a76073100aa8ffde"
    ],
+   "description": "An action game in Sequential Circuit City, a future city overrun by demons: fight as a cyborg remade by someone for the cause of justice, whose appearance changes as he gains experience.",
    "developer": "Arsys Software",
    "diskSets": {
     "sha256-fd-v1:a414102ad7b89433d0dab9d9aaa8aac34c6546ea8a45c057d789d401ab721d75": {
@@ -26185,6 +26192,7 @@
    "contentIds": [
     "sha256-fd-v1:170604aac05cf79ea5b355b6ddc164f6e38249d96a23341b4352fbd0cdd59b89"
    ],
+   "description": "An early pinball game with a colorful table packed with features, including a slot machine.",
    "diskMachine": {
     "sha256-fd-v1:170604aac05cf79ea5b355b6ddc164f6e38249d96a23341b4352fbd0cdd59b89": {
      "basic": "v1s"
@@ -27696,6 +27704,7 @@
    "contentIds": [
     "sha256-fd-v1:d8935bba09bdb5fda2cdbb347a6e80c47918b4c4b62f863530154debfe67d665"
    ],
+   "description": "An action puzzle in the style of Lode Runner: as the Funky Monkey, collect every apple while digging holes to trap the zookeepers; the screen is split into nine panels that can be swapped around.",
    "developer": "Policy",
    "diskMachine": {
     "sha256-fd-v1:d8935bba09bdb5fda2cdbb347a6e80c47918b4c4b62f863530154debfe67d665": {
@@ -28048,6 +28057,7 @@
     "sha256-fd-v1:787fd72bfda4405c074dab8e1138792d762c16056ec608de106f88ee4cc11c55",
     "sha256-fd-v1:bd7f257bae7ebddd4568217503698425098344723bd5dc3f3eb3df11a4dff539"
    ],
+   "description": "An action role-playing game: ages after the forces of light sealed the god of shadow deep underground, he stirs again, and a hero sets out to stop him.",
    "developer": "XAIN",
    "diskSets": {
     "sha256-fd-v1:bd7f257bae7ebddd4568217503698425098344723bd5dc3f3eb3df11a4dff539": {
@@ -28401,6 +28411,7 @@
     "sha256-fd-v1:6cf1744afb9b53e7da44d8f94dd53b23fa0b3329deeff12a3f3ef3af58486756",
     "sha256-fd-v1:fe47d71dce80906df84506fc919a26b9de909426e6a48e6b0b46fb10f12b92b2"
    ],
+   "description": "An action role-playing game: five black monks have thrown the kingdom of Kalgamont into chaos; gather five crystals to lift the princess's curse, talking some monsters out of a fight.",
    "developer": "XAIN",
    "diskSets": {
     "sha256-fd-v1:6cf1744afb9b53e7da44d8f94dd53b23fa0b3329deeff12a3f3ef3af58486756": {
@@ -29161,6 +29172,7 @@
    "contentIds": [
     "sha256-fd-v1:65e6b687c64e470717cba6616cf231ec5d6d0181d14297c9ed15e7cf5b725e6f"
    ],
+   "description": "An action game in the vein of Marble Madness: thrown into another dimension by an earthquake, Bump rolls his survival ball down narrow slopes with sheer drops on both sides, unable ever to stop, past obstacles and monsters back to his own world.",
    "developer": "NCS",
    "launchbox": "190090",
    "publisher": "NCS",
@@ -29597,6 +29609,7 @@
     "sha256-fd-v1:80c6155824b938f9316c0cd14e0e2f235a49bb7b8ab9bcf77c2bbc6cd56ddb90",
     "sha256-fd-v1:d1367b62562eac5b5c4dcf4dc51a2a400105059aa4afe28a7917cb11f1b4c87f"
    ],
+   "description": "A 3D space shooter with wireframe enemies: fight more than forty kinds of foes with twin lasers and four lock-on missiles, through special stages, planets and a carrier, with a construction mode.",
    "developer": "Tecno Soft",
    "diskSets": {
     "sha256-fd-v1:80c6155824b938f9316c0cd14e0e2f235a49bb7b8ab9bcf77c2bbc6cd56ddb90": {
@@ -29873,6 +29886,7 @@
     "sha256-fd-v1:cb9396d629f5d9ff51731b45a5755700e0b9bf5c910b4b6529a2512c4fb47528",
     "sha256-fd-v1:f4e7371e0f6384eab9f6d5c4538efaadd0fe5ff0747b785cdc8cb238b7d8c28a"
    ],
+   "description": "An action role-playing game without experience points: a young man defends an island from a witch, growing stronger only through the swords, shields and armor he finds.",
    "developer": "System Sacom",
    "diskSets": {
     "sha256-fd-v1:5fa42a470d09ab6d67ac7cd2542a8c3b0cb75459c57635c41f86b0d65fa5e7da": {
@@ -29950,6 +29964,7 @@
     "sha256-fd-v1:ef04849622510048163dc4e317b47bb5b5ce8bd9e238953d478fe2eb0ac77bca",
     "sha256-fd-v1:ef2822d14857c440dc8c6bcb7341c0e73553e68acc3f375f4584d82beee7eab6"
    ],
+   "description": "An adventure: a girl's father, an archaeologist, vanished three days ago while studying a castle; after you both fall through a hole there, explore the castle to find him.",
    "developer": "SPS",
    "diskSets": {
     "sha256-fd-v1:62a18d21674b85b3f0b965259e4b2e75b39714789cf56cdf21b3e5c475f1e788": {
@@ -30987,6 +31002,7 @@
    "contentIds": [
     "sha256-fd-v1:0c1d120fedcd53f2a6d72aa4d32a538a769c6f897ffa6e48a37a52e97156ba06"
    ],
+   "description": "An American football game: pick one of five formations and drive for a touchdown against opponents of five classes.",
    "developer": "Winky Soft",
    "diskMachine": {
     "sha256-fd-v1:0c1d120fedcd53f2a6d72aa4d32a538a769c6f897ffa6e48a37a52e97156ba06": {
@@ -32108,6 +32124,7 @@
     "sha256-fd-v1:4b99cfa619c193e07f7799b4083d4d664b83ce380e9104ce3fd3c3a2cb7d294c",
     "sha256-fd-v1:54865d5340cdc854283c659ba9caedcff02ebfe657849d516f9c79c3e052e57c"
    ],
+   "description": "A role-playing game: the sorcerer Bardick, hailed as a healer during a plague, has taken over the mind of the king of Aldream; explore its dungeons, where people, kobolds among them, ask favors, and battles are fought by moving the party across a grid.",
    "developer": "Data West",
    "diskMachine": {
     "sha256-fd-v1:4b99cfa619c193e07f7799b4083d4d664b83ce380e9104ce3fd3c3a2cb7d294c": {
@@ -32217,6 +32234,7 @@
     "sha256-fd-v1:de4f182622956215257b1bcff703e584af45c40a737f7a83083d44920a895d76",
     "sha256-fd-v1:ecb57293e2cbd65ae7a28bb9e1ca656b40071ea2fa1f6157922c88458908f698"
    ],
+   "description": "A role-playing game with action: Ann, who invented a bacterium that breaks down any matter, is kidnapped by the Falcon biker gang, and her former boyfriend Volvo goes after her alone.",
    "developer": "XAIN",
    "diskSets": {
     "sha256-fd-v1:81182701b4005f3f5c86f618a63a52496228f34ae76ce7c11abf9d502e2443d7": {
@@ -32771,6 +32789,7 @@
     "sha256-fd-v1:85d3e8b7554d30f0f31e4ca597ab6a7b7eb3cc8ba74954305ac5e55022c8bfb1",
     "sha256-fd-v1:e1ceaae671d2662ce47412d5ee1bdd938fcbabd71aee007d1c12da75c4cf042a"
    ],
+   "description": "The second Gambler Jiko Chuushinha: mahjong against twelve more characters on an automatic table, with an octopus-hunting mode.",
    "developer": "Yellow Horn",
    "diskSets": {
     "sha256-fd-v1:457386a1ca59b0262c96c87d79cd637d8046a20620a38e53d2e899c5e0da4d81": {
@@ -32807,6 +32826,7 @@
     "sha256-fd-v1:6cad04345bb80865b740d6b2bda7d7a20a234dfb058ac2ce97068b4f262f946f",
     "sha256-fd-v1:ba5461c2f6608a4ae9ce6f1d06661127e06b4a0df94ffe97c96271f902e02bec"
    ],
+   "description": "The third Gambler Jiko Chuushinha: ten more characters, 34 in all with the first two games, and a new villain who wants to fill Japan with octopuses.",
    "developer": "Yellow Horn",
    "diskSets": {
     "sha256-fd-v1:6cad04345bb80865b740d6b2bda7d7a20a234dfb058ac2ce97068b4f262f946f": {
@@ -32840,6 +32860,7 @@
     "sha256-fd-v1:9c7bd1ac22536a6fb145cbdcc8746b63296d4cfe2fb739c0efa472a6d7522f70",
     "sha256-fd-v1:f980264d149f9229a856b4984e5961015bcbd21590e3ef3afa0c8e9f52592a3b"
    ],
+   "description": "A tile-matching puzzle in the manner of Shanghai, with tiles that flip face up when the tiles around them are taken, and advice from the series' characters when you're stuck.",
    "developer": "Game Arts",
    "diskSets": {
     "sha256-fd-v1:9c7bd1ac22536a6fb145cbdcc8746b63296d4cfe2fb739c0efa472a6d7522f70": {
@@ -33058,6 +33079,7 @@
     "sha256-fd-v1:628300ced2c013a1d4f41acba3cda21270243da045d95630f7266e9e2402a5ab",
     "sha256-fd-v1:c3e0e35a5a237ea9b58fc43f257b42b97a562ddb83312083845966f73ad351ac"
    ],
+   "description": "A war strategy game: people from the future send Japan's Self-Defense Forces back in time to prevent nuclear war, onto battlefields of World War II, Vietnam, the Falklands and the Iran-Iraq War, with only a few modern weapons, factories to build period arms, night moves and spies.",
    "developer": "Zainsoft",
    "diskSets": {
     "sha256-fd-v1:c3e0e35a5a237ea9b58fc43f257b42b97a562ddb83312083845966f73ad351ac": {
@@ -33095,6 +33117,7 @@
    "contentIds": [
     "sha256-fd-v1:d7993927d70e7a22024f7d2110e7d956ba3da8d55c1ec218dae26190ae65a445"
    ],
+   "description": "An action game inside the PC-8801 itself: fly a wireframe rocket to wipe out the bugs that have rebelled on the disk interface and DMA controller and restore the machine.",
    "developer": "PSK",
    "diskMachine": {
     "sha256-fd-v1:d7993927d70e7a22024f7d2110e7d956ba3da8d55c1ec218dae26190ae65a445": {
@@ -33190,6 +33213,7 @@
     "sha256-fd-v1:a114103ee5dfc647ba04ed02581f7b5d708019252f1b47fbe0240311d5daf214",
     "sha256-fd-v1:b2995047bdbbd282dfa05dec036542c1545d5f89198b614293968d19ec3d8907"
    ],
+   "description": "A 3D dungeon role-playing game: an apprentice beast-breeder takes over his master's job of surveying newly found ruins for King Urgan, raising creatures in tanks, whose food, temperature and humidity shape their powers, to explore seven dungeons.",
    "diskSets": {
     "sha256-fd-v1:0d619bf55cc03f4cbc898437f2a65cd04d410a8bcf1e231b073da147d27f2c77": {
      "media": [
@@ -33253,6 +33277,7 @@
     "sha256-fd-v1:3c5265c82f967713e247c337731c92cc583cc4e54e99b94fe53b59f927c149ca",
     "sha256-fd-v1:93979b2c85510f15e0c0772723063cd57d7a9b1bdaa801fc15cbbe09df290573"
    ],
+   "description": "A fishing game with four kinds of fishing: trolling and lure fishing on Alaska's Kenai River, fishing on Skilak Lake, and sea trolling off Vancouver Island; good catches earn an invitation to the Salmon Derby.",
    "developer": "Hot-B",
    "diskMachine": {
     "sha256-fd-v1:3c5265c82f967713e247c337731c92cc583cc4e54e99b94fe53b59f927c149ca": {
@@ -34291,6 +34316,7 @@
     "sha256-fd-v1:9e2dcab58c7ebf66bd843438ff529e4fa3bebba9d076cb45a555b118194af706",
     "sha256-fd-v1:dcd72a7f14ce5d5d492cbb66eeda11e36b104678efffe6623449a19557469f21"
    ],
+   "description": "A role-playing game with smooth scrolling and plenty of conversation: centuries after the nine jewels were sealed away, someone drawn by their power breaks the seal.",
    "developer": "Tecno Soft",
    "diskSets": {
     "sha256-fd-v1:39894da1b4ea684e616b24dd074f6a73952e9a73ea4af0ae9a615ae5be409c82": {
@@ -34535,6 +34561,7 @@
    "contentIds": [
     "sha256-fd-v1:72fb7181a95bde7f24263ef3faf76b50b2bdf8b2a84d7357cb5e92fb06f21d50"
    ],
+   "description": "A tactical war game of World War II infantry fighting in city streets, with eight scenarios and a map editor; the second in Pony's SPI series.",
    "developer": "Pony Canyon",
    "diskMachine": {
     "sha256-fd-v1:72fb7181a95bde7f24263ef3faf76b50b2bdf8b2a84d7357cb5e92fb06f21d50": {
@@ -36133,6 +36160,7 @@
     "sha256-fd-v1:b48498c75cf820cce1abb28a13f3333f081ded44b8d5e26f5dcd91d761537334",
     "sha256-fd-v1:bd5f8a96f3b37d07d56898823c8e2d977d0d0d6e4007fc364b7c760035d17fe0"
    ],
+   "description": "A fast-scrolling role-playing game: a broken seal has revived an evil queen, and a woman warrior sets out through five labyrinths to defeat her and her four generals.",
    "developer": "Great",
    "diskSets": {
     "sha256-fd-v1:b48498c75cf820cce1abb28a13f3333f081ded44b8d5e26f5dcd91d761537334": {
@@ -37862,6 +37890,7 @@
     "sha256-fd-v1:987edc88ddc27e29ed0cf54c70538eb027ffaba18efd37154f2f499377d81b07",
     "sha256-fd-v1:a172baaf53382abef543d3726bca180a73f1837eda2eaa31d8c4488b5616a2ba"
    ],
+   "description": "A block-breaking game with a story: on a future Earth smothered by pollution, Ryu challenges the four sisters who rule Babylon Tower to win back his girlfriend.",
    "developer": "Cocktail Soft",
    "diskSets": {
     "sha256-fd-v1:a172baaf53382abef543d3726bca180a73f1837eda2eaa31d8c4488b5616a2ba": {
@@ -42671,6 +42700,7 @@
      "revision": 0
     }
    },
+   "description": "A pachinko arrange-ball machine: line up numbers in threes or fours across the four-by-four grid at the center of the board.",
    "developer": "Pony Canyon",
    "launchbox": "197098",
    "publisher": "Pony Canyon",
@@ -42858,6 +42888,7 @@
    "contentIds": [
     "sha256-tape-v1:ef4545284d0de7b68bbf7ec734d080d93bb1d53e0f47e4e34212d7e9b84b2231"
    ],
+   "description": "A puzzle game in 50 levels: as UFO-kun, kick walls to shut the aliens behind doors of colors they can't open.",
    "developer": "Policy",
    "diskMachine": {
     "sha256-tape-v1:ef4545284d0de7b68bbf7ec734d080d93bb1d53e0f47e4e34212d7e9b84b2231": {
@@ -45564,6 +45595,7 @@
     "sha256-fd-v1:85e27e37a19a61101d64407aa3f21f8c33df500811170a761fac49c33eef1e3d",
     "sha256-fd-v1:a644d093195672428e901886ec9d1ed42d660bfee7c96822d807b78478d9c82e"
    ],
+   "description": "A pon-jan game based on mahjong, played with tiles of fairy-tale characters against Kaguya-hime, Momoko and Otohime.",
    "developer": "FairyTale",
    "diskSets": {
     "sha256-fd-v1:77a484dd90b2886dd5ca63576239fdca308344c39b8792684e32cab35c2ea3d3": {
@@ -47599,6 +47631,7 @@
     "sha256-fd-v1:a6f7165b0f5e8167b5018a1fcedb2ca0f0d035469e5b575221bb9c759e9196a9",
     "sha256-fd-v1:bdff378835dcfca257e2d9960252d51313201cf9fa092b8ae6dec1ae433904fa"
    ],
+   "description": "A tug-of-war game: to rescue his kidnapped sweetheart, a company president's daughter, from a mysterious island, a man must win a tug-of-war tournament with a team of eight, rotating its five pullers as they tire.",
    "developer": "Zainsoft",
    "diskSets": {
     "sha256-fd-v1:90b3838dd7dee46a03b2d4b27b94e07f2ae4ccbed832c6758479a6c1e4e43e60": {
@@ -47775,6 +47808,7 @@
     "sha256-fd-v1:c2fbc0c0da485c1da8ff63333f9400092c1792401f3c1dd89a9132a64f7ba1d4",
     "sha256-fd-v1:dccebc1f84e997a8aa192d9841742fd6ceafd0c127e40ca15843485d970187a3"
    ],
+   "description": "Falcom's first scenario disk for Sorcerian, with five adventures: The Devil's Island, The Temple of Sacrifice, The Bride Bewitched by the Devil, Ah, Where Is Josephine Now, and The Amazon's Sword.",
    "developer": "Nihon Falcom",
    "diskSets": {
     "sha256-fd-v1:1c5783cd625936d8d7862699f856f8845fd1fa9066da58c46c77a765edcd4605": {
@@ -47819,6 +47853,7 @@
     "sha256-fd-v1:eb7380fef9dfdbfdf2f64da8c289b3208890180015539c921d982a580a5bf997",
     "sha256-fd-v1:f97d4495ce6d5f3b6e61550a8b461c93e752a9814551e1e904a684f258c22b45"
    ],
+   "description": "Sengoku Sorcerian, Falcom's second scenario disk: five linked level-5 adventures set in Japan's Warring States period, played in order, with warlords such as Takeda Shingen and Oda Nobunaga and an ending of its own.",
    "developer": "Nihon Falcom",
    "diskSets": {
     "sha256-fd-v1:1810d3842348214fc7db3a9549a0840047f5a47c6ebcb4a2ad74333525083975": {
@@ -47872,6 +47907,7 @@
     "sha256-fd-v1:1af8356f32a58e7c0b79cc6643cae857ee7fca3834f082ff1d72f989a8aad28e",
     "sha256-fd-v1:93ddec81ed37b113a2ad4f197892962b2b7a9d28eb8127f3c65188254ff0d640"
    ],
+   "description": "Pyramid Sorcerian, Falcom's third scenario disk: defeat Gilbares, the great demon lord behind Sengoku Sorcerian, in a pyramid full of traps and riddles.",
    "developer": "Nihon Falcom",
    "diskSets": {
     "sha256-fd-v1:93ddec81ed37b113a2ad4f197892962b2b7a9d28eb8127f3c65188254ff0d640": {
@@ -48792,6 +48828,7 @@
   },
   "pc88:207633": {
    "boxArtUrl": "https://images.launchbox-app.com/7d45aefd-d80e-49d5-9ecc-f1c9f5873f66.jpg",
+   "description": "Two games in one: The Racer, a 3D Formula One race kept fast by a bare background, and the vertical shooter Galaxy Fighter.",
    "launchbox": "207633",
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/a5cfaff0-9104-4726-908a-926573827a47.png",
@@ -48919,6 +48956,7 @@
      "revision": 2
     }
    },
+   "description": "A space battle game in the tradition of Star Trek: find thirty enemy ships with long-range sensors, set their 3D coordinates in the autopilot, then line them up by hand and fire.",
    "launchbox": "207653",
    "publisher": "Tecno Soft",
    "title": "Star Fleet"
@@ -49503,6 +49541,7 @@
      "revision": 0
     }
    },
+   "description": "An early 3D shooter: blast the enemy fighters pouring from the distance on the long flight to the enemy fortress rising over the horizon.",
    "developer": "Zero Soft",
    "launchbox": "207924",
    "publisher": "Carry Lab",
@@ -49641,6 +49680,7 @@
   },
   "pc88:207957": {
    "boxArtUrl": "https://images.launchbox-app.com/45a74518-188a-4789-a39b-8dd885fcc990.jpg",
+   "description": "A pinball game with true-to-life ball motion and simple rules, where bonuses, bumpers and gravity can be adjusted.",
    "launchbox": "207957",
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/e74a3361-324c-46f1-b806-513b3d91875a.png",
@@ -49695,6 +49735,7 @@
   },
   "pc88:209127": {
    "boxArtUrl": "https://images.launchbox-app.com/c003c388-6ba0-4599-aa3c-c97a871c4923.jpg",
+   "description": "A Votoms side story: Sergeant Macoleen, sole known survivor of the elite Black Unicorn unit, is sent alone into a crashed super carrier held by rebels, fighting armored troopers through its thirty maze-like decks.",
    "developer": "Family Soft",
    "launchbox": "209127",
    "publisher": "Family Soft",
@@ -50330,6 +50371,7 @@
   },
   "pc88:456735": {
    "boxArtUrl": "https://images.launchbox-app.com/58a1b921-e098-4c7f-89ca-082e1c4f2e45.jpg",
+   "description": "A blend of adventure and role-playing without experience levels: set out to recover the stolen snow crystal and defeat the evil spirit Deldgordon to restore peace to the northern land of Cluju.",
    "developer": "Xainsoft",
    "launchbox": "456735",
    "publisher": "Xainsoft",
@@ -50655,6 +50697,7 @@
    "contentIds": [
     "sha256-fd-v1:b3be26a7e836a24b42815557a8965a5a3e1f07852f0c3c408c79414f8cf985a8"
    ],
+   "description": "A memory game: study an illustration, then judge whether each sixth of a picture you're shown matches it.",
    "developer": "ASCII",
    "launchbox": "459602",
    "publisher": "ASCII",
@@ -52226,6 +52269,7 @@
     "sha256-fd-v1:c50d3e5a9417471dd7fdddf5292705982aa5c6d150acdb66ad4564005b3d7a88",
     "sha256-fd-v1:d799ab0883011afcbeaaf7cda2ed4511ae646316a0c0fbd32bf9f814eeb631ea"
    ],
+   "description": "A role-playing game that began as doujin software: in 2020, two superpowers on the brink of ruin from military spending turn to force to win back their place, with auto-mapping and a cockpit view.",
    "diskSets": {
     "sha256-fd-v1:5ebc0e527719db903e349bc1368479720146d568443ad65be124a90efe814f03": {
      "media": [
@@ -52390,6 +52434,7 @@
    "contentIds": [
     "sha256-fd-v1:ca49623698aeefebf2e7f5d3b21134b0c5b46a56b9f8ca12bea3866fd97364f4"
    ],
+   "description": "Shogi lessons: the computer plays out a game and, at key moments, asks you to pick the next move from four, then shows what follows from your choice.",
    "sourceGroups": [
     "neokobe:The Shogi Juku (Crossmedia Soft)/The Shogi Juku [FD].7z"
    ],
@@ -52505,6 +52550,7 @@
    "contentIds": [
     "sha256-fd-v1:d2db2141f6a464c59c6cb3932c43238cfccbb5d5e41cd3cd6dd68014e97cdc23"
    ],
+   "description": "A simulation: as a member of the earthquake prediction committee, read geological data to forecast when the big one will strike and keep the economic damage down.",
    "diskMachine": {
     "sha256-fd-v1:d2db2141f6a464c59c6cb3932c43238cfccbb5d5e41cd3cd6dd68014e97cdc23": {
      "basic": "v1s"
@@ -53171,6 +53217,7 @@
     "sha256-fd-v1:6680fb37cac30867e4896eda11f3144cbac2b11e3bb5216c499a4610bd61f0e5",
     "sha256-fd-v1:8ea0ad0266dde959b46613413788b8714c578f5588ed70965a6ee4a1ba47b473"
    ],
+   "description": "ASCII's shogi game, with eight levels up to amateur first dan, tsume-shogi problems of up to fifteen moves, and printed game records.",
    "diskSets": {
     "sha256-fd-v1:8ea0ad0266dde959b46613413788b8714c578f5588ed70965a6ee4a1ba47b473": {
      "setDisks": [
@@ -53696,6 +53743,7 @@
    "contentIds": [
     "sha256-fd-v1:a2f5b6db7a802a879be594e55af0c25e878cf8c4f20594c013121e8bba5982e7"
    ],
+   "description": "A collection of solitaire games played with cards, mahjong tiles and colored panels.",
    "sourceGroups": [
     "neokobe:Ginga (SystemSoft)/Ginga [FD].7z"
    ],
@@ -54058,6 +54106,7 @@
     "sha256-fd-v1:395a4469289ad0849ae8bbca4e62ff2ee7cb894809d3bb2550e7f7ecb8b63fdd",
     "sha256-fd-v1:adf8beeea64f314247f95f3863a7c3a5bf53ea6889b1dd3b1b611e6d87efe717"
    ],
+   "description": "A tile-matching puzzle in the manner of Shanghai: turn over all 136 mahjong tiles in matching pairs.",
    "diskSets": {
     "sha256-fd-v1:395a4469289ad0849ae8bbca4e62ff2ee7cb894809d3bb2550e7f7ecb8b63fdd": {
      "setDisks": [
@@ -54306,6 +54355,7 @@
     "sha256-fd-v1:01bc51b318c2c684cd28580aa2d773b167861d2cfb23a35432cf36aecbd6d15e",
     "sha256-fd-v1:cc0718cdb7ac84fb8a334cfdfd15367d08905de3e0dc00a489917d4906f7d1d8"
    ],
+   "description": "Extra scenarios for Sorcerian produced by Conrad T. Ozawa and supervised by Falcom: five adventures, among them The Two-Headed Hellhound.",
    "diskSets": {
     "sha256-fd-v1:01bc51b318c2c684cd28580aa2d773b167861d2cfb23a35432cf36aecbd6d15e": {
      "media": [
@@ -54421,6 +54471,7 @@
     "sha256-fd-v1:158dbdbc7898ccd31060f0234a1dc620e6361bc840b725d2c4aba74198b4d2f7",
     "sha256-fd-v1:61b3daa6ed03ae10782e939ebac5ec952bc29690f0f0e3ec997fabb6b7d42611"
    ],
+   "description": "A board game in the manner of Monopoly: buy up tourist spots and grow rich on the dice, with place names and chance cards you can rename and computer players who react as they play.",
    "diskSets": {
     "sha256-fd-v1:158dbdbc7898ccd31060f0234a1dc620e6361bc840b725d2c4aba74198b4d2f7": {
      "setDisks": [
@@ -54519,6 +54570,7 @@
     "sha256-fd-v1:1f54442b64b0340c70f7b49996109b6a5ed6165e86c014baa8e33ba62317e011",
     "sha256-fd-v1:84de92fd06a75d0c4dcd2d17d31a694b0ca369909f4bd4906f06b824fcc09df0"
    ],
+   "description": "An election simulation: run against six other candidates through a 24-day campaign of posters, speeches and bribery, which can get you arrested, before voting day on June 30.",
    "diskMachine": {
     "sha256-fd-v1:1f54442b64b0340c70f7b49996109b6a5ed6165e86c014baa8e33ba62317e011": {
      "basic": "v1s"
@@ -54596,6 +54648,7 @@
    "contentIds": [
     "sha256-fd-v1:ec0f69c7c1997d84c85c1f0d4511aa76f9d70872aaff4ad29f134973aa65755a"
    ],
+   "description": "Shogi with Kōji Tanigawa: play five opponents with their own favorite strategies, solve forty tsume-shogi problems, or pick the best next move.",
    "sourceGroups": [
     "neokobe:Tanigawa Koji no Shougi Shinan II (Pony Canyon)/Tanigawa Koji no Shougi Shinan II [FD].7z"
    ],
@@ -55634,6 +55687,7 @@
     "sha256-fd-v1:1c2f85edae3cfdb338ab28859bab0f99a1652e89f3a1687f18353a229897454b",
     "sha256-fd-v1:481cdb0913047b70fc8e18c3057e34f1ef09d7245bfa7da6e7852ed72185f1b9"
    ],
+   "description": "Selected Sorcerian 2: two prize-winning scenarios from the Sorcerian scenario contest, Pandora's Box, in which the evils let out of a box must be put back, and The Scorching Trap.",
    "diskSets": {
     "sha256-fd-v1:1c2f85edae3cfdb338ab28859bab0f99a1652e89f3a1687f18353a229897454b": {
      "setDisks": [
@@ -55712,6 +55766,7 @@
     "sha256-fd-v1:759732c5ee6d12c9d6e810a475a039e6b277f1043e794d69eecc3d558caee8c2",
     "sha256-fd-v1:a98c57cbdfa38a28619bfa94a823ba33177a45040ce57e3af5d32ccd75ecc414"
    ],
+   "description": "Selected Sorcerian 1, the first of the Sorcerian scenario contest winners: The Beautiful Bride and The Town Where the Silver Light Went Out, with a magazine disk.",
    "diskSets": {
     "sha256-fd-v1:759732c5ee6d12c9d6e810a475a039e6b277f1043e794d69eecc3d558caee8c2": {
      "setDisks": [
@@ -56494,6 +56549,7 @@
    "contentIds": [
     "sha256-tape-v1:9666be57cad3d5d20f2a92d6fa85f5419c6c3a5b25426e8733d936df4f8cb4dc"
    ],
+   "description": "A numbers-driven baseball simulation for one or two players: call the pitch's course, type and speed, and give detailed orders at bat and on the mound.",
    "diskMachine": {
     "sha256-tape-v1:9666be57cad3d5d20f2a92d6fa85f5419c6c3a5b25426e8733d936df4f8cb4dc": {
      "basic": "v1s",
@@ -56547,6 +56603,7 @@
     "sha256-fd-v1:59785de9c967f0d95a9615ebcae6c61fda675d2a12e1fd9ebf6ab86d3d6c679f",
     "sha256-fd-v1:a35f93b8107d3eb64d1e0d0b2cef9513b64ae0d95bde789d0dd628edecf6d550"
    ],
+   "description": "A 3D wireframe flight simulator: fly the Red Wing with ailerons, rudder and elevator, take off and land, and destroy enemy fighters, factories and the super colony's control computer.",
    "diskSets": {
     "sha256-fd-v1:a35f93b8107d3eb64d1e0d0b2cef9513b64ae0d95bde789d0dd628edecf6d550": {
      "setDisks": [
@@ -57528,6 +57585,7 @@
     "sha256-fd-v1:37cb033f60689fa94b86cc6db0500916006eed09eb869e81a78c84788a56966f",
     "sha256-fd-v1:b580752950c7f2ddcc3be8027451a3fa51a1f8b96eaf17f963105b48cc2bdbde"
    ],
+   "description": "Selected Sorcerian 4: The Goddess Who Vanished into Darkness, the contest's only scenario by a woman, and the Chinese-flavored Youmugen Legend with jiangshi and pandas.",
    "diskSets": {
     "sha256-fd-v1:37cb033f60689fa94b86cc6db0500916006eed09eb869e81a78c84788a56966f": {
      "setDisks": [
@@ -58648,6 +58706,7 @@
    "contentIds": [
     "sha256-fd-v1:294ddb9ae8cb6196bd29b92929ba165c31e297b4f565836426f6df3e9700100a"
    ],
+   "description": "A war simulation of the Battle of the Coral Sea: lead up to four fleets toward Port Moresby against the American fleet in semi-real time, never knowing the enemy's losses until the end.",
    "diskMachine": {
     "sha256-fd-v1:294ddb9ae8cb6196bd29b92929ba165c31e297b4f565836426f6df3e9700100a": {
      "basic": "v1s"
@@ -58924,6 +58983,7 @@
     "sha256-fd-v1:ce56a8a70d4df65e349fa5f2a3fbc1f8a55633db472d6290f9a4d8d7c2445526",
     "sha256-fd-v1:d2614c01d13ba7b44f70ad33c73bd777d634458d84756ba2062e9c52c484ca88"
    ],
+   "description": "Music software for the PC-8801's Sound Board II, supervised by Koichi Sugiyama, with sample arrangements included.",
    "diskSets": {
     "sha256-fd-v1:4aaf74bb25e1e3ceb0ca957bfaf76ca3e2b10d53c6d40fafd23338105f081169": {
      "media": [
@@ -59437,6 +59497,7 @@
    "contentIds": [
     "sha256-fd-v1:76dc06c098b94dae8564135dfaac4bfa8dfb0ea6ac3b886d54469584029e030c"
    ],
+   "description": "A chess game with four levels, saved games, and a problem mode of mate-in-three puzzles.",
    "sourceGroups": [
     "neokobe:Chess-IV (H. Koiwai)/Chess-IV [FD].7z"
    ],
@@ -59974,6 +60035,7 @@
    "contentIds": [
     "sha256-fd-v1:1b7df955ddac13c902a571c35bb77b3b66448406360af1844804c43ba751c79b"
    ],
+   "description": "The forerunner of New Best Nine Baseball, by Hiroyuki Sonobe: manage a Central League team through the pennant race with detailed team data.",
    "diskMachine": {
     "sha256-fd-v1:1b7df955ddac13c902a571c35bb77b3b66448406360af1844804c43ba751c79b": {
      "basic": "v1s"
@@ -60203,6 +60265,7 @@
     "sha256-fd-v1:03baff199d69a03d4a03adafb23a3b7f932c8f1ca01082f1196309d761a78792",
     "sha256-fd-v1:3ae6627f77404744dbbf6ce980288d96437485600afb135fd8f41b0593d88f02"
    ],
+   "description": "A war game of World War II in Europe, North Africa and Arabia from the invasion of Poland to 1945: one to five players command six great powers' land, sea and air forces in three-month turns.",
    "diskSets": {
     "sha256-fd-v1:3ae6627f77404744dbbf6ce980288d96437485600afb135fd8f41b0593d88f02": {
      "media": [
@@ -60428,6 +60491,7 @@
     "sha256-fd-v1:5975346e71b55e94d51174a01c764709832ff0c8e4dbc444c377c018015f7161",
     "sha256-fd-v1:8d9399715214a37660ce006e412227c3453712abbf75fda964ccf1927e7ade58"
    ],
+   "description": "Selected Sorcerian 5: Go! Doto's Triathlon, a parody race with huge prizes and no danger of death, and The Seal, the hunt for an escaped werewolf convict on a remote island.",
    "diskSets": {
     "sha256-fd-v1:5975346e71b55e94d51174a01c764709832ff0c8e4dbc444c377c018015f7161": {
      "setDisks": [
@@ -60578,6 +60642,7 @@
     "sha256-fd-v1:084b406b172db6609ad03264da09648231c56811e7b619c5f2e051f364c0a971",
     "sha256-fd-v1:7cf2f2da5d25c4515c0b623a24d04777c57f647e17c280ece11ac8dcae230971"
    ],
+   "description": "Baseball played as a board game: take your team around the camp, season and other sheets on the dice against five computer teams.",
    "diskSets": {
     "sha256-fd-v1:084b406b172db6609ad03264da09648231c56811e7b619c5f2e051f364c0a971": {
      "media": [
@@ -61304,6 +61369,7 @@
    "contentIds": [
     "sha256-fd-v1:a13659fd8c85e33b66ceff0e3361df9a347d59b8b039ab3efb5afc1c31b1b53c"
    ],
+   "description": "Go and gomoku on a nine-by-nine board, with a lesson mode that teaches the rules of Go.",
    "sourceGroups": [
     "neokobe:Goyugi (BPS)/Goyugi [FD].7z"
    ],
@@ -61587,6 +61653,7 @@
     "sha256-fd-v1:066952adbaa0eb0bafe091b3b9421f2aab5ef9285187693a92201ec49c4d3ca1",
     "sha256-fd-v1:db19c5b2c94f2ab6331d3aa11c8045cc5eaf6cb7f5f933adf69ab7aa4128d4b8"
    ],
+   "description": "Tien Gow, the Chinese domino game, in which you bet on which of four hands is strongest, for one player against three set opponents or for four people.",
    "diskSets": {
     "sha256-fd-v1:066952adbaa0eb0bafe091b3b9421f2aab5ef9285187693a92201ec49c4d3ca1": {
      "media": [
@@ -61783,6 +61850,7 @@
    "contentIds": [
     "sha256-fd-v1:869066c582879beb5a35d6c2089e39ac69d99159ebf0c75b57e242e8fc9e6c31"
    ],
+   "description": "A Sengoku strategy game: five great warlords, among them Takeda Shingen and Uesugi Kenshin, compete through march, battle and intrigue phases taken in a random order each turn.",
    "sourceGroups": [
     "neokobe:Gunyuu Souha (Soft Plan)/Gunyuu Souha [FD].7z"
    ],
@@ -61948,6 +62016,7 @@
     "sha256-fd-v1:ed352d8cd4d69ac855ee0dc4f58d4e468966dc6c9f9f5cbfb9e967e001ccd682",
     "sha256-fd-v1:fef3983a9018b8067fe20d08e2adfde82394484610087e7f0fd3b2bd59ab5e39"
    ],
+   "description": "A text adventure by Thinking Rabbit: four hundred years ago Queen Madeleine died in prison for trying to poison her father, yet her portrait shows no trace of evil; set out to learn the truth.",
    "diskMachine": {
     "sha256-fd-v1:11e72cc9eb96c80d702f3d7e8478153685113850ca0756e0ec730ce6cc29d9ac": {
      "basic": "v1s"
@@ -63755,6 +63824,7 @@
     "sha256-fd-v1:0f98f521d6817a7cb090e5c1fdf2c47bcd8b95bfc9288dadc5e3a4a576d69a59",
     "sha256-fd-v1:357032d6cf255c6ec7e584156bad5c6adccaddcfa25b27a911c7c69c424ba2a1"
    ],
+   "description": "A role-playing game in the style of Wizardry: the space pirate ship Weird sets out again when it learns that an evil power granting eternal life sleeps on the planet Maria, with a party of five.",
    "diskMachine": {
     "sha256-fd-v1:0f98f521d6817a7cb090e5c1fdf2c47bcd8b95bfc9288dadc5e3a4a576d69a59": {
      "basic": "v1s"
@@ -63927,6 +63997,7 @@
     "sha256-fd-v1:046c32ae234d45fd383e8d8686a93ca378fa6250c8b93139c06889289f4b07e5",
     "sha256-fd-v1:d26a75a99f2355a93f4d80279b64ca561bddad5abb3121e7033ac2d7eb28d1e9"
    ],
+   "description": "The sequel to Irohanihoheto: the time-traveling warrior goes to Kyoto in 1582 to repair the history his last trip broke, so that the Edo shogunate lasts its three hundred years after all.",
    "diskSets": {
     "sha256-fd-v1:046c32ae234d45fd383e8d8686a93ca378fa6250c8b93139c06889289f4b07e5": {
      "media": [
@@ -64920,6 +64991,7 @@
     "sha256-fd-v1:4129afd5d28f7a90d1d09702d30a4bbad6888a1847bd1eb6eaf039be82d78cda",
     "sha256-fd-v1:56eb3c42e923da3ee4af789a3e2949a5bd88362b73bc34f6c344a9aa4c5fce40"
    ],
+   "description": "An extra scenario for Duel: the battle of Kawanakajima, as Takeda or Uesugi, with unit levels, arrow damage and dodging, ninja fireballs and an automatic battle option.",
    "diskSets": {
     "sha256-fd-v1:4129afd5d28f7a90d1d09702d30a4bbad6888a1847bd1eb6eaf039be82d78cda": {
      "media": [
@@ -65138,6 +65210,7 @@
     "sha256-fd-v1:e6c83017531fc128b2822ec18aa702dc33e51dd91bf4d8c6c3ac7c504aebffe9",
     "sha256-fd-v1:e7fd80f83ca1cfac1bcbe09aeabc30bc296437a051fe9183b2151d27ad04d940"
    ],
+   "description": "A port of the MSX game: as Lila of the psychic S-SWAT squad, uncover the supernatural invasion of the town of Chinese Hill, in a role-playing game whose battles are played as action.",
    "diskSets": {
     "sha256-fd-v1:e7fd80f83ca1cfac1bcbe09aeabc30bc296437a051fe9183b2151d27ad04d940": {
      "media": [
@@ -65233,6 +65306,7 @@
    "contentIds": [
     "sha256-fd-v1:6cec76b5fd8870e3e59125cfce9db36e2a0d89c963cf80bd962ab4974d55b467"
    ],
+   "description": "A fiendish puzzle game: get little Hina out of the water by catching rising buoys, which merge into balls and back again, through levels that grow brutally hard.",
    "diskMachine": {
     "sha256-fd-v1:6cec76b5fd8870e3e59125cfce9db36e2a0d89c963cf80bd962ab4974d55b467": {
      "basic": "v1s"
@@ -65505,6 +65579,7 @@
    "contentIds": [
     "sha256-fd-v1:f3415ed98cc28e0eb473b82b7cbc27cc6e62c42baf347be17ed02af0a4684c56"
    ],
+   "description": "A picture puzzle: lay cards on the board one at a time to rebuild a picture within a set number of moves, over ten pictures, with an editor for your own.",
    "diskMachine": {
     "sha256-fd-v1:f3415ed98cc28e0eb473b82b7cbc27cc6e62c42baf347be17ed02af0a4684c56": {
      "basic": "v1s"
@@ -65671,6 +65746,7 @@
     "sha256-fd-v1:aa2c64353d31ed099de1ead719d67eeb3dd25a48deb64318861e4c642e69ca58",
     "sha256-fd-v1:decd4ebf516834ad8d7d0387de3d4864d7516268a2d350eced14618e0be4c203"
    ],
+   "description": "Four card games, blackjack, poker, seven bridge and baccarat, played for chips that you donate to disaster areas around the world.",
    "diskSets": {
     "sha256-fd-v1:decd4ebf516834ad8d7d0387de3d4864d7516268a2d350eced14618e0be4c203": {
      "setDisks": [
@@ -65941,6 +66017,7 @@
    "contentIds": [
     "sha256-fd-v1:3d7f1b608a01cf34d295850bc06cece935ba55dd7aec2856a1534a11243ca4a0"
    ],
+   "description": "A side-scrolling shooter: in 1999, alien creatures attack science headquarters, and you fly the Super Heli to destroy them, scoring more for those that have transformed.",
    "sourceGroups": [
     "neokobe:Super Heli Dai Panic (Enjoy Soft)/Super Heli Dai Panic [FD] [b].7z"
    ],
@@ -66212,6 +66289,7 @@
     "sha256-fd-v1:5dc8d90e5ee5bd730da0418539655bea674566a4e892699492d59779a7a1c67c",
     "sha256-fd-v1:e97a87e1df9556303a10445b81dc70b1a7e8c392a6b26bda4426f65c21ebc5ea"
    ],
+   "description": "A port of the PC-98 mahjong game, with four-player tables, score records and opponents with their own habits; it needs a 64 KB RAM expansion.",
    "diskSets": {
     "sha256-fd-v1:5dc8d90e5ee5bd730da0418539655bea674566a4e892699492d59779a7a1c67c": {
      "setDisks": [
@@ -67026,6 +67104,7 @@
     "sha256-fd-v1:9de7c3a2710c33bc22e06f09bd645d811fd6abd3e0b4e1b15361234ab9eb8528",
     "sha256-fd-v1:dde29758f23c9a88f0d278a67505c4df1ff917db711982862b981b80003d8526"
    ],
+   "description": "Selected Sorcerian 3: The Cursed Ruins, where a bard's tale pulls you into the story, and the grand-prize winner The Temple of Time.",
    "diskSets": {
     "sha256-fd-v1:9de7c3a2710c33bc22e06f09bd645d811fd6abd3e0b4e1b15361234ab9eb8528": {
      "setDisks": [
@@ -67078,6 +67157,7 @@
    "contentIds": [
     "sha256-fd-v1:68bef94d856d389c3871f0c57ff0186ba3230bdf077f899ce4e8bf75e35012a4"
    ],
+   "description": "Mahjong against Chin-san, who carries the tiles to the table himself, with koi-koi hanafuda on the same disk.",
    "diskMachine": {
     "sha256-fd-v1:68bef94d856d389c3871f0c57ff0186ba3230bdf077f899ce4e8bf75e35012a4": {
      "basic": "v1s"
@@ -67144,6 +67224,7 @@
    "contentIds": [
     "sha256-tape-v1:3afde8b7fef18db575a8eec573c4a9e2052b930cef430a68d63b02c94b76bf18"
    ],
+   "description": "A carrier battle game: command the nuclear carrier Enterprise and three escorts, launching aircraft and tracking the enemy on radar to break through its defenses.",
    "diskMachine": {
     "sha256-tape-v1:3afde8b7fef18db575a8eec573c4a9e2052b930cef430a68d63b02c94b76bf18": {
      "basic": "v1s"
@@ -68500,6 +68581,7 @@
    "year": 1984
   },
   "pc88:moby-262884": {
+   "description": "Two card games: Pairs, a game of concentration, and Rotors, lining up five matching pictures in a row, column or diagonal on a five-by-five grid.",
    "mobygames": 262884,
    "title": "Pairs & Rotors",
    "year": 1985
