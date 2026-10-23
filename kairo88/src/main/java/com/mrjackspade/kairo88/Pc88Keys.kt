@@ -236,20 +236,25 @@ object Pc88Keys {
 
     /**
      * PC-88 action games read the numeric keypad far more often than the joystick port: the D-pad
-     * is the keypad's arrows, the left stick the joystick, and the right stick the cursor keys.
+     * is the keypad's arrows and the joystick, A and B are Z and X and its triggers, the shoulders
+     * are F1 to F4, the left stick the joystick, and the right stick the cursor keys.
      */
     fun defaults() = listOf(
-        ControllerBinding("virtual:a", listOf('Z'.code)),
-        ControllerBinding("virtual:b", listOf('X'.code)),
+        ControllerBinding("virtual:a", listOf('Z'.code), joystick = "button1"),
+        ControllerBinding("virtual:b", listOf('X'.code), joystick = "button2"),
         ControllerBinding("virtual:x", listOf('C'.code)),
         ControllerBinding("virtual:y", listOf(SPACE)),
+        ControllerBinding("virtual:l1", listOf(F1)),
+        ControllerBinding("virtual:r1", listOf(F1 + 1)),
+        ControllerBinding("virtual:l2", listOf(F1 + 2)),
+        ControllerBinding("virtual:r2", listOf(F1 + 3)),
         ControllerBinding("virtual:start", listOf(RETURN)),
         ControllerBinding("virtual:select", listOf(ESC)),
         ControllerBinding("virtual:menu", action = "menu"),
-        ControllerBinding("virtual:up", listOf(KP_0 + 8)),
-        ControllerBinding("virtual:down", listOf(KP_0 + 2)),
-        ControllerBinding("virtual:left", listOf(KP_0 + 4)),
-        ControllerBinding("virtual:right", listOf(KP_0 + 6)),
+        ControllerBinding("virtual:up", listOf(KP_0 + 8), joystick = "up"),
+        ControllerBinding("virtual:down", listOf(KP_0 + 2), joystick = "down"),
+        ControllerBinding("virtual:left", listOf(KP_0 + 4), joystick = "left"),
+        ControllerBinding("virtual:right", listOf(KP_0 + 6), joystick = "right"),
         ControllerBinding("virtual:lsup", joystick = "up"),
         ControllerBinding("virtual:lsdown", joystick = "down"),
         ControllerBinding("virtual:lsleft", joystick = "left"),

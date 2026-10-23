@@ -6723,6 +6723,7 @@
     "sha256-fd-v1:bb8eed97d5e79deb69ef8508588faa8f997a73bd7a3705b208b53133b5d21bd3",
     "sha256-fd-v1:ce0b7ac482fe38d527b2867c50af7e84f946b9da0e3d3fcd740d12719a873704"
    ],
+   "description": "A simulation game with the characters of Bubblegum Crisis, opening with an unexpected Boomer attack in downtown Mega Tokyo.",
    "diskSets": {
     "sha256-fd-v1:ce0b7ac482fe38d527b2867c50af7e84f946b9da0e3d3fcd740d12719a873704": {
      "media": [
@@ -7009,6 +7010,7 @@
     "Golgo 13"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/aa04edac-14ac-4323-9c92-94bbb6236aba.jpg",
+   "description": "The first computer game based on Golgo 13, a 1983 adventure designed by Hideaki Isozaki, in which the assassin investigates the murders of the Moretti family.",
    "developer": "Pony Canyon",
    "launchbox": "182534",
    "publisher": "Pony Canyon",
@@ -26327,6 +26329,7 @@
     "sha256-fd-v1:91c607ef50eba2a3b2a2012f031e88c580c71ffe2d31d0ae0aa68e33407c574d",
     "sha256-fd-v1:9218265155e58f7d1601b8a61b5f52077c3081f87cb1fdb9d31a3f44722bef8b"
    ],
+   "description": "A short romance adventure in which a love story unfolds while sightseeing around Kobe.",
    "developer": "Zainsoft",
    "diskSets": {
     "sha256-fd-v1:4cd57a71c479759f8bd493b943291f18506e352756fd1e34038bf1853ad38c2f": {
@@ -34268,6 +34271,7 @@
     "sha256-fd-v1:156672b7c562cd80a7d979efaa9f395d7bdb9424b70a7cd70dfbc8e965f0acb9",
     "sha256-fd-v1:2e300eca94ff1f02810cb67d066dc0798d3840d4cf2a202c8133478483457852"
    ],
+   "description": "An early dating simulation from Enix, released in 1985, which helped lay the foundations of the genre.",
    "developer": "Enix",
    "diskMachine": {
     "sha256-fd-v1:156672b7c562cd80a7d979efaa9f395d7bdb9424b70a7cd70dfbc8e965f0acb9": {
@@ -34407,6 +34411,7 @@
     "sha256-fd-v1:317dd338323f6644bfb028265e5a6a409ec4b3e242e0a09f0654977f1558947f",
     "sha256-fd-v1:81b90d321cd20a4c7887af8c7c2eb064190230a0a71b057f1796787cf5cfde55"
    ],
+   "description": "A doujin tank duel: aim your turret in eight directions to destroy the other tank, against the computer at two difficulty levels or watching it play itself.",
    "developer": "Studio K2",
    "diskSets": {
     "sha256-fd-v1:81b90d321cd20a4c7887af8c7c2eb064190230a0a71b057f1796787cf5cfde55": {
@@ -35173,6 +35178,7 @@
     "sha256-fd-v1:aceba8f05892b8e23f1e933388b8445f6190ed52d31fcbe2468c5215080872d9",
     "sha256-fd-v1:e879043f7b3541729b534350367ca9b59177f8fcc96f5bc57f07567ef1950424"
    ],
+   "description": "An adventure in which a mysterious message from a communication club leads the hero to five young women who each hold a clue to deciphering it.",
    "developer": "Studio Angel",
    "diskSets": {
     "sha256-fd-v1:a61ace89daa88fe62f264a554686c5f1f2a17571e244dd2e8b38f6af54ea8f60": {
@@ -36752,6 +36758,7 @@
     "sha256-fd-v1:5f6d73635ab6c75e4cb1aaa19a572c54f8d0942decc5b1170594867fe18e939d",
     "sha256-fd-v1:9e935f3d0e43e049ab6dc3cc947c09608b2bd656b826ea4016218209f59bc496"
    ],
+   "description": "A role-playing game set in the Happy Paradise, a country ruled by the wise King Aruman, whose princesses set out on a journey and never return.",
    "developer": "Shanbara",
    "diskSets": {
     "sha256-fd-v1:55f4ae53fdc90ab567d52843550394b3c3d48fefb19d1c94bc6cec1c1ba90b8c": {
@@ -39714,6 +39721,7 @@
    "contentIds": [
     "sha256-fd-v1:d242b27d7f628706f2292408a534aed6e4ceb4a4f48d58b7ca5d542a553dac81"
    ],
+   "description": "An action game in a field of giant bamboo: shoot the right section of bamboo before you run out of ammunition, while birds harass you.",
    "developer": "Pony Canyon",
    "diskMachine": {
     "sha256-fd-v1:d242b27d7f628706f2292408a534aed6e4ceb4a4f48d58b7ca5d542a553dac81": {
@@ -46327,6 +46335,7 @@
     "sha256-fd-v1:e9773de262728fb180527e68dd61687d4f215b135559f69c7072ad07a676b7d6",
     "sha256-fd-v1:ea602b5a2e76cac193fc422c8666f8fc88fb61a588a035a255e3d2a7a116a9da"
    ],
+   "description": "A dating simulation in which you plan dates with college women, each with her own personality, while keeping an eye on your wallet.",
    "developer": "Cross Media Soft",
    "diskSets": {
     "sha256-fd-v1:396fd1947fdac4b964e87f21b1eed71df4aa2e71a18ed9d0fd895a2aa4d5953c": {
@@ -50363,6 +50372,7 @@
     "sha256-fd-v1:31b57a68f0527c9b354daa8f9e6d3fc6a970d7bf4137f0d4b30196975d816530",
     "sha256-fd-v1:a1d4a98de98fd479cae6e376cf60d958c3070275bb1a89624b98640f4d701a86"
    ],
+   "description": "An adventure in which the legendary mercenary Jamie Star travels to Shanghai at the height of the Cold War to recover a client's cargo, amid conspiracies and the city's underworld.",
    "developer": "Starcraft",
    "diskMachine": {
     "sha256-fd-v1:156fe003f6e684be252ebc2b821e5d63f9c2f3a39ea6937c9c13b9eee0138b81": {
@@ -51107,6 +51117,7 @@
     "sha256-fd-v1:3d2d846fd0f0913bd68878350909b18ec44816444f4f931953f3e37d4c01f0ef",
     "sha256-fd-v1:ba3b6b1aff880f7ee31ab2ad693a09ab317645f0820dc8af56bb2c9266b4c436"
    ],
+   "description": "An adventure set at the Military Academy of the U.N. Space Force, a women-only school that trains its students to pilot mecha.",
    "developer": "Studio Angel",
    "diskSets": {
     "sha256-fd-v1:ba3b6b1aff880f7ee31ab2ad693a09ab317645f0820dc8af56bb2c9266b4c436": {
@@ -67729,6 +67740,7 @@
     "preview": "art/catalog/moby/205184/screenshot-fef9a8b31f2b.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/205184/screenshot-fef9a8b31f2b.webp"
    },
+   "description": "A science-fiction adventure set after a global catastrophe in 1999, when the organisation Black Shadow blackmails the Earth Federation with the ultimate weapon Spectron.",
    "mobygames": 205184,
    "title": "Erika: SF Adult Adventure",
    "year": 1986
@@ -68131,6 +68143,7 @@
     "preview": "art/catalog/moby/256799/screenshot-f88ff26b08f8.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/256799/screenshot-f88ff26b08f8.webp"
    },
+   "description": "An action game in which you search a bamboo grove through the seasons for the hidden Kaguya-hime, dodging bird droppings and bombs.",
    "mobygames": 256799,
    "title": "Ōi! Kaguya-hime: Kinuginu no Wakare",
    "year": 1983
