@@ -3108,6 +3108,7 @@
     "sha256-fd-v1:7a8fef492b1bbb8e1a5d5688656ee5228a2f183007ecc1984977362bd0235335",
     "sha256-fd-v1:9ccdf5fad223c708e4a381fffe2736ebfb641f888911b4e80f5ec377e56c7ff1"
    ],
+   "description": "An adventure based on the anime film: at Graviton High, in a city rebuilt over an alien crash site, the superhumanly strong A-ko and her friend C-ko face the rich, brilliant rival B-ko.",
    "diskSets": {
     "sha256-fd-v1:7a8fef492b1bbb8e1a5d5688656ee5228a2f183007ecc1984977362bd0235335": {
      "setDisks": [
@@ -3625,6 +3626,7 @@
     "sha256-fd-v1:8fd3087f183e249a7bfcaabb09226d07f12c33b6a6ecb3217cbfc6849cd7277b",
     "sha256-fd-v1:e4d57b776ce950a1e7af5d524872fc1945c0d201aa73d715c9a46b388c19def9"
    ],
+   "description": "Seven short stories, each a life lived on the way to becoming a holy spirit, played in different ways (a role-playing story, a surgery, a puzzle) and tied together at the end.",
    "developer": "Enix",
    "diskMachine": {
     "sha256-fd-v1:5a2016f0e8f22c97f8cf9d7cfd228803eb0d7fcc992bac19bbdc0700b2b5099b": {
@@ -4219,6 +4221,7 @@
     "sha256-fd-v1:e85abf05d71ab3c0ae8bfa220b2128ca70ec6efc0629f9fe5e714badb221b621",
     "sha256-fd-v1:e8c1ef6b6b5d22e0377790fb56c42c81b5d5861ce562b275b69ed6fdf234557d"
    ],
+   "description": "An adventure game drawn from Hayao Miyazaki's manga and film: Nausicaä, princess of the Valley of the Wind, tries to stop Tolmekia from using an ancient weapon against the jungle of giant insects.",
    "diskMachine": {
     "sha256-fd-v1:a9adc87c60d5d60030fc8439750775bc4409a0efb47dfe201033497e48298589": {
      "basic": "v1s"
@@ -4315,6 +4318,7 @@
     "sha256-fd-v1:3da05a15940981efdb9b6c30149f3e9474d7b284889fd4fe5504f9a6ff82c0bb",
     "sha256-fd-v1:5e7e2c71676fd59afc63829428c4de90f3b21b16a7f54a28f92ce0208b44bbe4"
    ],
+   "description": "A Lupin III adventure: Babylonian tablets found in Manhattan point to the original Tower of Babel, built of solid gold, and Lupin races the Mob to it.",
    "developer": "Toho Company",
    "diskSets": {
     "sha256-fd-v1:3da05a15940981efdb9b6c30149f3e9474d7b284889fd4fe5504f9a6ff82c0bb": {
@@ -5604,6 +5608,7 @@
    "contentIds": [
     "sha256-fd-v1:ec58834dd77b4a0475aa2fdff6e977d7e3e0f375afcd7c2578588fa9f94d7adb"
    ],
+   "description": "A space adventure in which Seiko must solve a string of puzzles quickly or lose her mind and end up in hospital.",
    "launchbox": "181074",
    "publisher": "Enix",
    "sourceGroups": [
@@ -5658,6 +5663,7 @@
     "sha256-fd-v1:075f8a1a34a4fd08117735743141bf6037de54ad4c1e7b411b1d6025261bc9bb",
     "sha256-fd-v1:4ef425b6d13c3735fe6a55aacfd5e4bdba11e11abb270b191a0b46d04011d36f"
    ],
+   "description": "An adventure in Random House's series: a dark apostle seeks the legendary mirror of Laval to make himself ruler of the world.",
    "developer": "Random House",
    "diskMachine": {
     "sha256-fd-v1:075f8a1a34a4fd08117735743141bf6037de54ad4c1e7b411b1d6025261bc9bb": {
@@ -6777,6 +6783,7 @@
     "sha256-fd-v1:6f6a7142552cfcd36fb3bec49ed4bd3807576c00bfa6fceced180b67c33e6b95",
     "sha256-fd-v1:e9e5799f5ac6011345387236e5b70dbd9788a3cee10185ba7f6662dae372825c"
    ],
+   "description": "A science-fiction adventure: sent to confirm where a freighter bound for Amon crashed after a meteorite pierced its cockpit, you find a sealed container among its cargo.",
    "developer": "Cross Media Soft",
    "diskSets": {
     "sha256-fd-v1:684c6b4cec2d15455a7d513ab3fe2ebbef3ecfc1db533f144079758ceb82de22": {
@@ -7045,6 +7052,7 @@
     "sha256-fd-v1:9397f21f7545a0a36291540ab994d0d4571459c8e1e922124582cf70907c488e",
     "sha256-fd-v1:a4ae2e6b65f26fadc5e6f3599aa775a38eab5aaf80f05d42bff172a54df043e2"
    ],
+   "description": "An adventure based on the Dangaioh anime: the four psychic teenagers find the girl Ranpa in a cryogenic chamber, and Dr. Tarsan's robot army comes after her.",
    "developer": "Technopolis Soft",
    "diskSets": {
     "sha256-fd-v1:1e64889ce00580afddf2740e43745020a01d74e9660531dbb4ee8c0a9815a0a3": {
@@ -8103,6 +8111,7 @@
     "sha256-fd-v1:b77575462df6842267f953b507b07f62a123caa96b79d1edf19c76c450c26d9f",
     "sha256-fd-v1:c6c3e46e30768a0995600d9d51e1888dc51d221ea2ac61bfcb3e9cb22628a03a"
    ],
+   "description": "An adventure: the hero follows a woman named Daisy into another dimension, a battlefield between warrior women and the monsters who serve its Queen.",
    "developer": "DataWest",
    "diskSets": {
     "sha256-fd-v1:7797124b7bb8f6c92c14dc44e05e372d188dc765edeb841ce8ceca5bb520f5bc": {
@@ -8814,6 +8823,7 @@
     "game": 136890,
     "platform": 88
    },
+   "description": "An adventure based on the first Godzilla film, in three parts: investigate the first attack, pursue the monster and work out how to stop it, then face Godzilla with the Oxygen Destroyer.",
    "developer": "Toho",
    "launchbox": "186890",
    "publisher": "Toho",
@@ -8916,6 +8926,7 @@
     "sha256-fd-v1:c586cc12f0acac5db63dc17bb90d2e3855c79926f033017d6fc5a4ec75c8e54c",
     "sha256-fd-v1:d8354eff91d91b4d0456810dc306c2f6ec3f02699281a7f29a597d907d858091"
    ],
+   "description": "A school mystery: an anonymous letter threatens revenge on St. Eastern High, and the new teacher looks into it while transfer students are bullied into leaving one by one.",
    "developer": "Amorphous",
    "diskSets": {
     "sha256-fd-v1:87f8fbcd94c5aba1b8015870530f5f5853c0b4ba6683dccf4703dd5355f7dff6": {
@@ -9021,6 +9032,7 @@
     "sha256-fd-v1:55731de7f634964f5327d1c5e9865c16841851e516ce248fc004cc6f3b42dfa7",
     "sha256-fd-v1:bf98deacea1b97c4bb8009cb48643b47835bdc6a5bc839040e675d76db26d5f8"
    ],
+   "description": "A dating game: win a woman's interest over conversation in a café, then beat her at blackjack.",
    "developer": "Dott Kikaku",
    "diskSets": {
     "sha256-fd-v1:28828cf5aefac732b897a873e7c446738e12fe82287627703835b9e690bcef07": {
@@ -25748,6 +25760,7 @@
     "sha256-fd-v1:4c77ef83d529ce3ab60ed689bc5d7915f773bc8767f20db0d608f6002900cb64",
     "sha256-fd-v1:c3dad968c1c1305faf22e2a441879fc9a3222e6f4d63b8ef1f1a7932684ac13c"
    ],
+   "description": "The sequel to Lagrange L-2, starting in the shuttle right after the first game's ending, with Zera missiles already closing in.",
    "developer": "Vehicle Soft",
    "diskSets": {
     "sha256-fd-v1:4c77ef83d529ce3ab60ed689bc5d7915f773bc8767f20db0d608f6002900cb64": {
@@ -26277,6 +26290,7 @@
     "sha256-fd-v1:93a6f268ef95a9e4e5db5ea94574580c1a58b6d31d58e1740f21439f386ac954",
     "sha256-fd-v1:e0e77da30d2747a778a381bc431403b4f6837b67eb8da8349849e89058babcda"
    ],
+   "description": "A detective adventure: a staged kidnapping meant to stop a political marriage turns into a real abduction.",
    "developer": "Champion Soft",
    "diskMachine": {
     "sha256-fd-v1:11c2d868dd58d0095ffafd47685b228caad7410797c73352f35e87aebd2e05f0": {
@@ -30327,6 +30341,7 @@
     "sha256-fd-v1:3c9b3bd1e2ecfe08de59230f63372d48b050d96ec86251f581f007797a02592c",
     "sha256-fd-v1:4fbd89ae475b83c01280cb10896d39f7d5655c2084e45314ce82ff238bb1abff"
    ],
+   "description": "A four-player mahjong game billed as the strongest of its day, with a study mode; the disk boots on both the PC-8800 series and the PC-8001mkIISR.",
    "developer": "dB-SOFT",
    "diskMachine": {
     "sha256-fd-v1:3c9b3bd1e2ecfe08de59230f63372d48b050d96ec86251f581f007797a02592c": {
@@ -32893,6 +32908,7 @@
     "sha256-fd-v1:6bd0f1bf01c43647010c2fbee1aae07cfc09143b06c4584dc32cea9a04a4d20e",
     "sha256-fd-v1:fce59eaaf59080d0d961ccb29cd94b47d4e6f50b66284a48b715f18d08ae1cde"
    ],
+   "description": "Kogado's role-playing game: monsters pour through the reopened Vandoora passage, and a young hero chosen by the elders sets out to win back the Seal from the monster queen Terarin and close it again.",
    "developer": "Kogado Software Products",
    "diskMachine": {
     "sha256-fd-v1:01830fe1a1e663e4a39db63b8d807267318e4166adaa824d22de4e0ddb062ed8": {
@@ -33434,6 +33450,7 @@
     "sha256-fd-v1:cbb56ddf5e18517139421dd9450d2918da3a8a1c6ff5b108bf6c638398870123",
     "sha256-fd-v1:e909ecd2b54a5b0ed99d96c1b5d60227986babc0a97b05ccb407f7069436c372"
    ],
+   "description": "An adventure in which a young wizard's apprentice runs into one trouble after another in a village along her journey.",
    "developer": "Teikoku Soft",
    "diskMachine": {
     "sha256-fd-v1:6270289567bc0143c5568ed47ab8862dde35fc6a82f661e372b44cf33a655b5a": {
@@ -35030,6 +35047,7 @@
     "sha256-fd-v1:12d9141df61cd5601827797676a9b706fb3fe092b25c75a7fd1a5c69330ce4f4",
     "sha256-fd-v1:1c7021a6aa3f98e451229b818c35cf44c3699320459f53755bb124ccffa6e3b4"
    ],
+   "description": "An occult adventure set in a village near Greece in 1941, as the German army approaches: a search for the Holy Grail and the occult research of the Germans.",
    "developer": "Zenryuutsuu",
    "diskSets": {
     "sha256-fd-v1:1c7021a6aa3f98e451229b818c35cf44c3699320459f53755bb124ccffa6e3b4": {
@@ -35995,6 +36013,7 @@
     "sha256-fd-v1:ca1bef602a6fdd621989cd541cd0ee942eeedefe4772904e76d7f3d19e089c8b",
     "sha256-fd-v1:d2c18ec6b9c110aebccebd8b58e411699733c9d461b9d0a1943b8d0de7e97c61"
    ],
+   "description": "An adventure: a date at a coffee shop reveals that she is a witch, and you are pulled into her world and must find her to get back.",
    "developer": "Great",
    "diskMachine": {
     "sha256-fd-v1:2690f1ef414e74e9105ca23c2a998d9942d95d27fbb8d2bc7d00ca4f716f8683": {
@@ -36261,6 +36280,7 @@
   },
   "pc88:196912": {
    "boxArtUrl": "https://images.launchbox-app.com/2e60e74e-9aeb-45d9-83f1-55fb30398506.jpg",
+   "description": "A time-travel comedy adventure: a student sneaks into school at night to fix a wrong test answer, is sent back to 1169 on the eve of the Genpei War, and must change history to fit his answer.",
    "developer": "Studio Angel",
    "launchbox": "196912",
    "publisher": "Zenryuutsuu",
@@ -36654,6 +36674,7 @@
     "sha256-fd-v1:dd986a937ba5c51783ca101d1291b31da249feb96ab2ace427503ae0aa771eb0",
     "sha256-fd-v1:f8ff54d17543cd0a25a8870ec4d379bca386f79130db08f3b9088db673a8c6d4"
    ],
+   "description": "An adventure: a teenager with 450,000 yen in his pocket sets out to meet girls in the city's entertainment district.",
    "developer": "Micro Cabin",
    "diskSets": {
     "sha256-fd-v1:dd986a937ba5c51783ca101d1291b31da249feb96ab2ace427503ae0aa771eb0": {
@@ -36699,6 +36720,7 @@
     "sha256-fd-v1:d7c8fc066914e3fdd550690c12c2851e6d6e19133b3e87474935678d5bfd5675",
     "sha256-fd-v1:e6350fdeef90d8e6a96b790f940d0f72d0b53e279a24f12f4ee9adeb08727348"
    ],
+   "description": "An adventure in which the legendary Genji hunts for a killer.",
    "developer": "Gamu",
    "diskSets": {
     "sha256-fd-v1:d7c8fc066914e3fdd550690c12c2851e6d6e19133b3e87474935678d5bfd5675": {
@@ -36741,6 +36763,7 @@
     "sha256-fd-v1:507f0cc25bfaa91294977630413f5eb5f7ed9a92377c506cc4166f25526d53a2",
     "sha256-fd-v1:6f2d8c8bfad504d75a35841c7502ed6db68558e56fc4b564d0860b2cb196f16b"
    ],
+   "description": "An adventure: asked to rescue an acquaintance's sister, gather information in town, then infiltrate the castle where she is held and get past its traps.",
    "developer": "Champion Soft",
    "diskMachine": {
     "sha256-fd-v1:507f0cc25bfaa91294977630413f5eb5f7ed9a92377c506cc4166f25526d53a2": {
@@ -36875,6 +36898,7 @@
     "sha256-fd-v1:9cc0e286c1f05a8f5860ee25518122c2eaa0fd27415a081e3635ef5e3c039b6a",
     "sha256-fd-v1:b71850d8b13fa2461ae4105c927e3e943dce2fdd050609123e3245f61b2c4999"
    ],
+   "description": "A horror adventure: a journalist covering the massacre of a village cult whose members killed each other finds a secret altar, then is sent to report on a black tower that has appeared in the Vietnamese jungle, rumored to breed monsters.",
    "developer": "Soft Studio Wing",
    "diskMachine": {
     "sha256-fd-v1:22b0cbe276839d320a17d454d9550fb859ff1f655cb213a638336519ba03c9ff": {
@@ -37281,6 +37305,7 @@
     "sha256-fd-v1:664be90d905a75e9d5e0c2e78d2db128e0034dd54baa699b85b8fa8355fe1041",
     "sha256-fd-v1:721cde47f62d5d7759e788e171753ed89ae43ec4715e740d4232d42038aa44a3"
    ],
+   "description": "A science-fiction adventure: android women, made when human fertility fell and now unwanted, are being hunted, and android hunter D is sent after three runaways.",
    "developer": "Great",
    "diskSets": {
     "sha256-fd-v1:020f6993db7bb6863bac267a4a0706f7a439bd50f5045f17cbc197bc01536270": {
@@ -37679,6 +37704,7 @@
     "sha256-fd-v1:8c2e55ebbd12892bca97e21f6cef9d039d485cef81fb146d6c39537f37af53d6",
     "sha256-fd-v1:9e79fb2b4be279845b384c646a9cfc54f8c79aaefd083bd7f89afaf619f2c8a2"
    ],
+   "description": "The second Kudokikata Oshiemasu: a dating game with five adult women to win over in conversation.",
    "developer": "HARD",
    "diskSets": {
     "sha256-fd-v1:7f1b95b818b356df1b47e21b150ae79761b787093569cce1bba6a4bc274fb31f": {
@@ -38368,6 +38394,7 @@
     "sha256-fd-v1:c64e95173842151be9fd8dd7c401fbf2c460e7a35f2c8e0b29d93b798971b2ca",
     "sha256-fd-v1:fb7cdb7982f84a7249b4a47b6d2715161acb5d15611992e3a7fe059b4b879bb1"
    ],
+   "description": "A dating game: pick the right replies in conversation to win over each woman.",
    "developer": "HARD",
    "diskSets": {
     "sha256-fd-v1:c64e95173842151be9fd8dd7c401fbf2c460e7a35f2c8e0b29d93b798971b2ca": {
@@ -38597,6 +38624,7 @@
     "sha256-fd-v1:eaf497c9cf9f0bbc5de1c91f970badda8d237d7b6546bbbb11cb4314ed68a42f",
     "sha256-fd-v1:f84e75efd5005673a1981f13d5f23f762e8e7abc34a6dd08fedf20b754563f4e"
    ],
+   "description": "A comic two-player mahjong game with a Power Tsumo that can draw the tile you want, a wandering story mode, and a mode whose tiles are characters from dB-Soft's Woody Poco.",
    "developer": "dB-SOFT",
    "diskSets": {
     "sha256-fd-v1:00ae0ddc2ca28f4622fc3dc9f173053cb37a36dc52bbdc4d87204838e10329ae": {
@@ -38737,6 +38765,7 @@
     "sha256-fd-v1:fc97f0e9d03bd15486e420e1b4991eacad244825f9e83f44a23559e2a0219bdf",
     "sha256-fd-v1:fd603ce980c0bac4825c752276d89a3d1e1f70629187ae27a4985d21ecd859d0"
    ],
+   "description": "The sequel to Konya mo Asa made Powerful Mahjong, with more opponents, a player name and montage face of your own, and a title screen that changes with the date.",
    "developer": "dB-SOFT",
    "diskSets": {
     "sha256-fd-v1:c90bef1be8887216da5e622f3334fa8e91e48a3e8b962bc17e351745364945f4": {
@@ -38847,6 +38876,7 @@
     "sha256-fd-v1:cf5e93795d8a36a847906d4bd7fbff6765f0b08ddd514d91a6306dc20ffd2511",
     "sha256-fd-v1:d3d387bef79c09c3dad26d78b6b9dba0b9cfffe8bac45523fa7b4d90e541b5b8"
    ],
+   "description": "A detective adventure: a friend's fiancé is found dead in a park, and you start investigating.",
    "developer": "FairyTale",
    "diskSets": {
     "sha256-fd-v1:2f2da33d52e5ba635e01d12f3e1008f46779fee3b647a913e497f17fcd95ecad": {
@@ -38913,6 +38943,7 @@
     "sha256-fd-v1:e2dcb758c0bc16732ff6f2110edee02502873ab70d9d01e241d578f359491c5d",
     "sha256-fd-v1:faf431939c2416967a0765dac41af7a4c52aab5b0c36c89efa368c404c6d0617"
    ],
+   "description": "A detective adventure: hired to stage a fake marriage with a client, the detective sees her killed during the wedding and investigates her friends and acquaintances.",
    "developer": "FairyTale",
    "diskSets": {
     "sha256-fd-v1:c3a19b4b4e135a32d3ec080eebb0eca01ab4f7afd222b2361dd3fe756d7672bd": {
@@ -39350,6 +39381,7 @@
     "sha256-fd-v1:4414e1ebfafaad10f3908e388e4de1fe5afffc2157b924aa9e90c09f3959b513",
     "sha256-fd-v1:e6d22671896d66e0f7a140fc8d4280f7813ec8f6fd5494f3e274b0a28ae2fd44"
    ],
+   "description": "Part of the Sexy Voice series: Kumiko is warped to ruins on an island and attacked by a monster, the incarnation of her ancient enemy.",
    "developer": "System House Oh!",
    "diskSets": {
     "sha256-fd-v1:4414e1ebfafaad10f3908e388e4de1fe5afffc2157b924aa9e90c09f3959b513": {
@@ -39709,6 +39741,7 @@
     "sha256-fd-v1:5d7b5fbace3be92846d9743c53c97bebbeb1ebae45e4fbb410b1a684fbddfcb3",
     "sha256-fd-v1:b84a6ae244e98b5c20b3b1d8707347023997a5307c7df847a4919d0f0c30b564"
    ],
+   "description": "A comedy adventure: a student rents a room from a young landlady whose father has vanished and whose building is haunted, and agrees to clear out the ghosts and find him.",
    "developer": "Studio Angel",
    "diskSets": {
     "sha256-fd-v1:4d2fc04756e59b20f53f6077d03515c4458be96e216b4cd2448a730c87bc78bd": {
@@ -39794,6 +39827,7 @@
     "sha256-fd-v1:8ad49e9dba842e56546c0112c2bdc870544e885228c8e5c49a698d38ec80ca90",
     "sha256-fd-v1:e220b9c356702d4199e99260e4892878fd57b6d562177abbae74bb3f89b31b64"
    ],
+   "description": "A collection of short stories, chosen by the player's gender and one of five age groups, ranging from a children's story about a kitten to a hospital story.",
    "developer": "Technopolis Soft",
    "diskSets": {
     "sha256-fd-v1:e220b9c356702d4199e99260e4892878fd57b6d562177abbae74bb3f89b31b64": {
@@ -39848,6 +39882,7 @@
     "sha256-fd-v1:e2b3ec1c4621c2d71988328b84bbfeac0666207551a6cbd92af34108be01d04d",
     "sha256-fd-v1:ef3e4e2062d175089e2532c789724836e179b21384b983274f77838c3c677065"
    ],
+   "description": "A murder mystery: asked to look after his uncle's pension in Kiyosato, Hayaichi Kanzaki finds his uncle killed, and every guest has a motive and a different story.",
    "developer": "Adult Inn",
    "diskSets": {
     "sha256-fd-v1:2a1244176cadeda03bb933ea108f00ccce04ee7cd9bd447288e89cf41115db3c": {
@@ -40477,6 +40512,7 @@
     "sha256-fd-v1:4d40473aafb2a01d9a217407744447d1b54036681a5292641352461c9d98adaf",
     "sha256-fd-v1:8ad15f41d75e8f0b7da7fe4c304a2cb0e0176b525b822225e5d5b52f69f62b35"
    ],
+   "description": "An adventure: chosen by the gods to represent humanity, the hero is dropped into another world with only the words \"Have fun!\"",
    "developer": "Striker",
    "diskSets": {
     "sha256-fd-v1:4d40473aafb2a01d9a217407744447d1b54036681a5292641352461c9d98adaf": {
@@ -40878,6 +40914,7 @@
     "sha256-fd-v1:d721574ea2c9d1001441e8ee6d2e30171a1b9bc58e6398e615edb5804d676b26",
     "sha256-fd-v1:fff9142db037a6b4f1e9e380b5d4a01101d1f5222f77c87f65324be94c17d37f"
    ],
+   "description": "An adventure: an entertainment reporter sent to photograph a rival idol's night out starts to question the job and gets closer to the truth.",
    "developer": "Cocktail Soft",
    "diskSets": {
     "sha256-fd-v1:49ba31ebc43ba4fbf72770835baf8c1659d08ed712feb7e7c6254e39267f0c76": {
@@ -40944,6 +40981,7 @@
     "sha256-fd-v1:8760e241ed2ce63b758fb87b35153787f41cad3ea498707f391480f9adbc01f2",
     "sha256-fd-v1:bbd10f1cee0509efd79903c01e130459c8f3582812d29d28b1ff874b2f698fa8"
    ],
+   "description": "A detective adventure: a famous writer who has just announced her engagement is threatened and blackmailed, and the search for her stalker turns into a murder case.",
    "developer": "Champion Soft",
    "diskSets": {
     "sha256-fd-v1:037840e972f07d156da523c439229624491a9a7b11e5fd21e201f648045f60ec": {
@@ -41516,6 +41554,7 @@
     "sha256-fd-v1:6269040c5608cef6560ec58b833a4895a16e6e2ca0dba89171d785272bc68e57",
     "sha256-fd-v1:fafee390def2780e5e4712b3213c85ca3b9f8cdac1ea1a0b51c316d203a5a752"
    ],
+   "description": "A murder mystery: from an observatory atop a skyscraper, the hero sees a murder through the telescope and tries to stop the killer from afar.",
    "developer": "Victor Musical Industries",
    "diskSets": {
     "sha256-fd-v1:1645d5d22941432052f22b1c7f08eed2149a3f41f25853b042bbbd5f0b83a8e7": {
@@ -42018,6 +42057,7 @@
     "sha256-fd-v1:cae5c19a7c856c32d7f4a460bea516990851c69b3ea3544ddbfaee3dd4229c3a",
     "sha256-fd-v1:d2dc210cdddf374e14db63c9059028bef7f4727f232f2ca0581da720c0d1a300"
    ],
+   "description": "A supernatural adventure: the feud between the Kuki and Yasha clans, running since the Meiji Restoration, closes in on the heroine Kyoha Kuki.",
    "developer": "HARD",
    "diskSets": {
     "sha256-fd-v1:1c924084298de740207da1ae00f1e5d8dd7629efa35518837d360f4e84e68ef0": {
@@ -42412,6 +42452,7 @@
     "sha256-fd-v1:3a6b393df0f19c7aacea87a07411d17188d55301e38e1c7f53545c14103d7164",
     "sha256-fd-v1:48a0a6eb63efa9a25013c24b3dc7463380ece8723b91e9c466c37f5defd3baec"
    ],
+   "description": "An occult detective story: the spirit detective Shura helps the Tokyo police with a man drained of all his blood and a girl's death in another prefecture.",
    "developer": "Hot-B",
    "diskSets": {
     "sha256-fd-v1:48a0a6eb63efa9a25013c24b3dc7463380ece8723b91e9c466c37f5defd3baec": {
@@ -42459,6 +42500,7 @@
     "sha256-fd-v1:5f57c6fd331deb74a64db42a477bf9c7d08fb44a3a9a4e0b733b03d49d3f0fa7",
     "sha256-fd-v1:f79b01b015466807c33d4d8717a9dfe15105e20fe8b95b7c5ad10c10456cb0fd"
    ],
+   "description": "A detective adventure: investigating a girl's apparent suicide, the detective learns from her sister that she often visited a railroad crossing.",
    "developer": "Clest",
    "diskSets": {
     "sha256-fd-v1:f79b01b015466807c33d4d8717a9dfe15105e20fe8b95b7c5ad10c10456cb0fd": {
@@ -42501,6 +42543,7 @@
     "sha256-fd-v1:8da2845846ee8dcbd833905c1663f32d38c144aaa45ed2a881e55799d93f88c7",
     "sha256-fd-v1:afee41a31f92ec0d6e01ca4cf8bb4a4d67625276a1052cffec2437e92d7b0651"
    ],
+   "description": "A horror adventure: six friends find an ancient temple in a cave, one takes a comb from it, and from then on she has nightmares while the others die one by one.",
    "developer": "Gamu",
    "diskSets": {
     "sha256-fd-v1:8da2845846ee8dcbd833905c1663f32d38c144aaa45ed2a881e55799d93f88c7": {
@@ -44442,6 +44485,7 @@
    "title": "Shin Taketori Monogatari"
   },
   "pc88:207467": {
+   "description": "A fantasy based on the legend of Doukyou, a mirror spirit of the Nara period.",
    "developer": "CSK Research Institute",
    "launchbox": "207467",
    "publisher": "CSK Research Institute",
@@ -44745,6 +44789,7 @@
     "sha256-fd-v1:2c000ddb61208900d6f7a311ec7af29b43634acd30c4ecb6b4cad5f2b799299f",
     "sha256-fd-v1:6b36442bd7fe0f1989706f82ec79302e1a12f92400c86be951803777d7538b63"
    ],
+   "description": "An adventure: four people locked in a mansion full of youkai search together for a way out.",
    "developer": "Dott Kikaku",
    "diskSets": {
     "sha256-fd-v1:6b36442bd7fe0f1989706f82ec79302e1a12f92400c86be951803777d7538b63": {
@@ -45143,6 +45188,7 @@
     "sha256-fd-v1:17b7998a4f32ec1e17e303defb00761ee68567924fd7f3a3c3614b9797472fef",
     "sha256-fd-v1:9da3cd952c1e93c3922d3d887520469f0a8b7d5799f0a471a395ac0c7de8d677"
    ],
+   "description": "An adventure: a mysterious old man says the door to another world opens for whoever finds three treasures, a famous sword, a secret medicine and ancient documents.",
    "developer": "Champion Soft",
    "diskMachine": {
     "sha256-fd-v1:17b7998a4f32ec1e17e303defb00761ee68567924fd7f3a3c3614b9797472fef": {
@@ -45686,6 +45732,7 @@
    "contentIds": [
     "sha256-fd-v1:e930bbce0c36c669e435a12724e10f5255359779add4f9c9f1f8db050324bacd"
    ],
+   "description": "Hudson's four-player mahjong game, with an open mode that shows the opponents' hands to prove the computer isn't cheating.",
    "developer": "Hudson Soft",
    "launchbox": "207531",
    "publisher": "Hudson Soft",
@@ -46882,6 +46929,7 @@
    "contentIds": [
     "sha256-fd-v1:9c5b8b8152853253d6e37baf72dab19bdc30b6f11590f7289733dd8d738f639d"
    ],
+   "description": "A murder mystery: a woman dressed as Cleopatra is killed at a Halloween costume party, with a single wolf hair left on her body.",
    "diskMachine": {
     "sha256-fd-v1:9c5b8b8152853253d6e37baf72dab19bdc30b6f11590f7289733dd8d738f639d": {
      "basic": "v1s"
@@ -47433,6 +47481,7 @@
    "contentIds": [
     "sha256-fd-v1:78b550ece83319fe1b4da91c701462c373cfe349f35dad12ce401f3f85f66723"
    ],
+   "description": "A murder mystery: a week after a strange letter about a cursed white rose, the Hanayama family finds a body at their mansion, and you and your assistant investigate.",
    "developer": "Riverhill Soft",
    "diskMachine": {
     "sha256-fd-v1:78b550ece83319fe1b4da91c701462c373cfe349f35dad12ce401f3f85f66723": {
@@ -50085,6 +50134,7 @@
   },
   "pc88:456641": {
    "boxArtUrl": "https://images.launchbox-app.com/6757129c-bede-4045-adb0-1f6b4433b8c4.jpg",
+   "description": "An adventure: you are the spirit in a red stone, unable to move, who can possess whoever holds it and learn what they know.",
    "developer": "Studio Angel",
    "launchbox": "456641",
    "publisher": "Zenryuutsuu",
@@ -50144,6 +50194,7 @@
     "Narutomaki Hichou: Tsuukai Gag Aventure"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/64922542-57a7-46ee-88eb-f3d43aac7baa.jpg",
+   "description": "A comedy adventure in the Edo period: a swordswoman at a detective agency is hired to carry a small box of documents to a clan's castle, and the errand becomes a long adventure.",
    "developer": "Zenryuutsuu",
    "launchbox": "456663",
    "publisher": "Zenryuutsuu",
@@ -54471,6 +54522,7 @@
     "sha256-fd-v1:c3b529a79b38f376023e0c8edce8cbe27e2b15c7cdd458194bdaa81543de3bec",
     "sha256-fd-v1:ed19cd5a162b6792dbc76c0bd72a5dcb2b62dbd0e5adb2cec3858c4f2355d133"
    ],
+   "description": "A doujin adventure about a band of schoolboys.",
    "diskSets": {
     "sha256-fd-v1:01baaf4a8f15b1b6de9fe64d0fbf081de57af65b466a58267b993191db4044ba": {
      "media": [
@@ -55532,6 +55584,7 @@
     "sha256-fd-v1:86b5585752d1ff527049f128dd80fc3105a9366acf8af9429cf2755d7d4d0f92",
     "sha256-fd-v1:cf32bddeea5a57ce9d1c70d18b16dcde29cba3cbebf0b2ddd181e983ff21d36b"
    ],
+   "description": "A puzzle game: drop playing cards into a five-by-five grid to make poker hands across its rows, columns and diagonals.",
    "diskSets": {
     "sha256-fd-v1:86b5585752d1ff527049f128dd80fc3105a9366acf8af9429cf2755d7d4d0f92": {
      "media": [
@@ -57169,6 +57222,7 @@
     "sha256-fd-v1:f3aa63408a2608fbbe12431756f9dc7f90d0665fae8131b1bc063d2c15ee7b2c",
     "sha256-fd-v1:f42706e135f8727385cbbdb3ea7c18c5a74cac115e3fafe5d7866d68f9012955"
    ],
+   "description": "A detective adventure: a school detective club looks into the case of a runaway student.",
    "diskSets": {
     "sha256-fd-v1:178b11998e2a5d0e88eaa0de042a109375daf2b8148aa5067b221d26a3482a56": {
      "media": [
@@ -57957,6 +58011,7 @@
     "sha256-fd-v1:273d4f4026a144cf7ad35beeefccaad79964dcda70e27a51af27c57a525d504b",
     "sha256-fd-v1:aef3bc443bf1ff7da32b1bbfa157dc0768c9ed242bd6bfe7df28fc8c2caed013"
    ],
+   "description": "A doujin adventure: the lively student Morina is having a busy day as usual when she finds herself in a mysterious world.",
    "diskSets": {
     "sha256-fd-v1:273d4f4026a144cf7ad35beeefccaad79964dcda70e27a51af27c57a525d504b": {
      "media": [
@@ -58036,6 +58091,7 @@
     "sha256-fd-v1:a09e63a3108488774a750f2383379a3a31b51fb9e84a93a743f1f601d2f7aac6",
     "sha256-fd-v1:b3ffabe2e4ec0dfd3a6747ca3d0937caea8971bafeb7c20d4cb20e1eb66fd0d6"
    ],
+   "description": "A side story to Yuugekitai: a submarine suddenly appears off the coast, and the squad returns to uncover its secrets.",
    "diskSets": {
     "sha256-fd-v1:a09e63a3108488774a750f2383379a3a31b51fb9e84a93a743f1f601d2f7aac6": {
      "media": [
@@ -58691,6 +58747,7 @@
     "sha256-fd-v1:c05b2fd2767c09087c77a9e868f5f039d83222e8f356e8b3cba7a10f814315f2",
     "sha256-fd-v1:ecd0215f582399742bf5040dc95306e67024b8090b1216a0ef740e46f7abc71e"
    ],
+   "description": "A parody of Little Red Riding Hood: sent by her mother to visit her grandmother, she faces traps all along the way.",
    "diskSets": {
     "sha256-fd-v1:59f3c774c56741c8fa73a5a642679fa4dd914ea840b96bfc4f7de16748a3e0e4": {
      "media": [
@@ -58867,6 +58924,7 @@
    "contentIds": [
     "sha256-tape-v1:3ed7e8b74dc9912a4d0c427ea24d11e33fb83cf8f07da9f6a7376c9df9eae66f"
    ],
+   "description": "A science-fiction adventure set in 2552: find the weakness of the alien Danak to save the colony planet Farras.",
    "diskMachine": {
     "sha256-tape-v1:3ed7e8b74dc9912a4d0c427ea24d11e33fb83cf8f07da9f6a7376c9df9eae66f": {
      "basic": "v1s"
@@ -59100,6 +59158,7 @@
     "sha256-fd-v1:3d8a02000cf8ab2cd89eb34e42511640e6d60b3768e037f433c61a5c5b2f90c0",
     "sha256-fd-v1:9b9e4dca6ba4a90f9e21eadbd53314c8af8c5b8e1968a8ca846fbdae396aa0ab"
    ],
+   "description": "A doujin adventure: a girl gives the hero a key, and that night a mysterious dream begins.",
    "diskSets": {
     "sha256-fd-v1:9b9e4dca6ba4a90f9e21eadbd53314c8af8c5b8e1968a8ca846fbdae396aa0ab": {
      "media": [
@@ -61204,6 +61263,7 @@
    "contentIds": [
     "sha256-fd-v1:a70e0f13ef82bae8e811407ebe9fde591424134b2032a16055a28306356cb8dc"
    ],
+   "description": "A fantasy adventure, often called the first doujin software: the hero searches a fairy-tale world for a bride, talking to people and animals and solving their problems.",
    "diskMachine": {
     "sha256-fd-v1:a70e0f13ef82bae8e811407ebe9fde591424134b2032a16055a28306356cb8dc": {
      "basic": "v1s"
@@ -63815,6 +63875,7 @@
     "sha256-fd-v1:5d575f96f8f13c390337bfd326baf218765ef00574c89f5c1fbdf3b5d2f07b0e",
     "sha256-fd-v1:bf12c56531e7b8a93d17ed32fcb4a35a5b9523e77c17e6782db3704f557fe5b9"
    ],
+   "description": "A time-travel comedy adventure: a student sneaks into school at night to fix a wrong test answer, is sent back to 1169 on the eve of the Genpei War, and must change history to fit his answer.",
    "diskSets": {
     "sha256-fd-v1:2fac05d4bb6d10cf82a7ba4e5a6c327cda5fedf330e2d9b0c4fe596cec1565fd": {
      "media": [
@@ -64317,6 +64378,7 @@
    "contentIds": [
     "sha256-fd-v1:188f994965636a3708b014e4f27462579a5e02e56434d65dded2f9e559946073"
    ],
+   "description": "An adventure based on Jun'ichirō Tanizaki's novel Manji and its 1983 film, a love triangle between a married couple and the wife's lover.",
    "diskMachine": {
     "sha256-fd-v1:188f994965636a3708b014e4f27462579a5e02e56434d65dded2f9e559946073": {
      "basic": "v1s"
@@ -65461,6 +65523,7 @@
     "sha256-fd-v1:08ce38bc1686ed9fcdfb28b6130dd3c85539ee0cc7d9f29180a2a64b8e963871",
     "sha256-fd-v1:a5a414b66adfcaa732bb5cbc36f9eda066fcefe047b6023396953a8c77b2815f"
    ],
+   "description": "A doujin adventure: when Lia's mother, an aspiring prima donna, falls ill, Lia must take her place, helped by her doll Tia, which comes to life.",
    "diskSets": {
     "sha256-fd-v1:a5a414b66adfcaa732bb5cbc36f9eda066fcefe047b6023396953a8c77b2815f": {
      "media": [
@@ -67385,6 +67448,7 @@
     "sha256-fd-v1:0875b62bf0a2cc5c374fb98a67dbfbe4cc5c6da7a2f7f58d2e7afded043c3bda",
     "sha256-fd-v1:81d3d420b5887b96d4a0f6f13b1219a8dbbd662623deeb8641671cf047349a2e"
    ],
+   "description": "A detective adventure: Keisuke Yuki, a fresh graduate with a self-styled detective agency and no clients, takes on a student's suicide and finds a bigger case behind it.",
    "diskSets": {
     "sha256-fd-v1:81d3d420b5887b96d4a0f6f13b1219a8dbbd662623deeb8641671cf047349a2e": {
      "media": [
