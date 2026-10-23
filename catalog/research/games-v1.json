@@ -48996,6 +48996,7 @@
   },
   "pc88:207642": {
    "boxArtUrl": "https://images.launchbox-app.com/3540cec4-e9d8-4f5d-a827-7405b675e4c5.jpg",
+   "description": "One of Koei's first games, written by Kou Shibusawa: command twenty German divisions against the 1944 Allied landings, short of men, supplies and morale, and hold Paris for a month or wear the Allies down.",
    "developer": "Koei",
    "launchbox": "207642",
    "publisher": "Koei",
@@ -49934,6 +49935,7 @@
   },
   "pc88:424147": {
    "adult": true,
+   "adultDescription": "An adult adventure: a schoolgirl, Kanako, sets out to win over her female friend. Look and Talk carry most scenes, and a few optional scenes and routes branch off the story.",
    "artwork": {
     "game": 374147,
     "platform": 88,
@@ -49947,6 +49949,7 @@
     "sha256-fd-v1:822ec50c31ec819359fa151b74704d9bdfde77f3f1eeb16513e07813e11b68c8",
     "sha256-fd-v1:c4c333e33de81183f280d09ddabe959886b61be9e39183ad952c57a76a92114e"
    ],
+   "description": "A command-driven adventure following a schoolgirl, Kanako, and her friend: Look and Talk carry most scenes, other actions appear when a scene calls for them, and a few optional scenes and routes branch off the story.",
    "developer": "UII Software",
    "diskSets": {
     "sha256-fd-v1:822ec50c31ec819359fa151b74704d9bdfde77f3f1eeb16513e07813e11b68c8": {
