@@ -24,23 +24,52 @@
 
 # Kairo88
 
-**Play your own PC-88 games on Android phones and handhelds.** Kairo88 is an Android emulator for the NEC PC-8801 series, built on the [Kairo shared frontend](https://github.com/MrJackSpade/Kairo): the same game library, controller and touch controls, on-screen keyboard, and per-game settings as [Kairo98](https://github.com/MrJackSpade/Kairo98) and [KairoDos](https://github.com/MrJackSpade/KairoDos). It is an independent project, not an official release of any emulator it builds on.
+**Play your own PC-88 games on Android phones and handhelds.** Kairo88 is an Android emulator for the NEC PC-8801 series, built on the [Kairo shared frontend](https://github.com/MrJackSpade/Kairo): the same game library with artwork, controller and touch controls, on-screen keyboard, save states, and per-game settings as [Kairo98](https://github.com/MrJackSpade/Kairo98) and [KairoDos](https://github.com/MrJackSpade/KairoDos). It runs [QUASI88](https://www.eonet.ne.jp/~showtime/quasi88/) with its FM sound rebuilt on [ymfm](https://github.com/aaronsgiles/ymfm). It is an independent project, not an official release of either.
 
-## Status
+## Download
 
-Early development. There is no release yet. The Android app runs [QUASI88](https://www.eonet.ne.jp/~showtime/quasi88/) with its sound output rebuilt on [ymfm](https://github.com/aaronsgiles/ymfm). [MAME](https://www.mamedev.org/)'s PC-8801 driver is also pinned for comparison and will be removed once the choice is settled.
+<!-- kairo:download -->
+- **[GitHub Releases](https://github.com/MrJackSpade/Kairo88/releases)** (free): install the APK yourself. The larger `-with-images` APK also bundles catalog artwork.
 
-## Games and firmware
+Requires an ARM64 device running Android 8.0 or newer.
+<!-- /kairo:download -->
 
-Games and the PC-8801's BIOS are not supplied; you provide the BIOS from your own machine.
+## Quick start
 
-Kairo88 reads D88 floppy images (`.d88`, `.88d`) and cassette tapes (`.t88`, `.cmt`), loose or inside ZIP and 7z archives. A game's disks show as one entry, and its second disk goes in drive 2 when it starts. A tape game boots BASIC and types the commands that load the tape. Menu › Machine lists every BIOS file, each marked Required or Optional. Pick each file, or use **Import all from a folder…** to import every file the app recognizes in a folder you choose. N88-BASIC (`n88.rom`), its extension 0 (`n88_0.rom`) and the disk sub-system (`disk.rom`) are required; the YM2608 rhythm samples (`2608_*.wav`) play sound board II's drums.
+1. Install Kairo88 from [GitHub Releases](https://github.com/MrJackSpade/Kairo88/releases).
+2. Open Kairo88 and choose the folder that holds your PC-88 games. You can change it later in **Menu › Manage library**.
+3. Import the PC-8801 BIOS from your own machine in **Menu › Machine** (see [Firmware](#firmware)).
+4. Select a game and tap **Play**.
+
+Games and the PC-8801's BIOS are not supplied.
+
+## Supported formats
+
+| Type | Formats |
+| --- | --- |
+| Floppies | D88, 88D |
+| Cassette tapes | T88, CMT |
+| Archives | Any of the above inside ZIP or 7z archives |
+
+A game's disks show as one library entry, and its second disk goes in drive 2 when it starts. A tape game boots BASIC and types the commands that load the tape for you; a game with several tapes shows as one entry, with its other tapes ready to insert. **Menu › Disks** changes disks and tapes during play.
+
+## Firmware
+
+Kairo88 needs N88-BASIC (`n88.rom`), its extension 0 (`n88_0.rom`) and the disk sub-system (`disk.rom`) from your own machine. The YM2608 rhythm samples (`2608_*.wav`) are optional; they play sound board II's drums. **Menu › Machine** lists every BIOS file, each marked Required or Optional. Pick each file, or use **Import all from a folder…** to import every file the app recognizes in a folder you choose.
+
+## Machine settings
+
+**Menu › Machine** sets these for all games; each game can override them in its **Game settings**, and the catalog sets them for games that need something else.
+
+- **BASIC mode:** N88 V2 (the default), N88 V1H, N88 V1S or N-BASIC.
+- **CPU clock:** 8 MHz (the default) or 4 MHz.
+- **Sound:** Sound board II (the default) or the original sound board.
+- **Port:** a joystick (the default) or a mouse in the joystick port.
 
 ## Documentation
 
 - [Licensing and credits](docs/licensing.md): code license and third-party components
 - [Source provenance](docs/source-import.md): where the emulator sources came from and what was copied
-- [QUASI88 core](docs/quasi88-core.md): how the QUASI88 core is built, driven and tested
 
 ## Help and community
 
@@ -59,33 +88,13 @@ git clone --recurse-submodules https://github.com/MrJackSpade/Kairo88.git
 ```
 <!-- /kairo:clone -->
 
-Build with the pinned shared Gradle setup (see [Android build](shared/docs/android-build.md)), which needs JDK 17, the Android SDK and NDK, and Rust with the `aarch64-linux-android` target:
+Build the app, and optionally install it, with the shared build script:
 
-```sh
-./gradlew :kairo88:assembleWithImagesDebug
+```powershell
+shared\tools\build.ps1 -Install <adb serial>
 ```
 
-On Windows, build with `shared\tools\build.ps1`; it works from a path with spaces.
-
-<!-- kairo:ui-tests -->
-## UI tests
-
-Kairo88 has device tests in the style of Selenium tests, on the shared Kairo test framework: they
-name the app's elements, act on them as a player would, and assert what the player would see
-([how they work and how to run them](https://github.com/MrJackSpade/Kairo/blob/main/docs/ui-tests.md)). Run them from this
-repository with a device connected over adb (Android 10 or later) and the `LOCAL_BUILD_TOKEN` key set:
-
-```
-shared\tools\uitest.ps1 -Device <serial>                                              every test
-shared\tools\uitest.ps1 -Device <serial> -Filter 'MenuTests|ControllerTests'          by test name
-shared\tools\uitest.ps1 -Device <serial> -Class com.mrjackspade.kairo88.uitest.<Class>   one class
-shared\tools\uitest-all.ps1 -Device <serial>                                          every Kairo app
-```
-
-The tests are in `kairo88/src/androidTest/java/com/mrjackspade/kairo88/uitest/`. They run in a
-build of their own, `com.loxifi.kairo88.uitest`, installed beside the app without touching its data, and
-each run's logs, screenshots and summary land in `.build/uitest/<run id>/`.
-<!-- /kairo:ui-tests -->
+How the QUASI88 core is built, driven and tested, host tests and UI tests: see [development](docs/development.md).
 
 ## License
 
