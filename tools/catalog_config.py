@@ -63,5 +63,5 @@ def NOT_GAME(path):
     return path.startswith(("[Utility]", "[OS]", "[BIOS]"))
 
 # Disk sets (shared/tools/disk_sets.py): a game boots from its first floppy, with its second in drive 2.
-BOOT_KINDS = ["fd", "tape"]
+BOOT_KINDS = ["fd"]
 COMPANION = {"fd": ("fd", "floppyB", False)}
