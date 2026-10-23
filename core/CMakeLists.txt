@@ -39,7 +39,7 @@ add_library(kairo88_core STATIC
     port/graph.c port/event.c port/wait.c port/system.c
     sound/snddrv_ymfm.cpp
     "${YMFM_SRC}/ymfm_opn.cpp" "${YMFM_SRC}/ymfm_adpcm.cpp" "${YMFM_SRC}/ymfm_ssg.cpp" "${YMFM_SRC}/ymfm_misc.cpp"
-    kairo88_core.c)
+    kairo88_core.c kairo88_loader.c)
 
 # port/ comes first so its config.h and device.h stand in for a sysdepend port.
 target_include_directories(kairo88_core
@@ -63,8 +63,11 @@ if(NOT ANDROID)
     target_link_libraries(boot_test PRIVATE kairo88_core)
     add_executable(restart_test test/restart_test.c)
     target_link_libraries(restart_test PRIVATE kairo88_core)
+    add_executable(tape_test test/tape_test.c)
+    target_link_libraries(tape_test PRIVATE kairo88_core)
     if(WIN32)
         target_link_options(boot_test PRIVATE -static)
         target_link_options(restart_test PRIVATE -static)
+        target_link_options(tape_test PRIVATE -static)
     endif()
 endif()

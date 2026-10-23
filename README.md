@@ -34,7 +34,7 @@ Early development. There is no release yet. The Android app runs [QUASI88](https
 
 Games and the PC-8801's BIOS are not supplied; you provide the BIOS from your own machine.
 
-Kairo88 reads D88 floppy images (`.d88`, `.88d`), loose or inside ZIP and 7z archives. A game's disks show as one entry, and its second disk goes in drive 2 when it starts. Menu › Machine lists every BIOS file, each marked Required or Optional. Pick each file, or use **Import all from a folder…** to import every file the app recognizes in a folder you choose. N88-BASIC (`n88.rom`), its extension 0 (`n88_0.rom`) and the disk sub-system (`disk.rom`) are required; the YM2608 rhythm samples (`2608_*.wav`) play sound board II's drums.
+Kairo88 reads D88 floppy images (`.d88`, `.88d`) and cassette tapes (`.t88`, `.cmt`), loose or inside ZIP and 7z archives. A game's disks show as one entry, and its second disk goes in drive 2 when it starts. A tape game boots BASIC and types the commands that load the tape. Menu › Machine lists every BIOS file, each marked Required or Optional. Pick each file, or use **Import all from a folder…** to import every file the app recognizes in a folder you choose. N88-BASIC (`n88.rom`), its extension 0 (`n88_0.rom`) and the disk sub-system (`disk.rom`) are required; the YM2608 rhythm samples (`2608_*.wav`) play sound board II's drums.
 
 ## Documentation
 

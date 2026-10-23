@@ -74,6 +74,28 @@ const char *k88_disk_path(int drive);
  * NULL. Returns 0, or -1 when QUASI88 could not open the image. */
 int k88_disk(int drive, const char *path);
 
+/* Puts a T88 or CMT tape image in the cassette deck, rewound, or empties it for NULL; 0 when done. */
+int k88_tape(const char *path);
+/* The tape in the deck; "" when it is empty. */
+const char *k88_tape_path(void);
+/* Whether the machine is reading the tape: its motor is on and the tape has not reached its end. */
+int k88_tape_running(void);
+/* The text screen as the machine shows it now: its rows, newline-separated, each character as its
+ * byte (0x20 to 0x7e as ASCII), trailing spaces trimmed. Writes at most size bytes with the
+ * terminating NUL and returns the number written without it. */
+int k88_screen_text(char *out, int size);
+
+/* A tape's loader (kairo88_loader.c): after k88_boot, types its newline-separated lines one at a
+ * time, each when the screen shows a prompt (BASIC's Ok or the monitor's ] or *), answering BASIC's
+ * "How many files" with Return. {CTRL-x} in a line is Ctrl with x, {F1} to {F5} a function key,
+ * {NAME} the name of the tape's first BASIC program (insert the tape with k88_tape first).
+ * NULL or "" for none; -1 for a script it cannot type. */
+int k88_loader_start(const char *script);
+/* Whether the loader still has lines to type. */
+int k88_loader_active(void);
+/* Advances the loader by one frame, after k88_run_frame; -1 when a line cannot be typed. */
+int k88_loader_frame(void);
+
 /* Resets the machine, keeping its disks and configuration. */
 void k88_reset(void);
 

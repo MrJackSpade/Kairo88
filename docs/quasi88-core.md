@@ -57,6 +57,16 @@ Arguments after `--` are QUASI88 options. It writes `game-NNNNN.ppm` every 300 f
 
 boots the first disk (V2, 8 MHz, sound board II), the second (V1S, 4 MHz, sound board I) and the first again, then saves a state, runs on, loads it and runs the same frames again. It fails unless both runs end on the same picture with the same audio.
 
+```sh
+.build/host/tape_test bios/ .build/out/tape 1 "Apploon.t88" "load=MON|R|G8F00" frames=36000
+```
+
+boots N88-BASIC (V1S here; 0 N-BASIC, 2 V1H, 3 V2) with the tape in the deck and runs its steps: `load=` runs the app's loader (`kairo88_loader.c`) with those lines, `wait=`, `type=` and `frames=` drive the machine directly. It prints the text screen and the tape position after each step and writes `tape-NN.ppm`.
+
+## Tapes
+
+A tape game boots ROM BASIC with its T88 or CMT image in the deck, and its loader types the commands that load it, each at the prompt it waits for (BASIC's `Ok`, the monitor's `]` or `*`), answering V1/V2's `How many files` with Return. The catalog gives a tape's loader when its source names one (Neo Kobe's `{V1 mode, MON R G8F00}`, parsed in `tools/catalog_config.py`); otherwise it is `LOAD"CAS:"` and `RUN`, or `CLOAD"<name>` and `RUN` in N-BASIC, which needs the program's name. The machine runs as fast as the device can while the loader types and while the cassette motor is on.
+
 ## Known problems
 
 - Silpheed (Game Arts) does not boot: every dump tried falls back to N88-BASIC. Hydlide (V1 mode) and Sorcerian (V2 mode) boot and play.

@@ -8331,6 +8331,13 @@
      "basic": "v1s"
     }
    },
+   "diskSets": {
+    "sha256-tape-v1:eb882ae371bd3b1871cc935ec9e7661d9777d9c20a41ef31a9dfb00021b505aa": {
+     "setDisks": [
+      "sha256-tape-v1:e0766833dd5d99477a524ae0e33369e07851ab3fcc2137b58edc607cd30b22be"
+     ]
+    }
+   },
    "launchbox": "186810",
    "publisher": "Rapport",
    "sourceGroups": [
@@ -9831,7 +9838,12 @@
      "basic": "v1s"
     },
     "sha256-tape-v1:d95353ee23474950c200dc9630889fa4643d1a431b52bc3d9a1be645464c879e": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "loader": [
+      "MON",
+      "R",
+      "G8F00"
+     ]
     }
    },
    "diskSets": {
@@ -13128,8 +13140,12 @@
    "diskSets": {
     "sha256-fd-v1:795d83e32b1be5a69c40da43ed904bec35eb1129cedd295a7f44a4b96ac101e3": {
      "setDisks": [
-      "sha256-tape-v1:2bebaff79662d08ac695a92476a18be4b56cb5d9737ee78dcddfd3db60afd362",
       "sha256-tape-v1:2d498c47b5e0e4229583529314db26b199585a41d4f877e69e55393626a569ee"
+     ]
+    },
+    "sha256-tape-v1:2d498c47b5e0e4229583529314db26b199585a41d4f877e69e55393626a569ee": {
+     "setDisks": [
+      "sha256-tape-v1:2bebaff79662d08ac695a92476a18be4b56cb5d9737ee78dcddfd3db60afd362"
      ]
     }
    },
@@ -25986,7 +26002,11 @@
      "basic": "v1s"
     },
     "sha256-tape-v1:c744e19341bfe78056bf90e532c15f5e01be56dce87ee61d534a5812c6c901f5": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "loader": [
+      "LOAD\"CAS:\"",
+      "RUN"
+     ]
     }
    },
    "diskSets": {
@@ -26003,9 +26023,13 @@
       "sha256-fd-v1:79c25357757cd652c5d0e446ff665279c51d86304c3f4c892b5b2475ebbac7e3",
       "sha256-fd-v1:9e2445a7026312826aafcd109d8dfd3efac1e7e077883d8b03dfeaa0afaa6a52",
       "sha256-fd-v1:bc52c6775fd01d72b089d436dfce360efd2069a863e8102b376ea9affd84c3f3",
-      "sha256-tape-v1:03ef9b380994f2231d5f20f8443a4671608038b38d2d54767ad0ee1a5739ebba",
-      "sha256-tape-v1:7a77d703f7994849ed750306080bf5e505a2689f0b005a1e0f1463aaf840a70d",
       "sha256-tape-v1:c744e19341bfe78056bf90e532c15f5e01be56dce87ee61d534a5812c6c901f5"
+     ]
+    },
+    "sha256-tape-v1:c744e19341bfe78056bf90e532c15f5e01be56dce87ee61d534a5812c6c901f5": {
+     "setDisks": [
+      "sha256-tape-v1:03ef9b380994f2231d5f20f8443a4671608038b38d2d54767ad0ee1a5739ebba",
+      "sha256-tape-v1:7a77d703f7994849ed750306080bf5e505a2689f0b005a1e0f1463aaf840a70d"
      ]
     }
    },
@@ -31042,7 +31066,12 @@
    ],
    "diskMachine": {
     "sha256-tape-v1:b1cbfca18d3935025aa8426359dac84480b4e3b3833fb8c3b855b654e769923d": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "loader": [
+      "MON",
+      "R",
+      "GE702"
+     ]
     }
    },
    "diskSets": {
@@ -38066,7 +38095,14 @@
      "basic": "v1s"
     },
     "sha256-tape-v1:9d3de67855d31ec5106ba532a74313da7541c141787891f6c77f1e595f6dcb7d": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "loader": [
+      "LOAD\"CAS:\"",
+      "MON",
+      "R",
+      "{CTRL-B}",
+      "RUN"
+     ]
     }
    },
    "diskSets": {
@@ -42809,6 +42845,13 @@
      "basic": "v1s"
     }
    },
+   "diskSets": {
+    "sha256-tape-v1:d2820022721978c02c9f6a6419bdd8c536d335d7e8b20fb8ac4d210216ca1659": {
+     "setDisks": [
+      "sha256-tape-v1:b7e09cbb8983e2c47db24174ec47528173d0d9a2ff336d07ce5e2b977f8cd878"
+     ]
+    }
+   },
    "launchbox": "197106",
    "mobygames": 234289,
    "publisher": "Carry Soft",
@@ -43461,7 +43504,11 @@
    "developer": "Carry Lab",
    "diskMachine": {
     "sha256-tape-v1:c42859846b3f95e155489d8870983b53eb1d0bf3e91d9ced681f154f1da5fdc5": {
-     "basic": "n"
+     "basic": "n",
+     "loader": [
+      "MON",
+      "L"
+     ]
     }
    },
    "launchbox": "197117",
@@ -46021,7 +46068,14 @@
    "developer": "Tsukumo",
    "diskMachine": {
     "sha256-tape-v1:76dbd36a5a68090ecaa33a5ccfa2f881997623e28b48d4d57af95c37b0f4578f": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "loader": [
+      "MON",
+      "R",
+      "{CTRL-B}",
+      "LOAD\"CAS:\"",
+      "RUN"
+     ]
     }
    },
    "launchbox": "207544",
@@ -46299,7 +46353,11 @@
    "developer": "Nihon Falcom",
    "diskMachine": {
     "sha256-tape-v1:0b5bfbb86c6ade0b05b8c293fec92de3340df7e337abc4018de6fd5163294045": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "loader": [
+      "MON",
+      "R"
+     ]
     }
    },
    "launchbox": "207564",
@@ -46402,17 +46460,29 @@
      "basic": "v1s"
     },
     "sha256-tape-v1:09ec9988ac80543167d5cff3ec9b52c806797a11c6fba48344519843679f5e93": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "loader": [
+      "MON",
+      "R"
+     ]
     },
     "sha256-tape-v1:6865f0be4f8b4c942b271e31382ef1ac98bac28f0255a076997c2df6db3ded93": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "loader": [
+      "MON",
+      "R"
+     ]
     }
    },
    "diskSets": {
     "sha256-fd-v1:babcb85059a524a4755bf9d1778e2e018f7645087b47e644c1f02f9083ece436": {
      "setDisks": [
-      "sha256-tape-v1:09ec9988ac80543167d5cff3ec9b52c806797a11c6fba48344519843679f5e93",
       "sha256-tape-v1:6865f0be4f8b4c942b271e31382ef1ac98bac28f0255a076997c2df6db3ded93"
+     ]
+    },
+    "sha256-tape-v1:6865f0be4f8b4c942b271e31382ef1ac98bac28f0255a076997c2df6db3ded93": {
+     "setDisks": [
+      "sha256-tape-v1:09ec9988ac80543167d5cff3ec9b52c806797a11c6fba48344519843679f5e93"
      ]
     }
    },
@@ -47919,7 +47989,11 @@
    "developer": "Carry Lab",
    "diskMachine": {
     "sha256-tape-v1:587c79d5d39152d50528bfde59356ace117da0c5ee5924de6a32d70449208aeb": {
-     "basic": "n"
+     "basic": "n",
+     "loader": [
+      "MON",
+      "L"
+     ]
     }
    },
    "launchbox": "207604",
@@ -53773,6 +53847,14 @@
     "sha256-tape-v1:d495505cb7899834ae9df695e5ab1bb942d537de6a8544effb6aaa8f47a8efd4",
     "sha256-tape-v1:db4317aa21cb403faa4b6d5c496d1c2016d8eb2ea27c644153c12404a1ce601b"
    ],
+   "diskSets": {
+    "sha256-tape-v1:db4317aa21cb403faa4b6d5c496d1c2016d8eb2ea27c644153c12404a1ce601b": {
+     "setDisks": [
+      "sha256-tape-v1:a042031190fca28c06296ff356784e3d8ba7ca1899063af01a21d409c51d0430",
+      "sha256-tape-v1:d495505cb7899834ae9df695e5ab1bb942d537de6a8544effb6aaa8f47a8efd4"
+     ]
+    }
+   },
    "sourceGroups": [
     "neokobe:Menesis 88/Menesis 88 [CT].7z"
    ],
@@ -54028,7 +54110,12 @@
    ],
    "diskMachine": {
     "sha256-tape-v1:10408e40001e8169c351126171aba973a409a2fa4ace87917074ff70975f0058": {
-     "basic": "n"
+     "basic": "n",
+     "loader": [
+      "MON",
+      "L",
+      "G8800"
+     ]
     }
    },
    "diskSets": {
@@ -56255,7 +56342,14 @@
    ],
    "diskMachine": {
     "sha256-tape-v1:9666be57cad3d5d20f2a92d6fa85f5419c6c3a5b25426e8733d936df4f8cb4dc": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "loader": [
+      "MON",
+      "RDATA",
+      "{CTRL-B}",
+      "LOAD\"CAS:\"",
+      "RUN"
+     ]
     }
    },
    "sourceGroups": [
@@ -64239,7 +64333,13 @@
    ],
    "diskMachine": {
     "sha256-tape-v1:9710baa174bb4d59ecff0ba6939d56e6c20002c648d9e4b6c17d8afde754fd39": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "loader": [
+      "MON",
+      "R",
+      "{CTRL-B}",
+      "RUN"
+     ]
     }
    },
    "sourceGroups": [

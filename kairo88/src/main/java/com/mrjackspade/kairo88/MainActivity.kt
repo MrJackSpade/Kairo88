@@ -38,15 +38,19 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     override fun defaultBindings(layout: ControllerLayout) = Pc88Keys.defaults(layout)
     override val artworkDownloadsEnabled: Boolean get() = resources.getBoolean(R.bool.catalog_art_download_enabled)
 
-    private val disks by lazy {
-        DiskImageLibrary(this, DiskImageLibrary.Format(mapOf("d88" to "fd", "88d" to "fd"),
-            mapOf("fd" to "Floppy disk"), mapOf("fd" to 64L * 1024 * 1024), "PC-88"))
-    }
+    private val format = DiskImageLibrary.Format(mapOf("d88" to "fd", "88d" to "fd", "t88" to "tape", "cmt" to "tape"),
+        mapOf("fd" to "Floppy disk", "tape" to "Cassette tape"), mapOf("fd" to 64L * 1024 * 1024, "tape" to 16L * 1024 * 1024),
+        "PC-88")
+    private val disks by lazy { DiskImageLibrary(this, format) }
     override fun createCatalog() = LayeredGameCatalog(this, Pc88Catalog)
     override fun createLibrary(catalog: LayeredGameCatalog) = disks
 
     override val machineOptions = Pc88Native.options
-    override val mediaSlots = listOf(MediaSlot<DiskImageEntry>("Drive 1"), MediaSlot("Drive 2"))
+    private fun isDisk(entry: DiskImageEntry) = format.kind(entry.displayName) == "fd"
+    private fun isTape(entry: DiskImageEntry) = format.kind(entry.displayName) == "tape"
+
+    override val mediaSlots = listOf(MediaSlot("Drive 1", ::isDisk), MediaSlot("Drive 2", ::isDisk),
+        MediaSlot("Cassette", ::isTape))
 
     private val firmwareDir by lazy { File(filesDir, "firmware") }
     override val firmwareSets by lazy {
@@ -79,12 +83,25 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         firmwareSets.first().second.takeIf { it.missingRequirements.isNotEmpty() }?.let { roms ->
             error("Import the PC-88 BIOS in Menu › Machine first (missing ${roms.missingText})")
         }
+        val home = File(filesDir, "quasi88").apply { mkdirs() }
+        if (isTape(entry)) {
+            // A tape game boots BASIC with the tape in the deck, and its loader types the commands.
+            val tape = disks.prepare(entry, cancelled, progress)
+            val options = optionValues(game)
+            check(Pc88Native.machine.start(firmwareDir.absolutePath, home.absolutePath,
+                listOf(null, null, tape.absolutePath),
+                Pc88Native.settings(options) + ("loader" to game.tapeLoader(options.getValue("basic")).joinToString("\n")))) {
+                "Another machine is still running"
+            }
+            awaitRunning()
+            mediaStarted(listOf(null, null, entry))
+            return
+        }
         val second = game.mediaId("floppyB")?.let { id ->
             mediaFor(id, entry, libraryEntries) ?: error("The second disk this game needs is not in the library")
         }
         val diskA = disks.prepare(entry, cancelled, progress)
         val diskB = second?.let { disks.prepare(it, cancelled, progress) }
-        val home = File(filesDir, "quasi88").apply { mkdirs() }
         check(Pc88Native.machine.start(firmwareDir.absolutePath, home.absolutePath,
             listOf(diskA.absolutePath, diskB?.absolutePath), Pc88Native.settings(optionValues(game)))) {
             "Another machine is still running"

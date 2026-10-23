@@ -20,6 +20,8 @@ constexpr int kPad1A = 228;
 // The frontend's joystick controls, in JoystickInputRouter.DEFAULT_CONTROLS order.
 constexpr std::array<int, 6> kJoystick = {kPad1Up, kPad1Up + 1, kPad1Up + 2, kPad1Up + 3, kPad1A, kPad1A + 1};
 constexpr const char *kStateFile = "/state.q88";
+// MainActivity's media slots: drives 1 and 2, then the cassette deck.
+constexpr size_t kTapeSlot = 2;
 
 // One game on the QUASI88 machine. QUASI88 cannot restart in a process, so the
 // first session starts it and every session boots its game with k88_boot().
@@ -50,6 +52,17 @@ public:
             error = "A disk image could not be opened";
             return nullptr;
         }
+        // After the drives: the tape, and the lines its loader types (MainActivity.startGame).
+        const std::string tape = launch.media.size() > kTapeSlot ? launch.media[kTapeSlot] : "";
+        if (k88_tape(tape.empty() ? nullptr : tape.c_str()) != 0) {
+            error = "The tape image could not be opened";
+            return nullptr;
+        }
+        const auto loader = launch.settings.find("loader");
+        if (k88_loader_start(loader == launch.settings.end() ? nullptr : loader->second.c_str()) != 0) {
+            error = "The tape's loader cannot be typed";
+            return nullptr;
+        }
         return std::unique_ptr<Pc88Core>(new Pc88Core());
     }
 
@@ -60,8 +73,16 @@ public:
             error_ = "QUASI88 stopped";
             return false;
         }
+        if (k88_loader_frame() != 0) {
+            error_ = "The tape's loader cannot be typed";
+            return false;
+        }
         return true;
     }
+
+    // While the loader types and while the tape is read, the frame host runs the machine as fast as
+    // it can: a cassette loads in minutes at its real speed.
+    bool booting() override { return k88_loader_active() != 0 || k88_tape_running() != 0; }
 
     std::string error() override { return error_; }
 
@@ -116,11 +137,12 @@ public:
     }
 
     int media(int slot, const std::string &path) override {
+        if (slot == static_cast<int>(kTapeSlot)) return k88_tape(path.empty() ? nullptr : path.c_str());
         if (slot < 0 || slot > 1) return kUnsupported;
         return k88_disk(slot, path.empty() ? nullptr : path.c_str());
     }
 
-    std::vector<std::string> media_paths() override { return {k88_disk_path(0), k88_disk_path(1)}; }
+    std::vector<std::string> media_paths() override { return {k88_disk_path(0), k88_disk_path(1), k88_tape_path()}; }
 
     // Caps is bit 0 and Kana bit 1, as Pc88Native lists them.
     int locks() override { return k88_locks(); }

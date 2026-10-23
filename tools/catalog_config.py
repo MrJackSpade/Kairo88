@@ -43,18 +43,47 @@ MACHINE_OPTIONS = {"basic": {"n", "v1s", "v1h", "v2"}, "clock": {"8", "4"}, "sou
 _MODES = {"v1 mode": "v1s", "v1s mode": "v1s", "v1h mode": "v1h", "n mode": "n", "boot n mode": "n"}
 
 
+# A tape's loading instructions in Neo Kobe's notes, word by word: monitor commands, Ctrl-B back to
+# BASIC, LOAD CAS for BASIC's cassette load, and RUN.
+_LOADER_WORD = re.compile(r"MON|R|L|RDATA|G[0-9A-F]{4}|RUN|CTRL[-+]B|LOAD CAS", re.I)
+
+
+def _loader(part):
+    """The lines a loading instruction types, such as "MON R G8F00": MON, R, G8F00; None for a note
+    that is not one (a key to press in the game, a password)."""
+    words = re.findall(r"LOAD CAS|\S+", part, re.I)
+    if not words or not all(_LOADER_WORD.fullmatch(word) for word in words):
+        return None
+    lines = []
+    for word in words:
+        word = word.upper()
+        lines.append('LOAD"CAS:"' if word == "LOAD CAS" else "{CTRL-B}" if word.startswith("CTRL") else word)
+    return lines
+
+
 def MACHINE(name, set_name, content_id):
     """Neo Kobe writes the mode and clock a disk needs in braces: {V1 mode}, {V1H mode}, {4MHz},
-    {V1 mode, RUN MPD1}."""
+    {V1 mode, RUN MPD1}. A tape's notes may also say how to load it ({V1 mode, MON R G8F00}): that
+    becomes its "loader", the lines typed at the prompt. A tape without one loads with LOAD"CAS:"
+    and RUN in the app."""
     settings = {}
     for note in re.findall(r"\{([^}]*)\}", name):
-        for part in (part.strip().lower() for part in note.split(",")):
-            if part in _MODES:
-                settings["basic"] = _MODES[part]
-            elif part.startswith("boot n mode"):
+        for part in (part.strip() for part in note.split(",")):
+            lower = part.lower()
+            if lower in _MODES:
+                settings["basic"] = _MODES[lower]
+            elif lower.startswith("boot n mode"):
                 settings["basic"] = "n"
-            elif part == "4mhz":
+                rest = part[len("boot n mode"):].strip()
+                if rest and content_id.startswith("sha256-tape-v1:") and _loader(rest):
+                    settings["loader"] = _loader(rest)
+            elif lower == "4mhz":
                 settings["clock"] = "4"
+            elif content_id.startswith("sha256-tape-v1:") and _loader(part):
+                settings["loader"] = _loader(part)
+    # A note that ends with a BASIC load leaves running it to the player ("F5 to start": F5 is RUN).
+    if settings.get("loader", [None])[-1] == 'LOAD"CAS:"':
+        settings["loader"].append("RUN")
     return settings
 
 
@@ -62,6 +91,7 @@ def NOT_GAME(path):
     """Neo Kobe keeps utilities, system disks and firmware dumps in [Utility], [OS] and [BIOS] folders."""
     return path.startswith(("[Utility]", "[OS]", "[BIOS]"))
 
-# Disk sets (shared/tools/disk_sets.py): a game boots from its first floppy, with its second in drive 2.
-BOOT_KINDS = ["fd"]
+# Disk sets (shared/tools/disk_sets.py): a game boots from its first floppy, with its second in drive 2,
+# or from its tape when it has no floppy.
+BOOT_KINDS = ["fd", "tape"]
 COMPANION = {"fd": ("fd", "floppyB", False)}

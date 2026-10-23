@@ -1,6 +1,7 @@
 /* The Kairo88 core API: QUASI88 started once, then run, reset and fed disks. */
 
 #include <stdio.h>
+#include <string.h>
 
 #include "kairo88_core.h"
 
@@ -17,6 +18,8 @@
 #include "keyboard.h"
 #include "drive.h"
 #include "fname.h"
+#include "crtcdmac.h"
+#include "screen.h"
 
 static int started = 0;
 
@@ -108,6 +111,56 @@ int k88_disk(int drive, const char *path)
 		return 0;
 	}
 	return quasi88_disk_insert(drive, path, 0, FALSE) ? 0 : -1;
+}
+
+static char tape_path[1024];
+
+int k88_tape(const char *path)
+{
+	if (path == NULL) {
+		sio_close_tapeload();
+		tape_path[0] = '\0';
+		return 0;
+	}
+	if (strlen(path) >= sizeof(tape_path) || !sio_open_tapeload(path)) {
+		fprintf(stderr, "kairo88: could not open tape %s\n", path);
+		return -1;
+	}
+	strcpy(tape_path, path);
+	return 0;
+}
+
+const char *k88_tape_path(void)
+{
+	return tape_path;
+}
+
+int k88_tape_running(void)
+{
+	long position, end;
+	/* OUT 30h bit 3 is the cassette motor relay; at the tape's end QUASI88 reports position 0 of 0. */
+	return tape_path[0] && (sys_ctrl & 0x08) && sio_tape_pos(&position, &end) && end > 0;
+}
+
+int k88_screen_text(char *out, int size)
+{
+	/* The DMA controller's text channel points at the rows the CRTC shows. In 40-column mode (OUT 30h
+	 * bit 0 off) each character is every other byte of the row. */
+	const int step = (sys_ctrl & SYS_CTRL_80) ? 1 : 2;
+	int written = 0;
+	int row, column;
+	for (row = 0; row < crtc_sz_lines && written < size - 1; ++row) {
+		const byte *line = &main_ram[(word)(text_dma_addr.W + row * crtc_byte_per_line)];
+		int end = crtc_sz_columns;
+		while (end >= step && (line[end - step] == ' ' || line[end - step] == 0)) end -= step;
+		for (column = 0; column < end && written < size - 1; column += step) {
+			const byte c = line[column];
+			out[written++] = (c >= 0x20 && c < 0x7f) ? (char) c : '?';
+		}
+		if (written < size - 1) out[written++] = '\n';
+	}
+	out[written] = '\0';
+	return written;
 }
 
 int k88_boot(const k88_machine *machine, const char *disk_a, const char *disk_b)
