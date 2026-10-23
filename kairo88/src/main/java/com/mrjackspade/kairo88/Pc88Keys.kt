@@ -236,14 +236,15 @@ object Pc88Keys {
 
     /**
      * PC-88 action games read the numeric keypad far more often than the joystick port: the D-pad
-     * is the keypad's arrows and the joystick, A and B are Z and X and its triggers, the shoulders
-     * are F1 to F4, the left stick the joystick, and the right stick the cursor keys.
+     * is the cursor keys, the keypad's arrows and the joystick; A and B are Return and Space, X and
+     * Y are Z and X and the joystick's triggers, the shoulders are F1 to F4, the left stick the
+     * joystick, and the right stick the cursor keys.
      */
     fun defaults() = listOf(
-        ControllerBinding("virtual:a", listOf('Z'.code), joystick = "button1"),
-        ControllerBinding("virtual:b", listOf('X'.code), joystick = "button2"),
-        ControllerBinding("virtual:x", listOf('C'.code)),
-        ControllerBinding("virtual:y", listOf(SPACE)),
+        ControllerBinding("virtual:a", listOf(RETURN)),
+        ControllerBinding("virtual:b", listOf(SPACE)),
+        ControllerBinding("virtual:x", listOf('Z'.code), joystick = "button1"),
+        ControllerBinding("virtual:y", listOf('X'.code), joystick = "button2"),
         ControllerBinding("virtual:l1", listOf(F1)),
         ControllerBinding("virtual:r1", listOf(F1 + 1)),
         ControllerBinding("virtual:l2", listOf(F1 + 2)),
@@ -251,10 +252,10 @@ object Pc88Keys {
         ControllerBinding("virtual:start", listOf(RETURN)),
         ControllerBinding("virtual:select", listOf(ESC)),
         ControllerBinding("virtual:menu", action = "menu"),
-        ControllerBinding("virtual:up", listOf(KP_0 + 8), joystick = "up"),
-        ControllerBinding("virtual:down", listOf(KP_0 + 2), joystick = "down"),
-        ControllerBinding("virtual:left", listOf(KP_0 + 4), joystick = "left"),
-        ControllerBinding("virtual:right", listOf(KP_0 + 6), joystick = "right"),
+        ControllerBinding("virtual:up", listOf(UP, KP_0 + 8), joystick = "up"),
+        ControllerBinding("virtual:down", listOf(DOWN, KP_0 + 2), joystick = "down"),
+        ControllerBinding("virtual:left", listOf(LEFT, KP_0 + 4), joystick = "left"),
+        ControllerBinding("virtual:right", listOf(RIGHT, KP_0 + 6), joystick = "right"),
         ControllerBinding("virtual:lsup", joystick = "up"),
         ControllerBinding("virtual:lsdown", joystick = "down"),
         ControllerBinding("virtual:lsleft", joystick = "left"),

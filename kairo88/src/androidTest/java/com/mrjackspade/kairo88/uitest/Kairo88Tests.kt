@@ -41,6 +41,10 @@ object Kairo88App : AppUnderTest() {
     override val separateGames = listOf("100 Yen Disk No. 1", "100 Yen Disk No. 2")
     override val hiddenFiles = listOf("[Utility] Magic Copy II", "Thunder Force [CT]", "Thunder Force [extras]")
     override val searchTerm = "Thunder"
+    override val arrowKeys = listOf(com.mrjackspade.kairo88.Pc88Keys.UP, com.mrjackspade.kairo88.Pc88Keys.DOWN,
+        com.mrjackspade.kairo88.Pc88Keys.LEFT, com.mrjackspade.kairo88.Pc88Keys.RIGHT)
+    override val returnKey = com.mrjackspade.kairo88.Pc88Keys.RETURN
+    override val spaceKey = com.mrjackspade.kairo88.Pc88Keys.SPACE
     override val bootGameFile = "games/Thunder Force (Tecno Soft)/Thunder Force [FD].7z"
     override val otherGame = "100 Yen Disk No. 1"
     override val defaultOption = "sound"
@@ -64,6 +68,23 @@ class Kairo88StateTests : StateTests() { override val app = Kairo88App }
 /** The PC-88's own behavior: the machine mode a disk asks for, and a second disk at launch. */
 class Pc88Tests : KairoUiTest() {
     override val app = Kairo88App
+
+    /**
+     * Kairo88#2: a tape-only game starts from its tape. Tropical Boy's loader types MON, R and
+     * GE702 at the prompts; its colour title follows BASIC's text screens.
+     */
+    @Test
+    fun aTapeGameLoadsFromItsTape() {
+        screens.completeFirstRun().open("Tropical Boy").play()
+        val probe = driver.probe()
+        expect.that("the tape is in the cassette deck", probe.details["media.Cassette"].orEmpty().contains("Tropical Boy")) {
+            probe.details["media.Cassette"].orEmpty()
+        }
+        driver.waitUntil("the title to replace BASIC's text screen") {
+            driver.waitFrames(120)
+            driver.pictures.game("tape").distinctColors() >= 4
+        }
+    }
 
     @Test
     fun aV1ModeGameStartsInV1Mode() {
