@@ -2630,6 +2630,7 @@
    "contentIds": [
     "sha256-fd-v1:83f10ab4ac50f203505796155d52c52f6a78d56ebe701204fd875ce872d132f7"
    ],
+   "description": "An adventure based on the Choujin Locke manga, in four scenes: stop Lady Khan's Millennium Plan to train esper soldiers and build an esper empire.",
    "diskMachine": {
     "sha256-fd-v1:83f10ab4ac50f203505796155d52c52f6a78d56ebe701204fd875ce872d132f7": {
      "basic": "v1s"
@@ -4504,6 +4505,7 @@
     "sha256-fd-v1:5e0cb58e539d2334271cda0f20ef548606ac4c094ddebc1380e2437911695948",
     "sha256-fd-v1:bfe1b7e0b642c91b81793117dea784e8ba9cb64f145394e6f26c3c6ec80dc98a"
    ],
+   "description": "A seafaring role-playing game: sail a wide ocean of 18 islands with its currents and winds, fish, trade with guild ships and upgrade your ship, while raising a dragon that grows only as well as you teach it.",
    "diskSets": {
     "sha256-fd-v1:5e0cb58e539d2334271cda0f20ef548606ac4c094ddebc1380e2437911695948": {
      "media": [
@@ -4806,6 +4808,7 @@
     "sha256-fd-v1:0e4a96b0a8fa57ebcff8dd34356accb9bc7a50b50c4bfaf8f5e1715636db6e57",
     "sha256-fd-v1:77c69521acfd5d7ce3f16ecd9d7c4b999505642e533337cce27c819f1d66447a"
    ],
+   "description": "An action role-playing game built on Rambo: First Blood Part II: start with only a knife, find weapons as you go, and crawl past enemies who attack only once they spot you; defeat an officer and his troops scatter.",
    "diskSets": {
     "sha256-fd-v1:0e4a96b0a8fa57ebcff8dd34356accb9bc7a50b50c4bfaf8f5e1715636db6e57": {
      "setDisks": [
@@ -5330,6 +5333,7 @@
     "sha256-fd-v1:ce633ef680488853f03faf5edfb178bd3207f27b49d38458d2c09e0d9f0a5258",
     "sha256-fd-v1:d539c0a86f7b8c27c2f048597f6d736a77bcb5b870a2f13b7856250407e2b16d"
    ],
+   "description": "The last Wingman game: Kenta Hirono's Hero Action Club is at a training camp when the new enemy Raiel and his subordinate Vim make their move.",
    "diskSets": {
     "sha256-fd-v1:343d4140d983e4566d31c434a714dfbf0bcedcde973cf713b95625140c7e567f": {
      "media": [
@@ -5633,6 +5637,7 @@
    "contentIds": [
     "sha256-fd-v1:9673f27cfc9efb4d2fcca267d3f745baa9d01dbe8ca980b05cd85a224813de17"
    ],
+   "description": "An adventure: sneak your girlfriend Rom out of the women's dormitory before your flashlight dies in an hour.",
    "launchbox": "181075",
    "publisher": "Enix",
    "sourceGroups": [
@@ -8662,6 +8667,7 @@
     "sha256-fd-v1:d7fcea9dd77e15b79b9c3e6f1520bffc332ef0dc613476de878a73336f45f928",
     "sha256-fd-v1:faef6452d76c6793cb2ef24aaf9665a7967e48c3368e09602081db4dba861e9d"
    ],
+   "description": "An adaptation of Motoko Arai's novel: the student Neko, whose psychic power waxes and wanes with the moon, is thrown into another world with two fellow psychics and must rally its people against the invader Duran III, with battles fought on a strategy map.",
    "developer": "Kitty Enterprise",
    "diskSets": {
     "sha256-fd-v1:faef6452d76c6793cb2ef24aaf9665a7967e48c3368e09602081db4dba861e9d": {
@@ -9002,6 +9008,7 @@
     "Agni no Ishi"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/3015ed64-d062-4d80-98c2-45fe60dddb42.jpg",
+   "description": "A mystery adventure: a rare gem named after the Indian god Agni is said to be hidden in a mansion in Lightsburg, a small town in the American South.",
    "developer": "Humming Bird Soft",
    "launchbox": "187774",
    "publisher": "Humming Bird Soft",
@@ -9083,6 +9090,7 @@
    "contentIds": [
     "sha256-fd-v1:d5bd92d9ee0c19b1a76a9555cb5eea31f52457d36f71f3ff6b9165919fe6a07f"
    ],
+   "description": "An adventure based on the film starring Midori Satsuki: a woman plans the perfect insurance murder of her patron, a real-estate company president, with an insurance man as her accomplice.",
    "developer": "CSK Research Institute",
    "diskMachine": {
     "sha256-fd-v1:d5bd92d9ee0c19b1a76a9555cb5eea31f52457d36f71f3ff6b9165919fe6a07f": {
@@ -9427,6 +9435,7 @@
     "sha256-fd-v1:2d5c36860e959018ffea08a4d8ae715792f63dbcc5c4e60cde67102557079fac",
     "sha256-fd-v1:c6fefb077d4386d257535c681f37f5419dc257b750b83957d035fe1a8cd36387"
    ],
+   "description": "A strategy game set in an age when drug pollution has shrunk the men: pick one of 35 rulers, all women, and conquer the land with nine domestic commands and battles fought by area.",
    "developer": "Soft Plan",
    "diskSets": {
     "sha256-fd-v1:1aaed8365c72897ebcaf3f8d3fd186cbbfb17c9ad3bb582d05ccbf833b063e92": {
@@ -10039,6 +10048,7 @@
     "sha256-fd-v1:daa6b88f57fa050f85e0f3ace1dae8a210c5364a6abd520fc358bc39d41418af",
     "sha256-fd-v1:eb3fb8adc50488a1ab7090904bab4aef7cd588d4cd3d63d51cac74bdf9ae6ea4"
    ],
+   "description": "A fantasy role-playing game: when monsters led by a cunning chieftain reduce the castle of Arguice to ruins, its prince sets out to save the kingdom, guided by the Book of the Winged Dragon packed with the game.",
    "developer": "Kogado Studio",
    "diskSets": {
     "sha256-fd-v1:daa6b88f57fa050f85e0f3ace1dae8a210c5364a6abd520fc358bc39d41418af": {
@@ -14484,6 +14494,7 @@
     "sha256-fd-v1:d56bee937122d8852900fa91b9e5921b7621939510cdb37050af13d9a216b676",
     "sha256-fd-v1:eddde84b8ba00d56dff0a989700223397166e038d568b4e1762ee39043ef26dc"
    ],
+   "description": "An expansion for Ginga Eiyuu Densetsu II: seven new and rearranged scenarios with a campaign through all of them, three levels of enemy admirals, optional collision and escape rules, free choice of where each fleet is stationed, and shown movement routes.",
    "developer": "Bothtec",
    "diskSets": {
     "sha256-fd-v1:4edcf61ff4eb93fc7aabe0e5457f1e3ead3d354c5e425d77248be117b1bc8a74": {
@@ -25414,6 +25425,7 @@
     "sha256-fd-v1:d08b8d6914566d6978476919ecbdd554f37acbdb37a56cd1685aac79a85b94f7",
     "sha256-fd-v1:d9121ea91e84b2bb7320b80a23071222a45d0f487a02ecbe3c30161ecfc3d85c"
    ],
+   "description": "A comic role-playing game: a Time Patrol officer travels into the past to find out why his sweetheart was taken, through about a hundred events; in battle you strike a monster's head, body or legs, and actions get easier the more often you succeed at them.",
    "developer": "Kogado Studio",
    "diskSets": {
     "sha256-fd-v1:d9121ea91e84b2bb7320b80a23071222a45d0f487a02ecbe3c30161ecfc3d85c": {
@@ -26134,6 +26146,7 @@
     "sha256-fd-v1:ae0fcc7f8cc49e2d6642ce9d337363bce342b2dcb2aab08c4be5cfc74a35e8ef",
     "sha256-fd-v1:b485794650bb12edc856ff604f5f210c6c5900dbf34fc104b9902c3551c02311"
    ],
+   "description": "A 3D racing game, an updated version of the PC-8001 game of the same name.",
    "developer": "Compac",
    "diskSets": {
     "sha256-fd-v1:ae0fcc7f8cc49e2d6642ce9d337363bce342b2dcb2aab08c4be5cfc74a35e8ef": {
@@ -26622,6 +26635,7 @@
     "sha256-fd-v1:cb889e29dd6dc64bfb755d782feac12e17a4e2a3e211f4ca6e897934d21fe2a6",
     "sha256-fd-v1:fbe4766f17f56ca82551c050d4861fa5a6bd5ae8715c3da96abe65ace666ed58"
    ],
+   "description": "A shooting game in six stages: Calamity takes a well-paid job delivering a trunk and is attacked by squadrons of fighters, picking missiles and other weapons from a rack as he goes.",
    "developer": "Great",
    "diskSets": {
     "sha256-fd-v1:cb889e29dd6dc64bfb755d782feac12e17a4e2a3e211f4ca6e897934d21fe2a6": {
@@ -27804,6 +27818,7 @@
     "sha256-fd-v1:1f1f959c783d838f966ca1fe50c9acb878fbba4b3c018cb0541986cebc95f470",
     "sha256-fd-v1:bab14177e27a2422d21e12dad7008c9c0afb0ea359c7c99823f0935c397125b1"
    ],
+   "description": "A yakuza strategy game: left in charge of the family by the old boss's will, recruit members, raid neighboring gangs for their turf and open cabarets and pachinko parlors to pay for it.",
    "developer": "Micronet",
    "diskSets": {
     "sha256-fd-v1:bab14177e27a2422d21e12dad7008c9c0afb0ea359c7c99823f0935c397125b1": {
@@ -27982,6 +27997,7 @@
     "sha256-fd-v1:4aa30f07b85e171ce889ea425a01181208a38653c5ac395afffdccd75cd0b081",
     "sha256-fd-v1:ad76f53997dc8317d5d6544d81baf86092c9c8171b5952db688e38cd0780692f"
    ],
+   "description": "An action game: dodge cavemen and animals, touch the crystal to summon the time machine Helicoid, and jump from era to era to get back to the present.",
    "developer": "Micronet",
    "diskMachine": {
     "sha256-fd-v1:2208929dda69124263beeb99680d8323f5f4a3eda2b0e2440832668dc6db4f8f": {
@@ -28126,6 +28142,7 @@
     "sha256-fd-v1:dd5c8c1c79910124c1587ec56a1f0e492dbc7309aae9d109b6d38d6f5fd486e1",
     "sha256-fd-v1:def790d3daed4c509387d9763fab6a1403a4cb3b92ef973d88e83a15249a51a2"
    ],
+   "description": "A role-playing game: thrown into another dimension that turns out to be the lost continent of Mu, you grow stronger and solve its mysteries to find the way home.",
    "developer": "Hudson Soft",
    "diskSets": {
     "sha256-fd-v1:a4d5285ac72dfc3bc99978c4b78d231f291fce9991416a5087d4e92ac5c73076": {
@@ -28167,6 +28184,7 @@
     "sha256-fd-v1:37c731dc4d9723009debb4a41f7a40c6a4e77df7df545572eba5b437a7326576",
     "sha256-tape-v1:d120559125362e1a8e0c6ed5053486a18c50369436377362a61d55eed60e71ea"
    ],
+   "description": "An action game: as a shepherd, catch the sheep outside the fence and put them back in the pen, while others slip out each time the gate is open.",
    "developer": "Hudson Soft",
    "diskMachine": {
     "sha256-fd-v1:37c731dc4d9723009debb4a41f7a40c6a4e77df7df545572eba5b437a7326576": {
@@ -28257,6 +28275,7 @@
     "sha256-fd-v1:07128ada2110884ad8fad96a7b33f386d901f3d757d88b92f129cf3a5808ff94",
     "sha256-fd-v1:4ae657d7398bbe96d91bf276d5de775b36d8a30d61977cc51416e6e62b6e2a3c"
    ],
+   "description": "A puzzle game: a letter and a robot arrive saying a bomb is set to destroy the Mirror Land; teach the robot its moves and use mirrors, lamps and batteries to light its way to the bomb within 45 minutes.",
    "developer": "ArtDink",
    "diskSets": {
     "sha256-fd-v1:4ae657d7398bbe96d91bf276d5de775b36d8a30d61977cc51416e6e62b6e2a3c": {
@@ -28460,6 +28479,7 @@
     "sha256-fd-v1:689563bad373e3e659ca01fe0fa1691ff74c6768150f33818f4c42cffe5954cf",
     "sha256-fd-v1:d4a2c9b9fb0b0f51f063328bab7725fc6c7dea74708fbe3ed5c99aca5ae87b65"
    ],
+   "description": "A space role-playing game of scenario sets that share one loader and can be played in any order: build characters from eight races, change jobs, and win back the planet Nasser from a mechanized army.",
    "developer": "Hot-B",
    "diskMachine": {
     "sha256-fd-v1:03b28860cd11dc0ffb94e30947a66c0ba5b6f55a0005ae9de783c9e7bc304cc3": {
@@ -28540,6 +28560,7 @@
     "sha256-fd-v1:f20186907722d30620ff1d5561f12e7b5cdf6a3164618b1078db2fa3db38073a",
     "sha256-fd-v1:f970d96be1a31aeae04ae9c79dea5f8298204db9ce7e070dca82d222f1b04184"
    ],
+   "description": "A seven-disk role-playing adventure by the author of SeeNa: the gods have turned on the people, and seven unlikely heroes, a cat and a fairy among them, each rise against the god of their own land, one disk per country.",
    "developer": "System Software",
    "diskSets": {
     "sha256-fd-v1:b506837e9e57ec74f72799ed49d9a28ea0e6aeb617033f53de26e42b72e29895": {
@@ -29182,6 +29203,7 @@
     "sha256-fd-v1:da81b5c782f1b022fac48830b5e1077a7c423ea1b85dd5a37eb28dfbb4d918d0",
     "sha256-fd-v1:fe0569a7a79bc7f4e6290592b96ea38edc0b28fa732ecb37d21f86ba6191b909"
    ],
+   "description": "A baseball management game: take over any of the twelve real teams with their funds and players, train your squad, and play dirty off the field by leaking rivals' scandals or hushing up your own.",
    "developer": "Xtalsoft",
    "diskSets": {
     "sha256-fd-v1:27a1fd7e0fd37c3912c71f70f1fe5c2834a709b43d60b966400a69f2f37cc971": {
@@ -29317,6 +29339,7 @@
     "sha256-fd-v1:3f0bd308c5b1f334062cbda6e23f77b6cdf056414c0a6222c300ea50a42af56f",
     "sha256-fd-v1:a041a34539e4e737471ebded0d9dfc7621c2f5587f33cf9e91df85ad04974697"
    ],
+   "description": "An action role-playing game in ancient Egypt: Kaoru Jinguu, born into a family of shrine priests, fights with psychic power that grows in the world of myth.",
    "developer": "Natsume",
    "diskSets": {
     "sha256-fd-v1:17c15b3cb30a771715fcac038af521cc6650e85bb62539c9781beb15682009f4": {
@@ -29366,6 +29389,7 @@
     "sha256-fd-v1:d0df81902333ab7ade08ba2d29cd5e7b6719c8054467bf8a6f2bfbea58b62d55",
     "sha256-fd-v1:d3cb8403d009aadb5e2383121ec84debfa6c2b5afcfb951f261baa4930b575eb"
    ],
+   "description": "A baseball management game by the later creator of Derby Stallion: manage a team through a 130-game pennant race and follow the batting and home-run races in detailed player statistics.",
    "developer": "ASCII",
    "diskSets": {
     "sha256-fd-v1:512a528688249781b3b0a23c38ce0e9f79f78d563059502f347578e2834c0404": {
@@ -29448,6 +29472,7 @@
     "sha256-fd-v1:b2b48136e99f10dbe4569ea8798601851659481ee157654b88d95fefe8f65894",
     "sha256-fd-v1:fb4473f6ca10fa53f1ac556f3fc65c4bc6d5ff0204603df138333e5829f087eb"
    ],
+   "description": "Brain Grey's ninja role-playing game: three heroes, Jakimaru, Gen'yousai and Koheita, each pursue their own story while the others' stories advance alongside and cross it, and every ten days they can meet at a mountain hut to ask each other for help.",
    "developer": "Brain Grey",
    "diskSets": {
     "sha256-fd-v1:3bec51849359ec9f7c08334e714b32622c0679c1292e3672f459c7d6b0c74558": {
@@ -29492,6 +29517,7 @@
     "sha256-fd-v1:a0e5beb9950cb7edfeab88d068e72ac054ad8341af21ebf83446b86194588ee9",
     "sha256-fd-v1:fe003c0b7b66b562c46bf857877243c1369bad44cb3231d3a8a1bc1eaf5bbe31"
    ],
+   "description": "A stock market game: grow your fortune by investing in shares, convertible bonds, warrants and commodities while following news bulletins and economic indicators.",
    "developer": "Cosmos Computer",
    "diskSets": {
     "sha256-fd-v1:fe003c0b7b66b562c46bf857877243c1369bad44cb3231d3a8a1bc1eaf5bbe31": {
@@ -29609,6 +29635,7 @@
    "contentIds": [
     "sha256-fd-v1:85eaf33203c6450029fdc987d02fa043bd723f0340499683cae0fde11ef3b219"
    ],
+   "description": "A mahjong action game: as Jankichi, knock tiles down from the conveyor with a hammer to complete winning hands, while dice and riichi sticks fly in to get in the way.",
    "developer": "Yellow Horn",
    "diskMachine": {
     "sha256-fd-v1:85eaf33203c6450029fdc987d02fa043bd723f0340499683cae0fde11ef3b219": {
@@ -29640,6 +29667,7 @@
    "contentIds": [
     "sha256-fd-v1:ac7ec245b403e4f6cffe2bef1bdff2d40d7a8eac02090400e175dd6a9f69e32c"
    ],
+   "description": "A pyramid maze game: take the apple and pistol, then the diamond that opens the next level; the apple lets you push walls, which can trap enemies, and the mummies cannot be shot.",
    "developer": "T&E Soft",
    "diskMachine": {
     "sha256-fd-v1:ac7ec245b403e4f6cffe2bef1bdff2d40d7a8eac02090400e175dd6a9f69e32c": {
@@ -30092,6 +30120,7 @@
     "sha256-fd-v1:ac2fe1b4bfd4ade520822f24dcdeb2c262be32b6678cc95dd0a2f61e2dd22b4d",
     "sha256-fd-v1:c03f8d41a75838d44bfff7b3e29287418d88817349d1c764dd4636e3acd9f3fa"
    ],
+   "description": "A role-playing game in Asuka, Nara: someone has broken the seal holding back the demons, and karate captain Togo goes into the underground labyrinth to rescue his teammate Katsuragi.",
    "developer": "Winky Soft",
    "diskSets": {
     "sha256-fd-v1:c03f8d41a75838d44bfff7b3e29287418d88817349d1c764dd4636e3acd9f3fa": {
@@ -30791,6 +30820,7 @@
     "sha256-fd-v1:b8b3bf28dfefd5bef0cdae31c9cefb8d030a0604f68dca564d8683d9ee5204bc",
     "sha256-fd-v1:c4b5903763ba31224f364d92a8db882422224c5590670e3e8d926cd6b6551224"
    ],
+   "description": "A fantasy adventure: draw the legendary sword from the magic spring to save the kingdom from a demon.",
    "developer": "Fuji Onkyo RAM",
    "diskSets": {
     "sha256-fd-v1:b8b3bf28dfefd5bef0cdae31c9cefb8d030a0604f68dca564d8683d9ee5204bc": {
@@ -30834,6 +30864,7 @@
     "sha256-fd-v1:e19a48c44eafab91785d2d489f95a56151b5b4a1763c12fd4af2f6e05ff8419a",
     "sha256-fd-v1:e78b617c64fe5de84928149c9c8557d954f383f4dd48c7cb69aee2ad610a0449"
    ],
+   "description": "A strategy game based on the film: as Uesugi Kenshin, take the realm, with detailed battles and generals, castles and events; a port of the PC-98 version.",
    "developer": "Kogado Studio",
    "diskSets": {
     "sha256-fd-v1:e19a48c44eafab91785d2d489f95a56151b5b4a1763c12fd4af2f6e05ff8419a": {
@@ -31079,6 +31110,7 @@
     "sha256-fd-v1:8ebf8d9914160e421b0ad8a2ca8063d4b96957c2e0b8477e0f647eb54ef6f045",
     "sha256-tape-v1:b1cbfca18d3935025aa8426359dac84480b4e3b3833fb8c3b855b654e769923d"
    ],
+   "description": "A prize winner in Enix's second contest: a single-screen action game of throwing fruit into baskets.",
    "diskMachine": {
     "sha256-tape-v1:b1cbfca18d3935025aa8426359dac84480b4e3b3833fb8c3b855b654e769923d": {
      "basic": "v1s",
@@ -31123,6 +31155,7 @@
     "sha256-fd-v1:d0d4b7da5488c255436314ff546771658e07958f9f9e3c833656d9177c01a8ea",
     "sha256-fd-v1:dede8dc52e8d063ed4ef229c626007acb87ee22883766999ee5e2b320e0a8beb"
    ],
+   "description": "An action role-playing game in ancient Japan, from a story by Aritsune Toyoda: Prince Takeru, fated to live only until seventeen, searches for the mermaid flesh that grants eternal life.",
    "developer": "Login Soft",
    "diskMachine": {
     "sha256-fd-v1:0ade6df719659484b2b925ebeb8425b1888fb1bf257070e889566e21651fc43b": {
@@ -32123,6 +32156,7 @@
     "sha256-fd-v1:4c8b8302b6705cbe9ece1d0a299f9dfc4079360926022fcfcdf3da5fbc8dda5e",
     "sha256-fd-v1:97d9abe24434bd783033ec57aa79ed5429bb970ecd98398a40b40c478763e9c9"
    ],
+   "description": "A role-playing game in the American West of 1853: young Jimmy sets out to become the biggest man in South Dakota by mining gold, catching outlaws and talking his way to a fortune.",
    "developer": "Game Arts",
    "diskMachine": {
     "sha256-fd-v1:4c8b8302b6705cbe9ece1d0a299f9dfc4079360926022fcfcdf3da5fbc8dda5e": {
@@ -32249,6 +32283,7 @@
     "sha256-fd-v1:8249e1a1a8575aaa131679da14f60f16b749e41f2ffec0c531300a6331d16795",
     "sha256-fd-v1:f4aeac981be3cbd1f9c21c64d86a376f5189f47a1aae9637385463db46204c2b"
    ],
+   "description": "The second game in Carry Lab's shogi series, with difficulty settings, saved games and a replay mode that steps through a game move by move.",
    "developer": "Carry Lab",
    "diskMachine": {
     "sha256-fd-v1:1249bad0fbb6e41c03fa6e4f5a451d6a72e9099d1a570cf17946eac0b38a0eca": {
@@ -32456,6 +32491,7 @@
     "sha256-fd-v1:b284286de8b0cd644acb699fd73fd9abe1136505750d79859df04c32471c0581",
     "sha256-fd-v1:d637e7a591bf906241e4eed2f41f9e2ca0744b97605926c3ffd33acebd0b6a10"
    ],
+   "description": "A puzzle game: guide CARBO 1 to carry every yellow ball to CARBO 2, which moves only up and down and throws stones at enemies, using one-way and linked moving plates and avoiding bombs.",
    "diskSets": {
     "sha256-fd-v1:d637e7a591bf906241e4eed2f41f9e2ca0744b97605926c3ffd33acebd0b6a10": {
      "setDisks": [
@@ -32487,6 +32523,7 @@
     "sha256-fd-v1:8fa059ccd8e022f7522b33ec590fc0c934ba3454880556fe595db78c3655c587",
     "sha256-fd-v1:a4ccd473a71ca4a77b185929bd82b9532b8601864b88566b38e8669083bf2932"
    ],
+   "description": "A calligraphy tool for the mouse: write with pen, eraser and file, and save your work.",
    "diskSets": {
     "sha256-fd-v1:2e81ebf98425fbe036be7d0ab564c09ea7844e4fe4cfdf8ae914b977ccbfa52b": {
      "media": [
@@ -32595,6 +32632,7 @@
    "contentIds": [
     "sha256-fd-v1:4ebe551d8ab40ce4cf7925be907364d0f3b715cedf12d90b53b2e5c3117f4d45"
    ],
+   "description": "A science-fiction role-playing game: up to five pilots in mechanical fighters set out to destroy CRUX, a giant artificial intelligence that has rebelled, collecting bounties for enemy robots at the colonies.",
    "launchbox": "193369",
    "publisher": "Compac",
    "sourceGroups": [
@@ -33262,6 +33300,7 @@
    "contentIds": [
     "sha256-fd-v1:4abeb7757c520a6461d174c46cde26b18e2e962fa6ffeed15e7a15cde86cd5c0"
    ],
+   "description": "A text mystery: the police send you a case file and a disk with access to their crime database, and you solve the case from the evidence alone, with photos, a floor plan and suspect snapshots in the box.",
    "developer": "Hudson Soft",
    "launchbox": "193385",
    "publisher": "Hudson Soft",
@@ -33514,6 +33553,7 @@
     "sha256-fd-v1:044d01f8dc3d931d42cda0af662d3d19fdc06c293895af706ddee5af91aad0db",
     "sha256-fd-v1:afd7d56e9260563fd12dffb777d2cc8a5cca30ea18de60e393cb7fffa09f7e29"
    ],
+   "description": "A prize winner in ASCII's second software contest: dodge six kinds of enemies to collect keys, open the warehouses and take their money and fruit, transforming to breathe fire or slow the guards.",
    "developer": "ASCII",
    "diskMachine": {
     "sha256-fd-v1:044d01f8dc3d931d42cda0af662d3d19fdc06c293895af706ddee5af91aad0db": {
@@ -33603,6 +33643,7 @@
     "sha256-fd-v1:b5b8e10ad50b224eee429c472878592c29fad1c6d8c263bf4d6165cb091b34fe",
     "sha256-fd-v1:f9b4429cfb46d15a320fdf496232d33f3a24f3ad3c0786b5356200e04502166a"
    ],
+   "description": "A hard-boiled detective adventure in black and white: in New York, a rich widow hires you to find three stolen jewels, and one case leads to another.",
    "developer": "Thinking Rabbit",
    "diskSets": {
     "sha256-fd-v1:6edbb5b502e44ea078e1b24fd9699a80ba8f207b922e1b260d12e77ab6e72cc5": {
@@ -33708,6 +33749,7 @@
    "contentIds": [
     "sha256-fd-v1:c057a15672ab891ca2254e41d1defb619189e531808e2ef53b45d1a266e1a5e0"
    ],
+   "description": "A detective adventure: a born bungler who has just lost another job becomes a rookie detective and searches a house suspected of gun smuggling, with the items hidden in different places each game.",
    "developer": "Xtalsoft",
    "diskMachine": {
     "sha256-fd-v1:c057a15672ab891ca2254e41d1defb619189e531808e2ef53b45d1a266e1a5e0": {
@@ -33927,6 +33969,7 @@
     "sha256-fd-v1:d5a3ed4e9749aba6189d01eb7091d7ee76ce1c757c4f0eb7f358867d795c373e",
     "sha256-fd-v1:f8c77063e193fd906e42e6afcf85329d8fee34e2df90752e8d759665886a503b"
    ],
+   "description": "Shogi by Kazurou Morita, the strongest shogi program of its day.",
    "developer": "Random House",
    "diskSets": {
     "sha256-fd-v1:8f080a4a703e3265b51eeed6969b0fea36cba390198811582ba29fec1769ef94": {
@@ -33971,6 +34014,7 @@
     "sha256-fd-v1:475cfb9e1f692b069dc37adfc6647cd2882487ba61dad1063ded311a105a865c",
     "sha256-fd-v1:ed99756b9f14fc4e4ed94b7b5646a42bfb2daa3a601ca9b00819a320600529a2"
    ],
+   "description": "A competitive action game like a ball-toss race: bounce the 300 balls that pour out of the shooters off walls and rabbits into your own goal, with balls worth more as the match goes on.",
    "developer": "Wolf Team",
    "diskSets": {
     "sha256-fd-v1:475cfb9e1f692b069dc37adfc6647cd2882487ba61dad1063ded311a105a865c": {
@@ -34024,6 +34068,7 @@
     "sha256-fd-v1:abe653e314f24286df1f8011eee820ce25ad5c141f63f0ab5d4d78067954fc54",
     "sha256-fd-v1:f699e6880cae37b8880845d436418db29b5bf41b2d9557b51d770977cbb24d0e"
    ],
+   "description": "A comedy role-playing game: the philandering prince of the Kinokuniya Kingdom is barred from the castle by the queen until he brings home his runaway wife, Snow White, through a land of parody shops and silly monsters.",
    "developer": "East Cube",
    "diskSets": {
     "sha256-fd-v1:29257b306dfce304a9b02bdfe782e54bd447add2aa3143bc44de0a1bdb243e16": {
@@ -34141,6 +34186,7 @@
     "sha256-fd-v1:b63bc985dd0b4be818b47dfaed0823518954fb47530a8c17955111141c0e07eb",
     "sha256-fd-v1:e2f052b6b8b623bc6708337bc70f29b2d2fe9016c1dbc01939f07be942092a17"
    ],
+   "description": "A baseball action game with a scoreboard full of detail and players under made-up names.",
    "diskSets": {
     "sha256-fd-v1:0fae0410ba1cf4855d166354e48f668d27041d7d1ba2c0a38077d1c9eed3e0df": {
      "media": [
@@ -34207,6 +34253,7 @@
     "sha256-fd-v1:c2be530dee409030125aefbdbed701be4e8bdc6299097ce2778bf7f59fe4b163",
     "sha256-fd-v1:e9a4105cdc32dbba201573de6dc09c19ebd5fff5b138adb250c1854bb4a95bf6"
    ],
+   "description": "A new version of the racing game SeeNa in which the whole screen scrolls and bobs up and down.",
    "developer": "SystemSoft",
    "diskSets": {
     "sha256-fd-v1:c2be530dee409030125aefbdbed701be4e8bdc6299097ce2778bf7f59fe4b163": {
@@ -34286,6 +34333,7 @@
    "contentIds": [
     "sha256-fd-v1:90a887be08c09c32df6abb4c30ab1d593e9f800df30e5603a0623a40039d4606"
    ],
+   "description": "A five-set singles tennis game with a manual mode that switches between forehand and backhand.",
    "developer": "Winky Soft",
    "launchbox": "193408",
    "publisher": "Winky Soft",
@@ -34788,6 +34836,7 @@
    "contentIds": [
     "sha256-fd-v1:24dd677a28c2a03ab152403631c44afab09860f1155329aa37d7212e37d857cc"
    ],
+   "description": "A batting game: guess each pitch's course, type and speed to get a hit before three outs.",
    "developer": "Pasoket",
    "launchbox": "196868",
    "publisher": "Pasoket",
@@ -35127,6 +35176,7 @@
     "sha256-fd-v1:6f9edf36a1cdeac67a89c5dead7765f83617385a1fcad09892089162d4320ec7",
     "sha256-fd-v1:aa61b2aa3950ca4c5778249e0a5eda2d860f711a9a11b77e303b00a15d023257"
    ],
+   "description": "A three-choice quiz game: start with five lives, lose one for each wrong answer, and win them back with points.",
    "developer": "Pinky Soft",
    "diskSets": {
     "sha256-fd-v1:6f9edf36a1cdeac67a89c5dead7765f83617385a1fcad09892089162d4320ec7": {
@@ -35925,6 +35975,7 @@
     "sha256-fd-v1:778b98126ecd438a39614b36863eab818f363538be0344b2ac66ea8241fe4709",
     "sha256-fd-v1:d6de47ca2cca1d7f9b9da7e59278d2397db7782486079d11689952c287f45cb5"
    ],
+   "description": "A role-playing game: a crimson fog turns every man in the kingdom of Lasiel to stone, and Prince Lavia, the only one spared, becomes a woman warrior with a rebirth potion to defeat the dragon that took his sister.",
    "developer": "View Tech Soft",
    "diskSets": {
     "sha256-fd-v1:d6de47ca2cca1d7f9b9da7e59278d2397db7782486079d11689952c287f45cb5": {
@@ -36602,6 +36653,7 @@
     "sha256-fd-v1:bcb28538cdcaf98ab36e24e802a9652284e0eeb112cc0d3dd7d0131180ac3a83",
     "sha256-fd-v1:df36b99b12399239bb046f05fbf00e691dc0d21a9c158fc23a10e289ea398f73"
    ],
+   "description": "A battle strategy game: as commander, hire soldiers of four ranks (infantry, engineers, ninja, cavalry, mercenaries), pick ten for each operation and set their roles and routes.",
    "developer": "Technopolis Soft",
    "diskSets": {
     "sha256-fd-v1:08b5f84fcb0674be7f8c5fc50dd548de69804ba4beafabd4f956381a9c5b996f": {
@@ -36964,6 +37016,7 @@
     "sha256-fd-v1:46fea5d438957cd7f07e9a782da65751988abbe517faf6eb45d80c6e467812a5",
     "sha256-fd-v1:904757da52cc8fb738fcf0aae41cae1f0cb43f259842981d2a085f68dd92bae7"
    ],
+   "description": "A mahjong game with three rule sets: a beginner's game, a gambling game with extra dora, and one where only limit hands can win.",
    "developer": "Studio Offside",
    "diskSets": {
     "sha256-fd-v1:904757da52cc8fb738fcf0aae41cae1f0cb43f259842981d2a085f68dd92bae7": {
@@ -37350,6 +37403,7 @@
     "sha256-fd-v1:3268ecf35f1d5f1aa0fd2d9e3615ed0f1fea695014a5bf09f883fc69df92deed",
     "sha256-fd-v1:7f520b9df216781db07bc442802972a901ef970831f13fbde6b54bf337698eea"
    ],
+   "description": "A board game collection: checkers, renju, Othello, 3D four-in-a-row and hex against four opponents.",
    "developer": "LOG",
    "diskSets": {
     "sha256-fd-v1:3268ecf35f1d5f1aa0fd2d9e3615ed0f1fea695014a5bf09f883fc69df92deed": {
@@ -38562,6 +38616,7 @@
     "sha256-fd-v1:c97e1f9f29f91e2ef0006ca2665d36bd083f38863d86e288704164419cc15ad2",
     "sha256-fd-v1:ef12b7f6bff56e6858128fff432a55612bc8721f506095d1274d5c79c06d4a42"
    ],
+   "description": "A racing game: a caller says your girlfriend will come back only if you win a week-long rally, seven rounds from Monday on, with continues from the round you lost.",
    "diskSets": {
     "sha256-fd-v1:c97e1f9f29f91e2ef0006ca2665d36bd083f38863d86e288704164419cc15ad2": {
      "media": [
@@ -39076,6 +39131,7 @@
     "sha256-fd-v1:e5c0235013d5b4c97640737ae925187ecb0914a80d4907f5d774b99aec2e0145",
     "sha256-fd-v1:ea70b77ca04d96dd926547292b351518bb74f7244dce5b8c64889d1e6008ebc2"
    ],
+   "description": "A port of the arcade mahjong game, with four-player matches against three of seven opponents and a tournament.",
    "developer": "Micronet",
    "diskSets": {
     "sha256-fd-v1:369f9f5ab5d2806b11250e331c167daacfec25b0a60cd2c2b98681b97fb9fc5a": {
@@ -39272,6 +39328,7 @@
     "sha256-fd-v1:e6a4dd5fe8bebbb2400e1104d7a7a546c5b2b4937f634f6f3eab370ed2a87c1d",
     "sha256-fd-v1:fe0e9b98c3a082ce073716c1e463fc20deb2e89bceb8c4a9f020ffc3740c989b"
    ],
+   "description": "A mahjong game: told by her dying mother that her father is alive, Asami Takagiri sets out to become Japan's best player and find him, buying items in a shop before each match.",
    "developer": "Technopolis Soft",
    "diskSets": {
     "sha256-fd-v1:46f18d3b6d34d3f8ec5ad3547c243c96b12549dc7acb4c4570315d69fa5f1a9a": {
@@ -39426,6 +39483,7 @@
     "sha256-fd-v1:562936ad91541b8488b3f869d4371dc2cfef65c0cd51366c65aa93bab24339f3",
     "sha256-fd-v1:9d183ccc7d742fce55e1c361ab111ffb3099ce5b45cb91281f7a2032dc9b47e5"
    ],
+   "description": "An action game: hold off the snakes crawling toward Manami in the middle of the screen with firewood, stones, slugs, sickles and medicine until time is up.",
    "developer": "Uchuu Kikaku",
    "diskSets": {
     "sha256-fd-v1:562936ad91541b8488b3f869d4371dc2cfef65c0cd51366c65aa93bab24339f3": {
@@ -40034,6 +40092,7 @@
     "sha256-fd-v1:e62a9f38c6c8d053e0e8d4d5f08d2342ece7de2ba60d922426f5086ec3e18c08",
     "sha256-fd-v1:f703f4e24f74a3db22a7693740f6d3f14a5d48615fdb0470966f19b5b2352515"
    ],
+   "description": "A card game like Daifugo, played with cards numbered 0 to 11 where the lowest is strongest and runs can't be played; finish first or second to move on.",
    "developer": "DTB Software",
    "diskMachine": {
     "sha256-fd-v1:717803b74be91a5c647d607bb4bd5265f8576fd1b496a878d6bf30c2ae0e145e": {
@@ -40101,6 +40160,7 @@
     "sha256-fd-v1:e6368dbe5857e938ea0d83a9df7b794226482d51f1227bc7e623e69f04f101b1",
     "sha256-fd-v1:fcd52d109ff24f801cbaac68fa47fcbe83990429833c50bd93900cf914ca1961"
    ],
+   "description": "A comic fantasy role-playing game you can start right away, with no character making: the world map moves in turns like a strategy game, while battles, towns and dungeons play in real time.",
    "developer": "Onion Software",
    "diskSets": {
     "sha256-fd-v1:310ff8620a48c4df1c7366eefc09b7500afb6e8e2a84db68f65d26b80758dcb7": {
@@ -41035,6 +41095,7 @@
     "sha256-fd-v1:dc8c0eac04972fee8be01a3b0c7a98d4b3ed2b2cd271f177d8b31000c87d3086",
     "sha256-fd-v1:e29764498a2fde83a97f35a5babd5efecacb80fdd539a3ca8070084460f7f329"
    ],
+   "description": "A fantasy role-playing game: the princess of Raiamel has been carried off to wed the king of the were-creatures; play a man or a woman to rescue her, or the princess herself escaping her captors.",
    "developer": "Onion Software",
    "diskSets": {
     "sha256-fd-v1:a65a845f7ff6381791dd2e26801f1db492d207aeb36d4b071bd2b244f91d5598": {
@@ -41645,6 +41706,7 @@
     "sha256-fd-v1:be6ff36953b13ab17ea4cd32aaddf60ff40ff49356d3c6e0ee356a92766fd9b9",
     "sha256-fd-v1:c8cf2c552ec4d5553b659fe3507386bf054f7c78df446fa2acb82c9102a5c2d3"
    ],
+   "description": "A board-game adventure: Reena rises against the Death Gals who invaded the land of Achodepopaa; roll the dice to move, answer questions at forks, gather items in each stage and defeat its boss.",
    "developer": "Interlink",
    "diskSets": {
     "sha256-fd-v1:6dee8932a97a3ffd991b40c8fade1f8e4654cd7ceac89976b6c2b14e16e75e33": {
@@ -42032,6 +42094,7 @@
    "contentIds": [
     "sha256-fd-v1:0d39195a936b16000f674272bf087a3cf9f9f74fd97c7c1075346f76970163c9"
    ],
+   "description": "A picture puzzle: move and turn twelve triangular prisms, each with three panels, to assemble a jungle panorama.",
    "developer": "Kogado",
    "launchbox": "197080",
    "publisher": "ASCII",
@@ -43855,6 +43918,7 @@
   },
   "pc88:200158": {
    "boxArtUrl": "https://images.launchbox-app.com/f1949826-4d23-4c5f-a29e-5f3b1475f80b.jpg",
+   "description": "A 2D Grand Prix racing game by Masao Aoba: work the accelerator, clutch, brake and five-speed gearbox around an oval and a technical course for the best lap time.",
    "launchbox": "200158",
    "publisher": "Enix",
    "screenshotUrl": "https://images.launchbox-app.com/e2b0a61c-317c-43f2-b764-48289830dc33.png",
@@ -43889,6 +43953,7 @@
   },
   "pc88:200161": {
    "boxArtUrl": "https://images.launchbox-app.com/r2_d102f1dd-106a-45c0-a76f-70b01007111e.png",
+   "description": "A war action game in two parts: at sea, shoot down enemies while catching the cargo a transport plane drops, then fight on land in a tank through mines and enemy tanks.",
    "launchbox": "200161",
    "publisher": "Enix",
    "screenshotUrl": "https://images.launchbox-app.com/628e6d8c-72b5-4a60-b1ce-eed6568a02c3.png",
@@ -43896,6 +43961,7 @@
   },
   "pc88:200162": {
    "boxArtUrl": "https://images.launchbox-app.com/53839fe6-b286-4494-aeeb-ac87cdc6ac05.jpg",
+   "description": "The sequel to Omotesando Adventure, an English text adventure: in 2001, a writer whose every submission to the A-SKI company was rejected is woken from cold sleep by a group with the same grudge and sets out to wreck its chief adviser's mansion.",
    "launchbox": "200162",
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/7fcd9ff8-068a-4920-af11-e10f81da3fda.png",
@@ -43921,6 +43987,7 @@
   },
   "pc88:200167": {
    "boxArtUrl": "https://images.launchbox-app.com/1dc7e03a-88b0-49fa-baa8-786020a67441.jpg",
+   "description": "A prize winner in Enix's third contest, first called Jail Bird: fly a UFO and capture the people trying to escape, in the manner of Choplifter.",
    "developer": "Miyata Soft",
    "launchbox": "200167",
    "publisher": "Enix",
@@ -44548,6 +44615,7 @@
     "sha256-fd-v1:ae14caec9a667e558ef1d60625d18f8458aa1a71aa3ce3a635d0e7253c204b70",
     "sha256-fd-v1:e9e6ac63fc71021b2369c9358c09aa418973aceaae4e18b08c2e5a92e8ef960d"
    ],
+   "description": "A water-themed role-playing game: the guardian Great Water Dragon of Soltia has fallen to users of black water magic, and you gather its scattered dragon water to revive it, learning water spells for attack, defense and healing; its dungeons are underwater 3D mazes.",
    "developer": "Shanbara",
    "diskSets": {
     "sha256-fd-v1:658c68af28cae9c7374a3d503c8fb2d9b2f50dd156d65b5ae873108b0d603456": {
@@ -44696,6 +44764,7 @@
     "sha256-fd-v1:f2d587b4b71dda1de9abbf1e7e6c34caf66ee99c3b7c4fd026f629b7bd993c2c",
     "sha256-fd-v1:f4b703ec2ad04d56b540e6fc4886337d843b6f68365b5c7d91fecb9ea10ffb7c"
    ],
+   "description": "An adventure from Jirō Akagawa's novel: newlyweds Yōichi and Yoshiko are lost in a blizzard on their honeymoon and take shelter at a mountain lodge; chapters follow the courses of a dinner, each with a time limit you set.",
    "developer": "Heart Denshi",
    "diskSets": {
     "sha256-fd-v1:27a6a063c5e42cea561fb807403f8ce24f96f726f153f6267302552c699d2afa": {
@@ -44831,6 +44900,7 @@
     "sha256-fd-v1:d8d7f1998cee797294f1e985e3072a02bbf75ac3c8093808273406164c493e48",
     "sha256-fd-v1:ef5ec0c818ac119a11bf14f42db29e2c4d51fa12bbcbb571bead618019415a55"
    ],
+   "description": "A strategy game of the Chu-Han war with 88 heroes, among them Han Xin and Zhang Liang: lead Liu Bang's army to defeat Xiang Yu and unify China.",
    "developer": "Soft Plan",
    "diskSets": {
     "sha256-fd-v1:d8d7f1998cee797294f1e985e3072a02bbf75ac3c8093808273406164c493e48": {
@@ -44879,6 +44949,7 @@
     "sha256-fd-v1:a0fd1f4a831cfefbaa128c69d8cadb2f9b3c38d9a9255f4271221a11f61f20ca",
     "sha256-fd-v1:a2065953df0437cb619e464ad09868f430b2ad5ca09d1e86ecfa5a148dc5a072"
    ],
+   "description": "A space trading role-playing game: Tom and Tina fly a small ship between the seven planets and one station of the Proshude system, trading for profit while searching for their missing brother Billy, between the Alliance, the Empire, outlaws and monsters.",
    "developer": "Cosmos Computer",
    "diskSets": {
     "sha256-fd-v1:918c543ba3def1cb2cccd5155f7bcea2ffb5e7c59dd5dc35994e56c648f69577": {
@@ -44938,6 +45009,7 @@
     "sha256-fd-v1:eeb48ac9d7aa6216f493fc149d074d55781668bfcfada630ee3dd7769aae0cb2",
     "sha256-fd-v1:f73e57b4abbaa6c613e5a487240cd05e5de58bdd66dfc05ff3c6745f3daaed99"
    ],
+   "description": "A golf game: a new employee at Matsugami Trading is ordered by his manager to invite six women to the company golf outing within three days; once they're found, it becomes a full golf game.",
    "developer": "FairyTale",
    "diskSets": {
     "sha256-fd-v1:c0dd027806e16909d13ef037de69b0c912404a874b25decbe511ae7305f73355": {
@@ -45033,6 +45105,7 @@
    "contentIds": [
     "sha256-fd-v1:06844dc4f9a35896de7e9ccdf0f7f237993b871927dbb14773613030ed167a23"
    ],
+   "description": "A submarine simulation in the Pacific of 1945, with a screen full of gauges: in six operations, attack enemy convoys and hunt down a carrier task force.",
    "developer": "Bares",
    "diskMachine": {
     "sha256-fd-v1:06844dc4f9a35896de7e9ccdf0f7f237993b871927dbb14773613030ed167a23": {
@@ -45544,6 +45617,7 @@
    "contentIds": [
     "sha256-fd-v1:f6f22898ea6a28d7bc09fa47ec115218e68f4be60971304259b439519e6215e7"
    ],
+   "description": "Koei's role-playing game: the eternal city of Greenock vanished when the dark priest Algard returned; create twenty adventurers, form a party of six and restore it, through Wizardry-style dungeons and an Ultima-style overworld.",
    "developer": "Koei",
    "diskMachine": {
     "sha256-fd-v1:f6f22898ea6a28d7bc09fa47ec115218e68f4be60971304259b439519e6215e7": {
@@ -45616,6 +45690,7 @@
    "contentIds": [
     "sha256-fd-v1:d17f6ba632489f69633f0d1d899b17cb0064e6bbfaac4e02032a2c335a7f905c"
    ],
+   "description": "A horror adventure: lost in the Aokigahara forest at the foot of Mount Fuji, find the keywords that let you escape before the spirits make you one of them.",
    "developer": "CSK Research Institute",
    "launchbox": "207528",
    "publisher": "CSK Research Institute",
@@ -45701,6 +45776,7 @@
    "contentIds": [
     "sha256-tape-v1:7dbe362c92bed2d6c696fd6fa5c29644157095bb721f8f7c91cfe49bccda3892"
    ],
+   "description": "A maze action game: as Jagey, throw the arrows lying around the maze to defeat fast Faces, warping Bems and fire-breathing Gajiras, and pop floating balloons for oxygen.",
    "developer": "MIA",
    "diskMachine": {
     "sha256-tape-v1:7dbe362c92bed2d6c696fd6fa5c29644157095bb721f8f7c91cfe49bccda3892": {
@@ -46027,6 +46103,7 @@
     "sha256-fd-v1:1636f3db38e957cf58d1b8c28ea2f318e443f84ec474cc71f8412dc9aa16d17e",
     "sha256-fd-v1:f3b9cdbfc85e6b65bc4d371eab0523f4edd72ce48f7c2b68d7fb53cb6bf4b6e2"
    ],
+   "description": "The board game Tanba on the computer: roll the dice to evolve from a water flea or an axolotl through fish and reptiles, and win by becoming human first.",
    "developer": "Micronet",
    "diskSets": {
     "sha256-fd-v1:1636f3db38e957cf58d1b8c28ea2f318e443f84ec474cc71f8412dc9aa16d17e": {
@@ -46654,6 +46731,7 @@
     "sha256-fd-v1:aa69dc877de346144dbc003b212d9520e12d7749c4f606550de040caceb9a749",
     "sha256-fd-v1:b948a8601fd929902010af94fccc565b63c5f9b9204e2ca7fa2ab926c628ebc3"
    ],
+   "description": "The second role-playing game from the makers of The Screamer, in an Eastern setting: asked to rescue a lord's kidnapped princess, you must face the Asura who broke the world, among some sixty characters such as Musashi and Goemon.",
    "developer": "Magical Zoo",
    "diskSets": {
     "sha256-fd-v1:47a747e68f82070e35a36d1a31ce1be0d8194df074fcde63faeb9bd242f71724": {
@@ -46955,6 +47033,7 @@
    "contentIds": [
     "sha256-fd-v1:dcfb1f811526d9507ae751db1ec58e8e612db3d6d062b3e154a1da74bb7808e1"
    ],
+   "description": "An action game: to join the Ultra Patrol, young Jiro trains by beating monster instructors and rescuing five children in each 3D maze stage, with punches, drop kicks and a Spectrum Ray that changes color as he powers up.",
    "developer": "Winky Soft",
    "diskMachine": {
     "sha256-fd-v1:dcfb1f811526d9507ae751db1ec58e8e612db3d6d062b3e154a1da74bb7808e1": {
@@ -47641,6 +47720,7 @@
     "sha256-fd-v1:a190741c3a624632427967d9030ff305c786a0f12ae121a2a6f0509b2c171e49",
     "sha256-fd-v1:c068aaf3c6f5e796276e0dc014141d47aabbde16d023f3675700bf006038f313"
    ],
+   "description": "Extra scenarios for Sorcerian made by TAKERU: four new adventures by sea, through forests and out into space, and the magic shop WIZ selling new spells such as Flame and Corona.",
    "diskSets": {
     "sha256-fd-v1:505dbd94fd7941c89fbb5414db19d0843136c42ee57f79cf95cd4b58a38f4bf1": {
      "media": [
@@ -48337,6 +48417,7 @@
     "sha256-fd-v1:0795ec7cd206e3dbf6f91e90f50fa9ea13d4ffbe3e887269528c32810afaf6c6",
     "sha256-tape-v1:6d08fdc71782d32ac1bef4d45d4bcc431edd18e6ea687c5387db5fa5b3c669de"
    ],
+   "description": "A prize winner in Enix's first contest: shoot enemies in four directions in space, floating against a gravity that pulls you down.",
    "developer": "Enix",
    "diskMachine": {
     "sha256-fd-v1:0795ec7cd206e3dbf6f91e90f50fa9ea13d4ffbe3e887269528c32810afaf6c6": {
@@ -48851,6 +48932,7 @@
   },
   "pc88:207655": {
    "boxArtUrl": "https://images.launchbox-app.com/4979bf38-b1f5-40bd-9e92-8385c008ee4d.jpg",
+   "description": "A war simulation of the Battle of the Java Sea: command the Japanese fleet against the Allied squadron.",
    "launchbox": "207655",
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/685c7d60-8cc7-4c7c-8628-ce4a850276dc.png",
@@ -48861,6 +48943,7 @@
     "Tank Bata Bata"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/5b048c42-e75a-443e-87a5-0adc37ff757c.jpg",
+   "description": "A tank game in the style of the arcade Tank Battalion: your one tank defends headquarters against the enemy's last counterattack, and destroying twenty tanks clears a stage.",
    "launchbox": "207656",
    "publisher": "Magical Zoo",
    "screenshotUrl": "https://images.launchbox-app.com/bce3df35-dfcd-4f6c-9414-12fec1b210ac.png",
@@ -48875,6 +48958,7 @@
   },
   "pc88:207658": {
    "boxArtUrl": "https://images.launchbox-app.com/621996fd-ced3-4436-85c6-a8d7d5a6c843.jpg",
+   "description": "A text adventure: adrift in the Pacific after a shipwreck, you come upon a sailing ship from the Age of Discovery and its secret.",
    "launchbox": "207658",
    "publisher": "Shin Kigensha",
    "screenshotUrl": "https://images.launchbox-app.com/56661151-9418-40fe-8bab-da1fca61d98f.png",
@@ -48911,6 +48995,7 @@
     "sha256-fd-v1:cee848ae71cd97066123d92eb2d98bbc2ae616b6a05cc96e1a473741df0265e7",
     "sha256-fd-v1:ff0cc69d54447af862ce71e5ad2c83ed41ac1cc950ef124ed5f7a8b6a1472533"
    ],
+   "description": "A war strategy game: play Miss Serizawa, a brilliant and unhinged scientist who arrives on a giant tanker to invade her own homeland, the Empire of Japan.",
    "developer": "K2 Staff",
    "diskSets": {
     "sha256-fd-v1:a923daf85941f3d29cb32a3901bad4c28281c64f234a91177e37296e5a3770c6": {
@@ -49229,6 +49314,7 @@
      "revision": 0
     }
    },
+   "description": "Hudson's 3D golf game, with the golfer drawn in wireframe.",
    "developer": "Hudson Soft",
    "launchbox": "207910",
    "publisher": "Hudson Soft",
@@ -49292,6 +49378,7 @@
      "revision": 0
     }
    },
+   "description": "A koi-koi hanafuda game on a wide field; leave a card unplayed for 30 seconds and the computer plays it for you.",
    "launchbox": "207917",
    "publisher": "Tsukumo",
    "title": "Koi Koi"
@@ -49306,6 +49393,7 @@
     "game": 157918,
     "platform": 88
    },
+   "description": "A shooting game: your robot fires beams left and right at attacking enemies and refuels at a docking station that passes below.",
    "developer": "Hudson Soft",
    "launchbox": "207918",
    "publisher": "Hudson Soft",
@@ -49516,6 +49604,7 @@
      "revision": 0
     }
    },
+   "description": "An action game: a monkey drops blocks to defeat PIRAN, a strange fish.",
    "developer": "ASCII",
    "launchbox": "207928",
    "publisher": "ASCII",
@@ -49911,6 +50000,7 @@
     "sha256-fd-v1:e378436cd73d3847c593e0eae1428cb992d616f521ff8f83c986dc1d5dcc93c8",
     "sha256-fd-v1:fae4bcf3e611721554eb90a421a23b1455e5c6044c6f3e3281e5d939e9348126"
    ],
+   "description": "A memory game: follow the five tones of the memory machine and key in the flashing numbers to sharpen the picture, over twelve stages.",
    "developer": "Dot Kikaku",
    "diskMachine": {
     "sha256-fd-v1:5890d87878d70ed9a881ae01c503e3ee8cf3d4b1dc85f0ba74da7abe1daaaf36": {
@@ -50103,6 +50193,7 @@
     "sha256-fd-v1:d3ac8c735f038477dec7bece1e58f564f1827eee05ae44e9f0a777fc16a4c3af",
     "sha256-fd-v1:f88149d5cdee496161823d04d561e37f3482474658a50fba717f92529d8b00fc"
    ],
+   "description": "A side story to Suiryuushi: the harpist Pantelro and Medi of the sea folk explore a village whose mermaids have stopped answering; first a bonus mini-game with the PC-98 Suiryuushi II, expanded into a full game.",
    "developer": "Shambalah",
    "diskSets": {
     "sha256-fd-v1:577d8fe05231a94b8412b06e168689607a447798729d1a75af6e2b47a02c1e55": {
@@ -50680,6 +50771,7 @@
    "contentIds": [
     "sha256-fd-v1:0ea56dd333abfbe1914702f552c54ddb174630a1b9dfb173a26f8dc2f1c4aa40"
    ],
+   "description": "A role-playing adventure from the radio show Miyake Yuji's Young Paradise: collect the Hiranya and other items to find the ultimate Hiranya power, moving around a map and talking to people.",
    "developer": "Pony Canyon",
    "launchbox": "459606",
    "publisher": "Pony Canyon",
@@ -50703,6 +50795,7 @@
     "sha256-fd-v1:4617d3a266cded48543e914d028de19bb340a01fb12eb99b10e5b4846d2fed78",
     "sha256-fd-v1:58e534b56a785b46c0602917e03cc6e6b2851a570ce2fde878946bb9cbbc3bae"
    ],
+   "description": "An action role-playing game: thrown into the Sengoku era by a time-machine accident, Hayato searches for his lost girlfriend Liza, infiltrates the Hidden Edo Castle and defeats the Dark Shogun, over four chapters.",
    "developer": "Takeru",
    "diskSets": {
     "sha256-fd-v1:4617d3a266cded48543e914d028de19bb340a01fb12eb99b10e5b4846d2fed78": {
@@ -50849,6 +50942,7 @@
    "contentIds": [
     "sha256-fd-v1:379fc3116d705ae1a7b7b420c18817b155a95557395dceee73405eaad7d0ec68"
    ],
+   "description": "An action game: the puppy Muku delivers the mail through 100 towns laid out like mazes, pushing blue walls to clear the way without blocking it.",
    "launchbox": "462156",
    "publisher": "Compac",
    "sourceGroups": [
@@ -50911,6 +51005,7 @@
     "sha256-fd-v1:616eb7a585eebdbb08f921ef72a34a33bb3f15d80a53c77dd1ac717f8efa309a",
     "sha256-fd-v1:a76f8deacb45bb82f56919a9376347b26614bff06d019d03caf590bdf7dd0d78"
    ],
+   "description": "A self-parody of Nukenin Densetsu: Gyuutarou, son of the first game's ox-masked foe, seeks revenge on Jakimaru with two ox-headed companions; sold only to members of the game's user club.",
    "developer": "Brain Grey",
    "diskSets": {
     "sha256-fd-v1:a76f8deacb45bb82f56919a9376347b26614bff06d019d03caf590bdf7dd0d78": {
@@ -50987,6 +51082,7 @@
    "contentIds": [
     "sha256-fd-v1:4ca6cc08e058099acb757dc8d3426457de379a06477127665d6bc6545c1b51fd"
    ],
+   "description": "Koei's two-player baseball game: pick teams and starting lineups from the stars of the twelve professional clubs.",
    "developer": "Koei",
    "diskMachine": {
     "sha256-fd-v1:4ca6cc08e058099acb757dc8d3426457de379a06477127665d6bc6545c1b51fd": {
@@ -51137,6 +51233,7 @@
      "revision": 0
     }
    },
+   "description": "A power-up disk for Pro Yakyuu Fan: choose starting lineups, create original teams, make trades and play against Telenet's own team.",
    "launchbox": "462318",
    "publisher": "Telenet Japan",
    "title": "Pro Yakyuu Fan: Power Up Kit - Yousei Gips"
@@ -51169,6 +51266,7 @@
     "連合艦隊の栄光 栗田艦隊レイテ湾突入"
    ],
    "boxArtUrl": "https://images.launchbox-app.com/dabca51b-f45b-4840-8baa-6f0d0879fa06.png",
+   "description": "A war simulation of the Battle of Leyte Gulf near the end of World War II, with four fleets in distinct roles for complex operations.",
    "developer": "CSG",
    "launchbox": "462404",
    "publisher": "CSK",
@@ -51319,6 +51417,7 @@
     "sha256-fd-v1:7b94c57132c11c71e9cbb65cfa7d1c330248c33d21ac5bdf2d14254878dab801",
     "sha256-fd-v1:984c3dd44830ec57b153fcef44acd4acc6011cacf212263408c33678efc61126"
    ],
+   "description": "A celebrated 3D action game by Tainyan: explore a vast maze at high speed in Game A or race the clock in Game B, drawn so fast that it puts the floppy drive's own processor to work.",
    "developer": "SystemSoft",
    "diskSets": {
     "sha256-fd-v1:69474c2084d6acc6330b27dcc8c1b0c1b75eebe59e568c94c0b2bb1f17573bd2": {
@@ -51508,6 +51607,7 @@
     "sha256-fd-v1:db6a7763d381a2fb08e5066741ae3bbe98869f0c2b427868ac5cd3ce63c012e7",
     "sha256-fd-v1:fbe15c931c9af8bfd3c512531559fe32a8a244ef102bff7676bae49ae927fab9"
    ],
+   "description": "A shogi game on a carved-wood board: tell the computer which opening to play, such as Sanken Bisha or Yagura, and save and load game records.",
    "diskSets": {
     "sha256-fd-v1:db6a7763d381a2fb08e5066741ae3bbe98869f0c2b427868ac5cd3ce63c012e7": {
      "setDisks": [
@@ -51549,6 +51649,7 @@
     "sha256-fd-v1:55e9a46e8a634ad165c5de8b6cff29797d95d58cf19a6d97e743fc7808e0bf38",
     "sha256-fd-v1:edfbe7439fb709191c55c093b028db5846385c41afc90bc26cffac24441a80a5"
    ],
+   "description": "ASCII's shogi game, known for its strength and quick moves, with replay, game records and take-backs.",
    "developer": "Alpha Denshi",
    "diskMachine": {
     "sha256-fd-v1:2f6ed1c8c7a3bdf44b09b00749e5218e116afa29e6e8db522e7d99686fe13f6b": {
