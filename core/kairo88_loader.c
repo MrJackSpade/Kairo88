@@ -1,4 +1,4 @@
-/* A tape's loader: types its lines at the machine's prompts, as a player would, after k88_boot. */
+/* A game's startup commands: types its lines at the machine's prompts, as a player would, after k88_boot. */
 #include <stdio.h>
 #include <string.h>
 
@@ -29,28 +29,22 @@ static void tap(int key, int shifted)
 	push(shifted ? KEY_SHIFT : key, 0, 5);
 }
 
-/* The PC-88 key, and whether Shift goes with it, for a character of a line; -1 for none. */
+/* The PC-88 key, and whether Shift goes with it, for a character of a line; -1 for none. QUASI88's
+ * code for a printable character is the character, on the key that carries it (pc88/keyboard.c). */
 static int key_of(char c, int *shifted)
 {
-	static const char shifted_digits[] = "!\"#$%&'()";
-	const char *digit;
+	/* The characters a JIS key gives with Shift. */
+	static const char shifted_chars[] = "!\"#$%&'()=~|`{+*}<>?_";
 	*shifted = 0;
-	if (c >= 'a' && c <= 'z') c = (char) (c - 'a' + 'A');
-	/* Letters with Shift are upper case with Caps off; N-BASIC reads only upper-case keywords. */
+	/* Letters with Shift are upper case with Caps off, and lower case without (disk file names). */
 	if (c >= 'A' && c <= 'Z') {
 		*shifted = 1;
 		return c;
 	}
-	if ((c >= '0' && c <= '9') || c == ' ' || c == ':' || c == ',' || c == '.' ||
-	    c == '-' || c == '/' || c == ';')
-		return c;
-	digit = c ? strchr(shifted_digits, c) : NULL;
-	if (digit) {
-		*shifted = 1;
-		return '1' + (int) (digit - shifted_digits);
-	}
-	if (c == '=') { *shifted = 1; return '-'; }
-	return -1;
+	if (c >= 'a' && c <= 'z') return c - 'a' + 'A';
+	if (c < ' ' || c > '~') return -1;
+	*shifted = strchr(shifted_chars, c) != NULL;
+	return c;
 }
 
 /* A line and Return; {CTRL-x} is Ctrl with x, {F1} to {F5} a function key. */
@@ -102,11 +96,12 @@ static void last_line(char *out, int size)
 	out[written] = '\0';
 }
 
-/* The monitor waits at a line ending in its prompt: ] in N88-BASIC, * in N-BASIC. */
+/* The monitor waits at a line ending in its prompt: ] in N88-BASIC, * in N-BASIC. A line that
+ * closes a bracket it opened is text, as Disk BASIC's "Disk version [Oct 8,1988]". */
 static int is_monitor_prompt(const char *line)
 {
 	const size_t length = strlen(line);
-	return length > 0 && (line[length - 1] == ']' || line[length - 1] == '*');
+	return length > 0 && ((line[length - 1] == ']' && strchr(line, '[') == NULL) || line[length - 1] == '*');
 }
 
 /* The name of the first BASIC program on the tape in the deck: its header is ten D3h bytes and six

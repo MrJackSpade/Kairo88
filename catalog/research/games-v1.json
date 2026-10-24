@@ -396,6 +396,11 @@
    ],
    "description": "Game Arts' Thexder sequel: a transforming robot, now able to switch between jet and walking forms with new weapons, blasts through enemy bases.",
    "developer": "Game Arts",
+   "diskMachine": {
+    "sha256-fd-v1:1938e36f1cf62c6b55c747e669f12310381987cb98f40bc82d3d31758c30a1d7": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:1938e36f1cf62c6b55c747e669f12310381987cb98f40bc82d3d31758c30a1d7": {
      "media": [
@@ -637,6 +642,11 @@
    ],
    "description": "Game Arts' pseudo-3D shooter: pilot the SA-08 Silpheed through waves of enemy craft in a polygon space battle.",
    "developer": "Game Arts",
+   "diskMachine": {
+    "sha256-fd-v1:cdac24217b8179d16e9c581d168c4bb48209b97f9f63e351fa973b4c85446079": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:5caee6e5b6f7cfd1a1216ca110334ac8ee330a7035d66b77a42cfcba2fc3c564": {
      "media": [
@@ -663,7 +673,7 @@
     "sha256-fd-v1:cdac24217b8179d16e9c581d168c4bb48209b97f9f63e351fa973b4c85446079": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:e421429c6f9f6005d84d36d9f27c290c53d72ec656e405720bb78f5e7f9d3214",
+       "contentId": "sha256-fd-v1:15cee3195ffc256484bfaef2dfdfaf9e2d33f92422aa369e89582b5c86aa5e4d",
        "role": "floppyB"
       }
      ],
@@ -724,10 +734,14 @@
      "basic": "v1h"
     },
     "sha256-fd-v1:b8efc370d24adf8cda47bbc5bbb8dcd16907b420deeab40a0a14c836bbf403a1": {
-     "basic": "v1h"
+     "basic": "v1h",
+     "subcpu": "disk"
     },
     "sha256-fd-v1:d83801988a961e713f5ec0053687b6bf8ec8ad9e32e1f0482af96258aca83bdd": {
      "basic": "v1h"
+    },
+    "sha256-fd-v1:e0d7860e97619e3da5fee182d61689cbe867e6318d53e91a7df32e17e9efd9f4": {
+     "subcpu": "disk"
     }
    },
    "diskSets": {
@@ -886,7 +900,7 @@
     }
    },
    "launchbox": "139264",
-   "mobygames": 26191,
+   "mobygames": 15027,
    "publisher": "Telenet Japan",
    "sourceGroups": [
     "neokobe:XZR (Exile) (Telenet Japan)/XZR (Exile) [FD].7z"
@@ -914,6 +928,11 @@
    ],
    "description": "Race a motocross bike over jumps and obstacles against the clock or other riders, or build a custom course to ride.",
    "developer": "Hudson Soft",
+   "diskMachine": {
+    "sha256-fd-v1:f5cf428217d53cbc43acb30b91b60a54d98054aab902038c2867ee8ddd16bbf2": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:f5cf428217d53cbc43acb30b91b60a54d98054aab902038c2867ee8ddd16bbf2": {
      "setDisks": [
@@ -1101,15 +1120,9 @@
    "description": "Pitfall Harry returns: explore huge caverns to rescue his niece and his pet, and recover a stolen diamond.",
    "developer": "Pony Canyon",
    "diskSets": {
-    "sha256-fd-v1:4f05f0dc5ebd347297e52935427b00578eb8099c34552d95d9df81b7ff507802": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:156e5053916f9ea4ea13ac4b72405a6b13c7d37425ac7b95e2eddd00a3b9a0cc",
-       "role": "floppyB"
-      }
-     ],
+    "sha256-fd-v1:156e5053916f9ea4ea13ac4b72405a6b13c7d37425ac7b95e2eddd00a3b9a0cc": {
      "setDisks": [
-      "sha256-fd-v1:156e5053916f9ea4ea13ac4b72405a6b13c7d37425ac7b95e2eddd00a3b9a0cc",
+      "sha256-fd-v1:4f05f0dc5ebd347297e52935427b00578eb8099c34552d95d9df81b7ff507802",
       "sha256-fd-v1:d7fd84116d6a9bac5d3bb1ac9bd760e74bfe17124f53aee5db04f0dfd8ceaca7"
      ]
     }
@@ -1899,6 +1912,11 @@
    ],
    "description": "Falcom's action role-playing sequel: Adol arrives in the floating land of Ys and uncovers why it was lost.",
    "developer": "Nihon Falcom",
+   "diskMachine": {
+    "sha256-fd-v1:8f14abed0a4bb933d0f21793b1658ded91ad82259d59115776f9cbbf460f7eb1": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:27cc16b4c6c80ed46eed03b2d9f3060369213053fa1c956fc9ce499819123079": {
      "setDisks": [
@@ -1906,40 +1924,40 @@
       "sha256-fd-v1:d0e82a6089549d46b70ef672f3ea6d817cb01c5423997fa4f9b895e738d67bed"
      ]
     },
-    "sha256-fd-v1:37f33dddaa51cb6072ef68d29b8446d347faba50a3add411c3bc5d0a75afa2f7": {
+    "sha256-fd-v1:42c94703928386b45a1199e4896861d151495be9e4e08cf94ab16368f53cc581": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:4e37453d57253df9dad40b718fdd1c350cd02ed3d86f427ba31aaac01de6e6c4",
+       "contentId": "sha256-fd-v1:e404d3ad648bcbb5054d2656243f8f76be28fbb3d4a31fa197a7a2bd25d6cce2",
+       "role": "floppyB"
+      }
+     ],
+     "setDisks": [
+      "sha256-fd-v1:13963aba8c01533af00d674e53c5b224b652f2e2e31a6b0d9bdab61a16722caf",
+      "sha256-fd-v1:8408349cba23bc9ba908dea9987e6a031e71a331fb3d16aec5fcf32acc88cd90",
+      "sha256-fd-v1:cdee7e67bb790465a18271ef51575bc5fdbaed73cacb539b00718348c535ac75",
+      "sha256-fd-v1:e404d3ad648bcbb5054d2656243f8f76be28fbb3d4a31fa197a7a2bd25d6cce2"
+     ]
+    },
+    "sha256-fd-v1:8f14abed0a4bb933d0f21793b1658ded91ad82259d59115776f9cbbf460f7eb1": {
+     "media": [
+      {
+       "contentId": "sha256-fd-v1:37f33dddaa51cb6072ef68d29b8446d347faba50a3add411c3bc5d0a75afa2f7",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:206ff0e87c9efaaf002370d7bbbbbaffd3863bb585a21d0bab8d176403abd0ec",
       "sha256-fd-v1:27cc16b4c6c80ed46eed03b2d9f3060369213053fa1c956fc9ce499819123079",
+      "sha256-fd-v1:37f33dddaa51cb6072ef68d29b8446d347faba50a3add411c3bc5d0a75afa2f7",
+      "sha256-fd-v1:42c94703928386b45a1199e4896861d151495be9e4e08cf94ab16368f53cc581",
       "sha256-fd-v1:46525d154a06dfe00634a34f2fdf30f1983faf248208a818e7fedab691a7c6cb",
       "sha256-fd-v1:4e37453d57253df9dad40b718fdd1c350cd02ed3d86f427ba31aaac01de6e6c4",
-      "sha256-fd-v1:8f14abed0a4bb933d0f21793b1658ded91ad82259d59115776f9cbbf460f7eb1",
-      "sha256-fd-v1:c4172300653a4048265532864caa59c0a747fe7c61277f24bb45eb94b7bb1d58",
-      "sha256-fd-v1:e404d3ad648bcbb5054d2656243f8f76be28fbb3d4a31fa197a7a2bd25d6cce2"
+      "sha256-fd-v1:c4172300653a4048265532864caa59c0a747fe7c61277f24bb45eb94b7bb1d58"
      ]
     },
     "sha256-fd-v1:c4172300653a4048265532864caa59c0a747fe7c61277f24bb45eb94b7bb1d58": {
      "setDisks": [
       "sha256-fd-v1:1059f95d82ded024520ae702846e9f495e3da0e96ba56a3593f22a0a30a32ed0"
-     ]
-    },
-    "sha256-fd-v1:e404d3ad648bcbb5054d2656243f8f76be28fbb3d4a31fa197a7a2bd25d6cce2": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:cdee7e67bb790465a18271ef51575bc5fdbaed73cacb539b00718348c535ac75",
-       "role": "floppyB"
-      }
-     ],
-     "setDisks": [
-      "sha256-fd-v1:13963aba8c01533af00d674e53c5b224b652f2e2e31a6b0d9bdab61a16722caf",
-      "sha256-fd-v1:42c94703928386b45a1199e4896861d151495be9e4e08cf94ab16368f53cc581",
-      "sha256-fd-v1:8408349cba23bc9ba908dea9987e6a031e71a331fb3d16aec5fcf32acc88cd90",
-      "sha256-fd-v1:cdee7e67bb790465a18271ef51575bc5fdbaed73cacb539b00718348c535ac75"
      ]
     }
    },
@@ -2474,6 +2492,11 @@
    ],
    "description": "Konami's cyberpunk adventure: in Neo Kobe City, Gillian Seed hunts the Snatchers, bioroids that replace people.",
    "developer": "Konami Industry",
+   "diskMachine": {
+    "sha256-fd-v1:1a878a984d0a9b267e8350532fe3cdc83cfc40c1ecea5533e6a71af962e56dd1": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:1a878a984d0a9b267e8350532fe3cdc83cfc40c1ecea5533e6a71af962e56dd1": {
      "media": [
@@ -2581,6 +2604,14 @@
    ],
    "description": "An action adventure based on the film Labyrinth: an ordinary moviegoer is drawn into the Goblin King's maze and has thirteen hours to escape.",
    "developer": "Pack-In Video",
+   "diskMachine": {
+    "sha256-fd-v1:6e430b3c2a849b62ca0d0919068c73ec74d60181ccdb45d6f3a206a2a0b93bde": {
+     "commands": [
+      "RUN\"GD2*06.B1\""
+     ],
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:02871d9c709247f7e3900273f388715aa9a637dde1f3ff05bd621175ab6fb450": {
      "media": [
@@ -2803,6 +2834,11 @@
    ],
    "description": "The second Crystal Dream: the balance of sky, earth, sea and people in the land of Yugrena is broken.",
    "developer": "Striker",
+   "diskMachine": {
+    "sha256-fd-v1:0421a751465853a81e81dce0f13284463b0b754e455edafb56e729ec10edc709": {
+     "sound": "1"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:0421a751465853a81e81dce0f13284463b0b754e455edafb56e729ec10edc709": {
      "media": [
@@ -3582,7 +3618,7 @@
     "sha256-fd-v1:b18abea24a783aea9860ac08e8f3d488a42b6eb0a92ca80369365ca61d0e3d32": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:8ac7eb4675979b50c28895755558f8baacc49253ccf54fa7f1870acd233a6774",
+       "contentId": "sha256-fd-v1:5d03bc3d5cb72539a9f962ad6364872d67c7cbf66fe2b277444e67199d77f35e",
        "role": "floppyB"
       }
      ],
@@ -3738,6 +3774,11 @@
    ],
    "description": "Guide the aspiring knight Jedah through a first-person fantasy RPG with menu-based travel and turn-based battles.",
    "developer": "Wolf Team",
+   "diskMachine": {
+    "sha256-fd-v1:aad534aa24094c05aa72630f411d74e5a1149c6cef909815cf6ccfe722591757": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:4dcc3445bd7ec1ee39607119d1db6805200c9fc3fb38e322528506581bf80d1f": {
      "media": [
@@ -4276,6 +4317,11 @@
    ],
    "description": "Choose and position mecha and supporting units on a hex grid, then fight through a futuristic military campaign.",
    "developer": "NCS",
+   "diskMachine": {
+    "sha256-fd-v1:5a33520a888baa0022ec7ae227945b04becc72f506ac19b0d7f943713a87ec2f": {
+     "clock": 4
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:5a33520a888baa0022ec7ae227945b04becc72f506ac19b0d7f943713a87ec2f": {
      "media": [
@@ -4321,6 +4367,11 @@
    ],
    "description": "A Lupin III adventure: Babylonian tablets found in Manhattan point to the original Tower of Babel, built of solid gold, and Lupin races the Mob to it.",
    "developer": "Toho Company",
+   "diskMachine": {
+    "sha256-fd-v1:3da05a15940981efdb9b6c30149f3e9474d7b284889fd4fe5504f9a6ff82c0bb": {
+     "subcpu": "always"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:3da05a15940981efdb9b6c30149f3e9474d7b284889fd4fe5504f9a6ff82c0bb": {
      "media": [
@@ -4851,6 +4902,11 @@
    ],
    "description": "The block-stacking puzzle: rotate and place falling four-square pieces to complete and clear lines.",
    "developer": "Bullet-Proof Software",
+   "diskMachine": {
+    "sha256-fd-v1:74dad62ff5fac8185221677fc4f13f8495c8b47bf3debc8324d457569baf1ab7": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:4f172b8f7bcd139e46703b11aa4aca774f601395bf92c2dc5f58b313594cf97a": {
      "setDisks": [
@@ -4911,6 +4967,11 @@
    ],
    "description": "A story-driven role-playing game: following a prophecy, Gald and Mia, children of a small village in the Barbatus lands, set out to defeat the demon lord.",
    "developer": "Artec",
+   "diskMachine": {
+    "sha256-fd-v1:40c82ca413faad41ae1d9d9732c1b3bf470cbbf9f67677fffb7635fb632f61a2": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:40c82ca413faad41ae1d9d9732c1b3bf470cbbf9f67677fffb7635fb632f61a2": {
      "media": [
@@ -5141,6 +5202,11 @@
    ],
    "description": "Game Arts' action role-playing game: the warrior Duke collects nine sacred stones in the caverns beneath Zeliard to defeat the demon Jashiin and save the princess.",
    "developer": "Game Arts",
+   "diskMachine": {
+    "sha256-fd-v1:4b1f9bc51b35d4cef98346c51a9d4ee5fc7addd8db9f0eb65eeee68706dfcf91": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:4b1f9bc51b35d4cef98346c51a9d4ee5fc7addd8db9f0eb65eeee68706dfcf91": {
      "media": [
@@ -6416,11 +6482,11 @@
       "sha256-fd-v1:fa81e2abb75e7a0f880015624e64792eeb9522b3874278d341ec12e06f4f72f6"
      ]
     },
-    "sha256-fd-v1:c1cfc2b971feb0c86687a7ea23319bf5e252e8a64231e3175d5cbd9c4097e8c6": {
+    "sha256-fd-v1:abcb15dd0be34997fadc55683f9d938bd25039bf678f7f79a11089f4643c2396": {
      "setDisks": [
       "sha256-fd-v1:1db7504d0dee7f29a69fe3f8d6439837c031d30807c9889a6ac027ce9002ea4b",
       "sha256-fd-v1:36b9ab455b6696be8bf12f3aa05e0be58d710d571a876de4401fad40eca10cd7",
-      "sha256-fd-v1:abcb15dd0be34997fadc55683f9d938bd25039bf678f7f79a11089f4643c2396"
+      "sha256-fd-v1:c1cfc2b971feb0c86687a7ea23319bf5e252e8a64231e3175d5cbd9c4097e8c6"
      ]
     }
    },
@@ -6478,15 +6544,15 @@
     }
    },
    "diskSets": {
-    "sha256-fd-v1:5f3670f61b4960eb8ff396303073bc4ccdf50039de919fa92e4675b857b4e92f": {
+    "sha256-fd-v1:32ee3efdb7d227900d6c4dd21f36cca7517c3f3f080bc9a22478c7652f008276": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:32ee3efdb7d227900d6c4dd21f36cca7517c3f3f080bc9a22478c7652f008276",
+       "contentId": "sha256-fd-v1:5f3670f61b4960eb8ff396303073bc4ccdf50039de919fa92e4675b857b4e92f",
        "role": "floppyB"
       }
      ],
      "setDisks": [
-      "sha256-fd-v1:32ee3efdb7d227900d6c4dd21f36cca7517c3f3f080bc9a22478c7652f008276",
+      "sha256-fd-v1:5f3670f61b4960eb8ff396303073bc4ccdf50039de919fa92e4675b857b4e92f",
       "sha256-fd-v1:94a54df9b5a5b1fb78f79ba8790d841089325c99009f80d76671c4df24e7c680",
       "sha256-fd-v1:9dc17c7efb5bbde534202d990523a9bd54cea9e3c5fde0c92fe7cf1963835f8e",
       "sha256-fd-v1:b42a7e01a4883e8bde7d5fb3144a2a0aac3c973945c9e02fc32542384406aee9",
@@ -6736,6 +6802,11 @@
     "sha256-fd-v1:ce0b7ac482fe38d527b2867c50af7e84f946b9da0e3d3fcd740d12719a873704"
    ],
    "description": "A simulation game with the characters of Bubblegum Crisis, opening with an unexpected Boomer attack in downtown Mega Tokyo.",
+   "diskMachine": {
+    "sha256-fd-v1:ce0b7ac482fe38d527b2867c50af7e84f946b9da0e3d3fcd740d12719a873704": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:ce0b7ac482fe38d527b2867c50af7e84f946b9da0e3d3fcd740d12719a873704": {
      "media": [
@@ -6792,33 +6863,33 @@
    "description": "A science-fiction adventure: sent to confirm where a freighter bound for Amon crashed after a meteorite pierced its cockpit, you find a sealed container among its cargo.",
    "developer": "Cross Media Soft",
    "diskSets": {
-    "sha256-fd-v1:684c6b4cec2d15455a7d513ab3fe2ebbef3ecfc1db533f144079758ceb82de22": {
+    "sha256-fd-v1:09cf80e57ea49985b4d8886f686b229b7c2362fd9620ac80565d746b67ae5b74": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:e9e5799f5ac6011345387236e5b70dbd9788a3cee10185ba7f6662dae372825c",
+       "contentId": "sha256-fd-v1:6f6a7142552cfcd36fb3bec49ed4bd3807576c00bfa6fceced180b67c33e6b95",
+       "role": "floppyB"
+      }
+     ],
+     "setDisks": [
+      "sha256-fd-v1:23cb94b78f216dbfcb29063754b07a01a91f3950d54141e096dee5fbd4bfd5aa",
+      "sha256-fd-v1:2824c0e6c2d4854b2aaef0633a2d14f5f501170656ac00c84b8850ede49c864b",
+      "sha256-fd-v1:6375baad8a87b16340843746d7a5f2f20b033ddb798e494709aad207cbde1d7a",
+      "sha256-fd-v1:66c610a5da9cdd1598245c26dc314ae5502b843b2a8ad39adbdec60aebe1433b",
+      "sha256-fd-v1:6f6a7142552cfcd36fb3bec49ed4bd3807576c00bfa6fceced180b67c33e6b95"
+     ]
+    },
+    "sha256-fd-v1:6375baad8a87b16340843746d7a5f2f20b033ddb798e494709aad207cbde1d7a": {
+     "media": [
+      {
+       "contentId": "sha256-fd-v1:684c6b4cec2d15455a7d513ab3fe2ebbef3ecfc1db533f144079758ceb82de22",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:3dccfb7e99ea379124f00bc1784b6e24a04624191bba5eb19354298428ff206c",
       "sha256-fd-v1:51e825840c20c3902a1b29dab0b6b575b8c4486f2f0e87b35f4b18e8d1ff60d3",
-      "sha256-fd-v1:6375baad8a87b16340843746d7a5f2f20b033ddb798e494709aad207cbde1d7a",
+      "sha256-fd-v1:684c6b4cec2d15455a7d513ab3fe2ebbef3ecfc1db533f144079758ceb82de22",
       "sha256-fd-v1:e9e5799f5ac6011345387236e5b70dbd9788a3cee10185ba7f6662dae372825c"
-     ]
-    },
-    "sha256-fd-v1:6f6a7142552cfcd36fb3bec49ed4bd3807576c00bfa6fceced180b67c33e6b95": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:2824c0e6c2d4854b2aaef0633a2d14f5f501170656ac00c84b8850ede49c864b",
-       "role": "floppyB"
-      }
-     ],
-     "setDisks": [
-      "sha256-fd-v1:09cf80e57ea49985b4d8886f686b229b7c2362fd9620ac80565d746b67ae5b74",
-      "sha256-fd-v1:23cb94b78f216dbfcb29063754b07a01a91f3950d54141e096dee5fbd4bfd5aa",
-      "sha256-fd-v1:2824c0e6c2d4854b2aaef0633a2d14f5f501170656ac00c84b8850ede49c864b",
-      "sha256-fd-v1:66c610a5da9cdd1598245c26dc314ae5502b843b2a8ad39adbdec60aebe1433b",
-      "sha256-fd-v1:684c6b4cec2d15455a7d513ab3fe2ebbef3ecfc1db533f144079758ceb82de22"
      ]
     }
    },
@@ -6899,29 +6970,29 @@
     "sha256-fd-v1:edcb388a2a3afaa4294b3ea0c4032f554d26e4e34864f3143c4c720501c3aeb0"
    ],
    "diskSets": {
-    "sha256-fd-v1:203f287241562adcb46c196619a7137f076a00341385ee59941e3e3f70bef7ba": {
+    "sha256-fd-v1:2acf848c6f96f48a9e9c4706acc2ff1f4a2714b314cf363dc84ca067519ee409": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:33f08bb441467b3b76ade4eaa0df4e1f8e8e09a10c52aaf2f7622a4a69ebecb4",
+       "contentId": "sha256-fd-v1:203f287241562adcb46c196619a7137f076a00341385ee59941e3e3f70bef7ba",
        "role": "floppyB"
       }
      ],
      "setDisks": [
-      "sha256-fd-v1:2acf848c6f96f48a9e9c4706acc2ff1f4a2714b314cf363dc84ca067519ee409",
+      "sha256-fd-v1:203f287241562adcb46c196619a7137f076a00341385ee59941e3e3f70bef7ba",
       "sha256-fd-v1:33f08bb441467b3b76ade4eaa0df4e1f8e8e09a10c52aaf2f7622a4a69ebecb4"
      ]
     },
-    "sha256-fd-v1:edcb388a2a3afaa4294b3ea0c4032f554d26e4e34864f3143c4c720501c3aeb0": {
+    "sha256-fd-v1:97b3f2571ccffc4e9fd004a5d8613bdea5ab397b2f7e289b34139e827c8d2020": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:1056daf8bb5efcd34b90b0d1933a9373218236f3d7cefc709748ac2c6093f5ff",
+       "contentId": "sha256-fd-v1:edcb388a2a3afaa4294b3ea0c4032f554d26e4e34864f3143c4c720501c3aeb0",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:1056daf8bb5efcd34b90b0d1933a9373218236f3d7cefc709748ac2c6093f5ff",
-      "sha256-fd-v1:203f287241562adcb46c196619a7137f076a00341385ee59941e3e3f70bef7ba",
-      "sha256-fd-v1:97b3f2571ccffc4e9fd004a5d8613bdea5ab397b2f7e289b34139e827c8d2020"
+      "sha256-fd-v1:2acf848c6f96f48a9e9c4706acc2ff1f4a2714b314cf363dc84ca067519ee409",
+      "sha256-fd-v1:edcb388a2a3afaa4294b3ea0c4032f554d26e4e34864f3143c4c720501c3aeb0"
      ]
     }
    },
@@ -7061,6 +7132,11 @@
    ],
    "description": "An adventure based on the Dangaioh anime: the four psychic teenagers find the girl Ranpa in a cryogenic chamber, and Dr. Tarsan's robot army comes after her.",
    "developer": "Technopolis Soft",
+   "diskMachine": {
+    "sha256-fd-v1:1e64889ce00580afddf2740e43745020a01d74e9660531dbb4ee8c0a9815a0a3": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:1e64889ce00580afddf2740e43745020a01d74e9660531dbb4ee8c0a9815a0a3": {
      "media": [
@@ -7117,6 +7193,11 @@
    ],
    "description": "Follow Godai and Kyoko’s story to its conclusion through dialogue and location choices in a menu-driven adventure.",
    "developer": "Micro Cabin",
+   "diskMachine": {
+    "sha256-fd-v1:eb865af8b374a047be15656081294f2676862d07857df893a802977413fe0438": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:eb865af8b374a047be15656081294f2676862d07857df893a802977413fe0438": {
      "media": [
@@ -7249,6 +7330,11 @@
    ],
    "description": "A Star Trek-themed space strategy game with ship controls and portraits of the television crew.",
    "developer": "M. Kasuya",
+   "diskMachine": {
+    "sha256-fd-v1:fbb9b0e2fb46238023ef88c4d41deeff3c389ca018043742a38b5ee9224c39b4": {
+     "basic": "v1s"
+    }
+   },
    "launchbox": "183613",
    "publisher": "Compac",
    "sourceGroups": [
@@ -7518,17 +7604,17 @@
    "description": "A robot battle game: as a Prajator, a vaccine program inside a computer network, fight the viruses and hackers' programs disrupting it, stage by stage, spending points on three abilities to shape your own fighter.",
    "developer": "Fireball Systems",
    "diskSets": {
-    "sha256-fd-v1:23866a22b47a9457d6e10c4dc1eca6657a18c45a59997d8dd6ee52def9be284a": {
+    "sha256-fd-v1:bb169532cdbec2a6219cbdfc6bd83844f83ef2b05beb4af6ae822b8737b6f908": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:e3ee5d047e5b9498ae6243aea39099a7efb8e3e8516d7db9080cae148c8c1b17",
+       "contentId": "sha256-fd-v1:23866a22b47a9457d6e10c4dc1eca6657a18c45a59997d8dd6ee52def9be284a",
        "role": "floppyB"
       }
      ],
      "setDisks": [
+      "sha256-fd-v1:23866a22b47a9457d6e10c4dc1eca6657a18c45a59997d8dd6ee52def9be284a",
       "sha256-fd-v1:3e47cab5f5b6853973726c958ae382a9569783750c34cb4e5d086cfb14de4275",
       "sha256-fd-v1:5ac49f538019742bc35a6813ad25b5ccb7aa04537427be8577c1d3462c649fb7",
-      "sha256-fd-v1:bb169532cdbec2a6219cbdfc6bd83844f83ef2b05beb4af6ae822b8737b6f908",
       "sha256-fd-v1:e3ee5d047e5b9498ae6243aea39099a7efb8e3e8516d7db9080cae148c8c1b17",
       "sha256-fd-v1:e9de4de9d534d16d5ebf03a35faf3752f60c4a2a959929b14955b4139d5f25d4",
       "sha256-fd-v1:f29154d696740740e143da792eefeac21a362645e2a1f1a62a9bf41563652cf5"
@@ -8091,6 +8177,11 @@
    "contentIds": [
     "sha256-fd-v1:d7926ab1726f8f3a818b32ba4a3141c0f676008e760ffe4deb8456af171661f3"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:d7926ab1726f8f3a818b32ba4a3141c0f676008e760ffe4deb8456af171661f3": {
+     "subcpu": "disk"
+    }
+   },
    "launchbox": "186803",
    "publisher": "ASCII",
    "sourceGroups": [
@@ -8535,10 +8626,10 @@
    "description": "T&E Soft's sci-fi adventure set in a 21st century divided among three world powers.",
    "developer": "T&E Soft",
    "diskSets": {
-    "sha256-fd-v1:d1e6f83fb63ce080c2b163672c55d959730fab28525eb76e3bab5c7df0e705c5": {
+    "sha256-fd-v1:8ae48b0c21822cfd471010dd0dd48572afcb2c380fefe8af14e937eb3060817b": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:9d85ec27faa84f9d55d13ff438c2e4329a6a04bf91b95f41a6bc02dbd294f41e",
+       "contentId": "sha256-fd-v1:d1e6f83fb63ce080c2b163672c55d959730fab28525eb76e3bab5c7df0e705c5",
        "role": "floppyB"
       }
      ],
@@ -8548,9 +8639,9 @@
       "sha256-fd-v1:49903d0f428992f4bf1b7acdaeb05fb575986071b94af2d84ac417250f659b65",
       "sha256-fd-v1:57fd16b01b4b55fc8bc4588c05267aa5ae6dd2391d48fb46f0b798c86dd757a7",
       "sha256-fd-v1:6c7f6b0de65a965b314953b49fade97fe3f41eae1fb4e26f493966341af8f80e",
-      "sha256-fd-v1:8ae48b0c21822cfd471010dd0dd48572afcb2c380fefe8af14e937eb3060817b",
       "sha256-fd-v1:9d85ec27faa84f9d55d13ff438c2e4329a6a04bf91b95f41a6bc02dbd294f41e",
       "sha256-fd-v1:c1c368658a98fddbfc72f6b067f8bc516a52ccc4b0605b632c8749946a95319f",
+      "sha256-fd-v1:d1e6f83fb63ce080c2b163672c55d959730fab28525eb76e3bab5c7df0e705c5",
       "sha256-fd-v1:da981b28605200c08403837743c013a29a1b0e52c2c03b5713c4e0711690e5da"
      ]
     }
@@ -8717,8 +8808,10 @@
     "sha256-fd-v1:309b1d5dc1b407a028cd631762dd620f1e4169d832876dac838c3b10a30df6d5",
     "sha256-fd-v1:83a80b1e5c40191498aa76f9dabbb412e09886c2508469a4742b55ad6c5b2e92",
     "sha256-fd-v1:89c3a8bae89721f68015bb413c2ba6f597c24fc686717a1aa0332ae3abbb2930",
+    "sha256-fd-v1:cc10b4cb1eca267ba882366566f1c7751ed052da2fa102c3ff4b1e367628f438",
     "sha256-fd-v1:e8de292a1abe2a97932dbd2c82e62709a6e70b3670892537ea3fe167bcf81694",
-    "sha256-fd-v1:e9bb878abc3e45e473b2baa4d22611e59a398515035bde57e19456c3c01aa3af"
+    "sha256-fd-v1:e9bb878abc3e45e473b2baa4d22611e59a398515035bde57e19456c3c01aa3af",
+    "sha256-fd-v1:ff520da1c55664de9cb02cd7d8c1bb35c3b1b5404a5f873444c8d6ac561bf824"
    ],
    "description": "An adventure based on the anime Urusei Yatsura, built around a birthday party.",
    "developer": "Micro Cabin",
@@ -8738,12 +8831,24 @@
       "sha256-fd-v1:e8de292a1abe2a97932dbd2c82e62709a6e70b3670892537ea3fe167bcf81694",
       "sha256-fd-v1:e9bb878abc3e45e473b2baa4d22611e59a398515035bde57e19456c3c01aa3af"
      ]
+    },
+    "sha256-fd-v1:cc10b4cb1eca267ba882366566f1c7751ed052da2fa102c3ff4b1e367628f438": {
+     "media": [
+      {
+       "contentId": "sha256-fd-v1:ff520da1c55664de9cb02cd7d8c1bb35c3b1b5404a5f873444c8d6ac561bf824",
+       "role": "floppyB"
+      }
+     ],
+     "setDisks": [
+      "sha256-fd-v1:ff520da1c55664de9cb02cd7d8c1bb35c3b1b5404a5f873444c8d6ac561bf824"
+     ]
     }
    },
    "launchbox": "186818",
    "mobygames": 202238,
    "publisher": "Micro Cabin",
    "sourceGroups": [
+    "neokobe:Urusei Yatsura (Doujin - Magical System)/Urusei Yatsura [FD].7z",
     "neokobe:Urusei Yatsura - Koi no Survival Birthday (Microcabin)/Urusei Yatsura - Koi no Survival Birthday [FD].7z"
    ],
    "title": "Urusei Yatsura: Koi no Survival Birthday",
@@ -9101,7 +9206,8 @@
    "developer": "CSK Research Institute",
    "diskMachine": {
     "sha256-fd-v1:d5bd92d9ee0c19b1a76a9555cb5eea31f52457d36f71f3ff6b9165919fe6a07f": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "clock": 4
     }
    },
    "launchbox": "187776",
@@ -9867,7 +9973,7 @@
     },
     "sha256-tape-v1:d95353ee23474950c200dc9630889fa4643d1a431b52bc3d9a1be645464c879e": {
      "basic": "v1s",
-     "loader": [
+     "commands": [
       "MON",
       "R",
       "G8F00"
@@ -10298,6 +10404,11 @@
    ],
    "description": "A fantasy adventure: an ordinary teenage girl named Ayumi is pulled into a strange world just as summer vacation begins.",
    "developer": "Game Technopolis",
+   "diskMachine": {
+    "sha256-fd-v1:046702eefeb38d082e1f124436f9c6bcf0b1aeebed90fea9eeb18bab9e951871": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:046702eefeb38d082e1f124436f9c6bcf0b1aeebed90fea9eeb18bab9e951871": {
      "media": [
@@ -10351,7 +10462,8 @@
      "basic": "v1s"
     },
     "sha256-fd-v1:53acc3ac4de45ef63534d9e6aa05cc64b4844da3e75c8ec10a0e3fb09e0f0c80": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     },
     "sha256-fd-v1:d5f8c42bfd2bcacd6180527a927442f6047583ea8769e545afda92fddaac6840": {
      "basic": "v1s"
@@ -10677,7 +10789,8 @@
    "description": "Dig through caves as Rockford, gathering enough diamonds to open each exit while using falling boulders against monsters.",
    "diskMachine": {
     "sha256-fd-v1:fb15f9179eb8aa4c1730e92fdd565aa55e465ce78137b71e4f88c26b273797a6": {
-     "basic": "v1h"
+     "basic": "v1h",
+     "subcpu": "disk"
     },
     "sha256-tape-v1:7c28879b1f113e97120f95422b115d27279082ff5ce4b52bbc14e397ca82cce6": {
      "basic": "v1s"
@@ -10725,7 +10838,9 @@
      "basic": "v1s"
     },
     "sha256-fd-v1:d7e3f6904ba208b65b5fad0f049f7648ad28ca8fd4534e67f443061079fdd307": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "clock": 4,
+     "subcpu": "disk"
     }
    },
    "diskSets": {
@@ -11135,7 +11250,8 @@
      "basic": "v1s"
     },
     "sha256-fd-v1:8a786a012dbd0f2f2a2fcd9817398c570d31b3cb0f76c725c606d14ed149a65b": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     },
     "sha256-fd-v1:b42db29634e3d2a5ebf9573f7f8160726aa4bd59d0a25b85244b371a494bd7ee": {
      "basic": "v1s"
@@ -11885,7 +12001,8 @@
    "developer": "Programmers-3",
    "diskMachine": {
     "sha256-fd-v1:1b08acbb913c6132b9d7e1cf10d2c1e5862141fc0bc67edf352a0fb695f66230": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     }
    },
    "launchbox": "188399",
@@ -12020,7 +12137,7 @@
     "sha256-fd-v1:ecd2d7037e5dfd98634cf918b68cc72672b7ab86aae9ad1388514388ccb12107": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:a238077e81a93ef66d98d28f3f8fc8cef6e102901d9f40ec74defac5b35b3c17",
+       "contentId": "sha256-fd-v1:0292740b0196e81ae2cab7c37c09171cbdce55e1c33cd8d1f0f06c5da0e7cab3",
        "role": "floppyB"
       }
      ],
@@ -12416,7 +12533,7 @@
     "sha256-fd-v1:7437179c5fba1fc557d5cb58af2a0dbbded502d689f17c27e01d96c84c1c0f7c": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:db994e27a2db37bf98c6ec617a821cb915ca3274993f1b689f21e45a52d59d1c",
+       "contentId": "sha256-fd-v1:4712c571fdf078c73b3137f7bd31a03322f5d6796c62c6e6eae227eb7e2a46e5",
        "role": "floppyB"
       }
      ],
@@ -12584,6 +12701,11 @@
    ],
    "description": "A quiz adventure from Gainax set at a high-tech school.",
    "developer": "Gainax",
+   "diskMachine": {
+    "sha256-fd-v1:971310ad9e4ed0f419d59e7fc469927454b3d2569048e96a5d633a6846b70f50": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:971310ad9e4ed0f419d59e7fc469927454b3d2569048e96a5d633a6846b70f50": {
      "media": [
@@ -12642,6 +12764,11 @@
    ],
    "description": "The second Cybernetic Hi-School: a midnight rider is challenging drivers on the highway with tricky questions.",
    "developer": "Gainax",
+   "diskMachine": {
+    "sha256-fd-v1:9dba2204b95db5a61c1652c756b9a2351d1ead69e0bedab229f3b63bfdee1dd7": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:04159e2e313aa9634a1ae191120a19e46bc09dd9d8bcf693d992d965a9e49f2c": {
      "media": [
@@ -13382,7 +13509,7 @@
    "description": "Atrushan becomes human to find Tamryn and lift a curse on dragons, traveling between towns and dungeons in a fantasy RPG.",
    "developer": "Glodia",
    "diskSets": {
-    "sha256-fd-v1:f28b8f9c2d9cfd9195e15cefce3c217745f65d39a8a52ed50fb5ae5cb2017257": {
+    "sha256-fd-v1:264ed5f48b05920350351a872fe5a26556b187da0354c788c962f86f229fa079": {
      "media": [
       {
        "contentId": "sha256-fd-v1:21c23e895982e92b948b86205ae8ef387f20831e6c58b7446eebd6f06a3bd1be",
@@ -13392,7 +13519,6 @@
      "setDisks": [
       "sha256-fd-v1:03854bd4086ed482402db24e3989e2043db0c610d7fdabb4977bd4d4d541d52c",
       "sha256-fd-v1:21c23e895982e92b948b86205ae8ef387f20831e6c58b7446eebd6f06a3bd1be",
-      "sha256-fd-v1:264ed5f48b05920350351a872fe5a26556b187da0354c788c962f86f229fa079",
       "sha256-fd-v1:30047e5b3a5f9365a84c2a4c48796eb5a8736281bde81d7829e6ee3d94045341",
       "sha256-fd-v1:30aaa396c05dd4dd862e08ec27b7cb5ffa15742470abe0c7b4067b4800af9967",
       "sha256-fd-v1:322a04bd644b8fe4f327a172411cbc416942663660c852c04f8c792254ec5e5a",
@@ -13410,7 +13536,8 @@
       "sha256-fd-v1:b731f515d9e3942121342fbd5557d7d92d1111c41d16dc8bcfb755ec822c3fe1",
       "sha256-fd-v1:c5577f55fa34709c64db61579a473431524ee9636b6131c500f662d12ed857de",
       "sha256-fd-v1:dfe108480d49ac97296963ee4d303bfcae37f076f417415f4231af45c824dc99",
-      "sha256-fd-v1:e503b03c409f8eeb95c093753474460ac94d188da096b938e10a10830f844c70"
+      "sha256-fd-v1:e503b03c409f8eeb95c093753474460ac94d188da096b938e10a10830f844c70",
+      "sha256-fd-v1:f28b8f9c2d9cfd9195e15cefce3c217745f65d39a8a52ed50fb5ae5cb2017257"
      ]
     }
    },
@@ -13578,6 +13705,11 @@
    ],
    "description": "An adventure in which monsters invade an amusement park during a contest.",
    "developer": "D.O.",
+   "diskMachine": {
+    "sha256-fd-v1:c1afce0ffab32f5ac91d10422e8620e56ef0786b0fdbd3cb614ccac611acd36c": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:c1afce0ffab32f5ac91d10422e8620e56ef0786b0fdbd3cb614ccac611acd36c": {
      "media": [
@@ -14754,6 +14886,11 @@
    ],
    "description": "MicroProse's attack helicopter simulator: fly the AH-64A Apache on missions in several war zones.",
    "developer": "MicroProse Software",
+   "diskMachine": {
+    "sha256-fd-v1:bf765f0346589de2101f307232fabdff74c01a6e436e5aced54f5e018f18ead6": {
+     "clock": 4
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:694bbb57de46139bef9740768ee83805cd3fb862aeaa2e22c9b2c6ecacaa3fb9": {
      "media": [
@@ -15092,7 +15229,8 @@
    "developer": "Comptiq",
    "diskMachine": {
     "sha256-fd-v1:ad594b2a277c50771f5a80a1112eba44c62b8817f6a8f72b4645906dea1cd434": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     }
    },
    "launchbox": "188505",
@@ -16547,6 +16685,11 @@
    ],
    "description": "Lead parties of demons across a devastated Earth to fight alien machines in a turn-based RPG with first-person dungeons.",
    "developer": "BrainGrey",
+   "diskMachine": {
+    "sha256-fd-v1:083aa4c553d201a8e0589d65177514555364479932845b369041c32b3c2e2712": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:083aa4c553d201a8e0589d65177514555364479932845b369041c32b3c2e2712": {
      "media": [
@@ -16784,12 +16927,6 @@
    "developer": "FairyTale",
    "diskSets": {
     "sha256-fd-v1:400d657b6da5fcf1c7188bc15e6a423c84fcd0a94f1cf3ad8f31091c5db14fcd": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:f7af8c9c2f5728428e66e70cb866614d637a4690253b8635edbf78a84af199e3",
-       "role": "floppyB"
-      }
-     ],
      "setDisks": [
       "sha256-fd-v1:737f61efc2f06107e5226bb9d8af3a4514558cc6c3ce23f71bbad97a215aa163",
       "sha256-fd-v1:8d8c397c43589d839b82772d5b8c24c39e333185d17a23ce2f247579053ef164",
@@ -17104,7 +17241,8 @@
    "description": "Explore a haunted mansion, solve room puzzles, defeat monsters, and collect the inheritance hidden by Barney’s aunt Mabel.",
    "diskMachine": {
     "sha256-fd-v1:21b723f7baa75a76dbdd9445e44841685c8224f5cec096da29aa7ef96175b626": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     }
    },
    "launchbox": "188587",
@@ -17246,6 +17384,9 @@
     },
     "sha256-fd-v1:d79d2b3fefda6d58e929ca7582c22ea7bc5d5429e251c85b59191f8fece4b33a": {
      "basic": "v1h"
+    },
+    "sha256-fd-v1:ec8c66113fac573418561443a0ee4725c23cae5123e2c5095f23a6c2491f8f97": {
+     "subcpu": "disk"
     }
    },
    "diskSets": {
@@ -17721,7 +17862,8 @@
      "basic": "v1s"
     },
     "sha256-fd-v1:cd1a1ad50d6b6b9a51f7fc0891e16787371180a7a7bdc7d2ce8f8c1c84f25a1f": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     },
     "sha256-fd-v1:fcbc0520e0406702790546f55430c90f26a4f086b390ae38c9e322e7777d73fd": {
      "basic": "v1s"
@@ -17958,7 +18100,8 @@
    "developer": "Programmers-3",
    "diskMachine": {
     "sha256-fd-v1:91edc4010dfc6f90badeef253113156123dbc67c95755779d47e4ba758ed47e2": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     },
     "sha256-fd-v1:f8a72f1471b716cd170a1c7e9c976eedf57292aa00a3fd89bb27bdcdaf4e84fd": {
      "basic": "v1s"
@@ -18137,7 +18280,8 @@
      "basic": "v1s"
     },
     "sha256-fd-v1:b52fb778e2fdafc4501762d80dccc05f03171c3f496903b982d3efab69c303e8": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     },
     "sha256-fd-v1:d7b0ee8391d534f9ce9f6e90ce40e8f35434ce1c3f3711674034b5c639d7673b": {
      "basic": "v1s"
@@ -18216,41 +18360,41 @@
    "description": "The third Mugen no Shinzou: after two magical realms, the hero returns to his own world.",
    "developer": "Xtalsoft",
    "diskSets": {
-    "sha256-fd-v1:26b227a57008a475dcbe48fb8b2853fe193ef27448b4c71b3643ad8ad10291b1": {
+    "sha256-fd-v1:67917a40cded89cbb94e4dfc48732c46ab44aec548336fd3f3fd817500a4d803": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:348eff040c61375b973d9bce8f454f974fd5ba7c082706983fc676995a278d8c",
+       "contentId": "sha256-fd-v1:26b227a57008a475dcbe48fb8b2853fe193ef27448b4c71b3643ad8ad10291b1",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:136bd05497bc0de3b437d196789960414890cf7ce52eed78b027f859a96ed460",
       "sha256-fd-v1:1de57f306c62d8a12e1a24ab26488bdd731a6d88d7682a820c2f4028cbaa8732",
+      "sha256-fd-v1:26b227a57008a475dcbe48fb8b2853fe193ef27448b4c71b3643ad8ad10291b1",
       "sha256-fd-v1:348eff040c61375b973d9bce8f454f974fd5ba7c082706983fc676995a278d8c",
-      "sha256-fd-v1:67917a40cded89cbb94e4dfc48732c46ab44aec548336fd3f3fd817500a4d803",
       "sha256-fd-v1:6f7188573e20590c8c9de1069923030c40f87bdc34773c68deabdeef35459dd8"
      ]
     },
-    "sha256-fd-v1:f52b2b7225fbd3fa218353475583320aeb288151f9a3dbc559072952bbaece0a": {
+    "sha256-fd-v1:c91d1c629ad198ae719960668642ffda3848ac4483c30d295e06d26e0a2c990b": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:f310411fbb611d8c52518fb7c7e2561d9b5fb8425cffe901a8b3eee2c010388b",
+       "contentId": "sha256-fd-v1:f52b2b7225fbd3fa218353475583320aeb288151f9a3dbc559072952bbaece0a",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:04bf4ee56a0011519c6f3cbfe20878f2e9a81f975624259e5d153b0298b31d08",
       "sha256-fd-v1:1cee00d8ee3c07a3b0ba22e85918f22caa316a9d9ef2a7db2525ffc9604d502c",
-      "sha256-fd-v1:26b227a57008a475dcbe48fb8b2853fe193ef27448b4c71b3643ad8ad10291b1",
       "sha256-fd-v1:49240d14aabc4a0cbc778a0d03fc3293c53009bbe6faf8a0b125e4b9808323b1",
       "sha256-fd-v1:500e5f7bed17b7f13e8fbafe8c99c54ab19f74e72dab85a862afe94a954dccb2",
       "sha256-fd-v1:535a205a78e5e7b6ee7d1711136bc163c305e738bc5ae7303f6b0e3d728fd336",
+      "sha256-fd-v1:67917a40cded89cbb94e4dfc48732c46ab44aec548336fd3f3fd817500a4d803",
       "sha256-fd-v1:a337b1c314ca8e6bbfe66d29104e833015afdcee53110d69a3e8745d7121e7a5",
       "sha256-fd-v1:a49e5edb48384375fdb7a2877aecfc42afaed386e3248fd640744de2674bcc16",
-      "sha256-fd-v1:c91d1c629ad198ae719960668642ffda3848ac4483c30d295e06d26e0a2c990b",
       "sha256-fd-v1:d247ccf1bf3fb2e955e7d51365aaecc8b2b3a4b10a0ed15452754245b6f13ae0",
       "sha256-fd-v1:e7240a6ec9a0ed0f1882e4b1f6a7d2381d1234c677eee49fa898b3ae4f1463f5",
       "sha256-fd-v1:f310411fbb611d8c52518fb7c7e2561d9b5fb8425cffe901a8b3eee2c010388b",
+      "sha256-fd-v1:f52b2b7225fbd3fa218353475583320aeb288151f9a3dbc559072952bbaece0a",
       "sha256-fd-v1:f9f0f3d97477709fd19a11129ae3c7c9c0d6c3e51adac0a9d805770735793b81",
       "sha256-fd-v1:fc68c582b348b8216406e05472a5bb9ce967e23c8a4f3f9cebdf5a317f7d4009",
       "sha256-fd-v1:fcd3350e0f3490dd727a99ce848ad4431e0bbe511c3868b60b4af6b8826e5c29"
@@ -18412,6 +18556,11 @@
    ],
    "description": "A ninja platformer: defeat enemy ninjas and demons on the way to a showdown at the castle.",
    "developer": "UPL",
+   "diskMachine": {
+    "sha256-fd-v1:8f808fbc7f360b1a64777fc8a19ac16c290100ee3f95d0d7d0879acc853e2f3a": {
+     "subcpu": "disk"
+    }
+   },
    "launchbox": "188618",
    "mobygames": 51264,
    "publisher": "Nippon Dexter",
@@ -18837,10 +18986,10 @@
       "sha256-fd-v1:6ee70a667d25533ca392567f4cb4f08e5113affd963728630618e3b0395832b3"
      ]
     },
-    "sha256-fd-v1:e450db19114368f696c9afb4d5a85f737a7ee3bb3471d4ee5e591c04944c1883": {
+    "sha256-fd-v1:3ceccedd758d224202fe73ef64b764856e615b9da5f4aedea91d63801010c741": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:991b3d48308ca4b71f7ce4f3fd2f1b6cdef8a350fa8d42ca14ed084dde2e2760",
+       "contentId": "sha256-fd-v1:e450db19114368f696c9afb4d5a85f737a7ee3bb3471d4ee5e591c04944c1883",
        "role": "floppyB"
       }
      ],
@@ -18851,7 +19000,6 @@
       "sha256-fd-v1:2568beba212e424c732833f73d7e7b361cb80e1cb116de2bde89d2bb66f01e28",
       "sha256-fd-v1:30046b95b8246eb0b3a1003d71e52655af73bd9936b773e8e95b83dd6d937ff1",
       "sha256-fd-v1:390ebfcefacc49b6a909e8d4e1e36374e2e6247a64c55ab58910935c91f94905",
-      "sha256-fd-v1:3ceccedd758d224202fe73ef64b764856e615b9da5f4aedea91d63801010c741",
       "sha256-fd-v1:6072d4640b14d8101fff34a846c3888f482664a3b90883a06bbc048bff98cc1a",
       "sha256-fd-v1:991b3d48308ca4b71f7ce4f3fd2f1b6cdef8a350fa8d42ca14ed084dde2e2760",
       "sha256-fd-v1:a1f6e1c0a38cd725d8650c62a8d61e57c73ff331744210c2baf755e8120e15d9",
@@ -18860,6 +19008,7 @@
       "sha256-fd-v1:b59bc13986562da275550a9744a335dc5371262b931f2f4ff3dd3f98aa36424d",
       "sha256-fd-v1:bde17b5a4130201d0864c71c0223474886420d7153372e401e3918d870efdbde",
       "sha256-fd-v1:d02c68e255b91e1adc9835d9ab65593e693a3df58a0a18ae011abc96bbc5abcf",
+      "sha256-fd-v1:e450db19114368f696c9afb4d5a85f737a7ee3bb3471d4ee5e591c04944c1883",
       "sha256-fd-v1:fd91b95fc04a3e504a1d8309fb0339c6eca93312aa33cf2d72d543db9ab2ce64"
      ]
     }
@@ -18952,6 +19101,11 @@
    ],
    "description": "A pachinko simulation.",
    "developer": "Bear's",
+   "diskMachine": {
+    "sha256-fd-v1:4221f50b7fa0a93ccb3b6159f511a037886ad13472b703cab8de1b6fb5ce8a1a": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:4221f50b7fa0a93ccb3b6159f511a037886ad13472b703cab8de1b6fb5ce8a1a": {
      "setDisks": [
@@ -19031,6 +19185,11 @@
    ],
    "description": "A side-scrolling action role-playing game: a paladin fights through a hundred stages.",
    "developer": "Bothtec",
+   "diskMachine": {
+    "sha256-fd-v1:7227b8cb48eda2b9baea5f1db5a5a01206109b5883532a7d95b9f2a60ab69f5a": {
+     "basic": "v1s"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:7227b8cb48eda2b9baea5f1db5a5a01206109b5883532a7d95b9f2a60ab69f5a": {
      "setDisks": [
@@ -19480,7 +19639,8 @@
    "description": "Bill Budge's pinball construction kit: build your own table from bumpers, flippers and parts, then play it.",
    "diskMachine": {
     "sha256-fd-v1:10282037a945cfcb03fb24249b4e87121ad4c58f3639819e6d2e74187ccbf2d4": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     },
     "sha256-fd-v1:88022c2c300919cb50b476c9c9e749d963002f0ea309b58476eb27f60d6403cb": {
      "basic": "v1s"
@@ -19894,6 +20054,11 @@
    ],
    "description": "A horror strategy game: four students of an international ESP institute spend their summer in a haunted place.",
    "developer": "dB-SOFT",
+   "diskMachine": {
+    "sha256-fd-v1:840a7119d8d5add8a7a38440dd5cdfb4daa9946f1a9da423cf42145d41ecde2d": {
+     "clock": 4
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:840a7119d8d5add8a7a38440dd5cdfb4daa9946f1a9da423cf42145d41ecde2d": {
      "setDisks": [
@@ -20058,6 +20223,11 @@
    ],
    "description": "The second Rance: sent to recover four stolen magical rings, Rance faces the sorceresses terrorizing Custom Town.",
    "developer": "Alice Soft",
+   "diskMachine": {
+    "sha256-fd-v1:96e40034a531785cbfb45fcd4f4fe2a894921373119fc55a6a962c4ea4ef4821": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:96e40034a531785cbfb45fcd4f4fe2a894921373119fc55a6a962c4ea4ef4821": {
      "media": [
@@ -20265,6 +20435,11 @@
    ],
    "description": "A side-scrolling action role-playing game on the continent of Riglas, torn by war between the Miria and the Galt.",
    "developer": "Random House",
+   "diskMachine": {
+    "sha256-fd-v1:c35076ee784916714fd2d4d81253f9533a15c12a1f055f63b4280f2e81aef334": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:c35076ee784916714fd2d4d81253f9533a15c12a1f055f63b4280f2e81aef334": {
      "setDisks": [
@@ -20757,6 +20932,11 @@
    ],
    "description": "Capcom's Commando: a lone soldier fights up the screen with a rifle and grenades.",
    "developer": "Capcom",
+   "diskMachine": {
+    "sha256-fd-v1:42806f5754b2e3d6e707838b2744bb1fc695a2f0216ffad087f619d6cd0f0691": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:42806f5754b2e3d6e707838b2744bb1fc695a2f0216ffad087f619d6cd0f0691": {
      "setDisks": [
@@ -21575,7 +21755,8 @@
    "developer": "Datamost, Inc.",
    "diskMachine": {
     "sha256-fd-v1:9580415f640be213265e0361e255b8371ee5ef8e3e6c2cd10531be9d90b3539c": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     }
    },
    "launchbox": "188686",
@@ -21913,6 +22094,11 @@
    ],
    "description": "A second side story in the Tenshitachi no Gogo series.",
    "developer": "JAST",
+   "diskMachine": {
+    "sha256-fd-v1:a7e1598f6e5966fbdedc83ab38522a7aaf11d7b66d8657de8a8e7a40ae3182bf": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:a7e1598f6e5966fbdedc83ab38522a7aaf11d7b66d8657de8a8e7a40ae3182bf": {
      "media": [
@@ -22198,22 +22384,22 @@
     }
    },
    "diskSets": {
-    "sha256-fd-v1:3f8d796aedd85a4332a51e6bf100ef19de1ebc51aea09d18409d240b8bec0611": {
+    "sha256-fd-v1:df38756a4aefa8a99942e7ca8ee203dbfc7a9ea8ac647b0ef6551066727e7747": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:df38756a4aefa8a99942e7ca8ee203dbfc7a9ea8ac647b0ef6551066727e7747",
+       "contentId": "sha256-fd-v1:3f8d796aedd85a4332a51e6bf100ef19de1ebc51aea09d18409d240b8bec0611",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:09212c255e879fd239252fee2d79f6ecf02db88b065a380b3a848f61993523e4",
+      "sha256-fd-v1:3f8d796aedd85a4332a51e6bf100ef19de1ebc51aea09d18409d240b8bec0611",
       "sha256-fd-v1:564d0eb9eea8b6cde29a276f3357e2ece9b44c47459a9d00c28f4b562fd63802",
       "sha256-fd-v1:75ac547ff2d82cb61b037cee54b2ebbe517f86250b3f0d377b6087c7bd12b2ce",
       "sha256-fd-v1:8a44f0d2594830d6f249abedfaa1c738d1188527d8734fc734415acb16e6d270",
       "sha256-fd-v1:a103977740df26d2fe6eedd9a38bf92701ffa46d68f0dcc7b7eb88ea3295f58f",
       "sha256-fd-v1:ac081587a17a7a5c1af9dd5bd35c21c6d9b18923d601b8b869cf74ba40f397fc",
       "sha256-fd-v1:c113bdfd42418d839e3ad340c2b36ab0ed4e1543242b4ea2a90a171b9de26fb9",
-      "sha256-fd-v1:df38756a4aefa8a99942e7ca8ee203dbfc7a9ea8ac647b0ef6551066727e7747",
       "sha256-fd-v1:eec8d163b04bc3c2e1cdff6cd3744ab130e2820016f03fc8ae502708ebe885ec",
       "sha256-fd-v1:f4fbbd2da431a85144602857f72ab93ab357906bbdb1b5b3d01d499b115512d0",
       "sha256-fd-v1:f7185f05449dc4849ed5003a4d03f41f8c41045c9be16b1788003edf753ae367"
@@ -22758,6 +22944,11 @@
    ],
    "description": "The fourth Twilight Zone: aliens have taken over Earth, and a few resistance fighters remain.",
    "developer": "Great",
+   "diskMachine": {
+    "sha256-fd-v1:093602d7229ea7845acb1f11895b462487a18725fdda5ac7fea7446dde33dbaa": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:093602d7229ea7845acb1f11895b462487a18725fdda5ac7fea7446dde33dbaa": {
      "media": [
@@ -22812,6 +23003,9 @@
    "diskMachine": {
     "sha256-fd-v1:38b80c9c1010701670235a05622a488f244609ef47768df8f6dc13fcc30f50a2": {
      "basic": "v1s"
+    },
+    "sha256-fd-v1:7aa7e841ea843cb2ac81501ccc7be43952fd85a340e5caa48d9682100281757b": {
+     "subcpu": "disk"
     },
     "sha256-fd-v1:ac991f2a96d252b243f209f7983e5c4584609bf233889c5c6f572f4a60015323": {
      "basic": "v1s"
@@ -23575,6 +23769,11 @@
    ],
    "description": "The fourth Wizardry: play the wizard Werdna himself, rebuilding his power as you escape the dungeon you were sealed in.",
    "developer": "Sir-Tech Software",
+   "diskMachine": {
+    "sha256-fd-v1:39415c8b4b1aabad27b6f6ef83e9957b9312f017dee595074489dae9c722d1a1": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:39415c8b4b1aabad27b6f6ef83e9957b9312f017dee595074489dae9c722d1a1": {
      "media": [
@@ -23631,6 +23830,11 @@
    ],
    "description": "The fifth Wizardry: a new party faces the Maelstrom threatening Llylgamyn.",
    "developer": "Sir-Tech Software",
+   "diskMachine": {
+    "sha256-fd-v1:6999d3ab215bacdd6eaecbc2f96782a70c0c1bde0fcf04292154f63ed16fc604": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:67d4fef6c21b30bf05485d8310945ded8dbcc0d28830f17e4a347ba39c3d8384": {
      "media": [
@@ -24215,7 +24419,8 @@
    "developer": "Champion Soft",
    "diskMachine": {
     "sha256-fd-v1:8f0eda442e9000a4b292ccd5a039dc34f483303356397d435836b86b040c95f1": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "clock": 4
     }
    },
    "launchbox": "188731",
@@ -24308,6 +24513,11 @@
    ],
    "description": "Wolf Team's turn-based fantasy strategy game set in feudal Japan.",
    "developer": "Wolf Team",
+   "diskMachine": {
+    "sha256-fd-v1:a9ba4cfb964780ba3ac902919de247d3308488eac31787acc8da6e9d33cf66ba": {
+     "clock": 4
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:28eb403723cc194fc2d45ed1f594d394421c4905ab37a7a6c7de272dbf1f24f3": {
      "media": [
@@ -24427,16 +24637,16 @@
     }
    },
    "diskSets": {
-    "sha256-fd-v1:c974c19035adfecb5b5059939189e4515e1a54dfe3d4855f94e46a0fd994a4a2": {
+    "sha256-fd-v1:47998ae09b1bc92385811e7f57028253b5a90584bfc846895139c317f158aceb": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:550b8140535df26990b47c673a03936b76f6af978d04cbc7d4da7b6380edf10c",
+       "contentId": "sha256-fd-v1:c974c19035adfecb5b5059939189e4515e1a54dfe3d4855f94e46a0fd994a4a2",
        "role": "floppyB"
       }
      ],
      "setDisks": [
-      "sha256-fd-v1:47998ae09b1bc92385811e7f57028253b5a90584bfc846895139c317f158aceb",
-      "sha256-fd-v1:550b8140535df26990b47c673a03936b76f6af978d04cbc7d4da7b6380edf10c"
+      "sha256-fd-v1:550b8140535df26990b47c673a03936b76f6af978d04cbc7d4da7b6380edf10c",
+      "sha256-fd-v1:c974c19035adfecb5b5059939189e4515e1a54dfe3d4855f94e46a0fd994a4a2"
      ]
     }
    },
@@ -24530,6 +24740,11 @@
    ],
    "description": "A ball-and-paddle game in the style of Breakout.",
    "developer": "Cybertech Custom",
+   "diskMachine": {
+    "sha256-fd-v1:31f3d7ccc2a8d114834d645d9399e55520e873cddc1811bafe18ca7ccb18d3fa": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:31f3d7ccc2a8d114834d645d9399e55520e873cddc1811bafe18ca7ccb18d3fa": {
      "media": [
@@ -25171,7 +25386,7 @@
    "developer": "Programmers-3",
    "diskMachine": {
     "sha256-fd-v1:1f15a70d989d0aed6483d6db6b2ed8ec3232b35ac8bc474659fa9ba706d3ef56": {
-     "basic": "v1s"
+     "basic": "v1h"
     },
     "sha256-fd-v1:441a4fa0c5acc6a03ebe4b36493bcfe26330fd3e17c51dbb47bba7553dc29989": {
      "basic": "v1s"
@@ -25485,6 +25700,11 @@
    ],
    "description": "A Chinese-style comedy adventure: a mysterious stranger hands the hero, training in the mountains with his master, a sage's last will.",
    "developer": "ASCII",
+   "diskMachine": {
+    "sha256-fd-v1:c003a3ec94f4f09490e4c398cf6e876c78ea21a7a3143e14b2012b8d23eada5b": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:5985785be70eeb8e1e4e90d39bca151cfd09e1767b97a29e84657da161ae154d": {
      "media": [
@@ -26037,7 +26257,7 @@
     },
     "sha256-tape-v1:c744e19341bfe78056bf90e532c15f5e01be56dce87ee61d534a5812c6c901f5": {
      "basic": "v1s",
-     "loader": [
+     "commands": [
       "LOAD\"CAS:\"",
       "RUN"
      ]
@@ -26105,7 +26325,10 @@
    "developer": "T&E Soft",
    "diskMachine": {
     "sha256-fd-v1:c33ed3f96631c4dfaeb2e774ebed8726664d31d3f853b96ebd5fc08f2135b8e4": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "commands": [
+      "RUN\"DRK1\""
+     ]
     },
     "sha256-fd-v1:d07de36a93f7273a8f8d93092644288bdf4321626be6d5c9685d2a59e7a571fd": {
      "basic": "v1s"
@@ -27260,17 +27483,17 @@
     }
    },
    "diskSets": {
-    "sha256-fd-v1:6d38b206cf7312853b829217c451961d840cacd081aa9df5f607090b35c49041": {
+    "sha256-fd-v1:d692e11111af2af4191cfe26c119a7445fbd3ceb33af71042a13d73262c6ca47": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:d692e11111af2af4191cfe26c119a7445fbd3ceb33af71042a13d73262c6ca47",
+       "contentId": "sha256-fd-v1:6d38b206cf7312853b829217c451961d840cacd081aa9df5f607090b35c49041",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:0f858000cf85110b5791f25483f40f83224ae4f433f0e1b589e4d968ddbc9367",
-      "sha256-fd-v1:a8094ea1dbf6c4cc66f0b0819cf9bf1b9536441e2cfb2a8b702654aab5a2bf37",
-      "sha256-fd-v1:d692e11111af2af4191cfe26c119a7445fbd3ceb33af71042a13d73262c6ca47"
+      "sha256-fd-v1:6d38b206cf7312853b829217c451961d840cacd081aa9df5f607090b35c49041",
+      "sha256-fd-v1:a8094ea1dbf6c4cc66f0b0819cf9bf1b9536441e2cfb2a8b702654aab5a2bf37"
      ]
     }
    },
@@ -27392,6 +27615,11 @@
    ],
    "description": "A fantasy role-playing game that begins at a wedding in the village of Kartia.",
    "developer": "Artec",
+   "diskMachine": {
+    "sha256-fd-v1:b78f665cf3e9c9d631991755e9c533489f96ace21592ee1e82a45e0f92d8e68e": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:b78f665cf3e9c9d631991755e9c533489f96ace21592ee1e82a45e0f92d8e68e": {
      "media": [
@@ -27831,6 +28059,11 @@
    ],
    "description": "A yakuza strategy game: left in charge of the family by the old boss's will, recruit members, raid neighboring gangs for their turf and open cabarets and pachinko parlors to pay for it.",
    "developer": "Micronet",
+   "diskMachine": {
+    "sha256-fd-v1:bab14177e27a2422d21e12dad7008c9c0afb0ea359c7c99823f0935c397125b1": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:bab14177e27a2422d21e12dad7008c9c0afb0ea359c7c99823f0935c397125b1": {
      "media": [
@@ -28263,7 +28496,8 @@
    "developer": "Xtalsoft",
    "diskMachine": {
     "sha256-fd-v1:9f55cd6b2d711ce9c0dcba478bc344dd00f09d692c759072e794778907b6ba24": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "clock": 4
     }
    },
    "launchbox": "190043",
@@ -28511,7 +28745,8 @@
      "basic": "v1s"
     },
     "sha256-fd-v1:689563bad373e3e659ca01fe0fa1691ff74c6768150f33818f4c42cffe5954cf": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     },
     "sha256-fd-v1:d4a2c9b9fb0b0f51f063328bab7725fc6c7dea74708fbe3ed5c99aca5ae87b65": {
      "basic": "v1s"
@@ -28630,7 +28865,8 @@
    "developer": "Riverhill Soft",
    "diskMachine": {
     "sha256-fd-v1:3670241e8783b9d83db22a48245aae9aab94a24007a57364a1db58833564adc4": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "clock": 4
     },
     "sha256-fd-v1:a73933691466b8f8becc655bec974d7b578540271f6c9f7804ae922647cf2393": {
      "basic": "v1s"
@@ -28949,7 +29185,8 @@
      "basic": "v1s"
     },
     "sha256-fd-v1:2749da01bace71d840231b013eb6f3132e083d7fd5316c3e4166117eb38cb98f": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     },
     "sha256-fd-v1:6591268086935515aeb2100cb80571dc482b16f472d0753be54d3890f4dbaa9b": {
      "basic": "v1s"
@@ -29146,7 +29383,8 @@
    "developer": "Tatsumi Publishing",
    "diskMachine": {
     "sha256-fd-v1:1307a45074274f710a66f2f1fd2313b8291f78faa9f853ac4024509c72d97f98": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "clock": 4
     }
    },
    "launchbox": "190089",
@@ -29355,6 +29593,11 @@
    ],
    "description": "An action role-playing game in ancient Egypt: Kaoru Jinguu, born into a family of shrine priests, fights with psychic power that grows in the world of myth.",
    "developer": "Natsume",
+   "diskMachine": {
+    "sha256-fd-v1:17c15b3cb30a771715fcac038af521cc6650e85bb62539c9781beb15682009f4": {
+     "basic": "n"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:17c15b3cb30a771715fcac038af521cc6650e85bb62539c9781beb15682009f4": {
      "media": [
@@ -29488,6 +29731,12 @@
    ],
    "description": "Brain Grey's ninja role-playing game: three heroes, Jakimaru, Gen'yousai and Koheita, each pursue their own story while the others' stories advance alongside and cross it, and every ten days they can meet at a mountain hut to ask each other for help.",
    "developer": "Brain Grey",
+   "diskMachine": {
+    "sha256-fd-v1:3bec51849359ec9f7c08334e714b32622c0679c1292e3672f459c7d6b0c74558": {
+     "clock": 4,
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:3bec51849359ec9f7c08334e714b32622c0679c1292e3672f459c7d6b0c74558": {
      "media": [
@@ -29890,6 +30139,11 @@
    ],
    "description": "An action role-playing game without experience points: a young man defends an island from a witch, growing stronger only through the swords, shields and armor he finds.",
    "developer": "System Sacom",
+   "diskMachine": {
+    "sha256-fd-v1:6041be041488c69adecacbdca1abb78022107c5328f60d82ea5f07e1ddca5784": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:5fa42a470d09ab6d67ac7cd2542a8c3b0cb75459c57635c41f86b0d65fa5e7da": {
      "media": [
@@ -30622,7 +30876,8 @@
    "developer": "Bear's",
    "diskMachine": {
     "sha256-fd-v1:0ac422df49587daedfc2f4c04e3d0961faeef30cc193aeedc7175d18cb18bd0c": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     },
     "sha256-fd-v1:4f5be6cb92003306c92afbebd4e57d70b0c6fb762ed8aada84acf652880fdcca": {
      "basic": "v1s"
@@ -30733,6 +30988,11 @@
    ],
    "description": "A first-person spy adventure with turn-based combat, based on Mission: Impossible.",
    "developer": "Pony Canyon",
+   "diskMachine": {
+    "sha256-fd-v1:3283e6999e3a8370e033bbd08aa03c0167f7c3c2ee47cd3543471fed6d4765c1": {
+     "basic": "v1s"
+    }
+   },
    "launchbox": "190137",
    "mobygames": 197720,
    "publisher": "Pony Canyon",
@@ -30883,6 +31143,11 @@
    ],
    "description": "A strategy game based on the film: as Uesugi Kenshin, take the realm, with detailed battles and generals, castles and events; a port of the PC-98 version.",
    "developer": "Kogado Studio",
+   "diskMachine": {
+    "sha256-fd-v1:e19a48c44eafab91785d2d489f95a56151b5b4a1763c12fd4af2f6e05ff8419a": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:e19a48c44eafab91785d2d489f95a56151b5b4a1763c12fd4af2f6e05ff8419a": {
      "media": [
@@ -31132,7 +31397,7 @@
    "diskMachine": {
     "sha256-tape-v1:b1cbfca18d3935025aa8426359dac84480b4e3b3833fb8c3b855b654e769923d": {
      "basic": "v1s",
-     "loader": [
+     "commands": [
       "MON",
       "R",
       "GE702"
@@ -31456,15 +31721,15 @@
     }
    },
    "diskSets": {
-    "sha256-fd-v1:69b75c1e7a8b4101d83ad25a061278ff81bc878cd724a41579c079e6495808fd": {
+    "sha256-fd-v1:0938b3bf9d1a3c13187aefa0ad7af76ce8ef2584657f1505fc5d58165e38cf3f": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:d5e8503c07efb263081f4b806421cce597044b98d05d94cf0e7cc996184d29b0",
+       "contentId": "sha256-fd-v1:69b75c1e7a8b4101d83ad25a061278ff81bc878cd724a41579c079e6495808fd",
        "role": "floppyB"
       }
      ],
      "setDisks": [
-      "sha256-fd-v1:0938b3bf9d1a3c13187aefa0ad7af76ce8ef2584657f1505fc5d58165e38cf3f",
+      "sha256-fd-v1:69b75c1e7a8b4101d83ad25a061278ff81bc878cd724a41579c079e6495808fd",
       "sha256-fd-v1:bb53e6546aa163662ecdb5eb0dbb0091a9610a278132fc0e12fd41eed4ad4771",
       "sha256-fd-v1:d5e8503c07efb263081f4b806421cce597044b98d05d94cf0e7cc996184d29b0"
      ]
@@ -31977,7 +32242,8 @@
    "developer": "Nihon Falcom",
    "diskMachine": {
     "sha256-fd-v1:9e709587bfe6a61bc9ef7aa792277bce11b188d0d5f6a83db0d9ef8e6c1f810f": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "clock": 4
     },
     "sha256-fd-v1:a33309bb987a47ee105dfd0787b251f8b94245e7dabe5a2d022e6fd4eb030da6": {
      "basic": "v1s"
@@ -32138,12 +32404,6 @@
    },
    "diskSets": {
     "sha256-fd-v1:4b99cfa619c193e07f7799b4083d4d664b83ce380e9104ce3fd3c3a2cb7d294c": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:54865d5340cdc854283c659ba9caedcff02ebfe657849d516f9c79c3e052e57c",
-       "role": "floppyB"
-      }
-     ],
      "setDisks": [
       "sha256-fd-v1:54865d5340cdc854283c659ba9caedcff02ebfe657849d516f9c79c3e052e57c"
      ]
@@ -32544,6 +32804,11 @@
     "sha256-fd-v1:a4ccd473a71ca4a77b185929bd82b9532b8601864b88566b38e8669083bf2932"
    ],
    "description": "A calligraphy tool for the mouse: write with pen, eraser and file, and save your work.",
+   "diskMachine": {
+    "sha256-fd-v1:2e81ebf98425fbe036be7d0ab564c09ea7844e4fe4cfdf8ae914b977ccbfa52b": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:2e81ebf98425fbe036be7d0ab564c09ea7844e4fe4cfdf8ae914b977ccbfa52b": {
      "media": [
@@ -32685,6 +32950,11 @@
    ],
    "description": "Game Arts' action puzzle game: grab all the keys, then head for the exit.",
    "developer": "Game Arts",
+   "diskMachine": {
+    "sha256-fd-v1:8dadd621f1642bcdde7f29981b72535f4e1fbd7f6ff99754a1bd62fd841b1356": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:8dadd621f1642bcdde7f29981b72535f4e1fbd7f6ff99754a1bd62fd841b1356": {
      "setDisks": [
@@ -32749,6 +33019,11 @@
    ],
    "description": "A riichi mahjong game based on Masayuki Katayama's manga Gambler Jiko Chuushinha.",
    "developer": "Game Arts",
+   "diskMachine": {
+    "sha256-fd-v1:33ab1e05c7755dc031c9d2122cd1282fc9bafea8b26f6bdffbc06071f6fdeb93": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:33ab1e05c7755dc031c9d2122cd1282fc9bafea8b26f6bdffbc06071f6fdeb93": {
      "setDisks": [
@@ -32830,6 +33105,11 @@
    ],
    "description": "The third Gambler Jiko Chuushinha: ten more characters, 34 in all with the first two games, and a new villain who wants to fill Japan with octopuses.",
    "developer": "Yellow Horn",
+   "diskMachine": {
+    "sha256-fd-v1:6cad04345bb80865b740d6b2bda7d7a20a234dfb058ac2ce97068b4f262f946f": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:6cad04345bb80865b740d6b2bda7d7a20a234dfb058ac2ce97068b4f262f946f": {
      "setDisks": [
@@ -32897,7 +33177,8 @@
    "developer": "SPS",
    "diskMachine": {
     "sha256-fd-v1:1c701911815451f662c3288739d38c4894630a426d7bc7d1a588e4a169fdb943": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "clock": 4
     }
    },
    "launchbox": "193376",
@@ -32932,6 +33213,11 @@
    ],
    "description": "An action game: Gutchan and Marichan go around town collecting money.",
    "developer": "Softbank",
+   "diskMachine": {
+    "sha256-fd-v1:27cd120e6274ff799517ee09a60b85bc7e45bc4d10a25179df11b3f8ffc18b09": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:27cd120e6274ff799517ee09a60b85bc7e45bc4d10a25179df11b3f8ffc18b09": {
      "setDisks": [
@@ -33216,6 +33502,11 @@
     "sha256-fd-v1:b2995047bdbbd282dfa05dec036542c1545d5f89198b614293968d19ec3d8907"
    ],
    "description": "A 3D dungeon role-playing game: an apprentice beast-breeder takes over his master's job of surveying newly found ruins for King Urgan, raising creatures in tanks, whose food, temperature and humidity shape their powers, to explore seven dungeons.",
+   "diskMachine": {
+    "sha256-fd-v1:824fed2d7377de2bb82b0ef8bcd47f1be8ab65483d644e2f9e5a7f58e6ace267": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:0d619bf55cc03f4cbc898437f2a65cd04d410a8bcf1e231b073da147d27f2c77": {
      "media": [
@@ -33627,6 +33918,11 @@
    ],
    "description": "Explore ominous locations and select commands in a Japanese occult adventure.",
    "developer": "Soft Studio Wing",
+   "diskMachine": {
+    "sha256-fd-v1:63b8e7c0b4e48d7b527b38dfa184eaff925e5a79c5ca96ea3b9b50cb98c02fa3": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:63b8e7c0b4e48d7b527b38dfa184eaff925e5a79c5ca96ea3b9b50cb98c02fa3": {
      "media": [
@@ -33998,6 +34294,11 @@
    ],
    "description": "Shogi by Kazurou Morita, the strongest shogi program of its day.",
    "developer": "Random House",
+   "diskMachine": {
+    "sha256-fd-v1:8f080a4a703e3265b51eeed6969b0fea36cba390198811582ba29fec1769ef94": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:8f080a4a703e3265b51eeed6969b0fea36cba390198811582ba29fec1769ef94": {
      "setDisks": [
@@ -34438,6 +34739,11 @@
    ],
    "description": "An action adventure in the Marchen Theater: the story of Tonky.",
    "developer": "SPS",
+   "diskMachine": {
+    "sha256-fd-v1:a9994c4c96122abae80e97b04ae1e6c6de1e9f1d55b8e4ead783247c6743f903": {
+     "subcpu": "disk"
+    }
+   },
    "launchbox": "193410",
    "mobygames": 228953,
    "publisher": "SPS",
@@ -34721,34 +35027,34 @@
    ],
    "description": "A role-playing game following three heroines.",
    "diskSets": {
-    "sha256-fd-v1:37e196288c354047044412ab8f89964671bbc06bf63db755ed43ba6199eb82fe": {
+    "sha256-fd-v1:ea291f7823f643331930bce0678494c31758f9af70cbc4cffb7baf1866c72bac": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:55078912de25be8a0da947cff393fb4f85b09bbaa38ba7e8cbd3928f9b4b47ec",
-       "role": "floppyB"
-      }
-     ],
-     "setDisks": [
-      "sha256-fd-v1:55078912de25be8a0da947cff393fb4f85b09bbaa38ba7e8cbd3928f9b4b47ec",
-      "sha256-fd-v1:80aa9afa743a52207cd20075a1c5d8f1f958b622758fad417d6d07f529f64c99",
-      "sha256-fd-v1:996d8fc600c06f8e4d50e7f5c5b1ea259609f8e8c65c5e088cbffdf8b47ea824",
-      "sha256-fd-v1:f6efcc581ab342df5f273e8ff45a96028bba0cbfb37f5f00ad930833bb14d861"
-     ]
-    },
-    "sha256-fd-v1:7d10b9abee3c6f004e017d3d375f53b80597a631722a5ddb97016a8471de10d8": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:d70c458fe45fbf35d6552c2f55df2647bf201ec7c602272bb9aa6c8627766538",
+       "contentId": "sha256-fd-v1:7d10b9abee3c6f004e017d3d375f53b80597a631722a5ddb97016a8471de10d8",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:1f24c3418d00f3b86e3ecd8032f0b0a7ca4f701fdbd16d333718e3a38547c4bb",
       "sha256-fd-v1:37d15a52d3d5ddd796cd16d715a353fdc315a3c8ae7dad8b9035c1360da490f2",
-      "sha256-fd-v1:37e196288c354047044412ab8f89964671bbc06bf63db755ed43ba6199eb82fe",
       "sha256-fd-v1:6a3ac837fde1a419016cb01ab42f250103cb9f9701bc503d7598edd42fa74992",
+      "sha256-fd-v1:7d10b9abee3c6f004e017d3d375f53b80597a631722a5ddb97016a8471de10d8",
       "sha256-fd-v1:d70c458fe45fbf35d6552c2f55df2647bf201ec7c602272bb9aa6c8627766538",
-      "sha256-fd-v1:ea291f7823f643331930bce0678494c31758f9af70cbc4cffb7baf1866c72bac"
+      "sha256-fd-v1:f6efcc581ab342df5f273e8ff45a96028bba0cbfb37f5f00ad930833bb14d861"
+     ]
+    },
+    "sha256-fd-v1:f6efcc581ab342df5f273e8ff45a96028bba0cbfb37f5f00ad930833bb14d861": {
+     "media": [
+      {
+       "contentId": "sha256-fd-v1:37e196288c354047044412ab8f89964671bbc06bf63db755ed43ba6199eb82fe",
+       "role": "floppyB"
+      }
+     ],
+     "setDisks": [
+      "sha256-fd-v1:37e196288c354047044412ab8f89964671bbc06bf63db755ed43ba6199eb82fe",
+      "sha256-fd-v1:55078912de25be8a0da947cff393fb4f85b09bbaa38ba7e8cbd3928f9b4b47ec",
+      "sha256-fd-v1:80aa9afa743a52207cd20075a1c5d8f1f958b622758fad417d6d07f529f64c99",
+      "sha256-fd-v1:996d8fc600c06f8e4d50e7f5c5b1ea259609f8e8c65c5e088cbffdf8b47ea824"
      ]
     }
    },
@@ -35508,7 +35814,7 @@
     "sha256-fd-v1:98c1589fe494001b482d989ee3500e3762a14c0f326b1fc4364ff4da127c545e": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:06c82661b22f45c709ad7f5b403c1860535885364090054f1a37c24caa732a52",
+       "contentId": "sha256-fd-v1:1c54c3b31448020fe17fef46bf3a7953f9b43f066c7a6488319281853d8d0a3a",
        "role": "floppyB"
       }
      ],
@@ -35800,6 +36106,11 @@
    ],
    "description": "A sci-fi game set during a war that breaks out over an unmanned planet between two allied stars.",
    "developer": "Heart Soft",
+   "diskMachine": {
+    "sha256-fd-v1:fa48c607d16d3144e8685fd8cb5ffbf69d1a893b9b12551782e1e6c6821faa5c": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:fa48c607d16d3144e8685fd8cb5ffbf69d1a893b9b12551782e1e6c6821faa5c": {
      "media": [
@@ -36178,19 +36489,19 @@
    "description": "A fast-scrolling role-playing game: a broken seal has revived an evil queen, and a girl warrior sets out through five labyrinths to defeat her and her four generals.",
    "developer": "Great",
    "diskSets": {
-    "sha256-fd-v1:b48498c75cf820cce1abb28a13f3333f081ded44b8d5e26f5dcd91d761537334": {
+    "sha256-fd-v1:458d6ab792ce0f0d63a3342e067bd364237f53612cb1672044c183da70a73ff8": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:bd5f8a96f3b37d07d56898823c8e2d977d0d0d6e4007fc364b7c760035d17fe0",
+       "contentId": "sha256-fd-v1:b48498c75cf820cce1abb28a13f3333f081ded44b8d5e26f5dcd91d761537334",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:1751947efb91cef7c92d332f8e1f81bfbacdbc4e4666132b1994dc175dd965c8",
       "sha256-fd-v1:26c62ec008361d3100a86ae96593acb7fa0da1d02c9d072af8266780e84f0a31",
-      "sha256-fd-v1:458d6ab792ce0f0d63a3342e067bd364237f53612cb1672044c183da70a73ff8",
       "sha256-fd-v1:7f8ed0269d60b1608033d5c9b17c85da33ea99be543172af3e3a49ff765b5cb9",
       "sha256-fd-v1:8fc20421d2411d1fd57acde5b129bcd5481c1d5473dd0ab95184589c9c890556",
+      "sha256-fd-v1:b48498c75cf820cce1abb28a13f3333f081ded44b8d5e26f5dcd91d761537334",
       "sha256-fd-v1:bd5f8a96f3b37d07d56898823c8e2d977d0d0d6e4007fc364b7c760035d17fe0"
      ]
     }
@@ -36654,6 +36965,11 @@
    ],
    "description": "Poker against four girls.",
    "developer": "Cocktail Soft",
+   "diskMachine": {
+    "sha256-fd-v1:3b74e64d4d1b36437cd9a9c02c1535687c1f6c17f2a3736eee556c824424315e": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:3b74e64d4d1b36437cd9a9c02c1535687c1f6c17f2a3736eee556c824424315e": {
      "media": [
@@ -37006,22 +37322,22 @@
    "developer": "Soft Studio Wing",
    "diskMachine": {
     "sha256-fd-v1:22b0cbe276839d320a17d454d9550fb859ff1f655cb213a638336519ba03c9ff": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:3392bc6072d437ff8e7fa7b1f432dea906f4ba6a0dda0619cca97d3973478c08": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:43eab4e5757abb193032060e1484393dc320f7943c29ec27b7977f0c8e267148": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:56fa7d1a8b2f8ecb3bdd610b6e7baca4482a1bd8afcd70134a3110bb5cf3d141": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:9cc0e286c1f05a8f5860ee25518122c2eaa0fd27415a081e3635ef5e3c039b6a": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:b71850d8b13fa2461ae4105c927e3e943dce2fdd050609123e3245f61b2c4999": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "diskSets": {
@@ -37070,6 +37386,11 @@
    ],
    "description": "A mahjong game with three rule sets: a beginner's game, a gambling game with extra dora, and one where only limit hands can win.",
    "developer": "Studio Offside",
+   "diskMachine": {
+    "sha256-fd-v1:904757da52cc8fb738fcf0aae41cae1f0cb43f259842981d2a085f68dd92bae7": {
+     "clock": 4
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:904757da52cc8fb738fcf0aae41cae1f0cb43f259842981d2a085f68dd92bae7": {
      "media": [
@@ -38243,7 +38564,7 @@
     },
     "sha256-tape-v1:9d3de67855d31ec5106ba532a74313da7541c141787891f6c77f1e595f6dcb7d": {
      "basic": "v1s",
-     "loader": [
+     "commands": [
       "LOAD\"CAS:\"",
       "MON",
       "R",
@@ -38475,6 +38796,11 @@
    ],
    "description": "A crossword game: fill in each grid to reveal a photograph, with puzzles that grow harder as you go.",
    "developer": "Winky Soft",
+   "diskMachine": {
+    "sha256-fd-v1:2b9054a246ad7c55b2b41e75963f74228d69110c84487055912dc671347c1a70": {
+     "clock": 4
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:2b9054a246ad7c55b2b41e75963f74228d69110c84487055912dc671347c1a70": {
      "media": [
@@ -40017,6 +40343,11 @@
    ],
    "description": "A murder mystery: asked to look after his uncle's pension in Kiyosato, Hayaichi Kanzaki finds his uncle killed, and every guest has a motive and a different story.",
    "developer": "Adult Inn",
+   "diskMachine": {
+    "sha256-fd-v1:5c96e59bf855d59c2cf4d730b513b57625e5670f9e1d219d26fc9bffad2b2fc2": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:2a1244176cadeda03bb933ea108f00ccce04ee7cd9bd447288e89cf41115db3c": {
      "media": [
@@ -41425,6 +41756,11 @@
    ],
    "description": "An adventure: Mai, a third-year student at a girls' high school, tired of ordinary school life, sets out to try everything a girls' school has to offer.",
    "developer": "Queen Soft",
+   "diskMachine": {
+    "sha256-fd-v1:a39acc12e3d82340acd6fa72273da6e3254cda2f93fa84ab095bcbc3e2ac70ee": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:a39acc12e3d82340acd6fa72273da6e3254cda2f93fa84ab095bcbc3e2ac70ee": {
      "media": [
@@ -41574,6 +41910,11 @@
    ],
    "description": "A city adventure, the second Soapland Story, with life, strength, experience and money to manage.",
    "developer": "HARD",
+   "diskMachine": {
+    "sha256-fd-v1:572c3d1bd726e03e787b7f8219dba09f6ff89d5d82bb40dc2c736364d97e9b44": {
+     "sound": "1"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:572c3d1bd726e03e787b7f8219dba09f6ff89d5d82bb40dc2c736364d97e9b44": {
      "media": [
@@ -41656,16 +41997,16 @@
    "developer": "Wilduck",
    "diskMachine": {
     "sha256-fd-v1:161e7a18fdc940595e5d2271981591c38b19e396a130b8823be049bbbe3ef1d7": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:3b6d3755eca2e30b331c190b5dbe9b5517d2c6185687e4421dd9f9ee5de04ae7": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:aa8b3ca7ded2b9616ecfe14521300a5adc981116c46411dcf472c8cf2b5b0e51": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:d693aa269477e96fdc22bfb3f6b13ca21237a0ccda29a14b8fe33d2147c1c0a4": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "diskSets": {
@@ -41756,6 +42097,11 @@
    ],
    "description": "An adventure: girls descended from celestial maidens carry hidden letters, and solving them summons a celestial woman.",
    "developer": "Champion Soft",
+   "diskMachine": {
+    "sha256-fd-v1:56db7c4b888b3ece94e14fd719c7afaee7b2c3831c0cd72e69c73f66966ab0b7": {
+     "basic": "v1s"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:56db7c4b888b3ece94e14fd719c7afaee7b2c3831c0cd72e69c73f66966ab0b7": {
      "media": [
@@ -42224,6 +42570,11 @@
    ],
    "description": "A supernatural adventure: the feud between the Kuki and Yasha clans, running since the Meiji Restoration, closes in on the heroine Kyoha Kuki.",
    "developer": "HARD",
+   "diskMachine": {
+    "sha256-fd-v1:1c924084298de740207da1ae00f1e5d8dd7629efa35518837d360f4e84e68ef0": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:1c924084298de740207da1ae00f1e5d8dd7629efa35518837d360f4e84e68ef0": {
      "media": [
@@ -42575,6 +42926,11 @@
    ],
    "description": "An adventure: on his seventeenth birthday, the rich young Makoto is told to win over three high-school girls chosen as his bride candidates, and gets caught up in a strange incident.",
    "developer": "Queen Soft",
+   "diskMachine": {
+    "sha256-fd-v1:481f228fdd9e4154dbc2f507e1413006cee175adf9e8fcfbbf299d652c105a89": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:481f228fdd9e4154dbc2f507e1413006cee175adf9e8fcfbbf299d652c105a89": {
      "media": [
@@ -42630,6 +42986,11 @@
    ],
    "description": "An occult detective story: the spirit detective Shura helps the Tokyo police with a man drained of all his blood and a girl's death in another prefecture.",
    "developer": "Hot-B",
+   "diskMachine": {
+    "sha256-fd-v1:48a0a6eb63efa9a25013c24b3dc7463380ece8723b91e9c466c37f5defd3baec": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:48a0a6eb63efa9a25013c24b3dc7463380ece8723b91e9c466c37f5defd3baec": {
      "media": [
@@ -43002,6 +43363,11 @@
    ],
    "description": "A side-scrolling platformer: a flying robot rescues children from a cave full of creatures.",
    "developer": "Soft Pro",
+   "diskMachine": {
+    "sha256-fd-v1:74041a6c24394ef2ca588ec08a387a0b355b3c19e7dd4142027d4c6e1b0b4260": {
+     "subcpu": "disk"
+    }
+   },
    "launchbox": "197104",
    "mobygames": 9314,
    "publisher": "Soft Pro",
@@ -43727,7 +44093,7 @@
    "diskMachine": {
     "sha256-tape-v1:c42859846b3f95e155489d8870983b53eb1d0bf3e91d9ced681f154f1da5fdc5": {
      "basic": "n",
-     "loader": [
+     "commands": [
       "MON",
       "L"
      ]
@@ -43948,22 +44314,23 @@
    "developer": "ASC Group",
    "diskMachine": {
     "sha256-fd-v1:052b298490f8f03e410033a63103c4db66b50a4c1887aa5cfa937db010451644": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:a8ae7f53ab061d0ae76dab294c5cf8929fd40e8db60b429d1c8ac0806e38d74a": {
-     "clock": "4"
+     "clock": 4,
+     "subcpu": "disk"
     },
     "sha256-fd-v1:b84bc17c283da58e60e4f8f0662b6c27fa5e83804146be9e5c9d5fd1136f2f5a": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:c0e47f376f451c6085f032ac587c44a3f061e30aa90f32b8ed545ee9754290a0": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:d6fa77b27979d48ed8b3a33170b1ad315e31445a4b3a4ff604790a8ed47fc9d4": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:eb5f7cb44e9ae008dd339eab57477796e21e31ea7b20e9fdbf3fc988c0655ced": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "diskSets": {
@@ -45227,7 +45594,8 @@
    "developer": "Bares",
    "diskMachine": {
     "sha256-fd-v1:06844dc4f9a35896de7e9ccdf0f7f237993b871927dbb14773613030ed167a23": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     }
    },
    "launchbox": "207478",
@@ -45511,6 +45879,11 @@
    ],
    "description": "Enix's role-playing game: a modern couple paying respects at a temple cemetery are drawn into a legend.",
    "developer": "Enix",
+   "diskMachine": {
+    "sha256-fd-v1:7141b87c31c0bb8334d0706798b9c37c5dbed3da2cd086944300ac3d37f9f261": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:7141b87c31c0bb8334d0706798b9c37c5dbed3da2cd086944300ac3d37f9f261": {
      "media": [
@@ -45563,17 +45936,22 @@
    ],
    "description": "An adventure in which a journalist covers a big Expo in Japan.",
    "developer": "System House Oh!",
+   "diskMachine": {
+    "sha256-fd-v1:c2d46c6c06d079a5b6d7626914823a13ca858c6dad05e88cc979105cd16494a0": {
+     "clock": 4
+    }
+   },
    "diskSets": {
-    "sha256-fd-v1:162ce29688bc6094375c28e61dda7eb8e4d86ae957eb8027355deb6c88dcd43a": {
+    "sha256-fd-v1:c2d46c6c06d079a5b6d7626914823a13ca858c6dad05e88cc979105cd16494a0": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:7ae3cb2db434b73cea821028c993f0b2e5fb24c23796d8000c131f53a3d00c2d",
+       "contentId": "sha256-fd-v1:162ce29688bc6094375c28e61dda7eb8e4d86ae957eb8027355deb6c88dcd43a",
        "role": "floppyB"
       }
      ],
      "setDisks": [
-      "sha256-fd-v1:7ae3cb2db434b73cea821028c993f0b2e5fb24c23796d8000c131f53a3d00c2d",
-      "sha256-fd-v1:c2d46c6c06d079a5b6d7626914823a13ca858c6dad05e88cc979105cd16494a0"
+      "sha256-fd-v1:162ce29688bc6094375c28e61dda7eb8e4d86ae957eb8027355deb6c88dcd43a",
+      "sha256-fd-v1:7ae3cb2db434b73cea821028c993f0b2e5fb24c23796d8000c131f53a3d00c2d"
      ]
     }
    },
@@ -45686,6 +46064,11 @@
    ],
    "description": "A pon-jan game based on mahjong, played with tiles of fairy-tale characters against Kaguya-hime, Momoko and Otohime.",
    "developer": "FairyTale",
+   "diskMachine": {
+    "sha256-fd-v1:a644d093195672428e901886ec9d1ed42d660bfee7c96822d807b78478d9c82e": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:77a484dd90b2886dd5ca63576239fdca308344c39b8792684e32cab35c2ea3d3": {
      "media": [
@@ -46320,7 +46703,7 @@
    "diskMachine": {
     "sha256-tape-v1:76dbd36a5a68090ecaa33a5ccfa2f881997623e28b48d4d57af95c37b0f4578f": {
      "basic": "v1s",
-     "loader": [
+     "commands": [
       "MON",
       "R",
       "{CTRL-B}",
@@ -46609,7 +46992,7 @@
    "diskMachine": {
     "sha256-tape-v1:0b5bfbb86c6ade0b05b8c293fec92de3340df7e337abc4018de6fd5163294045": {
      "basic": "v1s",
-     "loader": [
+     "commands": [
       "MON",
       "R"
      ]
@@ -46716,14 +47099,14 @@
     },
     "sha256-tape-v1:09ec9988ac80543167d5cff3ec9b52c806797a11c6fba48344519843679f5e93": {
      "basic": "v1s",
-     "loader": [
+     "commands": [
       "MON",
       "R"
      ]
     },
     "sha256-tape-v1:6865f0be4f8b4c942b271e31382ef1ac98bac28f0255a076997c2df6db3ded93": {
      "basic": "v1s",
-     "loader": [
+     "commands": [
       "MON",
       "R"
      ]
@@ -47675,7 +48058,7 @@
    "developer": "Scap Trust",
    "diskMachine": {
     "sha256-fd-v1:b822a7cf92ef67c5cab9af4aacd616905a13a0c1a1512a1d1cfaad423d401ed1": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "launchbox": "207590",
@@ -48262,7 +48645,7 @@
    "diskMachine": {
     "sha256-tape-v1:587c79d5d39152d50528bfde59356ace117da0c5ee5924de6a32d70449208aeb": {
      "basic": "n",
-     "loader": [
+     "commands": [
       "MON",
       "L"
      ]
@@ -48299,6 +48682,11 @@
    ],
    "description": "A turn-based sci-fi strategy game: command a moon base against an unknown enemy.",
    "developer": "Micronet",
+   "diskMachine": {
+    "sha256-fd-v1:cf7d89547ae2a45ec83e6227d11e3a61aa82c4c61696dfdfbe5a6d3bf8c3642c": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:2d15b87dce3644aaaab618e30e7a1f71d0c55d7ef60fb26419742a834d92e1f0": {
      "media": [
@@ -50074,6 +50462,11 @@
    ],
    "description": "The third Cybernetic Hi-School quiz game, built around the anime Gunbuster.",
    "developer": "Gainax",
+   "diskMachine": {
+    "sha256-fd-v1:f109c2d39913bf0d0ac3a6408c3375e043a18981beb9723157048fe1e6ccd190": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:61fd73f1f98c635939e9440464ecb7785f7952c0f2147907640ba248f3674308": {
      "media": [
@@ -50161,13 +50554,13 @@
    "developer": "Dot Kikaku",
    "diskMachine": {
     "sha256-fd-v1:5890d87878d70ed9a881ae01c503e3ee8cf3d4b1dc85f0ba74da7abe1daaaf36": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:e378436cd73d3847c593e0eae1428cb992d616f521ff8f83c986dc1d5dcc93c8": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:fae4bcf3e611721554eb90a421a23b1455e5c6044c6f3e3281e5d939e9348126": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "diskSets": {
@@ -50353,10 +50746,10 @@
    "description": "A side story to Suiryuushi: the harpist Pantelro and Medi of the sea folk explore a village whose mermaids have stopped answering; first a bonus mini-game with the PC-98 Suiryuushi II, expanded into a full game.",
    "developer": "Shambalah",
    "diskSets": {
-    "sha256-fd-v1:577d8fe05231a94b8412b06e168689607a447798729d1a75af6e2b47a02c1e55": {
+    "sha256-fd-v1:d3ac8c735f038477dec7bece1e58f564f1827eee05ae44e9f0a777fc16a4c3af": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:42e26d9f2b3a379274a99f3750026b06e23c87b0eaf7060a3c74118c9e9c80ff",
+       "contentId": "sha256-fd-v1:577d8fe05231a94b8412b06e168689607a447798729d1a75af6e2b47a02c1e55",
        "role": "floppyB"
       }
      ],
@@ -50365,10 +50758,10 @@
       "sha256-fd-v1:40b4b20fb7b91ff7f0340d816184831158dbdd21eae1e2b9238fd5559d5bcc04",
       "sha256-fd-v1:42e26d9f2b3a379274a99f3750026b06e23c87b0eaf7060a3c74118c9e9c80ff",
       "sha256-fd-v1:488dbcc9366423b4020de514ed480f68e084f820f749c3b82f57c7b423422283",
+      "sha256-fd-v1:577d8fe05231a94b8412b06e168689607a447798729d1a75af6e2b47a02c1e55",
       "sha256-fd-v1:6e29a41aacc154a9b8f4cfd60c7ba14ade8a2439fe81d438d721be7a637dc66d",
       "sha256-fd-v1:7b6332820de2544247dee29da3fa16afcb602c509b9ddbc051e2aceed1cca798",
       "sha256-fd-v1:b2f026686e55ecaeb7c0fb7c57c8ab23d725ba4a8c6a2423dcd90292fdc99f4e",
-      "sha256-fd-v1:d3ac8c735f038477dec7bece1e58f564f1827eee05ae44e9f0a777fc16a4c3af",
       "sha256-fd-v1:f88149d5cdee496161823d04d561e37f3482474658a50fba717f92529d8b00fc"
      ]
     }
@@ -50861,17 +51254,17 @@
     }
    },
    "diskSets": {
-    "sha256-fd-v1:78d8b4094d73d6b5f860d0e2f44b84659572e3762a3556f5b30a0f5ead652c73": {
+    "sha256-fd-v1:9b363716bc1718024a073b510b8e97fd7acc8c7a71ac818a023e8e7cbb761ffb": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:9b363716bc1718024a073b510b8e97fd7acc8c7a71ac818a023e8e7cbb761ffb",
+       "contentId": "sha256-fd-v1:824eb077f39e1e7d5c61cb5d7b0c05fdbf2977e4a59f8875846139d1cd101063",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:0bf6a8cbb34faec01b4100f0c202f0be9c295d590deba7249ac4568b9e455d3e",
-      "sha256-fd-v1:824eb077f39e1e7d5c61cb5d7b0c05fdbf2977e4a59f8875846139d1cd101063",
-      "sha256-fd-v1:9b363716bc1718024a073b510b8e97fd7acc8c7a71ac818a023e8e7cbb761ffb"
+      "sha256-fd-v1:78d8b4094d73d6b5f860d0e2f44b84659572e3762a3556f5b30a0f5ead652c73",
+      "sha256-fd-v1:824eb077f39e1e7d5c61cb5d7b0c05fdbf2977e4a59f8875846139d1cd101063"
      ]
     }
    },
@@ -51105,6 +51498,11 @@
     "sha256-fd-v1:379fc3116d705ae1a7b7b420c18817b155a95557395dceee73405eaad7d0ec68"
    ],
    "description": "An action game: the puppy Muku delivers the mail through 100 towns laid out like mazes, pushing blue walls to clear the way without blocking it.",
+   "diskMachine": {
+    "sha256-fd-v1:379fc3116d705ae1a7b7b420c18817b155a95557395dceee73405eaad7d0ec68": {
+     "subcpu": "disk"
+    }
+   },
    "launchbox": "462156",
    "publisher": "Compac",
    "sourceGroups": [
@@ -51546,7 +51944,8 @@
    "developer": "Sierra On-Line",
    "diskMachine": {
     "sha256-fd-v1:00f9c5e6220c79734620f23ff13d21093cfe4f99b2c696774a0489746eec09bc": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     }
    },
    "launchbox": "462448",
@@ -51953,6 +52352,11 @@
    "contentIds": [
     "sha256-fd-v1:3120b29b0f61bd35395c48404348730688425904b7b2bf45ff476a22ec7c5b35"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:3120b29b0f61bd35395c48404348730688425904b7b2bf45ff476a22ec7c5b35": {
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Salamander II (Doujin - TM-Soft)/Salamander II [FD].7z"
    ],
@@ -52072,6 +52476,11 @@
    "contentIds": [
     "sha256-fd-v1:0a0296c34d853f1c024dd28349f184cfe07e27acbe721a7c0fd59c9ae7adee74"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:0a0296c34d853f1c024dd28349f184cfe07e27acbe721a7c0fd59c9ae7adee74": {
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Y-Type Special (Doujin - Yanagi)/Y-Type Special [FD].7z"
    ],
@@ -52305,6 +52714,11 @@
     "sha256-fd-v1:d3201fe4fdea52f0f7a0003c4de8699be9fb864cfd0104b05f919eb9f53af4e8",
     "sha256-fd-v1:fd70a04a8c5833d87f3d9fae61c11cfe376cee14999a443331db4df4cb862236"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:d3201fe4fdea52f0f7a0003c4de8699be9fb864cfd0104b05f919eb9f53af4e8": {
+     "sound": "1"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:d3201fe4fdea52f0f7a0003c4de8699be9fb864cfd0104b05f919eb9f53af4e8": {
      "media": [
@@ -52982,13 +53396,13 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:7e7cb20e46213e35cf162a8a106fdaedb56132d1b2837991bebef6f714f44c58": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:d2d9d0c979fdde33cb44f5b9581626e2f4f72f086c558484674e2ca58dd7ab01": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:f7a56681daafe41bf75675ae3d4ace276df1b6b17a1dc932753ae13f66e46163": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "diskSets": {
@@ -53195,28 +53609,11 @@
    ],
    "diskSets": {
     "sha256-fd-v1:107ede23961266a8f62b8bd777e9cbe65579ea9ebbf97e833af5d9c68a0053b1": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:c71842df8e4d2bdfa2c1aeddc1d4fe01d9f7e17c2742b649492d055078fe3ffe",
-       "role": "floppyB"
-      }
-     ],
      "setDisks": [
       "sha256-fd-v1:0a9eca5cb20a58b1798b2ba81acee2e47ceef112e6be404cb4ef586db5718c45",
       "sha256-fd-v1:3152ca92b36b4852130433a30ac1ac82995408dda5f2e58e8c0b5013b2d104ab",
       "sha256-fd-v1:c71842df8e4d2bdfa2c1aeddc1d4fe01d9f7e17c2742b649492d055078fe3ffe",
       "sha256-fd-v1:fe733d6728b465e91bec52c2cb22d46eba5bc5264734be2306e6093331ca7e1b"
-     ]
-    },
-    "sha256-fd-v1:132d6aa59b938a042779fced20615a55c05c0f4a3fa396f085a36ae329e29090": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:f464a7379ad23c68130be634507440f8226ad13d15f9612536e5ea9e73bcb0e3",
-       "role": "floppyB"
-      }
-     ],
-     "setDisks": [
-      "sha256-fd-v1:f464a7379ad23c68130be634507440f8226ad13d15f9612536e5ea9e73bcb0e3"
      ]
     },
     "sha256-fd-v1:1353020dd492bf4b5c21580cce16b069e351f5f7a13e27d3d934f95a0948cc48": {
@@ -53235,7 +53632,6 @@
     "sha256-fd-v1:35d5f50a1f0a102efcf6a3ec95d9db4fab08101c3ce2e95f950e64d13b2e6e01": {
      "setDisks": [
       "sha256-fd-v1:107ede23961266a8f62b8bd777e9cbe65579ea9ebbf97e833af5d9c68a0053b1",
-      "sha256-fd-v1:132d6aa59b938a042779fced20615a55c05c0f4a3fa396f085a36ae329e29090",
       "sha256-fd-v1:1353020dd492bf4b5c21580cce16b069e351f5f7a13e27d3d934f95a0948cc48",
       "sha256-fd-v1:1af50f3f1527a7c903f361ecbb566b8dba94179ad5ef3a93fea7ea02ee5f248b",
       "sha256-fd-v1:216a8454fb75662b5ce3033f9af5de152ab64be8aaf5f184841baf488154268a",
@@ -53247,7 +53643,8 @@
       "sha256-fd-v1:9b7141af4a2ac80cd090b6dbd76e12e993ec7806b9889e47a8ac8d2d8d794849",
       "sha256-fd-v1:a3cdcb066dd80460ff84879fc1a6ad0c412a19d1bbae6df8ef2c8f4e167317c6",
       "sha256-fd-v1:be1a6817d29a86a9ed47d5ab452421b80372bbebda7254d114c842c881ca5e23",
-      "sha256-fd-v1:e8b4b3e2e90a8c56592b5de84dfa85651fc7fbcf2d815a537f8885a8f3a51d6b"
+      "sha256-fd-v1:e8b4b3e2e90a8c56592b5de84dfa85651fc7fbcf2d815a537f8885a8f3a51d6b",
+      "sha256-fd-v1:f464a7379ad23c68130be634507440f8226ad13d15f9612536e5ea9e73bcb0e3"
      ]
     },
     "sha256-fd-v1:37991ccf46d8af64429d07b6d4837a26f568a24a0f7985998513bbd749fc4c2f": {
@@ -53283,6 +53680,11 @@
     "sha256-fd-v1:a3cdcb066dd80460ff84879fc1a6ad0c412a19d1bbae6df8ef2c8f4e167317c6": {
      "setDisks": [
       "sha256-fd-v1:6e30d7a7e53c99cf9195b1298922002222206b7172e5d20f712394965ab43d1c"
+     ]
+    },
+    "sha256-fd-v1:f464a7379ad23c68130be634507440f8226ad13d15f9612536e5ea9e73bcb0e3": {
+     "setDisks": [
+      "sha256-fd-v1:132d6aa59b938a042779fced20615a55c05c0f4a3fa396f085a36ae329e29090"
      ]
     }
    },
@@ -53620,6 +54022,12 @@
    "contentIds": [
     "sha256-fd-v1:6c4c56efd226b78ace6d1da505b9d5b3f729ea1bbe6669ab51227f5bd1c7ae6c"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:6c4c56efd226b78ace6d1da505b9d5b3f729ea1bbe6669ab51227f5bd1c7ae6c": {
+     "clock": 4,
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Tanteidan X Bangaihen - Fushigi na Kanzume (Heart Soft)/Tanteidan X Bangaihen - Fushigi na Kanzume [FD].7z"
    ],
@@ -53781,16 +54189,16 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:8337e5ce951a6ff4704c46bbe297d2ef828f403a52b1d52bc7e2a3f9c031b226": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:a6fe2a65cb4ee230fd24b975ecef31fa81d563ea0e7d123ab593e70570aff8b2": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:b70bf2ec74083bf523c6cb32ca753772da7ecaec878fe35031f3b6326be9a5a6": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:c718b0323537a586c5cbacc0fde38e50ce9632f377801d757bf82e67d8277a24": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "diskSets": {
@@ -53875,6 +54283,12 @@
     "sha256-fd-v1:64a7ebbac3cce84800b7f78f4a82c1bffe93d1783f9ed13173c5551855b1cfa3",
     "sha256-fd-v1:e5f044753c2da8770a91c0a62375a3a8301422037b71aee6bca5c38c59a92b30"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:e5f044753c2da8770a91c0a62375a3a8301422037b71aee6bca5c38c59a92b30": {
+     "clock": 4,
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:e5f044753c2da8770a91c0a62375a3a8301422037b71aee6bca5c38c59a92b30": {
      "media": [
@@ -54045,6 +54459,12 @@
     "sha256-fd-v1:9680a5e1124d8136b66b77f7755d58e5778648cf30bc3ec9352eb0f3921033e8",
     "sha256-fd-v1:9686e9d292fcb9a9db9f4646df51d2c5d6097cba80f57d297fb176a9afdba985"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:9686e9d292fcb9a9db9f4646df51d2c5d6097cba80f57d297fb176a9afdba985": {
+     "clock": 4,
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:9686e9d292fcb9a9db9f4646df51d2c5d6097cba80f57d297fb176a9afdba985": {
      "setDisks": [
@@ -54307,6 +54727,11 @@
    "contentIds": [
     "sha256-fd-v1:936cfcdbe718c1047029f391e9155869885a865caab8d4eadd5baec3285c9e53"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:936cfcdbe718c1047029f391e9155869885a865caab8d4eadd5baec3285c9e53": {
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Teruru (Doujin)/Teruru [FD].7z"
    ],
@@ -54352,7 +54777,7 @@
    "sourceGroups": [
     "neokobe:[OS] Idos v2.0 (SoftBank)/[OS] Idos v2.0 [FD] [b].7z"
    ],
-   "title": "Idos v2.0"
+   "title": "Idos"
   },
   "pc88:local-28262717a9": {
    "contentIds": [
@@ -54435,7 +54860,7 @@
    "diskMachine": {
     "sha256-tape-v1:10408e40001e8169c351126171aba973a409a2fa4ace87917074ff70975f0058": {
      "basic": "n",
-     "loader": [
+     "commands": [
       "MON",
       "L",
       "G8800"
@@ -54468,6 +54893,14 @@
    "contentIds": [
     "sha256-fd-v1:a0ecf4ec102f8c0ed82419cdbe320f775bbf97ea63f561274c1777737c25a6ef"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:a0ecf4ec102f8c0ed82419cdbe320f775bbf97ea63f561274c1777737c25a6ef": {
+     "commands": [
+      "RUN\"MIE--8.G1\""
+     ],
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Pretty Girl 2 (Doujin - Dream7)/Pretty Girl 2 [FD].7z"
    ],
@@ -54534,6 +54967,11 @@
    "contentIds": [
     "sha256-fd-v1:80175d5d7a468715ea50b1ec4cfc1f662db9957c0405efdf34c8f2b5fe4abd52"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:80175d5d7a468715ea50b1ec4cfc1f662db9957c0405efdf34c8f2b5fe4abd52": {
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Tokuichi Tiger (Doujin)/Tokuichi Tiger [FD].7z"
    ],
@@ -54595,6 +55033,11 @@
     "sha256-fd-v1:61b3daa6ed03ae10782e939ebac5ec952bc29690f0f0e3ec997fabb6b7d42611"
    ],
    "description": "A board game in the manner of Monopoly: buy up tourist spots and grow rich on the dice, with place names and chance cards you can rename and computer players who react as they play.",
+   "diskMachine": {
+    "sha256-fd-v1:158dbdbc7898ccd31060f0234a1dc620e6361bc840b725d2c4aba74198b4d2f7": {
+     "clock": 4
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:158dbdbc7898ccd31060f0234a1dc620e6361bc840b725d2c4aba74198b4d2f7": {
      "setDisks": [
@@ -54612,6 +55055,13 @@
    "contentIds": [
     "sha256-fd-v1:beb3927f8a9d314e5dbe1f98fee2c51491f3c3c8bb3b724b7bbc793ae21dbb4e"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:beb3927f8a9d314e5dbe1f98fee2c51491f3c3c8bb3b724b7bbc793ae21dbb4e": {
+     "commands": [
+      "RUN\"MAD.M88\""
+     ]
+    }
+   },
    "sourceGroups": [
     "neokobe:Return to GreeNWooD (N. Matsukawa)/Return to GreeNWooD [FD].7z"
    ],
@@ -54851,6 +55301,13 @@
     "sha256-fd-v1:37a2510846422dc2a1b7b7f0f9135eb526f14c4e8a232dbd61d543de2275b0ed",
     "sha256-fd-v1:6d7ef7a8ae4a0652c7b1d3c2128d017b0b0f0a700d6a533499ebebd7f9aa20ed"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:6d7ef7a8ae4a0652c7b1d3c2128d017b0b0f0a700d6a533499ebebd7f9aa20ed": {
+     "commands": [
+      "RUN\"No 22.pc3\""
+     ]
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:6d7ef7a8ae4a0652c7b1d3c2128d017b0b0f0a700d6a533499ebebd7f9aa20ed": {
      "media": [
@@ -54911,7 +55368,7 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:e00f3b637bdd1cd8b303383c024416814206f3f6f66f314b2aa008ab975266f6": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "sourceGroups": [
@@ -55337,7 +55794,7 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:c3ee7ede77667c6ebb3351885ca8577e6e68a656c2a86f3c2f74a89af1f0ed57": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "sourceGroups": [
@@ -55577,6 +56034,11 @@
     "sha256-fd-v1:3ebac434f5df513401969d5f1d3d3fce4ed99affe0a9b231860a9a905dd4a1c8",
     "sha256-fd-v1:6008eb8dfd5c8b5431bfd39e0e685748bb6c0431b7228166d167daaab300848c"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:3ebac434f5df513401969d5f1d3d3fce4ed99affe0a9b231860a9a905dd4a1c8": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:3ebac434f5df513401969d5f1d3d3fce4ed99affe0a9b231860a9a905dd4a1c8": {
      "setDisks": [
@@ -55793,6 +56255,14 @@
    "contentIds": [
     "sha256-fd-v1:37351dedc2c3ab671416aa5dfea743c30df20742bac62101d32eda2d4b4d9ad1"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:37351dedc2c3ab671416aa5dfea743c30df20742bac62101d32eda2d4b4d9ad1": {
+     "commands": [
+      "RUN\"MAD1.M88\"",
+      "RUN\"MAD2.M88\""
+     ]
+    }
+   },
    "sourceGroups": [
     "neokobe:Yamase (MAD)/Yamase [FD].7z"
    ],
@@ -55865,6 +56335,11 @@
     "sha256-fd-v1:cf32bddeea5a57ce9d1c70d18b16dcde29cba3cbebf0b2ddd181e983ff21d36b"
    ],
    "description": "A puzzle game: drop playing cards into a five-by-five grid to make poker hands across its rows, columns and diagonals.",
+   "diskMachine": {
+    "sha256-fd-v1:86b5585752d1ff527049f128dd80fc3105a9366acf8af9429cf2755d7d4d0f92": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:86b5585752d1ff527049f128dd80fc3105a9366acf8af9429cf2755d7d4d0f92": {
      "media": [
@@ -56281,6 +56756,12 @@
     "sha256-fd-v1:38bc8468c4aae5475a6bf937d3da525e043dfc607e2a033b5057d4f34530fcbe",
     "sha256-fd-v1:a9b6c57151f327ca75d19eccaf90caf002bd336bc0eea9fd346c30fc18d979cc"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:a9b6c57151f327ca75d19eccaf90caf002bd336bc0eea9fd346c30fc18d979cc": {
+     "basic": "v1s",
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:a9b6c57151f327ca75d19eccaf90caf002bd336bc0eea9fd346c30fc18d979cc": {
      "media": [
@@ -56349,10 +56830,10 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:681f2077ff512be4877e835f47c67b09f16973f4c2fe24cd2b8f49621b30e887": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:cb9c972f78f21d6f6b6f9cdce8257151463a7f52943b18738a6609156aba6d69": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "diskSets": {
@@ -56512,6 +56993,11 @@
     "sha256-fd-v1:d25c297fec1b378f3123fbe7459ee46a9a56a4fb62ff97a3ace16e9f90363367",
     "sha256-fd-v1:ec8448e6a3440c3f6ff9673b94d0d73a90a605096061105618deb154fab92c39"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:ec8448e6a3440c3f6ff9673b94d0d73a90a605096061105618deb154fab92c39": {
+     "clock": 4
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:ec8448e6a3440c3f6ff9673b94d0d73a90a605096061105618deb154fab92c39": {
      "setDisks": [
@@ -56577,12 +57063,6 @@
    ],
    "diskSets": {
     "sha256-fd-v1:0a322b9e9163e7414344ad94705aee8b41cfd5f1badc7bb8664feb89f867f6fc": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:53f25166163dc0593623138f04bfd1471b333ce494894f6cff1929dcb531ca48",
-       "role": "floppyB"
-      }
-     ],
      "setDisks": [
       "sha256-fd-v1:53f25166163dc0593623138f04bfd1471b333ce494894f6cff1929dcb531ca48"
      ]
@@ -56678,7 +57158,7 @@
    "diskMachine": {
     "sha256-tape-v1:9666be57cad3d5d20f2a92d6fa85f5419c6c3a5b25426e8733d936df4f8cb4dc": {
      "basic": "v1s",
-     "loader": [
+     "commands": [
       "MON",
       "RDATA",
       "{CTRL-B}",
@@ -56794,18 +57274,18 @@
     "sha256-fd-v1:edd829b41d9b394b07771e2a6590cc30ca89895f3fb3fd5fa20179b75f4c3865"
    ],
    "diskSets": {
-    "sha256-fd-v1:30a5766b03541f1ef07b865d93cf621493aa4201fc0f624c3ff69fffed59c647": {
+    "sha256-fd-v1:a35b639ea5ab0808321f308d53e5e2408c10f638ba6fc78a746e666e6a25ad51": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:e9217fa98f75960d5886d6b409d0faf951ef7367c6e716acf7b701b648dc6430",
+       "contentId": "sha256-fd-v1:30a5766b03541f1ef07b865d93cf621493aa4201fc0f624c3ff69fffed59c647",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:26affa44ecffc92a35cc3a2f23821de3b3bb7375d2f0189a4d0603a0144dd30d",
+      "sha256-fd-v1:30a5766b03541f1ef07b865d93cf621493aa4201fc0f624c3ff69fffed59c647",
       "sha256-fd-v1:3930366ab4fe5b54efe9b1dbdb4a6ae5bfd0de42419b7ad71c145d4fb51781cd",
       "sha256-fd-v1:4ad23f589525e40e3ae1760f7c1a47e43806aed37e033f7e376e8786af90de26",
-      "sha256-fd-v1:a35b639ea5ab0808321f308d53e5e2408c10f638ba6fc78a746e666e6a25ad51",
       "sha256-fd-v1:e9217fa98f75960d5886d6b409d0faf951ef7367c6e716acf7b701b648dc6430",
       "sha256-fd-v1:edd829b41d9b394b07771e2a6590cc30ca89895f3fb3fd5fa20179b75f4c3865"
      ]
@@ -56844,6 +57324,11 @@
     "sha256-fd-v1:c43d1c6223ab7d53df02c2ac2d8d34f3a2ec024bc769c6d5c4a992561d97dd97",
     "sha256-fd-v1:daf136986791697dd72ddc9373cb0421c0a3b9ced29ca69936b00ce9d1c589a3"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:daf136986791697dd72ddc9373cb0421c0a3b9ced29ca69936b00ce9d1c589a3": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:daf136986791697dd72ddc9373cb0421c0a3b9ced29ca69936b00ce9d1c589a3": {
      "media": [
@@ -56913,6 +57398,11 @@
     "sha256-fd-v1:2112feb36cd30b4a7a943316f7a68ce456e88fa522543b52cf28ecb46d1bcc10",
     "sha256-fd-v1:b1dc077307bae13a2a7d586c536c068ff4d0a5b01c5618727d9aa17252b073c3"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:2112feb36cd30b4a7a943316f7a68ce456e88fa522543b52cf28ecb46d1bcc10": {
+     "clock": 4
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:2112feb36cd30b4a7a943316f7a68ce456e88fa522543b52cf28ecb46d1bcc10": {
      "media": [
@@ -57045,6 +57535,11 @@
    "contentIds": [
     "sha256-fd-v1:87a503ae4f0566eb16bc9f1fc95aaf7c1f4b9f66f2f055a88368d267dbe80e3e"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:87a503ae4f0566eb16bc9f1fc95aaf7c1f4b9f66f2f055a88368d267dbe80e3e": {
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Kaiketsu! Oyabun Man 2 (Doujin - Teioo Soft Club)/Kaiketsu! Oyabun Man 2 [FD].7z"
    ],
@@ -57066,6 +57561,11 @@
     "sha256-fd-v1:c4e50064fa735ba2ba0c60422a23cf6d3482b6a70cc54b3d1bf402234416c14c",
     "sha256-fd-v1:d1e667c672d84eaa0f2ebeca6ee5f873daaf95127b67666597e2fdee784cb5df"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:72f123bbc0c3f5b9662e9936f7813d3392e55200e3c5b11f9ebeaea01dfac73b": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:72f123bbc0c3f5b9662e9936f7813d3392e55200e3c5b11f9ebeaea01dfac73b": {
      "media": [
@@ -57253,6 +57753,11 @@
     "sha256-fd-v1:6743f1b1d4858f4373277da69da90dccba5808f15abd0e2f799275069d11850a",
     "sha256-fd-v1:ee3ed7c867e687ce36b3b0261df9d0859721649cd4313f19825a4833d46a8223"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:6743f1b1d4858f4373277da69da90dccba5808f15abd0e2f799275069d11850a": {
+     "sound": "1"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:6743f1b1d4858f4373277da69da90dccba5808f15abd0e2f799275069d11850a": {
      "media": [
@@ -57404,6 +57909,11 @@
     "sha256-fd-v1:c7931762f343ca8c156a2744ed4c883f2bb2badc40a25085a30fe555b2d20f32",
     "sha256-fd-v1:df2f86abf8c2e91f1ece357e48e94a07ecc067a838046831f07f48e2a07ecf36"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:19a6db546113590ffca95ff74c69d9829620c214214749716a8b71e2ffd5f2a9": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:19a6db546113590ffca95ff74c69d9829620c214214749716a8b71e2ffd5f2a9": {
      "media": [
@@ -57892,6 +58402,14 @@
    "contentIds": [
     "sha256-fd-v1:ebd7169c0b8d52c6244be2296faa59b9911365b30b162ff4755185328936b73e"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:ebd7169c0b8d52c6244be2296faa59b9911365b30b162ff4755185328936b73e": {
+     "commands": [
+      "RUN\"GD2*01.B1\""
+     ],
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Pretty Girl A (Doujin - Dream7)/Pretty Girl A [FD].7z"
    ],
@@ -57987,6 +58505,12 @@
     "sha256-fd-v1:67e2b36a52d4cc97be53bdfc8ed062c53439ff902df9e650da62ffe27d8919ed",
     "sha256-fd-v1:b69575612473e80cfbbb99b5643284e45e72fc3b340359c17693717bb66b09d0"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:1d500cf473120ad5a982015dffd3452f3d2f1a81a5783a3b08570fa884ec65ac": {
+     "basic": "v1s",
+     "clock": 4
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:1d500cf473120ad5a982015dffd3452f3d2f1a81a5783a3b08570fa884ec65ac": {
      "media": [
@@ -58048,6 +58572,11 @@
     "sha256-fd-v1:5346febad7024d2a2948e61a51605764009c9f1fb298b7e4d99a2e8364412e37",
     "sha256-fd-v1:932e562157aed426624c88eb933320da7d8fabf3be78bcaea2d11a1183f98118"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:5346febad7024d2a2948e61a51605764009c9f1fb298b7e4d99a2e8364412e37": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:5346febad7024d2a2948e61a51605764009c9f1fb298b7e4d99a2e8364412e37": {
      "media": [
@@ -58221,6 +58750,13 @@
     "sha256-fd-v1:b54b41e89d43b1d24cdf9cd7ca2e1482f75de35daa7da91da5335791556a9070",
     "sha256-fd-v1:cf69a89ca2a59fa563775f4501448b15e2c4605b0c6ffbe4fd1bf2f08278953e"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:cf69a89ca2a59fa563775f4501448b15e2c4605b0c6ffbe4fd1bf2f08278953e": {
+     "basic": "v1s",
+     "clock": 4,
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:cf69a89ca2a59fa563775f4501448b15e2c4605b0c6ffbe4fd1bf2f08278953e": {
      "media": [
@@ -58480,6 +59016,11 @@
     "sha256-fd-v1:d81fd3d4fbba9cb88541061229b3f2330e85ed430353c09aac90e587f288510d",
     "sha256-fd-v1:e963dec4bfaa981d3a9d47f56849d803a3866a3068d4bcbec6b9ac9a33fa285c"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:191ed2fa5231d38abc2d82a3a6fc65404568cee3400a5200d5f5dac7e8bacf56": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:191ed2fa5231d38abc2d82a3a6fc65404568cee3400a5200d5f5dac7e8bacf56": {
      "media": [
@@ -58662,6 +59203,13 @@
    "contentIds": [
     "sha256-fd-v1:11f1954b06f580110b4ee29376350ae97bc776214159102ecfe601d28656549a"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:11f1954b06f580110b4ee29376350ae97bc776214159102ecfe601d28656549a": {
+     "commands": [
+      "RUN\"MADSTT.M88\""
+     ]
+    }
+   },
    "sourceGroups": [
     "neokobe:Sagamiko Tsuri Taikai (MAD)/Sagamiko Tsuri Taikai [FD].7z"
    ],
@@ -58756,6 +59304,11 @@
    "contentIds": [
     "sha256-fd-v1:5a83b23fdca4ee5485dfe97e9e047f8674b6317023517e1cd120351af541d0f6"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:5a83b23fdca4ee5485dfe97e9e047f8674b6317023517e1cd120351af541d0f6": {
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Rabbit (Doujin - Cat Soft)/Rabbit [FD].7z"
    ],
@@ -58771,6 +59324,11 @@
     "sha256-fd-v1:eeec4c51e8f8f67d67bfbc5b52fe076285bc1f3f1ded425c0e772bb4a2052976",
     "sha256-fd-v1:f2b87ced8171960a25426d087df891e8ac9abce749b51ce65e555472dcdf1d75"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:19ca2ad67428b32905d0b8158b27a71efa4d468d365b7cdb5f0215b762b2bef0": {
+     "sound": "1"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:19ca2ad67428b32905d0b8158b27a71efa4d468d365b7cdb5f0215b762b2bef0": {
      "media": [
@@ -59007,7 +59565,7 @@
    "sourceGroups": [
     "neokobe:Uniform v2.0 (Doujin - Bishoujo Club)/Uniform v2.0 [FD].7z"
    ],
-   "title": "Uniform v2.0"
+   "title": "Uniform"
   },
   "pc88:local-6d82d2cd53": {
    "contentIds": [
@@ -59501,6 +60059,13 @@
    "contentIds": [
     "sha256-fd-v1:2854932015f2e2b4b02dbb259786c26365dfc41bc7284d13a1e6ce7029ebb1d9"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:2854932015f2e2b4b02dbb259786c26365dfc41bc7284d13a1e6ce7029ebb1d9": {
+     "commands": [
+      "RUN\"MADDD.M88\""
+     ]
+    }
+   },
    "sourceGroups": [
     "neokobe:Dark Dungeon (MAD)/Dark Dungeon [FD].7z"
    ],
@@ -59510,6 +60075,14 @@
    "contentIds": [
     "sha256-fd-v1:0be1132640979f48dc5afa1e0607e668ee66cefd832d61a5f9c843cf098e581b"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:0be1132640979f48dc5afa1e0607e668ee66cefd832d61a5f9c843cf098e581b": {
+     "commands": [
+      "RUN\"japan\""
+     ],
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:GulCrisis (Doujin - A-Project & Dream 7)/GulCrisis [FD].7z"
    ],
@@ -59636,6 +60209,11 @@
    "contentIds": [
     "sha256-fd-v1:5d4f54b72b01004ef3c77e6954cbedee8c42f879d0865f1d30eb9443001ade24"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:5d4f54b72b01004ef3c77e6954cbedee8c42f879d0865f1d30eb9443001ade24": {
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Mahoutsukai Tabitha (Doujin)/Mahoutsukai Tabitha [FD].7z"
    ],
@@ -59775,6 +60353,11 @@
    "contentIds": [
     "sha256-fd-v1:4e02b26c6eb49d0e86c777d34ff7236d5517e384bdca0acfb3a8038b65b3c487"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:4e02b26c6eb49d0e86c777d34ff7236d5517e384bdca0acfb3a8038b65b3c487": {
+     "clock": 4
+    }
+   },
    "sourceGroups": [
     "neokobe:Unyoon (Doujin - Koala Soft)/Unyoon [FD].7z"
    ],
@@ -60056,6 +60639,11 @@
     "sha256-fd-v1:38deaf72ec11cd624f23f98bb8bf3aaeabac82bcb7f1eb0e6f78fe07b0937080",
     "sha256-fd-v1:4be79cf2c48bb7aa0097e7c77fdbe37b147c3fd2fbf49dbad3e3553cbad14836"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:4be79cf2c48bb7aa0097e7c77fdbe37b147c3fd2fbf49dbad3e3553cbad14836": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:4be79cf2c48bb7aa0097e7c77fdbe37b147c3fd2fbf49dbad3e3553cbad14836": {
      "media": [
@@ -60162,21 +60750,6 @@
    ],
    "title": "Sorcerian Super Editor"
   },
-  "pc88:local-807cdd4fdc": {
-   "contentIds": [
-    "sha256-fd-v1:1b7df955ddac13c902a571c35bb77b3b66448406360af1844804c43ba751c79b"
-   ],
-   "description": "The forerunner of New Best Nine Baseball, by Hiroyuki Sonobe: manage a Central League team through the pennant race with detailed team data.",
-   "diskMachine": {
-    "sha256-fd-v1:1b7df955ddac13c902a571c35bb77b3b66448406360af1844804c43ba751c79b": {
-     "basic": "v1s"
-    }
-   },
-   "sourceGroups": [
-    "neokobe:Best Nine Baseball (ASCII)/Best Nine Baseball [FD].7z"
-   ],
-   "title": "Best Nine Baseball"
-  },
   "pc88:local-8081d9a7cc": {
    "contentIds": [
     "sha256-fd-v1:e0608184c11ce529dbf5003eb862545998752934fba29f27e20a1bed6b2f6659"
@@ -60272,6 +60845,11 @@
    "contentIds": [
     "sha256-fd-v1:d455edc22921910badfead5c1f193d0e6fdd22b0fb7afa86584dab44e5977877"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:d455edc22921910badfead5c1f193d0e6fdd22b0fb7afa86584dab44e5977877": {
+     "clock": 4
+    }
+   },
    "sourceGroups": [
     "neokobe:Music Floppy 3 (Doujin - Music M)/Music Floppy 3 [FD].7z"
    ],
@@ -60281,6 +60859,11 @@
    "contentIds": [
     "sha256-fd-v1:dcb8a20a988c99898dc3dfc4a5721731acfc3c8d1e9e74ab465010f29a1b0ac9"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:dcb8a20a988c99898dc3dfc4a5721731acfc3c8d1e9e74ab465010f29a1b0ac9": {
+     "sound": "1"
+    }
+   },
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 05 - S.B.2 BASIC Excellents (Doujin - Firecracker)/Firecracker Music Collection Vol. 05 - S.B.2 BASIC Excellents [FD].7z"
    ],
@@ -60698,6 +61281,14 @@
     "sha256-fd-v1:01cdaee43aa2e36a28fe87dfbaecbc0c439bc9f491ea5e9c16b9ae8f33574796",
     "sha256-fd-v1:169ee87971ae12f5d537ffc7c3aecfce2b1c3508395fca03acb469a9a095c305"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:169ee87971ae12f5d537ffc7c3aecfce2b1c3508395fca03acb469a9a095c305": {
+     "commands": [
+      "RUN\"japan\""
+     ],
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:169ee87971ae12f5d537ffc7c3aecfce2b1c3508395fca03acb469a9a095c305": {
      "media": [
@@ -60776,6 +61367,11 @@
     "sha256-fd-v1:7cf2f2da5d25c4515c0b623a24d04777c57f647e17c280ece11ac8dcae230971"
    ],
    "description": "Baseball played as a board game: take your team around the camp, season and other sheets on the dice against five computer teams.",
+   "diskMachine": {
+    "sha256-fd-v1:084b406b172db6609ad03264da09648231c56811e7b619c5f2e051f364c0a971": {
+     "sound": "1"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:084b406b172db6609ad03264da09648231c56811e7b619c5f2e051f364c0a971": {
      "media": [
@@ -60801,7 +61397,8 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:f1698068919ac89cf3402b9742ef6e96041edc6f5e0fb97fd395961796592b98": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "subcpu": "disk"
     }
    },
    "sourceGroups": [
@@ -60825,10 +61422,10 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:00e8368528af78c774a829eff3b5977078fe4aed2038c1841e29e004c921115b": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:4894ed580d74a0945ee5d2b74b88245fe7390915b27f873c6cbc200c223036bd": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "diskSets": {
@@ -60867,23 +61464,11 @@
    ],
    "diskSets": {
     "sha256-fd-v1:a6a1a46d9681af9e3b9ec660f84a134119ad86d394185812e515a465f78cdc2a": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:6144512bffca8454d3e3fc56e8a38cfb31083e046d9e7a9ba0bc08dcbd501ddc",
-       "role": "floppyB"
-      }
-     ],
      "setDisks": [
       "sha256-fd-v1:6144512bffca8454d3e3fc56e8a38cfb31083e046d9e7a9ba0bc08dcbd501ddc"
      ]
     },
     "sha256-fd-v1:f245d80425403af3d04def52cfed8a1f2ff98c2b0a6df4656d21cd7708b15cf0": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:1a64e37fb9f69ea34f9ed2fe3a298453af0809e65d0cbd6f46a36a147c06577a",
-       "role": "floppyB"
-      }
-     ],
      "setDisks": [
       "sha256-fd-v1:1a64e37fb9f69ea34f9ed2fe3a298453af0809e65d0cbd6f46a36a147c06577a",
       "sha256-fd-v1:a6a1a46d9681af9e3b9ec660f84a134119ad86d394185812e515a465f78cdc2a"
@@ -60927,6 +61512,14 @@
    "contentIds": [
     "sha256-fd-v1:94e160a06d088690ae63709095835f7fee7a308d92ec8599507fa5a677bf6c1a"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:94e160a06d088690ae63709095835f7fee7a308d92ec8599507fa5a677bf6c1a": {
+     "commands": [
+      "RUN\"MIE-14.G1\""
+     ],
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Pretty Girl 3 (Doujin - Dream7)/Pretty Girl 3 [FD].7z"
    ],
@@ -60948,6 +61541,11 @@
     "sha256-fd-v1:b394553662170ae3d48d5012eca370a8af1f53c89add31d0afa46c2200f42746",
     "sha256-fd-v1:f30f01e18d04111381ac6734247b96389bb6da25af17abddbfcb1b08a64bef5b"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:5babe95b9c31eb1791622ec80a8a0dce2368b3fa5a1c470ffd0df3c9b8ed3322": {
+     "subcpu": "always"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:5babe95b9c31eb1791622ec80a8a0dce2368b3fa5a1c470ffd0df3c9b8ed3322": {
      "media": [
@@ -61049,6 +61647,11 @@
     "sha256-fd-v1:5d79fb1e046744a2ae9ef9ce9714caf5043c0b49c50fe4469b4829894a159706",
     "sha256-fd-v1:8ad137efc607d8e83a0fc72cf3204843634404d0276343df0a09cd81034877fd"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:8ad137efc607d8e83a0fc72cf3204843634404d0276343df0a09cd81034877fd": {
+     "sound": "1"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:8ad137efc607d8e83a0fc72cf3204843634404d0276343df0a09cd81034877fd": {
      "media": [
@@ -61092,6 +61695,11 @@
     "sha256-fd-v1:a64036766df09e97f42d68f98b125d5c12ec54d8648592aad122557b88d5245b",
     "sha256-fd-v1:ca54763e22348c039f29fb17d28693646873dff16f5c09d4830aed8d3289c4ee"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:a64036766df09e97f42d68f98b125d5c12ec54d8648592aad122557b88d5245b": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:a64036766df09e97f42d68f98b125d5c12ec54d8648592aad122557b88d5245b": {
      "media": [
@@ -61360,6 +61968,14 @@
    "contentIds": [
     "sha256-fd-v1:a5402940673b61279220322e22fb7ea41b7b84f727403ce2f5dad195b0d6f6e9"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:a5402940673b61279220322e22fb7ea41b7b84f727403ce2f5dad195b0d6f6e9": {
+     "commands": [
+      "RUN\"GD2*01.B1\""
+     ],
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Pretty Girl B (Doujin - Dream7)/Pretty Girl B [FD].7z"
    ],
@@ -61790,6 +62406,11 @@
     "sha256-fd-v1:db19c5b2c94f2ab6331d3aa11c8045cc5eaf6cb7f5f933adf69ab7aa4128d4b8"
    ],
    "description": "Tien Gow, the Chinese domino game, in which you bet on which of four hands is strongest, for one player against three set opponents or for four people.",
+   "diskMachine": {
+    "sha256-fd-v1:066952adbaa0eb0bafe091b3b9421f2aab5ef9285187693a92201ec49c4d3ca1": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:066952adbaa0eb0bafe091b3b9421f2aab5ef9285187693a92201ec49c4d3ca1": {
      "media": [
@@ -61824,31 +62445,31 @@
     "sha256-fd-v1:e8fdf08d61a2ebea4e91e7b7200a553e8f2481d9610545b3b35309f121921361"
    ],
    "diskSets": {
-    "sha256-fd-v1:24d817d24107f09190f154546ccf772856e93efbc3c18768368508b80d62d249": {
+    "sha256-fd-v1:26f1083a9f8b9d816fe3b04216da17f1d8e69f515ae70c32308dcc708846d45e": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:e8fdf08d61a2ebea4e91e7b7200a553e8f2481d9610545b3b35309f121921361",
+       "contentId": "sha256-fd-v1:24d817d24107f09190f154546ccf772856e93efbc3c18768368508b80d62d249",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:24506b44c9ef59344e03888bd4de289a2d0803b5eadb27002fd63e152a6f445e",
-      "sha256-fd-v1:26f1083a9f8b9d816fe3b04216da17f1d8e69f515ae70c32308dcc708846d45e",
+      "sha256-fd-v1:24d817d24107f09190f154546ccf772856e93efbc3c18768368508b80d62d249",
       "sha256-fd-v1:91136c1b587467531e8c333d21859de38818b25d52f321e2229a06d02b65c63d",
       "sha256-fd-v1:e8fdf08d61a2ebea4e91e7b7200a553e8f2481d9610545b3b35309f121921361"
      ]
     },
-    "sha256-fd-v1:4dd3ee2f45a39eaa8bfc1362ec7335486ee7933de528f348cfb0d4f91b4236db": {
+    "sha256-fd-v1:902ee6c97dd009e5fa5c944841c5e7ffb49651d3fe5064b05d7f3ec104ab8358": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:c09d9f81161bc6a94a8c0083765dda08a7c4962a1a4c47942cb6cd974aa41701",
+       "contentId": "sha256-fd-v1:4dd3ee2f45a39eaa8bfc1362ec7335486ee7933de528f348cfb0d4f91b4236db",
        "role": "floppyB"
       }
      ],
      "setDisks": [
-      "sha256-fd-v1:24d817d24107f09190f154546ccf772856e93efbc3c18768368508b80d62d249",
+      "sha256-fd-v1:26f1083a9f8b9d816fe3b04216da17f1d8e69f515ae70c32308dcc708846d45e",
       "sha256-fd-v1:27b78943565e1566dc4010f2d8b927cf1829ac30ff08a41ac1ff961989972e40",
-      "sha256-fd-v1:902ee6c97dd009e5fa5c944841c5e7ffb49651d3fe5064b05d7f3ec104ab8358",
+      "sha256-fd-v1:4dd3ee2f45a39eaa8bfc1362ec7335486ee7933de528f348cfb0d4f91b4236db",
       "sha256-fd-v1:c09d9f81161bc6a94a8c0083765dda08a7c4962a1a4c47942cb6cd974aa41701",
       "sha256-fd-v1:e10061bf774d700e4f60f24de4400e16714e7ab15e949ad3ff8373ff9d4973ce",
       "sha256-fd-v1:e26015336f5fad5ba16c46c4e01d47cdd09d2df41216cce59529b6eb45554a49",
@@ -62000,12 +62621,6 @@
    ],
    "diskSets": {
     "sha256-fd-v1:da2ab8128f38826c4d12eac883526d7bbf7c5a1d7bcd118ef85889d4c1641ed4": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:f2ed957e9b9eac0955fc3d356ecc6e3b545b9c27d26923da1af227ff93806bd6",
-       "role": "floppyB"
-      }
-     ],
      "setDisks": [
       "sha256-fd-v1:b187ead0d8d177d2b6954fc7351ca9ec84771d97cbe60cbd09a37227b6f0c7d2",
       "sha256-fd-v1:f2ed957e9b9eac0955fc3d356ecc6e3b545b9c27d26923da1af227ff93806bd6"
@@ -62255,7 +62870,7 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:57a7d3168238ca3d67e28ccc93a303bffe0503d345aac0635990bf39d2f2ebbe": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "sourceGroups": [
@@ -62288,7 +62903,7 @@
    "sourceGroups": [
     "neokobe:Marubatsu DX v1.1 (Doujin - Soft House Indojin)/Marubatsu DX v1.1 [FD].7z"
    ],
-   "title": "Marubatsu DX v1.1"
+   "title": "Marubatsu DX"
   },
   "pc88:local-a021b3be53": {
    "contentIds": [
@@ -62497,6 +63112,11 @@
    "contentIds": [
     "sha256-fd-v1:2290e336e60f9b9fc7add5b7f0f8acd3b6c3a5525a73de296c3ba2a8b77711a5"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:2290e336e60f9b9fc7add5b7f0f8acd3b6c3a5525a73de296c3ba2a8b77711a5": {
+     "clock": 4
+    }
+   },
    "sourceGroups": [
     "neokobe:Yuugai Comics Mondai Pasoket Demonstration (Doujin - Taichiro Kamijo)/Yuugai Comics Mondai Pasoket Demonstration [FD].7z"
    ],
@@ -62834,6 +63454,11 @@
     "sha256-fd-v1:4080d0454c8c0932fb5804b11a70192d3e1a0a92236d8ae07957dd8878bcb19f",
     "sha256-fd-v1:4f7734cb9dda97038397eab9b0b24457d19d17dd61dbf796f4269717041c0994"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:4f7734cb9dda97038397eab9b0b24457d19d17dd61dbf796f4269717041c0994": {
+     "sound": "1"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:4f7734cb9dda97038397eab9b0b24457d19d17dd61dbf796f4269717041c0994": {
      "media": [
@@ -62868,10 +63493,10 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:e794bca6a5474eab99d380e8bc9a9581d5921a7cf6d870ab828f1279da23cdd5": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:e882e2b70119fedb63affff2289a44c66f4e0c3d275352321643e65525bc4190": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "diskSets": {
@@ -62976,16 +63601,16 @@
     }
    },
    "diskSets": {
-    "sha256-fd-v1:611e662ac74246b8bf416953fb81efdbb00d4df6afdcc925d516a3f763045c3a": {
+    "sha256-fd-v1:c09abd51fa862b55039c19b2410de09fd7266eb69bbc50c069b6fb8bfbc98f53": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:4fe6a5f79d79971a92a77ecd45b1bc939099d38af02f9ef613327ff39ff9bc23",
+       "contentId": "sha256-fd-v1:611e662ac74246b8bf416953fb81efdbb00d4df6afdcc925d516a3f763045c3a",
        "role": "floppyB"
       }
      ],
      "setDisks": [
       "sha256-fd-v1:4fe6a5f79d79971a92a77ecd45b1bc939099d38af02f9ef613327ff39ff9bc23",
-      "sha256-fd-v1:c09abd51fa862b55039c19b2410de09fd7266eb69bbc50c069b6fb8bfbc98f53"
+      "sha256-fd-v1:611e662ac74246b8bf416953fb81efdbb00d4df6afdcc925d516a3f763045c3a"
      ]
     }
    },
@@ -62999,6 +63624,11 @@
     "sha256-fd-v1:2d96697fdce842d4a68206dea497bab082ad186ce9c07223cc372de15457bdbc",
     "sha256-fd-v1:ff84b71b1881f24d7d54d99c97561f13963233ef49ba2bfd619a53ddbd58566a"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:2d96697fdce842d4a68206dea497bab082ad186ce9c07223cc372de15457bdbc": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:2d96697fdce842d4a68206dea497bab082ad186ce9c07223cc372de15457bdbc": {
      "media": [
@@ -63062,6 +63692,11 @@
    "contentIds": [
     "sha256-fd-v1:abe61d6b9fedaf4aa3a5709da78ca613def7079d6c8c8ae2f2cd7d3a5fe8193a"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:abe61d6b9fedaf4aa3a5709da78ca613def7079d6c8c8ae2f2cd7d3a5fe8193a": {
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Gaodius III (Master K - LOGiN)/Gaodius III [FD].7z"
    ],
@@ -63123,7 +63758,7 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:6b77d23a1393ec5901ec034101d2dbc21ae0c8a9f71dd98f46635742f1f559be": {
-     "basic": "v1s"
+     "basic": "v2"
     }
    },
    "sourceGroups": [
@@ -63474,7 +64109,8 @@
      "basic": "v1h"
     },
     "sha256-fd-v1:937c8c43ef64142532b1b08127797d6df2e44effb8958d3308dcb48e46d100d0": {
-     "basic": "v1h"
+     "basic": "v1h",
+     "subcpu": "disk"
     },
     "sha256-fd-v1:b639a205bd8c754bf788ac0cc7710b5741e8f2fc1acf8ee6de5ca75f74ed46b7": {
      "basic": "v1h"
@@ -63617,29 +64253,6 @@
     "neokobe:Zeta No. 4 (Dai-4-gou) (Champion Soft)/Zeta No. 4 (Dai-4-gou) [FD].7z"
    ],
    "title": "Zeta No. 4"
-  },
-  "pc88:local-b4bb6e4427": {
-   "contentIds": [
-    "sha256-fd-v1:cc10b4cb1eca267ba882366566f1c7751ed052da2fa102c3ff4b1e367628f438",
-    "sha256-fd-v1:ff520da1c55664de9cb02cd7d8c1bb35c3b1b5404a5f873444c8d6ac561bf824"
-   ],
-   "diskSets": {
-    "sha256-fd-v1:cc10b4cb1eca267ba882366566f1c7751ed052da2fa102c3ff4b1e367628f438": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:ff520da1c55664de9cb02cd7d8c1bb35c3b1b5404a5f873444c8d6ac561bf824",
-       "role": "floppyB"
-      }
-     ],
-     "setDisks": [
-      "sha256-fd-v1:ff520da1c55664de9cb02cd7d8c1bb35c3b1b5404a5f873444c8d6ac561bf824"
-     ]
-    }
-   },
-   "sourceGroups": [
-    "neokobe:Urusei Yatsura (Doujin - Magical System)/Urusei Yatsura [FD].7z"
-   ],
-   "title": "Urusei Yatsura"
   },
   "pc88:local-b4c32896a8": {
    "contentIds": [
@@ -64020,7 +64633,7 @@
      "basic": "v1s"
     },
     "sha256-fd-v1:80199f5d8559913aca38751aeb23d5763c1e33c8725de84b564cdd472aa35afc": {
-     "basic": "v1s"
+     "basic": "v2"
     },
     "sha256-fd-v1:bb9e53b078aefaba4c184c329a1d9908d2c06014504a4e59e162ca83936c2187": {
      "basic": "v1s"
@@ -64399,7 +65012,7 @@
     "sha256-fd-v1:cb02ed27ce314ac2c4538135bd2cf421975812d77e84d3f5119aec882dbfa7d3": {
      "media": [
       {
-       "contentId": "sha256-fd-v1:38f64b9a97863c44e0d285aff5d10ee740eceed2fcd10647ec5cd1be53ffabfc",
+       "contentId": "sha256-fd-v1:121a5d5e47dc574daf975518e6af90a28c34c26cefb5ecbf1fa72cbd81e18a35",
        "role": "floppyB"
       }
      ],
@@ -64525,6 +65138,11 @@
    "contentIds": [
     "sha256-fd-v1:28eba3065f2c849c327d939f1593dfa835cdf0d85095cde6ab9123c402e44e98"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:28eba3065f2c849c327d939f1593dfa835cdf0d85095cde6ab9123c402e44e98": {
+     "clock": 4
+    }
+   },
    "sourceGroups": [
     "neokobe:RST Music Disk Vol. 07 (Doujin - Ryokusui Sound Team)/RST Music Disk Vol. 07 [FD].7z"
    ],
@@ -64600,6 +65218,11 @@
    "contentIds": [
     "sha256-fd-v1:09969ba0a36f14febe46006ba067c16e2314b1cfd5aa35be6ebe7a16f9e0bcc5"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:09969ba0a36f14febe46006ba067c16e2314b1cfd5aa35be6ebe7a16f9e0bcc5": {
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Uniform #4 (Doujin - Bishoujo Club)/Uniform #4 [FD].7z"
    ],
@@ -64709,7 +65332,7 @@
    "diskMachine": {
     "sha256-tape-v1:9710baa174bb4d59ecff0ba6939d56e6c20002c648d9e4b6c17d8afde754fd39": {
      "basic": "v1s",
-     "loader": [
+     "commands": [
       "MON",
       "R",
       "{CTRL-B}",
@@ -64796,6 +65419,11 @@
     "sha256-fd-v1:4748a59a878ed1ed42904b79598b939c764bc387cb302d90f2bc34d361b33673",
     "sha256-fd-v1:a578cb7cba3a0e908d5bf63bed05e46078929b1b6e91bc33f00796272f223d8a"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:a578cb7cba3a0e908d5bf63bed05e46078929b1b6e91bc33f00796272f223d8a": {
+     "clock": 4
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:a578cb7cba3a0e908d5bf63bed05e46078929b1b6e91bc33f00796272f223d8a": {
      "media": [
@@ -64829,6 +65457,14 @@
    "contentIds": [
     "sha256-fd-v1:648596a69aae08561acfcda7ec33e302c98a9a21a5d3d27b139b00ed05e21c6a"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:648596a69aae08561acfcda7ec33e302c98a9a21a5d3d27b139b00ed05e21c6a": {
+     "commands": [
+      "RUN\"GD2*01.B1\""
+     ],
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Pretty Girl C (Doujin - Dream7)/Pretty Girl C [FD].7z"
    ],
@@ -65122,6 +65758,11 @@
    "contentIds": [
     "sha256-fd-v1:a6130c1c7b597f5e1242cd27259f01ec886a85e1ce37dd159da602cec04e36d0"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:a6130c1c7b597f5e1242cd27259f01ec886a85e1ce37dd159da602cec04e36d0": {
+     "sound": "1"
+    }
+   },
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 04 - First Contact with S.B.2 (Doujin - Firecracker)/Firecracker Music Collection Vol. 04 - First Contact with S.B.2 [FD].7z"
    ],
@@ -65133,6 +65774,11 @@
     "sha256-fd-v1:56eb3c42e923da3ee4af789a3e2949a5bd88362b73bc34f6c344a9aa4c5fce40"
    ],
    "description": "An extra scenario for Duel: the battle of Kawanakajima, as Takeda or Uesugi, with unit levels, arrow damage and dodging, ninja fireballs and an automatic battle option.",
+   "diskMachine": {
+    "sha256-fd-v1:4129afd5d28f7a90d1d09702d30a4bbad6888a1847bd1eb6eaf039be82d78cda": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:4129afd5d28f7a90d1d09702d30a4bbad6888a1847bd1eb6eaf039be82d78cda": {
      "media": [
@@ -65393,6 +66039,11 @@
     "sha256-fd-v1:04b4cc47da7ffbc4eddf7b4faf3ecfb492490e38bed5b230dad8def0a51f55a4",
     "sha256-fd-v1:9c99b25adba0c920d56a4855d10a5b95d1cc2786ac26f462c3883f82fb12c732"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:9c99b25adba0c920d56a4855d10a5b95d1cc2786ac26f462c3883f82fb12c732": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:9c99b25adba0c920d56a4855d10a5b95d1cc2786ac26f462c3883f82fb12c732": {
      "media": [
@@ -65425,6 +66076,13 @@
     "sha256-fd-v1:300dd07a166e2468ebac8be9ff5d543a058ec16ad401ce4705f6051b0c7e906a",
     "sha256-fd-v1:c9ebf1cfcb3b0f5db51c21ee12860edb216062c9f3d6e34b4e22f4401204e929"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:300dd07a166e2468ebac8be9ff5d543a058ec16ad401ce4705f6051b0c7e906a": {
+     "commands": [
+      "RUN\"TITLE.PIC\""
+     ]
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:300dd07a166e2468ebac8be9ff5d543a058ec16ad401ce4705f6051b0c7e906a": {
      "media": [
@@ -65782,7 +66440,7 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:de437a85da8a16f243b59c3476ce93b0aeb6ea680f30da85ddb5a37ee4e84b5d": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "sourceGroups": [
@@ -66140,6 +66798,11 @@
    "contentIds": [
     "sha256-fd-v1:9154a0fc67d6a449d866ba44d9439c3f1fb1bb9030a5cf3f46c8d41db86fa449"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:9154a0fc67d6a449d866ba44d9439c3f1fb1bb9030a5cf3f46c8d41db86fa449": {
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Hoehoe Team 199X Music Disk Vol. 1 - Explosion (Doujin - Hoehoe Team 199X)/Hoehoe Team 199X Music Disk Vol. 1 - Explosion [FD].7z"
    ],
@@ -66214,22 +66877,22 @@
    ],
    "diskMachine": {
     "sha256-fd-v1:2fa7a646352553e8ad8bbf9ceb66861906daa12270175397822f1718d29ba73b": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:3c7f2fee51de6af4f21f5f6e2fd39a57f426bbbabd264dff2c1a79bf98177af7": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:3f8718baed03c8348b82f1b11756ddfd47197c554b5f8644cdfcc24a4488e9db": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:b43bc68dd1e38be72c2aec3e8ba4d600a49f52a93fd58a356295f281b722ecc4": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:de934f53ea829592a8111bdf617f98ca9f33966961bdc29f22c0f6d75f90751a": {
-     "clock": "4"
+     "clock": 4
     },
     "sha256-fd-v1:e6cee38ba9f2704d96dad5c8548bc1716170ce0049534342d01cb28f09a4a689": {
-     "clock": "4"
+     "clock": 4
     }
    },
    "diskSets": {
@@ -66378,6 +67041,12 @@
     "sha256-fd-v1:13d47685d4dfd3bde516ce5a1cd982d6526487e5192bf6b24411fe4d5a442ca7",
     "sha256-fd-v1:380651d09686bfdae016c84aa19b020b17840319ff7f9999c384f07d19747d7c"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:13d47685d4dfd3bde516ce5a1cd982d6526487e5192bf6b24411fe4d5a442ca7": {
+     "clock": 4,
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:13d47685d4dfd3bde516ce5a1cd982d6526487e5192bf6b24411fe4d5a442ca7": {
      "media": [
@@ -66592,6 +67261,11 @@
     "sha256-fd-v1:5119cd07250892c2a326472f9e54d4d7167062ba840dc94aa5594034ce7ba261",
     "sha256-fd-v1:5bc3aa8979f033c5b37c7b2acf6bd3ccf2c95ab67f59cac4ed24c0afa3313e3a"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:2d77734506ac6c6093839cd480f77f1691c547d6d5ef4bbca11885a0c0f07150": {
+     "subcpu": "always"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:2d77734506ac6c6093839cd480f77f1691c547d6d5ef4bbca11885a0c0f07150": {
      "setDisks": [
@@ -67055,6 +67729,11 @@
    "contentIds": [
     "sha256-fd-v1:5f3932111b48f035f521a71c7998430e7e4ac8e91810e39df890a58d2c21ef02"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:5f3932111b48f035f521a71c7998430e7e4ac8e91810e39df890a58d2c21ef02": {
+     "clock": 4
+    }
+   },
    "sourceGroups": [
     "neokobe:Music Floppy Vol. 2 (Doujin - Zeal Soft)/Music Floppy Vol. 2 [FD].7z"
    ],
@@ -67101,12 +67780,6 @@
    },
    "diskSets": {
     "sha256-fd-v1:db888df6526d1f99c5435776351d6873b399e4f64000fa724fa6652c4b0c15bb": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:84dded3ab1e518c911032f6e52e508f600efcc4c9b5d176a5d9d152e93d6831e",
-       "role": "floppyB"
-      }
-     ],
      "setDisks": [
       "sha256-fd-v1:31430aff866d9cf1df5a158e30951dd3618bf7e566b160bf1c8a0143bb8c690a",
       "sha256-fd-v1:7d0095babcd7015a4510fa3c44a840530c3ee41e70f51f6cfd0ea2c9e9cdf1f3",
@@ -67189,7 +67862,7 @@
    "sourceGroups": [
     "neokobe:[Utility] JET-8801A V2 (Carry lab)/[Utility] JET-8801A V2 [FD].7z"
    ],
-   "title": "JET-8801A V2"
+   "title": "JET-8801A"
   },
   "pc88:local-f2591e2aa9": {
    "contentIds": [
@@ -67275,6 +67948,13 @@
    "contentIds": [
     "sha256-fd-v1:3b4366387dc31a9e4dbecb174742a9233e10f51b4e464455ff1f8cdc6cd272e9"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:3b4366387dc31a9e4dbecb174742a9233e10f51b4e464455ff1f8cdc6cd272e9": {
+     "commands": [
+      "RUN\"MENU\""
+     ]
+    }
+   },
    "sourceGroups": [
     "neokobe:Dungeon Manjiro (LOGiN)/Dungeon Manjiro [FD] [b].7z"
    ],
@@ -67334,12 +68014,6 @@
    ],
    "diskSets": {
     "sha256-fd-v1:1924b33d9e9898b92f3c820a9793155bac5444f4459a57f0790424b8a31bd31d": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:23a08b61055280dd45d6e6480f1bf30540125c82a5c644674a292325d5e99172",
-       "role": "floppyB"
-      }
-     ],
      "setDisks": [
       "sha256-fd-v1:23a08b61055280dd45d6e6480f1bf30540125c82a5c644674a292325d5e99172",
       "sha256-fd-v1:698797309d745a0eee7748f7cf69d8be73a5c7f62adc46f5638344c4a5d671c8",
@@ -67448,6 +68122,11 @@
    "contentIds": [
     "sha256-fd-v1:fce7abb5547cd7899bf8473c12aa29e5b3a51e903c0cd8c420612c58d563e831"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:fce7abb5547cd7899bf8473c12aa29e5b3a51e903c0cd8c420612c58d563e831": {
+     "subcpu": "disk"
+    }
+   },
    "sourceGroups": [
     "neokobe:Attacker Vanguard (Doujin - Youcan Soft)/Attacker Vanguard [FD].7z"
    ],
@@ -67513,7 +68192,8 @@
    "description": "A memory game: memorize a nine-digit code and key in the digits asked for.",
    "diskMachine": {
     "sha256-fd-v1:5e599d53b47dfb1455aac141801d4aaa8351bff0adeebe874912df14fc8a66d9": {
-     "basic": "v1s"
+     "basic": "v1s",
+     "clock": 4
     },
     "sha256-fd-v1:7ff6db3ba3de91fe1ab1c5f3f5f2b7ede93413144533ea6a38b9f01ac388ff46": {
      "basic": "v1s"
@@ -67661,6 +68341,11 @@
     "sha256-fd-v1:f10874fbae6b6aebc683100e1647d6153928ba7076a5b35dee67f6008f613551",
     "sha256-fd-v1:fd09d1b7d516a1d16000453b02d589e5b2f14febdfe9bd4d318a1191164cb9d4"
    ],
+   "diskMachine": {
+    "sha256-fd-v1:96b498d8c9edd5a9dd4ae8970b76899a1c9aee62edc88dee168984a29cc85c01": {
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:8047929d4332e29aae63f1fd2a101a403ec6e378d71fe0b8acf951b9fbad64de": {
      "setDisks": [
@@ -67675,12 +68360,6 @@
      ]
     },
     "sha256-fd-v1:cf76bfdcc2bcd20dd36206ef5423c93392556f8cf42b6c4cf58e0810fe6a7b96": {
-     "media": [
-      {
-       "contentId": "sha256-fd-v1:0387dfb1893ee6705494617de0f5d279157ec52b066e2b6ae703cc0a400295f6",
-       "role": "floppyB"
-      }
-     ],
      "setDisks": [
       "sha256-fd-v1:0387dfb1893ee6705494617de0f5d279157ec52b066e2b6ae703cc0a400295f6",
       "sha256-fd-v1:03ae906be77d554ec202585a454fcc9c50369435b94f2a21be26a5210b8e9fed",
@@ -68692,8 +69371,19 @@
     "preview": "art/catalog/moby/258803/screenshot-094d18e70095.webp",
     "previewUrl": "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/moby/258803/screenshot-094d18e70095.webp"
    },
-   "description": "A baseball management game: run a professional team.",
+   "contentIds": [
+    "sha256-fd-v1:1b7df955ddac13c902a571c35bb77b3b66448406360af1844804c43ba751c79b"
+   ],
+   "description": "The forerunner of New Best Nine Baseball, by Hiroyuki Sonobe: manage a Central League team through the pennant race with detailed team data.",
+   "diskMachine": {
+    "sha256-fd-v1:1b7df955ddac13c902a571c35bb77b3b66448406360af1844804c43ba751c79b": {
+     "basic": "v1s"
+    }
+   },
    "mobygames": 258803,
+   "sourceGroups": [
+    "neokobe:Best Nine Baseball (ASCII)/Best Nine Baseball [FD].7z"
+   ],
    "title": "Best Nine Pro Yakyū",
    "year": 1985
   },
@@ -69049,6 +69739,12 @@
     "sha256-fd-v1:2ce1f58badcb8c43b5740274164177526f95665a47091a5d48bb3ef28e2b4caf"
    ],
    "description": "A fantasy adventure: a book written years ago holds clues to an enormous lost treasure.",
+   "diskMachine": {
+    "sha256-fd-v1:07922a7d1ae94dba230fb28499b9888e57628349381edda2b3fca6d41710cf46": {
+     "clock": 4,
+     "subcpu": "disk"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:07922a7d1ae94dba230fb28499b9888e57628349381edda2b3fca6d41710cf46": {
      "media": [
@@ -69079,6 +69775,11 @@
     "sha256-fd-v1:b8329107bb73c1eab0116a89d6e763970aeed391c3f5eb0b92a6e513a7ad1527"
    ],
    "description": "A short adventure starring Celica, a high school student.",
+   "diskMachine": {
+    "sha256-fd-v1:b8329107bb73c1eab0116a89d6e763970aeed391c3f5eb0b92a6e513a7ad1527": {
+     "sound": "1"
+    }
+   },
    "diskSets": {
     "sha256-fd-v1:b8329107bb73c1eab0116a89d6e763970aeed391c3f5eb0b92a6e513a7ad1527": {
      "media": [

@@ -1,0 +1,1282 @@
+{
+ "schemaVersion": 1,
+ "fixes": {
+  "sha256-fd-v1:00f9c5e6220c79734620f23ff13d21093cfe4f99b2c696774a0489746eec09bc": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Sammy Lightfoot {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:0421a751465853a81e81dce0f13284463b0b754e455edafb56e729ec10edc709": {
+   "pass": "p17-sound1",
+   "disk": "Crystal Dream 2 (Disk A).d88",
+   "settings": {
+    "sound": "1"
+   }
+  },
+  "sha256-fd-v1:046702eefeb38d082e1f124436f9c6bcf0b1aeebed90fea9eeb18bab9e951871": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Ayumi (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:066952adbaa0eb0bafe091b3b9421f2aab5ef9285187693a92201ec49c4d3ca1": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Tien Gow Pai (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:06844dc4f9a35896de7e9ccdf0f7f237993b871927dbb14773613030ed167a23": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Nankai no Hyouteki {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:07922a7d1ae94dba230fb28499b9888e57628349381edda2b3fca6d41710cf46": {
+   "pass": "p15-4mhz-subcpu-disk",
+   "disk": "Alseides - Ushinawareta Zaihou (Disk A).d88",
+   "settings": {
+    "clock": 4,
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:083aa4c553d201a8e0589d65177514555364479932845b369041c32b3c2e2712": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Last Armageddon (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:084b406b172db6609ad03264da09648231c56811e7b619c5f2e051f364c0a971": {
+   "pass": "p17-sound1",
+   "disk": "Sugoroku Yakyuudou (Disk 1).d88",
+   "settings": {
+    "sound": "1"
+   }
+  },
+  "sha256-fd-v1:093602d7229ea7845acb1f11895b462487a18725fdda5ac7fea7446dde33dbaa": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Twilight Zone Tokubetsu-hen (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:09969ba0a36f14febe46006ba067c16e2314b1cfd5aa35be6ebe7a16f9e0bcc5": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Uniform #4.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:0a0296c34d853f1c024dd28349f184cfe07e27acbe721a7c0fd59c9ae7adee74": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Y-Type Special.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:0ac422df49587daedfc2f4c04e3d0961faeef30cc193aeedc7175d18cb18bd0c": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Skyscraper {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:0be1132640979f48dc5afa1e0607e668ee66cefd832d61a5f9c843cf098e581b": {
+   "pass": "p23-type-dir-subcpu-disk",
+   "disk": "GulCrisis.d88",
+   "settings": {
+    "subcpu": "disk",
+    "commands": [
+     "RUN\"japan\""
+    ]
+   }
+  },
+  "sha256-fd-v1:10282037a945cfcb03fb24249b4e87121ad4c58f3639819e6d2e74187ccbf2d4": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Pinball Construction Set {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:11f1954b06f580110b4ee29376350ae97bc776214159102ecfe601d28656549a": {
+   "pass": "p05-type",
+   "disk": "Sagamiko Tsuri Taikai {RUN MADSTT.M88}.d88",
+   "settings": {
+    "commands": [
+     "RUN\"MADSTT.M88\""
+    ]
+   }
+  },
+  "sha256-fd-v1:1307a45074274f710a66f2f1fd2313b8291f78faa9f853ac4024509c72d97f98": {
+   "pass": "p11-4mhz",
+   "disk": "Motoko-hime Adventure {V1 mode}.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:13d47685d4dfd3bde516ce5a1cd982d6526487e5192bf6b24411fe4d5a442ca7": {
+   "pass": "p15-4mhz-subcpu-disk",
+   "disk": "Panic in St. Foulee Gakuen (Disk A).d88",
+   "settings": {
+    "clock": 4,
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:158dbdbc7898ccd31060f0234a1dc620e6361bc840b725d2c4aba74198b4d2f7": {
+   "pass": "p11-4mhz",
+   "disk": "American Success.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:169ee87971ae12f5d537ffc7c3aecfce2b1c3508395fca03acb469a9a095c305": {
+   "pass": "p23-type-dir-subcpu-disk",
+   "disk": "GunCrisis (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk",
+    "commands": [
+     "RUN\"japan\""
+    ]
+   }
+  },
+  "sha256-fd-v1:17c15b3cb30a771715fcac038af521cc6650e85bb62539c9781beb15682009f4": {
+   "pass": "p10-n",
+   "disk": "Necropolis - Maisou Toshi (Disk 1).d88",
+   "settings": {
+    "basic": "n"
+   }
+  },
+  "sha256-fd-v1:191ed2fa5231d38abc2d82a3a6fc65404568cee3400a5200d5f5dac7e8bacf56": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Yokosuka Wars (Disk A - Editor).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:1938e36f1cf62c6b55c747e669f12310381987cb98f40bc82d3d31758c30a1d7": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Fire Hawk - Thexder 2 (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:19a6db546113590ffca95ff74c69d9829620c214214749716a8b71e2ffd5f2a9": {
+   "pass": "p02-subcpu-disk",
+   "disk": "D.K. (Dragon Knights) (Disk 1 - Opening 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:19ca2ad67428b32905d0b8158b27a71efa4d468d365b7cdb5f0215b762b2bef0": {
+   "pass": "p17-sound1",
+   "disk": "Nouten Chokugeki II (Disk A).d88",
+   "settings": {
+    "sound": "1"
+   }
+  },
+  "sha256-fd-v1:1a878a984d0a9b267e8350532fe3cdc83cfc40c1ecea5533e6a71af962e56dd1": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Snatcher (System disk).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:1b08acbb913c6132b9d7e1cf10d2c1e5862141fc0bc67edf352a0fb695f66230": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Crisis Mountain {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:1c701911815451f662c3288739d38c4894630a426d7bc7d1a588e4a169fdb943": {
+   "pass": "p11-4mhz",
+   "disk": "Gruppe [bad sectors] {V1 mode}.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:1c924084298de740207da1ae00f1e5d8dd7629efa35518837d360f4e84e68ef0": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Trilogy (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:1d500cf473120ad5a982015dffd3452f3d2f1a81a5783a3b08570fa884ec65ac": {
+   "pass": "p18-v1s-4mhz",
+   "disk": "Beed (Disk 1).d88",
+   "settings": {
+    "basic": "v1s",
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:1e64889ce00580afddf2740e43745020a01d74e9660531dbb4ee8c0a9815a0a3": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Haja Taisei Dangaioh (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:1f15a70d989d0aed6483d6db6b2ed8ec3232b35ac8bc474659fa9ba706d3ef56": {
+   "pass": "p08-v1h",
+   "disk": "A.E. {V1 mode}.d88",
+   "settings": {
+    "basic": "v1h"
+   }
+  },
+  "sha256-fd-v1:2112feb36cd30b4a7a943316f7a68ce456e88fa522543b52cf28ecb46d1bcc10": {
+   "pass": "p11-4mhz",
+   "disk": "Discard (Disk A).d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:21b723f7baa75a76dbdd9445e44841685c8224f5cec096da29aa7ef96175b626": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Mabel's Mansion {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:2290e336e60f9b9fc7add5b7f0f8acd3b6c3a5525a73de296c3ba2a8b77711a5": {
+   "pass": "p11-4mhz",
+   "disk": "Yuugai Comics Mondai Pasoket Demonstration.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:2749da01bace71d840231b013eb6f3132e083d7fd5316c3e4166117eb38cb98f": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Miko to Akemi no Jungle Adventure (Disk 1) {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:27cd120e6274ff799517ee09a60b85bc7e45bc4d10a25179df11b3f8ffc18b09": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Gutchan Bank.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:2854932015f2e2b4b02dbb259786c26365dfc41bc7284d13a1e6ce7029ebb1d9": {
+   "pass": "p05-type",
+   "disk": "Dark Dungeon {RUN MADDD.M88}.d88",
+   "settings": {
+    "commands": [
+     "RUN\"MADDD.M88\""
+    ]
+   }
+  },
+  "sha256-fd-v1:28eba3065f2c849c327d939f1593dfa835cdf0d85095cde6ab9123c402e44e98": {
+   "pass": "p11-4mhz",
+   "disk": "RST Music Disk Vol. 07.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:2b9054a246ad7c55b2b41e75963f74228d69110c84487055912dc671347c1a70": {
+   "pass": "p11-4mhz",
+   "disk": "Shocking Crossword (Disk A).d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:2d77734506ac6c6093839cd480f77f1691c547d6d5ef4bbca11885a0c0f07150": {
+   "pass": "p16-subcpu-always",
+   "disk": "CMD Puzzle (v3.0).d88",
+   "settings": {
+    "subcpu": "always"
+   }
+  },
+  "sha256-fd-v1:2d96697fdce842d4a68206dea497bab082ad186ce9c07223cc372de15457bdbc": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Kimochi Disk 2 - Dance (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:2e81ebf98425fbe036be7d0ab564c09ea7844e4fe4cfdf8ae914b977ccbfa52b": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Carigraph Construction (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:300dd07a166e2468ebac8be9ff5d543a058ec16ad401ce4705f6051b0c7e906a": {
+   "pass": "p22-type-dir",
+   "disk": "Scrap (Disk A).d88",
+   "settings": {
+    "commands": [
+     "RUN\"TITLE.PIC\""
+    ]
+   }
+  },
+  "sha256-fd-v1:3120b29b0f61bd35395c48404348730688425904b7b2bf45ff476a22ec7c5b35": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Salamander II.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:31f3d7ccc2a8d114834d645d9399e55520e873cddc1811bafe18ca7ccb18d3fa": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Metal Orange (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:3283e6999e3a8370e033bbd08aa03c0167f7c3c2ee47cd3543471fed6d4765c1": {
+   "pass": "p07-v1s",
+   "disk": "Spy Daisakusen.d88",
+   "settings": {
+    "basic": "v1s"
+   }
+  },
+  "sha256-fd-v1:33ab1e05c7755dc031c9d2122cd1282fc9bafea8b26f6bdffbc06071f6fdeb93": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Gambler Jikochuushinha.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:3670241e8783b9d83db22a48245aae9aab94a24007a57364a1db58833564adc4": {
+   "pass": "p11-4mhz",
+   "disk": "Kuroneko-sou Souzoku Satsujin Jiken {V1 mode}.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:37351dedc2c3ab671416aa5dfea743c30df20742bac62101d32eda2d4b4d9ad1": {
+   "pass": "p05-type",
+   "disk": "Yamase {RUN MAD1.M88, RUN MAD2.M88}.d88",
+   "settings": {
+    "commands": [
+     "RUN\"MAD1.M88\"",
+     "RUN\"MAD2.M88\""
+    ]
+   }
+  },
+  "sha256-fd-v1:379fc3116d705ae1a7b7b420c18817b155a95557395dceee73405eaad7d0ec68": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Muku no Yuubinyasan.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:39415c8b4b1aabad27b6f6ef83e9957b9312f017dee595074489dae9c722d1a1": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Wizardry IV (Master disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:3b4366387dc31a9e4dbecb174742a9233e10f51b4e464455ff1f8cdc6cd272e9": {
+   "pass": "p05-type",
+   "disk": "Dungeon Manjiro [bad sectors] {RUN MENU}.d88",
+   "settings": {
+    "commands": [
+     "RUN\"MENU\""
+    ]
+   }
+  },
+  "sha256-fd-v1:3b74e64d4d1b36437cd9a9c02c1535687c1f6c17f2a3736eee556c824424315e": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Fruit Cocktail (Game disk).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:3bec51849359ec9f7c08334e714b32622c0679c1292e3672f459c7d6b0c74558": {
+   "pass": "p15-4mhz-subcpu-disk",
+   "disk": "Nukenin Densetsu (Opening disk).d88",
+   "settings": {
+    "clock": 4,
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:3da05a15940981efdb9b6c30149f3e9474d7b284889fd4fe5504f9a6ff82c0bb": {
+   "pass": "p16-subcpu-always",
+   "disk": "Lupin Sansei - Babylon no Ougon Densetsu (Disk 1).d88",
+   "settings": {
+    "subcpu": "always"
+   }
+  },
+  "sha256-fd-v1:3ebac434f5df513401969d5f1d3d3fce4ed99affe0a9b231860a9a905dd4a1c8": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Fushigi no Kuni Gekijou (Ihoujin no Maki).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:40c82ca413faad41ae1d9d9732c1b3bf470cbbf9f67677fffb7635fb632f61a2": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Witches of Barbatus (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:4129afd5d28f7a90d1d09702d30a4bbad6888a1847bd1eb6eaf039be82d78cda": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Duel Kawanakajima (Character disk).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:4221f50b7fa0a93ccb3b6159f511a037886ad13472b703cab8de1b6fb5ce8a1a": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Pachicom.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:42806f5754b2e3d6e707838b2744bb1fc695a2f0216ffad087f619d6cd0f0691": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Senjou no Ookami.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:481f228fdd9e4154dbc2f507e1413006cee175adf9e8fcfbbf299d652c105a89": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Wedding Rhapsody (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:48a0a6eb63efa9a25013c24b3dc7463380ece8723b91e9c466c37f5defd3baec": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Yami no Iyo Densetsu (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:4b1f9bc51b35d4cef98346c51a9d4ee5fc7addd8db9f0eb65eeee68706dfcf91": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Zeliard (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:4be79cf2c48bb7aa0097e7c77fdbe37b147c3fd2fbf49dbad3e3553cbad14836": {
+   "pass": "p02-subcpu-disk",
+   "disk": "RST Music Disk Vol. 12 (Disk 1 - System).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:4e02b26c6eb49d0e86c777d34ff7236d5517e384bdca0acfb3a8038b65b3c487": {
+   "pass": "p11-4mhz",
+   "disk": "Unyoon.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:4f7734cb9dda97038397eab9b0b24457d19d17dd61dbf796f4269717041c0994": {
+   "pass": "p17-sound1",
+   "disk": "Sushi to Cha Densetsu (Disk A).d88",
+   "settings": {
+    "sound": "1"
+   }
+  },
+  "sha256-fd-v1:5346febad7024d2a2948e61a51605764009c9f1fb298b7e4d99a2e8364412e37": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Time Travel from 25XX Part 2 (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:53acc3ac4de45ef63534d9e6aa05cc64b4844da3e75c8ec10a0e3fb09e0f0c80": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Aztec {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:56db7c4b888b3ece94e14fd719c7afaee7b2c3831c0cd72e69c73f66966ab0b7": {
+   "pass": "p07-v1s",
+   "disk": "Tennyo Densetsu (Disk 1).d88",
+   "settings": {
+    "basic": "v1s"
+   }
+  },
+  "sha256-fd-v1:572c3d1bd726e03e787b7f8219dba09f6ff89d5d82bb40dc2c736364d97e9b44": {
+   "pass": "p17-sound1",
+   "disk": "Soapland Story II - Memory (Disk A).d88",
+   "settings": {
+    "sound": "1"
+   }
+  },
+  "sha256-fd-v1:5a33520a888baa0022ec7ae227945b04becc72f506ac19b0d7f943713a87ec2f": {
+   "pass": "p11-4mhz",
+   "disk": "Lightning Vaccuse - The Knight of Iron (Disk 1).d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:5a83b23fdca4ee5485dfe97e9e047f8674b6317023517e1cd120351af541d0f6": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Rabbit.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:5babe95b9c31eb1791622ec80a8a0dce2368b3fa5a1c470ffd0df3c9b8ed3322": {
+   "pass": "p16-subcpu-always",
+   "disk": "Socian (Disk 1 - Higashi).d88",
+   "settings": {
+    "subcpu": "always"
+   }
+  },
+  "sha256-fd-v1:5c96e59bf855d59c2cf4d730b513b57625e5670f9e1d219d26fc9bffad2b2fc2": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Pension Story - Hana no Kiyosato (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:5d4f54b72b01004ef3c77e6954cbedee8c42f879d0865f1d30eb9443001ade24": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Mahoutsukai Tabitha.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:5e599d53b47dfb1455aac141801d4aaa8351bff0adeebe874912df14fc8a66d9": {
+   "pass": "p11-4mhz",
+   "disk": "Platonic Love (Disk 1) {V1 mode}.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:5f3932111b48f035f521a71c7998430e7e4ac8e91810e39df890a58d2c21ef02": {
+   "pass": "p11-4mhz",
+   "disk": "Music Floppy Vol. 2.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:6041be041488c69adecacbdca1abb78022107c5328f60d82ea5f07e1ddca5784": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Providence (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:63b8e7c0b4e48d7b527b38dfa184eaff925e5a79c5ca96ea3b9b50cb98c02fa3": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Makai Fukkatsu (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:648596a69aae08561acfcda7ec33e302c98a9a21a5d3d27b139b00ed05e21c6a": {
+   "pass": "p23-type-dir-subcpu-disk",
+   "disk": "Pretty Girl C.d88",
+   "settings": {
+    "subcpu": "disk",
+    "commands": [
+     "RUN\"GD2*01.B1\""
+    ]
+   }
+  },
+  "sha256-fd-v1:6743f1b1d4858f4373277da69da90dccba5808f15abd0e2f799275069d11850a": {
+   "pass": "p17-sound1",
+   "disk": "Final Funtasy (Disk A).d88",
+   "settings": {
+    "sound": "1"
+   }
+  },
+  "sha256-fd-v1:689563bad373e3e659ca01fe0fa1691ff74c6768150f33818f4c42cffe5954cf": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Kaleidoscope (Loader disk) {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:6999d3ab215bacdd6eaecbc2f96782a70c0c1bde0fcf04292154f63ed16fc604": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Wizardry V (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:6b77d23a1393ec5901ec034101d2dbc21ae0c8a9f71dd98f46635742f1f559be": {
+   "pass": "p09-v2",
+   "disk": "Two Jewels in the Dungeon - The Lunar Sword II {V1 mode}.d88",
+   "settings": {
+    "basic": "v2"
+   }
+  },
+  "sha256-fd-v1:6c4c56efd226b78ace6d1da505b9d5b3f729ea1bbe6669ab51227f5bd1c7ae6c": {
+   "pass": "p15-4mhz-subcpu-disk",
+   "disk": "Tanteidan X Bangaihen - Fushigi na Kanzume.d88",
+   "settings": {
+    "clock": 4,
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:6cad04345bb80865b740d6b2bda7d7a20a234dfb058ac2ce97068b4f262f946f": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Gambler Jikochuushinha 3 (Game disk).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:6d7ef7a8ae4a0652c7b1d3c2128d017b0b0f0a700d6a533499ebebd7f9aa20ed": {
+   "pass": "p22-type-dir",
+   "disk": "Sadistic Gamers 2 (Disk A).d88",
+   "settings": {
+    "commands": [
+     "RUN\"No 22.pc3\""
+    ]
+   }
+  },
+  "sha256-fd-v1:6e430b3c2a849b62ca0d0919068c73ec74d60181ccdb45d6f3a206a2a0b93bde": {
+   "pass": "p23-type-dir-subcpu-disk",
+   "disk": "Labyrinth (Dream7) (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk",
+    "commands": [
+     "RUN\"GD2*06.B1\""
+    ]
+   }
+  },
+  "sha256-fd-v1:7141b87c31c0bb8334d0706798b9c37c5dbed3da2cd086944300ac3d37f9f261": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Shutendoji (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:7227b8cb48eda2b9baea5f1db5a5a01206109b5883532a7d95b9f2a60ab69f5a": {
+   "pass": "p07-v1s",
+   "disk": "Paladin.d88",
+   "settings": {
+    "basic": "v1s"
+   }
+  },
+  "sha256-fd-v1:72f123bbc0c3f5b9662e9936f7813d3392e55200e3c5b11f9ebeaea01dfac73b": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Time Travel from 25XX (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:74041a6c24394ef2ca588ec08a387a0b355b3c19e7dd4142027d4c6e1b0b4260": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Drol.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:74dad62ff5fac8185221677fc4f13f8495c8b47bf3debc8324d457569baf1ab7": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Tetris (Noripy).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:7aa7e841ea843cb2ac81501ccc7be43952fd85a340e5caa48d9682100281757b": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Ultima II (Pony Canyon) (Disk 1 - System).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:80175d5d7a468715ea50b1ec4cfc1f662db9957c0405efdf34c8f2b5fe4abd52": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Tokuichi Tiger.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:80199f5d8559913aca38751aeb23d5763c1e33c8725de84b564cdd472aa35afc": {
+   "pass": "p09-v2",
+   "disk": "Sayoko Fantasy Adventure {V1 mode}.d88",
+   "settings": {
+    "basic": "v2"
+   }
+  },
+  "sha256-fd-v1:824fed2d7377de2bb82b0ef8bcd47f1be8ab65483d644e2f9e5a7f58e6ace267": {
+   "pass": "p02-subcpu-disk",
+   "disk": "King Breeder (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:840a7119d8d5add8a7a38440dd5cdfb4daa9946f1a9da423cf42145d41ecde2d": {
+   "pass": "p11-4mhz",
+   "disk": "Produce.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:86b5585752d1ff527049f128dd80fc3105a9366acf8af9429cf2755d7d4d0f92": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Ryukyu (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:87a503ae4f0566eb16bc9f1fc95aaf7c1f4b9f66f2f055a88368d267dbe80e3e": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Kaiketsu! Oyabun Man 2.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:8a786a012dbd0f2f2a2fcd9817398c570d31b3cb0f76c725c606d14ed149a65b": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Chack'n Pop {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:8ad137efc607d8e83a0fc72cf3204843634404d0276343df0a09cd81034877fd": {
+   "pass": "p17-sound1",
+   "disk": "Duet (Disk A).d88",
+   "settings": {
+    "sound": "1"
+   }
+  },
+  "sha256-fd-v1:8dadd621f1642bcdde7f29981b72535f4e1fbd7f6ff99754a1bd62fd841b1356": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Cuby Panic.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:8f080a4a703e3265b51eeed6969b0fea36cba390198811582ba29fec1769ef94": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Morita Kazurou no Shougi.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:8f0eda442e9000a4b292ccd5a039dc34f483303356397d435836b86b040c95f1": {
+   "pass": "p11-4mhz",
+   "disk": "Yojigen Shoujo Lydia {V1 mode}.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:8f14abed0a4bb933d0f21793b1658ded91ad82259d59115776f9cbbf460f7eb1": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Ys II (Program disk).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:8f808fbc7f360b1a64777fc8a19ac16c290100ee3f95d0d7d0879acc853e2f3a": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Ninja-kun (Dexter Soft).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:904757da52cc8fb738fcf0aae41cae1f0cb43f259842981d2a085f68dd92bae7": {
+   "pass": "p11-4mhz",
+   "disk": "Hanasangen (Disk 1 - System).d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:9154a0fc67d6a449d866ba44d9439c3f1fb1bb9030a5cf3f46c8d41db86fa449": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Hoehoe Team 199X Music Disk Vol. 1 - Explosion.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:91edc4010dfc6f90badeef253113156123dbc67c95755779d47e4ba758ed47e2": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Mr. Robot {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:936cfcdbe718c1047029f391e9155869885a865caab8d4eadd5baec3285c9e53": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Teruru.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:937c8c43ef64142532b1b08127797d6df2e44effb8958d3308dcb48e46d100d0": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Rimi-chan no Kiken na Yoru (Disk 1) {V1H mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:94e160a06d088690ae63709095835f7fee7a308d92ec8599507fa5a677bf6c1a": {
+   "pass": "p23-type-dir-subcpu-disk",
+   "disk": "Pretty Girl 3.d88",
+   "settings": {
+    "subcpu": "disk",
+    "commands": [
+     "RUN\"MIE-14.G1\""
+    ]
+   }
+  },
+  "sha256-fd-v1:9580415f640be213265e0361e255b8371ee5ef8e3e6c2cd10531be9d90b3539c": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Swashbuckler {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:9686e9d292fcb9a9db9f4646df51d2c5d6097cba80f57d297fb176a9afdba985": {
+   "pass": "p15-4mhz-subcpu-disk",
+   "disk": "Firecracker Music Collection Vol. 12 - Minor Game Music Special.d88",
+   "settings": {
+    "clock": 4,
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:96b498d8c9edd5a9dd4ae8970b76899a1c9aee62edc88dee168984a29cc85c01": {
+   "pass": "p02-subcpu-disk",
+   "disk": "[Utility] Wizard 88 (v1.01) (System disk).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:96e40034a531785cbfb45fcd4f4fe2a894921373119fc55a6a962c4ea4ef4821": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Rance II (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:971310ad9e4ed0f419d59e7fc469927454b3d2569048e96a5d633a6846b70f50": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Cybernetic Hi-School (Dennou Gakuen) (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:9c99b25adba0c920d56a4855d10a5b95d1cc2786ac26f462c3883f82fb12c732": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Tien Gow Pai Special - Tougen no Utage II (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:9dba2204b95db5a61c1652c756b9a2351d1ead69e0bedab229f3b63bfdee1dd7": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Cybernetic Hi-School (Dennou Gakuen) 2 (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:9e709587bfe6a61bc9ef7aa792277bce11b188d0d5f6a83db0d9ef8e6c1f810f": {
+   "pass": "p11-4mhz",
+   "disk": "Demon's Ring (Disk A) {V1 mode}.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:9f55cd6b2d711ce9c0dcba478bc344dd00f09d692c759072e794778907b6ba24": {
+   "pass": "p11-4mhz",
+   "disk": "Holy Sword (Seinaru Tsurugi) {V1 mode}.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:a0ecf4ec102f8c0ed82419cdbe320f775bbf97ea63f561274c1777737c25a6ef": {
+   "pass": "p23-type-dir-subcpu-disk",
+   "disk": "Pretty Girl 2.d88",
+   "settings": {
+    "subcpu": "disk",
+    "commands": [
+     "RUN\"MIE--8.G1\""
+    ]
+   }
+  },
+  "sha256-fd-v1:a39acc12e3d82340acd6fa72273da6e3254cda2f93fa84ab095bcbc3e2ac70ee": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Slope (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:a5402940673b61279220322e22fb7ea41b7b84f727403ce2f5dad195b0d6f6e9": {
+   "pass": "p23-type-dir-subcpu-disk",
+   "disk": "Pretty Girl B.d88",
+   "settings": {
+    "subcpu": "disk",
+    "commands": [
+     "RUN\"GD2*01.B1\""
+    ]
+   }
+  },
+  "sha256-fd-v1:a578cb7cba3a0e908d5bf63bed05e46078929b1b6e91bc33f00796272f223d8a": {
+   "pass": "p11-4mhz",
+   "disk": "Red Shrew (Disk 1).d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:a6130c1c7b597f5e1242cd27259f01ec886a85e1ce37dd159da602cec04e36d0": {
+   "pass": "p17-sound1",
+   "disk": "Firecracker Music Collection Vol. 04 - First Contact with S.B.2.d88",
+   "settings": {
+    "sound": "1"
+   }
+  },
+  "sha256-fd-v1:a64036766df09e97f42d68f98b125d5c12ec54d8648592aad122557b88d5245b": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Tatesuka Wars (Game disk).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:a644d093195672428e901886ec9d1ed42d660bfee7c96822d807b78478d9c82e": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Apple Club 2 (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:a7e1598f6e5966fbdedc83ab38522a7aaf11d7b66d8657de8a8e7a40ae3182bf": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Tenshi-tachi no Gogo III - Bangaihen (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:a8ae7f53ab061d0ae76dab294c5cf8929fd40e8db60b429d1c8ac0806e38d74a": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Revolter (v1.00) (Disk A) {4MHz}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:a9994c4c96122abae80e97b04ae1e6c6de1e9f1d55b8e4ead783247c6743f903": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Tonky.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:a9b6c57151f327ca75d19eccaf90caf002bd336bc0eea9fd346c30fc18d979cc": {
+   "pass": "p12-v1s-subcpu-disk",
+   "disk": "Mental Toughness (Disk 1).d88",
+   "settings": {
+    "basic": "v1s",
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:a9ba4cfb964780ba3ac902919de247d3308488eac31787acc8da6e9d33cf66ba": {
+   "pass": "p11-4mhz",
+   "disk": "Zan - Yasha Enbukyoku (Disk 1).d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:aad534aa24094c05aa72630f411d74e5a1149c6cef909815cf6ccfe722591757": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Arcus (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:abe61d6b9fedaf4aa3a5709da78ca613def7079d6c8c8ae2f2cd7d3a5fe8193a": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Gaodius III.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:ad594b2a277c50771f5a80a1112eba44c62b8817f6a8f72b4645906dea1cd434": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Highrise {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:b52fb778e2fdafc4501762d80dccc05f03171c3f496903b982d3efab69c303e8": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Mugen no Shinzou II (Startup disk) {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:b78f665cf3e9c9d631991755e9c533489f96ace21592ee1e82a45e0f92d8e68e": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Digan no Maseki (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:b8329107bb73c1eab0116a89d6e763970aeed391c3f5eb0b92a6e513a7ad1527": {
+   "pass": "p17-sound1",
+   "disk": "Angels - Celica Crisis (Disk 1).d88",
+   "settings": {
+    "sound": "1"
+   }
+  },
+  "sha256-fd-v1:b8efc370d24adf8cda47bbc5bbb8dcd16907b420deeab40a0a14c836bbf403a1": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Thexder 88 {V1H mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:bab14177e27a2422d21e12dad7008c9c0afb0ea359c7c99823f0935c397125b1": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Gokudou Jintori (Disk 1 - System disk).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:beb3927f8a9d314e5dbe1f98fee2c51491f3c3c8bb3b724b7bbc793ae21dbb4e": {
+   "pass": "p05-type",
+   "disk": "Return to GreeNWooD {RUN MAD.M88}.d88",
+   "settings": {
+    "commands": [
+     "RUN\"MAD.M88\""
+    ]
+   }
+  },
+  "sha256-fd-v1:bf765f0346589de2101f307232fabdff74c01a6e436e5aced54f5e018f18ead6": {
+   "pass": "p11-4mhz",
+   "disk": "Gunship (Disk A).d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:c003a3ec94f4f09490e4c398cf6e876c78ea21a7a3143e14b2012b8d23eada5b": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Boukenshatachi - Kenja no Yuigon (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:c1afce0ffab32f5ac91d10422e8620e56ef0786b0fdbd3cb614ccac611acd36c": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Exterlien (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:c2d46c6c06d079a5b6d7626914823a13ca858c6dad05e88cc979105cd16494a0": {
+   "pass": "p11-4mhz",
+   "disk": "Alice-tachi no Gogo Vol. 1 (System disk).d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:c33ed3f96631c4dfaeb2e774ebed8726664d31d3f853b96ebd5fc08f2135b8e4": {
+   "pass": "p05-type",
+   "disk": "Legends of Star Arthur 2 - Dark Nebula {V1 mode, RUN DRK1}.d88",
+   "settings": {
+    "commands": [
+     "RUN\"DRK1\""
+    ]
+   }
+  },
+  "sha256-fd-v1:c35076ee784916714fd2d4d81253f9533a15c12a1f055f63b4280f2e81aef334": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Riglas.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:cd1a1ad50d6b6b9a51f7fc0891e16787371180a7a7bdc7d2ce8f8c1c84f25a1f": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Miner 2049er {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:cdac24217b8179d16e9c581d168c4bb48209b97f9f63e351fa973b4c85446079": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Silpheed (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:ce0b7ac482fe38d527b2867c50af7e84f946b9da0e3d3fcd740d12719a873704": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Bubblegum Crisis (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:cf69a89ca2a59fa563775f4501448b15e2c4605b0c6ffbe4fd1bf2f08278953e": {
+   "pass": "p19-v1s-4mhz-subcpu-disk",
+   "disk": "Slime Land Story (Disk A).d88",
+   "settings": {
+    "basic": "v1s",
+    "clock": 4,
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:cf7d89547ae2a45ec83e6227d11e3a61aa82c4c61696dfdfbe5a6d3bf8c3642c": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Storm (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:d3201fe4fdea52f0f7a0003c4de8699be9fb864cfd0104b05f919eb9f53af4e8": {
+   "pass": "p17-sound1",
+   "disk": "The Airrector (Uchuu Bokushi) (Disk A).d88",
+   "settings": {
+    "sound": "1"
+   }
+  },
+  "sha256-fd-v1:d455edc22921910badfead5c1f193d0e6fdd22b0fb7afa86584dab44e5977877": {
+   "pass": "p11-4mhz",
+   "disk": "Music Floppy 3.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:d5bd92d9ee0c19b1a76a9555cb5eea31f52457d36f71f3ff6b9165919fe6a07f": {
+   "pass": "p11-4mhz",
+   "disk": "Akujo Kamakiri {V1 mode}.d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:d7926ab1726f8f3a818b32ba4a3141c0f676008e760ffe4deb8456af171661f3": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Giant Gorg.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:d7e3f6904ba208b65b5fad0f049f7648ad28ca8fd4534e67f443061079fdd307": {
+   "pass": "p15-4mhz-subcpu-disk",
+   "disk": "Bruce Lee {V1 mode}.d88",
+   "settings": {
+    "clock": 4,
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:daf136986791697dd72ddc9373cb0421c0a3b9ced29ca69936b00ce9d1c589a3": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Exiz Music Disk Vol. II - The Power Live (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:dcb8a20a988c99898dc3dfc4a5721731acfc3c8d1e9e74ab465010f29a1b0ac9": {
+   "pass": "p17-sound1",
+   "disk": "Firecracker Music Collection Vol. 05 - S.B.2 BASIC Excellents.d88",
+   "settings": {
+    "sound": "1"
+   }
+  },
+  "sha256-fd-v1:e0d7860e97619e3da5fee182d61689cbe867e6318d53e91a7df32e17e9efd9f4": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Thexder.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:e19a48c44eafab91785d2d489f95a56151b5b4a1763c12fd4af2f6e05ff8419a": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Ten to Chi to (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:e5f044753c2da8770a91c0a62375a3a8301422037b71aee6bca5c38c59a92b30": {
+   "pass": "p15-4mhz-subcpu-disk",
+   "disk": "Road to Janpro (Disk A).d88",
+   "settings": {
+    "clock": 4,
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:eb865af8b374a047be15656081294f2676862d07857df893a802977413fe0438": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Maison Ikkoku Kanketsu-hen (Disk 1).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:ebd7169c0b8d52c6244be2296faa59b9911365b30b162ff4755185328936b73e": {
+   "pass": "p23-type-dir-subcpu-disk",
+   "disk": "Pretty Girl A.d88",
+   "settings": {
+    "subcpu": "disk",
+    "commands": [
+     "RUN\"GD2*01.B1\""
+    ]
+   }
+  },
+  "sha256-fd-v1:ec8448e6a3440c3f6ff9673b94d0d73a90a605096061105618deb154fab92c39": {
+   "pass": "p11-4mhz",
+   "disk": "Cone-shi Shindou Data Pack (Vol. 1).d88",
+   "settings": {
+    "clock": 4
+   }
+  },
+  "sha256-fd-v1:ec8c66113fac573418561443a0ee4725c23cae5123e2c5095f23a6c2491f8f97": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Marchen Veil.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:f109c2d39913bf0d0ac3a6408c3375e043a18981beb9723157048fe1e6ccd190": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Cybernetic Hi-School (Dennou Gakuen) 3 (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:f1698068919ac89cf3402b9742ef6e96041edc6f5e0fb97fd395961796592b98": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Dokyo {V1 mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:f5cf428217d53cbc43acb30b91b60a54d98054aab902038c2867ee8ddd16bbf2": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Excitebike.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:fa48c607d16d3144e8685fd8cb5ffbf69d1a893b9b12551782e1e6c6821faa5c": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Doll - Paragon Sexa Doll (Disk A).d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:fb15f9179eb8aa4c1730e92fdd565aa55e465ce78137b71e4f88c26b273797a6": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Boulder Dash {V1H mode}.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  },
+  "sha256-fd-v1:fbb9b0e2fb46238023ef88c4d41deeff3c389ca018043742a38b5ee9224c39b4": {
+   "pass": "p07-v1s",
+   "disk": "All Cast Star Trek.d88",
+   "settings": {
+    "basic": "v1s"
+   }
+  },
+  "sha256-fd-v1:fce7abb5547cd7899bf8473c12aa29e5b3a51e903c0cd8c420612c58d563e831": {
+   "pass": "p02-subcpu-disk",
+   "disk": "Attacker Vanguard.d88",
+   "settings": {
+    "subcpu": "disk"
+   }
+  }
+ }
+}

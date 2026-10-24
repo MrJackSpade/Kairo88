@@ -84,8 +84,8 @@ int main(int argc, char *argv[])
 	int frames = atoi(argv[1]);
 	const char *prefix = argv[2];
 	const char *state = argv[3];
-	char *init_argv[] = { argv[0], "-romdir", argv[4], "-notool", "-nostatus" };
-	if (k88_init(5, init_argv) != 0) {
+	char *init_argv[] = { argv[0], "-romdir", argv[4], "-notool", "-nostatus", "-noconfig" };
+	if (k88_init(6, init_argv) != 0) {
 		return 1;
 	}
 	const k88_machine v2 = { K88_BASIC_V2, 1, K88_SOUND_II, K88_PORT_JOYSTICK };

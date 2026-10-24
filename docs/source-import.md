@@ -56,6 +56,7 @@ Two kinds of machine state that QUASI88 leaves out of its state files are saved 
 | `src/pc88/fdc.c`, `src/pc88/fdc.h` | Each drive's head position within its track and the last sector ID the FDC read are saved in section `FDC3`. `drive_stateload_position()` puts them back once the disk images are reopened, which otherwise leaves both drives at sector 0. |
 | `src/control.c`, `src/quasi88.c` | Call `drive_stateload_position()` after the disk images reopen on a state load. |
 | `src/pc88/memory.c`, `src/pc88/memory.h` | ROM loading moves out of `memory_allocate()` into `memory_load_rom()`, which reads every ROM image into the memory already allocated. QUASI88 cannot restart in a process, so the core calls it on every boot to pick up firmware imported after QUASI88 started. |
+| `src/osdepend/unix/file-op.c` | A file already open is found by its device and inode, and where the system has no inode numbers (Windows, where `st_ino` is 0) also by the path it was opened by. Without the path, every disk on a Windows host is taken for the one already open, so drive 2 reads drive 1's disk. |
 
 Each change is marked with a `Kairo88` comment.
 

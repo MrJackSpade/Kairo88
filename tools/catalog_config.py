@@ -1,4 +1,5 @@
 """Kairo88's catalog settings: PC-8801 media, artwork references and the platform's slugs."""
+import json
 import re
 import sys
 from pathlib import Path
@@ -38,8 +39,8 @@ def GROUP(path):
 
 
 # The machine settings a game can ask for, as Pc88Native's options name them.
-MACHINE_OPTIONS = {"basic": {"n", "v1s", "v1h", "v2"}, "clock": {"8", "4"}, "sound": {"1", "2"},
-                   "port": {"joystick", "mouse"}}
+MACHINE_OPTIONS = {"basic": {"n", "v1s", "v1h", "v2"}, "clock": {8, 4}, "sound": {"1", "2"},
+                   "port": {"joystick", "mouse"}, "subcpu": {"off", "disk", "always"}}
 _MODES = {"v1 mode": "v1s", "v1s mode": "v1s", "v1h mode": "v1h", "n mode": "n", "boot n mode": "n"}
 
 
@@ -61,11 +62,16 @@ def _loader(part):
     return lines
 
 
+# The settings the boot sweep found a game needs (tools/boot_sweep.py --export), by content ID: each
+# a game that does not start without them, seen starting with them in the review of its screens.
+BOOT_FIXES = json.loads((ROOT / "catalog/research/boot-fixes-v1.json").read_text(encoding="utf-8"))["fixes"]
+
+
 def MACHINE(name, set_name, content_id):
     """Neo Kobe writes the mode and clock a disk needs in braces: {V1 mode}, {V1H mode}, {4MHz},
     {V1 mode, RUN MPD1}. A tape's notes may also say how to load it ({V1 mode, MON R G8F00}): that
-    becomes its "loader", the lines typed at the prompt. A tape without one loads with LOAD"CAS:"
-    and RUN in the app."""
+    becomes its "commands", the lines typed at the prompt. A tape without one loads with LOAD"CAS:"
+    and RUN in the app. What the boot sweep found a disk needs (BOOT_FIXES) comes last."""
     settings = {}
     for note in re.findall(r"\{([^}]*)\}", name):
         for part in (part.strip() for part in note.split(",")):
@@ -76,14 +82,15 @@ def MACHINE(name, set_name, content_id):
                 settings["basic"] = "n"
                 rest = part[len("boot n mode"):].strip()
                 if rest and content_id.startswith("sha256-tape-v1:") and _loader(rest):
-                    settings["loader"] = _loader(rest)
+                    settings["commands"] = _loader(rest)
             elif lower == "4mhz":
-                settings["clock"] = "4"
+                settings["clock"] = 4
             elif content_id.startswith("sha256-tape-v1:") and _loader(part):
-                settings["loader"] = _loader(part)
+                settings["commands"] = _loader(part)
     # A note that ends with a BASIC load leaves running it to the player ("F5 to start": F5 is RUN).
-    if settings.get("loader", [None])[-1] == 'LOAD"CAS:"':
-        settings["loader"].append("RUN")
+    if settings.get("commands", [None])[-1] == 'LOAD"CAS:"':
+        settings["commands"].append("RUN")
+    settings.update(BOOT_FIXES.get(content_id, {}).get("settings", {}))
     return settings
 
 

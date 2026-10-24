@@ -48,6 +48,9 @@ extern "C" {
 
 namespace {
 
+// k88_sound_output: off, nothing is synthesized (host tools that only look at the machine).
+bool g_output = true;
+
 constexpr uint32_t kOutputRate = 48000;
 constexpr uint32_t kRingFrames = kOutputRate;  // one second
 constexpr uint32_t kOpnClock = 3993600;
@@ -131,7 +134,7 @@ public:
 		const int64_t now = now_states();
 		const int64_t elapsed = now - m_last_states;
 		m_last_states = now;
-		if (m_held || elapsed <= 0 || m_native_rate == 0) return;
+		if (m_held || !g_output || elapsed <= 0 || m_native_rate == 0) return;
 		const double cpu_hz = cpu_clock_mhz * 1000000.0;
 		m_native_due += static_cast<double>(elapsed) * m_native_rate / cpu_hz;
 		const auto samples = static_cast<uint32_t>(m_native_due);
@@ -432,6 +435,8 @@ int g_master_volume = 0;
 int g_mixer_volume[XMAME_MIXER_END] = {100, 100, 60, 60, 100, 100, 100, 100};
 
 }  // namespace
+
+extern "C" void k88_sound_output(int on) { g_output = on != 0; }
 
 extern "C" {
 

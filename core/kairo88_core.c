@@ -20,6 +20,7 @@
 #include "fname.h"
 #include "crtcdmac.h"
 #include "screen.h"
+#include "emu.h"
 
 static int started = 0;
 
@@ -190,12 +191,27 @@ int k88_boot(const k88_machine *machine, const char *disk_a, const char *disk_b)
 	cfg.sound_board = machine->sound == K88_SOUND_II ? SOUND_II : SOUND_I;
 	cfg.boot_from_rom = disk_a == NULL ? TRUE : FALSE;
 	cpu_clock_mhz = machine->clock_8mhz ? CONST_8MHZ_CLOCK : CONST_4MHZ_CLOCK;
+	cpu_timing = machine->sub_cpu;
 	mouse_mode = machine->port == K88_PORT_MOUSE ? MOUSE_MOUSE : MOUSE_JOYSTICK;
 	quasi88_reset(&cfg);
+	/* A boot is a power-on, not a reset: QUASI88's reset keeps memory as the machine's reset button
+	 * does, so the last game's RAM and VRAM would be what the next one finds. Memory gets its power-on
+	 * contents (sub-system RAM already did, in memory_load_rom) and the keyboard its power-on state. */
+	memset(main_vram, 0, sizeof(byte) * 0x4000 * 4);
+	if (ext_ram != NULL) {
+		memset(ext_ram, 0, sizeof(byte) * 0x8000 * 4 * use_extram);
+	}
+	power_on_ram_init();
+	keyboard_reset();
 	/* The key and joystick assignments follow the port's device. */
 	keyboard_switch();
 	k88_audio_clear();
 	return failed;
+}
+
+void k88_draw_every(int frames)
+{
+	quasi88_cfg_set_frameskip_rate(frames);
 }
 
 void k88_reset(void)

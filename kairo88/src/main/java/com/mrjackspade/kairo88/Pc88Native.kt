@@ -17,18 +17,26 @@ object Pc88Native {
     enum class Port(val core: Int, val id: String, val label: String) {
         JOYSTICK(0, "joystick", "Joystick"), MOUSE(1, "mouse", "Mouse")
     }
+    /** How closely the disk unit's CPU runs with the main CPU (kairo88_core.h, k88_machine.sub_cpu). */
+    enum class SubCpu(val core: Int, val id: String, val label: String) {
+        OFF(0, "off", "Off"), DISK(1, "disk", "During disk access"), ALWAYS(2, "always", "Always")
+    }
 
     val basic = MachineOption("basic", "BASIC mode", Basic.entries.map { ChoiceOption(it.id, it.label) }, Basic.V2.id)
     val clock = MachineOption("clock", "CPU clock", listOf(ChoiceOption("8", "8 MHz"), ChoiceOption("4", "4 MHz")), "8",
         numeric = true)
     val sound = MachineOption("sound", "Sound", Sound.entries.map { ChoiceOption(it.id, it.label) }, Sound.II.id)
     val port = MachineOption("port", "Port", Port.entries.map { ChoiceOption(it.id, it.label) }, Port.JOYSTICK.id)
-    val options = listOf(basic, clock, sound, port)
+    // Copy-protected loaders such as Thexder's need the disk unit's CPU in step during disk access.
+    val subCpu = MachineOption("subcpu", "Disk CPU sync", SubCpu.entries.map { ChoiceOption(it.id, it.label) },
+        SubCpu.OFF.id)
+    val options = listOf(basic, clock, sound, port, subCpu)
 
     /** The settings pc88_core.cpp boots with, from the options' values. */
     fun settings(values: Map<String, String>) = mapOf(
         "basic" to Basic.entries.first { it.id == values.getValue("basic") }.core.toString(),
         "clock" to values.getValue("clock"),
         "sound" to Sound.entries.first { it.id == values.getValue("sound") }.core.toString(),
-        "port" to Port.entries.first { it.id == values.getValue("port") }.core.toString())
+        "port" to Port.entries.first { it.id == values.getValue("port") }.core.toString(),
+        "subcpu" to SubCpu.entries.first { it.id == values.getValue("subcpu") }.core.toString())
 }

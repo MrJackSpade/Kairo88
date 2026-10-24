@@ -213,6 +213,7 @@ struct OSD_FILE_STRUCT {
 	struct stat sb;						/* 開いたファイルの状態 */
 	int         type;					/* ファイル種別 */
 	char        mode[4];				/* 開いた際の、モード */
+	char        path[1024];				/* Kairo88: the path it was opened by */
 
 };
 
@@ -267,8 +268,11 @@ OSD_FILE *osd_fopen(int type, const char *path, const char *mode)
 			/* すでに開いているファイルかどうかをチェックする */
 			for (i = 0; i < MAX_STREAM; i++) {
 				if (osd_stream[i].fp) {
+					/* Kairo88: a system without inode numbers (Windows: st_ino is 0)
+					 * names a file by its path, or every disk would be the first. */
 					if (osd_stream[i].sb.st_dev == sb.st_dev &&
-						osd_stream[i].sb.st_ino == sb.st_ino) {
+						osd_stream[i].sb.st_ino == sb.st_ino &&
+						(sb.st_ino != 0 || strcmp(osd_stream[i].path, path) == 0)) {
 
 						/* DISKの場合かつ同じモードならばそれを返す */
 						if (type == FTYPE_DISK                   &&
@@ -306,6 +310,7 @@ OSD_FILE *osd_fopen(int type, const char *path, const char *mode)
 			st->type = type;
 			st->sb   = sb;
 			strncpy(st->mode, mode, sizeof(st->mode));
+			snprintf(st->path, sizeof(st->path), "%s", path);
 			return st;
 
 		} else {

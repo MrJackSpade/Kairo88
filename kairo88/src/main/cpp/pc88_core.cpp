@@ -44,7 +44,8 @@ public:
         }
         // The settings Pc88Native.Machine names; every launch passes all of them.
         k88_machine machine{std::stoi(launch.settings.at("basic")), launch.settings.at("clock") == "8" ? 1 : 0,
-                            std::stoi(launch.settings.at("sound")), std::stoi(launch.settings.at("port"))};
+                            std::stoi(launch.settings.at("sound")), std::stoi(launch.settings.at("port")),
+                            std::stoi(launch.settings.at("subcpu"))};
         const std::string disk_a = launch.media.size() > 0 ? launch.media[0] : "";
         const std::string disk_b = launch.media.size() > 1 ? launch.media[1] : "";
         if (k88_boot(&machine, disk_a.empty() ? nullptr : disk_a.c_str(),
@@ -52,7 +53,7 @@ public:
             error = "A disk image could not be opened";
             return nullptr;
         }
-        // After the drives: the tape, and the lines its loader types (MainActivity.startGame).
+        // After the drives: the tape, and the startup commands typed at BASIC's prompt (MainActivity.startGame).
         const std::string tape = launch.media.size() > kTapeSlot ? launch.media[kTapeSlot] : "";
         if (k88_tape(tape.empty() ? nullptr : tape.c_str()) != 0) {
             error = "The tape image could not be opened";
@@ -60,7 +61,7 @@ public:
         }
         const auto loader = launch.settings.find("loader");
         if (k88_loader_start(loader == launch.settings.end() ? nullptr : loader->second.c_str()) != 0) {
-            error = "The tape's loader cannot be typed";
+            error = "The startup commands cannot be typed";
             return nullptr;
         }
         return std::unique_ptr<Pc88Core>(new Pc88Core());
@@ -74,7 +75,7 @@ public:
             return false;
         }
         if (k88_loader_frame() != 0) {
-            error_ = "The tape's loader cannot be typed";
+            error_ = "The startup commands cannot be typed";
             return false;
         }
         return true;

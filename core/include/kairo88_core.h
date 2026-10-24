@@ -20,8 +20,11 @@ extern "C" {
  * why to stderr. */
 int k88_init(int argc, char *argv[]);
 
-/* The machine a game boots: its BASIC mode, CPU clock, sound board, and what
- * is plugged into the joystick port. */
+/* The machine a game boots: its BASIC mode, CPU clock, sound board, what is
+ * plugged into the joystick port, and how closely the disk unit's sub-CPU runs
+ * with the main CPU (QUASI88's -cpu): 0 runs it only when the main CPU waits on
+ * it, the fastest; 1 also runs both together while the disk controller works,
+ * which copy-protected loaders such as Thexder's need; 2 always runs both. */
 enum k88_basic { K88_BASIC_N = 0, K88_BASIC_V1S = 1, K88_BASIC_V1H = 2, K88_BASIC_V2 = 3 };
 enum k88_sound { K88_SOUND_I = 0, K88_SOUND_II = 1 };
 enum k88_port { K88_PORT_JOYSTICK = 0, K88_PORT_MOUSE = 1 };
@@ -30,6 +33,7 @@ typedef struct {
 	int clock_8mhz; /* nonzero for 8 MHz, else 4 MHz */
 	int sound;      /* enum k88_sound */
 	int port;       /* enum k88_port */
+	int sub_cpu;    /* 0, 1 or 2, as above */
 } k88_machine;
 
 /* Ejects both drives, reads the ROM files again (they may have changed since
@@ -117,6 +121,13 @@ int k88_audio_read(int16_t *stereo, int max_frames);
 
 /* Discards the audio not yet read. */
 void k88_audio_clear(void);
+
+/* For host tools that only look at the machine (the boot sweep): with output off,
+ * no audio is synthesized, which the emulation never reads (QUASI88 keeps the
+ * sound boards' timers, flags and ADPCM RAM itself); and the picture is composed
+ * only every `frames` frames, so a tool sets 1 before a frame it looks at. */
+void k88_sound_output(int on);
+void k88_draw_every(int frames);
 
 #ifdef __cplusplus
 }

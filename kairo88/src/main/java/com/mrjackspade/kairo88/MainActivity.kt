@@ -83,13 +83,14 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         // The machine boots without the rhythm samples; only sound board II's drums need them.
         requireFirmware(listOf(firmwareSets.first().second))
         val home = File(filesDir, "quasi88").apply { mkdirs() }
+        val options = optionValues(game)
+        // The lines typed at BASIC's prompt to start the game: a tape's load, or a disk's own commands.
+        val settings = Pc88Native.settings(options) + ("loader" to game.startupCommands(options).joinToString("\n"))
         if (isTape(entry)) {
-            // A tape game boots BASIC with the tape in the deck, and its loader types the commands.
+            // A tape game boots BASIC with the tape in the deck.
             val tape = disks.prepare(entry, cancelled, progress)
-            val options = optionValues(game)
             check(Pc88Native.machine.start(firmwareDir.absolutePath, home.absolutePath,
-                listOf(null, null, tape.absolutePath),
-                Pc88Native.settings(options) + ("loader" to game.tapeLoader(options.getValue("basic")).joinToString("\n")))) {
+                listOf(null, null, tape.absolutePath), settings)) {
                 "Another machine is still running"
             }
             awaitRunning()
@@ -102,7 +103,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         val diskA = disks.prepare(entry, cancelled, progress)
         val diskB = second?.let { disks.prepare(it, cancelled, progress) }
         check(Pc88Native.machine.start(firmwareDir.absolutePath, home.absolutePath,
-            listOf(diskA.absolutePath, diskB?.absolutePath), Pc88Native.settings(optionValues(game)))) {
+            listOf(diskA.absolutePath, diskB?.absolutePath), settings)) {
             "Another machine is still running"
         }
         awaitRunning()
