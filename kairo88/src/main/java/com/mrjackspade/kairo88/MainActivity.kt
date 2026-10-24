@@ -80,9 +80,8 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
 
     override fun startGame(entry: DiskImageEntry, game: CatalogGame, cancelled: AtomicBoolean,
                            progress: (String) -> Unit) {
-        firmwareSets.first().second.takeIf { it.missingRequirements.isNotEmpty() }?.let { roms ->
-            error("Import the PC-88 BIOS in Menu › Machine first (missing ${roms.missingText})")
-        }
+        // The machine boots without the rhythm samples; only sound board II's drums need them.
+        requireFirmware(listOf(firmwareSets.first().second))
         val home = File(filesDir, "quasi88").apply { mkdirs() }
         if (isTape(entry)) {
             // A tape game boots BASIC with the tape in the deck, and its loader types the commands.

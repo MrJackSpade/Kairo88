@@ -84,6 +84,13 @@ public:
     // it can: a cassette loads in minutes at its real speed.
     bool booting() override { return k88_loader_active() != 0 || k88_tape_running() != 0; }
 
+    // The tape's progress ("tape=read/size"), so a test can tell a slow load from a stalled one.
+    std::string details() override {
+        long read = 0, size = 0;
+        if (k88_tape_position(&read, &size) != 0) return "";
+        return "tape=" + std::to_string(read) + "/" + std::to_string(size);
+    }
+
     std::string error() override { return error_; }
 
     const uint8_t *frame(uint32_t &width, uint32_t &height) override {

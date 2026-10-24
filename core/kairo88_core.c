@@ -142,6 +142,11 @@ int k88_tape_running(void)
 	return tape_path[0] && (sys_ctrl & 0x08) && sio_tape_pos(&position, &end) && end > 0;
 }
 
+int k88_tape_position(long *read, long *size)
+{
+	return tape_path[0] && sio_tape_pos(read, size) && *size > 0 ? 0 : -1;
+}
+
 int k88_screen_text(char *out, int size)
 {
 	/* The DMA controller's text channel points at the rows the CRTC shows. In 40-column mode (OUT 30h

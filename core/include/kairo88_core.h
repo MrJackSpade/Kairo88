@@ -80,6 +80,9 @@ int k88_tape(const char *path);
 const char *k88_tape_path(void);
 /* Whether the machine is reading the tape: its motor is on and the tape has not reached its end. */
 int k88_tape_running(void);
+/* How far the tape in the deck has been read: bytes read and the image's size. 0 when a tape is in
+ * the deck and not at its end, else -1 (QUASI88 forgets both once the tape has been read to its end). */
+int k88_tape_position(long *read, long *size);
 /* The text screen as the machine shows it now: its rows, newline-separated, each character as its
  * byte (0x20 to 0x7e as ASCII), trailing spaces trimmed. Writes at most size bytes with the
  * terminating NUL and returns the number written without it. */

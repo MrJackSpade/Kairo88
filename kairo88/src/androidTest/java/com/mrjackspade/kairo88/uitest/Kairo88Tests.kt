@@ -80,9 +80,29 @@ class Pc88Tests : KairoUiTest() {
         expect.that("the tape is in the cassette deck", probe.details["media.Cassette"].orEmpty().contains("Tropical Boy")) {
             probe.details["media.Cassette"].orEmpty()
         }
-        driver.waitUntil("the title to replace BASIC's text screen") {
+        // A tape loads at its real speed, the machine running as fast as it can meanwhile, which can
+        // outlast one wait: each wait needs the tape to move on (core.tape, bytes read) or the title.
+        fun title() = driver.pictures.game("tape").distinctColors() >= 4
+        var read = -1L
+        while (true) {
+            var titled = false
+            var moved = false
+            var reading = true
+            driver.waitUntil("the tape to move on from byte $read, or the title to replace BASIC's text screen") {
+                driver.waitFrames(120)
+                titled = title()
+                val now = driver.probeNow().details["core.tape"]?.substringBefore('/')?.toLong()
+                reading = now != null
+                moved = now != null && now > read
+                if (moved) read = now!!
+                titled || moved || !reading
+            }
+            if (titled) return
+            if (!reading) break
+        }
+        driver.waitUntil("the title to replace BASIC's text screen once the tape is read") {
             driver.waitFrames(120)
-            driver.pictures.game("tape").distinctColors() >= 4
+            title()
         }
     }
 
