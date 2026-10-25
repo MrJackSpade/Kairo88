@@ -52352,6 +52352,7 @@
    "contentIds": [
     "sha256-fd-v1:3120b29b0f61bd35395c48404348730688425904b7b2bf45ff476a22ec7c5b35"
    ],
+   "description": "A doujin horizontal shooter that has nothing to do with Konami's own sequel and plays more like the first Salamander: power up a small ship by destroying enemies, clear the screen with a limited stock of wipers that enemies can replenish, and beat a boss at the end of every stage.",
    "diskMachine": {
     "sha256-fd-v1:3120b29b0f61bd35395c48404348730688425904b7b2bf45ff476a22ec7c5b35": {
      "subcpu": "disk"
@@ -52366,6 +52367,7 @@
    "contentIds": [
     "sha256-fd-v1:c5841f504a47d7c9534ef4d395b42c3138b8b8c63dbea4061c74f1ef06035da7"
    ],
+   "description": "The last PC-88 release from Ayashige Soft, a cheap Sound Board II music disk whose draw was a recreation of the opening of Capcom's arcade Vampire (Darkstalkers), rendered in single-color text graphics.",
    "sourceGroups": [
     "neokobe:Vampire BGM Shuu (Doujin - Ayashige Soft)/Vampire BGM Shuu [FD].7z"
    ],
@@ -52384,6 +52386,7 @@
    "contentIds": [
     "sha256-fd-v1:ae085ac67881600eaa6bcc3bcf5f6a9befeafe8267b9ad79c551eb7f1b4acbc8"
    ],
+   "description": "A collection of Junichi Ueda's famously accurate arcade transcriptions, first written for the X68000's MXDRV and ported to the PC-88 by the MDRV driver's author: over 20 tracks from Galaxy Force, Ordyne, Thunder Cross, Power Drift, Metal Hawk, Super Hang-On, Sorcerian and more.",
    "sourceGroups": [
     "neokobe:Ueda Junichi BGM Collection Vol. 1 (Doujin - PSG Soft)/Ueda Junichi BGM Collection Vol. 1 [FD].7z"
    ],
@@ -52441,9 +52444,12 @@
    "title": "Puripure Pretty Pudding"
   },
   "pc88:local-014f982311": {
+   "adult": true,
+   "adultDescription": "A doujin Missile Command variant defending one huge city with a big cursor and up to three screen-clearing hyper bombs; after each cleared level a woman on screen takes off more of her clothes.",
    "contentIds": [
     "sha256-fd-v1:6b3414cbbacee69bc622835b7835d787bbed1cb71c335128c47f97ed8da9b0f5"
    ],
+   "description": "A doujin variation on Missile Command that defends one huge city: aim a big cursor to shoot down falling missiles and mushroom-shaped spacecraft, with up to three hyper bombs that wipe out everything on screen.",
    "sourceGroups": [
     "neokobe:Missile Panic (Doujin - Scatter Brain)/Missile Panic [FD].7z"
    ],
@@ -52476,6 +52482,7 @@
    "contentIds": [
     "sha256-fd-v1:0a0296c34d853f1c024dd28349f184cfe07e27acbe721a7c0fd59c9ae7adee74"
    ],
+   "description": "A doujin parody of R-Type: a horizontal shooter where destroyed enemies drop stronger shots, bombs, shields and extra screen-clearing wipers, and every stage ends with a boss that needs its own tactic.",
    "diskMachine": {
     "sha256-fd-v1:0a0296c34d853f1c024dd28349f184cfe07e27acbe721a7c0fd59c9ae7adee74": {
      "subcpu": "disk"
@@ -52487,10 +52494,13 @@
    "title": "Y-Type Special"
   },
   "pc88:local-01ea13635f": {
+   "adult": true,
+   "adultDescription": "A card-memory game where ESP-style symbols flash briefly and must be recalled, with more cards each stage; the rewards are digitized pictures of women, racier in one of the two versions.",
    "contentIds": [
     "sha256-fd-v1:1076225ccc4f4da7472149d407a003c12a3663d5625bcef2b65238414c3ddba5",
     "sha256-fd-v1:89be55a6641608ec8ebaa8de08484deda4a9836254b20a0ef69126b9d3d68dd2"
    ],
+   "description": "A memory game: ESP-style cards marked with a circle, triangle, square, cross or plus flash briefly at the top of the screen and must be called back; display time depends on the level, more cards appear as stages advance, and digitized pictures serve as the reward.",
    "diskSets": {
     "sha256-fd-v1:89be55a6641608ec8ebaa8de08484deda4a9836254b20a0ef69126b9d3d68dd2": {
      "setDisks": [
@@ -52512,6 +52522,7 @@
     "sha256-fd-v1:d368b2684d8a3081f70527bb045269bc6f0137bd11516bceeb1a3b816f4e2a19",
     "sha256-fd-v1:d7c51de8524a1186af61adbb53bc7f09fea50372ab3f7cf835a8278ef011e5bb"
    ],
+   "description": "Active Gamers' second command-based RPG, subtitled Shinjitsu no Megami-hen, released in 1992 on four disks with a larger scenario and better graphics and music than the first Holiness Story; a preview demo disk went to mail-order buyers.",
    "diskSets": {
     "sha256-fd-v1:d368b2684d8a3081f70527bb045269bc6f0137bd11516bceeb1a3b816f4e2a19": {
      "media": [
@@ -52577,6 +52588,7 @@
    "contentIds": [
     "sha256-fd-v1:7f39b0ed0389a264e9419a21fd267b70fecd5630c275a9739bd8a3ac363e2df3"
    ],
+   "description": "The first music disk from the Orphe circle (1991) for the Sound Board II: mostly original tunes by YAMA, RIU and KIN plus arrangements from Ys, Castlevania, Gradius III and Lightning Fighters, with drums played on the YM2608's rhythm sounds instead of PCM samples.",
    "sourceGroups": [
     "neokobe:Orphe Music Disk (Doujin - Orphe)/Orphe Music Disk [FD].7z"
    ],
@@ -52587,6 +52599,7 @@
     "sha256-fd-v1:035d21bb5d6c9b1b0c830a1aba47aa1b86cd49671e8c9aa9c67c5053f29eeb46",
     "sha256-fd-v1:78a5917fbafe81ac5846cfbd7963bbca88d21b5cc81031e15b1601b8ace3c23d"
    ],
+   "description": "A doujin Columns clone: drop stacks of three tiles to line up three or more of the same tile, with bombs that clear every tile of one kind.",
    "diskSets": {
     "sha256-fd-v1:035d21bb5d6c9b1b0c830a1aba47aa1b86cd49671e8c9aa9c67c5053f29eeb46": {
      "media": [
@@ -52618,6 +52631,7 @@
    "contentIds": [
     "sha256-fd-v1:e29043dad346ac7dba77c30b901f757a02f8632521d73e2c8cd6e22d82a899f8"
    ],
+   "description": "An NT-3 music disk from Active Gamers (1994) with 51 tracks mixing NT-3's own pieces and game music covers, ranging from F-Zero's Mute City to Sailor Moon's Moonlight Densetsu; it came out for both the PC-88 and PC-98.",
    "sourceGroups": [
     "neokobe:Propensity - NT-3 Music Disk (Doujin - Active Gamers)/Propensity - NT-3 Music Disk [FD].7z"
    ],
@@ -52650,6 +52664,7 @@
    "contentIds": [
     "sha256-fd-v1:14d9e5cfbd01b05203096cbf8a89edee6e4e92a445a527221d2eff1e995ea990"
    ],
+   "description": "A free bonus disk that came with Firecracker's volume 13: 58 rejected tracks mixing game music with TM Network songs, music from Maison Ikkoku and the NHK news theme, played back without a track selection mode.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 14 - Return of Botsu Music (Doujin - Firecracker)/Firecracker Music Collection Vol. 14 - Return of Botsu Music [FD].7z"
    ],
@@ -52668,6 +52683,7 @@
    "contentIds": [
     "sha256-fd-v1:83daa6e5cf21700a6d8ca6796c3ed2d4ec07efeb2589f454270973db83d5ec72"
    ],
+   "description": "An apology disk from Hoehoe Team 199X that offers background music from Chousenshi Hoehoe 3, a game the circle never managed to release.",
    "sourceGroups": [
     "neokobe:Chousenshi Hoehoe 3 ga Dekinakute Gomen no Disk (Doujin - Hoehoe Team 199X)/Chousenshi Hoehoe 3 ga Dekinakute Gomen no Disk [FD].7z"
    ],
@@ -52683,10 +52699,13 @@
    "title": "MMK Original Part 13"
   },
   "pc88:local-060ccd66ef": {
+   "adult": true,
+   "adultDescription": "KOB Soft's sequel to the reverse-Othello game Rinse; beating stages unlocks erotic pictures of parodies of the Sailor Moon heroines.",
    "contentIds": [
     "sha256-fd-v1:890e57ee684c5bedea5d30f54f2ea4d1da47412285fad0f876a38e16cd74fe74",
     "sha256-fd-v1:ae733b8f32a5003ff29a56ab477d687e69485bd0a6a2683f948c8fcf41ed043d"
    ],
+   "description": "KOB Soft's follow-up to Rinse, keeping its reverse-Othello rules but with harder stages and new opponents modeled on a famous team of moon-themed girl warriors.",
    "diskSets": {
     "sha256-fd-v1:890e57ee684c5bedea5d30f54f2ea4d1da47412285fad0f876a38e16cd74fe74": {
      "media": [
@@ -52714,6 +52733,7 @@
     "sha256-fd-v1:d3201fe4fdea52f0f7a0003c4de8699be9fb864cfd0104b05f919eb9f53af4e8",
     "sha256-fd-v1:fd70a04a8c5833d87f3d9fae61c11cfe376cee14999a443331db4df4cb862236"
    ],
+   "description": "Onion Software's 1988 3D space-shooting RPG about a priest who roams the galaxy spreading his faith from planet to planet, meeting strange aliens and objects on the way to a tower dungeon on a blue planet; two disks with many graphics and over 50 music tracks.",
    "diskMachine": {
     "sha256-fd-v1:d3201fe4fdea52f0f7a0003c4de8699be9fb864cfd0104b05f919eb9f53af4e8": {
      "sound": "1"
@@ -52774,6 +52794,7 @@
     "sha256-fd-v1:58dd4b8f31a047aa3dff3a8088e6a74e4c6832470decdff64b2d47089e16d933",
     "sha256-fd-v1:a6507d078d46bc24045737fabdb2679c584a01fffec28b403704b2016f0d382c"
    ],
+   "description": "A late Firecracker music disk whose title screen puts Hatsune Miku in front of characters from Cheetahmen II, and whose tracks include music from Cheetahmen II.",
    "diskSets": {
     "sha256-fd-v1:58dd4b8f31a047aa3dff3a8088e6a74e4c6832470decdff64b2d47089e16d933": {
      "setDisks": [
@@ -52827,9 +52848,12 @@
    "title": "Operation L"
   },
   "pc88:local-09c5dd8711": {
+   "adult": true,
+   "adultDescription": "The sequel to Mature, again steering a wandering young woman to the door by pushing blocks; every fifth level shows nude artwork.",
    "contentIds": [
     "sha256-fd-v1:e06a46077009fb82fb5a14d366fe93b2ccd054cdeca32bd90c49bbc1ca7579cb"
    ],
+   "description": "The sequel to Mature: as a heart, push blocks so the young woman who wanders on her own reaches the door.",
    "sourceGroups": [
     "neokobe:Mature II (Doujin - Excel Soft)/Mature II [FD].7z"
    ],
@@ -52849,6 +52873,7 @@
    "contentIds": [
     "sha256-fd-v1:13c0a403bc14975e66c0347a2aae647b78a1b8ea7b9b97ba8c0e3a414a71f642"
    ],
+   "description": "Frostforest's second sample music disk (1992), a Final Fantasy IV special, which introduced an on-screen keyboard display, a compressed kanji routine supporting rare characters, and a serialized comic story by the staff.",
    "sourceGroups": [
     "neokobe:FSD Sample Ongaku Shuu Vol. 2 (Doujin - Frostforest)/FSD Sample Ongaku Shuu Vol. 2 [FD].7z"
    ],
@@ -52916,6 +52941,7 @@
     "sha256-fd-v1:623ed04f27a3efde3f91e7373070770952062129418f9ba48315406f34033e14",
     "sha256-fd-v1:eb746c07fb575384ade18cb5fc30233cd7398d2c6788e1362a6319db01367551"
    ],
+   "description": "The third and final Imagical Musion Depot (1996), a two-disk Active Gamers anthology of 35 mostly original FM tracks by NT-3, Monden, OSATOH, yon, Anima and other doujin musicians, made for the Takeru software vending machines.",
    "diskSets": {
     "sha256-fd-v1:eb746c07fb575384ade18cb5fc30233cd7398d2c6788e1362a6319db01367551": {
      "media": [
@@ -52943,6 +52969,7 @@
     "sha256-fd-v1:b28e1c82175ce9b55bdb3bb93b1a8f6963597bd2148d128628434e437f917e77",
     "sha256-fd-v1:f84dba57566b33f54f920a58a98e15b93134c5ed94ddffebb9365f83c527e0d4"
    ],
+   "description": "The fourth 100 Yen Disk (1988) and the only two-disk one, packed with odd games: The Quest of Orclot with cute characters, the Fa-Fa Game of handing money to a bear cub, a strawberry-juice game, a cockroach-swatting game and Haruma Game, a peek at a day in a game studio.",
    "diskSets": {
     "sha256-fd-v1:1d017adc6fa6dfe840b425a98484b76133098e5864c1fe0fd55ce25b02392cda": {
      "media": [
@@ -52999,10 +53026,13 @@
    "title": "Down Maze"
   },
   "pc88:local-0cf00e1ddd": {
+   "adult": true,
+   "adultDescription": "A 1988 pin-up quiz in the style of Panel Quiz Attack 25, where correct answers flip panels to reveal racy pictures of 40 girls behind them.",
    "contentIds": [
     "sha256-fd-v1:a202380e0d91191af1277c0c507afeb70bca4f91fc03fd01c449a97a75fba18f",
     "sha256-fd-v1:ac2a128c157ac161a3a8b93ebc079f3b6fec63c0bc6baa0f8dca243ce00a4f16"
    ],
+   "description": "A 1988 quiz styled on the Attack Chance of the TV show Panel Quiz Attack 25: correct answers flip panels to uncover pictures of 40 girls, and the absurdly long full title parodies the Narita Airport rock-paper-scissors round of America Oudan Ultra Quiz.",
    "diskSets": {
     "sha256-fd-v1:a202380e0d91191af1277c0c507afeb70bca4f91fc03fd01c449a97a75fba18f": {
      "media": [
@@ -53035,6 +53065,7 @@
    "contentIds": [
     "sha256-fd-v1:c798dc17bc152450f0bca0e5b2acfcbf56aa4a277ff8561838d382f5225aca4a"
    ],
+   "description": "Lotus Roots' puzzle platformer, a renamed Magnet Girl: a girl in a magnet suit switches between red and blue to push magnets into ones of opposite polarity to destroy them, using magnets as stairs and lifts.",
    "sourceGroups": [
     "neokobe:Magnet World (Doujin - Lotus Roots)/Magnet World [FD].7z"
    ],
@@ -53058,6 +53089,7 @@
    "contentIds": [
     "sha256-fd-v1:9b4b1cffe032bd0b5e3190627a04f926e911d62fa13314b0e54bf0bbf06525a4"
    ],
+   "description": "Xtalsoft's music collection of tracks from its own games.",
    "sourceGroups": [
     "neokobe:Digital Jukebox (Xtalsoft)/Digital Jukebox [FD].7z"
    ],
@@ -53076,6 +53108,7 @@
    "contentIds": [
     "sha256-fd-v1:f4fe712bfdfeb1e39784eaf22d37d7968ad5fd588d2003a94c70658a64105808"
    ],
+   "description": "Pastel Software's Ys-themed board game: roll the die to reach the house in the top-left corner, making decisions on some spaces while others end the game at once, as can rolling a minus one at the start.",
    "sourceGroups": [
     "neokobe:Ganbare! Adol-kun!! - Minimini Ys (Doujin - Pastel Software)/Ganbare! Adol-kun!! - Minimini Ys [FD] [b].7z"
    ],
@@ -53114,6 +53147,7 @@
     "sha256-fd-v1:8ff5ea94f2625cdd72e71a86c0fa15deb637416cf41049af252c1eac1df3ac9c",
     "sha256-fd-v1:99f4fa9d1170b26eecbb2be69f029283b3383067753585caf6587de73296a8ca"
    ],
+   "description": "A visual novel in which a girl whose mother is bedridden sets out on a journey to find a cure for her illness.",
    "diskSets": {
     "sha256-fd-v1:74182d0129e1ca6bee5d0c255861090193c53d9b25a0147dce6dfbb683e36a9d": {
      "media": [
@@ -53143,6 +53177,7 @@
     "sha256-fd-v1:f0a5e4c1f84fa9f8f64c6fb053f7eacb64aba4ab6ad6b1c53864f0bf379102fc",
     "sha256-fd-v1:f5ede881c37b9c3c6f4fdc6e57e1015e6ff20c8791f36bcbbcd6eb426f4c794c"
    ],
+   "description": "The first 100 Yen Disk compilation: Shooting Master '86, an adventure that leads into a fixed-screen shooter; Graman Bee, a space shooter about blasting space worms for power-ups; an electronic novel; the Breakout imitation The Rotten Wall; and the one-life spike-jumping runner Jumpper.",
    "diskSets": {
     "sha256-fd-v1:994a593ac13c52114a92b6ff6cbe799aacd2daa949788258b90f11a6657a5d4d": {
      "setDisks": [
@@ -53164,6 +53199,7 @@
    "contentIds": [
     "sha256-fd-v1:0cfdbaa491d712e9478e4885f318eabf52c8aa2d0c40159d2ecb3dab0b82dcf9"
    ],
+   "description": "An Onion Software compilation disk mixing doujin games with CG, preview screens and game programming engines.",
    "diskMachine": {
     "sha256-fd-v1:0cfdbaa491d712e9478e4885f318eabf52c8aa2d0c40159d2ecb3dab0b82dcf9": {
      "basic": "v1s"
@@ -53178,6 +53214,7 @@
    "contentIds": [
     "sha256-fd-v1:9ab7a19c216f2637aa2147e4bd05a732712e8b90e0d490087956b7781ba7c0ec"
    ],
+   "description": "A CG collection disk of digital illustrations by HAGA-KEN, one of the best-known PC-88 doujin CG artists.",
    "sourceGroups": [
     "neokobe:WGC - The Digital Trip Illustration (Doujin - Haga Ken)/WGC - The Digital Trip Illustration [FD].7z"
    ],
@@ -53196,6 +53233,7 @@
    "contentIds": [
     "sha256-fd-v1:cf260f67f95f5082ac7bf57e17d39d8374c79148474f4baf4432a0481c7e3cfc"
    ],
+   "description": "Active Gamers' third 100-yen disk magazine (1993), built around their RPG Undine with a corner covering the game, an Undine music mode and a collection of previously unreleased PC-88 music.",
    "sourceGroups": [
     "neokobe:Extra Disk Vol. 3 (Doujin - Active Gamers)/Extra Disk Vol. 3 [FD].7z"
    ],
@@ -53274,9 +53312,12 @@
    "title": "Pass-88"
   },
   "pc88:local-112861eb52": {
+   "adult": true,
+   "adultDescription": "A quiz game with erotic artwork in which the hero quizzes his way past the court to win the princess.",
    "contentIds": [
     "sha256-fd-v1:2325ff8a8fa7bb40ebc5e1c2350c81a4ccb625a1438ad287a2e5c1b4915db9c2"
    ],
+   "description": "A quiz game: told by the king that he may wed the princess only by answering questions, the hero defeats the court officials one by one in quizzes; its current-events questions were already years old on release.",
    "sourceGroups": [
     "neokobe:Princess Quest (Doujin)/Princess Quest [FD].7z"
    ],
@@ -53316,6 +53357,7 @@
     "sha256-fd-v1:735b3d570dd5ca19b545494bbf90d82053c6d0a40098c0be81c6455c148bedc3",
     "sha256-fd-v1:db0af50229da8d0a07698a902824bccc57a445713ae8c47ea6a186b0cdd3e6a7"
    ],
+   "description": "An unofficial fan port of Namco's Bosconian: fly through space destroying enemy battle stations by knocking out their outer cannons or hitting the core, while dodging fighters, missiles, meteors and mines and catching the escaping spy ship.",
    "diskSets": {
     "sha256-fd-v1:db0af50229da8d0a07698a902824bccc57a445713ae8c47ea6a186b0cdd3e6a7": {
      "media": [
@@ -53338,16 +53380,20 @@
    "contentIds": [
     "sha256-fd-v1:70f70d8d493934954ee5388ffd59149926205bf0179120b8a9342229eac8041a"
    ],
+   "description": "A 2D wireframe battle game that won LOGiN's software contest and was sold through Brother's Takeru machines: in 989 New A.D. the giant creature Gavither returns with a huge meteor, and a newly found fighter must stop him for good.",
    "sourceGroups": [
     "neokobe:Prodigy (LOGiN)/Prodigy [FD].7z"
    ],
    "title": "Prodigy"
   },
   "pc88:local-11b5f6ebab": {
+   "adult": true,
+   "adultDescription": "A strip quiz game by the SIVA collective and guest circles; each girl has her own artist and question category.",
    "contentIds": [
     "sha256-fd-v1:1c6af83959459d97cc09d62ca2d45299a2e75706661a4823d447cb9c212f808f",
     "sha256-fd-v1:96b3de79395f472b66f89a747a683b542a27d99fba471d1edc06b2f230bf8f7b"
    ],
+   "description": "A quiz game by the SIVA collective with help from Burning Apple, Creative H.A.T., G.Create and SSG, where each girl has her own artist and quiz category, and music by Onion.",
    "diskSets": {
     "sha256-fd-v1:1c6af83959459d97cc09d62ca2d45299a2e75706661a4823d447cb9c212f808f": {
      "setDisks": [
@@ -53365,6 +53411,7 @@
    "contentIds": [
     "sha256-fd-v1:db209ca90d9982606c3ed163d3a7df50031ef13b058296e55413121aa25256c5"
    ],
+   "description": "One of five Firecracker music disks released together in 1990 for 200 yen each, covering video game music programmed in BASIC MML under ALPHA-mini DOS, which traded some sound quality for a large track count.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 02 - Video Game Century (Doujin - Firecracker)/Firecracker Music Collection Vol. 02 - Video Game Century [FD].7z"
    ],
@@ -53375,6 +53422,7 @@
     "sha256-fd-v1:26b73198a3776dce9ab85434af345d5f21c953d042ca45b10f4126ea10341f33",
     "sha256-fd-v1:2ec52c07293544ac2135f1861d14b70fc060f5642b5ebc7804d4547f3a084147"
    ],
+   "description": "Firecracker's first-anniversary issue (1991), its fifteenth disk in a single year, adding livelier PCM loading screens, a handier track selector and staff credits that roll over the ending theme of Dragon Slayer: The Legend of Heroes.",
    "diskSets": {
     "sha256-fd-v1:2ec52c07293544ac2135f1861d14b70fc060f5642b5ebc7804d4547f3a084147": {
      "setDisks": [
@@ -53389,11 +53437,14 @@
    "title": "Firecracker Music Collection Vol. 15 - First Anniversary!!"
   },
   "pc88:local-1240ead271": {
+   "adult": true,
+   "adultDescription": "A blackjack-like card game where winning makes the women undress until each one's full picture is revealed, with three tries per woman.",
    "contentIds": [
     "sha256-fd-v1:7e7cb20e46213e35cf162a8a106fdaedb56132d1b2837991bebef6f714f44c58",
     "sha256-fd-v1:d2d9d0c979fdde33cb44f5b9581626e2f4f72f086c558484674e2ca58dd7ab01",
     "sha256-fd-v1:f7a56681daafe41bf75675ae3d4ace276df1b6b17a1dc932753ae13f66e46163"
    ],
+   "description": "A blackjack-like card game in which reaching 21 is not always best and going over is not always a loss, with three tries against each opponent.",
    "diskMachine": {
     "sha256-fd-v1:7e7cb20e46213e35cf162a8a106fdaedb56132d1b2837991bebef6f714f44c58": {
      "clock": 4
@@ -53454,12 +53505,15 @@
    "title": "Studio Flapper Music Disk Vol. 5"
   },
   "pc88:local-1311ce2393": {
+   "adult": true,
+   "adultDescription": "Burning Apple's erotic sequel in which the hero leaves his body as a ghost to have sex with girls, more explicit than the first game, with action-adventure elements.",
    "contentIds": [
     "sha256-fd-v1:00a26974c240911f06eda21306b29c51526f0bc08a2208cc84c38bcd18a40320",
     "sha256-fd-v1:355c6711372010a56fd952625fcb4f31e69c1f168b4832b66b3dc67ae3465724",
     "sha256-fd-v1:9ab16241090207f4b151223fe78ae046e3da9f66593b1333bbae55fad27f1eee",
     "sha256-fd-v1:c8afc7d8bce4a6a73342dd49d361770aec1357d087090ac9277306c62c08b5d8"
    ],
+   "description": "Burning Apple's sequel adventure with action elements, in which the hero leaves his body as a spirit; its artwork was later carried almost unchanged into the commercial Sweet Angel from Active.",
    "diskSets": {
     "sha256-fd-v1:c8afc7d8bce4a6a73342dd49d361770aec1357d087090ac9277306c62c08b5d8": {
      "media": [
@@ -53486,6 +53540,7 @@
     "sha256-fd-v1:d42e38c658f8c77d24f19424a64bf0991dd0c5a44e4ee773707b4b305e315c02",
     "sha256-fd-v1:ea5e2096a43f946563e2655b2ae2e5459467b29ced36f916aab604257b64e375"
    ],
+   "description": "A doujin sequel to Bothtec's The Scheme, made quickly by the same staff and sold only once at Comiket: a brutally hard action game pairing Ys III-style side-scrolling with The Scheme's shooting, with a surreal streak of flying cows and Sound Board II music by Yuzo Koshiro.",
    "diskSets": {
     "sha256-fd-v1:3d8413bc03920bf648963401d67e6ff1453d1552e983b1b99023f7427e7c2304": {
      "setDisks": [
@@ -53517,6 +53572,7 @@
    "contentIds": [
     "sha256-fd-v1:1fcc639712ca842cc0fd5a03e53a7326c81941e3b771861f6e1d1c69f8d780b5"
    ],
+   "description": "A Ryokusui Sound Team music disk featuring a large selection of Dragon Quest III arrangements.",
    "sourceGroups": [
     "neokobe:RST Music Disk Vol. 04 (Doujin - Ryokusui Sound Team)/RST Music Disk Vol. 04 [FD].7z"
    ],
@@ -53532,9 +53588,12 @@
    "title": "Repeat"
   },
   "pc88:local-14004dcb7f": {
+   "adult": true,
+   "adultDescription": "A dungeon-crawling RPG hunting for pompoms where every enemy is a young woman who undresses instead of dying when beaten.",
    "contentIds": [
     "sha256-fd-v1:2ca8aa8bab100039eefbc73a73599d6eed982fde49ab90bea1f7cd147f962982"
    ],
+   "description": "A dungeon-crawling RPG: buy weapons, armor and a spell, then search a dungeon for pompoms, choosing to fight, cast or flee in random encounters.",
    "sourceGroups": [
     "neokobe:Pon Pon Quest (Doujin - Soft House Indojin)/Pon Pon Quest [FD].7z"
    ],
@@ -53544,6 +53603,7 @@
    "contentIds": [
     "sha256-fd-v1:4aef2c00f6b6f12afd57be4581b45bb6cafc2126bf1cce94d0357b61e7d2b40f"
    ],
+   "description": "The quietly released third episode of Amazing Disk, OSS's TRON Computer Diagnosis, which tells a story the player advances by answering yes or no.",
    "sourceGroups": [
     "neokobe:Amazing Disk Episode III (Doujin - Alphax)/Amazing Disk Episode III [FD].7z"
    ],
@@ -53553,6 +53613,7 @@
    "contentIds": [
     "sha256-fd-v1:1b531df7f7030d492635dff6a7e563f98fff2d53cb0eacce3b5637c9ec34949b"
    ],
+   "description": "A comic adventure that is really a minigame collection: otaku Arashi Tanaka travels to the end of the Edo period, where Ryoma Sakamoto kidnaps his time-machine-inventing relative, and must win minigames to recruit great figures from history, starting in ancient Egypt.",
    "sourceGroups": [
     "neokobe:Ishin no Game Center Arashi (Doujin - Camadamia Soft)/Ishin no Game Center Arashi [FD].7z"
    ],
@@ -53712,6 +53773,7 @@
    "contentIds": [
     "sha256-fd-v1:d84f7b9975573a6042bf920e8de579290d2581f1c7d5e69938c9e2ec8fe902a0"
    ],
+   "description": "A Firecracker music disk made for Comiket 42 in August 1992, composed, arranged and programmed by CHEMOOL with PMD: doujin originals and arrangements from Tetraforce, Vapor Trail, Atomic Robo-Kid, Midnight Resistance, Dirt Fox and X68000 Bosconian, among others.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. A - Comike 42 Special (Doujin - Firecracker)/Firecracker Music Collection Vol. A - Comike 42 Special [FD].7z"
    ],
@@ -53722,6 +53784,7 @@
     "sha256-fd-v1:5bb510cc131f7afb85f43e6118ca07f5d00b55da56e4fe658f29164899ba6a80",
     "sha256-fd-v1:c30171a70048436389aba287b403dad5db4f870a759607ed3b65cc6bce5d8d90"
    ],
+   "description": "A doujin horizontal shooter built as a near one-to-one copy of Irem's R-Type.",
    "diskSets": {
     "sha256-fd-v1:5bb510cc131f7afb85f43e6118ca07f5d00b55da56e4fe658f29164899ba6a80": {
      "setDisks": [
@@ -53778,10 +53841,13 @@
    "title": "Gyakushuu no Necross"
   },
   "pc88:local-164b4123dd": {
+   "adult": true,
+   "adultDescription": "An erotic adventure, Elein Soft's first on disk (1987): as erotic manga artist Miki Kawada, pick up girls for sex while hunting for material.",
    "contentIds": [
     "sha256-fd-v1:2b382c2e32621972895eba46b738ce4304243280f31d84f61aa48b477fe814ef",
     "sha256-fd-v1:72dcb9f632d1e2196fbf891cb55f08a14b3cd3ba5847949554fa5c5662888b19"
    ],
+   "description": "Elein Soft's first software release (1987), after three earlier volumes appeared in print: as manga artist Miki Kawada, go out picking up girls in search of material for your work.",
    "diskSets": {
     "sha256-fd-v1:72dcb9f632d1e2196fbf891cb55f08a14b3cd3ba5847949554fa5c5662888b19": {
      "setDisks": [
@@ -53799,6 +53865,7 @@
    "contentIds": [
     "sha256-fd-v1:0b69e4052bda99eca4993e1a5415fdb7e38489d5eaa413ac0f3b8787bd69d24f"
    ],
+   "description": "Firecracker's 1990 music disk devoted to Konami SCC-chip tunes such as Gradius II and Parodius, with a PCM-voiced Chichibinta Rika theme as its centerpiece.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 08 - Konami SCC Masterpieces (Doujin - Firecracker)/Firecracker Music Collection Vol. 08 - Konami SCC Masterpieces [FD].7z"
    ],
@@ -53808,6 +53875,7 @@
    "contentIds": [
     "sha256-fd-v1:d2218f61127fa6c221ae6b4c90bdce6b86f5dd25f22c68c5f52b726013ff0505"
    ],
+   "description": "Probably the first doujin disk magazine, by BERO of Dennou Kagaku Kenkyuujo, promoter of the Pi image format: his columns plus playable trials of the circle's games, handed out at Pasoket events for the price of the disk.",
    "sourceGroups": [
     "neokobe:Dennou Tsuushin Vol. 1 (Doujin - Dennou Kagaku Kenkyuujo)/Dennou Tsuushin Vol. 1 [FD].7z"
    ],
@@ -53910,6 +53978,7 @@
    "contentIds": [
     "sha256-fd-v1:06a4f0644e8438ac854169c469428c4caf789a678c82e215ac088c8a6c6b6b2a"
    ],
+   "description": "Team TBL's Tetris clone with a normal mode, where clearing a set number of lines advances the level, and an endless mode played until all lives are lost, both speeding up as they go, plus a music mode.",
    "sourceGroups": [
     "neokobe:Tinker Bell 2 (Doujin - Team TBL)/Tinker Bell 2 [FD].7z"
    ],
@@ -53921,6 +53990,7 @@
     "sha256-fd-v1:6cfc34e872aabfefd79ff92d74a1b09ccbbd1de322ff07104b3a147a904fea18",
     "sha256-fd-v1:d98ff3cab6fad35e4729f46370e3898fcabd544cbc9309aa0746eb7e3d2ab633"
    ],
+   "description": "LOGiN magazine's first original tool, introduced in its November 1986 issue: a PC-8801 kit for building your own Ultima-style overhead RPGs, often cited as a forerunner of RPG Tsukuru.",
    "diskMachine": {
     "sha256-fd-v1:6c760087fbe991040fd038bbedc302976fb49d0b5393f276eba82193f72a8c61": {
      "basic": "v1s"
@@ -53952,6 +54022,8 @@
    "title": "RPG Construction"
   },
   "pc88:local-187ec06f9c": {
+   "adult": true,
+   "adultDescription": "An erotic adventure about a first-year high-school girl who meets her former classmate in a park.",
    "contentIds": [
     "sha256-fd-v1:0b397b200f7cddc07fee1f3dff0303b500ee22c91e1c5149875a2b7f0a36361d",
     "sha256-fd-v1:8af1744eef35dff0ef28271ee3cb24ad07ff15624c0fea5d0eb34b667ffc6538",
@@ -53959,6 +54031,7 @@
     "sha256-fd-v1:e4bfc55533cadb9626f79eeb379f4ab6aa690165a3c6f85eef770c6046637f63",
     "sha256-fd-v1:ff53e3892af409b1cf8fb32424991c916cbe50a18a62fe976d898af65addbe34"
    ],
+   "description": "An adventure about Kimiko Suzuki, a first-year schoolgirl at St. Francisco Girls' School, who runs into her junior-high classmate Sakaguchi in a park.",
    "diskSets": {
     "sha256-fd-v1:e4bfc55533cadb9626f79eeb379f4ab6aa690165a3c6f85eef770c6046637f63": {
      "setDisks": [
@@ -53981,6 +54054,7 @@
     "sha256-fd-v1:b0e760d8676769f6849091491d1ee0043494d09c8a9a38f734aba32ea28c2a74",
     "sha256-fd-v1:b72272743b7f6fe95518089947a9665b4072ff925103d41240b4df265a268c44"
    ],
+   "description": "A top-down adventure in the style of Old Village Story: a young woman searches the Forest of No Return for her lover, who went exploring there, avoiding beasts and monsters with her wits rather than fighting.",
    "diskSets": {
     "sha256-fd-v1:7ca6f2e15eb3283f25534adad80dd4d33350d3ab0ff7e9e6af07b163fd81a9fe": {
      "media": [
@@ -54106,11 +54180,14 @@
    "title": "Peach Club"
   },
   "pc88:local-1b30983a09": {
+   "adult": true,
+   "adultDescription": "An adventure with sex scenes: the hero returns a found purse, and picking the right path leads to a sex scene played by pressing 1, 2 and 3 in the correct order.",
    "contentIds": [
     "sha256-fd-v1:1ecc83046d1edc4b2500381f7d3b72ff00909e3ac0bab05432b3aef496335f75",
     "sha256-fd-v1:559f4efe49a25e07eddb934a57712cbd61fce943dcd457c68801e82d3714ba2a",
     "sha256-fd-v1:d1024024467d3bf025470e4858295537b109aca8f5da50df59c6b6e0eae9d5eb"
    ],
+   "description": "An adventure in which the hero finds a purse and must return it to the right person; wrong choices leave him empty-handed.",
    "diskSets": {
     "sha256-fd-v1:d1024024467d3bf025470e4858295537b109aca8f5da50df59c6b6e0eae9d5eb": {
      "media": [
@@ -54143,6 +54220,7 @@
    "contentIds": [
     "sha256-fd-v1:50b20cd8598ca81dc8296e0a09120e58ec21d12178e70b05553883ccaa464ac6"
    ],
+   "description": "A 1991 Firecracker disk heavy on Dragon Saber and Dragon Spirit music, also featuring Actraiser with string PCM samples, picks from E.D.F. and Kengou, and original pieces by guest composers.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 17 - Show Your Good Sounds! (Doujin - Firecracker)/Firecracker Music Collection Vol. 17 - Show Your Good Sounds! [FD].7z"
    ],
@@ -54152,15 +54230,19 @@
    "contentIds": [
     "sha256-fd-v1:99ce15054bb47b77a2d12a6541a7cacaa0b383ce445ec3096b35b545c6c6e2b7"
    ],
+   "description": "A card game played with mahjong-tile symbols: the player and the computer take turns placing cards, and each placement changes a map on the board.",
    "sourceGroups": [
     "neokobe:Bargon no Paka Paka Daibouken (Doujin - Color 66)/Bargon no Paka Paka Daibouken [FD].7z"
    ],
    "title": "Bargon no Paka Paka Daibouken"
   },
   "pc88:local-1cc03f0f93": {
+   "adult": true,
+   "adultDescription": "A placement puzzle where each piece must differ in color and pattern from its row and column; clearing stages gradually reveals a picture of a woman.",
    "contentIds": [
     "sha256-fd-v1:894a2b20f3a05cfde781270e85736adf0957976532842e2dfb94e829c6642652"
    ],
+   "description": "A placement puzzle in the spirit of the eight queens problem: put the randomly offered pieces where they match no piece in the same row or column by color or pattern until the quota is filled, with a help function and swappable data disks of other designs.",
    "sourceGroups": [
     "neokobe:Card Force IV (Doujin - SSL & Peach Land)/Card Force IV [FD].7z"
    ],
@@ -54170,6 +54252,7 @@
    "contentIds": [
     "sha256-fd-v1:876cf85e7a6b9d2114e81d5058a8479db2451514f9c3ce4f1eeee25ff4b38187"
    ],
+   "description": "A 1985 adventure whose original story and script were written by science-fiction novelist Sakyo Komatsu; commands are chosen with the function keys and the player moves with the numeric keypad.",
    "diskMachine": {
     "sha256-fd-v1:876cf85e7a6b9d2114e81d5058a8479db2451514f9c3ce4f1eeee25ff4b38187": {
      "basic": "v1s"
@@ -54236,6 +54319,7 @@
    "contentIds": [
     "sha256-fd-v1:71f1ea432ec4bfe0ce7dc362495455c00fff5813747a473bd56e11fd1aa09364"
    ],
+   "description": "The first Imagical Musion Depot (1994), a 35-track anthology that Active Gamers produced for the Takeru vending machines with well-known doujin musicians including NT-3, Monden, OSATOH, yon and Anima.",
    "sourceGroups": [
     "neokobe:Imagical Musion Depot Vol. 1 (Doujin - Active Gamers)/Imagical Musion Depot Vol. 1 [FD].7z"
    ],
@@ -54245,6 +54329,7 @@
    "contentIds": [
     "sha256-fd-v1:81bd55de84c22172aa8e2c49b3816f75d3bcb33d6e27b5dd0fa7f5618ff6d026"
    ],
+   "description": "Released in 1993 after a year-long gap, this Firecracker disk covers four titles: Sword Dancer, the X68000's Little Chinese Final, Gravity Response and Variable Geo.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 29 - Battle Game Issue (Doujin - Firecracker)/Firecracker Music Collection Vol. 29 - Battle Game Issue [FD].7z"
    ],
@@ -54254,6 +54339,7 @@
    "contentIds": [
     "sha256-fd-v1:4b34182e5c93d37c91760217720a2ac3171ade7e67215345dac66f13ac4cf246"
    ],
+   "description": "A doujin RPG about a young man on an island who fights monsters and human enemies while buying better weapons and armor.",
    "sourceGroups": [
     "neokobe:Jark (Doujin - TKO Soft)/Jark [FD].7z"
    ],
@@ -54391,6 +54477,7 @@
     "sha256-fd-v1:c828746b1a2f9db47afa78a7114dd88c7c1dd64e4cc81e9721a9a3089b4a6a14",
     "sha256-fd-v1:ee73dbe9db77095bcfffec64d44f7cb9d694260a52da658ff79b48122f1ef4a5"
    ],
+   "description": "A naval simulation: command the sailing ship Thousantis in semi-turn-based battles against other ships, and perhaps find land to go ashore.",
    "diskMachine": {
     "sha256-fd-v1:c828746b1a2f9db47afa78a7114dd88c7c1dd64e4cc81e9721a9a3089b4a6a14": {
      "basic": "v1s"
@@ -54413,6 +54500,8 @@
    "title": "Adventure of Thousantis"
   },
   "pc88:local-20b0d31cfe": {
+   "adult": true,
+   "adultDescription": "A three-disk erotic dungeon RPG with girl enemies; captured princesses can be taken home for sex scenes.",
    "contentIds": [
     "sha256-fd-v1:03bc5306e34d20f268007070181682ee31f96ab021aea446e343713846308f30",
     "sha256-fd-v1:1c9dfb638a1673144020bcdc4bdc6f2aa27d23b14e73a278f0dd230d45cb0666",
@@ -54421,6 +54510,7 @@
     "sha256-fd-v1:a4d0551c1445e9e9513a5061657facd9ff3dda03bb116b42fee451b05db6bf3e",
     "sha256-fd-v1:fc1f6367e0caf7f5cf750075df5746db762c78d7c83f6d18cb79078b00578ebf"
    ],
+   "description": "A three-disk RPG set in a Wizardry-style wireframe dungeon where the enemies are girls, in the manner of Chaos Angels, with puzzles and events along the way and art by ASUKA.",
    "diskSets": {
     "sha256-fd-v1:667b06770492cf1ea4a84c49462065c055a34471d584c41e29ad273dc69b9cb4": {
      "media": [
@@ -54459,6 +54549,7 @@
     "sha256-fd-v1:9680a5e1124d8136b66b77f7755d58e5778648cf30bc3ec9352eb0f3921033e8",
     "sha256-fd-v1:9686e9d292fcb9a9db9f4646df51d2c5d6097cba80f57d297fb176a9afdba985"
    ],
+   "description": "A 1990 Firecracker disk of minor game music, covering rarely arranged titles such as Cyber Tank and Atomic Robo-Kid; it loads PCM much faster than earlier issues and hides a 31st track that only plays when the computer's clock is set to December.",
    "diskMachine": {
     "sha256-fd-v1:9686e9d292fcb9a9db9f4646df51d2c5d6097cba80f57d297fb176a9afdba985": {
      "clock": 4,
@@ -54485,6 +54576,7 @@
     "sha256-fd-v1:d0867486dc3fde232b43d4313b7b4b91e7e951f49995bfaefda4c83babe76983",
     "sha256-fd-v1:e24a8ea0498c854e0d546e89cf32c0aeb840c2351fcc36fdae523dfeda942c42"
    ],
+   "description": "A three-disk RPG also sold on Takeru: Areos, son of a hero, travels a demon-ridden land after the sword that once sealed an ancient god, in an episodic multi-scenario story with adventure-style towns, a map for travel, and first-person battles that raise stats after every fight.",
    "diskSets": {
     "sha256-fd-v1:68d8fbdfbd4f95659c0abc55b07a3e1f1e69795f33bdcaf7ca39be88836788ad": {
      "media": [
@@ -54518,6 +54610,7 @@
    "contentIds": [
     "sha256-fd-v1:00bd4ea26062f082da1ba83cd86c58f831643fa28dd71a0dea997ba67ed8bad5"
    ],
+   "description": "A Plotting-style puzzle game: throw the block in hand to remove matching blocks against a time limit, aiming to finish with only three blocks left.",
    "sourceGroups": [
     "neokobe:Flippal (Doujin - Genkichi Soft)/Flippal [FD].7z"
    ],
@@ -54528,6 +54621,7 @@
     "sha256-fd-v1:22aaeea780df5ea5b5974fd8603294c2c8d0eda52f388531a7ac711f3a2eb874",
     "sha256-fd-v1:afe6ed1481d9ebf16a44803586e191f749b156b96263c72aa2d214ac75166cc4"
    ],
+   "description": "A card game whose title mimics Xevious: the economic control system Yyeleiss has run amok, and the player must beat its three guard computers at Nine Card, which turns out to be the Japanese game Kabu; the girl beside the table plays no part.",
    "diskSets": {
     "sha256-fd-v1:afe6ed1481d9ebf16a44803586e191f749b156b96263c72aa2d214ac75166cc4": {
      "setDisks": [
@@ -54564,6 +54658,7 @@
     "sha256-fd-v1:3ec06bac67f230e8a28f962f7d42550f2ef1c5f3baaab31ce942246004216a8b",
     "sha256-fd-v1:fd2329928d6274a8f9228b2224f674be9f15a57fd9e53525d9197a328b7ec28f"
    ],
+   "description": "A fixed-screen shooter in which a spellcaster blasts slimes and other creatures; each very different boss defeated adds a new spell to the starting fireball.",
    "diskSets": {
     "sha256-fd-v1:3ec06bac67f230e8a28f962f7d42550f2ef1c5f3baaab31ce942246004216a8b": {
      "media": [
@@ -54727,6 +54822,7 @@
    "contentIds": [
     "sha256-fd-v1:936cfcdbe718c1047029f391e9155869885a865caab8d4eadd5baec3285c9e53"
    ],
+   "description": "A vertical shooter made with the shooting-game editor included in Tatesuka Wars.",
    "diskMachine": {
     "sha256-fd-v1:936cfcdbe718c1047029f391e9155869885a865caab8d4eadd5baec3285c9e53": {
      "subcpu": "disk"
@@ -54742,6 +54838,7 @@
     "sha256-fd-v1:b3f84b3a9f746d51c021dde5b43041c4c9a54185dfcf6cf50ed45d20a8470b4e",
     "sha256-fd-v1:f376b455a971abe5439b8e3ae5c30a9c7fa776677d5b702225faf563c11b3184"
    ],
+   "description": "A demo built on the first ending song of the anime NG Knight Ramune & 40.",
    "diskSets": {
     "sha256-fd-v1:f376b455a971abe5439b8e3ae5c30a9c7fa776677d5b702225faf563c11b3184": {
      "media": [
@@ -54764,6 +54861,7 @@
    "contentIds": [
     "sha256-fd-v1:9eaaaf1548cffde3fc9143027d50aa64499aa5c89d6c0efc2d3a7dd65c0e3bdd"
    ],
+   "description": "Junichi Ueda's second music disk: arrangements from Turbo OutRun, Galaxy Force, Burning Force, The Legend of Valkyrie, Power Drift and Night Striker, a few of Ueda's own compositions, and odd covers such as the children's song Oyoge! Taiyaki-kun.",
    "sourceGroups": [
     "neokobe:Ueda Junichi BGM Collection Vol. 2 (Doujin - PSG Soft)/Ueda Junichi BGM Collection Vol. 2 [FD].7z"
    ],
@@ -54793,6 +54891,7 @@
     "sha256-fd-v1:de27faa2214f9f8f13fc4a74c11b84c065c0cbdbf47299d368241bbfc92db253",
     "sha256-fd-v1:de405093052f51b7d43e8097114c264aed74a70c2353c50fd742c332eccd0a47"
    ],
+   "description": "Zeal Soft's 50-yen command-driven romance adventure: a schoolgirl who fell for Hiroshi after he hit her with a football as a child tries to win his heart years later.",
    "diskSets": {
     "sha256-fd-v1:de405093052f51b7d43e8097114c264aed74a70c2353c50fd742c332eccd0a47": {
      "setDisks": [
@@ -54838,6 +54937,7 @@
    "contentIds": [
     "sha256-fd-v1:195b4946c941ecaaf7cc2e69dbf3d46dfb6033eb804061b20b9b271b84379ba5"
    ],
+   "description": "Released alongside volume 33 in 1996, this Firecracker disk is built around the Harlem Blade soundtrack with further tracks hidden behind a keyboard trick, and was apparently the circle's last new music disk.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 34 - Harlem Blade Recollection (Doujin - Firecracker)/Firecracker Music Collection Vol. 34 - Harlem Blade Recollection [FD].7z"
    ],
@@ -54967,6 +55067,7 @@
    "contentIds": [
     "sha256-fd-v1:80175d5d7a468715ea50b1ec4cfc1f662db9957c0405efdf34c8f2b5fe4abd52"
    ],
+   "description": "A vertical shooter made with Tatesuka Wars' editor: choose which power-up to take from those dropped by enemies, clear the screen with wipers, and face bosses; a PC-98 sequel followed.",
    "diskMachine": {
     "sha256-fd-v1:80175d5d7a468715ea50b1ec4cfc1f662db9957c0405efdf34c8f2b5fe4abd52": {
      "subcpu": "disk"
@@ -54981,16 +55082,20 @@
    "contentIds": [
     "sha256-fd-v1:9042f4536fca83d21f434bf90f13d565bd96b1199e3ba33dfbd5d97a95d7fd89"
    ],
+   "description": "A 1992 edition of NT-3's music disk Yume no Fantasia for computers without a Sound Board II: the same content on the standard FM sound, minus the game music corner, for 41 tracks.",
    "sourceGroups": [
     "neokobe:Yume no Fantasia Normal - NT-3 Music Disk (Doujin - Active Gamers)/Yume no Fantasia Normal - NT-3 Music Disk [FD].7z"
    ],
    "title": "Yume no Fantasia Normal - NT-3 Music Disk"
   },
   "pc88:local-2be6088c6c": {
+   "adult": true,
+   "adultDescription": "An Arkanoid-style block breaker with 45-degree rebounds; clearing a screen colors in the erotic background picture.",
    "contentIds": [
     "sha256-fd-v1:13c2680a9fb51efae79f56235900a1e5eafa15c1fbf464235f2a9ce82a31ed89",
     "sha256-fd-v1:fb7fe7dccb64dd099acaa447cea3f38d94a7af56f6a2160467bee4dec114ccbc"
    ],
+   "description": "An Arkanoid-style block breaker whose ball only rebounds at 45-degree angles.",
    "diskSets": {
     "sha256-fd-v1:fb7fe7dccb64dd099acaa447cea3f38d94a7af56f6a2160467bee4dec114ccbc": {
      "setDisks": [
@@ -55191,6 +55296,7 @@
    "contentIds": [
     "sha256-fd-v1:faf0f88ae1d871a2fd49a8d410cc9e7a3d5e4727c23139060d90786c02d16c22"
    ],
+   "description": "A war simulation themed on the Gulf War, opening with a debt-ridden man picking a fight with a wealthy girl; the weak Kuwaiti army makes pushing back the Iraqi forces very hard.",
    "sourceGroups": [
     "neokobe:Summer Resort Chuukintou (Kuwait Defence War) (Doujin - DSK)/Summer Resort Chuukintou (Kuwait Defence War) [FD].7z"
    ],
@@ -55297,10 +55403,13 @@
    "title": "The Continuing Story of Maru-guro Marumaru-zou"
   },
   "pc88:local-2fae9ca69f": {
+   "adult": true,
+   "adultDescription": "The second Sadistic Gamers quiz from Sixteens (1990): a struggling student's supplementary lesson with his teacher turns into sex if he answers enough questions correctly.",
    "contentIds": [
     "sha256-fd-v1:37a2510846422dc2a1b7b7f0f9135eb526f14c4e8a232dbd61d543de2275b0ed",
     "sha256-fd-v1:6d7ef7a8ae4a0652c7b1d3c2128d017b0b0f0a700d6a533499ebebd7f9aa20ed"
    ],
+   "description": "The second Sadistic Gamers quiz from Sixteens (1990): a student struggling with his studies takes a supplementary lesson from his teacher, and answering her questions well moves the lesson along.",
    "diskMachine": {
     "sha256-fd-v1:6d7ef7a8ae4a0652c7b1d3c2128d017b0b0f0a700d6a533499ebebd7f9aa20ed": {
      "commands": [
@@ -55339,6 +55448,7 @@
    "contentIds": [
     "sha256-fd-v1:9e3fcc03f6cd0276167e527afd9d75e44f84a9d51551ceeaf0ca45df1b4a0edf"
    ],
+   "description": "Megafeps' third collection of original compositions (1992), bright tunes with high bell-like melodies and darker pieces driven by restless bass lines and syncopation, plus a guest track by Firecracker's CHEMOOL.",
    "sourceGroups": [
     "neokobe:Music Arena Vol. 5 (Doujin - Megafeps)/Music Arena Vol. 5 [FD] [b].7z"
    ],
@@ -55348,6 +55458,7 @@
    "contentIds": [
     "sha256-fd-v1:65055cab81a72f4bc113d2b11e3ae4170f218cde88f31a79ca0711ba5e0a9227"
    ],
+   "description": "A parody of the classic Star Trek strategy game, also released on the FM-7.",
    "sourceGroups": [
     "neokobe:Uchuu Senkan Yamato Takeru (Xtalsoft)/Uchuu Senkan Yamato Takeru [FD].7z"
    ],
@@ -55380,6 +55491,7 @@
    "contentIds": [
     "sha256-fd-v1:897905111426cfe963004367bd3db1f6834b4e5545754a4576a020185ec934a4"
    ],
+   "description": "A board game for one to four players that claims to be about life but is really about spreading your color across the board, entirely at the mercy of the die.",
    "sourceGroups": [
     "neokobe:Tomita (Doujin - Hi-Room)/Tomita [FD].7z"
    ],
@@ -55414,6 +55526,7 @@
     "sha256-fd-v1:1f646844e041fcf4608b295cd28e96b98b99f0e3d766efd0f75affccab9af38c",
     "sha256-fd-v1:c9e0fd7637f9ed2a130693cec03f51894a32c4aeaf6ca611efad05e8d2b7dbd8"
    ],
+   "description": "ECE Software Factory, pioneers of doujin quiz games, made this 1987 quiz with graphics by NAO Graphics Lab and title music by a young Yuzo Koshiro.",
    "diskSets": {
     "sha256-fd-v1:c9e0fd7637f9ed2a130693cec03f51894a32c4aeaf6ca611efad05e8d2b7dbd8": {
      "setDisks": [
@@ -55440,6 +55553,7 @@
    "contentIds": [
     "sha256-fd-v1:748722ef66fa292b0f73386f5465688b41b4c2b75ea70ad36c22d20118411506"
    ],
+   "description": "An adventure on a mysterious island populated mostly by young women: talk to people, examine things and wander around to learn what the island is about.",
    "sourceGroups": [
     "neokobe:Bishoujo Jackal 2 - Ore no Shima (Doujin - Unique's)/Bishoujo Jackal 2 - Ore no Shima [FD].7z"
    ],
@@ -55449,6 +55563,7 @@
    "contentIds": [
     "sha256-fd-v1:89d0656d947c5405ef8f27face9f387a55958b2695f532cb9b230ba7d1c46a64"
    ],
+   "description": "A 1991 Firecracker collection of hard-edged covers from Bosconian, Actraiser, Genocide, Lagoon and The Scheme, plus a standout Night Arms arrangement, alongside one contributor's renditions of Wink and Yuki Saito pop songs.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 18 - Ardor for Game Music (Doujin - Firecracker)/Firecracker Music Collection Vol. 18 - Ardor for Game Music [FD].7z"
    ],
@@ -55464,15 +55579,20 @@
    "title": "Tauropon"
   },
   "pc88:local-32b6fa36c7": {
+   "adult": true,
+   "adultDescription": "A block-pushing puzzle where a heart steers a self-walking young woman to the exit; every fifth level a cutscene shows her undressing.",
    "contentIds": [
     "sha256-fd-v1:89d475e1e9e60a2638151596926fcf0055ae0fbe0d278c7895e75f7cf8541a87"
    ],
+   "description": "A block-pushing puzzle in which the player, a heart, moves blocks to steer a young woman who walks on her own toward the exit door.",
    "sourceGroups": [
     "neokobe:Mature (Doujin - Excel Soft)/Mature [FD].7z"
    ],
    "title": "Mature"
   },
   "pc88:local-32c2ca5469": {
+   "adult": true,
+   "adultDescription": "Onion Software's 1986 Ultima-style parody RPG with erotic content: rescue a captive princess from a dungeon, with gag cameos by other circles and very high difficulty.",
    "contentIds": [
     "sha256-fd-v1:1e965af86cd487735a8064a052ddf6bae20eb8b94290d64fd512eb41403e8643",
     "sha256-fd-v1:4f06978c1c4525b2b99fd38738c960b4cef3b39c96adb1925e6ca51678e66c55",
@@ -55480,6 +55600,7 @@
     "sha256-fd-v1:ce50f21da55582e8fdabe36f1a1cfe6b9793c7f0681fefe0f089cbd3c46288bb",
     "sha256-fd-v1:f214703a3db58dfecb2d2921548b5c48ba389cc4f81eaa4b7ec027be43faa815"
    ],
+   "description": "Onion Software's 1986 parody RPG in the Ultima mold: rescue a princess held deep in a dungeon, with gags throughout, cameos by other doujin circles, punishing difficulty and a hidden Majaventure picture as a bonus; it was one of the magazine-featured titles that first made doujin software known.",
    "diskMachine": {
     "sha256-fd-v1:1e965af86cd487735a8064a052ddf6bae20eb8b94290d64fd512eb41403e8643": {
      "basic": "v1s"
@@ -55538,6 +55659,7 @@
    "contentIds": [
     "sha256-fd-v1:a3d7ab1c00dd63c452cb3ef9800ad1e8ffafe5b7bae044760192f07efaef9702"
    ],
+   "description": "A side-scrolling action game in which a knight rescues fairies over adventures of four levels each, with bosses guarding keys, food to restore health, and items like a magic wand, flying shoes and a harmful skull.",
    "sourceGroups": [
     "neokobe:Heroes (LOGiN)/Heroes [FD].7z"
    ],
@@ -55628,6 +55750,7 @@
     "sha256-fd-v1:20460a57ee21644460ffcd2a555c9fdfe4165224d70d4dbf69f0268e2e2ee4bb",
     "sha256-fd-v1:a9b5a672ba8a803b691ffd4b9dec3589a7982958a90b094f895e4b0d42da3239"
    ],
+   "description": "NT-3's first music disk for Active Gamers (1990): 53 tracks, mostly NT-3's own compositions, for the standard FM sound only, with a bonus corner reached by pressing Return on the title screen.",
    "diskSets": {
     "sha256-fd-v1:20460a57ee21644460ffcd2a555c9fdfe4165224d70d4dbf69f0268e2e2ee4bb": {
      "setDisks": [
@@ -55696,6 +55819,7 @@
    "contentIds": [
     "sha256-fd-v1:2adeee7f155405161e83a22ab6100cae0d32c3c50a388ef5b2cf37115e7e0473"
    ],
+   "description": "A fantasy adventure in which Kain, arrived from another world, travels with Myutika, whose black hair marks her as cursed in this land, to defeat the demon king.",
    "sourceGroups": [
     "neokobe:Kurokami no Densetsu (Doujin - Lolita Soft)/Kurokami no Densetsu [FD].7z"
    ],
@@ -55705,6 +55829,7 @@
    "contentIds": [
     "sha256-fd-v1:390eae63d11d591ec23fc960549c40c0f28f4db9f74283472ccbe12da6cb5a4b"
    ],
+   "description": "Onion Software's last PC-88 release (1990), the seventh 100 Yen Disk: the all-weather shooting action game The Busy Home Town, TSUKKA Software's Space Hanazukin-chan and Creative H.A.T.'s racer Yoshio-kun Dasu P!! Mawarunda, with music from eight composers making full use of PCM.",
    "sourceGroups": [
     "neokobe:100 Yen Disk No. 7 Final (Doujin - Onion Soft)/100 Yen Disk No. 7 Final [FD].7z"
    ],
@@ -55792,6 +55917,7 @@
    "contentIds": [
     "sha256-fd-v1:c3ee7ede77667c6ebb3351885ca8577e6e68a656c2a86f3c2f74a89af1f0ed57"
    ],
+   "description": "G_Club Software's 1989 action game: rotate and thrust an inertia-bound craft called the Hunter to reach the goal within the time limit, with cute girl graphics and music by KAJA.",
    "diskMachine": {
     "sha256-fd-v1:c3ee7ede77667c6ebb3351885ca8577e6e68a656c2a86f3c2f74a89af1f0ed57": {
      "clock": 4
@@ -55836,11 +55962,14 @@
    "title": "PC-8801 N88 BASIC system disk"
   },
   "pc88:local-382fc5f0bc": {
+   "adult": true,
+   "adultDescription": "An erotic adventure about a schoolgirl and her older brother, who walks in on her in the shower after gym class; art by Fozon.",
    "contentIds": [
     "sha256-fd-v1:502de1b921297b5fcb3cbb24be3d57dbd348156e84bca84b5d2850173f762eec",
     "sha256-fd-v1:553753d54587c7c2eec7b70878861cd0c2b353dfd2f7d5f5caf3f25cc080390a",
     "sha256-fd-v1:b433b3b3e79beb817a1426d62c1f7fa258d9e47c5264feda54374d4e489d05dd"
    ],
+   "description": "Swimming-loving schoolgirl Mia plans to stop at a crepe shop with her friend Eriko after school; art by Fozon.",
    "diskSets": {
     "sha256-fd-v1:502de1b921297b5fcb3cbb24be3d57dbd348156e84bca84b5d2850173f762eec": {
      "setDisks": [
@@ -55901,6 +56030,7 @@
     "sha256-fd-v1:50799bb98cff7571155c43fefbb42b31b322a485eb63c96686862338994b43d5",
     "sha256-fd-v1:f8df277744e3e7a24bc85a39dd9aafd700d9474a965ea6f12db457690a841b33"
    ],
+   "description": "A Tetris clone where clearing the required rows lets the player choose between the next level and a harder one.",
    "diskSets": {
     "sha256-fd-v1:f8df277744e3e7a24bc85a39dd9aafd700d9474a965ea6f12db457690a841b33": {
      "setDisks": [
@@ -55930,11 +56060,14 @@
    "title": "Magic Paint 88"
   },
   "pc88:local-38c80bbbe1": {
+   "adult": true,
+   "adultDescription": "A Wizardry-style dungeon RPG where defeated monsters can join the party; a separately sold option disk adds sex scenes with the girl monsters.",
    "contentIds": [
     "sha256-fd-v1:78917b60492ecd9ed0a9b82276b3cb21bd8e6617621274bd9fa5caaaf7dce714",
     "sha256-fd-v1:e8c28082ab3b3fd107dd64a632539b2bdea643072358bb3d204c65a4473f065c",
     "sha256-fd-v1:ff77053c9860ee4ef4c36572b694eb13584c0aad7394ac9a9f90ed646a3414a8"
    ],
+   "description": "A battle-focused, Wizardry-style 3D dungeon RPG where defeated monsters can join the party; it was distributed copy-free with an on-disk manual.",
    "diskSets": {
     "sha256-fd-v1:e8c28082ab3b3fd107dd64a632539b2bdea643072358bb3d204c65a4473f065c": {
      "media": [
@@ -56034,6 +56167,7 @@
     "sha256-fd-v1:3ebac434f5df513401969d5f1d3d3fce4ed99affe0a9b231860a9a905dd4a1c8",
     "sha256-fd-v1:6008eb8dfd5c8b5431bfd39e0e685748bb6c0431b7228166d167daaab300848c"
    ],
+   "description": "A very short Alice in Wonderland adventure in which Alice follows the white rabbit down the hole and the player only picks between two choices at each step.",
    "diskMachine": {
     "sha256-fd-v1:3ebac434f5df513401969d5f1d3d3fce4ed99affe0a9b231860a9a905dd4a1c8": {
      "subcpu": "disk"
@@ -56056,6 +56190,7 @@
    "contentIds": [
     "sha256-fd-v1:c119d52565be334ad4fdfa4c8eb34cc6647d1158646361c114249959f08feec9"
    ],
+   "description": "An FC-Software disk of minigames including Rich Racer (collect dollar signs), a bungee jump scored on depth, a number-mashing cartwheel race and a money grab that speeds up each level.",
    "sourceGroups": [
     "neokobe:Haniriito Vol. 7 (Doujin - FC-Software)/Haniriito Vol. 7 [FD].7z"
    ],
@@ -56065,6 +56200,7 @@
    "contentIds": [
     "sha256-fd-v1:d6ea3beb0b1bf5eef636b0eced59beceb4067086ef2655d3aed1226f5ffbb412"
    ],
+   "description": "ALU Computer Arts' 100-yen bundle of a mostly original music collection and Phrenetic Shooting, a fast fixed-screen bullet-dodging shooter that stood out when most doujin games were slow picture-story adventures.",
    "sourceGroups": [
     "neokobe:Phrenetic Shooting & 100 Yen Ongaku Disk (Doujin - ALU Computer Arts)/Phrenetic Shooting & 100 Yen Ongaku Disk [FD].7z"
    ],
@@ -56122,6 +56258,7 @@
    "contentIds": [
     "sha256-fd-v1:21a49da67d10a9af5d568e5d691df60da78729ee05e2e1fb5c802692b49ab2fa"
    ],
+   "description": "A dice-driven board game with RPG and strategy elements: from the starting inn, stop the rolling die, then fight, hire soldiers or even get drunk depending on the space, aiming to reach and slay the dragon.",
    "sourceGroups": [
     "neokobe:Dragon Blood (Doujin - Studio Hi)/Dragon Blood [FD].7z"
    ],
@@ -56153,6 +56290,7 @@
    "contentIds": [
     "sha256-fd-v1:60362bd3c948cd6e2ea1b8266315ad3e8c02c945d5901c5196efe9fc7f5cb723"
    ],
+   "description": "Firecracker's eleventh music collection (1990), given over almost entirely to Gofer no Yabou Episode II tunes, with CG by Akira Araki; it began using the Sound Board II's 256 KB of RAM as a RAM disk, a buggy feature that led to a second version without it.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 11 - Gofer Episode 2 Issue (Doujin - Firecracker)/Firecracker Music Collection Vol. 11 - Gofer Episode 2 Issue [FD].7z"
    ],
@@ -56162,6 +56300,7 @@
    "contentIds": [
     "sha256-fd-v1:0baff00bec22479befd00b34c0d5206f5c19f5137cccba669b3d1182f8c959ac"
    ],
+   "description": "A two-player-only action game set in a future where war has been replaced by arena battles between tanks that can jump.",
    "sourceGroups": [
     "neokobe:Gunnerays (Doujin - HALT Software)/Gunnerays (demo version) [FD].7z"
    ],
@@ -56269,9 +56408,12 @@
    "title": "Yamase"
   },
   "pc88:local-3f88451dc9": {
+   "adult": true,
+   "adultDescription": "A vertically scrolling shooter that rewards each cleared stage with an erotic illustration; third in Scatter Brain's adult shooter series after Crinex.",
    "contentIds": [
     "sha256-fd-v1:c4046fc88ba6c9c864f0d3b20e0b5f38daf900d03160f7464e338c8c30daecd7"
    ],
+   "description": "Third game in Scatter Brain's shooter series after Crinex, this time a vertically scrolling shooter with forgiving difficulty; an illustration follows each cleared stage, and a no-continue clear on Hard is said to change the ending.",
    "sourceGroups": [
     "neokobe:Scottie Turbo (Doujin - Scatter Brain)/Scottie Turbo [FD].7z"
    ],
@@ -56392,6 +56534,7 @@
     "sha256-fd-v1:03d9b74c41b97d5d2f9c3931825eae605f9f547645d47ab44e80787ecb9f3384",
     "sha256-fd-v1:4feff9c22fafed62ebbf9b6e3a509b41e7d759498de3948d9fe73de32fca1399"
    ],
+   "description": "A novelty disk from Black FTZ: a yellow wire-frame Nadia figure dances all over the screen to an endlessly looping PCM recording of the 'Yashi no Mi Natera' dish-soap jingle. It was ported to the PC-88 after a warm reception on machines like the PC-98.",
    "diskSets": {
     "sha256-fd-v1:03d9b74c41b97d5d2f9c3931825eae605f9f547645d47ab44e80787ecb9f3384": {
      "setDisks": [
@@ -56428,6 +56571,7 @@
     "sha256-fd-v1:ab4942956900d734ccc6bfc923866220479f875e7d74b366d0b1d802a2d80a08",
     "sha256-fd-v1:e465125083e23efde2d8784a5548138bf0a49a886bdbb93582e623a168798f1e"
    ],
+   "description": "Falcom's utility disk for Sorcerian: easily create any of 120 spells, rename items and characters, move characters between save disks, and shop at a store with limited stock that displays whatever you sell, plus extras such as a board game, a quiz and a music mode.",
    "diskSets": {
     "sha256-fd-v1:ab4942956900d734ccc6bfc923866220479f875e7d74b366d0b1d802a2d80a08": {
      "setDisks": [
@@ -56591,6 +56735,7 @@
     "sha256-fd-v1:86e9d3d2364edebfe3fff6602850e7e2e33d0e698b377554ec168c18c475e5a1",
     "sha256-fd-v1:c3ab8608e9162070a32a24d89cbd4331a650255b8cd8f1de4e11ea6894841a80"
    ],
+   "description": "First of the three self-booting Amazing Disk episodes, introduced by a 'mysterious Amazing Disk' narration; this one holds Onion Software's game Box Express Flying in the Sky.",
    "diskSets": {
     "sha256-fd-v1:c3ab8608e9162070a32a24d89cbd4331a650255b8cd8f1de4e11ea6894841a80": {
      "setDisks": [
@@ -56655,6 +56800,7 @@
     "sha256-fd-v1:9ed90b552403f73dbfaf82893b512c21d931916fee2ffa8c93ff8a3a4f3f2c0d",
     "sha256-fd-v1:cc44e74fcbf0bc3710f1fd42dfb162d2bd16453ca9703784d5561903ff923619"
    ],
+   "description": "Fifth disk in Onion Software's 100 Yen Disk series, made with outside circles: Creative H.A.T.'s Fuusen, OSS's sushi puzzle and Jumper 3, the series' first Sound Board II game, with music by Yuzo Koshiro and Shinji Hosoe.",
    "diskSets": {
     "sha256-fd-v1:9ed90b552403f73dbfaf82893b512c21d931916fee2ffa8c93ff8a3a4f3f2c0d": {
      "setDisks": [
@@ -56706,6 +56852,7 @@
     "sha256-fd-v1:567ada281edb4c739713d76683c0871c938eee3a8b367930f9d369ce1aa15be0",
     "sha256-fd-v1:b870e93159693d39f03a983e02e8b96a8cd1bbc265e7b94f868ac1fa19769b4c"
    ],
+   "description": "Third disk in zeal soft's Splash series, nominally an adventure game though the author admits it barely works as one; it features mostly male characters, music by Waki, and a deliberately slack bonus quiz mode.",
    "diskSets": {
     "sha256-fd-v1:4f87771ea5e4760ce9b5780a5a7b98a8b9ccaadac55fb09edabbd8c7972d537a": {
      "media": [
@@ -56738,9 +56885,12 @@
    "title": "Splash 3"
   },
   "pc88:local-47c885c13b": {
+   "adult": true,
+   "adultDescription": "Tsukumo's strip rock-paper-scissors (yakyuuken) game by Tadashi Makimura, based on one in his manga Micom Love; each win makes the girl take off another piece of clothing.",
    "contentIds": [
     "sha256-fd-v1:d5e1a0c62f5dca3bcf91e3fa5076eba37e3f4174fece3ceccf438d135321d8eb"
    ],
+   "description": "Tsukumo's yakyuuken rock-paper-scissors game, a hit among the many versions of the time, by Tadashi Makimura (Mari-chan Kiki Ippatsu) and based on one he drew in his Shonen Magazine manga Micom Love.",
    "diskMachine": {
     "sha256-fd-v1:d5e1a0c62f5dca3bcf91e3fa5076eba37e3f4174fece3ceccf438d135321d8eb": {
      "basic": "v1s"
@@ -56963,9 +57113,12 @@
    "title": "Shiko Shiko Racing"
   },
   "pc88:local-4c63068657": {
+   "adult": true,
+   "adultDescription": "Champion Soft's adult school-themed Fairie's Residence Special side story, subtitled Sailor-fuku to Hitobanjuu, sold with a tie-in comic.",
    "contentIds": [
     "sha256-fd-v1:17b748e84550445ef1221ecb5a7ec5415e8a5b5f2ee851154feeffde536082b6"
    ],
+   "description": "School-themed side story starring the girls of Fairie's Residence, subtitled Sailor-fuku to Hitobanjuu; like the other Specials it came with a comic that ties in with the software.",
    "diskMachine": {
     "sha256-fd-v1:17b748e84550445ef1221ecb5a7ec5415e8a5b5f2ee851154feeffde536082b6": {
      "basic": "v1s"
@@ -56993,6 +57146,7 @@
     "sha256-fd-v1:d25c297fec1b378f3123fbe7459ee46a9a56a4fb62ff97a3ace16e9f90363367",
     "sha256-fd-v1:ec8448e6a3440c3f6ff9673b94d0d73a90a605096061105618deb154fab92c39"
    ],
+   "description": "Three quirky PMD music disks by zeal soft's Kamijo: vol. 1 has a free-talk corner recommending ramen shops over PCM horse-race commentary, vol. 2 a real-time scaling title screen, and vol. 3 oddly named tracks and a menu that appraises your PC-88's resale value.",
    "diskMachine": {
     "sha256-fd-v1:ec8448e6a3440c3f6ff9673b94d0d73a90a605096061105618deb154fab92c39": {
      "clock": 4
@@ -57092,6 +57246,7 @@
     "sha256-fd-v1:56f5da69db259802a87f171e21c5facf276ddfe678c1adc2e219773311500a3c",
     "sha256-fd-v1:e0bf2f9576cbcb56e48450d8b10ec6239f8081e4032fe04a547201a87fc72e19"
    ],
+   "description": "Second 100 Yen Disk omnibus sold at Comiket: Wincrolizeth (dive into a vortex past a boss lifted from Fantasy Zone), the image-guessing quiz Karleloa and four-player block breaker Rotten Wall Jr., the Darius-themed volleyball game Darai Ball, Jumpper II and the first Sushi Game.",
    "diskSets": {
     "sha256-fd-v1:0458d11577786f934c14335716f355504578b9e7e8a798ed1f768a382a9e6555": {
      "setDisks": [
@@ -57122,6 +57277,7 @@
    "contentIds": [
     "sha256-fd-v1:4ee30d3b44f6d23feb210d5c8779258b3bf6af3eb1a52ef5f53ea61be2e87e28"
    ],
+   "description": "Orphe's fourth PC-88 music disk, first sold at Comiket 44 and made for the Sound Board II; it carries fewer tracks than earlier disks but adds a bonus game.",
    "sourceGroups": [
     "neokobe:Sound Theater (Doujin - Orphe)/Sound Theater [FD].7z"
    ],
@@ -57132,6 +57288,7 @@
     "sha256-fd-v1:52daf1cf0fd2f8fbd27a7df2e432847d842a54f5d4b9160ccf08708ba97fcab2",
     "sha256-fd-v1:bb1ab89ccd61af22f44ee5da3993c98acd6200e5053c8d6c7358bae55961204a"
    ],
+   "description": "Third issue of Champion Soft's disk magazine Omega, containing programs such as Uketsukejou ni Attack and Osaka-jou Adventure.",
    "diskSets": {
     "sha256-fd-v1:bb1ab89ccd61af22f44ee5da3993c98acd6200e5053c8d6c7358bae55961204a": {
      "media": [
@@ -57227,6 +57384,7 @@
     "sha256-fd-v1:440389d8a3f633004571c29e67fc527d737283f1d9db3dc14832a20613abc97d",
     "sha256-fd-v1:fa5147c2ab771fe721b902e548c39f7e1f97db8bb7eb71a8c3a6cb2f0df76bb3"
    ],
+   "description": "LOGiN magazine's follow-up to Adventure Tsukuuru, the first 'Tsukuuru' maker, published in the October 1987 issue: a tool for building command-selection adventure games that adds support for pictures.",
    "diskSets": {
     "sha256-fd-v1:fa5147c2ab771fe721b902e548c39f7e1f97db8bb7eb71a8c3a6cb2f0df76bb3": {
      "media": [
@@ -57249,6 +57407,7 @@
    "contentIds": [
     "sha256-fd-v1:2c4bfe96c6e3a99d4d4be70a2d63984bd2d7a9f4a1f313945c889c9b2a09b89b"
    ],
+   "description": "A horizontally scrolling shooter programmed by ZURA, the release that launched Charlie Soft as a doujin circle.",
    "sourceGroups": [
     "neokobe:Sigma (Doujin - Charlie Soft)/Sigma [FD].7z"
    ],
@@ -57273,6 +57432,7 @@
     "sha256-fd-v1:e9217fa98f75960d5886d6b409d0faf951ef7367c6e716acf7b701b648dc6430",
     "sha256-fd-v1:edd829b41d9b394b07771e2a6590cc30ca89895f3fb3fd5fa20179b75f4c3865"
    ],
+   "description": "Princess Mefilia of planet Pure, destroyed by planet Gear, joins the army of planet Utia to take revenge and uncovers one conspiracy after another in this three-part science-fiction adventure on six disks; wrong commands mean instant death.",
    "diskSets": {
     "sha256-fd-v1:a35b639ea5ab0808321f308d53e5e2408c10f638ba6fc78a746e666e6a25ad51": {
      "media": [
@@ -57301,6 +57461,7 @@
     "sha256-fd-v1:6a7ecbd80e16d11291867cf101bd4f9c198c6342640de33c1800dde5ffc20c39",
     "sha256-fd-v1:c9a4631860527bf69a518375ff7632d21c11d16c19a428292afae39999f041b0"
    ],
+   "description": "A fantasy adventure with unusual automapping, built as a campaign system: later scenario disks such as Oono-san Panic and Ninja Keisatsu run on the same engine.",
    "diskSets": {
     "sha256-fd-v1:6a7ecbd80e16d11291867cf101bd4f9c198c6342640de33c1800dde5ffc20c39": {
      "media": [
@@ -57324,6 +57485,7 @@
     "sha256-fd-v1:c43d1c6223ab7d53df02c2ac2d8d34f3a2ec024bc769c6d5c4a992561d97dd97",
     "sha256-fd-v1:daf136986791697dd72ddc9373cb0421c0a3b9ced29ca69936b00ce9d1c589a3"
    ],
+   "description": "A two-disk PMD music collection from Exiz, mainly new pieces from an RPG and from Dragon Star, including Denshou, which drops voice samples into its rhythm over a driving bass line.",
    "diskMachine": {
     "sha256-fd-v1:daf136986791697dd72ddc9373cb0421c0a3b9ced29ca69936b00ce9d1c589a3": {
      "subcpu": "disk"
@@ -57394,10 +57556,13 @@
    "title": "Bekibaki! Robot Gal"
   },
   "pc88:local-5180cd9c16": {
+   "adult": true,
+   "adultDescription": "A poker game on two disks in which the hero takes on girls backed by a gambling syndicate; winning hands lead to erotic artwork of the opponents.",
    "contentIds": [
     "sha256-fd-v1:2112feb36cd30b4a7a943316f7a68ce456e88fa522543b52cf28ecb46d1bcc10",
     "sha256-fd-v1:b1dc077307bae13a2a7d586c536c068ff4d0a5b01c5618727d9aa17252b073c3"
    ],
+   "description": "A hero convinced he is a gambling genius sets out to conquer the world, loses at poker to a girl in a bar, and learns a huge gambling syndicate stands behind her. Color poker duels use life gauges and usable items.",
    "diskMachine": {
     "sha256-fd-v1:2112feb36cd30b4a7a943316f7a68ce456e88fa522543b52cf28ecb46d1bcc10": {
      "clock": 4
@@ -57467,6 +57632,7 @@
    "contentIds": [
     "sha256-fd-v1:281809661a9a9a34f7fa06ced5e1a3d1e1b7a444ea644fcc12d3bc72a8185f02"
    ],
+   "description": "Firecracker's ninth music disk, a small feature on Akumajou Densetsu and Ys music, with a Dirt Fox track crammed into about 13 KB, Kuuga (later bundled with PMD as a sample) and an original by Hacker magazine contributor Yoshinori Mori.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 09 - Arrange Version Issue (Doujin - Firecracker)/Firecracker Music Collection Vol. 09 - Arrange Version Issue [FD].7z"
    ],
@@ -57485,6 +57651,7 @@
    "contentIds": [
     "sha256-fd-v1:59a81b5707203039c30ab75174012a5e95b2bb59e4c71a17795995fb337e9cf7"
    ],
+   "description": "Second in Lolita Soft's gentle fairy-tale adventure series about Sayoko, with a story of girlish sentiment like the first; the single-color graphics come from its move to 400-line mode.",
    "sourceGroups": [
     "neokobe:Sayoko 2 (Doujin - Lolita Soft)/Sayoko 2 [FD].7z"
    ],
@@ -57526,6 +57693,7 @@
    "contentIds": [
     "sha256-fd-v1:1616d405b9fe27458b999c16ce92f8c8b90b1b60cb436f556d25c4f8fa5ed211"
    ],
+   "description": "Firecracker's seventh music disk, the first to switch to the PMD driver and to use PCM samples, and the first to add illustrations, establishing the screen layout the series kept from then on.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 07 - SB2 Full Power!! In PMD (Doujin - Firecracker)/Firecracker Music Collection Vol. 07 - SB2 Full Power!! In PMD [FD].7z"
    ],
@@ -57546,9 +57714,12 @@
    "title": "Kaiketsu! Oyabun Man 2"
   },
   "pc88:local-53d423428c": {
+   "adult": true,
+   "adultDescription": "An RPG-flavored card game in which attack cards uncover erotic pictures, reusing artwork from the circles' releases on other machines such as the X68000.",
    "contentIds": [
     "sha256-fd-v1:4a50e6e1e3baf6f43f5e48d879be48ab33831228bfc66b7ab9316b58c0c7a7f0"
    ],
+   "description": "Third in SSL and Peach Land's card game series, an RPG-flavored game with only four card types: cards are turned up by luck, attack cards reveal more of the picture according to their strength, and monsters cost hit points.",
    "sourceGroups": [
     "neokobe:Card Force 3 (Doujin - SSL & Peach Land)/Card Force 3 [FD].7z"
    ],
@@ -57591,6 +57762,7 @@
     "sha256-fd-v1:342cc23728dbfee6df3aaa2afa986651ca629348ecc99747f67fd10a687e5eda",
     "sha256-fd-v1:a4dd38490663d6063477e732db601ad8d93abc0a4ddb7606d1ed7a2b74d64a14"
    ],
+   "description": "The first sample disk for FSD, Frostforest's very compact FM music driver for the PC-88, running on their large FROST-DOS, with tracks by MKR, Monden, yon\", Osamu Ishikawa, Active Gamers' NT-3 and SHYNER.",
    "diskSets": {
     "sha256-fd-v1:342cc23728dbfee6df3aaa2afa986651ca629348ecc99747f67fd10a687e5eda": {
      "setDisks": [
@@ -57605,6 +57777,8 @@
    "title": "FSD Sample Ongaku Shuu Vol. 1"
   },
   "pc88:local-5487435e63": {
+   "adult": true,
+   "adultDescription": "A two-disk CG collection of about sixteen erotic illustrations by adult manga artist Senno Knife, introduced by the skeletal host of a mansion of demon girls.",
    "contentIds": [
     "sha256-fd-v1:4e8c6239cc28be7cc47465e52ca2934c128f066a24f0cdad9912c8db0d5492d2",
     "sha256-fd-v1:76a9dac75910a090185084ab06c8a0f7659c1d333f77cc933150ad590b40ee58",
@@ -57612,6 +57786,7 @@
     "sha256-fd-v1:c62ba44bb3b8ce5ac9ecf4c22ad089e9bbb9eb4041a570d126675da47fede40f",
     "sha256-fd-v1:e6f3c9e63123a56ee8306bd87506d77f9ee7ff7f0d6a2359a4c6b78aa085bfcc"
    ],
+   "description": "A two-disk picture gallery: a skeletal host welcomes the visitor to his 'mansion of demon girls' far from the human world, after which around sixteen pictures of its girls by manga artist Senno Knife are shown; there is essentially no game.",
    "diskMachine": {
     "sha256-fd-v1:4e8c6239cc28be7cc47465e52ca2934c128f066a24f0cdad9912c8db0d5492d2": {
      "basic": "v1s"
@@ -57712,12 +57887,15 @@
    "title": "Sorcerian Music Library"
   },
   "pc88:local-563034addc": {
+   "adult": true,
+   "adultDescription": "A 1991 TAKERU-exclusive digest collection of Fairytale's adult games, including a digest version of the erotic detective adventure Lipstick Adventure 2.",
    "contentIds": [
     "sha256-fd-v1:1bce56769a5cb0b3e80c9d6d6800bd3f37f427f42b356aad51c519ae862a0ee1",
     "sha256-fd-v1:1d9e4d25f4886ec2ec179176299c3fc11460729d00265ee2a8cd8ac5a0f837c9",
     "sha256-fd-v1:e8390096a18f098f0d7e6e1acdd9970eda020ca23fa82f448688cb9148d47877",
     "sha256-fd-v1:eadd0d8b089b4e2f1b310d02e625c315a870a806ee08ffc79680d04fba9aef10"
    ],
+   "description": "A 1991 digest collection of Fairytale's games sold only through the TAKERU software vending machines, including a digest version of Lipstick Adventure 2.",
    "diskSets": {
     "sha256-fd-v1:1d9e4d25f4886ec2ec179176299c3fc11460729d00265ee2a8cd8ac5a0f837c9": {
      "media": [
@@ -57798,6 +57976,7 @@
    "contentIds": [
     "sha256-fd-v1:b06c4eb9464c468526db5ea251cc768789e9fb065c65d860a907e0d04d50085e"
    ],
+   "description": "Junichi Ueda's second music collection from PSG Soft, with arrangements from Turbo OutRun, Burning Force, Valkyrie no Densetsu and Night Striker, several Ueda originals and odd covers such as Oyoge! Taiyaki-kun; the '+' edition gives the originals titles.",
    "sourceGroups": [
     "neokobe:Ueda Junichi BGM Collection Vol. 2+ (Doujin - PSG Soft)/Ueda Junichi BGM Collection Vol. 2+ [FD].7z"
    ],
@@ -57807,6 +57986,7 @@
    "contentIds": [
     "sha256-fd-v1:77f1cc19ab9e603d6d043716cd4cbff2747e1d8797f51ad90661b1c7b8da5bcb"
    ],
+   "description": "A best-of disk from the music circle Orphe that packs the disk with its original and game music, centered on Hasegawa's compositions and opened by a striking logo effect; it was sold at Comiket 43 to 46 in slightly revised editions.",
    "sourceGroups": [
     "neokobe:Orphe Music Best (Doujin - Orphe)/Orphe Music Best [FD].7z"
    ],
@@ -57840,10 +58020,13 @@
    "title": "NOP Software 1989"
   },
   "pc88:local-58e0335cc1": {
+   "adult": true,
+   "adultDescription": "A two-disk strip poker game with its own seven-suit card deck; the opponent takes off clothing every 10 points, an early example of the strip card game.",
    "contentIds": [
     "sha256-fd-v1:28716ee8577820e38e1d078b6035fb2f07a9273e0784d280f119de5b23c39311",
     "sha256-fd-v1:b3b29b685fd52c518ce7474bb7cf04f2f844e059b55fa5010dd56851564f3857"
    ],
+   "description": "A poker variant played with seven kinds of illustrated cards, seven of each, so hands get their own names such as 'Only You' and 'Sister'; points earned change the large on-screen picture of the opponent.",
    "diskSets": {
     "sha256-fd-v1:b3b29b685fd52c518ce7474bb7cf04f2f844e059b55fa5010dd56851564f3857": {
      "media": [
@@ -57863,12 +58046,15 @@
    "title": "Hunter Card"
   },
   "pc88:local-58f4c3a2ea": {
+   "adult": true,
+   "adultDescription": "An erotic word-guessing adventure: filling the blanks correctly seduces 15-year-old schoolgirl Asuka Kato in the school gym storeroom and unlocks animated erotic scenes of her.",
    "contentIds": [
     "sha256-fd-v1:6858266ddc0329462a88e03d09caf646c89fb459520689ce1a55c4826043f8d9",
     "sha256-fd-v1:6932935f1f9f39740203b7225006c3955533398107b97a97bb632114d7567ce3",
     "sha256-fd-v1:cf7e4cdddc76bec967971e53d465ef3d07f6738bcd95d4b7ed093943391a3eb7",
     "sha256-fd-v1:ffdbd514951733867c16b3820bebe693ed0de9a9b215d0daea8981ed54f6fee1"
    ],
+   "description": "A fill-in-the-blank adventure in the style of HARD's Kindo Gals: hidden words in the text must be replaced by a word of the right length to win the girl over. This volume features 15-year-old schoolgirl Asuka Kato, a gym committee member who is bad at sports.",
    "diskSets": {
     "sha256-fd-v1:6858266ddc0329462a88e03d09caf646c89fb459520689ce1a55c4826043f8d9": {
      "setDisks": [
@@ -57909,6 +58095,7 @@
     "sha256-fd-v1:c7931762f343ca8c156a2744ed4c883f2bb2badc40a25085a30fe555b2d20f32",
     "sha256-fd-v1:df2f86abf8c2e91f1ece357e48e94a07ecc067a838046831f07f48e2a07ecf36"
    ],
+   "description": "The final chapter of Tsukka Software's Spirit series of field-map RPGs, an unusually large doujin release on eight disks with music by CHOBIN; only the opening demo uses ADPCM, and a hidden alternate opening is included.",
    "diskMachine": {
     "sha256-fd-v1:19a6db546113590ffca95ff74c69d9829620c214214749716a8b71e2ffd5f2a9": {
      "subcpu": "disk"
@@ -57942,16 +58129,20 @@
    "contentIds": [
     "sha256-fd-v1:74d20fbd87d708d6e03475da3f23e6f3a5eebad2887e0f17e4e7e2f4d5201373"
    ],
+   "description": "A science-fiction adventure: a crew sent to survey ruins left by aliens runs into a mysterious radar image, a swarm of asteroids and a girl caught up in a dimensional rift, with mini-games along the way.",
    "sourceGroups": [
     "neokobe:Remembrance (Doujin - Hypa Soft)/Remembrance [FD].7z"
    ],
    "title": "Remembrance"
   },
   "pc88:local-59ad2c7d71": {
+   "adult": true,
+   "adultDescription": "Strip rock-paper-scissors parodying DB-Soft's Konya mo Asa made Powerful Mahjong: each win makes one of three girls (plus hidden ones) take off clothing.",
    "contentIds": [
     "sha256-fd-v1:77d08ec3ad6084526e4444e50a46a969c0c0ba4065faf4974ca027aed2a99e20",
     "sha256-fd-v1:8eb1927cd698a464f871de2ce31f693a1fda7617d56b281734756f12af255f0f"
    ],
+   "description": "A parody of DB-Soft's Konya mo Asa made Powerful Mahjong played as rock-paper-scissors against three girls, with one or two hidden opponents.",
    "diskSets": {
     "sha256-fd-v1:8eb1927cd698a464f871de2ce31f693a1fda7617d56b281734756f12af255f0f": {
      "setDisks": [
@@ -57966,10 +58157,13 @@
    "title": "Powerful Janken EXE"
   },
   "pc88:local-59f5a88433": {
+   "adult": true,
+   "adultDescription": "First of Champion Soft's four adult Fairie's Residence Special side stories, subtitled Mariko no Ikenai Daitokkun, sold with a tie-in comic.",
    "contentIds": [
     "sha256-fd-v1:684268909dabae5603c9d1fcb0fd2b24182e55b4f2ff34d47a6638ed439b8328",
     "sha256-fd-v1:72261fc6ef65cc86921cd7b2dc89bff625afdfff9d5acaee6e9b98dd113f64aa"
    ],
+   "description": "First of four side stories starring the girls of Fairie's Residence, subtitled Mariko no Ikenai Daitokkun; it came with a comic that ties in with the software.",
    "diskMachine": {
     "sha256-fd-v1:684268909dabae5603c9d1fcb0fd2b24182e55b4f2ff34d47a6638ed439b8328": {
      "basic": "v1s"
@@ -58099,6 +58293,7 @@
     "sha256-fd-v1:3736309a81f517c9f4f1d155c42d366144a99ad725094c5a4fe1da50f813c259",
     "sha256-fd-v1:a62c0d5871d6aac4594a0dfd0d29c9ead291b7bf636a86fa713b5e9558e49d7e"
    ],
+   "description": "Third Phrenetic Shooting from ALU Computer Arts, a dodging-focused shooter with even denser enemy fire than before and bosses for the first time; every enemy shot down is worth just one point.",
    "diskSets": {
     "sha256-fd-v1:a62c0d5871d6aac4594a0dfd0d29c9ead291b7bf636a86fa713b5e9558e49d7e": {
      "setDisks": [
@@ -58202,6 +58397,7 @@
     "sha256-fd-v1:dd9ae328030c9c1f6d4fa5dbb7f31095e61d125cf43d4cba90eb7a886141eb1e",
     "sha256-fd-v1:fa5e3229c24fd0c8e3c8cd5fd6164c27c8ecc42125effa4cff70bbb3b1a8a569"
    ],
+   "description": "Firecracker's 19th music disk, highlighted by Mishima's Sound Board II arrangement of Revolter, a small Yuzo Koshiro feature and originals by Ishikawa and Monden, plus Junko Ozawa's Standard Theme; the cover art is by Kenichi Minoda.",
    "diskSets": {
     "sha256-fd-v1:dd9ae328030c9c1f6d4fa5dbb7f31095e61d125cf43d4cba90eb7a886141eb1e": {
      "setDisks": [
@@ -58269,6 +58465,7 @@
    "contentIds": [
     "sha256-fd-v1:3f309425ed3451b78380616857dab938b4e64fef7e0ce89b24d6a9903ada395f"
    ],
+   "description": "A computer version of jankyuu, the mahjong-themed pinball-style parlor game, offering three machines and two-player play; developed by Coconuts 21 for Victor's CrossMedia Soft label.",
    "sourceGroups": [
     "neokobe:Jang Ball (Crossmedia Soft)/Jang Ball [FD].7z"
    ],
@@ -58327,6 +58524,7 @@
     "sha256-fd-v1:8f62d23f6599aa2a006765aa153397999c6d406acf4faf311150af444e1e0719",
     "sha256-fd-v1:d6d684b59d1174b640002ae6411b234c86ee0a440530f2f8890550dccb4be99f"
    ],
+   "description": "A score-attack shooter from Firecracker: score as much as possible within two minutes. Results differ by machine speed and Sound Board II presence, and a replay mode feeds the per-model rankings printed in Firecracker's music disks.",
    "diskSets": {
     "sha256-fd-v1:d6d684b59d1174b640002ae6411b234c86ee0a440530f2f8890550dccb4be99f": {
      "setDisks": [
@@ -58359,6 +58557,7 @@
    "contentIds": [
     "sha256-fd-v1:bb5c14f2a8e5036397c31bdb1658eaafd9af4e2c05b6d206b57bfd83245b0b34"
    ],
+   "description": "Firecracker's 22nd music disk and its second CHEMOOL originals special, dressed in Kazuhiko Shimamoto-style hot-blooded art and built around music for the mahjong game Tekken Seisai, Nouten Chokugeki! 3 and CG collections from KDD and D-TEN.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 22 - Iron Gear Issue (Doujin - Firecracker)/Firecracker Music Collection Vol. 22 - Iron Gear Issue [FD].7z"
    ],
@@ -58505,6 +58704,7 @@
     "sha256-fd-v1:67e2b36a52d4cc97be53bdfc8ed062c53439ff902df9e650da62ffe27d8919ed",
     "sha256-fd-v1:b69575612473e80cfbbb99b5643284e45e72fc3b340359c17693717bb66b09d0"
    ],
+   "description": "An adventure combined with a stage-clearing puzzle game on four disks; booting from the PCM disk with a Sound Board II makes the birds and the girl speak, and a puzzle construction mode is included.",
    "diskMachine": {
     "sha256-fd-v1:1d500cf473120ad5a982015dffd3452f3d2f1a81a5783a3b08570fa884ec65ac": {
      "basic": "v1s",
@@ -58750,6 +58950,7 @@
     "sha256-fd-v1:b54b41e89d43b1d24cdf9cd7ca2e1482f75de35daa7da91da5335791556a9070",
     "sha256-fd-v1:cf69a89ca2a59fa563775f4501448b15e2c4605b0c6ffbe4fd1bf2f08278953e"
    ],
+   "description": "An RPG starring an ordinary slime who answers the king's call for heroes after Princess Imu of Slime Land is kidnapped by an evil sorcerer; the game bills itself as made for a mental age of 12 and under.",
    "diskMachine": {
     "sha256-fd-v1:cf69a89ca2a59fa563775f4501448b15e2c4605b0c6ffbe4fd1bf2f08278953e": {
      "basic": "v1s",
@@ -58855,10 +59056,13 @@
    "title": "Morina"
   },
   "pc88:local-650148c957": {
+   "adult": true,
+   "adultDescription": "A Mastermind-style code-breaking game in which the girl undresses as you solve the codes.",
    "contentIds": [
     "sha256-fd-v1:63ed0b8596ef1cdc8142a8e1b6bc123be8cadc980b780c379e0bce00924ad8c0",
     "sha256-fd-v1:945e504be22a9a090dd0f53c4d9d87c0627bf6bc23dfd461807e109c8dd096fc"
    ],
+   "description": "Specters' take on Mastermind: deduce the hidden code by trial guesses, which a little logic cracks in a handful of tries, making it a quick break between longer games.",
    "diskSets": {
     "sha256-fd-v1:63ed0b8596ef1cdc8142a8e1b6bc123be8cadc980b780c379e0bce00924ad8c0": {
      "setDisks": [
@@ -58876,6 +59080,7 @@
    "contentIds": [
     "sha256-fd-v1:0201c44e1b4af1a37d4e99765c4d5f536c794754feb236ddad458aea4f80aad8"
    ],
+   "description": "A collection of four-panel comics starring Miki from Champion Soft's disk magazine Zeta, with parts of some panels animated.",
    "sourceGroups": [
     "neokobe:Ganbare! Miki-chan (Champion Soft)/Ganbare! Miki-chan [FD].7z"
    ],
@@ -59016,6 +59221,7 @@
     "sha256-fd-v1:d81fd3d4fbba9cb88541061229b3f2330e85ed430353c09aac90e587f288510d",
     "sha256-fd-v1:e963dec4bfaa981d3a9d47f56849d803a3866a3068d4bcbec6b9ac9a33fa285c"
    ],
+   "description": "ASCII's construction kit for horizontally scrolling shooters (the name puns on 'yoko scroll'): draw the player ship, enemies and backgrounds, pick the music and set enemy movement patterns to build your own game. Sold through TAKERU vending machines around 1988.",
    "diskMachine": {
     "sha256-fd-v1:191ed2fa5231d38abc2d82a3a6fc65404568cee3400a5200d5f5dac7e8bacf56": {
      "subcpu": "disk"
@@ -59181,6 +59387,7 @@
     "sha256-fd-v1:55519ef281fe3406cd52e90ef3e5219cf3fb8a521f876b2af9aba4ca5be8e7cc",
     "sha256-fd-v1:6b6f9726491d5d0eff990bf4eaf4ffce463a3f6848203980676ca9a7e07445e5"
    ],
+   "description": "Tsukka Software's first release, a two-disk field-map RPG from 1987 that began the Spirit series, continued in Umi no Mukou (Spirit 2) and concluded with the eight-disk Dragon Knights.",
    "diskSets": {
     "sha256-fd-v1:6b6f9726491d5d0eff990bf4eaf4ffce463a3f6848203980676ca9a7e07445e5": {
      "media": [
@@ -59219,15 +59426,19 @@
    "contentIds": [
     "sha256-fd-v1:75c4ea3d388c25daa4ac72b0dba1cf4f998e63f7a5a07e638076b4ee0be5b468"
    ],
+   "description": "Firecracker's 16th music disk, given over to CHEMOOL's own compositions, including music written for doujin releases such as Tetra Force and Hanayaide Osaka, plus a hidden patch fixing a track from the previous issue.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 16 - Original Music Special (Doujin - Firecracker)/Firecracker Music Collection Vol. 16 - Original Music Special [FD].7z"
    ],
    "title": "Firecracker Music Collection Vol. 16 - Original Music Special"
   },
   "pc88:local-682f623b30": {
+   "adult": true,
+   "adultDescription": "An erotic adventure in which a lolicon teacher at a girls' school schemes to have sex with schoolgirl Kumiko while dodging the advances of other students.",
    "contentIds": [
     "sha256-fd-v1:834563d609ba2530a2335f2b6b976d15f9df4aa1dd8c585ce7155079a2587692"
    ],
+   "description": "As a new teacher at a girls' school, you are infatuated with student Kumiko and must fend off the other schoolgirls while trying to arrange private after-school lessons with her.",
    "sourceGroups": [
     "neokobe:Hime Ringo Report (Doujin - Elein Soft)/Hime Ringo Report [FD].7z"
    ],
@@ -59273,6 +59484,7 @@
     "sha256-fd-v1:3892ad1fd1601c22843e33c065c4cbdaed99358f9dad0f2c3583a694a7beeff6",
     "sha256-fd-v1:577743b7a3ce934d85b1d20cf8d4dd1ee4e200c9b68dbaf30117c6bd81b9b16b"
    ],
+   "description": "First issue of Champion Soft's 'graphic idol magazine' Zeta, a disk sold with a printed magazine that created fictional idols and presented their profiles and pin-up pictures, along with some games.",
    "diskSets": {
     "sha256-fd-v1:577743b7a3ce934d85b1d20cf8d4dd1ee4e200c9b68dbaf30117c6bd81b9b16b": {
      "media": [
@@ -59315,6 +59527,8 @@
    "title": "Rabbit"
   },
   "pc88:local-69f28649e9": {
+   "adult": true,
+   "adultDescription": "Strip blackjack ported from Iron Gear's X68000/MSX2 game: beating the very strong dealer reveals tall scrolling erotic pictures.",
    "contentIds": [
     "sha256-fd-v1:0c72364214c132dcc61b5791c6ad8f2b71c93720c59ffc36fdf7d91ba8a7ec24",
     "sha256-fd-v1:19ca2ad67428b32905d0b8158b27a71efa4d468d365b7cdb5f0215b762b2bef0",
@@ -59324,6 +59538,7 @@
     "sha256-fd-v1:eeec4c51e8f8f67d67bfbc5b52fe076285bc1f3f1ded425c0e772bb4a2052976",
     "sha256-fd-v1:f2b87ced8171960a25426d087df891e8ac9abce749b51ce65e555472dcdf1d75"
    ],
+   "description": "A blackjack game against a fiercely strong computer, ported from Iron Gear's X68000 and MSX2 versions by Firecracker's AQUA under the Mad Pierrot name, with Sound Board II music and pictures that scroll across two full screens.",
    "diskMachine": {
     "sha256-fd-v1:19ca2ad67428b32905d0b8158b27a71efa4d468d365b7cdb5f0215b762b2bef0": {
      "sound": "1"
@@ -59364,10 +59579,13 @@
    "title": "Nouten Chokugeki II"
   },
   "pc88:local-6a9348e87e": {
+   "adult": true,
+   "adultDescription": "Champion Soft's adult show-business Fairie's Residence Special, a sugoroku-style board game subtitled Super Mariko Sisters, sold with a tie-in comic.",
    "contentIds": [
     "sha256-fd-v1:59cff67894b13e022f2f703e2b8c54998daf9ce797089891d30a5031cfc91844",
     "sha256-fd-v1:f5f7908e517fdf43d9bfc456caf3406b7eed01bbd8459be0886c252568a0020e"
    ],
+   "description": "Show-business side story starring the girls of Fairie's Residence, subtitled Super Mariko Sisters and played as a sugoroku-style board game; it came with a tie-in comic.",
    "diskMachine": {
     "sha256-fd-v1:59cff67894b13e022f2f703e2b8c54998daf9ce797089891d30a5031cfc91844": {
      "basic": "v1s"
@@ -59405,9 +59623,12 @@
    "title": "Kuubo Kidou Butai"
   },
   "pc88:local-6b731819f9": {
+   "adult": true,
+   "adultDescription": "A panel-sliding puzzle game in which the girl undresses after each cleared round.",
    "contentIds": [
     "sha256-fd-v1:4215f014177f0f4c2edef136cd9ab59858d13ee3ad51962f0a3eaccfde75070c"
    ],
+   "description": "A panel-sliding puzzle like a pipe game: a bunny shifts whole rows or columns of 24 wrap-around panels to link the start and goal panels within a limited number of moves.",
    "sourceGroups": [
     "neokobe:Tomo-chan Ganbaru (Doujin - Kankyouken)/Tomo-chan Ganbaru [FD].7z"
    ],
@@ -59571,6 +59792,7 @@
    "contentIds": [
     "sha256-fd-v1:056cc72d694f282c800d600e549d2e33826ab1e899f7b0b14ba14fdfd9ca02a7"
    ],
+   "description": "A 100-yen pack of four bizarre games from Ayashige Soft, including two 'Miyamo' games, a moxibustion game using the members' own relatives as material, and a fashion contest.",
    "sourceGroups": [
     "neokobe:Ayashige Pack (Doujin - Ayashige Soft)/Ayashige Pack [FD].7z"
    ],
@@ -59580,6 +59802,7 @@
    "contentIds": [
     "sha256-fd-v1:85f180ff5920f99d32a5b8558a0af42eb8e06169fb0df85e2cb6547d25ceb50d"
    ],
+   "description": "A Bomberman-style action puzzle for one or two players: set off the bombs scattered around the field in chain reactions to drain the opponent's endurance to zero. Simple rules hide a lot of strategy, and the explosion animation is elaborate.",
    "sourceGroups": [
     "neokobe:Explode (Doujin - HALT Software)/Explode [FD].7z"
    ],
@@ -59633,6 +59856,7 @@
     "sha256-fd-v1:5559ed17fe83f05a6da8ec353888f661a72535bb7f72fa035dd1c8d6c755754c",
     "sha256-fd-v1:7a963510beb99164f8f98985a7ab86f88f8723aa77933b3e2f52facbb651c5a7"
    ],
+   "description": "A comic show-business adventure on three disks: newly hired at TKO Production, you are ordered to scout new idol Yonami Watanabe and make her a top star. The title screen uses a photo of Minayo Watanabe.",
    "diskSets": {
     "sha256-fd-v1:5559ed17fe83f05a6da8ec353888f661a72535bb7f72fa035dd1c8d6c755754c": {
      "media": [
@@ -59656,6 +59880,7 @@
    "contentIds": [
     "sha256-fd-v1:4ad5960163d3875be3428e7e5c7b9ee4a443a94d1fb74e1fa5e7b043ba58bca9"
    ],
+   "description": "Third music disk from Yanbaru Kuina, with illustrations by Fox and a very fast custom DOS by K-na that adds striking visual effects to the tracks.",
    "sourceGroups": [
     "neokobe:Sound On-Ten Vol. 3 (Doujin - YamVer KuinA)/Sound On-Ten Vol. 3 [FD].7z"
    ],
@@ -59787,6 +60012,7 @@
    "contentIds": [
     "sha256-fd-v1:514ec812da3417da0c2cab2b117f81cd276d305726709fa8c88410e2fcd117fa"
    ],
+   "description": "Second of the three self-booting Amazing Disk episodes, holding OSS's game Jinsei no Katachi (The Shape of Life).",
    "sourceGroups": [
     "neokobe:Amazing Disk Episode II (Doujin - Alphax)/Amazing Disk Episode II [FD].7z"
    ],
@@ -59861,6 +60087,7 @@
     "sha256-fd-v1:2c3f102380e71fd73b851b90c9272cdebb4a7b08ab7aaafbe469f2fd83e08bff",
     "sha256-fd-v1:ee9001978f2eefb387e9e71eefd37f8d5c532ae82bc272ccd359458148a21660"
    ],
+   "description": "A song-themed adventure from Active Gamers (August 1991) played with RPG-style top-down movement in the manner of The Old Village Story; the NT-3 music disk Mysterious Love Token 98 came with it as a bonus.",
    "diskSets": {
     "sha256-fd-v1:2c3f102380e71fd73b851b90c9272cdebb4a7b08ab7aaafbe469f2fd83e08bff": {
      "media": [
@@ -59932,18 +60159,22 @@
    "contentIds": [
     "sha256-fd-v1:632dbfb4b8a580dbe465ddc7bc734cf77a540839752422a708ea60c678a5725f"
    ],
+   "description": "The fourth FSD sample music disk from Frostforest, celebrating Chaikuro joining the circle with his originals across many genres, including pieces written for the X68000 RPG Kaze no Tabibito and a hardcore techno track built on orchestra hits.",
    "sourceGroups": [
     "neokobe:FSD Sample Ongaku Shuu Vol. 4 (Doujin - Frostforest)/FSD Sample Ongaku Shuu Vol. 4 [FD].7z"
    ],
    "title": "FSD Sample Ongaku Shuu Vol. 4"
   },
   "pc88:local-74a234ab16": {
+   "adult": true,
+   "adultDescription": "Sixth volume of Marionet's erotic Take Out adventures: a boy visits a sailor-uniform café and is given very intimate service by a big-breasted waitress.",
    "contentIds": [
     "sha256-fd-v1:24211234acb5f81b058747447ad24f56a6343338f6a981bda521bbf846386a34",
     "sha256-fd-v1:24f4677217b673c9d00296d07b014f9632e019bf1e420d1fdd96b0d8a32b7f39",
     "sha256-fd-v1:34f2502f8b4bd173c637dc837961e5b7082c558eaf0e253832550c47ad376aad",
     "sha256-fd-v1:c567fb358f47e3b79c22354099f9a94e9e4a99438a6fc7538d4c5dc66a9eea4b"
    ],
+   "description": "Sixth volume of Marionet's Take Out fill-in-the-blank adventures, in which a boy visits a café whose waitresses wear sailor uniforms.",
    "diskSets": {
     "sha256-fd-v1:24f4677217b673c9d00296d07b014f9632e019bf1e420d1fdd96b0d8a32b7f39": {
      "setDisks": [
@@ -59996,6 +60227,7 @@
    "contentIds": [
     "sha256-fd-v1:c89763eab6eb1b9ca0c8e4128d605454b4cb7cd6cbcc7fb4d59338bbe7964d2e"
    ],
+   "description": "Charlie Soft's first music disk, played through the PC/M88 driver with its distinctive SSG sound: mostly original tunes plus rarely heard picks such as the battle music from Sangokushi and the opening of Jesus.",
    "sourceGroups": [
     "neokobe:Charlie Soft Music Disk Vol. 1 (Doujin - Charlie Soft)/Charlie Soft Music Disk Vol. 1 [FD].7z"
    ],
@@ -60031,6 +60263,7 @@
     "sha256-fd-v1:d4e9b7bf2f8078b7442fd05770e47e4de7df9d1fa265486e1c37a6f8ff5421d2",
     "sha256-fd-v1:fd8acc7c6b84bb9bc74a85e3206fee784e28d4df35f8292b75c3a93582dc4e62"
    ],
+   "description": "Chosen to play the fugitive in a WASP special police training drill, you must escape a 3D maze generated anew each time, armed only with a stun gun and a Star Blade while nine teammates hunt you; stats come from an Ultima IV-style personality quiz.",
    "diskSets": {
     "sha256-fd-v1:2fdd0cad718662582a3a9d5b7cca647086d94b6d4534fc7ee5b0de884c25c46d": {
      "setDisks": [
@@ -60133,6 +60366,7 @@
    "contentIds": [
     "sha256-fd-v1:f1c95d433bd1715d31bddd3c587de9aaef552da4768eb1241c50c1218992fb7e"
    ],
+   "description": "A Team Dangeroude music disk running on FROST-DOS with the FSD driver, including Puyo Puyo music and another essay by Yamazaki.",
    "sourceGroups": [
     "neokobe:Con Spirito (Doujin - Team Dangeroude)/Con Spirito [FD].7z"
    ],
@@ -60258,10 +60492,13 @@
    "title": "Last Hours - NT-3 Music Disk"
   },
   "pc88:local-7a9eddf314": {
+   "adult": true,
+   "adultDescription": "First of Kankyouken's Aya-chan adventures; it includes risque and S&M scenes, though it is not a full-on erotic game.",
    "contentIds": [
     "sha256-fd-v1:21621a1739b506286b5ee0d45d1495e023f6c1e9cb9e22fd23d41813bc2447bb",
     "sha256-fd-v1:3401511995c5616e4552f7f83038c3c6f68098ef57b2560eaee8e74ee737ad73"
    ],
+   "description": "First game in Kankyouken's Aya-chan series, known for its distinctive cute art: an adventure with a rather harsh scenario told at a leisurely pace.",
    "diskSets": {
     "sha256-fd-v1:3401511995c5616e4552f7f83038c3c6f68098ef57b2560eaee8e74ee737ad73": {
      "media": [
@@ -60313,6 +60550,7 @@
     "sha256-fd-v1:97f924c0c56425a85d7588d5bc95e4be99f6ae8f40e58ae0ee46f20eae7ef981",
     "sha256-fd-v1:c798f6a4250b7c897789d844e1c0db01d4419c67a655ae36cc12e2d7f2da8b92"
    ],
+   "description": "Kurosawa's world-scale strategy game for Camadamia Soft (1990), built around pointed profiles of the world's dangerous leaders, written before the Gulf War yet seeming to foresee it; it is the only game to use zeal soft Kamijo's sound driver.",
    "diskSets": {
     "sha256-fd-v1:97f924c0c56425a85d7588d5bc95e4be99f6ae8f40e58ae0ee46f20eae7ef981": {
      "media": [
@@ -60336,6 +60574,7 @@
     "sha256-fd-v1:19139fe6bf582baa5f1753416f9fddb0ef7eb50e75fc29bfd19f897c09c2f4fd",
     "sha256-fd-v1:286615f9bd0ad371d509c9bf4e94710a23208eea88050a169c2144f86d21b42e"
    ],
+   "description": "A singing disk on which Karasawa plays guitar and belts out Tsuyoshi Nagabuchi's Doshaburi Rainy Day, played back as PCM synthesized through the PSG.",
    "diskSets": {
     "sha256-fd-v1:286615f9bd0ad371d509c9bf4e94710a23208eea88050a169c2144f86d21b42e": {
      "setDisks": [
@@ -60367,6 +60606,7 @@
    "contentIds": [
     "sha256-fd-v1:fe5bb26b42d773946b979d9ec8227e2852b3234e82a231dfeada8347b15b2598"
    ],
+   "description": "A free disk Active Gamers handed out in August 1992 to mark two years since forming, recording the circle's history and even including a glossary of its in-jokes and terms.",
    "sourceGroups": [
     "neokobe:2nd Anniversary Disk (Doujin - Active Gamers)/2nd Anniversary Disk [FD].7z"
    ],
@@ -60624,6 +60864,7 @@
    "contentIds": [
     "sha256-fd-v1:cf933c3ca8381db828ee99ff62778a089ca90f46ae2e6443545696ebd987faa3"
    ],
+   "description": "Part IV of Oak's Fantastic Cubic line, a three-dimensional color-matching puzzle developed by Kyoto Computer Brains and released in 1983.",
    "diskMachine": {
     "sha256-fd-v1:cf933c3ca8381db828ee99ff62778a089ca90f46ae2e6443545696ebd987faa3": {
      "basic": "v1s"
@@ -60710,6 +60951,7 @@
     "sha256-fd-v1:7999d0a5ed567a63c0c47d08bb1b21813951605e8fe25e04664e9af8f187ae8b",
     "sha256-fd-v1:f71e966954c82e1513b780eb80e31169a5825b3dc81efd4e8c2ef392a15f4dc0"
    ],
+   "description": "TSUKKA software's event disk for Comic Market 41, named after NEC's Bazaar de Gozaru mascot: a board-game quiz and a racing game with text-based scaling and rotation, full PCM voices and a music room for Chobin's tunes.",
    "diskSets": {
     "sha256-fd-v1:0fdd042e4fe57ffa954e87bab216a7a48911ac85cfe6bd433a25b7323562304e": {
      "media": [
@@ -60763,6 +61005,7 @@
    "contentIds": [
     "sha256-fd-v1:3e52c695d7ffe16ff435a628c9af15079395b5a302b0d3debbfb2093601f2ae1"
    ],
+   "description": "Active Gamers' second 100-yen extra disk (1992), packed with a rejected scenario from their game Infinitia, a music collection and a complete walkthrough of Holiness Story.",
    "sourceGroups": [
     "neokobe:Extra Disk Vol. 2 (Doujin - Active Gamers)/Extra Disk Vol. 2 [FD].7z"
    ],
@@ -60773,6 +61016,7 @@
     "sha256-fd-v1:88afdfe73260e98bd66701dfa717afcfbab89e9764a447daac6002576c6cf340",
     "sha256-fd-v1:f8e5005f259b13fc0f851276e4e064e7d4ab19d6cbe20de72efc09cecf5c35a7"
    ],
+   "description": "First volume of Pasoket's own Kagai Jugyou series, an idol-themed multiple-choice quiz with pictures of pretty girls, made by Nihon Art Media for the label of the doujin software fair organizer and released on four disks in 1989.",
    "diskHidden": [
     "sha256-fd-v1:88afdfe73260e98bd66701dfa717afcfbab89e9764a447daac6002576c6cf340",
     "sha256-fd-v1:f8e5005f259b13fc0f851276e4e064e7d4ab19d6cbe20de72efc09cecf5c35a7"
@@ -60783,10 +61027,13 @@
    "title": "Kagai Jugyou Vol. 1 - Idol-hen"
   },
   "pc88:local-81109b62c9": {
+   "adult": true,
+   "adultDescription": "A strip blackjack sequel to Medal Jack with a new set of girls to undress; requires the original disk.",
    "contentIds": [
     "sha256-fd-v1:df0e00d9254f22155c277165543fe5caab52690e26aa171bb47971d68d2f4176",
     "sha256-fd-v1:ef25908e8d1e24b1d9d058ee79e25416118229c62dd871b5483c97cc690f8120"
    ],
+   "description": "Sequel to Burivary System's futuristic blackjack game Medal Jack, needing the first disk to play; the rules stay the same while the girls are new.",
    "diskSets": {
     "sha256-fd-v1:ef25908e8d1e24b1d9d058ee79e25416118229c62dd871b5483c97cc690f8120": {
      "setDisks": [
@@ -60859,6 +61106,7 @@
    "contentIds": [
     "sha256-fd-v1:dcb8a20a988c99898dc3dfc4a5721731acfc3c8d1e9e74ab465010f29a1b0ac9"
    ],
+   "description": "One of Firecracker's first five music disks, released together at 200 yen each and written in BASIC MML for Sound Board II.",
    "diskMachine": {
     "sha256-fd-v1:dcb8a20a988c99898dc3dfc4a5721731acfc3c8d1e9e74ab465010f29a1b0ac9": {
      "sound": "1"
@@ -60919,6 +61167,7 @@
    "contentIds": [
     "sha256-fd-v1:e3cf874ecad87ed7e30d9b9ff0480fbd7fc2c8bee17ec449e6a00a9f64bdf1b4"
    ],
+   "description": "A 20-stage puzzle game like Flappy: guide a witch pushing blocks until the light-blue block reaches the goal, using items that flip gravity and magnets that pull blocks.",
    "sourceGroups": [
     "neokobe:Witch's Brains (Doujin - Phoenix Software)/Witch's Brains [FD].7z"
    ],
@@ -60948,12 +61197,15 @@
    "title": "Uniform Option Disk"
   },
   "pc88:local-837968b3a6": {
+   "adult": true,
+   "adultDescription": "A strip card game: win money at poker and blackjack to make the girls undress, then collect items for an RPG-style boss fight; noted for its detailed underwear art.",
    "contentIds": [
     "sha256-fd-v1:749673c293843b4c573c9d3cbcda33b7b8906b40fee1a54447ea3c77704d7db0",
     "sha256-fd-v1:87c1309265116a76a02b005b7d1e5e0142af4edffbf8d39ed4d2382c3a0f6c20",
     "sha256-fd-v1:ad96681693074ed0f96aab312e83ebc8585772f69e326a95b40ba40268c23a96",
     "sha256-fd-v1:fc4cb618a31ba01ec022a3e370a193a5c8e80835faab1862d9cba0d1747a1de9"
    ],
+   "description": "A card game packed with parodies that runs on a fake operating system called Humen8.8K: win money at poker and blackjack, then gather items for an RPG-style battle against a boss.",
    "diskSets": {
     "sha256-fd-v1:749673c293843b4c573c9d3cbcda33b7b8906b40fee1a54447ea3c77704d7db0": {
      "media": [
@@ -61002,6 +61254,7 @@
    "contentIds": [
     "sha256-fd-v1:a8e12389324fdf5a894a0645a3771c4abe814e06acea2090de3ddd903efbfe75"
    ],
+   "description": "A doujin music disk compiled by Macha, playing tracks from Nihon Falcom's action RPGs Ys and Ys II on the PC-88's FM sound.",
    "sourceGroups": [
     "neokobe:Music Loud Vol. 1++ (Doujin - Macha)/Music Loud Vol. 1++ [FD].7z"
    ],
@@ -61053,6 +61306,7 @@
    "contentIds": [
     "sha256-fd-v1:11c0991246a8475c110e229236f2e66cda75060790665bfa33f77c324e95e54c"
    ],
+   "description": "NT-3's 1992 music disk for Active Gamers, the first of their collections to officially support both Sound Board II and the standard FM sound.",
    "sourceGroups": [
     "neokobe:Juvenilias - NT-3 Music Disk (Doujin - Active Gamers)/Juvenilias - NT-3 Music Disk [FD].7z"
    ],
@@ -61164,6 +61418,7 @@
     "sha256-fd-v1:a73e4f9e62c6b34f4cc0b2299cfadc1158e8cf2ae290a499b299b1f664e9f68e",
     "sha256-fd-v1:e36737b7f5da022a6434da801aecd01c83f1615bdf64c72c55b77f35277caea1"
    ],
+   "description": "Looks like an RPG but is really a field-map adventure, full of absurd twists such as a station attendant turning out to be a CIA spy.",
    "diskSets": {
     "sha256-fd-v1:52b68ba1b2f69cddde33a4cba266047789757137b2ee0536b1ddc87d977ff2c9": {
      "setDisks": [
@@ -61193,6 +61448,7 @@
     "sha256-fd-v1:9974dfe02e78826e1554ac130aadf73211bcca83126662ae71f6c68d7d791b94",
     "sha256-fd-v1:cbe04fbf71fa4ceb8a82a0c2e2c69a33d0408ce3b8072f2361641902f0c13e52"
    ],
+   "description": "Second volume of Pasoket's Kagai Jugyou multiple-choice quiz series, themed on high-school girls, made by Nihon Art Media and sold under the label of the doujin software fair organizer in 1989.",
    "diskHidden": [
     "sha256-fd-v1:9974dfe02e78826e1554ac130aadf73211bcca83126662ae71f6c68d7d791b94",
     "sha256-fd-v1:cbe04fbf71fa4ceb8a82a0c2e2c69a33d0408ce3b8072f2361641902f0c13e52"
@@ -61227,6 +61483,7 @@
     "sha256-fd-v1:b55eaaadb95533cec35eefc04b2d65737ed47a79c56519e8aa4af38609434361",
     "sha256-fd-v1:e411e2d7416a8f1587b9b885c71b4926a4d809b0e4ffc1ad980244b4dfba565d"
    ],
+   "description": "Part of Kanai Karasawa's Kimochi Disk 2: the same looping photographed dance idea in a Japanese style, flanked by Nio guardian statues, with sampled sound produced through the beeper.",
    "diskSets": {
     "sha256-fd-v1:53d2f4f6a92607456d6ac80579a0f3b7bcaf774d330f7b9ff3bab5f750e96745": {
      "media": [
@@ -61259,10 +61516,13 @@
    "title": "Kimochi Disk 2 - Odori"
   },
   "pc88:local-8787c3adae": {
+   "adult": true,
+   "adultDescription": "An erotic short adventure in which Kanami's Sunday leads to scenes with her mostly lesbian friends or with men; replay to see every picture.",
    "contentIds": [
     "sha256-fd-v1:31143d052c79aa9758ade549b70b8ca54c18b6c1a9ba1fa9df5d2d5989f25131",
     "sha256-fd-v1:9b6edf3100e54c26746315a05504b19eccd58943c7bbf3dc08435f65c5b1c1db"
    ],
+   "description": "Elein Soft's follow-up short adventure, Kanami-chan no Nichiyoubi: Kanami Saeki spends her Sunday, with Yumika returning and newcomer Mariko among the friends she can invite. Each run takes about ten minutes and branches toward different pictures.",
    "diskSets": {
     "sha256-fd-v1:9b6edf3100e54c26746315a05504b19eccd58943c7bbf3dc08435f65c5b1c1db": {
      "setDisks": [
@@ -61312,6 +61572,7 @@
     "sha256-fd-v1:37432c78beb7ce93357e83546b7ccd543903a5a5651f0892bbdf85df53ec9feb",
     "sha256-fd-v1:deabaf654cf93269031fc64c470848ace3a4f4072f6105105ae20f449d633421"
    ],
+   "description": "This time the training is bomb disposal: in a maze that changes every game you have 40 minutes to find and defuse a bomb, which may be solid or liquid and must have its wires cut in the right order.",
    "diskSets": {
     "sha256-fd-v1:deabaf654cf93269031fc64c470848ace3a4f4072f6105105ae20f449d633421": {
      "setDisks": [
@@ -61347,6 +61608,7 @@
    "contentIds": [
     "sha256-fd-v1:ad89f53d11d7ed200a5d3b5b565bf4602ecc568eb9edc2c347e43b08e0c04656"
    ],
+   "description": "Frostforest's FSD music sampler billed as Chaikuro's best background music, filled almost entirely with original tracks by Chaikuro and Monden.",
    "sourceGroups": [
     "neokobe:FSD Sample Ongaku Shuu Vol. 7 (Doujin - Frostforest)/FSD Sample Ongaku Shuu Vol. 7 [FD].7z"
    ],
@@ -61395,6 +61657,7 @@
    "contentIds": [
     "sha256-fd-v1:f1698068919ac89cf3402b9742ef6e96041edc6f5e0fb97fd395961796592b98"
    ],
+   "description": "An adventure built on the legend of the Nara-period monk Dokyo, who must cure the troubled Empress by working out what pleases her, with history quiz questions mixed in.",
    "diskMachine": {
     "sha256-fd-v1:f1698068919ac89cf3402b9742ef6e96041edc6f5e0fb97fd395961796592b98": {
      "basic": "v1s",
@@ -61420,6 +61683,7 @@
     "sha256-fd-v1:00e8368528af78c774a829eff3b5977078fe4aed2038c1841e29e004c921115b",
     "sha256-fd-v1:4894ed580d74a0945ee5d2b74b88245fe7390915b27f873c6cbc200c223036bd"
    ],
+   "description": "An action game in which you steer a small craft through zero-gravity mazes against the clock, fighting the craft's inertia to make it go where you want; Bardy Soft later reworked it with new graphics as its commercial debut, Hole Chaser.",
    "diskMachine": {
     "sha256-fd-v1:00e8368528af78c774a829eff3b5977078fe4aed2038c1841e29e004c921115b": {
      "clock": 4
@@ -61450,6 +61714,7 @@
    "contentIds": [
     "sha256-fd-v1:8649cec22d159321bf3919d1d58a18062c2050cea36cff3de2923a32686c64e2"
    ],
+   "description": "PC-88 port of Yasunori Takahara's MSX type-in from LOGiN's conversion corner (November 1986). In this real-time adventure you have slipped past the guards into the mansion and must find the hidden secret documents before time runs out, juggling a limited set of carried items.",
    "sourceGroups": [
     "neokobe:Midnight Chase Part 2 (Akira Ishitobi)/Midnight Chase Part 2 [FD].7z"
    ],
@@ -61495,6 +61760,7 @@
     "sha256-fd-v1:acdfa9dcc527f488d6de8102ff5920dcc72e5bf7c4213bed0a36a51ecc6f8d87",
     "sha256-fd-v1:c84960dd2f66eb50c16cd1c31054b7833a2e107fcf8988b1b6ae266fa593a712"
    ],
+   "description": "A late (2006) Firecracker music disk built around Fishcafe's Onii-chan to Issho and many original tracks from guest musicians.",
    "diskSets": {
     "sha256-fd-v1:acdfa9dcc527f488d6de8102ff5920dcc72e5bf7c4213bed0a36a51ecc6f8d87": {
      "setDisks": [
@@ -61526,21 +61792,27 @@
    "title": "Pretty Girl 3"
   },
   "pc88:local-8ce9cb4b55": {
+   "adult": true,
+   "adultDescription": "An erotic puzzle game: as an evil rabbit you herd a lost girl into your house with fences for the expected erotic payoff.",
    "contentIds": [
     "sha256-fd-v1:773315e301fc2b0edaca3728ecc44ea7c4a7c5923f7a550038bc5c5788e8e1e7"
    ],
+   "description": "A puzzle game starring a foul-mouthed evil rabbit who has to steer a girl lost in the forest into his house by placing fences.",
    "sourceGroups": [
     "neokobe:Ribon Panic (Doujin - Haisoft)/Ribon Panic [FD].7z"
    ],
    "title": "Ribon Panic"
   },
   "pc88:local-8d1389fca7": {
+   "adult": true,
+   "adultDescription": "An Old Maid and mahjong hybrid card game in which winning hands make the girls undress.",
    "contentIds": [
     "sha256-fd-v1:47f271b296493176e2f5ba62293ca702450614bc1cafb5b7e3924272b0cf0e68",
     "sha256-fd-v1:5babe95b9c31eb1791622ec80a8a0dce2368b3fa5a1c470ffd0df3c9b8ed3322",
     "sha256-fd-v1:b394553662170ae3d48d5012eca370a8af1f53c89add31d0afa46c2200f42746",
     "sha256-fd-v1:f30f01e18d04111381ac6734247b96389bb6da25af17abddbfcb1b08a64bef5b"
    ],
+   "description": "Mink Label's four-disk table game crossing Old Maid with mahjong; the graphics are attractive, and completing a winning hand is notoriously hard.",
    "diskMachine": {
     "sha256-fd-v1:5babe95b9c31eb1791622ec80a8a0dce2368b3fa5a1c470ffd0df3c9b8ed3322": {
      "subcpu": "always"
@@ -61567,11 +61839,14 @@
    "title": "Socian"
   },
   "pc88:local-8d379d1bed": {
+   "adult": true,
+   "adultDescription": "A tile-swapping puzzle with erotic pictures to complete; tiles flip every move and stages get more pieces.",
    "contentIds": [
     "sha256-fd-v1:4d88da2dc15e30049696d5bf4dbd57d00e2e45db8366088ae877283b51100881",
     "sha256-fd-v1:57bb0d785fbf1d007be0fa90b26a80feea5f44eac714e64a7bb69eeba09a9139",
     "sha256-fd-v1:6962faef54c7552e42f64254d2c1adee73bbc7a717991a8c910bb4947cb2acdd"
    ],
+   "description": "A fiendish picture puzzle: swap tiles to complete several images at once, but each tile has two faces and flips every time it moves, and later stages split the pictures into more pieces.",
    "diskSets": {
     "sha256-fd-v1:6962faef54c7552e42f64254d2c1adee73bbc7a717991a8c910bb4947cb2acdd": {
      "setDisks": [
@@ -61643,10 +61918,13 @@
    "title": "Sweet Emotion!"
   },
   "pc88:local-8e45f5b649": {
+   "adult": true,
+   "adultDescription": "A strip blackjack game: beat the blue-haired sisters and they undress in animated full-colour scenes, an idea borrowed from Super Real Mahjong P3.",
    "contentIds": [
     "sha256-fd-v1:5d79fb1e046744a2ae9ef9ce9714caf5043c0b49c50fe4469b4829894a159706",
     "sha256-fd-v1:8ad137efc607d8e83a0fc72cf3204843634404d0276343df0a09cd81034877fd"
    ],
+   "description": "A blackjack card game from G.Create, makers of the FLAT music driver, starring a pair of blue-haired sisters animated in full colour, with Sound Board II music.",
    "diskMachine": {
     "sha256-fd-v1:8ad137efc607d8e83a0fc72cf3204843634404d0276343df0a09cd81034877fd": {
      "sound": "1"
@@ -61683,6 +61961,7 @@
    "contentIds": [
     "sha256-fd-v1:755adae9dca4f317a289736f883ad195b26af8867cd94c9a61e57949148b2bd0"
    ],
+   "description": "Orphe's best-of disk, packed with original and game music for the PC-88 (Sound Board II recommended); this Comic Market 45 edition differs from the earlier C43 one only in its comments and version.",
    "sourceGroups": [
     "neokobe:Orphe Music Best in Comic Market 45 (Doujin - Orphe)/Orphe Music Best in Comic Market 45 [FD].7z"
    ],
@@ -61725,15 +62004,19 @@
    "contentIds": [
     "sha256-fd-v1:36541aa24a23bb8a3bcc5e6625294aeab111783d807b7ee8d05c8dec1ea5eccd"
    ],
+   "description": "A 33-track NT-3 music disk from Active Gamers (1991), the first of the circle's releases with full Sound Board II ADPCM support.",
    "sourceGroups": [
     "neokobe:So-and-so - NT-3 Music Disk (Doujin - Active Gamers)/So-and-so - NT-3 Music Disk [FD].7z"
    ],
    "title": "So-and-so - NT-3 Music Disk"
   },
   "pc88:local-8f8ebcaa81": {
+   "adult": true,
+   "adultDescription": "A very explicit erotic adventure about rescuing a kidnapped classmate, built partly from art lifted from ONION soft, Fairytale and other makers.",
    "contentIds": [
     "sha256-fd-v1:7ed19259f10f9e804bae99e25dbceb38c9b58c91f87f11de115af1a9081528fc"
    ],
+   "description": "A chaotic adventure from Camadamia Soft: the girl every classmate admires has been kidnapped and the police are getting nowhere, so with school out you set off to rescue her yourself.",
    "sourceGroups": [
     "neokobe:Uratima I (Doujin - Camadamia Soft)/Uratima I [FD].7z"
    ],
@@ -61758,12 +62041,15 @@
    "title": "Show Down"
   },
   "pc88:local-8fdf969fac": {
+   "adult": true,
+   "adultDescription": "An erotic word-guessing adventure: Rui and Kiyomi initiate their high-school friend Noriko in a threesome in the school infirmary, filmed and replayed as the story; fill in the censored words to advance.",
    "contentIds": [
     "sha256-fd-v1:adbe962ce13d7ba83303bed2be3f67a9467e0bf4844c1fcb63cdd72b0c23f668",
     "sha256-fd-v1:d0ab5b9fce21ab96f5c97c14c9b69ab5f710ec4e42a0fdfdf0ebbbe0f3f83e12",
     "sha256-fd-v1:de221edfe4b0b9c407a41f0037f7ee2d95fd0dd8e2cfa5263331646c871daa0b",
     "sha256-fd-v1:fca7ef508f2b997f4c65fe0575485b359ba7bad1cc00ae536443f70f592528da"
    ],
+   "description": "The high-school-girl volume of Marionet's Take Out series: Rui brings her friend Noriko to the school infirmary to join her and Kiyomi, and as before you progress by typing the words hidden behind blanked-out text. With three heroines it grew to two disks.",
    "diskSets": {
     "sha256-fd-v1:de221edfe4b0b9c407a41f0037f7ee2d95fd0dd8e2cfa5263331646c871daa0b": {
      "media": [
@@ -61788,6 +62074,7 @@
    "contentIds": [
     "sha256-fd-v1:f3d981c463fff1eb5b87a76e8f0ce2c30fd413d3c9f37ac5e22f342df21292dc"
    ],
+   "description": "A simulation game from Creative H.A.T. in which you pilot mecha and wipe out the enemy, sold with a thick manga by FoZon explaining the side story.",
    "sourceGroups": [
     "neokobe:Chikyuu Boueigun Arbeit Butai (Doujin - Creative H.A.T.)/Chikyuu Boueigun Arbeit Butai [FD].7z"
    ],
@@ -61866,19 +62153,25 @@
    "title": "Mix88 Soukangou"
   },
   "pc88:local-907236b647": {
+   "adult": true,
+   "adultDescription": "A dice race up a castle in which winning shows the princess in revealing pictures; roll 1-5 to climb, a 6 sends you back to your last stake.",
    "contentIds": [
     "sha256-fd-v1:a8afd7526e2da83499b66f574d880f8ffdf81b41b5ab50ede2753a9875729b5e"
    ],
+   "description": "The king will marry his daughter to whoever climbs his castle first: roll 1-5 to climb, but a 6 drops you to the start unless you have hammered in a stake, which takes a roll of 4 or more. Timing the stakes against your rival is the whole game.",
    "sourceGroups": [
     "neokobe:Hanayome Soudatsu - Shiro Nobori Game (Doujin - Creative H.A.T.)/Hanayome Soudatsu - Shiro Nobori Game [FD].7z"
    ],
    "title": "Hanayome Soudatsu - Shiro Nobori Game"
   },
   "pc88:local-918000a033": {
+   "adult": true,
+   "adultDescription": "An erotic fantasy adventure packed with sex scenes: with devoted companion Amil you travel to the witch Sadiral's castle to rescue Princess Eris, the hero being the only man in the game.",
    "contentIds": [
     "sha256-fd-v1:0e87d01729f98c50f77d1b4d1556ecb18d593243eabd89c6aa7708cd0fd84c41",
     "sha256-fd-v1:87a585c94bf10b073bbdf30873228f878b93490ad4559f30c8f2ffdb56354de1"
    ],
+   "description": "A short Elein Soft fantasy adventure: rescue Princess Eris from the witch Sadiral, helped by Amil, a timid girl who swears to obey you. A run takes about ten minutes, and replays are needed to see every picture.",
    "diskSets": {
     "sha256-fd-v1:87a585c94bf10b073bbdf30873228f878b93490ad4559f30c8f2ffdb56354de1": {
      "media": [
@@ -61994,6 +62287,7 @@
    "contentIds": [
     "sha256-fd-v1:666322387620e215d234467ade86f1ee17a13cbca25a5b95f2fa653f3e617a27"
    ],
+   "description": "One of Firecracker's first five music disks, released together at 200 yen each and programmed in BASIC MML, which kept the sound modest but the track counts high.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 01 - We are Konamic Freaks (Doujin - Firecracker)/Firecracker Music Collection Vol. 01 - We are Konamic Freaks [FD].7z"
    ],
@@ -62003,6 +62297,7 @@
    "contentIds": [
     "sha256-fd-v1:c618e6502ade4dd030092c36bea313847dfb4dbc608933f306dfb4775835b98b"
    ],
+   "description": "A dice-driven board RPG from Dennou Kagaku Kenkyuujo, the circle behind the Dennou Tsuushin disk magazine: dice move your hero around the board and also settle every battle, much like Compile's Rune Master.",
    "sourceGroups": [
     "neokobe:Damages & Dice (Doujin - Dennou Kagaku Kenkyuujo)/Damages & Dice [FD].7z"
    ],
@@ -62017,6 +62312,7 @@
     "sha256-fd-v1:af3a28b4dc23660adb084f749b684680a7c46ec00bd440c4344114843700bf92",
     "sha256-fd-v1:b29a248ee545e485a2ad76396e02a238784b850a8431c8596c78edd7a08427c4"
    ],
+   "description": "Part of Kanai Karasawa's multi-disk Kimochi Disk 2: pick Kanai or Karasawa and play look-this-way against him; win and he strikes a photographed come-hither pose with a recorded voice.",
    "diskSets": {
     "sha256-fd-v1:0627b55a5c20ffec917e06c4dbeb8f2a1b86e50386961a8a181ebc38ff8bdf49": {
      "media": [
@@ -62092,6 +62388,7 @@
    "contentIds": [
     "sha256-fd-v1:84eb56751603455e67e57050e3a56ce51754c3d0e28dbfd44732e9dc89537fe7"
    ],
+   "description": "Firecracker music disk devoted to Tenshindo, mainly Martial Age and Yan Yan no Quiz Icchomae.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 27 - Tenshindo Special (Doujin - Firecracker)/Firecracker Music Collection Vol. 27 - Tenshindo Special [FD].7z"
    ],
@@ -62102,6 +62399,7 @@
     "sha256-fd-v1:521d91a114cd248a1936fd66c4ec180199652739d2a1c79add30c54ec9d90e27",
     "sha256-fd-v1:7eecb5ce3b90aa6801d216a6fa0e836e0934ca1ee06250869735b3996b68f506"
    ],
+   "description": "ALU Computer Arts' signature shooter: blistering speed and enemies that fill the screen with bullets, while your ship is nearly powerless and survives on a life gauge, so the game is all about dodging.",
    "diskSets": {
     "sha256-fd-v1:521d91a114cd248a1936fd66c4ec180199652739d2a1c79add30c54ec9d90e27": {
      "setDisks": [
@@ -62194,10 +62492,13 @@
    "title": "Ningyo no Namida"
   },
   "pc88:local-969cc3afcf": {
+   "adult": true,
+   "adultDescription": "An erotic short adventure: Kanami's Saturday can turn into scenes with her friends, including lesbian Yumika, or with a delivery man; replay to collect all the sex scenes.",
    "contentIds": [
     "sha256-fd-v1:1dd346767243dda6994bf3b934e08a940737eb41e3f7f033098af79f9c99955f",
     "sha256-fd-v1:7d6dc9e26a79160e3e45256db78f2dc75c52476da525ee8d7a8e2dfa765be2e1"
    ],
+   "description": "A short Elein Soft adventure, Kanami-chan no Doyoubi: you guide the girl Kanami through her Saturday by simple choices, optionally calling over friends Michiyo, Yumika and Misano. A play takes about ten minutes, so repeat runs reveal the rest of the pictures; a bonus compatibility quiz unlocks extra art.",
    "diskSets": {
     "sha256-fd-v1:1dd346767243dda6994bf3b934e08a940737eb41e3f7f033098af79f9c99955f": {
      "setDisks": [
@@ -62221,10 +62522,13 @@
    "title": "Chotto H na Graphics 3 - Milky Girls"
   },
   "pc88:local-9755c596c3": {
+   "adult": true,
+   "adultDescription": "A strip Donjara tile game: beat each girl of the gang holding Susumu's childhood friend, from a wrestling fan to a rock band member, and she undresses.",
    "contentIds": [
     "sha256-fd-v1:8ca1975c3a3a3361c151b6ef78a7b481bc1dcbb895acbd7b1089d9fa564080f7",
     "sha256-fd-v1:c4a233abfedc4df19a26484237f53f16cd177ae529621946a0ce521799a3fda9"
    ],
+   "description": "TKO Soft's Donjara tile game with its own scoring hands: when hero Susumu's childhood friend is carried off by a gang of tile players, he infiltrates their hideout and takes on its members, whose tiles and hands follow their hobbies, such as pro wrestling or progressive rock.",
    "diskSets": {
     "sha256-fd-v1:8ca1975c3a3a3361c151b6ef78a7b481bc1dcbb895acbd7b1089d9fa564080f7": {
      "media": [
@@ -62266,6 +62570,7 @@
     "sha256-fd-v1:35f2b06775595dade65a7aeab02621d5d722a54ed404967af0725a8cd56d5a03",
     "sha256-fd-v1:43d399c1d51879e7e8ff224f1589a1649df3dd4704cbf3bca09d53243ca95e97"
    ],
+   "description": "Second Tabibito no Gakufu story from Team AB: while Rune is staying with a girl named Shurea, he clashes with the local count, again carried by its music.",
    "diskSets": {
     "sha256-fd-v1:35f2b06775595dade65a7aeab02621d5d722a54ed404967af0725a8cd56d5a03": {
      "media": [
@@ -62289,6 +62594,7 @@
     "sha256-fd-v1:4f51d1e6173e21786ea321cfff0297db392d4245c0d8971ad24a848c837e96dd",
     "sha256-fd-v1:948ecb07303ba8d7ae8d9f1eba1e543ce4805162d8f49140c707f0bea7c370c5"
    ],
+   "description": "A grim RPG: after his house burns, his father is murdered and his mother dies of grief, young Selen wanders off to make a living, fights monsters and uncovers the demon lord's plan. Battles are elaborate in a tabletop-RPG way and progress is saved with passwords.",
    "diskSets": {
     "sha256-fd-v1:4f51d1e6173e21786ea321cfff0297db392d4245c0d8971ad24a848c837e96dd": {
      "media": [
@@ -62308,9 +62614,12 @@
    "title": "Selen"
   },
   "pc88:local-983fa780be": {
+   "adult": true,
+   "adultDescription": "An adult quiz whose risque trick questions hint at dirty words; each correct answer shows an erotic picture of a woman.",
    "contentIds": [
     "sha256-fd-v1:bc7e71bac7527cc61b89d858b70b3111a2eb15283b20aece3f5caccd1acf2f5c"
    ],
+   "description": "A word quiz of odd trick questions whose answers appear with some letters blanked out; each correct answer unlocks the next picture.",
    "diskMachine": {
     "sha256-fd-v1:bc7e71bac7527cc61b89d858b70b3111a2eb15283b20aece3f5caccd1acf2f5c": {
      "basic": "v1s"
@@ -62322,11 +62631,14 @@
    "title": "Love Mate"
   },
   "pc88:local-985005f82a": {
+   "adult": true,
+   "adultDescription": "A strip blackjack game: every five wins takes off one of each girl's five pieces of clothing, schoolgirl Kaori among them; pictures are uncensored but tame, and beating everyone makes the Santa girl undress too.",
    "contentIds": [
     "sha256-fd-v1:c0a440324e7bf06225405be3e1e2d721f6641846ef457b318ca5523a3aad9ccb",
     "sha256-fd-v1:c0ccca5fa92e269785f1c10e2cdddc3831e2322821c08c1af120c74344dd5822",
     "sha256-fd-v1:cf56852f27c3d82989a16db08230edcbfced003754fea4328c32042da1b4b942"
    ],
+   "description": "A two-disk blackjack game from Cream Soft: on Christmas a girl dressed as Santa drops by and promises a present if you can beat her friends, among them schoolgirl Kaori in her sailor uniform, Chisato, Nagisa and Sayo. The computer gets a little stronger with each opponent.",
    "diskSets": {
     "sha256-fd-v1:c0a440324e7bf06225405be3e1e2d721f6641846ef457b318ca5523a3aad9ccb": {
      "media": [
@@ -62347,9 +62659,12 @@
    "title": "White Christmas 2"
   },
   "pc88:local-98722ec031": {
+   "adult": true,
+   "adultDescription": "A strip rock-paper-scissors parody of Konya mo Asa made Powerful Maajan: win a round and one of the three girls takes something off.",
    "contentIds": [
     "sha256-fd-v1:6f758f4a643f945c58455247ce3bed464377239ffcadfb213aedd7b0aee8ddd7"
    ],
+   "description": "A parody of DB-Soft's Konya mo Asa made Powerful Maajan that swaps the mahjong for rock-paper-scissors against three girls, with a hidden character or two.",
    "sourceGroups": [
     "neokobe:Konya mo Hitoban Powerful Janken (Doujin - Gainen)/Konya mo Hitoban Powerful Janken [FD].7z"
    ],
@@ -62377,6 +62692,7 @@
    "contentIds": [
     "sha256-fd-v1:a16223963a2e40809bdfdcc55888ee9e44721c6bec3b1a540cc7edac280c9b44"
    ],
+   "description": "Frostforest's FSD music sampler with a small Romancing SaGa feature, followed by originals from GEPPEL, Osamu Ishikawa, NT-3, yon\", Monden, KEN and Chaikuro.",
    "sourceGroups": [
     "neokobe:FSD Sample Ongaku Shuu Vol. 3 (Doujin - Frostforest)/FSD Sample Ongaku Shuu Vol. 3 [FD].7z"
    ],
@@ -62387,6 +62703,7 @@
     "sha256-fd-v1:4aaf76ef08831db80d8c4b9ccc42de96357212013ea9aa93a839ed6bdc709de4",
     "sha256-fd-v1:954c8dee56ebd7be64c78be5bd961bf8e3c3f440869188ce886abc326ab886cf"
    ],
+   "description": "A one-on-one fighting action game against parodies of familiar anime characters, each attacking in a style that suits them and getting a knowing gag when beaten.",
    "diskSets": {
     "sha256-fd-v1:4aaf76ef08831db80d8c4b9ccc42de96357212013ea9aa93a839ed6bdc709de4": {
      "setDisks": [
@@ -62444,6 +62761,7 @@
     "sha256-fd-v1:e859b773055fc615bb2baf3ace7b2de6e67b67bcd9ceedef49f5961322083f77",
     "sha256-fd-v1:e8fdf08d61a2ebea4e91e7b7200a553e8f2481d9610545b3b35309f121921361"
    ],
+   "description": "Active Gamers' four-disk 1993 RPG, a tale of devotion between siblings that was two years in the making and aimed at being the strongest doujin RPG on the PC-88. Its 34-track score was written in Sound Board II, standard FM and PSG versions, and it was among the last PC-88 titles still sold on TAKERU.",
    "diskSets": {
     "sha256-fd-v1:26f1083a9f8b9d816fe3b04216da17f1d8e69f515ae70c32308dcc708846d45e": {
      "media": [
@@ -62508,6 +62826,7 @@
     "sha256-fd-v1:d486a9cce6b5b6343b049f751194038fff8dbeaf2e268daac6b8b89ac40e322b",
     "sha256-fd-v1:e669914e540f0f71ed9c5b4a526ddfde3c518972f49cb414fb7c647a9f02ac8f"
    ],
+   "description": "First of Team AB's Tabibito no Gakufu series, a digital picture story in which Rune, dressed like Snufkin, is caught up in a small trouble in a village on his travels, with music placed front and centre.",
    "diskSets": {
     "sha256-fd-v1:d486a9cce6b5b6343b049f751194038fff8dbeaf2e268daac6b8b89ac40e322b": {
      "media": [
@@ -62536,10 +62855,13 @@
    "title": "Dennou Erohon - Puru Puru"
   },
   "pc88:local-9a52d415b9": {
+   "adult": true,
+   "adultDescription": "A racy disk magazine of teenage idol girls: issue 3 includes a corner for peeking at the girls in gym uniforms, a date with idol Minaho, a jigsaw puzzle of the girls and other erotic picture features.",
    "contentIds": [
     "sha256-fd-v1:63a02db2bba708126a9ab33bd9aef9dc3ba050214efa5ad6932f9c8287305d9a",
     "sha256-fd-v1:6a85133dd970ebdd397c5d632c2e27b39f4bf401f1fc394cf3e03ecabac00137"
    ],
+   "description": "Third issue of Champion Soft's Zeta idol disk magazine, sold with a printed booklet and starring its regular cast of teen idol girls: a top-ten news corner, a date between a reader and idol Minaho, a jigsaw puzzle and more.",
    "diskSets": {
     "sha256-fd-v1:63a02db2bba708126a9ab33bd9aef9dc3ba050214efa5ad6932f9c8287305d9a": {
      "media": [
@@ -62562,6 +62884,7 @@
    "contentIds": [
     "sha256-fd-v1:4a61505c120f9c2b37558c4446706dae6e908f83ade5fdc2c705e4792e005f01"
    ],
+   "description": "A quiz made for the 1990 Osaka Flower Expo in which every question is Expo trivia; the prize for winning turns out to be not the girl on the title screen but the bizarre talking creature Hanazukin. Its Sound Board II music by CHEMOOL is unique to the PC-88 version.",
    "sourceGroups": [
     "neokobe:Hanayaide Osaka (Doujin - Bakuchiku Rengo)/Hanayaide Osaka [FD].7z"
    ],
@@ -62652,10 +62975,13 @@
    "title": "Pallmith"
   },
   "pc88:local-9d61a798ff": {
+   "adult": true,
+   "adultDescription": "A reverse-Othello game with stripping: beat each of the three girls across ten stages and their two-colour pictures turn into full-colour pin-ups as they undress.",
    "contentIds": [
     "sha256-fd-v1:1988787c7fe4af3ba3a2a088382ad1881ce03390fe5e0f883de5e0e036dd1b45",
     "sha256-fd-v1:3377382fa8a6dc7df0eb8bb77847fb951faf355fdbf581164dd3db4617267ff7"
    ],
+   "description": "KOB soft's reverse Othello: the winner is whoever ends with the fewest pieces. Three opponents scattered across Japan's cities make up ten stages with different starting layouts, and the music supports Sound Board II.",
    "diskSets": {
     "sha256-fd-v1:3377382fa8a6dc7df0eb8bb77847fb951faf355fdbf581164dd3db4617267ff7": {
      "media": [
@@ -62686,6 +63012,7 @@
     "sha256-fd-v1:c3e14c33391625c2735af71ee8b8ec073ee4f82e3c6a21b001749c518c2dddf8",
     "sha256-fd-v1:f29295c03853316afb3c4aa3482bb8f2bfa7bb22ce6ec26eaa0279adf65309e8"
    ],
+   "description": "LOGiN Soft's construction kit for field-map action RPGs, an ancestor of RPG Tsukuru sold through TAKERU in 1988: draw graphics dot by dot, lay out map chips and build your own game. Named after explorer Mamiya Rinzo; a sample game is included.",
    "diskSets": {
     "sha256-fd-v1:27498cc07d083c79db87db0784638a5e1382d01a6fc8fb9c1cc176f3ffa2672f": {
      "media": [
@@ -62841,6 +63168,7 @@
    "contentIds": [
     "sha256-fd-v1:32bc8ee0c7e0eb148cf1d8be79bc5380a20826a2ee4f3c4c4d3f148915521c44"
    ],
+   "description": "A free bonus disk for answering the survey in Active Gamers' Infinitia, carrying NT-3's music from the enhanced PC-98 edition of Mysterious Love Token back over to the PC-88.",
    "sourceGroups": [
     "neokobe:Mysterious Love Token 98 - NT-3 Music Disk (Doujin - Active Gamers)/Mysterious Love Token 98 - NT-3 Music Disk [FD].7z"
    ],
@@ -62850,6 +63178,7 @@
    "contentIds": [
     "sha256-fd-v1:71f9dee6d12e1aa8176f4fa88c465dd0f0ea70e810d2ec5ca80a04c015e31622"
    ],
+   "description": "The sixth of ONION software's 100-yen disks (1989), with four games by ONION, OSS, G-Create and Creative H.A.T., led by Cattle Mutilation, a mysterious game about aliens, cows and UFOs; another stars Hikkoshi-kun, a character known only from Shizuoka TV ads.",
    "sourceGroups": [
     "neokobe:100 Yen Disk No. 6 (Doujin - Onion Soft)/100 Yen Disk No. 6 [FD].7z"
    ],
@@ -62859,6 +63188,7 @@
    "contentIds": [
     "sha256-fd-v1:1ba568cb790792620fd5cdfb06559afce369c71e1b6145d6c916c6d4688a0039"
    ],
+   "description": "Firecracker's tenth music disk, centred on Super Star Soldier and the first to drop the standard FM version for lack of space; it also slips in a tune from Hanayaide Osaka.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 10 - Super Star Soldier (Doujin - Firecracker)/Firecracker Music Collection Vol. 10 - Super Star Soldier [FD].7z"
    ],
@@ -62891,6 +63221,7 @@
    "contentIds": [
     "sha256-fd-v1:0fa077b8345928de44534b7c7eca9267661eea2a6766f884d04320e19769a3c2"
    ],
+   "description": "A DTB software magical-girl adventure: young Yuki visits an amusement park with friends and her fairy pet Pome, who vanishes; turning into Milky Pal and back, she searches the Ferris wheel, teacups and roller coaster and catches the pair who stole Pome.",
    "sourceGroups": [
     "neokobe:Milky Pal (Doujin - DTB Software)/Milky Pal [FD].7z"
    ],
@@ -62919,6 +63250,7 @@
     "sha256-fd-v1:13a4af55318021a1e836e40105aa9d1ecddc72fe5b2a1c04e0f7eea7e3423d5f",
     "sha256-fd-v1:fc6a177d880f4f6792dc341b88fa8c97f0b57a8528d577279ca52e2436e0e2d2"
    ],
+   "description": "The only music disk made by all of Orphe's members together, for Sound Board II: it has many tracks and full-colour scanned pictures, which pushed it onto two disks.",
    "diskSets": {
     "sha256-fd-v1:13a4af55318021a1e836e40105aa9d1ecddc72fe5b2a1c04e0f7eea7e3423d5f": {
      "media": [
@@ -62984,10 +63316,13 @@
    "title": "Blocraz"
   },
   "pc88:local-a2b3541c41": {
+   "adult": true,
+   "adultDescription": "An erotic novel-style fantasy adventure concluding the Erotic Magical Trip series, with sex scenes as the hero, now king and married to Princess Eris, deals with a time-travelling former servant and the witch hidden inside his wife.",
    "contentIds": [
     "sha256-fd-v1:34df536a46fec9c4a03d5f3b35e737be3866b3fadcf44a9ec13c5609ae9c68f4",
     "sha256-fd-v1:97c2b8c14bbb66e78e3b8d18effbcc02445d506586711c32ed86edc7ad6ab44b"
    ],
+   "description": "The 1990 finale of Elein Soft's fantasy series, told as a novel-style adventure: three years after rescuing and marrying Princess Eris, the hero has become king, until a woman from the kingdom's past steps out of a mirror and a witch turns out to be lurking inside his queen.",
    "diskSets": {
     "sha256-fd-v1:34df536a46fec9c4a03d5f3b35e737be3866b3fadcf44a9ec13c5609ae9c68f4": {
      "media": [
@@ -63071,6 +63406,7 @@
    "contentIds": [
     "sha256-fd-v1:ff47489cd494b40ffc1aebf1541b112cbf9af557bafcebfe328152cc4b581758"
    ],
+   "description": "Firecracker's long-promised Dracula special: 51 tracks from the three Famicom Castlevania games and the Game Boy one, with plenty of documents.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 20 - Vampire Killer!! (Doujin - Firecracker)/Firecracker Music Collection Vol. 20 - Vampire Killer!! [FD].7z"
    ],
@@ -63127,6 +63463,7 @@
     "sha256-fd-v1:08e7bd70695ac4fc6091c33d8aebc1717e8e736a531fac85624888520e4eb2a7",
     "sha256-fd-v1:8fa48c87d6f559fd487e122a0a6f5f70874698c02ea36882d44a3c7b2d091e4b"
    ],
+   "description": "A music disk by Kashinohinoki and Unoafuku of Team AB, playing refined original tunes through their own driver, which squeezes extra voices and drum sounds out of the standard FM chip.",
    "diskSets": {
     "sha256-fd-v1:8fa48c87d6f559fd487e122a0a6f5f70874698c02ea36882d44a3c7b2d091e4b": {
      "setDisks": [
@@ -63177,10 +63514,13 @@
    "title": "Quiz Normal World"
   },
   "pc88:local-a6c0ce96fb": {
+   "adult": true,
+   "adultDescription": "A backgammon-style board game in which beating your opponent makes her undress.",
    "contentIds": [
     "sha256-fd-v1:a776f4ed930cc8b7a2ae5926fb938f06654588a2a5a6b9fbc11c584dbb9ae193",
     "sha256-fd-v1:fc4300da47f4c6a3a5e0f8114e95e320e50ba5cd169474d7272e93563ea0f4a1"
    ],
+   "description": "A backgammon-like board strategy game from Creative H.A.T. whose field map changes every stage, so tactics must adapt.",
    "diskSets": {
     "sha256-fd-v1:a776f4ed930cc8b7a2ae5926fb938f06654588a2a5a6b9fbc11c584dbb9ae193": {
      "setDisks": [
@@ -63265,6 +63605,7 @@
     "sha256-fd-v1:618e013bb2617745c552d6a017511a7d5fe3c0d4f8bc420bb36f0d3406693056",
     "sha256-fd-v1:97e0496d7b527ce02d2599b599635085e98d065731caa6d9bc12bb35824aa8db"
    ],
+   "description": "A sample game for LOGiN Soft's early action-game editor, a forerunner of the Tsukuru series: your hero walks, crouches, jumps, swings a sword and hurls fireballs at enemies.",
    "diskSets": {
     "sha256-fd-v1:432bf2480f0675f58576435d18ef9a4fb2260f08706e039c5731a32b849cd841": {
      "setDisks": [
@@ -63285,6 +63626,7 @@
     "sha256-fd-v1:7ebc5dc3da3c0bfb0919a1fe09f6afcdd32c9eedb9182a3294a3ebfd9c0f405b",
     "sha256-fd-v1:a373c9b8600fdbdbd3acb3e44dcd83f1472fc7b7f4e3d0e31bbc3fcb17f6cc04"
    ],
+   "description": "A sliding 15-puzzle whose pictures and music, including a music mode, change when you insert a data disk.",
    "diskSets": {
     "sha256-fd-v1:a373c9b8600fdbdbd3acb3e44dcd83f1472fc7b7f4e3d0e31bbc3fcb17f6cc04": {
      "media": [
@@ -63304,10 +63646,13 @@
    "title": "Puzzle Shichauzo"
   },
   "pc88:local-a8dde75b55": {
+   "adult": true,
+   "adultDescription": "A command adventure in which Miyou, trapped in a temple, keeps ending up undressed or assaulted in sudden absurd turns.",
    "contentIds": [
     "sha256-fd-v1:19e0ea3b8b454c521b6686a72d26844f255929819203a8ea64fa1df293a2f4a3",
     "sha256-fd-v1:9ec3246a19a31da476f707050b63fcef42706f4e3ca943774b64eb04932a2348"
    ],
+   "description": "A command-selection adventure from Unique's: guide Miyou, locked in Gyokukakuji temple as a test of courage, to find her way out.",
    "diskSets": {
     "sha256-fd-v1:19e0ea3b8b454c521b6686a72d26844f255929819203a8ea64fa1df293a2f4a3": {
      "media": [
@@ -63331,6 +63676,7 @@
     "sha256-fd-v1:b90301573d7e74b5aa3abe2db01658d3bec888ce6e3ad64d7f21a5514ac22aaa",
     "sha256-fd-v1:c12bead3efa950002a489a0229f5f871c0e22c2eaba517027c32e8b66378742c"
    ],
+   "description": "A concentration game in which panels carry a picture on both sides and pairs must be matched face-down; fewer panels can move each stage, and a challenge mode allows two-player matches.",
    "diskSets": {
     "sha256-fd-v1:c12bead3efa950002a489a0229f5f871c0e22c2eaba517027c32e8b66378742c": {
      "setDisks": [
@@ -63375,6 +63721,7 @@
    "contentIds": [
     "sha256-fd-v1:28b00ffa54cfb09364009fea5365fac79f3e7560edb81979bd1d2a8278bffd32"
    ],
+   "description": "Firecracker's third collection of guests' original music, including CHEMOOL's varied tracks for Nouten Densetsu and Osamu Ishikawa's Until the very end.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 25 - Original Music Special 3 (Doujin - Firecracker)/Firecracker Music Collection Vol. 25 - Original Music Special 3 [FD].7z"
    ],
@@ -63491,6 +63838,7 @@
     "sha256-fd-v1:e794bca6a5474eab99d380e8bc9a9581d5921a7cf6d870ab828f1279da23cdd5",
     "sha256-fd-v1:e882e2b70119fedb63affff2289a44c66f4e0c3d275352321643e65525bc4190"
    ],
+   "description": "A tough falling-block puzzle from Frostforest in which you clear blocks by combining musical notes and rests, with a drill mode of set problems in the vein of Nazo Puyo.",
    "diskMachine": {
     "sha256-fd-v1:e794bca6a5474eab99d380e8bc9a9581d5921a7cf6d870ab828f1279da23cdd5": {
      "clock": 4
@@ -63543,6 +63891,7 @@
    "contentIds": [
     "sha256-fd-v1:df7dd18c65cbd4a744d16f1f84e0ad32dbb9b9709dd7ace1d55e422e427af71d"
    ],
+   "description": "A 1990 music disk from Kobe's Woodsman Club, running on Magical-DOS with the PMD sound driver.",
    "sourceGroups": [
     "neokobe:Woodsman Disk Vol. 3 (Doujin - Woodsman Club)/Woodsman Disk Vol. 3 [FD].7z"
    ],
@@ -63562,6 +63911,7 @@
     "sha256-fd-v1:94735e68b080c739309d5372d38be63762828ca742ce8394d82b2681c90d13c8",
     "sha256-tape-v1:73daa27f6b43e67e729c590bb71cde2fd61749478d8f452ee4dbc5cfffc7f413"
    ],
+   "description": "An ASCII action game later collected on the Disk ASCII SF game disk: steer Rocketman with careful bursts of thrust to move between floors and collect every flower on screen, avoiding enemies and transformers and never hitting the ceiling or falling too far.",
    "diskMachine": {
     "sha256-fd-v1:94735e68b080c739309d5372d38be63762828ca742ce8394d82b2681c90d13c8": {
      "basic": "v1s"
@@ -63589,6 +63939,7 @@
     "sha256-fd-v1:611e662ac74246b8bf416953fb81efdbb00d4df6afdcc925d516a3f763045c3a",
     "sha256-fd-v1:c09abd51fa862b55039c19b2410de09fd7266eb69bbc50c069b6fb8bfbc98f53"
    ],
+   "description": "Starcraft's Japanese release of Sierra's Hi-Res Adventure #4, based on Homer's Odyssey: you sail to a magic land across the sea to bring back the golden fleece, getting past obstacles that only knowledge of Greek myth will solve.",
    "diskMachine": {
     "sha256-fd-v1:4fe6a5f79d79971a92a77ecd45b1bc939099d38af02f9ef613327ff39ff9bc23": {
      "basic": "v1s"
@@ -63624,6 +63975,7 @@
     "sha256-fd-v1:2d96697fdce842d4a68206dea497bab082ad186ce9c07223cc372de15457bdbc",
     "sha256-fd-v1:ff84b71b1881f24d7d54d99c97561f13963233ef49ba2bfd619a53ddbd58566a"
    ],
+   "description": "Part of Kanai Karasawa's Kimochi Disk 2: ADPCM is loaded into memory, then frame-by-frame photographed dance animation streams from disk in an endless loop to MC Hammer.",
    "diskMachine": {
     "sha256-fd-v1:2d96697fdce842d4a68206dea497bab082ad186ce9c07223cc372de15457bdbc": {
      "subcpu": "disk"
@@ -63651,6 +64003,7 @@
    "contentIds": [
     "sha256-fd-v1:f18a569301ae19383beb83f0fb0dfe7b5f57d707d08515fdcb69d4b119e58afd"
    ],
+   "description": "Firecracker's T-Square special music disk, arranging tracks from the fusion band.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 21 - T-Square Special (Doujin - Firecracker)/Firecracker Music Collection Vol. 21 - T-Square Special [FD].7z"
    ],
@@ -63660,6 +64013,7 @@
    "contentIds": [
     "sha256-fd-v1:5b1447878de38b42d91e49296052856ce99cc66a322d19e0edc33fa5b0a79aff"
    ],
+   "description": "A 1988 Lolita Soft adventure produced by Ikuko Ebata, drawn in 400-line high resolution and accepting romaji command input.",
    "sourceGroups": [
     "neokobe:Nagareboshi no Namida (Doujin - Lolita Soft)/Nagareboshi no Namida [FD].7z"
    ],
@@ -63670,6 +64024,7 @@
     "sha256-fd-v1:20ae0a72318bb397d65927b31233ab7487fef07d80723d72665d5572aec7e53f",
     "sha256-fd-v1:72a4b40abe5fa7e8b9876891747ab91e2ec2bb896d5f60accf2e655d502a7758"
    ],
+   "description": "Second Joker RPG, made entirely by one person: almost all text on screen, but with a carefully worked-out Dragon Quest-style scenario and music by Matsukui.",
    "diskSets": {
     "sha256-fd-v1:72a4b40abe5fa7e8b9876891747ab91e2ec2bb896d5f60accf2e655d502a7758": {
      "media": [
@@ -63779,6 +64134,7 @@
    "contentIds": [
     "sha256-fd-v1:57327dbccaac0f2bf6155b9c4ae566770aa1ba4a3c07b9667764fc98be352a2e"
    ],
+   "description": "Firecracker music disk (1995) covering V.G. II, a piece made online on UNISON-BBS, and originals from the CD Alpha.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 32 - V.G.2 Complete Special (Doujin - Firecracker)/Firecracker Music Collection Vol. 32 - V.G.2 Complete Special [FD].7z"
    ],
@@ -63808,6 +64164,7 @@
     "sha256-fd-v1:971b59ecb3426e110df578fc9bcdf653a203454937cf8d83107131aaa7831fbd",
     "sha256-fd-v1:da27d4a55712a97ebb678b931a295f1d7d9fe7be82e6b6057d44e6a4e53a47eb"
    ],
+   "description": "A late PC-88 RPG from A-Inn, a circle better known for its racier titles: a familiar quest to rescue the hero's kidnapped younger sister, released on two disks in 1991.",
    "diskSets": {
     "sha256-fd-v1:971b59ecb3426e110df578fc9bcdf653a203454937cf8d83107131aaa7831fbd": {
      "media": [
@@ -63840,6 +64197,7 @@
    "contentIds": [
     "sha256-fd-v1:944d80d4ed5567c8de64dac29dfed5f2ddb25cbc4e9dd70b020c509e93b3fea4"
    ],
+   "description": "Firecracker music disk (1994) featuring Giga's Steam Hearts and Advanced V.G. plus the PC Engine Farland Story.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 31 - Steam Hearts Special (Doujin - Firecracker)/Firecracker Music Collection Vol. 31 - Steam Hearts Special [FD].7z"
    ],
@@ -63896,6 +64254,7 @@
    "contentIds": [
     "sha256-fd-v1:1a05a9ca8a26d273c6c1f06f006884b567ec2767c94e3eb41b667498e5f0b732"
    ],
+   "description": "Team Dangeroude's second Hidoi Disk (1994), whose highlight is the mini game Yuukai Daisakusen, alongside more of Yamazaki's runaway essays.",
    "sourceGroups": [
     "neokobe:Hidoi Disk Vol. 2 (Doujin - Team Dangeroude)/Hidoi Disk Vol. 2 [FD].7z"
    ],
@@ -63943,11 +64302,14 @@
    "title": "Chousenshi Hoehoe - Baragon no Yabou"
   },
   "pc88:local-b15e4dceb8": {
+   "adult": true,
+   "adultDescription": "A strip Seven Bridge card game; the lingerie the girls take off was drawn from the Cecile mail-order catalogue.",
    "contentIds": [
     "sha256-fd-v1:2c069a04b3caf336848b31662061af799a76ad745a99574d85c6141841e3eb3c",
     "sha256-fd-v1:5a549d5fd867d2c5227c500a54a5156c93746371e51fba44147bb76f11ac19ad",
     "sha256-fd-v1:7c603337d00d0a70300da4e98ed1f46df7e8229509a4ab6e81f36f333762dcaa"
    ],
+   "description": "A Seven Bridge card game whose underwear drawings were famously modelled on the Cecile mail-order catalogue, hence the title.",
    "diskSets": {
     "sha256-fd-v1:5a549d5fd867d2c5227c500a54a5156c93746371e51fba44147bb76f11ac19ad": {
      "media": [
@@ -63977,6 +64339,7 @@
     "sha256-fd-v1:6cd3b37719a4d2a148a3f2afab9891ebbea779af5453bc001fa7b09899c0a2c5",
     "sha256-fd-v1:876b7869fa7ab3aab7ac1571652d5c0b894c766d455bc4775d4d68e359447974"
    ],
+   "description": "A 2009 Firecracker music disk of quiz-game tunes: Capcom's Quiz Nanairo Dreams, Sega's Answer x Answer and Tenshindo's Yan Yan no Quiz Icchomae.",
    "diskSets": {
     "sha256-fd-v1:6cd3b37719a4d2a148a3f2afab9891ebbea779af5453bc001fa7b09899c0a2c5": {
      "setDisks": [
@@ -63991,10 +64354,13 @@
    "title": "Firecracker Music Collection Vol. 38 - Rainbow x Answer"
   },
   "pc88:local-b2372bc2aa": {
+   "adult": true,
+   "adultDescription": "A strip card-battle game: each cleared stage removes a piece of clothing from one of the two girls, and stripping both completely wins.",
    "contentIds": [
     "sha256-fd-v1:dd2f25ec6ce6fee28fa8e6442bd526623e73c7fde4f944e943e32fad3daa234a",
     "sha256-fd-v1:fcb57f0682ff2fb5da3db3beb7492d5e04020b4c042066477d3738b230dd7947"
    ],
+   "description": "Bishoujo Club's card battle game: each card has a power and a number of actions, and you beat an enemy when your die roll plus power tops theirs; buy weapons for specific characters at the shop between stages, and save strong cards with few actions as trumps.",
    "diskSets": {
     "sha256-fd-v1:fcb57f0682ff2fb5da3db3beb7492d5e04020b4c042066477d3738b230dd7947": {
      "media": [
@@ -64018,6 +64384,7 @@
     "sha256-fd-v1:281512494bf81f1346a410f6e965866cde76bc6ec568d90b845b1f39e8c022d4",
     "sha256-fd-v1:bed8dfe6822f4cbf3c98fb207666f6f4b7c7ebe3a0e915d7ca46a27ca38abc1a"
    ],
+   "description": "The second parody fighting game, pitting you against stand-ins for Noriko, DAICON, A-ko, Kiki and Totoro on suitably familiar backdrops.",
    "diskSets": {
     "sha256-fd-v1:bed8dfe6822f4cbf3c98fb207666f6f4b7c7ebe3a0e915d7ca46a27ca38abc1a": {
      "setDisks": [
@@ -64068,10 +64435,13 @@
    "title": "Chotto H na Graphics"
   },
   "pc88:local-b3482fbcf4": {
+   "adult": true,
+   "adultDescription": "An erotic disk magazine aimed at older women than Zeta (college students, office workers, models); answering questions correctly in its corners reveals sexy pictures.",
    "contentIds": [
     "sha256-fd-v1:5a2f7a31907918c82a6dca5496ff1dca90ae97f9e6fe9711784dc1fe824f960c",
     "sha256-fd-v1:5cc726bab542dae7fc643af4cffa2f51a0b1eeb0d1ec9faab6ba6d045700d528"
    ],
+   "description": "Second issue of Omega, the older-skewing sibling of Champion Soft's Zeta disk magazines: guess which of four girls is the real model, follow college student Naoko through her day, and try an office-romance simulation.",
    "diskSets": {
     "sha256-fd-v1:5cc726bab542dae7fc643af4cffa2f51a0b1eeb0d1ec9faab6ba6d045700d528": {
      "media": [
@@ -64091,6 +64461,8 @@
    "title": "Omega No. 2"
   },
   "pc88:local-b40024ad29": {
+   "adult": true,
+   "adultDescription": "An erotic action parody in which you brave a series of stages so you can force yourself on Rimi-chan, the girl who moved in next door.",
    "contentIds": [
     "sha256-fd-v1:1b0245d3fda87593a5c2ce414926e686b836465f7f3d7a00cbbeb91ad0768809",
     "sha256-fd-v1:57d32eac19cfe207c631e4800c3e639ee1fbddb6538898adad0e28aeed353e44",
@@ -64101,6 +64473,7 @@
     "sha256-fd-v1:ddc0292c5881393009e1062cbf07dc39f2501feea775a51c627961ef447df47b",
     "sha256-fd-v1:fc78e7ea6fae66df4d07f3468892e2c9ae1c4c725b9591e26a06c5de1af16439"
    ],
+   "description": "ONION software's 1986 stage-by-stage action parody: to reach Rimi-chan, the girl who has just moved in next door, you face a run of trials that mash up Bouken Roman, Relics and other games.",
    "diskMachine": {
     "sha256-fd-v1:1b0245d3fda87593a5c2ce414926e686b836465f7f3d7a00cbbeb91ad0768809": {
      "basic": "v1h"
@@ -64167,6 +64540,7 @@
    "contentIds": [
     "sha256-fd-v1:ef97fcf07018c469e3da62bc6f7980d7502a7e1e9dbb1c673a05e946267eb1c8"
    ],
+   "description": "A political simulation from DSK in which you play Japan's prime minister pursuing the annexation of Korea named in the title, battling public opinion while managing the political situation.",
    "sourceGroups": [
     "neokobe:Kankoku Heigou 1991 (Doujin - DSK)/Kankoku Heigou 1991 [FD].7z"
    ],
@@ -64177,6 +64551,7 @@
     "sha256-fd-v1:86ce95bfe0e6045dd5c71080d969360b6ba5078f595d9b1e1fc6b2bc7bce56c2",
     "sha256-fd-v1:de1f205bac0800359ef4ac503a7d46ba0b1d0bd4b9db31c10d3683deaac5c88d"
    ],
+   "description": "Part of Kanai Karasawa's Kimochi Disk 2: Kanai sings Shizuka Kudo's MUGO-n Iroppoi into a microphone, reproduced as PCM synthesized on the PSG.",
    "diskSets": {
     "sha256-fd-v1:86ce95bfe0e6045dd5c71080d969360b6ba5078f595d9b1e1fc6b2bc7bce56c2": {
      "setDisks": [
@@ -64191,11 +64566,14 @@
    "title": "Kimochi Disk 2 - Kanai-kun no Uta"
   },
   "pc88:local-b4687b594f": {
+   "adult": true,
+   "adultDescription": "An erotic CG sequel to Keiko-chan no Himitsu showing a grown-up Keiko in sex scenes as a nurse, an office worker or a new wife, about five pictures per part; the office part has her in an affair with her boss, with bondage and oral sex. Needs a five-digit password to run.",
    "contentIds": [
     "sha256-fd-v1:243124eea3cd01e455a9bd0eee32c6c2311532cb2e77856689151cf5c52c79a5",
     "sha256-fd-v1:80fad0e6c14820a13d4e63b19e6150521084eb8036ca6b64a165b2359ebd673f",
     "sha256-fd-v1:d75e9676995a2a399845cee363df9c076b18d5ac9241154bc79ecb7653eecbdc"
    ],
+   "description": "A follow-up picture disk to Champion Soft's adventure Keiko-chan no Himitsu that imagines what became of its heroine Keiko, released in nurse, office-worker and new-bride parts of about five pictures each. The disk asks for a five-digit password before it runs.",
    "diskMachine": {
     "sha256-fd-v1:243124eea3cd01e455a9bd0eee32c6c2311532cb2e77856689151cf5c52c79a5": {
      "basic": "v1s"
@@ -64223,19 +64601,25 @@
    "title": "Sono Go no Keiko-chan"
   },
   "pc88:local-b4ad3ac440": {
+   "adult": true,
+   "adultDescription": "A strip poker game with TKO Soft's own house rules.",
    "contentIds": [
     "sha256-fd-v1:0d8bce0ec0fcfb4a7c1c6f9a1c7209f1b29a6d048146a32e44b440cc05be87c5"
    ],
+   "description": "TKO Soft's poker game, played under its own unusual house rules; the manual promises that anyone can reach the ending.",
    "sourceGroups": [
     "neokobe:Atata Metcha Plus (Doujin - TKO Soft)/Atata Metcha Plus [FD].7z"
    ],
    "title": "Atata Metcha Plus"
   },
   "pc88:local-b4ade00e5b": {
+   "adult": true,
+   "adultDescription": "Part of Champion Soft's erotic Zeta disk magazine series built around teenage idol models, with a spot-the-difference game, jigsaw and a date scene alongside suggestive pictures.",
    "contentIds": [
     "sha256-fd-v1:471380fc6ef36e2bd43948d84a98f00f2360d5f9d8d489c12bc723e46c1fd6ed",
     "sha256-fd-v1:bd33f410c88222bfa6450f6fa05e95013bc57f9c637bb6f5b4de30d7e159a057"
    ],
+   "description": "Fourth issue of Champion Soft's Zeta disk-and-magazine set: the booklet carries the four-panel comic Ganbare Maiko-chan and a profile of idol Miki, while the disk holds a spot-the-difference game, a jigsaw puzzle and a date with Kyoko.",
    "diskSets": {
     "sha256-fd-v1:471380fc6ef36e2bd43948d84a98f00f2360d5f9d8d489c12bc723e46c1fd6ed": {
      "media": [
@@ -64310,6 +64694,7 @@
    "contentIds": [
     "sha256-fd-v1:b9a98b21c5dc4e650c1847377e08beade09002cdea3496acf93b90c07b091ada"
    ],
+   "description": "A 15-puzzle of pictures such as Iczer-1 with the key directions reversed, which makes it confusing to solve.",
    "sourceGroups": [
     "neokobe:Touble & Confusion (Doujin - Eternal Champion Software)/Touble & Confusion [FD].7z"
    ],
@@ -64357,9 +64742,12 @@
    "title": "PC-8801mkIISR system disk"
   },
   "pc88:local-b5894668a2": {
+   "adult": true,
+   "adultDescription": "Part of Iron Gear's Nouten Chokugeki strip blackjack series, converted to the PC-88 by Mad Pierrot.",
    "contentIds": [
     "sha256-fd-v1:300c5648aaf91ab22935e02392148d76320fe93003dce32557cbe13d1f6f6d9c"
    ],
+   "description": "Mad Pierrot's PC-88 conversion of an entry in Iron Gear's Nouten Chokugeki series of card games.",
    "sourceGroups": [
     "neokobe:Nouten Chokugeki! Gaiden (Doujin - Mad Pierrot)/Nouten Chokugeki! Gaiden [FD].7z"
    ],
