@@ -10750,6 +10750,7 @@
    }
   },
   "pc88:196949": {
+   "adult": true,
    "artwork": {
     "boxArt": {
      "format": 0,
@@ -11011,6 +11012,7 @@
    }
   },
   "pc88:196971": {
+   "adult": true,
    "artwork": {
     "boxArt": {
      "format": 0,
@@ -11039,6 +11041,7 @@
    }
   },
   "pc88:196973": {
+   "adult": true,
    "artwork": {
     "game": 146973,
     "platform": 88,
@@ -13393,6 +13396,7 @@
    }
   },
   "pc88:207535": {
+   "adult": true,
    "artwork": {
     "game": 157535,
     "platform": 88,
@@ -14964,6 +14968,7 @@
    }
   },
   "pc88:456667": {
+   "adult": true,
    "artwork": {
     "boxArt": {
      "format": 0,

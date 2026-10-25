@@ -6969,6 +6969,7 @@
     "sha256-fd-v1:97b3f2571ccffc4e9fd004a5d8613bdea5ab397b2f7e289b34139e827c8d2020",
     "sha256-fd-v1:edcb388a2a3afaa4294b3ea0c4032f554d26e4e34864f3143c4c720501c3aeb0"
    ],
+   "description": "A comic science-fiction board-style adventure for up to four players. A supernova has destroyed the star Lada and its debris will wipe out the Galaxy Curtis federation in three years, so each player picks one of 16 oddballs, from cadet and princess to space pirate and android, and spends monthly turns flying between planets to find 11 lost technologies of an ancient civilization.",
    "diskSets": {
     "sha256-fd-v1:2acf848c6f96f48a9e9c4706acc2ff1f4a2714b314cf363dc84ca067519ee409": {
      "media": [
@@ -8177,6 +8178,7 @@
    "contentIds": [
     "sha256-fd-v1:d7926ab1726f8f3a818b32ba4a3141c0f676008e760ffe4deb8456af171661f3"
    ],
+   "description": "A war simulation adapted from the Giant Gorg anime. On the mysterious South Seas island of Austral, the boy Yuu and the blue giant Gorg fight the GAIL corporation's troops and alien guardians, regrouping with scattered companions and coordinating with a carrier vehicle to build up their strength.",
    "diskMachine": {
     "sha256-fd-v1:d7926ab1726f8f3a818b32ba4a3141c0f676008e760ffe4deb8456af171661f3": {
      "subcpu": "disk"
@@ -16312,6 +16314,7 @@
     "sha256-fd-v1:c3049ddf33b9cf08b706449abafd33c6f35069bdcb7ff9cfe710ee5a9d953cfd",
     "sha256-fd-v1:f34b6f28b799275dccbd769473a031e5b7231818c979af33ede30974ef42aa1d"
    ],
+   "description": "A Gundam battle simulation: you spend a budget of player experience points to pick one of 64 mobile suits spanning UC 0079 to 0093, fit its weapons and set its parameters, then watch it fight computer or human opponents automatically on space, ground, undersea and desert stages. Victories earn points for stronger suits.",
    "developer": "Family Soft",
    "diskSets": {
     "sha256-fd-v1:56372d5204aa942a40e525d4e108841b3e7712e68b687900c5c0f55444cb4a3c": {
@@ -16902,6 +16905,7 @@
   },
   "pc88:188579": {
    "adult": true,
+   "adultDescription": "An adult picture collection with no game to it: you page through a dozen or so erotic illustrations with the Return key, some with short animations. FairyTale released it in five volumes by theme, from lolita and schoolgirl to office lady, nurse and stewardess.",
    "artwork": {
     "boxArt": {
      "format": 1,
@@ -25039,6 +25043,7 @@
     "sha256-fd-v1:ca2eebcb34797f5be2b5dda2e3d6d383b54d34ac4b1dea3d331667e4b07714a4",
     "sha256-fd-v1:d29c43e24978708df2fae79f0efd0f897d912dfdf407a5fdc48c1e1e0edd331e"
    ],
+   "description": "Lushana Patee, governor of the frontier Sutri system, hunts the living bio-weapon Vritra that destroyed his home world and fiancee. Each month you issue five commands to tax planets and build fleets, fight turn-based fleet battles, and invade planets in side-scrolling mech stages. War data passwords carry over to other Daiva stories.",
    "developer": "T&E Soft",
    "diskSets": {
     "sha256-fd-v1:1e2e71052906d87b0fc54591af2e61bf2984148e85f169de08b0feaa80172519": {
@@ -25563,6 +25568,7 @@
    "contentIds": [
     "sha256-fd-v1:b6bd616235501706ed4d0c33f531305d067768a9d7ad97678622d5946ee83528"
    ],
+   "description": "Light-speed engines have opened the stars to colonists until a war with an alien civilization breaks out. Piloting the small spacecraft USAR S-1 Cygnus, you shoot down enemy craft, each with its own animated behavior, across eight stages, four of which feature an enemy battleship.",
    "developer": "HARD",
    "diskMachine": {
     "sha256-fd-v1:b6bd616235501706ed4d0c33f531305d067768a9d7ad97678622d5946ee83528": {
@@ -26042,6 +26048,7 @@
     "sha256-fd-v1:116156d0f3d30c0b7d02fbe92c93e936d6a41b6c03e3a767d69c2c1702c2a876",
     "sha256-fd-v1:990c39a035a1f6b6aab7395eb76548a01a58fad3ac90a12b5bccbd465cd31a2b"
    ],
+   "description": "In 2027, a quarter century after a Soviet nuclear strike shattered Tokyo, the martial-arts dictator who seized the ruins as the nation of Tokio is dying, and a brain transplant would bring him back. As a knife-wielding CIA agent you infiltrate to stop it, moving with the keypad, attacking by stepping next to enemies and recruiting odd allies. Third in the series after Shanghai and Kyu Ryu Tou.",
    "diskSets": {
     "sha256-fd-v1:990c39a035a1f6b6aab7395eb76548a01a58fad3ac90a12b5bccbd465cd31a2b": {
      "media": [
@@ -26660,6 +26667,7 @@
     "sha256-fd-v1:3c6ab9df72d85cad65632894a723e4175abda3610236c1c1868429755100f02e",
     "sha256-fd-v1:a5ca02328e94840ea07d30449d50e972ad4116cb203c32d34e080100643ed138"
    ],
+   "description": "A shooter alternating vertically scrolling stages with into-the-screen 3D stages, ten in all, flown in the fighter Nights Over Egypt. Red, yellow and blue drops power up the air shot, ground bombs and shield, with a weapon level-up after six pickups without dying; giant bosses end the 2D stages. Pressing F5 on the title screen opens a music mode.",
    "developer": "Telenet Japan",
    "diskSets": {
     "sha256-fd-v1:a5ca02328e94840ea07d30449d50e972ad4116cb203c32d34e080100643ed138": {
@@ -28467,6 +28475,7 @@
    "contentIds": [
     "sha256-fd-v1:d3cfbf49b024ba3f6fdd091d941e5b916f63ae290c13da133968c08838d9f162"
    ],
+   "description": "Humanity's technological progress has warped the dimension of time, and you set out to find the Holy Grail that can set the world right. The game has two halves: a real-time action part in which each room is cleared by meeting a condition, and a puzzle-like role-playing search for the Grail, where stamina and weapons saved from the first half matter.",
    "developer": "Sein-Soft",
    "launchbox": "190042",
    "publisher": "Sein-Soft",
@@ -28493,6 +28502,7 @@
    "contentIds": [
     "sha256-fd-v1:9f55cd6b2d711ce9c0dcba478bc344dd00f09d692c759072e794778907b6ba24"
    ],
+   "description": "A text-only adventure with no graphics at all, in which you must rescue a princess carried off by the demon lord of the eastern mountain, feeling your way forward by typed commands. It is seen as the starting point of Xtal Soft's later fantasy RPGs.",
    "developer": "Xtalsoft",
    "diskMachine": {
     "sha256-fd-v1:9f55cd6b2d711ce9c0dcba478bc344dd00f09d692c759072e794778907b6ba24": {
@@ -28907,6 +28917,7 @@
     "sha256-fd-v1:3bb809321e609ac5c6a7b243ba48696710bcee9927aac931c3f05674120b9d52",
     "sha256-fd-v1:841e92e1bbcd61a6dc28422b19e28dd463cad0d7c677978c53a71eaf9792e94e"
    ],
+   "description": "Sequel to Shanghai. In 2025, with East-West tension at breaking point, the UN calls in legendary mercenary Jamie Star to stop secret society chief Mister Khan's germ-weapon project. You choose a version of the hero by strength or other trait, and the party you steer grows each time you find an ally.",
    "developer": "Starcraft",
    "diskSets": {
     "sha256-fd-v1:3bb809321e609ac5c6a7b243ba48696710bcee9927aac931c3f05674120b9d52": {
@@ -30446,6 +30457,7 @@
     "sha256-fd-v1:c35fd0bdbf2f2b82cf34d8e7bf31e549f183b11d19ca966b9fb2ceb799a281ef",
     "sha256-fd-v1:e2e6c65f865ab8c5eb0587c2da011c61a78895e395a1f0fab5bd18b1ad00499b"
    ],
+   "description": "The kingdom of Saris is razed by the Vifo, an assassin-sorcerer order of the Bahaman theocracy; years later a boy living among mountain bandits begins his journey. An action RPG with no experience points: strength, magic and weapon levels and new spells come from level-up items in treasure chests, and spells need time to cast.",
    "developer": "T&E Soft",
    "diskSets": {
     "sha256-fd-v1:b9b60dc8641fba9008df00121c7928566583568927f4ba68014aa8222a0de2d6": {
@@ -30518,6 +30530,7 @@
     "sha256-fd-v1:87a6642f62ce7c78107c3c477cc6fe3427c8e81f1fe380200a62bdd6e0d255d1",
     "sha256-fd-v1:fd77f29ddac76e3ea9a4c29615b958ac03c98aafc756918a39d5855f84fd0c95"
    ],
+   "description": "SA-ZI-RI, a shape-shifting life form sealed away long ago by a psychic savior, is stirring again: a colony system goes silent and Princess Rianna's fleet vanishes. Ark Jess Liver must recover the eight parts of the prison shuttle across eight worlds, finding the way to bosses hidden in other dimensions before each part's self-destruct countdown ends.",
    "developer": "Nippon Telenet",
    "diskSets": {
     "sha256-fd-v1:006705447622dedf45202e1364ed5033e345da0f5a873981cafcaf7b4d31902b": {
@@ -31190,6 +31203,7 @@
     "sha256-fd-v1:c5fd7a01fd8dd30e10d0fe7076235eb781c48241a75aeb9594d5faa625316f13",
     "sha256-fd-v1:c9b73097e353a0973cc1411522f58d08e0a2fb42cf2bf5f5e7701a379146c36f"
    ],
+   "description": "In a small 1970s town in the American South, a thief hires on as temporary chauffeur at the Cairns mansion to steal the cursed crimson emerald Agni within one week. The clock runs in real time: you must drive the master to his office on schedule or be fired, while exploring the mansion as a 3D maze, questioning its eleven residents and driving into town for rumors and supplies.",
    "developer": "Humming Bird Soft",
    "diskSets": {
     "sha256-fd-v1:c5fd7a01fd8dd30e10d0fe7076235eb781c48241a75aeb9594d5faa625316f13": {
@@ -31804,6 +31818,7 @@
     "sha256-fd-v1:73ea8145e7a5f047ef2c7d27791ba94948d3e8060879542640e2e5082a284745",
     "sha256-fd-v1:c2f32fe3c6b6313ae40fe6efb4e1da1e9d25332a6119161f85f2cfae3e341d3e"
    ],
+   "description": "A computer version of Tsukuda Hobby's Xabungle board wargame Blue Gale, a strategy simulation in which you set out to wipe out Gabletto's forces. It was planned as the first of three games, but the follow-ups were cancelled.",
    "developer": "Pony Canyon",
    "diskMachine": {
     "sha256-fd-v1:73ea8145e7a5f047ef2c7d27791ba94948d3e8060879542640e2e5082a284745": {
@@ -32671,6 +32686,7 @@
    "contentIds": [
     "sha256-fd-v1:3fc4211016fa3a7b922b3cb88fd70b1ab91576518124f0723f01580b637a5960"
    ],
+   "description": "A simulation of the Battle of Tsushima in the Russo-Japanese War: as commander of Japan's Combined Fleet you intercept the Russian Baltic Fleet in the decisive naval battle.",
    "developer": "CSK Research Institute",
    "launchbox": "193363",
    "publisher": "CSK Research Institute",
@@ -32986,6 +33002,7 @@
    "contentIds": [
     "sha256-fd-v1:7efc7eaa3fc50a5c319dd96e274e3012f7bf45f0a5ae7ab94d374d83215a03d7"
    ],
+   "description": "As supreme commander of the Earth Defense Force you defend the solar system from alien invaders without directly flying anything: you build fighters by fitting engines and proton cannons, program how they react to enemies in a software factory, then launch them and watch the dogfights on monitors, redesigning after losses until the enemy mothership falls.",
    "developer": "ArtDink",
    "launchbox": "193371",
    "publisher": "ArtDink",
@@ -33681,6 +33698,7 @@
    "contentIds": [
     "sha256-fd-v1:f27ef4a6bba99dc5b9cfdd4ebf448ad780f6c3ee02a2d761c126869a03524b13"
    ],
+   "description": "A simple territory-conquest strategy game for one or more players. From one of five castles you hire soldiers, pay their wages from land income and move troops into areas held by monsters, which multiply at ever shorter intervals; random battle events such as blood-sucking bees or witches can swing your numbers.",
    "developer": "ASCII",
    "diskMachine": {
     "sha256-fd-v1:f27ef4a6bba99dc5b9cfdd4ebf448ad780f6c3ee02a2d761c126869a03524b13": {
@@ -34244,6 +34262,7 @@
     "sha256-fd-v1:750126d2aa300b9daac034b1aa3a181536b07795ef421a5c0b6964ad35314638",
     "sha256-fd-v1:e667d94961122e6968a80d00a1e295369e3caa4ab8ab766519b3eae41218c2c9"
    ],
+   "description": "In a sword-and-sorcery land kept alive by the life spring Juju, which has begun to dry up, you choose one of two races, swordsman or magician, and explore top-down dungeons island by island. Characters grow by clearing trials rather than gaining experience, a karma value affects what people tell you, and two can play at once.",
    "developer": "Hot-B",
    "diskSets": {
     "sha256-fd-v1:e667d94961122e6968a80d00a1e295369e3caa4ab8ab766519b3eae41218c2c9": {
@@ -36038,6 +36057,7 @@
   },
   "pc88:196888": {
    "adult": true,
+   "adultDescription": "An erotic adventure: while hunting for his kidnapped teacher Minako at Shirahama beach, the student Kenta has sex with several girls he meets, a mermaid, and finally Minako herself.",
    "artwork": {
     "game": 146888,
     "platform": 88,
@@ -36051,6 +36071,7 @@
     "sha256-fd-v1:1c268684b668a52933ffecafed9c967f33a0e53a2989d8c5ba0ed7ef882b3521",
     "sha256-fd-v1:215ebfac68c05b834682b3bcc7e2630e02429c9e0760705f462f137de3c5037f"
    ],
+   "description": "A mostly linear adventure: the students' beloved teacher Minako goes missing while the hero Kenta and his friends are on a trip to Shirahama beach, apparently snatched near the western rocks, where a mysterious girl and a legend about a mermaid wait.",
    "developer": "Tect House",
    "diskSets": {
     "sha256-fd-v1:215ebfac68c05b834682b3bcc7e2630e02429c9e0760705f462f137de3c5037f": {
@@ -36142,6 +36163,7 @@
   },
   "pc88:196890": {
    "adult": true,
+   "adultDescription": "A short erotic game about having sex with the beautiful Madoka, ending in an animated sex scene.",
    "artwork": {
     "game": 146890,
     "platform": 88,
@@ -36586,6 +36608,7 @@
   },
   "pc88:196910": {
    "adult": true,
+   "adultDescription": "Sequel to Emmy, an early chat-based erotic game: you talk with the blonde Emmy by typing, the program learns from what you say, and as the conversation goes well she changes pose and gradually undresses. The PC-88 version has much sharper art than the first game.",
    "artwork": {
     "boxArt": {
      "format": 0,
@@ -36613,6 +36636,7 @@
     "sha256-fd-v1:fba1fc9fe998e9a34c18d4e2763d7272bab5e78687af1126318795b8eaff17d0",
     "sha256-fd-v1:fc2498c34a6344b31adb29a2e309e0a56ae6b364a1ad45694ab57a0f8e5a3e7d"
    ],
+   "description": "Sequel to Emmy, a conversation game in which you chat freely with Emmy, a blonde woman, by typing; the program records what you say in a database and uses it in later talks, and her pose and outfit change as the conversation goes on. The title logo reads VIRGIN II until a conversation has been saved.",
    "developer": "Kogado Studio",
    "diskMachine": {
     "sha256-fd-v1:1c0c0643b1a698ba142bac56da701f73f90f7d66e5c57bf3b2dc930055bb4b22": {
@@ -37642,6 +37666,7 @@
   },
   "pc88:196944": {
    "adult": true,
+   "adultDescription": "An erotic word game: you combine who, where and what words from three lists of 100 to talk dirty to each girl, and the right lines fill her arousal meter until she climaxes and an explicit picture appears.",
    "artwork": {
     "boxArt": {
      "format": 0,
@@ -37659,6 +37684,7 @@
    "contentIds": [
     "sha256-fd-v1:447a2d7969c7329190355ddce4afd2d0e85043d570cac0316b33b8ed62debf43"
    ],
+   "description": "A word-matching game: from three lists of 100 words each, covering who, where and what happens, you assemble short sentences suited to each girl's personality, and a good match fills her meter to unlock a picture. The first of a series continued in later chapters.",
    "developer": "Family Soft",
    "launchbox": "196944",
    "publisher": "Family Soft",
@@ -37688,6 +37714,7 @@
     "sha256-fd-v1:a3895b6c9ee34e393fb3bbd05fce542c646c1673baf23cd3237949e42848ddaa",
     "sha256-fd-v1:d377391b4ff998996f8efd61381d027f18be994fdea134d783dcf8f010627923"
    ],
+   "description": "An adventure set in Tokyo's Shinjuku, starting in front of Studio Alta: you roam real landmarks such as Marui, Isetan, Kinokuniya and Hanazono Shrine to track down a club called the House of Sacrifice. It is part of the publisher's Sniper series.",
    "developer": "Adult Inn",
    "diskSets": {
     "sha256-fd-v1:d377391b4ff998996f8efd61381d027f18be994fdea134d783dcf8f010627923": {
@@ -37803,6 +37830,8 @@
    "title": "Isseki ni Kakeru Seishun"
   },
   "pc88:196949": {
+   "adult": true,
+   "adultDescription": "A strip mahjong game: cyborg-armed Suzume Aso battles the secret society Daikokudo at mahjong, buying parts that enable cheats, and each defeated opponent undresses in detailed artwork. Free mahjong and a Pocky-themed match-three mode are included.",
    "aliases": [
     "Jan-Borg Suzume"
    ],
@@ -37833,6 +37862,7 @@
     "sha256-fd-v1:e6e5ebf5a6904c00bb88bb2313888d53867d2b8ddddab71b77f4571ccbfa5a14",
     "sha256-fd-v1:f696bcacdc1e757692c7ab9ede1b23741088c41888082c66a57304e4211d1332"
    ],
+   "description": "Suzume Aso, whose arm was turned cybernetic by her own grandfather, is dragged into a war against the evil secret society Daikokudo, fought at the mahjong table. In the story mode you roam a map beating opponents for money to buy parts that power cheat techniques; free mahjong and a match-three Pocky mahjong mode are also included.",
    "developer": "Ponytail Soft",
    "diskSets": {
     "sha256-fd-v1:1e2d929b8dd24729050f8fbbdce0b44069ec5509ebb4c81380c2f149ff94f64c": {
@@ -38187,6 +38217,7 @@
     "sha256-fd-v1:f9f4952052d6f6160c39ae49f8a7bc6e5a286d5ea012518df5b78ded33f25d3e",
     "sha256-fd-v1:ffffc9fb54194e721f6df674f87f892d21df80ce86d6ccb0190820d083c63ec2"
    ],
+   "description": "The first issue of Lemonade, a package pairing a comic book of around 200 pages with a computer game loosely tied to it. In the game, Kidnapped Miki-chan, you head to Dracula's castle to rescue Miki, a young vampire girl carried off by an evil Dracula.",
    "developer": "Champion Soft",
    "diskSets": {
     "sha256-fd-v1:76732c081ee551cd74068f969a39c9087a66df1f5d9a7330dfea220dabed1353": {
@@ -38539,6 +38570,7 @@
   },
   "pc88:196969": {
    "adult": true,
+   "adultDescription": "An early erotic seduction game: rather than a plain strip rock-paper-scissors game, you try to talk a computer woman into bed by reading her psychological state and biorhythm.",
    "artwork": {
     "boxArt": {
      "format": 1,
@@ -38557,6 +38589,7 @@
     "sha256-fd-v1:dcc99c9817204a0fa559f27684905753f0fb01d6bf9fb3bde4efff2614e3003d",
     "sha256-tape-v1:9d3de67855d31ec5106ba532a74313da7541c141787891f6c77f1e595f6dcb7d"
    ],
+   "description": "Instead of a plain rock-paper-scissors game, you try to win over a woman living in the computer, weighing her psychological state and biorhythm as you talk to her.",
    "developer": "T&E Soft",
    "diskMachine": {
     "sha256-fd-v1:dcc99c9817204a0fa559f27684905753f0fb01d6bf9fb3bde4efff2614e3003d": {
@@ -38641,6 +38674,8 @@
    "title": "Luna City Satsujin Jiken"
   },
   "pc88:196971": {
+   "adult": true,
+   "adultDescription": "An adult game sold with a photo booklet: you find and stimulate the erogenous zones of four types of girls across three backgrounds and seven poses, in a set order and with the right tools for each spot; as a girl's ecstasy level rises she gives hints.",
    "artwork": {
     "boxArt": {
      "format": 0,
@@ -38742,6 +38777,8 @@
    "year": 1991
   },
   "pc88:196973": {
+   "adult": true,
+   "adultDescription": "A strip blackjack game: beating Santa-costumed Yuki reveals erotic pictures across eleven rounds, and clearing the last one has her undress completely in a short animation.",
    "artwork": {
     "game": 146973,
     "platform": 88,
@@ -38755,6 +38792,7 @@
     "sha256-fd-v1:4845df7fc967f6293cb0efad93dde9a34b90d686ae54448de28fd59a6cfa4301",
     "sha256-fd-v1:c11806b7a012ca09fa3b15fa5fd5a35b2e7ef53ed1a5afc9476f05702a6fee33"
    ],
+   "description": "A blackjack game against Yuki, a girl dressed as Santa Claus, who promises a nice present if you beat her five times first. There are eleven rounds in all, with a short animated finale after the last.",
    "developer": "Striker",
    "diskSets": {
     "sha256-fd-v1:c11806b7a012ca09fa3b15fa5fd5a35b2e7ef53ed1a5afc9476f05702a6fee33": {
@@ -38927,6 +38965,7 @@
    "contentIds": [
     "sha256-fd-v1:8bc419e113f04d04a75ede806f92fe3cc24a3ac624854ce632bdb358dfe99039"
    ],
+   "description": "A simulation of the Battle of Okehazama: as Oda Nobunaga you take on Imagawa Yoshimoto's far larger army, using decoys to draw Imagawa's attention, forced marches of your main force and the chance of rain after 11 a.m. to pull off the surprise attack as history records.",
    "developer": "CSK Research Institute",
    "launchbox": "196990",
    "publisher": "Kiya Overseas Industry",
@@ -39610,6 +39649,7 @@
   },
   "pc88:197005": {
    "adult": true,
+   "adultDescription": "A strip mahjong game in seven story chapters: you beat a series of opponents over five rounds each to get the girls undressed, and experience from wins unlocks cheats such as tile swaps and stacking the wall.",
    "aliases": [
     "Mahjoventure: Negi Mahjong"
    ],
@@ -39637,6 +39677,7 @@
     "sha256-fd-v1:cc08d1794868eccd8b7e37cea3c6dde8085f56fb2ad36c8b8884034e305c061b",
     "sha256-fd-v1:efc5c903e6d0658d1856d4d5ab148d469ce484a808db32e5532129c47d5c3c7b"
    ],
+   "description": "A mahjong game in seven story chapters: each opponent is faced over five rounds and you must match or beat their score. Wins earn experience that unlocks cheats such as tile swapping and stacking the wall in later chapters.",
    "developer": "Onion Software",
    "diskMachine": {
     "sha256-fd-v1:3d53f6cc391e0d427f8cfee0fc240a4887f3bfdbaf466187f5e8427426fcabac": {
@@ -40015,6 +40056,7 @@
   },
   "pc88:197013": {
    "adult": true,
+   "adultDescription": "An erotic adventure: a juice is rumored to make any girl who drinks it do whatever you want, and you investigate to get it and make the girl you love yours.",
    "aliases": [
     "Melon Soda: Sexy Pet"
    ],
@@ -40039,6 +40081,7 @@
     "sha256-fd-v1:c0c2a7d6acd1da40a58a47541a967b63c2e4ae838e8a4e8bc64d672362b052d3",
     "sha256-fd-v1:e54ec7e94bb4faba626fee89258ddccc4556c6cc81ca1541bfab6409616c23fb"
    ],
+   "description": "An adventure built on a rumor: somewhere there is said to be a juice that makes any girl who drinks it fall for you, and to win the girl you love, you set out to track it down.",
    "developer": "Bond Soft",
    "diskMachine": {
     "sha256-fd-v1:0dd86783e761965a2a6fc91d870ddd167765eadc90af1a3681d8e41168362fd2": {
@@ -41314,6 +41357,7 @@
   },
   "pc88:197058": {
    "adult": true,
+   "adultDescription": "Sequel to the erotic adventure Seijo Densetsu, a game in the Macadam mold about finding a girl's secret sensitive spots: the Gold Lady treasure taken back from Remia proves fake, so you hunt the culprit again, with the typed commands of the first game removed.",
    "artwork": {
     "boxArt": {
      "format": 1,
@@ -41336,6 +41380,7 @@
     "sha256-fd-v1:d745b7a9f7f9c6364274a107d40b72103cab50859138f4a59fc7c64475c5c8d8",
     "sha256-fd-v1:ea158ee62a68de65b33d337d8848d9825d983d4477114574f49d7b6f2f96626e"
    ],
+   "description": "Sequel to Seijo Densetsu: the Gold Lady treasure you won back from Remia turns out to be a fake, so you must find the culprit again and recover the real one. Play is as before, but the typed Japanese commands have been dropped, making it easier.",
    "developer": "Studio Blue",
    "diskSets": {
     "sha256-fd-v1:ad51d29bbff7f9543c9e34239fd17b46ab90ceaf4e520b5400bd92620a22dbbb": {
@@ -42310,6 +42355,7 @@
   },
   "pc88:197075": {
    "adult": true,
+   "adultDescription": "A picture collection for uniform fetishists: high-school girls wearing the uniforms of Tokyo girls' high schools appear one after another in erotic poses. Part 1 of a set of volumes released at the same time.",
    "artwork": {
     "boxArt": {
      "format": 0,
@@ -42356,6 +42402,7 @@
   },
   "pc88:197076": {
    "adult": true,
+   "adultDescription": "A picture collection for uniform fetishists: high-school girls wearing the uniforms of Tokyo girls' high schools appear one after another in erotic poses. Part 2 of a set of volumes released at the same time.",
    "artwork": {
     "boxArt": {
      "format": 0,
@@ -42396,6 +42443,7 @@
   },
   "pc88:197077": {
    "adult": true,
+   "adultDescription": "A picture collection for uniform fetishists: high-school girls wearing the uniforms of Tokyo girls' high schools appear one after another in erotic poses. Part 3 of a set of volumes released at the same time.",
    "artwork": {
     "boxArt": {
      "format": 0,
@@ -42772,6 +42820,7 @@
   },
   "pc88:197087": {
    "adult": true,
+   "adultDescription": "The sixth volume of Great's erotic picture series: cute girls in embarrassing, revealing poses appear one by one like a photo book, set to idol hit songs as background music.",
    "artwork": {
     "boxArt": {
      "format": 0,
@@ -42830,6 +42879,7 @@
     "sha256-fd-v1:b07200a4422c3e69e809dcbd0393c9c818b51d5e3ba66b2d8fedc3f2dc034e3e",
     "sha256-fd-v1:c87b3ce41d03ef1d0357d487a103110e96d123157c969b70c56e6f2e0e37b5fa"
    ],
+   "description": "One of the earliest action puzzle games: you lay and join lengths of water pipe to complete the plumbing.",
    "developer": "ASCII",
    "diskSets": {
     "sha256-fd-v1:b07200a4422c3e69e809dcbd0393c9c818b51d5e3ba66b2d8fedc3f2dc034e3e": {
@@ -43230,6 +43280,7 @@
    "contentIds": [
     "sha256-tape-v1:a07e20b2de216689ac35f281c31fdf37d7c0c48207829db6193d1f61ba350dd2"
    ],
+   "description": "Xtal Soft's debut game: aliens from Zacross have bent a planet's orbit toward Earth, and you must push it back on course, fighting off attacking craft by setting your barrier and laser beam. The tape holds three parts, and a manual password is needed to start.",
    "developer": "Xtalsoft",
    "diskMachine": {
     "sha256-tape-v1:a07e20b2de216689ac35f281c31fdf37d7c0c48207829db6193d1f61ba350dd2": {
@@ -43902,6 +43953,7 @@
    "contentIds": [
     "sha256-fd-v1:e0d3336ec229afef37063b201dc4c95d01b8465973eda74ea931bc60457987b5"
    ],
+   "description": "An action maze game released on cassette as a tie-in with the 1984 science-fiction film: you take on the Jupiter cult and foil its sabotage of Minerva.",
    "developer": "Pony Canyon",
    "diskMachine": {
     "sha256-fd-v1:e0d3336ec229afef37063b201dc4c95d01b8465973eda74ea931bc60457987b5": {
@@ -44834,6 +44886,7 @@
     "sha256-fd-v1:c580cc474674258a28ee8d71059dfc421910e28c50fd1f388c0aa91f318c1a78",
     "sha256-fd-v1:d4bb0cf90c6056f2c55b21a81436ba588e2aaf565f32a88b09344d6d6695ea52"
    ],
+   "description": "An action puzzle game of over 40 stages: fences, logs and other obstacles can be broken once you pick up the right tool, but collecting tools in the wrong order can leave a stage unsolvable. It was sold only by mail order and through TAKERU vending machines.",
    "developer": "KGD Soft",
    "diskSets": {
     "sha256-fd-v1:d4bb0cf90c6056f2c55b21a81436ba588e2aaf565f32a88b09344d6d6695ea52": {
@@ -45181,6 +45234,7 @@
     "sha256-fd-v1:db90a90201b713f88b017f418e016075d10030b986744b5b739c6ab0f4dd0410",
     "sha256-fd-v1:f9390ecd618d8e06035c918f7f528b3e92c01dc4404a865903ff78a9d8c44400"
    ],
+   "description": "Eighteen years after the first game restored the sacred Great Water Dragon to the water nation of Soltia, the hero's son cannot learn the water arts however hard he trains, until a monster attack and a mission from the Dragon send him off. Using an older art drawn from living water, he can talk to water for information and stay underwater almost indefinitely, to save the sea god's temple.",
    "developer": "Shanbara",
    "diskSets": {
     "sha256-fd-v1:20fe97f31da95a326000ea2f9ff0b05335aff4ae2584221bd3ca4236e1593366": {
@@ -45322,6 +45376,7 @@
     "sha256-fd-v1:a48ce0341fe84605645cec87b4c812cdbce505f0c1255c32342ff55c31df87a6",
     "sha256-fd-v1:f830e4b60dd72855c0aa1b7e4cfe13b29b4f1b34cf813c4ca3c654c0b8f8a22b"
    ],
+   "description": "A vertically scrolling shooter ported from the X1: flying the fighter Ouka over a world of grotesque creatures, you gather Nekao nuts whose strange power lets you wipe the monsters out. The title Bu-U-Ma is shown in an elaborate opening.",
    "developer": "Pax Softnica",
    "diskSets": {
     "sha256-fd-v1:a48ce0341fe84605645cec87b4c812cdbce505f0c1255c32342ff55c31df87a6": {
@@ -46543,6 +46598,8 @@
    "title": "Doki Doki Shutter Chance!!"
   },
   "pc88:207535": {
+   "adult": true,
+   "adultDescription": "A data disk for Elf's Doki Doki Shutter Chance, the voyeur action game in which you sneak around photographing girls in compromising moments without being caught by guards, adding new sets of targets such as high-school girls, nurses and bus guides.",
    "artwork": {
     "game": 157535,
     "platform": 88,
@@ -46785,6 +46842,7 @@
    "contentIds": [
     "sha256-tape-v1:6eba3823d081088dc1bc7a71126e09ec6015b1a45c5bea516886a53c5fd29bda"
    ],
+   "description": "An early pseudo-3D shooter in which enemies come out of the depth of the screen and you destroy them by choosing between ground and air missiles. Telling whether a target is on the ground or in the air, and spotting enemy shots, makes it hard.",
    "developer": "Brain Computer",
    "diskMachine": {
     "sha256-tape-v1:6eba3823d081088dc1bc7a71126e09ec6015b1a45c5bea516886a53c5fd29bda": {
@@ -47106,6 +47164,7 @@
     "sha256-tape-v1:09ec9988ac80543167d5cff3ec9b52c806797a11c6fba48344519843679f5e93",
     "sha256-tape-v1:6865f0be4f8b4c942b271e31382ef1ac98bac28f0255a076997c2df6db3ded93"
    ],
+   "description": "The sequel to Horror House: the monsters the player defeated in the first game have returned for revenge, and you must find a way out of their mansion.",
    "developer": "Nihon Falcom",
    "diskMachine": {
     "sha256-fd-v1:babcb85059a524a4755bf9d1778e2e018f7645087b47e644c1f02f9083ece436": {
@@ -47149,6 +47208,7 @@
   },
   "pc88:207567": {
    "adult": true,
+   "adultDescription": "After winning the previous tournament, the hero must rescue his kidnapped cheerleader Kyoko by beating the girls who work at the town's mahjong parlors; each win is rewarded with an erotic scene with the girl, and money won buys tile-tampering items. A four-player mode lets you face three of seven girls.",
    "aliases": [
     "Mahjong Kyou Jidai Special II"
    ],
@@ -47171,6 +47231,7 @@
     "sha256-fd-v1:3dc5c9d8b7286b7ff74db41cd99020a7014e1b9153f6805c60acc763d2ad34b2",
     "sha256-fd-v1:9e9028b40123f2dafac1db4970af843459691000f6c3792d45e7840107037b3d"
    ],
+   "description": "After winning the previous game's tournament, the hero finds that his cheerleader Kyoko has been kidnapped. To rescue her he tours the town's mahjong parlors, beating the girl working at each one and saving money to buy items that let him tamper with tiles. A separate four-player mode pits you against three of seven girls.",
    "developer": "Micronet",
    "diskSets": {
     "sha256-fd-v1:3dc5c9d8b7286b7ff74db41cd99020a7014e1b9153f6805c60acc763d2ad34b2": {
@@ -48037,6 +48098,7 @@
    "contentIds": [
     "sha256-fd-v1:08c9b6557843244c6d33a3d67797d9ca38736b39217c8c0d95c1e4e4fe9d2db7"
    ],
+   "description": "A fast scrolling shooter: you pilot the transformable robot Elfinx to recover the stolen artificial brain Zeth, firing standard missiles plus five kinds of special missile chosen by flying into gates.",
    "developer": "Cosmos Computer",
    "diskMachine": {
     "sha256-fd-v1:08c9b6557843244c6d33a3d67797d9ca38736b39217c8c0d95c1e4e4fe9d2db7": {
@@ -48903,6 +48965,7 @@
    "contentIds": [
     "sha256-fd-v1:35df372441fa42aa4fa85e41008d7278f94c08335529c79abc58706e17012902"
    ],
+   "description": "A card game collection with five games: concentration, gin rummy, speed, blackjack and poker, drawn with detailed card graphics.",
    "developer": "Hudson Soft",
    "diskMachine": {
     "sha256-fd-v1:35df372441fa42aa4fa85e41008d7278f94c08335529c79abc58706e17012902": {
@@ -49038,6 +49101,7 @@
     "sha256-fd-v1:cadd3b9646b78cc0bbc6f8566c1140707fede24ff7f9a5fbb440279f6cc9ffa2",
     "sha256-fd-v1:eb9cebe696ba7d18ec550e5caf9ef779eb7a3087cfb82de4df734a2e1c0cd342"
    ],
+   "description": "A baseball simulation played from the manager's chair, building on Xtal Soft's Mr. Pro Yakyuu: pick one of 13 teams, the 12 pro clubs or one of your own, run spring camp with a focus on stamina, mental strength or fielding, then set each day's schedule through the pennant race. Player data goes as far as birth month and stress.",
    "developer": "Nihon Create",
    "diskSets": {
     "sha256-fd-v1:8081ad47932faab12888c0c7b06efcdae79f05c8a8215ca7e844daf9aac28df2": {
@@ -49104,6 +49168,7 @@
     "sha256-fd-v1:eae6fe8b9d48c701f6bb0f354eba90b3990eb8e09e108f661dbbf6293bb807c5",
     "sha256-fd-v1:f3ac9c15c90d4530cc6378394013da2e69a20cb664074b687f8b7222fda60913"
    ],
+   "description": "An upgraded version of the baseball management simulation Yakyuu Dou with far more detailed data: team editing down to the undershirts, practice menus covering fitness and mindset, advance talks with draft picks and foreign players, and a ronin mode that lets you keep playing after being fired for poor results.",
    "developer": "Nihon Create",
    "diskSets": {
     "sha256-fd-v1:dd8f8ce3e8d8aec17daeed71ebcce4786ce2fe74c224f090ab6df021614980d6": {
@@ -49177,6 +49242,7 @@
   },
   "pc88:207620": {
    "adult": true,
+   "adultDescription": "Essentially a strip game set in Kyoto: you pick up women by answering quiz questions, and each correct answer moves the pictures toward more undressed, erotic scenes.",
    "aliases": [
     "Zenkoku Nanpa Shugyou: Tasogare no Kyouto hen",
     "Zenkoku Nanpa Shuugyou"
@@ -49194,6 +49260,7 @@
     "sha256-fd-v1:1a2e9379b16c507d189fcb20292498ec26c17c713962c98a604eb909a20f1a64",
     "sha256-fd-v1:52b8a2b863dc1d6929514c58a0b382b46d30e4ab9bb219f2a1d06814f09e7bf4"
    ],
+   "description": "A pick-up game set in twilight Kyoto: you try to chat up women by answering the three quiz questions shown on each screen, advancing with right answers, while too many misses eventually end the game.",
    "developer": "Studio Angel",
    "diskSets": {
     "sha256-fd-v1:52b8a2b863dc1d6929514c58a0b382b46d30e4ab9bb219f2a1d06814f09e7bf4": {
@@ -49226,6 +49293,7 @@
    "contentIds": [
     "sha256-tape-v1:79885d09e0523845bc303d1a497fad36d39bb7148eb98c9bc9bfd3904183ce03"
    ],
+   "description": "Guide a robot through the computer city Zenon to destroy its runaway central core. The robot fires beams in four directions and can hide behind the scrolling terrain, such as gutters, to avoid attacks.",
    "developer": "Dempa Shimbunsha",
    "diskMachine": {
     "sha256-tape-v1:79885d09e0523845bc303d1a497fad36d39bb7148eb98c9bc9bfd3904183ce03": {
@@ -49655,6 +49723,7 @@
     "sha256-fd-v1:ce3b5fa61f8e35960dd30ed8c8fec778fc14a47f66d1b86ce08781cb959d1b10",
     "sha256-fd-v1:e411e644abce9ab2c955b763b812401ca2820f6fede62994a932ea49007173cd"
    ],
+   "description": "A science-fiction role-playing game starring characters by manga artist Tou Moriyama: you must escape the clutches of an enemy who wants to make you his slave.",
    "developer": "Tatsumi Publishing",
    "diskSets": {
     "sha256-fd-v1:ce3b5fa61f8e35960dd30ed8c8fec778fc14a47f66d1b86ce08781cb959d1b10": {
@@ -50858,6 +50927,8 @@
    "year": 1990
   },
   "pc88:456667": {
+   "adult": true,
+   "adultDescription": "An erotic yes-or-no trivia quiz: every correct answer under the time limit uncovers more of a panel hiding an erotic picture of one of Wataru Watanabe's sexy girls.",
    "artwork": {
     "boxArt": {
      "format": 0,
@@ -50871,6 +50942,7 @@
     "sha256-fd-v1:5259ebc46430ae020dafe910d6aea479eef36992414af08afe27af77f936a6d0",
     "sha256-fd-v1:8d7a9f1f986eac11bd673375cf0bb47106b1ca32320f1ae44926c423a4b6284f"
    ],
+   "description": "A yes-or-no trivia quiz: questions on all kinds of subjects appear one after another and must be answered within a time limit, with each correct answer uncovering more of a picture by artist Wataru Watanabe. The questions are surprisingly hard.",
    "developer": "HARD",
    "diskSets": {
     "sha256-fd-v1:5259ebc46430ae020dafe910d6aea479eef36992414af08afe27af77f936a6d0": {
@@ -52070,6 +52142,7 @@
     "sha256-fd-v1:1f8e1cd41d3f64c7bca0c5bdf9b978c850050acecc2c3450a5b74438bd0e3f96",
     "sha256-fd-v1:e755baf1214cfa6ea6fac521141b5689e017209fa3c02a45f2da0063f1176ca4"
    ],
+   "description": "A wargame of nine famous battles fought by Second World War generals and Sengoku-era commanders, including Rommel at El Alamein, Patton at the Bulge and Sekigahara. The enemy moves first on the main map, then you; units that meet switch to a battle mode, orders are limited to move and scout, and there is no retreating once a fight begins.",
    "developer": "Soft Plan",
    "diskSets": {
     "sha256-fd-v1:1f8e1cd41d3f64c7bca0c5bdf9b978c850050acecc2c3450a5b74438bd0e3f96": {

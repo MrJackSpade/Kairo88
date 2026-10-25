@@ -527,6 +527,10 @@
    "reason": "Existing adult marker",
    "title": "Imitation wa Aisenai"
   },
+  "pc88:196949": {
+   "reason": "Adult-content review",
+   "title": "Jong-Borg Suzume"
+  },
   "pc88:196954": {
    "reason": "Existing adult marker",
    "title": "Kaettekita Tanteidan X"
@@ -575,9 +579,17 @@
    "reason": "Existing adult marker",
    "title": "Luna City Satsujin Jiken"
   },
+  "pc88:196971": {
+   "reason": "Adult-content review",
+   "title": "Macadam: Futariyogari"
+  },
   "pc88:196972": {
    "reason": "Supplementary title review; adult or uncertain content",
    "title": "Mahjong Clinic Zoukangou"
+  },
+  "pc88:196973": {
+   "reason": "Adult-content review",
+   "title": "White Christmas"
   },
   "pc88:196988": {
    "reason": "Existing adult marker",
@@ -895,6 +907,10 @@
    "reason": "Existing adult marker",
    "title": "Doki Doki Shutter Chance!!"
   },
+  "pc88:207535": {
+   "reason": "Adult-content review",
+   "title": "Doki Doki Shutter Chance!!: Betsu-Uri Data Shuu"
+  },
   "pc88:207548": {
    "reason": "Existing adult marker",
    "title": "Aki to Tsukasa no Fushigi no Kabe"
@@ -966,6 +982,10 @@
   "pc88:456637": {
    "reason": "Supplementary title review; adult or uncertain content",
    "title": "Suiryuushi Bangaihen: Mediflora no Izumi"
+  },
+  "pc88:456667": {
+   "reason": "Adult-content review",
+   "title": "Zatsugaku Olympics: Watanabe Wataru-hen"
   },
   "pc88:461887": {
    "reason": "Previously censored adult title",
