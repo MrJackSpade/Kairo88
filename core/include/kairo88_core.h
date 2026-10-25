@@ -101,10 +101,7 @@ int k88_loader_start(const char *script);
 /* Whether the loader still has lines to type. */
 int k88_loader_active(void);
 /* Whether the loader is typing a line now, not waiting for the screen to show its prompt. */
-int k88_loader_typing(void);
-/* Ends the loader, typing nothing more and releasing any key it holds down: the player has taken over. */
-void k88_loader_stop(void);
-/* Advances the loader by one frame, after k88_run_frame; -1 when a line cannot be typed. */
+int k88_loader_typing(void);/* Advances the loader by one frame, after k88_run_frame; -1 when a line cannot be typed. */
 int k88_loader_frame(void);
 
 /* Resets the machine, keeping its disks and configuration. */

@@ -7,7 +7,6 @@
  *                   {QUOTE} a double quote
  *     load=<lines>  run the app's loader with these lines, separated by |, until it has typed them
  *     start=<lines> start the app's loader with these lines and go on to the next step at once
- *     stop          end the loader as a player's key press does (k88_loader_stop)
  *     frames=<n>    run <n> frames
  *   The screen text is printed after each step, and <out-prefix>-<n>.ppm written for step n.
  */
@@ -156,8 +155,6 @@ int main(int argc, char **argv)
 			int frames = 0;
 			while (load && k88_loader_active() && frames++ < 120 * 60)
 				if (run(1) != 0) return 1;
-		} else if (strcmp(step, "stop") == 0) {
-			k88_loader_stop();
 		} else if (strncmp(step, "frames=", 7) == 0) {
 			if (run(atoi(step + 7)) != 0) return 1;
 		} else {
