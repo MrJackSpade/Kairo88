@@ -18,6 +18,7 @@
 #include <string.h>
 
 #include "kairo88_core.h"
+#include "picture.h"
 
 /* Starts each result line, which tools/boot_sweep.py reads; QUASI88's own notes go to stdout too. */
 static const char kMark[] = "@sweep\t";
@@ -25,7 +26,7 @@ static const char kMark[] = "@sweep\t";
 static long lit_pixels(void)
 {
 	int width, height;
-	const uint32_t *pixels = k88_frame(&width, &height);
+	const uint32_t *pixels = k88_picture(&width, &height);
 	long lit = 0;
 	for (long i = 0; i < (long) width * height; i++)
 		lit += (pixels[i] & 0xffffff) != 0;
@@ -35,7 +36,7 @@ static long lit_pixels(void)
 static int write_ppm(const char *path)
 {
 	int width, height;
-	const uint32_t *pixels = k88_frame(&width, &height);
+	const uint32_t *pixels = k88_picture(&width, &height);
 	FILE *out = fopen(path, "wb");
 	if (!out) {
 		fprintf(stderr, "sweep_test: cannot write %s\n", path);

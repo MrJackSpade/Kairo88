@@ -87,6 +87,7 @@ enum {
 	SCREEN_INTERLACE_YES = 1,				/* インターレス表示する */
 	SCREEN_INTERLACE_SKIP = -1				/* 1ラインおき表示する */
 };
+extern int screen_drawn_400;				/* Kairo88: last VRAM transfer drew 400 lines */
 extern int use_interlace;					/* インターレース表示 */
 
 extern int use_half_interp;					/* 画面サイズ半分時、色補間する */

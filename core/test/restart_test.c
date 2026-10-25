@@ -16,6 +16,7 @@
 #include <string.h>
 
 #include "kairo88_core.h"
+#include "picture.h"
 
 /* When set, run() appends the audio it reads here. */
 static int16_t *recording;
@@ -47,7 +48,7 @@ static int run(int frames, long *audio_frames, long *nonzero)
 static int write_ppm(const char *prefix, int n)
 {
 	int width, height;
-	const uint32_t *pixels = k88_frame(&width, &height);
+	const uint32_t *pixels = k88_picture(&width, &height);
 	char path[1024];
 	snprintf(path, sizeof path, "%s-%d.ppm", prefix, n);
 	FILE *out = fopen(path, "wb");
@@ -68,7 +69,7 @@ static int write_ppm(const char *prefix, int n)
 static uint32_t *copy_frame(size_t *count)
 {
 	int width, height;
-	const uint32_t *pixels = k88_frame(&width, &height);
+	const uint32_t *pixels = k88_picture(&width, &height);
 	*count = (size_t) width * height;
 	uint32_t *copy = malloc(*count * sizeof *copy);
 	memcpy(copy, pixels, *count * sizeof *copy);

@@ -12,6 +12,7 @@
 #include <string.h>
 
 #include "kairo88_core.h"
+#include "picture.h"
 
 static FILE *wav;
 static uint32_t wav_frames;
@@ -55,7 +56,7 @@ static void drain_audio(void)
 static int write_ppm(const char *prefix, int frame)
 {
 	int width, height;
-	const uint32_t *pixels = k88_frame(&width, &height);
+	const uint32_t *pixels = k88_picture(&width, &height);
 	char path[1024];
 	snprintf(path, sizeof path, "%s-%05d.ppm", prefix, frame);
 	FILE *out = fopen(path, "wb");

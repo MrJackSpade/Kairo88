@@ -16,6 +16,7 @@
 #include <string.h>
 
 #include "kairo88_core.h"
+#include "picture.h"
 
 /* QUASI88's tape position (pc88/pc88main.c): bytes read and the image's size, both 0 at its end. */
 int sio_tape_pos(long *cur, long *end);
@@ -36,7 +37,7 @@ static int run(int frames)
 static void write_ppm(const char *prefix, int index)
 {
 	int width = 0, height = 0;
-	const uint32_t *pixels = k88_frame(&width, &height);
+	const uint32_t *pixels = k88_picture(&width, &height);
 	char name[1024];
 	snprintf(name, sizeof(name), "%s-%02d.ppm", prefix, index);
 	FILE *out = fopen(name, "wb");

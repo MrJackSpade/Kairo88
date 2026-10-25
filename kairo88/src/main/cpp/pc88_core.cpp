@@ -96,12 +96,18 @@ public:
     std::string error() override { return error_; }
 
     const uint8_t *frame(uint32_t &width, uint32_t &height) override {
-        int w = 0, h = 0;
-        const uint32_t *pixels = k88_frame(&w, &h);
+        int w = 0, h = 0, stride = 0, repeat = 0;
+        const uint32_t *pixels = k88_frame(&w, &h, &stride, &repeat);
         width = static_cast<uint32_t>(w);
         height = static_cast<uint32_t>(h);
+        stride_ = static_cast<uint32_t>(stride) * 4;
+        repeat_ = static_cast<uint32_t>(repeat);
         return reinterpret_cast<const uint8_t *>(pixels);
     }
+
+    // A 200-line mode's 200 rows are every other line of QUASI88's buffer (k88_frame).
+    uint32_t frame_stride() override { return stride_; }
+    uint32_t line_repeat() override { return repeat_; }
 
     double frame_seconds() override { return 1.0 / k88_frame_rate(); }
     int32_t audio_rate() override { return k88_audio_rate(); }
@@ -177,6 +183,7 @@ private:
     Pc88Core() = default;
 
     std::string error_;
+    uint32_t stride_ = 0, repeat_ = 1;
     std::array<bool, 256> keys_{};
     std::array<bool, kJoystick.size()> pads_{};
     std::array<bool, 2> buttons_{};

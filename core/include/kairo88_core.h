@@ -47,9 +47,11 @@ int k88_boot(const k88_machine *machine, const char *disk_a, const char *disk_b)
  * QUASI88 has quit. */
 int k88_run_frame(void);
 
-/* The current frame, `*width` x `*height` pixels with no row padding, each
- * RGBA8 in memory: 0xAABBGGRR read as a little-endian uint32_t. */
-const uint32_t *k88_frame(int *width, int *height);
+/* The current frame, `*width` x `*height` pixels with rows `*stride` pixels
+ * apart, each RGBA8 in memory: 0xAABBGGRR read as a little-endian uint32_t.
+ * Each row stands for `*repeat` picture rows: 2 in a 200-line mode, whose
+ * lines QUASI88 draws once (640x200 of a 640x400 picture), 1 at 400 lines. */
+const uint32_t *k88_frame(int *width, int *height, int *stride, int *repeat);
 
 /* The machine's frame rate (its vsync frequency) in Hz. */
 double k88_frame_rate(void);

@@ -34,6 +34,9 @@ int k88_init(int argc, char *argv[])
 		fprintf(stderr, "kairo88: QUASI88 rejected the options\n");
 		return -1;
 	}
+	/* A 200-line mode is drawn once per line, on the buffer's even lines; k88_frame hands those
+	 * over for the host to repeat, instead of QUASI88 copying every line to the next (Kairo#50). */
+	use_interlace = SCREEN_INTERLACE_SKIP;
 	started = 1;
 	quasi88_start();
 	return 0;
@@ -53,10 +56,12 @@ int k88_run_frame(void)
 	}
 }
 
-const uint32_t *k88_frame(int *width, int *height)
+const uint32_t *k88_frame(int *width, int *height, int *stride, int *repeat)
 {
+	*repeat = screen_drawn_400 ? 1 : 2;
 	*width = kairo_frame_width;
-	*height = kairo_frame_height;
+	*height = kairo_frame_height / *repeat;
+	*stride = kairo_frame_width * *repeat;
 	return kairo_frame;
 }
 

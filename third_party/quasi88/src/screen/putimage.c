@@ -50,6 +50,9 @@ static	int		drawn_count;			/* fps計算用の描画回数カウンタ	*/
  *      この関数は、 bpp ・ サイズ ・ エフェクト の変更時に呼び出す。
  *----------------------------------------------------------------------*/
 static  int (*vram2screen_list[4][4][2])(T_RECTANGLE *updated_area);
+/* Kairo88: whether the last VRAM transfer drew 400 lines (V_HIRESO); otherwise
+   it drew 200, which the host reads from every other buffer line with -skipline. */
+int screen_drawn_400 = FALSE;
 static  void (*screen_buf_init_p)(void);
 
 static  int (*menu2screen_p)(T_RECTANGLE *updated_area);
@@ -361,6 +364,7 @@ static  int     vram2screen(int method, T_RECTANGLE *updated_area)
 	}
 #endif
 
+	screen_drawn_400 = (vram_mode == V_HIRESO);	/* Kairo88 */
 	return (vram2screen_list[ vram_mode ][ text_mode ][ method ])(updated_area);
 }
 
