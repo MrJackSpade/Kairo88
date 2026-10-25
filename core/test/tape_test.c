@@ -6,6 +6,8 @@
  *     type=<line>   type <line> and Return; {CTRL-x} presses Ctrl with x, {F1}..{F5} a function key,
  *                   {QUOTE} a double quote
  *     load=<lines>  run the app's loader with these lines, separated by |, until it has typed them
+ *     start=<lines> start the app's loader with these lines and go on to the next step at once
+ *     stop          end the loader as a player's key press does (k88_loader_stop)
  *     frames=<n>    run <n> frames
  *   The screen text is printed after each step, and <out-prefix>-<n>.ppm written for step n.
  */
@@ -138,10 +140,11 @@ int main(int argc, char **argv)
 			}
 		} else if (strncmp(step, "type=", 5) == 0) {
 			type_line(step + 5);
-		} else if (strncmp(step, "load=", 5) == 0) {
-			/* The app's loader (kairo88_loader.c), lines separated by |, until it has typed them all. */
+		} else if (strncmp(step, "load=", 5) == 0 || strncmp(step, "start=", 6) == 0) {
+			/* The app's loader (kairo88_loader.c), lines separated by |. */
+			const int load = step[0] == 'l';
 			char script[512];
-			snprintf(script, sizeof(script), "%s", step + 5);
+			snprintf(script, sizeof(script), "%s", step + (load ? 5 : 6));
 			for (char *bar = script; (bar = strchr(bar, '|')); ) *bar = '\n';
 			/* {QUOTE} stands for a double quote, which a shell may strip from an argument. */
 			for (char *quote; (quote = strstr(script, "{QUOTE}")); ) {
@@ -149,10 +152,12 @@ int main(int argc, char **argv)
 				memmove(quote + 1, quote + 7, strlen(quote + 7) + 1);
 			}
 			if (k88_loader_start(script) != 0) { fprintf(stderr, "tape_test: bad loader\n"); return 2; }
-			/* Until it has typed every line; later steps keep it running if a load takes longer. */
+			/* load= runs until it has typed every line; later steps keep it running if a load takes longer. */
 			int frames = 0;
-			while (k88_loader_active() && frames++ < 120 * 60)
+			while (load && k88_loader_active() && frames++ < 120 * 60)
 				if (run(1) != 0) return 1;
+		} else if (strcmp(step, "stop") == 0) {
+			k88_loader_stop();
 		} else if (strncmp(step, "frames=", 7) == 0) {
 			if (run(atoi(step + 7)) != 0) return 1;
 		} else {
@@ -162,8 +167,9 @@ int main(int argc, char **argv)
 		k88_screen_text(text, sizeof(text));
 		long position, end;
 		sio_tape_pos(&position, &end);
-		printf("---- after step %d (%s), tape at %ld of %ld%s\n%s", i - first + 1, step, position, end,
-		       k88_tape_running() ? ", running" : "", text);
+		printf("---- after step %d (%s), tape at %ld of %ld%s, loader %s\n%s", i - first + 1, step, position, end,
+		       k88_tape_running() ? ", running" : "",
+		       !k88_loader_active() ? "done" : k88_loader_typing() ? "typing" : "waiting", text);
 		write_ppm(argv[2], i - first + 1);
 	}
 	return 0;

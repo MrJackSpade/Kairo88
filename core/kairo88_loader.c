@@ -184,6 +184,22 @@ int k88_loader_active(void)
 	return active;
 }
 
+int k88_loader_typing(void)
+{
+	return active && (event_next < event_count || wait_frames > 0);
+}
+
+void k88_loader_stop(void)
+{
+	/* Release the keys the typed events left down (a line stopped between a press and its release). */
+	unsigned char held[256] = {0};
+	for (int i = 0; i < event_next; ++i) held[events[i].key & 0xff] = (unsigned char) events[i].down;
+	for (int key = 0; key < 256; ++key)
+		if (held[key]) k88_key(key, 0);
+	active = 0;
+	event_count = event_next = wait_frames = settle = 0;
+}
+
 int k88_loader_frame(void)
 {
 	char last[128];

@@ -81,9 +81,10 @@ public:
         return true;
     }
 
-    // While the loader types and while the tape is read, the frame host runs the machine as fast as
-    // it can: a cassette loads in minutes at its real speed.
-    bool booting() override { return k88_loader_active() != 0 || k88_tape_running() != 0; }
+    // While the loader types a line and while the tape is read, the frame host runs the machine as
+    // fast as it can: a cassette loads in minutes at its real speed. Waiting for a prompt runs at
+    // the machine's own speed, so a game that never shows one plays at it.
+    bool booting() override { return k88_loader_typing() != 0 || k88_tape_running() != 0; }
 
     // The tape's progress ("tape=read/size"), so a test can tell a slow load from a stalled one.
     std::string details() override {
@@ -121,6 +122,7 @@ public:
         }
     }
 
+    // A press of the player's (key, pad or mouse button) ends the startup commands: the game is theirs.
     void key(int code, bool down) override {
         if (code < 0 || code >= static_cast<int>(keys_.size())) return;
         // Caps and Kana toggle on each press; they are never held.
@@ -128,12 +130,14 @@ public:
             if (keys_[code] == down) return;
             keys_[code] = down;
         }
+        if (down) k88_loader_stop();
         k88_key(code, down ? 1 : 0);
     }
 
     void joystick(int control, bool down) override {
         if (control < 0 || control >= static_cast<int>(kJoystick.size())) return;
         pads_[control] = down;
+        if (down) k88_loader_stop();
         k88_pad(kJoystick[control], down ? 1 : 0);
     }
 
@@ -141,6 +145,7 @@ public:
 
     void mouse_button(int button, bool down) override {
         buttons_[button - 1] = down;
+        if (down) k88_loader_stop();
         k88_mouse_button(button, down ? 1 : 0);
     }
 
