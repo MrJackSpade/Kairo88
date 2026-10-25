@@ -24935,6 +24935,7 @@
   },
   "pc88:188742": {
    "adult": true,
+   "adultDescription": "A voyeur game: choose numbered windows to peep through; some reward you with pictures of a young woman undressing, others get you caught and scolded by the occupant.",
    "artwork": {
     "boxArt": {
      "format": 1,
@@ -24953,6 +24954,7 @@
     "sha256-fd-v1:d0b018e0e3c4d2e3286869a7877e0c2f24cf117483ca09fd66bafe5d0fcf3765",
     "sha256-fd-v1:f14cfc0440a55588b5676f3dfcef090d7f57ba26320f9cef0e11ba92e4dc4b19"
    ],
+   "description": "You pick numbered windows of a building to peek through: some show pictures of the young woman inside, while others get you caught and scolded by the room's occupant.",
    "developer": "Studio Angel",
    "diskSets": {
     "sha256-fd-v1:d0b018e0e3c4d2e3286869a7877e0c2f24cf117483ca09fd66bafe5d0fcf3765": {
@@ -30799,6 +30801,7 @@
    "contentIds": [
     "sha256-fd-v1:4dc53db9a9167455839d97d45a5934f8357fe3252dfc7f1f5dd476fdeb8a3868"
    ],
+   "description": "Aliens have boarded a spaceship and everyone has fled behind the closing shutters, except one boy who stayed behind chasing the bird that escaped from his cage. An action game about getting him through the invaded ship.",
    "developer": "Champion Soft",
    "launchbox": "190132",
    "publisher": "KCS",
@@ -41228,6 +41231,7 @@
     "sha256-fd-v1:b668ef345fd585272b19811e2112ab2cb1773e8b093e35fa453bc75fae158174",
     "sha256-fd-v1:c047a76013303442e362c6a97b542ee9804ffeac33a85eadcf2bf40d5fa5cabe"
    ],
+   "description": "An expanded two-disk edition of the doujin RPG Saku Saku Dai Goutou: a nameless hero roams with no story, talking to and fighting people, finding health power-ups, gold and keys in chests instead of levelling up, and saving in a cave. This version adds pictures shown after beating certain characters.",
    "developer": "Tanaka Brothers",
    "diskSets": {
     "sha256-fd-v1:2e36f11e522559150cdc772e50daa0d5e135eadf7b9632c1a70af915cdcf249d": {
@@ -42504,6 +42508,7 @@
     "sha256-fd-v1:cb4e63bb2c4815713db83be5e9039437405ced4248c09712eb6e5d0b4a223348",
     "sha256-fd-v1:df7d182df96fbee3e5dcc00b585a1ec28a20ce8d3b52c87418e05924fcf3a859"
    ],
+   "description": "A top-down dungeon-crawling RPG in a tower: explore each floor, fight monsters for gold and experience that raise your HP and attack, shop at stores scattered through the floors, and work your way up to higher levels.",
    "developer": "Dream Soft",
    "diskSets": {
     "sha256-fd-v1:7cd4a087b7ff1c29c6d171c4bbbbfc9a09145b0848be49baa1171b7adf3c2661": {
@@ -42746,6 +42751,7 @@
   },
   "pc88:197085": {
    "adult": true,
+   "adultDescription": "Fourth volume of Great's adult picture-disk series: press space to page through pin-up pictures of girls in revealing poses while FM covers of Yui Asaka's \"C-Girl\" and Hound Dog's \"Ambitious\" play.",
    "artwork": {
     "game": 147085,
     "platform": 88,
@@ -42759,6 +42765,7 @@
     "sha256-fd-v1:0724ac3d478b35721369f09eefec6d94a0defe0731a54d0a496496687fec2d22",
     "sha256-fd-v1:a6692f3d6bfd05b1d13b9d67258f4095cbddffeba25ce1e6482986c71229688e"
    ],
+   "description": "The fourth volume of Great's picture-viewing series: press the space bar to page through illustrations of girls while FM covers of pop hits play, here Yui Asaka's \"C-Girl\" and Hound Dog's \"Ambitious\".",
    "developer": "Great",
    "diskSets": {
     "sha256-fd-v1:a6692f3d6bfd05b1d13b9d67258f4095cbddffeba25ce1e6482986c71229688e": {
@@ -44638,6 +44645,8 @@
    "title": "Seiko-Chan SOS"
   },
   "pc88:202378": {
+   "adult": true,
+   "adultDescription": "Strip blackjack against an anime-style female dealer: clear each of six levels by reaching the target score, and she removes a piece of clothing each time, ending in nude pictures.",
    "aliases": [
     "スーパージャック"
    ],
@@ -44658,6 +44667,7 @@
     "sha256-fd-v1:be7be2a99774272d908b6501aa9d88a61007db8b8f99f28cabcce9835ddbe246",
     "sha256-fd-v1:d8a16ea240254268bce904f8e0f6dda662d81e2455a687180967dcfceb00a31c"
    ],
+   "description": "Blackjack against a female dealer over six levels: each level needs a target score (five points at first, one more for each level after), with wins worth a point, a blackjack two, and losses costing one; running out of points drops you back a level.",
    "diskSets": {
     "sha256-fd-v1:1e6c1511d398a300cbf8a193531b4f29f7222c0e76a6825b3b49f0856c164cb9": {
      "media": [
@@ -46226,6 +46236,7 @@
     "sha256-tape-v1:8aeb44f36fd9f5eb65daf33f9384abbd37be5f0c989ebbf4abb6ac0f8998721c",
     "sha256-tape-v1:ce5d065ddc462e26d4843775bcddbf751fd0d13a43b10b5262d63662abce55a2"
    ],
+   "description": "Two action games on one tape. In Cyclopes Crusher, a Space Panic-style game, you break holes in the floors so the cyclopes fall in, then crush them while riding elevators to avoid being cornered; in Waterman, you make water holes to trap pursuing enemies, Heiankyo Alien style.",
    "diskMachine": {
     "sha256-tape-v1:8aeb44f36fd9f5eb65daf33f9384abbd37be5f0c989ebbf4abb6ac0f8998721c": {
      "basic": "v1s"
@@ -47033,6 +47044,7 @@
    "contentIds": [
     "sha256-tape-v1:a6159b59eb65c65d6ca8af008f406f8ca72d7fae2b2016cb2b0dff81fd2b253c"
    ],
+   "description": "Pokkun heads into a haunted cave after a hoard of gold chests, fighting off paper-umbrella and lantern ghosts with shots, jumps and a flying kick while collecting fireballs along the way. A candle on the right of the screen burns down over time, and when the moon is not out the cave goes dark.",
    "developer": "Carmate",
    "launchbox": "207563",
    "publisher": "Carmate",
@@ -48287,6 +48299,7 @@
    "contentIds": [
     "sha256-tape-v1:a3b2f3347cc649ea70c402092bc06e477741ddfe414c1c432a975cd850ce8e48"
    ],
+   "description": "A strategy simulation of aerial dogfights: choose from more than ten fighter types, such as the Zero and the Raiden, and play out a variety of air-combat engagements.",
    "developer": "Koei",
    "diskMachine": {
     "sha256-tape-v1:a3b2f3347cc649ea70c402092bc06e477741ddfe414c1c432a975cd850ce8e48": {
@@ -48659,6 +48672,7 @@
    "contentIds": [
     "sha256-fd-v1:1bdeab3034dbe92b10a58423320ddcfefccb81bec732b3b100ea707ffaf06709"
    ],
+   "description": "A fixed-screen shooter: from your fighter at the bottom of the screen, blast an evil space amoeba and the swarm of spawn it sends down at you.",
    "developer": "Tsukumo Denki",
    "diskMachine": {
     "sha256-fd-v1:1bdeab3034dbe92b10a58423320ddcfefccb81bec732b3b100ea707ffaf06709": {
@@ -50683,6 +50697,7 @@
     "sha256-fd-v1:3cecb4ae2af97e34c50096d491465bb34cc37e6e1fbeca81074ec251b210d453",
     "sha256-fd-v1:838055b1aa98ef52dcf3655e663bfa7227b7cd9ddabd7967e45673397b82e51b"
    ],
+   "description": "A cross between a tile-based adventure and a shooter: steer your spaceship around a grid map collecting upgrades, then take on bosses that each surrender a valuable item when beaten.",
    "developer": "Turning Point Software",
    "diskSets": {
     "sha256-fd-v1:838055b1aa98ef52dcf3655e663bfa7227b7cd9ddabd7967e45673397b82e51b": {
@@ -50717,6 +50732,7 @@
    "contentIds": [
     "sha256-fd-v1:dd599b95a122f81be3c32b27e854733e85ee009d235c27cc92090595ec0ee984"
    ],
+   "description": "The last Magnet World puzzle-platformer: Magnet Girl clears each stage by bringing opposite-pole magnets together to destroy them, also using magnets as steps and lifts. Adds three difficulty levels, a stage editor, background art and indestructible container boxes that push matching magnets upward.",
    "developer": "Lotus Roots",
    "launchbox": "453667",
    "publisher": "Lotus Roots",
@@ -50887,6 +50903,7 @@
     "sha256-fd-v1:7867962c95025eaed229ed808c54cccd1afac55a6c16d17e7cb67eb6b1647e73",
     "sha256-fd-v1:f45684e0c7558c66d85618e45e6af40185acf43b2036b17d57bf95973aead918"
    ],
+   "description": "A doujin fantasy adventure made for the PC-88 by the circle Ramble Dots, following the boy Fel and the girl Timny as they travel an RPG-style 2D map. It supports the Sound Board II.",
    "developer": "Ramble Dots",
    "diskSets": {
     "sha256-fd-v1:0cd118af6158fc62bd561d645494f904d596ba55845c5f9b7a5b07d31c198f03": {
@@ -51045,6 +51062,7 @@
     "sha256-fd-v1:62fd356a55e445fea5e5e01618d651ec95402a7fe89e1a43f85861588ef80292",
     "sha256-fd-v1:b0fc42233e2f948e5b9d659b78346102d479a574767147080251dbb1abe37028"
    ],
+   "description": "A vertically scrolling shooter with no story: starting from level 0, shoot down incoming craft, some of which drop power-ups for faster autofire, extra shots or repairs, and face a boss at the end of every level.",
    "diskSets": {
     "sha256-fd-v1:12c291e3226a4ac1a6dbef4168b4a2735ad12eb667050f13a907123f79abc7be": {
      "media": [
@@ -51528,6 +51546,7 @@
     "sha256-fd-v1:12b9bf160b5e3a712be1e46dd5a41310bd13791f9fcbec437116396dd3730eb1",
     "sha256-fd-v1:196138d2723a2c11b491060fe9cbd563bde16150cdc5cb16a942eed75fa0cd07"
    ],
+   "description": "Two years after the first game, Ria is packed off by her wizard master to rescue the eastern kingdom, whose king has fallen under the control of an evil sorcerer. Played as a \"computer comic\": the story runs with few prompts, each command is one word, usually a spell, and it adds animated scenes.",
    "developer": "Teikoku Soft",
    "diskMachine": {
     "sha256-fd-v1:064affc7afa2b282059881b56c0faef0b56019038f68f25c125dc34b97d33c87": {
@@ -51805,6 +51824,7 @@
    "contentIds": [
     "sha256-fd-v1:a373abd36152482d345daa4fb207e8aa99c2ffcfefc43f7eb433fa2b59703922"
    ],
+   "description": "A star-chart program, the follow-up to Champion Soft's The Planetarium: it shows the night sky turning as time passes, and lets you set the viewing location, date, time and direction freely.",
    "diskMachine": {
     "sha256-fd-v1:a373abd36152482d345daa4fb207e8aa99c2ffcfefc43f7eb433fa2b59703922": {
      "basic": "v1s"
