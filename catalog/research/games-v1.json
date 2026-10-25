@@ -45037,11 +45037,25 @@
    "title": "Shin Taketori Monogatari"
   },
   "pc88:207467": {
-   "description": "A fantasy based on the legend of Doukyou, a mirror spirit of the Nara period.",
+   "adult": true,
+   "adultDescription": "A pornographic adventure about the monk Dōkyō and the empress: guess her favorite positions and erogenous zones to cure her neurosis, with history quizzes along the way.",
+   "contentIds": [
+    "sha256-fd-v1:f1698068919ac89cf3402b9742ef6e96041edc6f5e0fb97fd395961796592b98"
+   ],
+   "description": "An adventure built on the legend of the Nara-period monk Dokyo, who must cure the troubled Empress by working out what pleases her, with history quiz questions mixed in.",
    "developer": "CSK Research Institute",
+   "diskMachine": {
+    "sha256-fd-v1:f1698068919ac89cf3402b9742ef6e96041edc6f5e0fb97fd395961796592b98": {
+     "basic": "v1s",
+     "subcpu": "disk"
+    }
+   },
    "launchbox": "207467",
    "publisher": "CSK Research Institute",
    "screenshotUrl": "https://images.launchbox-app.com/b04d70aa-f5a1-4cfb-8e1c-5c841a297a98.png",
+   "sourceGroups": [
+    "neokobe:Dokyo (CSK)/Dokyo [FD].7z"
+   ],
    "title": "Doukyou: Kaisou Densetsu"
   },
   "pc88:207468": {
@@ -61651,23 +61665,6 @@
     "neokobe:Sugoroku Yakyuudou (Nihon Create - Takeru)/Sugoroku Yakyuudou [FD].7z"
    ],
    "title": "Sugoroku Yakyuudou"
-  },
-  "pc88:local-8ae28c3b81": {
-   "adultDescription": "A pornographic adventure about the monk Dōkyō and the empress: guess her favorite positions and erogenous zones to cure her neurosis, with history quizzes along the way.",
-   "contentIds": [
-    "sha256-fd-v1:f1698068919ac89cf3402b9742ef6e96041edc6f5e0fb97fd395961796592b98"
-   ],
-   "description": "An adventure built on the legend of the Nara-period monk Dokyo, who must cure the troubled Empress by working out what pleases her, with history quiz questions mixed in.",
-   "diskMachine": {
-    "sha256-fd-v1:f1698068919ac89cf3402b9742ef6e96041edc6f5e0fb97fd395961796592b98": {
-     "basic": "v1s",
-     "subcpu": "disk"
-    }
-   },
-   "sourceGroups": [
-    "neokobe:Dokyo (CSK)/Dokyo [FD].7z"
-   ],
-   "title": "Dokyo"
   },
   "pc88:local-8b2792cd15": {
    "contentIds": [
