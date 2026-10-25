@@ -64890,10 +64890,13 @@
    "title": "Jigsaw"
   },
   "pc88:local-b96a0cf277": {
+   "adult": true,
+   "adultDescription": "A doujin vertical shooter with several firing options: fight through enemies and a boss in each stage, and every cleared stage is rewarded with an erotic anime picture.",
    "contentIds": [
     "sha256-fd-v1:088ae5f2b66515d4edf4976ff2d963f1e048305b87f33534f8cdd2ad319461b8",
     "sha256-fd-v1:687da69b78d83cee920344ffd34e569c75259716290088e292965d29b86d0171"
    ],
+   "description": "A doujin vertical shooter in which your ship has several firing options; you blast through waves of enemies to a boss in each stage, and clearing a stage earns a reward picture.",
    "diskSets": {
     "sha256-fd-v1:687da69b78d83cee920344ffd34e569c75259716290088e292965d29b86d0171": {
      "setDisks": [
@@ -64934,6 +64937,7 @@
    "contentIds": [
     "sha256-fd-v1:27ad5f94bdd565c0bc66d00048ac9ad6e00faea5af9bb362d8992a35b4d93db8"
    ],
+   "description": "Firecracker's second-anniversary music collection: two pieces from Mother including Bein' Friends, a large helping of Streets of Rage and other Sega music, many tracks from Cotton and assorted Konami tunes.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 24 - 2nd Anniversary! (Doujin - Firecracker)/Firecracker Music Collection Vol. 24 - 2nd Anniversary! [FD].7z"
    ],
@@ -65045,6 +65049,7 @@
     "sha256-fd-v1:98647cebcfa64c258dec0384b49a6cdffffbef8cea4ed827bcba9ecf59a2cc6c",
     "sha256-fd-v1:db7500d50c59b7aa9647c74252df079e09f6dbdf506204811e8a08df066ff733"
    ],
+   "description": "A Go study program supervised by professional Koichi Kobayashi (then Judan), built to coach players working their way up to a 1-dan rank.",
    "diskMachine": {
     "sha256-fd-v1:34b91f39d8a529a7224aeeaa089c95f8150487833b2c8fbbcaf02a7b62bbfcdf": {
      "basic": "v1h"
@@ -65298,6 +65303,7 @@
    "contentIds": [
     "sha256-fd-v1:3be0ba84f32be27f32ee8ccc6e79a34cb1021c0ad863f2c128df5e3da3619479"
    ],
+   "description": "Ryokusui Sound Team's third Sound Board II music disk: covers from Thunder Cross, Darius II, Turbo OutRun and the MSX Castlevania, a series of heavy-metal experiments, and the ending theme of the circle's own Mind Storm.",
    "sourceGroups": [
     "neokobe:RST Music Disk Vol. 03 (Doujin - Ryokusui Sound Team)/RST Music Disk Vol. 03 [FD].7z"
    ],
@@ -65357,6 +65363,7 @@
     "sha256-fd-v1:8a2daf46ac3c1ca63513c4aaa4cfa3a37b1cc9aa02ad78b0e74c616f2eccedb7",
     "sha256-fd-v1:9b80096ef83f8f0e0cccd1fc3c71d0c090ba6a6c585c2e20829a6fbba2eda203"
    ],
+   "description": "A doujin falling-block puzzle game modelled on Tetris, offering the usual solo mode plus a head-to-head mode for two players.",
    "diskSets": {
     "sha256-fd-v1:8a2daf46ac3c1ca63513c4aaa4cfa3a37b1cc9aa02ad78b0e74c616f2eccedb7": {
      "media": [
@@ -65441,6 +65448,7 @@
     "sha256-fd-v1:7f0a94d05c27a5f4b94d72d51349a8b197786c54374ab657ecc01df524e5380e",
     "sha256-fd-v1:f15e468c303d25dcedc3ceb8af4a9a3c804de9c7c1539c031c064c4ddf968bad"
    ],
+   "description": "Charlie Soft's fifth music disk (1991): twenty FM pieces mixing covers of F-Zero's Mute City, ActRaiser, Dungeon Explorer, G-LOC, Tetris, Darius II and the Ys II opening with JR East station chimes and the circle's own tunes.",
    "diskSets": {
     "sha256-fd-v1:7f0a94d05c27a5f4b94d72d51349a8b197786c54374ab657ecc01df524e5380e": {
      "media": [
@@ -65488,9 +65496,12 @@
    "title": "Akemi"
   },
   "pc88:local-c5c523de00": {
+   "adult": true,
+   "adultDescription": "A yakyuken strip game and follow-up to Palcom's Mariko no Heya: win rounds of rock-paper-scissors against Mariko (keys 1, 2 and 3) and she undresses, ending in nude pictures.",
    "contentIds": [
     "sha256-fd-v1:1a589369e73f00f84e2fb3a92b9ba40b604cd9616f41b9db53e1a6168aaed370"
    ],
+   "description": "A 1987 follow-up to Palcom's Mariko no Heya: you play rock-paper-scissors against Mariko, throwing with the 1, 2 and 3 keys, and each win moves you on to another picture of her.",
    "diskMachine": {
     "sha256-fd-v1:1a589369e73f00f84e2fb3a92b9ba40b604cd9616f41b9db53e1a6168aaed370": {
      "basic": "v1s"
@@ -65523,6 +65534,7 @@
    "contentIds": [
     "sha256-fd-v1:28eba3065f2c849c327d939f1593dfa835cdf0d85095cde6ab9123c402e44e98"
    ],
+   "description": "Ryokusui Sound Team's seventh Sound Board II music disk, covering Area 88, MSX Salamander, Life Force, Rolling Thunder, Dark Fox, boss themes from Ys II, Ys III and Dragon Spirit, Syvalion, Silent Mobius and Misty Blue's staff roll.",
    "diskMachine": {
     "sha256-fd-v1:28eba3065f2c849c327d939f1593dfa835cdf0d85095cde6ab9123c402e44e98": {
      "clock": 4
@@ -65549,6 +65561,7 @@
     "sha256-fd-v1:a389a4a943e25bf3e621534364c95206687653f43d42d65d3b6b44759e485fd2",
     "sha256-fd-v1:b9ecbb2dfc8a2c203c6d1490c24d013d447a790f62339dd90e8faca73dd60b59"
    ],
+   "description": "A doujin visual novel set in September 199X, in the middle of a war between gamers and non-gamers. To protect the city, the anti-gamer division AGID sends out 'game hunters', and the story follows one of them, Ura, on his mission.",
    "diskSets": {
     "sha256-fd-v1:a389a4a943e25bf3e621534364c95206687653f43d42d65d3b6b44759e485fd2": {
      "media": [
@@ -65635,6 +65648,7 @@
    "contentIds": [
     "sha256-tape-v1:0c61a4e548021518ec54a0f4115394865580b8f2fad8da2face10377ad6f3028"
    ],
+   "description": "After Miyake-jima erupts, you must flee before the next volcano blows in this text adventure. Your gear is chosen at the start and one wrong pick makes the ending unreachable, while an ambush by night bandits after a beautiful woman appears ends most runs fast.",
    "diskMachine": {
     "sha256-tape-v1:0c61a4e548021518ec54a0f4115394865580b8f2fad8da2face10377ad6f3028": {
      "basic": "v1s"
@@ -65667,6 +65681,7 @@
    "contentIds": [
     "sha256-fd-v1:e8c9c1eae0333a82591ab1fe379af169a7f981bb25d4959904f8538101fe9ec5"
    ],
+   "description": "A doujin take on Tetris with a twist: at any moment you can choose one piece type, and for a short while only that block will drop.",
    "sourceGroups": [
     "neokobe:Rumic Tetmas '90 (Doujin - Haniriito Soft)/Rumic Tetmas '90 [FD].7z"
    ],
@@ -65714,6 +65729,7 @@
    "contentIds": [
     "sha256-tape-v1:9710baa174bb4d59ecff0ba6939d56e6c20002c648d9e4b6c17d8afde754fd39"
    ],
+   "description": "Tsukumo's 1982 four-player mahjong game, its best-selling title of the era. Written in machine language, it ran far faster than the BASIC mahjong programs of the time; you discard with the letter keys and call riichi, pon, kan and ron on the function keys.",
    "diskMachine": {
     "sha256-tape-v1:9710baa174bb4d59ecff0ba6939d56e6c20002c648d9e4b6c17d8afde754fd39": {
      "basic": "v1s",
@@ -65734,6 +65750,7 @@
    "contentIds": [
     "sha256-fd-v1:7e9a0f0db6f66c02e1933d30f9fe26fbcdcdffedcd6e1f83b437bce13f681996"
    ],
+   "description": "A Firecracker music collection headlined by FM arrangements from Taito's Metal Black and the shooter Phalanx, with music from other games filling out the disk.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 26 - Metal Black & Phalanx (Doujin - Firecracker)/Firecracker Music Collection Vol. 26 - Metal Black & Phalanx [FD].7z"
    ],
@@ -65792,6 +65809,7 @@
    "contentIds": [
     "sha256-fd-v1:0e48f8326859aa5d5f5b27caa8722d2d60f7e3d4c23c235f170e412e6cd477e2"
    ],
+   "description": "A vertical shooter that throws you straight into the first stage. Downed enemies drop upgrades, alternate weapons and front shields; the bullet shot spreads wider as it powers up while the twin laser grows stronger and faster, and every level ends with a boss.",
    "sourceGroups": [
     "neokobe:Unknown Variant 7/Unknown Variant 7 [FD].7z"
    ],
@@ -65804,6 +65822,7 @@
     "sha256-fd-v1:4748a59a878ed1ed42904b79598b939c764bc387cb302d90f2bc34d361b33673",
     "sha256-fd-v1:a578cb7cba3a0e908d5bf63bed05e46078929b1b6e91bc33f00796272f223d8a"
    ],
+   "description": "A survival dungeon crawler set in 2012, framed as a training simulation for two Galactic Federation soldiers picked to rescue a missing unit on planet Alphos. Play as Yuri or Eris, choose one of three guns, fight or flee from roaming robots and manage the energy that moving and special attacks use up while you search for the exit.",
    "diskMachine": {
     "sha256-fd-v1:a578cb7cba3a0e908d5bf63bed05e46078929b1b6e91bc33f00796272f223d8a": {
      "clock": 4
@@ -65861,6 +65880,7 @@
     "sha256-fd-v1:70e21e82b4c28c736d994fbd4c9f445cf4a1b4bb572ed190deb984ae76e65071",
     "sha256-fd-v1:967c9537e8f9a4582254ad8fea40745aad6905cdea3756571c47cc82ba8c00a6"
    ],
+   "description": "A doujin horizontal shooter in which you fire shots and missiles at ground targets and at enemy fighters flying below you. Your ship has a single life protected by a shield that drains when you are hit or touch enemies or the ground, and there are no power-ups.",
    "diskSets": {
     "sha256-fd-v1:967c9537e8f9a4582254ad8fea40745aad6905cdea3756571c47cc82ba8c00a6": {
      "media": [
@@ -65938,6 +65958,7 @@
    "contentIds": [
     "sha256-fd-v1:2c385d7ab63828300a45f9899df52e6e2df79b1cc910fcad29ae632edfa432fa"
    ],
+   "description": "A doujin action game in which you pilot a UFO, dodging or shooting meteors while wrecking as many buildings and ground enemies as you can.",
    "sourceGroups": [
     "neokobe:MJ-12 (Doujin - Super Softhouse Combo)/MJ-12 [FD].7z"
    ],
@@ -65975,6 +65996,7 @@
    "contentIds": [
     "sha256-fd-v1:f0ac8e8a8c03fad5ab6ff3c6b202c9132be9468191acfc777f9e854614839a15"
    ],
+   "description": "Active Gamers' first Sorcerian Sound Collection, Sound Board II arrangements of Falcom's Sorcerian: music from scenarios such as The Lost King's Staff, Tower of Thieves, Romancia, the Queen Mary, Ice Cave and Medusa's Head, plus the opening, Pentawa town, inn and ending themes.",
    "sourceGroups": [
     "neokobe:SSC1 - Sorcerian Sound Collection Vol. 1 (Doujin - Active Gamers)/SSC1 - Sorcerian Sound Collection Vol. 1 [FD].7z"
    ],
@@ -65985,6 +66007,7 @@
     "sha256-fd-v1:b2c11d62b18baf155ed0d376e7314fa84b7eea0e2cc2ebde7934752743b4d9c2",
     "sha256-fd-v1:e7c289d910a59d35e477efd29dae01974010e8089d87a8a6fa46a9e1c0d3933a"
    ],
+   "description": "A late entry in Firecracker's FM music collection series, released for the PC-88 in 2006 as a revival of the series, years after the platform's commercial life had ended.",
    "diskSets": {
     "sha256-fd-v1:e7c289d910a59d35e477efd29dae01974010e8089d87a8a6fa46a9e1c0d3933a": {
      "setDisks": [
@@ -66003,6 +66026,7 @@
     "sha256-fd-v1:cdae2e7eb78296e1e703fa60c486e7dacc1032dc375bf474260102f371344b22",
     "sha256-fd-v1:d287656f2ba00adc441e19a5e7835ff5b412b6ffb7491a4be724b16fe0df2ce5"
    ],
+   "description": "A doujin block-pushing puzzle game in the vein of Sokoban: blue plus blocks go onto blue spots and orange minus blocks onto red ones, pushing opposite blocks together neutralises them, and lightning blocks swap a block's charge.",
    "diskSets": {
     "sha256-fd-v1:d287656f2ba00adc441e19a5e7835ff5b412b6ffb7491a4be724b16fe0df2ce5": {
      "media": [
@@ -66050,6 +66074,7 @@
    "contentIds": [
     "sha256-fd-v1:1c85326a7c724fc2f523dccedd6035c351d31ba4073f1a787a627269668b0255"
    ],
+   "description": "NT-3's 1991 music disk for Active Gamers: about thirty Sound Board II pieces, mostly originals including Holiness Story themes, a shorter set for the standard FM chip, and covers from Kiki's Delivery Service, Xak and other games.",
    "sourceGroups": [
     "neokobe:Yume no Fantasia - NT-3 Music Disk (Doujin - Active Gamers)/Yume no Fantasia - NT-3 Music Disk [FD].7z"
    ],
@@ -66063,6 +66088,7 @@
     "sha256-fd-v1:f355b41e7da6f6cad34f56650c5a14af4f39f9064e8a38076e1d66c1d54e49b1",
     "sha256-fd-v1:fb05a3abb42eda713e4cf8549157c7bc7aed647ae9a7f91f08f2bedd608d3517"
    ],
+   "description": "A doujin puzzle game in which a witch guides a rolling ball safely to the goal by summoning and dispelling blocks, and the ball can even roll over her head. Drops from too high shatter the ball or crush the witch, and the ball loses power whenever it bumps a block side-on or gets stuck.",
    "diskSets": {
     "sha256-fd-v1:7b9ed5a0e8a2905c60ed1c3fb9cd76cd0dcabc0fa4ea1a9a72ff4f0e7fa8a504": {
      "setDisks": [
@@ -66143,6 +66169,7 @@
    "contentIds": [
     "sha256-fd-v1:a6130c1c7b597f5e1242cd27259f01ec886a85e1ce37dd159da602cec04e36d0"
    ],
+   "description": "Firecracker's first collection written for the Sound Board II, a mix of FM arrangements from many games that again includes music from Ys.",
    "diskMachine": {
     "sha256-fd-v1:a6130c1c7b597f5e1242cd27259f01ec886a85e1ce37dd159da602cec04e36d0": {
      "sound": "1"
@@ -66187,6 +66214,7 @@
     "sha256-fd-v1:5c08482fe1815ebf499f979778f9181991330f398806e6dc9c5aeebcb03f491d",
     "sha256-fd-v1:b18d198015795b602834fcfb9c159adbe0c3ed274afee955abdbf7e8dfbef47f"
    ],
+   "description": "The first-anniversary fifth issue (August 1987) of Champion Soft's ZETA disk magazine. The printed booklet mostly recaps past features and adds a CG lesson, while the disk holds a 100-question ZETA quiz, a beach pick-up guide and a lingerie catalogue of the ZETA girls.",
    "diskSets": {
     "sha256-fd-v1:5c08482fe1815ebf499f979778f9181991330f398806e6dc9c5aeebcb03f491d": {
      "media": [
@@ -66228,6 +66256,7 @@
     "sha256-fd-v1:4c731409cf4b502ac3af1d8a6a413c2e7b693881e2398537648d94a4f0ae5a19",
     "sha256-fd-v1:e854b180f80dd03a1eefbea0d08195f8871e283c81c1b11d46b6405936ccc0df"
    ],
+   "description": "Active Gamers' 1995 music disk led by NT-3 (Akito Monden), a bigger set than the first volume, made up mainly of original pieces such as Behind the Scheme and Marksman.",
    "diskSets": {
     "sha256-fd-v1:4c731409cf4b502ac3af1d8a6a413c2e7b693881e2398537648d94a4f0ae5a19": {
      "media": [
@@ -66289,6 +66318,7 @@
    "contentIds": [
     "sha256-fd-v1:a1d4c8102f10adb961533c30c6f198bab7a99dc9f134a324423e094552b42934"
    ],
+   "description": "Ryokusui Sound Team's eleventh Sound Board II music disk (1991), with covers from Rockman 3, Gradius III, Final Fantasy III, Dragon Quest IV, Parodius Da!, The Legend of Heroes, Megami Tensei II and a long Princess Maker set, plus several originals.",
    "diskSets": {
     "sha256-fd-v1:a1d4c8102f10adb961533c30c6f198bab7a99dc9f134a324423e094552b42934": {
      "media": [
@@ -66311,6 +66341,7 @@
    "contentIds": [
     "sha256-fd-v1:6f2b051d12bb99b8875ea9513f6025e8f5f1e2df2f4ead465360321dd0e44c88"
    ],
+   "description": "An overhead-view adventure from 1988 in which a man explores a tower dungeon and the levels beneath it. There is no menu and no combat: you walk the corridors, trade items with characters who ask for them, and items are used automatically in the right spot to open new areas.",
    "sourceGroups": [
     "neokobe:Bargon no Paka Paka Shoubouken (Doujin - A-Inn)/Bargon no Paka Paka Shoubouken [FD].7z"
    ],
@@ -66341,6 +66372,7 @@
    "contentIds": [
     "sha256-fd-v1:74ee6ad3b9cba095ab7f38abe310d1acc68f7438821bc273f23fb12268d2e207"
    ],
+   "description": "A doujin disk compilation: a non-playable demo of a game, a personal quiz about game programming, a selection of music, a message from the developer and extra information.",
    "sourceGroups": [
     "neokobe:Relief Soukangou (Doujin - B-Cat Software & Studio Dance!)/Relief Soukangou [FD].7z"
    ],
@@ -66350,6 +66382,7 @@
    "contentIds": [
     "sha256-tape-v1:c85b039ee29b4af7d3ebd2e22e9ad2762f6f004d04138a953de7595251d0ace1"
    ],
+   "description": "Playing as My-chan, you race Paco and Kana-nee to catch more of the biscuits and doughnuts falling from above than they do before time runs out. It was sold in Technopolis Soft's Dream Pack, paired with an FM-7 board game.",
    "sourceGroups": [
     "neokobe:Sugar Factory (Technopolis Soft)/Sugar Factory [CT].7z"
    ],
@@ -66451,6 +66484,7 @@
    "contentIds": [
     "sha256-fd-v1:e27982c44abd325b7debc4610b3c770beaa4aebcb25a81639619d17b223cbcba"
    ],
+   "description": "A doujin horizontal shooter in which you choose one of two attack types at the start; some enemies drop power-ups that strengthen your weapon or restore your shield energy, and each level ends with a boss.",
    "sourceGroups": [
     "neokobe:Lasting Road (Doujin - NOP Software)/Lasting Road [FD].7z"
    ],
@@ -66523,6 +66557,7 @@
    "contentIds": [
     "sha256-fd-v1:677c2e7a56fa6f4550e8b4166e48ce7ede22bef5d605809cf3ceb04695878300"
    ],
+   "description": "A 1991 music disk by Thomas Brown with thirty tracks, mostly original pieces and short game jingles for clears, misses and game overs, plus a Euro-style arrangement of Nobunaga's Ambition and a Brain Marker mountain theme.",
    "sourceGroups": [
     "neokobe:Sound Castle 1 (Doujin - Thomas Brown & Oishii Ika Ring)/Sound Castle 1 [FD].7z"
    ],
@@ -66532,6 +66567,7 @@
    "contentIds": [
     "sha256-fd-v1:23980f4d371c513c053ccc658c8103357f3b3052a465a8edf8c46140c3c104fb"
    ],
+   "description": "The second Sorcerian Sound Collection from Active Gamers, arranging Sound Board II versions of music from Sorcerian's add-ons: the first extra scenario set, every chapter of Sengoku Sorcerian from Takeda Shingen to Tokugawa Ieyasu, Pyramid Sorcerian, and the utility disk's menu and quiz tunes.",
    "sourceGroups": [
     "neokobe:SSC2 - Sorcerian Sound Collection Vol. 2 (Doujin - Active Gamers)/SSC2 - Sorcerian Sound Collection Vol. 2 [FD].7z"
    ],
@@ -66584,6 +66620,7 @@
     "sha256-fd-v1:6448e3e60904a3f2de01495f647e6836200820411f8b39d72c8804be53f1df7f",
     "sha256-fd-v1:8d1a16075ad561234f7a71bcaefb37bb6ca32b05433489d3da80404c770c1dfa"
    ],
+   "description": "A Japanese-style doujin adventure from Specters: after being hit by a truck, the hero is handed a second chance at life by a demon, on the condition that he win himself a girlfriend before his time runs out.",
    "diskSets": {
     "sha256-fd-v1:8d1a16075ad561234f7a71bcaefb37bb6ca32b05433489d3da80404c770c1dfa": {
      "media": [
@@ -66607,6 +66644,7 @@
     "sha256-fd-v1:739ec19e0f0a9e0232f961c0f22845dee90a2e3f2c77a6f5b49ad41161ad4784",
     "sha256-fd-v1:c89075c052aa7c337a8183819470d7bc4b9f0e3df64845a1b620030600f0c3f1"
    ],
+   "description": "Exiz's first music disk, made up entirely of music from the circle's own games.",
    "diskSets": {
     "sha256-fd-v1:739ec19e0f0a9e0232f961c0f22845dee90a2e3f2c77a6f5b49ad41161ad4784": {
      "media": [
@@ -66754,6 +66792,7 @@
    "contentIds": [
     "sha256-fd-v1:dfda0497e90323d996ec592742f1323765bc597fae3c3f67b2c80a3be27d45ba"
    ],
+   "description": "A doujin platform puzzler mixing Rodland and Solomon's Key: Mig must collect every fruit and item before time runs out, conjuring blocks that lift her up and serve as brief footholds, using hourglasses to stop time and feathers to walk on air, and riding certain enemies while avoiding any other contact.",
    "sourceGroups": [
     "neokobe:Mig - The Fantastic Adventure (Doujin - Team AUT)/Mig - The Fantastic Adventure [FD].7z"
    ],
@@ -66779,6 +66818,7 @@
     "sha256-fd-v1:4c3dca4b1e81ad60f2096630525e2cdc7017232dc54b1bb3917f78fb5011aec1",
     "sha256-fd-v1:a01d885e0669e68b87e4d978b7160a6151aba42cfcd174ef10a51eb296b308d5"
    ],
+   "description": "A doujin action puzzle game starring the young witch Crim, who must gather every key and leave through the door while avoiding wandering enemies. Her wand can blow away or stun only some of them, others shoot when she comes into view, and every sixth stage brings a comic Crim Theatre scene or a coffee break.",
    "diskSets": {
     "sha256-fd-v1:a01d885e0669e68b87e4d978b7160a6151aba42cfcd174ef10a51eb296b308d5": {
      "setDisks": [
@@ -66799,6 +66839,7 @@
     "sha256-fd-v1:6e10d854bc3f91ac607004212419c1635fda736050c53461d79fd645f0e07674",
     "sha256-fd-v1:d631e551df0af382255a0096abfa35217affe3a90d9fb01d88a5b86e8fcdcb68"
    ],
+   "description": "A doujin Japanese-style adventure set in a high school where strange occurrences suddenly break out, leaving you to find out what has happened to its students.",
    "diskSets": {
     "sha256-fd-v1:6e10d854bc3f91ac607004212419c1635fda736050c53461d79fd645f0e07674": {
      "media": [
@@ -66837,6 +66878,7 @@
    "contentIds": [
     "sha256-fd-v1:232420ed7a9d8d7bcf691b0f11916e27485c9798e9a97881f11e6f06f1b76848"
    ],
+   "description": "A compilation of four small games, each a simplified version of a Game Arts title.",
    "sourceGroups": [
     "neokobe:Game Arts Basic-Game (Hakusyaku)/Game Arts Basic-Game [FD].7z"
    ],
@@ -66846,6 +66888,7 @@
    "contentIds": [
     "sha256-fd-v1:7e99c9b6720fa214582afab9cedaf6f76361a08d04818556d3bd99be46642402"
    ],
+   "description": "A Firecracker music collection devoted to Namco, made up of FM arrangements of the company's classic game music.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 06 - The Golden Age of Namco (Doujin - Firecracker)/Firecracker Music Collection Vol. 06 - The Golden Age of Namco [FD].7z"
    ],
@@ -66865,6 +66908,7 @@
     "sha256-fd-v1:137e3c7d7382f74daab4625a1b95516ad93e8b100f7aba3bd856e24be9d814f7",
     "sha256-fd-v1:8fe037dbfc16bc3c5c9ccee89bd57c2a54ed78ee3a63485f13fd08598c4ad0a4"
    ],
+   "description": "A doujin RPG set in the many-floored Tower of Ashura, which you climb while fighting monsters, gaining levels and talking to the characters you meet.",
    "diskSets": {
     "sha256-fd-v1:137e3c7d7382f74daab4625a1b95516ad93e8b100f7aba3bd856e24be9d814f7": {
      "setDisks": [
@@ -66907,6 +66951,7 @@
     "sha256-fd-v1:742fb0a9eb9721492b860b34f0557d27e2b2deda26ddbf53140cbc2041e47b78",
     "sha256-fd-v1:d0b3034923e1004313135c179f2899398c00c4ffcf462cec71852fe22163ff34"
    ],
+   "description": "The first Sound On-Ten music disk from Yanbaru Kuina: arcade covers from Thunder Cross, Fantasy Zone, Gradius II, Galaxy Force II, Power Drift, The Ninja Warriors and Dragon Spirit, Ys endings, and a run of originals by Gal-kichi.",
    "diskSets": {
     "sha256-fd-v1:742fb0a9eb9721492b860b34f0557d27e2b2deda26ddbf53140cbc2041e47b78": {
      "media": [
@@ -67004,6 +67049,7 @@
     "sha256-fd-v1:a11b077b96feb6215a79274ba53fca74e6834892e9192ed9c1483d2e18add6c4",
     "sha256-fd-v1:b0b3c5ae7f408d4b1d28df7d0ae81b830794b5bcd98ba7e111d72ca98f3abe0a"
    ],
+   "description": "A 32-track 1991 music disk from C.N. Products covering Operation Tomato, arcade Gradius II, Misty Blue, The Scheme, five Dragon Spirit stages, Snatcher, OutRun, Sorcerian, Syvalion and TwinBee, alongside originals such as Pessimistic Pierrot and Lucifer Field.",
    "diskSets": {
     "sha256-fd-v1:b0b3c5ae7f408d4b1d28df7d0ae81b830794b5bcd98ba7e111d72ca98f3abe0a": {
      "media": [
@@ -67161,6 +67207,7 @@
     "sha256-fd-v1:1e4eaefa22ed94e3fa4eb5da1304076e95982fa5a8d285b97d7ddfa3cd968f4a",
     "sha256-fd-v1:ceb8bfc79f9412cd778abc1dc097c7b34513fc29ea6b8164a1bf82375cf7de74"
    ],
+   "description": "The second issue of ZETA, Champion Soft's 'graphic idol magazine' sold as a floppy disk plus printed magazine, presenting fictional idols through profiles and photo-style picture spreads. Several of the series' editors later worked at Alice Soft.",
    "diskSets": {
     "sha256-fd-v1:1e4eaefa22ed94e3fa4eb5da1304076e95982fa5a8d285b97d7ddfa3cd968f4a": {
      "media": [
@@ -67183,6 +67230,7 @@
    "contentIds": [
     "sha256-fd-v1:9154a0fc67d6a449d866ba44d9439c3f1fb1bb9030a5cf3f46c8d41db86fa449"
    ],
+   "description": "The first music disk from Hoehoe Team 199X, made up of twelve original compositions with titles such as Wonder World, Planetarium, Death Trap, Day-dreamer and Roaring Hero!",
    "diskMachine": {
     "sha256-fd-v1:9154a0fc67d6a449d866ba44d9439c3f1fb1bb9030a5cf3f46c8d41db86fa449": {
      "subcpu": "disk"
@@ -67197,6 +67245,7 @@
    "contentIds": [
     "sha256-fd-v1:c3efe7dfedece9dc54d33c14e4cb8bf747d99a012680b68120cf423a492abb37"
    ],
+   "description": "The fifth of Frostforest's FSD sample music collections, a set of FM pieces that includes Dragon Quest music, shown with a picture of Fatal Fury's Terry Bogard.",
    "sourceGroups": [
     "neokobe:FSD Sample Ongaku Shuu Vol. 5 (Doujin - Frostforest)/FSD Sample Ongaku Shuu Vol. 5 [FD].7z"
    ],
@@ -67260,6 +67309,7 @@
     "sha256-fd-v1:de934f53ea829592a8111bdf617f98ca9f33966961bdc29f22c0f6d75f90751a",
     "sha256-fd-v1:e6cee38ba9f2704d96dad5c8548bc1716170ce0049534342d01cb28f09a4a689"
    ],
+   "description": "Group R204's first doujin shooter, a horizontal scroller in which enemies drop power-ups and you can switch firing modes at any time, upgrading each mode separately. It is known for steep difficulty; the set includes the original monochrome release plus colour Kaiteiban and Tiny-ban revisions, and it was later ported to PC-98.",
    "diskMachine": {
     "sha256-fd-v1:2fa7a646352553e8ad8bbf9ceb66861906daa12270175397822f1718d29ba73b": {
      "clock": 4
@@ -67312,6 +67362,7 @@
     "sha256-fd-v1:3a2e3196f1dc0c8a0b71f06fd8469b3974b775122ffcc02ea34895258b9a1ebe",
     "sha256-fd-v1:a5bf4c08570fa221f0670e2d691b6beff5d5bd04072b3226abb0f42c94d829a0"
    ],
+   "description": "The sequel to the 2011 doujin roguelike Joker no Yabou 2: you begin as the mighty Joker, but your level drops after every major fight or story event, and unlike its predecessor it carries plenty of dialogue and cutscenes.",
    "diskSets": {
     "sha256-fd-v1:3a2e3196f1dc0c8a0b71f06fd8469b3974b775122ffcc02ea34895258b9a1ebe": {
      "media": [
@@ -67345,6 +67396,7 @@
    "contentIds": [
     "sha256-fd-v1:8f3cdf5f63bc15d224bf437b24b9a045d6ee0571d337ec978d8c38a34f7b497d"
    ],
+   "description": "Infocom's Zork trilogy on PC-88: Zork I: The Great Underground Empire, Zork II: The Wizard of Frobozz and Zork III: The Dungeon Master, all played as English text adventures with typed commands and no graphics.",
    "sourceGroups": [
     "neokobe:Zork I-III (Infocom)/Zork I-III (English CP-M version) [FD].7z"
    ],
@@ -67399,10 +67451,13 @@
    "title": "GC-clusterz Music Disk"
   },
   "pc88:local-e43a6054be": {
+   "adult": true,
+   "adultDescription": "A doujin adult adventure set in 20XX, when a virus has left every man gravely ill: the heroic 'Fighting Nurse' works to cure it, and her mission includes sex scenes with other women.",
    "contentIds": [
     "sha256-fd-v1:79f682f539c3f7777914184e5019fb04d101965668cda30fe35096695c8634dc",
     "sha256-fd-v1:d93cc273b2ea5b5e65ae31f46f97d91c1f5576c08f37156d386ba0ddd0f07dae"
    ],
+   "description": "A doujin Japanese-style adventure set in the year 20XX, when a virus has left every man gravely ill and a heroic 'Fighting Nurse' sets out to find the cure.",
    "diskSets": {
     "sha256-fd-v1:d93cc273b2ea5b5e65ae31f46f97d91c1f5576c08f37156d386ba0ddd0f07dae": {
      "media": [
@@ -67454,6 +67509,7 @@
    "contentIds": [
     "sha256-fd-v1:e425eaa2bd30c60a74b18b6bb2fdfb0c7819f0b9ce2c974ad1be841fb8ca276b"
    ],
+   "description": "The fourth 'Original Special' in Firecracker's music collection series, featuring the circle's own compositions and a title picture of Samurai Shodown's Nakoruru.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 30 - Original Special 4 (Doujin - Firecracker)/Firecracker Music Collection Vol. 30 - Original Special 4 [FD].7z"
    ],
@@ -67513,6 +67569,7 @@
    "contentIds": [
     "sha256-fd-v1:0c74475b76028774c23f1cf48d14310fad5716218ba44089058fffe8fe482e31"
    ],
+   "description": "The sixth of Frostforest's FSD sample music collections, given over largely to FM renditions of Final Fantasy V music.",
    "sourceGroups": [
     "neokobe:FSD Sample Ongaku Shuu Vol. 6 (Doujin - Frostforest)/FSD Sample Ongaku Shuu Vol. 6 [FD].7z"
    ],
@@ -67549,6 +67606,7 @@
    "contentIds": [
     "sha256-fd-v1:f8c2e2e805b3fd6230184e97f4e4386fd871f161a69406ba239360f4570d8c47"
    ],
+   "description": "A strategy game that sticks close to history, built around the Shinsengumi's street battles with anti-shogunate ronin. The corps splits into two squads to fight a steady stream of enemies, and real members such as Kondo Isami and Okita Soji appear.",
    "sourceGroups": [
     "neokobe:Shinsengumi (Kiya)/Shinsengumi [FD].7z"
    ],
@@ -67602,6 +67660,7 @@
     "sha256-fd-v1:c3a26bf2fb36ebd4ae2022e35982c67ff5dce91cff3f8b3d511888fb9f78f892",
     "sha256-fd-v1:eb97c29b225b30a744d4aa3990b796a4d56276d4bacd1471b846dbf5f461af6c"
    ],
+   "description": "You play a schoolboy trying to land a date with one of the girls at your school.",
    "diskSets": {
     "sha256-fd-v1:4141fe48e20ed69ce9c94fe3122bd84a77650c48597a89702129384563c04c56": {
      "media": [
@@ -67705,6 +67764,7 @@
     "sha256-fd-v1:7ab05a0821d56d90b4ce08f66198749fd75ef0297a4962e82284c9c4b5ea130a",
     "sha256-fd-v1:f68a6babc6e8e1b4f3542cc3d088c129038f80cb18e5da35b575099e53b72d7e"
    ],
+   "description": "A strategy take on Kurosawa's Seven Samurai: bandits raid a Warring States village, and you pick yourself plus six warriors from 32 samurai with their own stats, then use the terrain, bamboo barricades and troop placement to hold off the raiders.",
    "diskSets": {
     "sha256-fd-v1:7ab05a0821d56d90b4ce08f66198749fd75ef0297a4962e82284c9c4b5ea130a": {
      "media": [
@@ -67729,6 +67789,7 @@
     "sha256-fd-v1:9cd1e54bed65eedb1c80c5d83455ce39f669b5c85be902b6775b9fd63c4c5415",
     "sha256-fd-v1:fc510149475672e658f628be1b1f454e351f5d56db75362de533f68a924a424f"
    ],
+   "description": "A vertically scrolling doujin shooter from Group R204, the follow-up to its Melt Down. Shootable containers hold power-ups and weapons, and choosing between the fast shot, enemy-seeking homing missiles and the slower but strongest blast is the key; many enemies can also fire backwards. It was later ported to PC-98 and PC-6001mkIISR.",
    "diskSets": {
     "sha256-fd-v1:9cd1e54bed65eedb1c80c5d83455ce39f669b5c85be902b6775b9fd63c4c5415": {
      "setDisks": [
@@ -67812,6 +67873,7 @@
     "sha256-fd-v1:9b07f7a9ea248ff56f294bfaa835c13777587ce3ac9565c3fd97c547a334ade1",
     "sha256-fd-v1:f3497819ab0bd525fe6bdf1a45646ffadc20f73b33c51990d928af5d787aa91a"
    ],
+   "description": "A doujin Japanese-style adventure that you advance by picking commands such as look, talk and even kiss.",
    "diskSets": {
     "sha256-fd-v1:6c27ecf8906c6c345a1da16f0e92cf228d6213e048abeb283e3d63702250d3e6": {
      "media": [
@@ -67964,6 +68026,7 @@
    "contentIds": [
     "sha256-fd-v1:567016afb71cca982a51ee8ac70362146d7354d82aae0d94cb9f0615a98020fa"
    ],
+   "description": "An NT-3 music disk from Active Gamers split into a 'main dish' of 23 original pieces, among them a Holiness Story III theme and the title track, and a 'dessert' of 17 extras such as loading jingles and rejected tunes.",
    "sourceGroups": [
     "neokobe:Yoake no Merry-go-round (Doujin - Active Gamers)/Yoake no Merry-go-round [FD].7z"
    ],
@@ -68017,6 +68080,7 @@
     "sha256-fd-v1:a88880f60c40c57a31c0c27cf86d45d2086fe8989aa100866e891cdbd8462e06",
     "sha256-fd-v1:af6fb62d29cfd2b24259fa43da5e6c0288abc2817e6ff9ac067860e7bb8409e8"
    ],
+   "description": "A doujin dungeon-crawling RPG: a vampire is terrorising a nearby town by seducing its women, some of whom now serve as his guards, and you play the knight sent to end his reign.",
    "diskSets": {
     "sha256-fd-v1:4ac4161138d98fc4f61c17f6832412b2cc6501763b3996290380a3f47d32e6aa": {
      "setDisks": [
@@ -68054,6 +68118,7 @@
     "sha256-fd-v1:abfef3bd7b06707054d285f757800ec0dcbb9522f951082b8292471ddc1246af",
     "sha256-fd-v1:e17577d228ec45f2da5cf76fcfd11980f760f2e027c07c97ed0764e334981712"
    ],
+   "description": "A doujin falling-block game closely modelled on Tetris. In the main Moscow mode pieces cannot be rotated but can be dropped instantly, while a regular mode, unlocked by pressing the blocks on the menu, allows rotation but no instant drop.",
    "diskSets": {
     "sha256-fd-v1:e17577d228ec45f2da5cf76fcfd11980f760f2e027c07c97ed0764e334981712": {
      "setDisks": [
@@ -68082,6 +68147,7 @@
    "contentIds": [
     "sha256-fd-v1:d2e17f44b2197cd290de528dbf84fc7bd0b5b0e65701262555c53fa03a9920b5"
    ],
+   "description": "A Firecracker music collection built mostly around music from outside video games, though some game tracks still appear.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 13 - Out of Game Music (Doujin - Firecracker)/Firecracker Music Collection Vol. 13 - Out of Game Music [FD].7z"
    ],
@@ -68092,6 +68158,7 @@
     "sha256-fd-v1:4a1b202baa596ec086ff96ad7161b74d64f2cde68e8235c11771cf4958c6acd2",
     "sha256-fd-v1:f5f6c96b373db40263fd945f1a9f0e7cf7a86148141085966c4b9f58074079e3"
    ],
+   "description": "Active Gamers' 1992 command-style RPG, first in the Holiness Story series. You are a fighter battling rivals at a training ground in Dragon Quest-style turn-based fights and buying equipment to grow stronger; character creation opens with trivia questions about Dragon Quest and Final Fantasy.",
    "diskSets": {
     "sha256-fd-v1:f5f6c96b373db40263fd945f1a9f0e7cf7a86148141085966c4b9f58074079e3": {
      "media": [
@@ -68324,6 +68391,7 @@
    "contentIds": [
     "sha256-fd-v1:b808fd9b34d906b6becaac5b53c996349d1631b97648eaaae8b0910f75ce0f50"
    ],
+   "description": "A CG collection of manga- and anime-style character pictures drawn by the Denken Soft circle itself.",
    "sourceGroups": [
     "neokobe:Denken CG Shuu (Doujin - Denken Soft)/Denken CG Shuu [FD].7z"
    ],
@@ -68333,6 +68401,7 @@
    "contentIds": [
     "sha256-fd-v1:3b4366387dc31a9e4dbecb174742a9233e10f51b4e464455ff1f8cdc6cd272e9"
    ],
+   "description": "A construction kit for building your own Wizardry-style 3D dungeon RPGs. Its complete program listing was printed in the April 1987 issue of LOGiN magazine, and a disk version was sold through Takeru vending machines.",
    "diskMachine": {
     "sha256-fd-v1:3b4366387dc31a9e4dbecb174742a9233e10f51b4e464455ff1f8cdc6cd272e9": {
      "commands": [
@@ -68349,6 +68418,7 @@
    "contentIds": [
     "sha256-fd-v1:78c3e235e005dcfe5b5fa4207deba253929186e565f439b2e68566207b5d9fce"
    ],
+   "description": "A Firecracker music collection headlined by the soundtrack of the PC-98 game Briganty, alongside music from other games, an arrangement of Neon Genesis Evangelion's opening A Cruel Angel's Thesis and Yuri Shiratori's song Caramel Pop.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 33 - Briganty Sound Tracks (Doujin - Firecracker)/Firecracker Music Collection Vol. 33 - Briganty Sound Tracks [FD].7z"
    ],
@@ -68382,6 +68452,7 @@
    "contentIds": [
     "sha256-fd-v1:7ab501d35afadd8318b0f51cae9cb13cfb0458d2268d6c0bae8f2d7cff035390"
    ],
+   "description": "A doujin sugoroku board game with RPG rules for up to four human or computer players: roll your way to the end of the board, slaying monsters for experience, buying equipment at shop squares and recovering on healing squares, until you are strong enough to beat the dragon waiting at the goal.",
    "sourceGroups": [
     "neokobe:Sugoroku Pon (Doujin - Mix Blood)/Sugoroku Pon [FD].7z"
    ],
@@ -68419,6 +68490,7 @@
    "contentIds": [
     "sha256-fd-v1:20d23f490de51f416949d3fc180da229556b1645725af08f03d8657f03b99659"
    ],
+   "description": "A plain-looking music library holding the soundtracks of all three PC-88 Ys games, with each track's name and composer listed.",
    "sourceGroups": [
     "neokobe:Ys Music Library (meslon)/Ys Music Library [FD].7z"
    ],
@@ -68453,6 +68525,7 @@
     "sha256-fd-v1:610637d1afa9a966810d34d25edd78029bdeced55e30f5f004360878c077d02b",
     "sha256-fd-v1:cb988a9cdebdd6a7146a02d54707c419c837030ab42b1d2c3f028d377412e390"
    ],
+   "description": "A doujin Sound Board II music disk with FM covers from a wide range of games, chosen from a menu that greets you with a spoken voice.",
    "diskSets": {
     "sha256-fd-v1:610637d1afa9a966810d34d25edd78029bdeced55e30f5f004360878c077d02b": {
      "media": [
@@ -68493,6 +68566,7 @@
    "contentIds": [
     "sha256-tape-v1:06afdf280ae578a426ca18e315c8fd15fd39c88af455e9401dda45b68476ed2b"
    ],
+   "description": "Mahjong against the odd old man Chin-san, who slowly carries the tiles to the table himself. It won a prize in I/O magazine's first program contest and ran on PC-6001mkII, PC-6601 and PC-8801mkII; only the PC-6001 version speaks, using its speech chip.",
    "diskMachine": {
     "sha256-tape-v1:06afdf280ae578a426ca18e315c8fd15fd39c88af455e9401dda45b68476ed2b": {
      "basic": "v1s"
@@ -68507,6 +68581,7 @@
    "contentIds": [
     "sha256-fd-v1:fce7abb5547cd7899bf8473c12aa29e5b3a51e903c0cd8c420612c58d563e831"
    ],
+   "description": "A vertical science-fiction shooter in which you destroy turrets and enemy fighters, collect power-ups and finish each stage against a boss.",
    "diskMachine": {
     "sha256-fd-v1:fce7abb5547cd7899bf8473c12aa29e5b3a51e903c0cd8c420612c58d563e831": {
      "subcpu": "disk"
@@ -68607,6 +68682,7 @@
     "sha256-fd-v1:41eedb108dd802f3d09c7175253653e39e277e3ddd1da92cd4d6dcecdcf08843",
     "sha256-fd-v1:aa2ed90b84a3271f0576f0d63c87432ef498b61652bb06aa151c54402c2dda8b"
    ],
+   "description": "A doujin action RPG in the Gauntlet mould: pick one of four characters and descend floor by floor, fighting monsters, gathering usable or equippable items and finding the stairs. Health returns by resting, potions or a paid healer, and hunger steadily drains you unless you eat the food you find.",
    "diskSets": {
     "sha256-fd-v1:aa2ed90b84a3271f0576f0d63c87432ef498b61652bb06aa151c54402c2dda8b": {
      "setDisks": [
@@ -68900,6 +68976,7 @@
    "contentIds": [
     "sha256-fd-v1:95c93fbb9bb0881b82e8f440ea487479171fb8ba31f2586472cbd4fec34563d5"
    ],
+   "description": "An early Firecracker music collection dedicated to PC-88 games, made up largely of arrangements from Falcom's Ys and Ys II.",
    "sourceGroups": [
     "neokobe:Firecracker Music Collection Vol. 03 - Dedicated to 88Games (Doujin - Firecracker)/Firecracker Music Collection Vol. 03 - Dedicated to 88Games [FD].7z"
    ],
@@ -68909,6 +68986,7 @@
    "contentIds": [
     "sha256-fd-v1:41b6839a06fc788b5da2b8f06f0ca7d981d7fcf1edee243783c6e88e2a905ccf"
    ],
+   "description": "A doujin platform puzzle game in which Miki-san must gather every piece of cake to make the exit appear; bonus items sometimes pop up that grant an extra heart or warp her to another level.",
    "sourceGroups": [
     "neokobe:Miki-san Jump! - Easy Type (Doujin - Soft House S.K.A.)/Miki-san Jump! - Easy Type [FD].7z"
    ],
