@@ -48,7 +48,7 @@ object Kairo88App : AppUnderTest() {
     override val bootGameFile = "games/Thunder Force (Tecno Soft)/Thunder Force [FD].7z"
     override val otherGame = "100 Yen Disk No. 1"
     override val defaultOption = "sound"
-    override val mediaSwap = MediaSwap("Angelus: Akuma no Fukuin", "Drive 2", "(Disk C)")
+    override val mediaSwap = MediaSwap("Angelus: Akuma no Fukuin", "Drive 2", "(Disk C)", filler = "d88")
 }
 
 class Kairo88FirstRunTests : FirstRunTests() { override val app = Kairo88App }

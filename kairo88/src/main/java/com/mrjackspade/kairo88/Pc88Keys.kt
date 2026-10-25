@@ -8,6 +8,7 @@ import com.mrjackspade.kairo.frontend.GuestKeyboardPage
 import com.mrjackspade.kairo.frontend.JisKana
 import com.mrjackspade.kairo.frontend.JoystickInputRouter
 import com.mrjackspade.kairo.frontend.KeyboardKey
+import com.mrjackspade.kairo.frontend.SymbolPage
 import android.view.KeyEvent
 
 /**
@@ -99,19 +100,20 @@ object Pc88Keys {
             KeyboardKey("Space", SPACE, 5f), KeyboardKey("Stop", STOP), KeyboardKey("Help", HELP))
     )
 
-    private fun symbolRows(): List<List<KeyboardKey>> = listOf(
-        listOf(KeyboardKey("Esc", ESC, 1.3f)) + "1234567890".map { KeyboardKey("$it", it.code) } +
-            KeyboardKey("Del", INS_DEL, 1.5f),
-        listOf("!", "\"", "#", "$", "%", "&", "'", "(", ")")
-            .mapIndexed { index, label -> KeyboardKey(label, '1'.code + index, chordShift = true) } +
-            KeyboardKey("Return", RETURN, 1.5f),
-        "-^¥@[];:,./".map { char -> KeyboardKey("$char", code(char)) },
-        listOf("=" to '-', "`" to '^', "|" to '¥', "~" to '@', "{" to '[', "}" to ']', "+" to ';',
+    private fun symbolRows(): List<List<KeyboardKey>> = SymbolPage.rows(
+        digits = "1234567890".map { KeyboardKey("$it", it.code) },
+        delete = KeyboardKey("Del", INS_DEL, 1.5f),
+        shiftedDigits = listOf("!", "\"", "#", "$", "%", "&", "'", "(", ")")
+            .mapIndexed { index, label -> KeyboardKey(label, '1'.code + index, chordShift = true) },
+        symbols = "-^¥@[];:,./".map { char -> KeyboardKey("$char", code(char)) },
+        shiftedSymbols = listOf("=" to '-', "`" to '^', "|" to '¥', "~" to '@', "{" to '[', "}" to ']', "+" to ';',
             "*" to ':', "<" to ',', ">" to '.', "?" to '/')
             .map { (label, char) -> KeyboardKey(label, code(char), chordShift = true) } +
             KeyboardKey("_", UNDERSCORE),
-        listOf(KeyboardKey("Tab", TAB), KeyboardKey("Space", SPACE, 5f), KeyboardKey("Return", RETURN, 1.5f))
-    )
+        space = KeyboardKey("Space", SPACE, 5f),
+        enter = KeyboardKey("Return", RETURN, 1.5f),
+        escape = KeyboardKey("Esc", ESC, 1.3f),
+        tab = KeyboardKey("Tab", TAB))
 
     private fun pc88Rows(): List<List<KeyboardKey>> = listOf(
         listOf(KeyboardKey("Stop", STOP, 1.4f), KeyboardKey("Copy", COPY, 1.4f)) +
