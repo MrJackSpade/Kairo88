@@ -36,7 +36,6 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         "Uses the joystick port, with a joystick in it: the game's Port setting.",
         ControllerGuestSpec.STANDARD_ACTIONS, Pc88Keys.layout)
     override val bindingsCodec = Pc88Keys.bindings
-    override fun defaultBindings(layout: ControllerLayout) = Pc88Keys.defaults(layout)
     override val artworkDownloadsEnabled: Boolean get() = resources.getBoolean(R.bool.catalog_art_download_enabled)
 
     private val format = DiskImageLibrary.Format(mapOf("d88" to "fd", "88d" to "fd", "t88" to "tape", "cmt" to "tape"),
