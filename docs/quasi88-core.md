@@ -61,7 +61,7 @@ boots the first disk (V2, 8 MHz, sound board II), the second (V1S, 4 MHz, sound 
 .build/host/tape_test bios/ .build/out/tape 1 "Apploon.t88" "load=MON|R|G8F00" frames=36000
 ```
 
-boots N88-BASIC (V1S here; 0 N-BASIC, 2 V1H, 3 V2) with the tape in the deck and runs its steps: `load=` runs the app's loader (`kairo88_loader.c`) with those lines, `wait=`, `type=` and `frames=` drive the machine directly. It prints the text screen and the tape position after each step and writes `tape-NN.ppm`.
+boots N88-BASIC (V1S here; 0 N-BASIC, 2 V1H, 3 V2) with the tape in the deck and runs its steps: `load=` runs the app's startup command typer (the shared `startup_typer.h`, with the PC-88's prompts and keys in `kairo88_loader.c` and `kairo88_typing.h`) with those lines, `wait=`, `type=` and `frames=` drive the machine directly. It prints the text screen and the tape position after each step and writes `tape-NN.ppm`.
 
 ## Tapes
 

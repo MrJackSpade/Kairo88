@@ -39,11 +39,12 @@ add_library(kairo88_core STATIC
     port/graph.c port/event.c port/wait.c port/system.c
     sound/snddrv_ymfm.cpp
     "${YMFM_SRC}/ymfm_opn.cpp" "${YMFM_SRC}/ymfm_adpcm.cpp" "${YMFM_SRC}/ymfm_ssg.cpp" "${YMFM_SRC}/ymfm_misc.cpp"
-    kairo88_core.c kairo88_loader.c)
+    kairo88_core.c kairo88_loader.c kairo88_typing.cpp)
 
 # port/ comes first so its config.h and device.h stand in for a sysdepend port.
 target_include_directories(kairo88_core
-    PUBLIC include
+    # The shared typer's header (kairo/startup_typer.h), which kairo88_typing.h serves.
+    PUBLIC include "${CMAKE_CURRENT_LIST_DIR}/../shared/frontend/src/main/cpp"
     PRIVATE port "${QUASI88_SRC}"
     "${QUASI88_SRC}/osdepend" "${QUASI88_SRC}/sysdepend" "${QUASI88_SRC}/osdepend/unix" "${QUASI88_SRC}/mon"
     "${QUASI88_SRC}/pc88" "${QUASI88_SRC}/screen" "${QUASI88_SRC}/screen/func" "${QUASI88_SRC}/screen/func/macro"

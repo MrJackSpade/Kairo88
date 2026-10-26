@@ -9,6 +9,7 @@
 
 #include "kairo/machine_core.h"
 #include "kairo88_core.h"
+#include "kairo88_typing.h"
 
 namespace {
 
@@ -53,15 +54,11 @@ public:
             error = "A disk image could not be opened";
             return nullptr;
         }
-        // After the drives: the tape, and the startup commands typed at BASIC's prompt (MainActivity.startGame).
+        // After the drives, the tape. The shared frame host types the startup commands at BASIC's
+        // prompt (kairo/startup_typer.h), with this core's prompts and keys (kairo88_typing.h).
         const std::string tape = launch.media.size() > kTapeSlot ? launch.media[kTapeSlot] : "";
         if (k88_tape(tape.empty() ? nullptr : tape.c_str()) != 0) {
             error = "The tape image could not be opened";
-            return nullptr;
-        }
-        const auto loader = launch.settings.find("loader");
-        if (k88_loader_start(loader == launch.settings.end() ? nullptr : loader->second.c_str()) != 0) {
-            error = "The startup commands cannot be typed";
             return nullptr;
         }
         return std::unique_ptr<Pc88Core>(new Pc88Core());
@@ -74,17 +71,18 @@ public:
             error_ = "QUASI88 stopped";
             return false;
         }
-        if (k88_loader_frame() != 0) {
-            error_ = "The startup commands cannot be typed";
-            return false;
-        }
         return true;
     }
 
-    // While the loader types a line and while the tape is read, the frame host runs the machine as
-    // fast as it can: a cassette loads in minutes at its real speed. Waiting for a prompt runs at
-    // the machine's own speed, so a game that never shows one plays at it.
-    bool booting() override { return k88_loader_typing() != 0 || k88_tape_running() != 0; }
+    // While the tape is read, the frame host runs the machine as fast as it can: a cassette loads in
+    // minutes at its real speed. (It does so while a startup command goes in, too.)
+    bool booting() override { return k88_tape_running() != 0; }
+
+    // The startup commands go in at BASIC's prompts (kairo88_typing.h).
+    kairo::Prompt prompt() override { return typing_.prompt(); }
+    bool typed_key(char c, int &code, bool &shift) override { return typing_.typed_key(c, code, shift); }
+    int special_key(kairo::SpecialKey key) override { return typing_.special_key(key); }
+    bool expand_command(std::string &line) override { return typing_.expand_command(line); }
 
     // The tape's progress ("tape=read/size"), so a test can tell a slow load from a stalled one.
     std::string details() override {
@@ -183,6 +181,7 @@ private:
     Pc88Core() = default;
 
     std::string error_;
+    Pc88Typing typing_;
     uint32_t stride_ = 0, repeat_ = 1;
     std::array<bool, 256> keys_{};
     std::array<bool, kJoystick.size()> pads_{};

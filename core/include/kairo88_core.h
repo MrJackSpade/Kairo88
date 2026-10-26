@@ -94,17 +94,26 @@ int k88_tape_position(long *read, long *size);
  * terminating NUL and returns the number written without it. */
 int k88_screen_text(char *out, int size);
 
-/* A tape's loader (kairo88_loader.c): after k88_boot, types its newline-separated lines one at a
- * time, each when the screen shows a prompt (BASIC's Ok or the monitor's ] or *), answering BASIC's
- * "How many files" with Return. {CTRL-x} in a line is Ctrl with x, {F1} to {F5} a function key,
- * {NAME} the name of the tape's first BASIC program (insert the tape with k88_tape first).
- * NULL or "" for none; -1 for a script it cannot type. */
-int k88_loader_start(const char *script);
-/* Whether the loader still has lines to type. */
-int k88_loader_active(void);
-/* Whether the loader is typing a line now, not waiting for the screen to show its prompt. */
-int k88_loader_typing(void);/* Advances the loader by one frame, after k88_run_frame; -1 when a line cannot be typed. */
-int k88_loader_frame(void);
+/* A game's startup commands, which the shared typer types at the machine's prompts
+ * (shared/frontend/src/main/cpp/kairo/startup_typer.h; kairo88_loader.c and kairo88_typing.cpp).
+ * What the screen waits for now: a command line at BASIC's Ok or the monitor's ] or *, Return
+ * alone for BASIC's "How many files", or nothing. */
+enum { K88_PROMPT_NONE, K88_PROMPT_LINE, K88_PROMPT_RETURN };
+int k88_prompt(void);
+/* QUASI88 key codes the typer uses besides a line's characters (pc88/keyboard.h). */
+enum { K88_KEY_RETURN = 145, K88_KEY_SHIFT = 152, K88_KEY_CTRL = 153, K88_KEY_F1 = 165 };
+/* The key that types c, setting *shifted when Shift goes with it; -1 when no key does. */
+int k88_typed_key(char c, int *shifted);
+/* Replaces {NAME} in line (a buffer of size bytes) with the name of the tape's first BASIC
+ * program (insert the tape with k88_tape first); -1 when the tape has none or it does not fit. */
+int k88_expand_name(char *line, int size);
+/* The shared typer for C callers, as the app's frame host runs it: newline-separated lines, NULL
+ * or "" for none (-1 when the typer cannot start); a frame after each k88_run_frame (-1 when a line
+ * cannot be typed); whether lines are left; whether a line is going in now. */
+int k88_typer_start(const char *script);
+int k88_typer_frame(void);
+int k88_typer_active(void);
+int k88_typer_typing(void);
 
 /* Resets the machine, keeping its disks and configuration. */
 void k88_reset(void);

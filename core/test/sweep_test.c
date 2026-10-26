@@ -84,13 +84,13 @@ int main(int argc, char **argv)
 			fflush(stdout);
 			continue;
 		}
-		/* The lines typed at BASIC's prompt, as the app's loader types them, unit separators between. */
+		/* The lines typed at BASIC's prompt, as the app's typer types them, unit separators between. */
 		if (strcmp(field[8], "-")) {
 			for (char *c = field[8]; *c; c++)
 				if (*c == '\x1f') *c = '\n';
 		}
-		if (k88_tape(NULL) != 0 || k88_loader_start(strcmp(field[8], "-") ? field[8] : NULL) != 0) {
-			fprintf(stderr, "sweep_test: %s: the loader cannot type its lines\n", field[0]);
+		if (k88_tape(NULL) != 0 || k88_typer_start(strcmp(field[8], "-") ? field[8] : NULL) != 0) {
+			fprintf(stderr, "sweep_test: %s: the typer cannot start\n", field[0]);
 			return 2;
 		}
 		/* The line is printed whole at the end: QUASI88 prints notes of its own to stdout. */
@@ -99,8 +99,8 @@ int main(int argc, char **argv)
 		for (int frame = 1; frame <= frames; frame++) {
 			/* Compose the picture on the frames the checks look at. */
 			k88_draw_every(frame % every == 0 ? 1 : 1000000);
-			if (k88_run_frame() != 0 || k88_loader_frame() != 0) {
-				fprintf(stderr, "sweep_test: QUASI88 stopped or its loader failed\n");
+			if (k88_run_frame() != 0 || k88_typer_frame() != 0) {
+				fprintf(stderr, "sweep_test: QUASI88 stopped or its typer failed\n");
 				return 1;
 			}
 			while (k88_audio_read(audio, 4096) > 0) {
@@ -113,7 +113,7 @@ int main(int argc, char **argv)
 		k88_screen_text(text, sizeof text);
 		for (char *c = text; *c; c++)
 			if (*c == '\n' || *c == '\r' || *c == '\t') *c = '|';
-		printf("%s%s\t%s\t%d\t%s\n", kMark, field[0], checks, k88_loader_active(), text);
+		printf("%s%s\t%s\t%d\t%s\n", kMark, field[0], checks, k88_typer_active(), text);
 		fflush(stdout);
 		if (strcmp(field[7], "-") && write_ppm(field[7]) != 0)
 			return 1;

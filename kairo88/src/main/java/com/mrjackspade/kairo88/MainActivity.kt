@@ -11,6 +11,7 @@ import com.mrjackspade.kairo.frontend.LayeredGameCatalog
 import com.mrjackspade.kairo.frontend.LibraryStrings
 import com.mrjackspade.kairo.frontend.MachineActivity
 import com.mrjackspade.kairo.frontend.MachineFirstRun
+import com.mrjackspade.kairo.frontend.StartupCommands
 import com.mrjackspade.kairo.frontend.mediaFor
 
 import java.io.File
@@ -85,7 +86,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         val home = File(filesDir, "quasi88").apply { mkdirs() }
         val options = optionValues(game)
         // The lines typed at BASIC's prompt to start the game: a tape's load, or a disk's own commands.
-        val settings = Pc88Native.settings(options) + ("loader" to game.startupCommands(options).joinToString("\n"))
+        val settings = Pc88Native.settings(options) + StartupCommands.setting(game.startupCommands(options))
         if (isTape(entry)) {
             // A tape game boots BASIC with the tape in the deck.
             val tape = disks.prepare(entry, cancelled, progress)
