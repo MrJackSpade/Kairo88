@@ -26,6 +26,7 @@
 #include "menu.h"
 #include "intr.h"
 #include "toolbar.h"
+#include "kairo/state_paths.h"	/* Kairo88 */
 
 
 /* リセット時に要求すべき設定 */
@@ -182,6 +183,19 @@ int quasi88_stateload(int serial)
 
 	/* ステートロード実行 */
 	success = stateload();
+
+	/* Kairo88: a state records its disks and tapes by path; each reopens where it is now
+	 * (kairo/state_paths.h), as a working copy can have another name since the state was saved. */
+	if (success) {
+		int i;
+		char *recorded[] = { file_disk[0], file_disk[1], file_tape[0], file_tape[1] };
+		for (i = 0; i < 4; i++) {
+			const char *now = kairo_state_path(recorded[i]);
+			if (now == recorded[i]) continue;
+			if (strlen(now) >= QUASI88_MAX_FILENAME) { success = FALSE; break; }
+			strcpy(recorded[i], now);
+		}
+	}
 
 	if (now_board != sound_board) {
 		/* サウンドボードが変わったら サウンドドライバの再初期化 */

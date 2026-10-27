@@ -60,6 +60,8 @@ if(WIN32)
 endif()
 
 if(NOT ANDROID)
+    # The app links the shared state paths through its machine library; the host tests link them here.
+    target_sources(kairo88_core PRIVATE "${CMAKE_CURRENT_LIST_DIR}/../shared/frontend/src/main/cpp/kairo/state_paths.cpp")
     add_executable(boot_test test/boot_test.c)
     target_link_libraries(boot_test PRIVATE kairo88_core)
     add_executable(restart_test test/restart_test.c)
