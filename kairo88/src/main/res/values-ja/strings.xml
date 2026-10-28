@@ -6,42 +6,21 @@
     <string name="credits">%1$s は %2$s と %3$s を使用しています。ソースと出典: github.com/%4$s</string>
     <!-- EN: Choose a games folder to find disk images and the ZIP and 7z archives holding them -->
     <string name="library_empty">ゲームフォルダを選択して、ディスクイメージとそれを含む ZIP・7z アーカイブを探します</string>
-    <!-- EN: Folder access expired. Select the games folder again. -->
-    <string name="library_expired">フォルダへのアクセス期限が切れました。ゲームフォルダを選択し直してください。</string>
-    <!-- EN: Choose a games folder -->
-    <string name="folder_title">ゲームフォルダを選択</string>
     <!-- %1$s is the machine's name, PC-88; %2$s the app's name, Kairo88. -->
     <!-- EN: Select the folder containing your %1$s games. %2$s will scan its disk images and the ZIP and 7z archives holding them. -->
     <string name="folder_description">%1$s のゲームが入っているフォルダを選択してください。%2$s がディスクイメージとそれを含む ZIP・7z アーカイブをスキャンします。</string>
-    <!-- EN: Choose games folder… -->
-    <string name="folder_button">ゲームフォルダを選択…</string>
-    <!-- EN: SAVE STATES -->
-    <string name="saves_group">ステートセーブ</string>
     <!-- EN: Uses the joystick port, with a joystick in it: the game\'s Port setting. -->
     <string name="joystick_help">ジョイスティックを接続したジョイスティックポートを使用します（ゲームの「ポート」設定）。</string>
     <!-- EN: Trigger 1 -->
     <string name="joystick_trigger_1">トリガー1</string>
     <!-- EN: Trigger 2 -->
     <string name="joystick_trigger_2">トリガー2</string>
-    <!-- EN: Symbols -->
-    <string name="keyboard_symbols">記号</string>
-    <!-- EN: Floppy disk -->
-    <string name="floppy_disk">フロッピーディスク</string>
     <!-- EN: Cassette tape -->
     <string name="cassette_tape">カセットテープ</string>
     <!-- EN: Drive 1 -->
     <string name="drive_1">ドライブ1</string>
-    <!-- EN: Drive 2 -->
-    <string name="drive_2">ドライブ2</string>
-    <!-- EN: Cassette -->
-    <string name="cassette">カセット</string>
-    <!-- EN: Startup commands -->
-    <string name="startup_commands">起動コマンド</string>
     <!-- EN: Lines to type, separated by ; -->
     <string name="startup_commands_hint">入力する行（; 区切り）</string>
-    <!-- A firmware file's description: %1$s is its file name; %2$s what it does. -->
-    <!-- EN: %1$s · %2$s -->
-    <string name="firmware_part">%1$s · %2$s</string>
     <!-- EN: N88 extension 0 -->
     <string name="firmware_n88_extension_0">N88 拡張 0</string>
     <!-- EN: N88 extension 1 -->
@@ -56,8 +35,6 @@
     <string name="firmware_kanji_1">漢字フォント1</string>
     <!-- EN: Kanji font 2 -->
     <string name="firmware_kanji_2">漢字フォント2</string>
-    <!-- EN: Dictionary -->
-    <string name="firmware_dictionary">辞書</string>
     <!-- EN: Character font -->
     <string name="firmware_font">文字フォント</string>
     <!-- EN: the BIOS and BASIC that start the machine -->
@@ -95,15 +72,8 @@
     <string name="rhythm_rim_shot">リムショット</string>
     <!-- EN: a drum sound for sound board II\'s music -->
     <string name="rhythm_description">サウンドボード II の音楽用ドラム音</string>
-    <!-- EN: The second disk this game needs is not in the library -->
-    <string name="second_disk_missing">このゲームに必要な2枚目のディスクがライブラリにありません</string>
     <!-- EN: BASIC mode -->
     <string name="option_basic">BASIC モード</string>
-    <!-- EN: CPU clock -->
-    <string name="option_clock">CPU クロック</string>
-    <!-- %1$s is a clock speed, such as 8. -->
-    <!-- EN: %1$s MHz -->
-    <string name="clock_mhz">%1$s MHz</string>
     <!-- EN: Sound -->
     <string name="option_sound">サウンド</string>
     <!-- EN: Sound board -->

@@ -29,8 +29,8 @@ object Pc88Native {
 
     val basic = MachineOption("basic", UiText.res(R.string.option_basic), Basic.entries.map { ChoiceOption(it.id, it.label) },
         Basic.V2.id)
-    val clock = MachineOption("clock", UiText.res(R.string.option_clock),
-        listOf("8", "4").map { ChoiceOption(it, UiText.res(R.string.clock_mhz, it)) }, "8", numeric = true)
+    val clock = MachineOption("clock", UiText.res(FrontendR.string.kairo_option_clock),
+        listOf("8", "4").map { ChoiceOption(it, UiText.res(FrontendR.string.kairo_clock_mhz, it)) }, "8", numeric = true)
     val sound = MachineOption("sound", UiText.res(R.string.option_sound), Sound.entries.map { ChoiceOption(it.id, it.label) },
         Sound.II.id)
     val port = MachineOption("port", UiText.res(R.string.option_port), Port.entries.map { ChoiceOption(it.id, it.label) },

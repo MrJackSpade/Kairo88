@@ -1,5 +1,6 @@
 package com.mrjackspade.kairo88
 
+import com.mrjackspade.kairo.frontend.R as FrontendR
 import com.mrjackspade.kairo.frontend.CatalogSetting
 import com.mrjackspade.kairo.frontend.LayeredGameCatalog
 import com.mrjackspade.kairo.frontend.MachineOption
@@ -21,8 +22,8 @@ object Pc88Catalog : LayeredGameCatalog.Schema {
     override val contentId = Regex("sha256-(?:fd|tape)-v1:[0-9a-f]{64}")
     override val mediaExtensions = Regex("\\.(?:zip|7z|d88|88d|t88|cmt)$", RegexOption.IGNORE_CASE)
     override val settings: List<CatalogSetting> = Pc88Native.options.map(CatalogSetting::Choice) + listOf(
-        CatalogSetting.Drive("floppyB", UiText.res(R.string.drive_2)) { it.startsWith(FLOPPY) },
-        CatalogSetting.Lines(LAUNCH, COMMANDS, UiText.res(R.string.startup_commands),
+        CatalogSetting.Drive("floppyB", UiText.res(FrontendR.string.kairo_drive_2)) { it.startsWith(FLOPPY) },
+        CatalogSetting.Lines(LAUNCH, COMMANDS, UiText.res(FrontendR.string.kairo_startup_commands),
             UiText.res(R.string.startup_commands_hint), Regex("[ -~]{1,40}"), 8) { game, options ->
             if (game.contentId.startsWith(TAPE_ID)) defaultLoader(options.getValue(Pc88Native.basic.id)) else emptyList()
         })

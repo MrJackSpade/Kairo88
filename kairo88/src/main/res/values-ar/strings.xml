@@ -6,42 +6,21 @@
     <string name="credits">يستخدم %1$s كلًا من %2$s و%3$s. المصدر والمنشأ: github.com/%4$s.</string>
     <!-- EN: Choose a games folder to find disk images and the ZIP and 7z archives holding them -->
     <string name="library_empty">اختر مجلد ألعاب للعثور على صور الأقراص وأرشيفات ZIP و7z التي تحتويها</string>
-    <!-- EN: Folder access expired. Select the games folder again. -->
-    <string name="library_expired">انتهت صلاحية الوصول إلى المجلد. اختر مجلد الألعاب مرة أخرى.</string>
-    <!-- EN: Choose a games folder -->
-    <string name="folder_title">اختر مجلد ألعاب</string>
     <!-- %1$s is the machine's name, PC-88; %2$s the app's name, Kairo88. -->
     <!-- EN: Select the folder containing your %1$s games. %2$s will scan its disk images and the ZIP and 7z archives holding them. -->
     <string name="folder_description">اختر المجلد الذي يحتوي على ألعاب %1$s. سيفحص %2$s صور الأقراص فيه وأرشيفات ZIP و7z التي تحتويها.</string>
-    <!-- EN: Choose games folder… -->
-    <string name="folder_button">اختيار مجلد الألعاب…</string>
-    <!-- EN: SAVE STATES -->
-    <string name="saves_group">الحالات المحفوظة</string>
     <!-- EN: Uses the joystick port, with a joystick in it: the game\'s Port setting. -->
     <string name="joystick_help">يستخدم منفذ عصا الألعاب مع عصا ألعاب موصولة به: إعداد «المنفذ» في اللعبة.</string>
     <!-- EN: Trigger 1 -->
     <string name="joystick_trigger_1">الزناد 1</string>
     <!-- EN: Trigger 2 -->
     <string name="joystick_trigger_2">الزناد 2</string>
-    <!-- EN: Symbols -->
-    <string name="keyboard_symbols">الرموز</string>
-    <!-- EN: Floppy disk -->
-    <string name="floppy_disk">قرص مرن</string>
     <!-- EN: Cassette tape -->
     <string name="cassette_tape">شريط كاسيت</string>
     <!-- EN: Drive 1 -->
     <string name="drive_1">المحرك 1</string>
-    <!-- EN: Drive 2 -->
-    <string name="drive_2">المحرك 2</string>
-    <!-- EN: Cassette -->
-    <string name="cassette">الكاسيت</string>
-    <!-- EN: Startup commands -->
-    <string name="startup_commands">أوامر التشغيل</string>
     <!-- EN: Lines to type, separated by ; -->
     <string name="startup_commands_hint">أسطر للكتابة، مفصولة بـ ;</string>
-    <!-- A firmware file's description: %1$s is its file name; %2$s what it does. -->
-    <!-- EN: %1$s · %2$s -->
-    <string name="firmware_part">%1$s · %2$s</string>
     <!-- EN: N88 extension 0 -->
     <string name="firmware_n88_extension_0">امتداد N88 رقم 0</string>
     <!-- EN: N88 extension 1 -->
@@ -56,8 +35,6 @@
     <string name="firmware_kanji_1">خط الكانجي 1</string>
     <!-- EN: Kanji font 2 -->
     <string name="firmware_kanji_2">خط الكانجي 2</string>
-    <!-- EN: Dictionary -->
-    <string name="firmware_dictionary">القاموس</string>
     <!-- EN: Character font -->
     <string name="firmware_font">خط الأحرف</string>
     <!-- EN: the BIOS and BASIC that start the machine -->
@@ -95,15 +72,8 @@
     <string name="rhythm_rim_shot">ضربة الحافة</string>
     <!-- EN: a drum sound for sound board II\'s music -->
     <string name="rhythm_description">صوت طبل لموسيقى بطاقة الصوت II</string>
-    <!-- EN: The second disk this game needs is not in the library -->
-    <string name="second_disk_missing">القرص الثاني الذي تحتاجه هذه اللعبة غير موجود في المكتبة</string>
     <!-- EN: BASIC mode -->
     <string name="option_basic">وضع BASIC</string>
-    <!-- EN: CPU clock -->
-    <string name="option_clock">ساعة المعالج</string>
-    <!-- %1$s is a clock speed, such as 8. -->
-    <!-- EN: %1$s MHz -->
-    <string name="clock_mhz">%1$s MHz</string>
     <!-- EN: Sound -->
     <string name="option_sound">الصوت</string>
     <!-- EN: Sound board -->

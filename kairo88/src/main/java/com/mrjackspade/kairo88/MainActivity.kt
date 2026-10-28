@@ -23,10 +23,10 @@ import java.util.concurrent.atomic.AtomicBoolean
 class MainActivity : MachineActivity<DiskImageEntry>() {
     override val identity = Identity("KAIRO88", 0xffFB981A.toInt(), "Kairo88", "PC-88", "kairo88", LibraryStrings("KAIRO88", "Kairo88"),
         UiText.res(R.string.credits, "Kairo88", "QUASI88", "ymfm", "MrJackSpade/Kairo88"),
-        UiText.res(R.string.library_empty), UiText.res(R.string.library_expired),
-        MachineFirstRun.Folder(UiText.res(R.string.folder_title), UiText.res(R.string.folder_description, "PC-88", "Kairo88"),
-            UiText.res(R.string.folder_button)),
-        UiText.res(R.string.saves_group), "MrJackSpade/Kairo88")
+        UiText.res(R.string.library_empty), UiText.res(FrontendR.string.kairo_library_expired),
+        MachineFirstRun.Folder(UiText.res(FrontendR.string.kairo_folder_title), UiText.res(R.string.folder_description, "PC-88", "Kairo88"),
+            UiText.res(FrontendR.string.kairo_folder_button)),
+        UiText.res(FrontendR.string.kairo_saves_group), "MrJackSpade/Kairo88")
     override val machine = Machine(640, 400, 640.0 / 400.0, "state.q88")
     override val bridge get() = Pc88Native.machine
     override val keyboard = Pc88Keys.layout
@@ -40,7 +40,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     override val artworkDownloadsEnabled: Boolean get() = resources.getBoolean(R.bool.catalog_art_download_enabled)
 
     private val format = DiskImageLibrary.Format(mapOf("d88" to "fd", "88d" to "fd", "t88" to "tape", "cmt" to "tape"),
-        mapOf("fd" to UiText.res(R.string.floppy_disk), "tape" to UiText.res(R.string.cassette_tape)), mapOf("fd" to 64L * 1024 * 1024, "tape" to 16L * 1024 * 1024),
+        mapOf("fd" to UiText.res(FrontendR.string.kairo_floppy_disk), "tape" to UiText.res(R.string.cassette_tape)), mapOf("fd" to 64L * 1024 * 1024, "tape" to 16L * 1024 * 1024),
         "PC-88")
     private val disks by lazy { DiskImageLibrary(this, format) }
     override fun createCatalog() = LayeredGameCatalog(this, Pc88Catalog)
@@ -51,11 +51,11 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     private fun isTape(entry: DiskImageEntry) = format.kind(entry.displayName) == "tape"
 
     override val mediaSlots = listOf(MediaSlot(UiText.res(R.string.drive_1), ::isDisk),
-        MediaSlot(UiText.res(R.string.drive_2), ::isDisk), MediaSlot(UiText.res(R.string.cassette), ::isTape))
+        MediaSlot(UiText.res(FrontendR.string.kairo_drive_2), ::isDisk), MediaSlot(UiText.res(FrontendR.string.kairo_cassette), ::isTape))
 
     private val firmwareDir by lazy { File(filesDir, "firmware") }
     override val firmwareSets by lazy {
-        fun description(name: String, what: UiText) = UiText.res(R.string.firmware_part, name, what)
+        fun description(name: String, what: UiText) = UiText.res(FrontendR.string.kairo_firmware_part, name, what)
         fun rom(name: String, label: UiText, description: UiText, required: Boolean, sizes: Set<Int>,
                 vararg aliases: String) = FirmwareSet.Part(name, label, description(name, description), setOf(name) + aliases,
             required, sizes.map(Int::toLong).toSet())
@@ -79,7 +79,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
                 "n88knj1.rom"),
             rom("kanji2.rom", R.string.firmware_kanji_2, R.string.firmware_kanji_2_description, false, setOf(0x20000),
                 "n88knj2.rom"),
-            rom("jisyo.rom", R.string.firmware_dictionary, R.string.firmware_dictionary_description, false,
+            rom("jisyo.rom", FrontendR.string.kairo_firmware_dictionary, R.string.firmware_dictionary_description, false,
                 setOf(0x80000), "n88jisho.rom"),
             rom("font.rom", R.string.firmware_font, R.string.firmware_font_description, false, setOf(0x800, 0x1000)))),
             UiText.res(R.string.rhythm_samples) to FirmwareSet(firmwareDir, listOf("bd" to R.string.rhythm_bass_drum,
@@ -110,7 +110,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
             return
         }
         val second = game.mediaId("floppyB")?.let { id ->
-            mediaFor(id, entry, libraryEntries) ?: error(getString(R.string.second_disk_missing))
+            mediaFor(id, entry, libraryEntries) ?: error(getString(FrontendR.string.kairo_second_disk_missing))
         }
         val diskA = disks.prepare(entry, cancelled, progress)
         val diskB = second?.let { disks.prepare(it, cancelled, progress) }

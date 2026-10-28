@@ -71,7 +71,7 @@ object Pc88Keys {
         brand = "KAIRO88",
         pages = listOf(
             GuestKeyboardPage("ABC", alphabetRows()),
-            GuestKeyboardPage("?123", symbolRows(), pickerLabel = UiText.res(R.string.keyboard_symbols)),
+            GuestKeyboardPage("?123", symbolRows(), pickerLabel = UiText.res(FrontendR.string.kairo_keyboard_symbols)),
             GuestKeyboardPage("PC-88", pc88Rows())
         ),
         modifiers = setOf(SHIFT, CTRL, GRAPH, CAPS, KANA),

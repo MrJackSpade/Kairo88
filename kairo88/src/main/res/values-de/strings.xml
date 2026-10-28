@@ -6,42 +6,21 @@
     <string name="credits">%1$s verwendet %2$s und %3$s. Quellcode und Herkunft: github.com/%4$s.</string>
     <!-- EN: Choose a games folder to find disk images and the ZIP and 7z archives holding them -->
     <string name="library_empty">Wählen Sie einen Spieleordner, um Datenträgerabbilder und die ZIP- und 7z-Archive mit ihnen zu finden</string>
-    <!-- EN: Folder access expired. Select the games folder again. -->
-    <string name="library_expired">Der Ordnerzugriff ist abgelaufen. Wählen Sie den Spieleordner erneut aus.</string>
-    <!-- EN: Choose a games folder -->
-    <string name="folder_title">Spieleordner auswählen</string>
     <!-- %1$s is the machine's name, PC-88; %2$s the app's name, Kairo88. -->
     <!-- EN: Select the folder containing your %1$s games. %2$s will scan its disk images and the ZIP and 7z archives holding them. -->
     <string name="folder_description">Wählen Sie den Ordner mit Ihren %1$s-Spielen. %2$s durchsucht seine Datenträgerabbilder und die ZIP- und 7z-Archive mit ihnen.</string>
-    <!-- EN: Choose games folder… -->
-    <string name="folder_button">Spieleordner auswählen…</string>
-    <!-- EN: SAVE STATES -->
-    <string name="saves_group">SPEICHERSTÄNDE</string>
     <!-- EN: Uses the joystick port, with a joystick in it: the game\'s Port setting. -->
     <string name="joystick_help">Verwendet den Joystick-Port mit eingestecktem Joystick: die Port-Einstellung des Spiels.</string>
     <!-- EN: Trigger 1 -->
     <string name="joystick_trigger_1">Trigger 1</string>
     <!-- EN: Trigger 2 -->
     <string name="joystick_trigger_2">Trigger 2</string>
-    <!-- EN: Symbols -->
-    <string name="keyboard_symbols">Symbole</string>
-    <!-- EN: Floppy disk -->
-    <string name="floppy_disk">Diskette</string>
     <!-- EN: Cassette tape -->
     <string name="cassette_tape">Kassette</string>
     <!-- EN: Drive 1 -->
     <string name="drive_1">Laufwerk 1</string>
-    <!-- EN: Drive 2 -->
-    <string name="drive_2">Laufwerk 2</string>
-    <!-- EN: Cassette -->
-    <string name="cassette">Kassette</string>
-    <!-- EN: Startup commands -->
-    <string name="startup_commands">Startbefehle</string>
     <!-- EN: Lines to type, separated by ; -->
     <string name="startup_commands_hint">Einzugebende Zeilen, getrennt durch ;</string>
-    <!-- A firmware file's description: %1$s is its file name; %2$s what it does. -->
-    <!-- EN: %1$s · %2$s -->
-    <string name="firmware_part">%1$s · %2$s</string>
     <!-- EN: N88 extension 0 -->
     <string name="firmware_n88_extension_0">N88-Erweiterung 0</string>
     <!-- EN: N88 extension 1 -->
@@ -56,8 +35,6 @@
     <string name="firmware_kanji_1">Kanji-Schrift 1</string>
     <!-- EN: Kanji font 2 -->
     <string name="firmware_kanji_2">Kanji-Schrift 2</string>
-    <!-- EN: Dictionary -->
-    <string name="firmware_dictionary">Wörterbuch</string>
     <!-- EN: Character font -->
     <string name="firmware_font">Zeichensatz</string>
     <!-- EN: the BIOS and BASIC that start the machine -->
@@ -95,15 +72,8 @@
     <string name="rhythm_rim_shot">Rimshot</string>
     <!-- EN: a drum sound for sound board II\'s music -->
     <string name="rhythm_description">ein Schlagzeugklang für die Musik der Soundkarte II</string>
-    <!-- EN: The second disk this game needs is not in the library -->
-    <string name="second_disk_missing">Der zweite Datenträger, den dieses Spiel benötigt, ist nicht in der Bibliothek</string>
     <!-- EN: BASIC mode -->
     <string name="option_basic">BASIC-Modus</string>
-    <!-- EN: CPU clock -->
-    <string name="option_clock">CPU-Takt</string>
-    <!-- %1$s is a clock speed, such as 8. -->
-    <!-- EN: %1$s MHz -->
-    <string name="clock_mhz">%1$s MHz</string>
     <!-- EN: Sound -->
     <string name="option_sound">Ton</string>
     <!-- EN: Sound board -->
