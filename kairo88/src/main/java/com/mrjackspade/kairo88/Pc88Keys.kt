@@ -9,6 +9,8 @@ import com.mrjackspade.kairo.frontend.JisKana
 import com.mrjackspade.kairo.frontend.JoystickInputRouter
 import com.mrjackspade.kairo.frontend.KeyboardKey
 import com.mrjackspade.kairo.frontend.SymbolPage
+import com.mrjackspade.kairo.frontend.UiText
+import com.mrjackspade.kairo.frontend.R as FrontendR
 import android.view.KeyEvent
 
 /**
@@ -69,7 +71,7 @@ object Pc88Keys {
         brand = "KAIRO88",
         pages = listOf(
             GuestKeyboardPage("ABC", alphabetRows()),
-            GuestKeyboardPage("?123", symbolRows(), pickerLabel = "Symbols"),
+            GuestKeyboardPage("?123", symbolRows(), pickerLabel = UiText.res(R.string.keyboard_symbols)),
             GuestKeyboardPage("PC-88", pc88Rows())
         ),
         modifiers = setOf(SHIFT, CTRL, GRAPH, CAPS, KANA),
@@ -227,7 +229,8 @@ object Pc88Keys {
     }
 
     /** One label per JoystickInputRouter.DEFAULT_CONTROLS control: the joystick port's lines. */
-    val joystickLabels = listOf("Up", "Down", "Left", "Right", "Trigger 1", "Trigger 2")
+    val joystickLabels = listOf(FrontendR.string.kairo_up, FrontendR.string.kairo_down, FrontendR.string.kairo_left,
+        FrontendR.string.kairo_right, R.string.joystick_trigger_1, R.string.joystick_trigger_2).map { UiText.res(it) }
 
     val bindings = ControllerBindingsCodec({ it in bindableCodes }, JoystickInputRouter.DEFAULT_CONTROLS,
         setOf("menu", "pause", "restart", "exit", "fastForward"))
