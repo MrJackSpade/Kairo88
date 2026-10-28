@@ -19,8 +19,6 @@
     <string name="cassette_tape">شريط كاسيت</string>
     <!-- EN: Drive 1 -->
     <string name="drive_1">المحرك 1</string>
-    <!-- EN: Lines to type, separated by ; -->
-    <string name="startup_commands_hint">أسطر للكتابة، مفصولة بـ ;</string>
     <!-- EN: N88 extension 0 -->
     <string name="firmware_n88_extension_0">امتداد N88 رقم 0</string>
     <!-- EN: N88 extension 1 -->

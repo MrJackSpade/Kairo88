@@ -24,7 +24,7 @@ object Pc88Catalog : LayeredGameCatalog.Schema {
     override val settings: List<CatalogSetting> = Pc88Native.options.map(CatalogSetting::Choice) + listOf(
         CatalogSetting.Drive("floppyB", UiText.res(FrontendR.string.kairo_drive_2)) { it.startsWith(FLOPPY) },
         CatalogSetting.Lines(LAUNCH, COMMANDS, UiText.res(FrontendR.string.kairo_startup_commands),
-            UiText.res(R.string.startup_commands_hint), Regex("[ -~]{1,40}"), 8) { game, options ->
+            UiText.res(FrontendR.string.kairo_startup_commands_hint), Regex("[ -~]{1,40}"), 8) { game, options ->
             if (game.contentId.startsWith(TAPE_ID)) defaultLoader(options.getValue(Pc88Native.basic.id)) else emptyList()
         })
     override val fields = CatalogSetting.fields(settings)

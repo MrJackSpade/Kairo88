@@ -19,8 +19,6 @@
     <string name="cassette_tape">Fita cassete</string>
     <!-- EN: Drive 1 -->
     <string name="drive_1">Unidade 1</string>
-    <!-- EN: Lines to type, separated by ; -->
-    <string name="startup_commands_hint">Linhas a digitar, separadas por ;</string>
     <!-- EN: N88 extension 0 -->
     <string name="firmware_n88_extension_0">Extensão N88 0</string>
     <!-- EN: N88 extension 1 -->

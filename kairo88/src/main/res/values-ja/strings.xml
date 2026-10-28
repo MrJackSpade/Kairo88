@@ -19,8 +19,6 @@
     <string name="cassette_tape">カセットテープ</string>
     <!-- EN: Drive 1 -->
     <string name="drive_1">ドライブ1</string>
-    <!-- EN: Lines to type, separated by ; -->
-    <string name="startup_commands_hint">入力する行（; 区切り）</string>
     <!-- EN: N88 extension 0 -->
     <string name="firmware_n88_extension_0">N88 拡張 0</string>
     <!-- EN: N88 extension 1 -->

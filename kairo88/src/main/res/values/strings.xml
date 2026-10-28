@@ -13,7 +13,6 @@
 
     <string name="cassette_tape">Cassette tape</string>
     <string name="drive_1">Drive 1</string>
-    <string name="startup_commands_hint">Lines to type, separated by ;</string>
 
     <string name="firmware_n88_extension_0">N88 extension 0</string>
     <string name="firmware_n88_extension_1">N88 extension 1</string>
