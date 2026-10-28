@@ -3,124 +3,124 @@
 <resources>
     <!-- %1$s is the app's name, Kairo88; %2$s and %3$s the emulators it runs; %4$s its GitHub repository. -->
     <!-- EN: %1$s uses %2$s and %3$s. Source and provenance: github.com/%4$s. -->
-    <string name="credits">%1$s uses %2$s and %3$s. Source and provenance: github.com/%4$s.</string>
+    <string name="credits">%1$s は %2$s と %3$s を使用しています。ソースと出典: github.com/%4$s</string>
     <!-- EN: Choose a games folder to find disk images and the ZIP and 7z archives holding them -->
-    <string name="library_empty">Choose a games folder to find disk images and the ZIP and 7z archives holding them</string>
+    <string name="library_empty">ゲームフォルダを選択して、ディスクイメージとそれを含む ZIP・7z アーカイブを探します</string>
     <!-- EN: Folder access expired. Select the games folder again. -->
-    <string name="library_expired">Folder access expired. Select the games folder again.</string>
+    <string name="library_expired">フォルダへのアクセス期限が切れました。ゲームフォルダを選択し直してください。</string>
     <!-- EN: Choose a games folder -->
-    <string name="folder_title">Choose a games folder</string>
+    <string name="folder_title">ゲームフォルダを選択</string>
     <!-- %1$s is the machine's name, PC-88; %2$s the app's name, Kairo88. -->
     <!-- EN: Select the folder containing your %1$s games. %2$s will scan its disk images and the ZIP and 7z archives holding them. -->
-    <string name="folder_description">Select the folder containing your %1$s games. %2$s will scan its disk images and the ZIP and 7z archives holding them.</string>
+    <string name="folder_description">%1$s のゲームが入っているフォルダを選択してください。%2$s がディスクイメージとそれを含む ZIP・7z アーカイブをスキャンします。</string>
     <!-- EN: Choose games folder… -->
-    <string name="folder_button">Choose games folder…</string>
+    <string name="folder_button">ゲームフォルダを選択…</string>
     <!-- EN: SAVE STATES -->
-    <string name="saves_group">SAVE STATES</string>
+    <string name="saves_group">ステートセーブ</string>
     <!-- EN: Uses the joystick port, with a joystick in it: the game\'s Port setting. -->
-    <string name="joystick_help">Uses the joystick port, with a joystick in it: the game\'s Port setting.</string>
+    <string name="joystick_help">ジョイスティックを接続したジョイスティックポートを使用します（ゲームの「ポート」設定）。</string>
     <!-- EN: Trigger 1 -->
-    <string name="joystick_trigger_1">Trigger 1</string>
+    <string name="joystick_trigger_1">トリガー1</string>
     <!-- EN: Trigger 2 -->
-    <string name="joystick_trigger_2">Trigger 2</string>
+    <string name="joystick_trigger_2">トリガー2</string>
     <!-- EN: Symbols -->
-    <string name="keyboard_symbols">Symbols</string>
+    <string name="keyboard_symbols">記号</string>
     <!-- EN: Floppy disk -->
-    <string name="floppy_disk">Floppy disk</string>
+    <string name="floppy_disk">フロッピーディスク</string>
     <!-- EN: Cassette tape -->
-    <string name="cassette_tape">Cassette tape</string>
+    <string name="cassette_tape">カセットテープ</string>
     <!-- EN: Drive 1 -->
-    <string name="drive_1">Drive 1</string>
+    <string name="drive_1">ドライブ1</string>
     <!-- EN: Drive 2 -->
-    <string name="drive_2">Drive 2</string>
+    <string name="drive_2">ドライブ2</string>
     <!-- EN: Cassette -->
-    <string name="cassette">Cassette</string>
+    <string name="cassette">カセット</string>
     <!-- EN: Startup commands -->
-    <string name="startup_commands">Startup commands</string>
+    <string name="startup_commands">起動コマンド</string>
     <!-- EN: Lines to type, separated by ; -->
-    <string name="startup_commands_hint">Lines to type, separated by ;</string>
+    <string name="startup_commands_hint">入力する行（; 区切り）</string>
     <!-- A firmware file's description: %1$s is its file name; %2$s what it does. -->
     <!-- EN: %1$s · %2$s -->
     <string name="firmware_part">%1$s · %2$s</string>
     <!-- EN: N88 extension 0 -->
-    <string name="firmware_n88_extension_0">N88 extension 0</string>
+    <string name="firmware_n88_extension_0">N88 拡張 0</string>
     <!-- EN: N88 extension 1 -->
-    <string name="firmware_n88_extension_1">N88 extension 1</string>
+    <string name="firmware_n88_extension_1">N88 拡張 1</string>
     <!-- EN: N88 extension 2 -->
-    <string name="firmware_n88_extension_2">N88 extension 2</string>
+    <string name="firmware_n88_extension_2">N88 拡張 2</string>
     <!-- EN: N88 extension 3 -->
-    <string name="firmware_n88_extension_3">N88 extension 3</string>
+    <string name="firmware_n88_extension_3">N88 拡張 3</string>
     <!-- EN: Disk sub-system -->
-    <string name="firmware_disk">Disk sub-system</string>
+    <string name="firmware_disk">ディスクサブシステム</string>
     <!-- EN: Kanji font 1 -->
-    <string name="firmware_kanji_1">Kanji font 1</string>
+    <string name="firmware_kanji_1">漢字フォント1</string>
     <!-- EN: Kanji font 2 -->
-    <string name="firmware_kanji_2">Kanji font 2</string>
+    <string name="firmware_kanji_2">漢字フォント2</string>
     <!-- EN: Dictionary -->
-    <string name="firmware_dictionary">Dictionary</string>
+    <string name="firmware_dictionary">辞書</string>
     <!-- EN: Character font -->
-    <string name="firmware_font">Character font</string>
+    <string name="firmware_font">文字フォント</string>
     <!-- EN: the BIOS and BASIC that start the machine -->
-    <string name="firmware_n88_description">the BIOS and BASIC that start the machine</string>
+    <string name="firmware_n88_description">マシンを起動する BIOS と BASIC</string>
     <!-- EN: the first extended BASIC bank, needed to boot -->
-    <string name="firmware_n88_0_description">the first extended BASIC bank, needed to boot</string>
+    <string name="firmware_n88_0_description">最初の拡張 BASIC バンク（起動に必要）</string>
     <!-- EN: an extended BASIC bank some games use -->
-    <string name="firmware_n88_extension_description">an extended BASIC bank some games use</string>
+    <string name="firmware_n88_extension_description">一部のゲームが使う拡張 BASIC バンク</string>
     <!-- %1$s is the older machine's name, PC-8001. -->
     <!-- EN: BASIC for the oldest %1$s style games -->
-    <string name="firmware_n80_description">BASIC for the oldest %1$s style games</string>
+    <string name="firmware_n80_description">最も古い %1$s 形式のゲーム用の BASIC</string>
     <!-- EN: runs the floppy drives -->
-    <string name="firmware_disk_description">runs the floppy drives</string>
+    <string name="firmware_disk_description">フロッピードライブを動かします</string>
     <!-- EN: everyday Japanese characters -->
-    <string name="firmware_kanji_1_description">everyday Japanese characters</string>
+    <string name="firmware_kanji_1_description">常用の日本語の文字</string>
     <!-- EN: rarer Japanese characters -->
-    <string name="firmware_kanji_2_description">rarer Japanese characters</string>
+    <string name="firmware_kanji_2_description">まれに使う日本語の文字</string>
     <!-- EN: kana-to-kanji dictionary for Japanese text entry -->
-    <string name="firmware_dictionary_description">kana-to-kanji dictionary for Japanese text entry</string>
+    <string name="firmware_dictionary_description">日本語入力用のかな漢字変換辞書</string>
     <!-- EN: replaces the built-in text font -->
-    <string name="firmware_font_description">replaces the built-in text font</string>
+    <string name="firmware_font_description">内蔵の文字フォントを置き換えます</string>
     <!-- EN: Rhythm samples -->
-    <string name="rhythm_samples">Rhythm samples</string>
+    <string name="rhythm_samples">リズム音源</string>
     <!-- EN: Bass drum -->
-    <string name="rhythm_bass_drum">Bass drum</string>
+    <string name="rhythm_bass_drum">バスドラム</string>
     <!-- EN: Snare drum -->
-    <string name="rhythm_snare_drum">Snare drum</string>
+    <string name="rhythm_snare_drum">スネアドラム</string>
     <!-- EN: Top cymbal -->
-    <string name="rhythm_top_cymbal">Top cymbal</string>
+    <string name="rhythm_top_cymbal">トップシンバル</string>
     <!-- EN: Hi-hat -->
-    <string name="rhythm_hi_hat">Hi-hat</string>
+    <string name="rhythm_hi_hat">ハイハット</string>
     <!-- EN: Tom -->
-    <string name="rhythm_tom">Tom</string>
+    <string name="rhythm_tom">タム</string>
     <!-- EN: Rim shot -->
-    <string name="rhythm_rim_shot">Rim shot</string>
+    <string name="rhythm_rim_shot">リムショット</string>
     <!-- EN: a drum sound for sound board II\'s music -->
-    <string name="rhythm_description">a drum sound for sound board II\'s music</string>
+    <string name="rhythm_description">サウンドボード II の音楽用ドラム音</string>
     <!-- EN: The second disk this game needs is not in the library -->
-    <string name="second_disk_missing">The second disk this game needs is not in the library</string>
+    <string name="second_disk_missing">このゲームに必要な2枚目のディスクがライブラリにありません</string>
     <!-- EN: the emulator could not read or write the state -->
-    <string name="state_error_io">the emulator could not read or write the state</string>
+    <string name="state_error_io">エミュレーターがステートを読み書きできませんでした</string>
     <!-- %1$d is the emulator's error code. -->
     <!-- EN: code %1$d -->
-    <string name="state_error_code">code %1$d</string>
+    <string name="state_error_code">コード %1$d</string>
     <!-- EN: BASIC mode -->
-    <string name="option_basic">BASIC mode</string>
+    <string name="option_basic">BASIC モード</string>
     <!-- EN: CPU clock -->
-    <string name="option_clock">CPU clock</string>
+    <string name="option_clock">CPU クロック</string>
     <!-- %1$s is a clock speed, such as 8. -->
     <!-- EN: %1$s MHz -->
     <string name="clock_mhz">%1$s MHz</string>
     <!-- EN: Sound -->
-    <string name="option_sound">Sound</string>
+    <string name="option_sound">サウンド</string>
     <!-- EN: Sound board -->
-    <string name="sound_board">Sound board</string>
+    <string name="sound_board">サウンドボード</string>
     <!-- EN: Sound board II -->
-    <string name="sound_board_ii">Sound board II</string>
+    <string name="sound_board_ii">サウンドボード II</string>
     <!-- EN: Port -->
-    <string name="option_port">Port</string>
+    <string name="option_port">ポート</string>
     <!-- EN: Disk CPU sync -->
-    <string name="option_disk_cpu_sync">Disk CPU sync</string>
+    <string name="option_disk_cpu_sync">ディスク CPU 同期</string>
     <!-- EN: During disk access -->
-    <string name="disk_cpu_sync_disk">During disk access</string>
+    <string name="disk_cpu_sync_disk">ディスクアクセス中</string>
     <!-- EN: Always -->
-    <string name="disk_cpu_sync_always">Always</string>
+    <string name="disk_cpu_sync_always">常時</string>
 </resources>
