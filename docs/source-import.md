@@ -18,7 +18,7 @@ Two PC-8801 cores are pinned while they are compared on Android devices. The one
 | Driver | `src/mame/nec/pc8801.cpp` |
 | Imported | 2026-10-21 |
 
-[`tools/import_mame.py`](../tools/import_mame.py) chose the files from the extracted archive:
+[`shared/tools/import_mame.py`](../shared/tools/import_mame.py), with what is Kairo88's own in [`tools/mame_import.py`](../tools/mame_import.py), chose the files from the extracted archive:
 
 1. MAME's own `scripts/build/makedep.py sourcesproject` (the logic behind `make SOURCES=...`) lists the driver's sources and the CPU, sound, machine, video, bus and format options it uses.
 2. Those options are resolved to files through MAME's `scripts/src/*.lua` file lists, and the always-present shared floppy format code is added.
@@ -27,7 +27,7 @@ Two PC-8801 cores are pinned while they are compared on Android devices. The one
 5. Every 3rdparty library that a selected file includes, plus the libraries the core always links (expat, zlib, lzma, zstd, utf8proc, flac, softfloat3, rapidjson, asio), is copied whole so its license files stay with it.
 6. MAME's `COPYING`, `README.md` and `docs/legal/` are copied.
 
-The import produced 6,127 files. `third_party/mame/KAIRO_IMPORT.txt` records the driver, the 3rdparty libraries, and the full `makedep.py` output. To repeat the import, run `tools/import_mame.py <extracted-mame-root> <new-destination> src/mame/nec/pc8801.cpp` and compare with the committed tree.
+The import produced 6,146 files, without the nested Git metadata (`.gitignore`, `.gitattributes`, `.gitmodules`, `.github/`): the first import (2026-10-21) and 60 more since the shared importer (2026-10-28), which adds the devices MAME's device scripts always build and resolves option references made through Lua locals. `third_party/mame/KAIRO_IMPORT.txt` records the driver, the 3rdparty libraries, and the full `makedep.py` output. To repeat the import, run `shared/tools/import_mame.py . <extracted-mame-root> <new-destination>` and compare with the committed tree.
 
 After copying, nested Git metadata (`.gitignore`, `.gitattributes`, `.gitmodules`, `.github/`) was removed so that every copied file is tracked. One symbolic link in zstd's CLI tests (`tests/cli-tests/bin/unzstd`) could not be created on Windows and is absent.
 
