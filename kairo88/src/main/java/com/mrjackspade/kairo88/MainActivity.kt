@@ -120,4 +120,21 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         awaitRunning()
         mediaStarted(listOf(entry, second))
     }
+
+    // N88-BASIC's prompt: with drive 1 empty the machine boots ROM BASIC (k88_boot), and the game's
+    // disks go in once it runs; a tape waits in the deck until it is loaded.
+    override val commandLine = true
+
+    override fun startAtPrompt(entry: DiskImageEntry, game: CatalogGame, cancelled: AtomicBoolean,
+                               progress: (String) -> Unit) {
+        requireFirmware(listOf(firmwareSets.first().second))
+        val home = File(filesDir, "quasi88").apply { mkdirs() }
+        val tape = entry.takeIf(::isTape)?.let { disks.prepare(it, cancelled, progress).absolutePath }
+        check(Pc88Native.machine.start(firmwareDir.absolutePath, home.absolutePath, listOf(null, null, tape),
+            Pc88Native.settings(optionValues(game)))) { "Another machine is still running" }
+        awaitRunning()
+        if (isTape(entry)) mediaStarted(listOf(null, null, entry))
+        else insertMedia(listOf(entry, companionFor(game.mediaId("floppyB"), entry, launchEntries,
+            UiText.res(FrontendR.string.kairo_second_disk_missing), ::isDisk)), cancelled, progress)
+    }
 }
