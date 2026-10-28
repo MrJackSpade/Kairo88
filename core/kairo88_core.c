@@ -17,6 +17,7 @@
 #include "memory.h"
 #include "keyboard.h"
 #include "drive.h"
+#include "fdc.h"
 #include "fname.h"
 #include "crtcdmac.h"
 #include "screen.h"
@@ -146,6 +147,13 @@ int k88_tape_running(void)
 	long position, end;
 	/* OUT 30h bit 3 is the cassette motor relay; at the tape's end QUASI88 reports position 0 of 0. */
 	return tape_path[0] && (sys_ctrl & 0x08) && sio_tape_pos(&position, &end) && end > 0;
+}
+
+int k88_disk_busy(void)
+{
+	int active = kairo88_fdc_active;
+	kairo88_fdc_active = 0;
+	return active;
 }
 
 int k88_tape_position(long *read, long *size)

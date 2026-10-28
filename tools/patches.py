@@ -671,4 +671,20 @@ extern int use_interlace;					/* インターレース表示 */
 extern int use_half_interp;					/* 画面サイズ半分時、色補間する */
 '''),
     ],
+    # The floppy controller marks when the sub-CPU moves a byte through its data register (a command,
+    # its result or a sector's data; an idle sub-CPU only reads the status), which k88_disk_busy reads
+    # and clears once a frame: the app runs a disk load flat out (Kairo#82).
+    'kairo88-fdc-activity': [
+        ('quasi88/src/pc88/fdc.h',
+         'int  fdc_ctrl(int interval);\n',
+         '/* Kairo88: the data register was used since k88_disk_busy last read it */\n'
+         'extern int kairo88_fdc_active;\n'
+         'int  fdc_ctrl(int interval);\n'),
+        ('quasi88/src/pc88/fdc.c',
+         'void fdc_write(byte data)\n{\n',
+         'int kairo88_fdc_active;\n\nvoid fdc_write(byte data)\n{\n\tkairo88_fdc_active = 1;\n'),
+        ('quasi88/src/pc88/fdc.c',
+         'byte fdc_read(void)\n{\n',
+         'byte fdc_read(void)\n{\n\tkairo88_fdc_active = 1;\n'),
+    ],
 }

@@ -5,6 +5,8 @@
  *   and after the last one, and all audio to <out-prefix>.wav. Everything after
  *   "--" is passed to QUASI88, e.g.
  *   boot_test 600 120 out/game -- -romdir bios game.d88
+ *   It reports how many frames the floppy controller was busy (k88_disk_busy), which the app runs
+ *   flat out.
  */
 
 #include <stdio.h>
@@ -108,7 +110,12 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 	wav_header(wav, 0, k88_audio_rate());
+	int busy = 0, last_busy = 0;
 	for (int frame = 1; frame <= frames; frame++) {
+		if (k88_disk_busy()) {
+			busy++;
+			last_busy = frame;
+		}
 		if (k88_run_frame() != 0) {
 			fprintf(stderr, "QUASI88 quit at frame %d\n", frame);
 			return 1;
@@ -126,5 +133,6 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 	printf("%s (%u frames)\n", wav_path, wav_frames);
+	printf("disk busy in %d of %d frames, the last at frame %d\n", busy, frames, last_busy);
 	return 0;
 }

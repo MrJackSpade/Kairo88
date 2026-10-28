@@ -76,7 +76,8 @@ public:
 
     // While the tape is read, the frame host runs the machine as fast as it can: a cassette loads in
     // minutes at its real speed. (It does so while a startup command goes in, too.)
-    bool booting() override { return k88_tape_running() != 0; }
+    // Flat out while the tape runs or a disk loads (Kairo#82).
+    bool loading() override { return k88_tape_running() != 0 || k88_disk_busy() != 0; }
 
     // The startup commands go in at BASIC's prompts (kairo88_typing.h).
     kairo::Prompt prompt() override { return typing_.prompt(); }

@@ -13,6 +13,8 @@ extern int fdc_ignore_readonly;			/* 読込専用時、ライトを無視する 
 
 
 
+/* Kairo88: the data register was used since k88_disk_busy last read it */
+extern int kairo88_fdc_active;
 int  fdc_ctrl(int interval);
 
 void fdc_write(byte data);

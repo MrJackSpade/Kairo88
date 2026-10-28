@@ -1064,8 +1064,11 @@ static void fdc_init(void)
  *      byte    fdc_status( void )      ……… IN  A,(0FAH)
  *      void    fdc_TC( void )          ……… IN  A,(0F8H)
  ************************************************************************/
+int kairo88_fdc_active;
+
 void fdc_write(byte data)
 {
+	kairo88_fdc_active = 1;
 	if ((fdc.status & DATA_IO) == 0) {
 		fdc.status &= ~REQ_MASTER;
 		fdc.write   = data;
@@ -1074,6 +1077,7 @@ void fdc_write(byte data)
 
 byte fdc_read(void)
 {
+	kairo88_fdc_active = 1;
 	if ((fdc.status & DATA_IO)) {
 		fdc.status &= ~REQ_MASTER;
 		return fdc.read;
