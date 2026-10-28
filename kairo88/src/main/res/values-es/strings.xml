@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Spanish (es): the translation of values/strings.xml. Each EN comment is the English a string translates; update it with the translation. Check with shared/tools/translations.py check. -->
+<resources>
+    <!-- %1$s is the app's name, Kairo88; %2$s and %3$s the emulators it runs; %4$s its GitHub repository. -->
+    <!-- EN: %1$s uses %2$s and %3$s. Source and provenance: github.com/%4$s. -->
+    <string name="credits">%1$s uses %2$s and %3$s. Source and provenance: github.com/%4$s.</string>
+    <!-- EN: Choose a games folder to find disk images and the ZIP and 7z archives holding them -->
+    <string name="library_empty">Choose a games folder to find disk images and the ZIP and 7z archives holding them</string>
+    <!-- EN: Folder access expired. Select the games folder again. -->
+    <string name="library_expired">Folder access expired. Select the games folder again.</string>
+    <!-- EN: Choose a games folder -->
+    <string name="folder_title">Choose a games folder</string>
+    <!-- %1$s is the machine's name, PC-88; %2$s the app's name, Kairo88. -->
+    <!-- EN: Select the folder containing your %1$s games. %2$s will scan its disk images and the ZIP and 7z archives holding them. -->
+    <string name="folder_description">Select the folder containing your %1$s games. %2$s will scan its disk images and the ZIP and 7z archives holding them.</string>
+    <!-- EN: Choose games folder… -->
+    <string name="folder_button">Choose games folder…</string>
+    <!-- EN: SAVE STATES -->
+    <string name="saves_group">SAVE STATES</string>
+    <!-- EN: Uses the joystick port, with a joystick in it: the game\'s Port setting. -->
+    <string name="joystick_help">Uses the joystick port, with a joystick in it: the game\'s Port setting.</string>
+    <!-- EN: Trigger 1 -->
+    <string name="joystick_trigger_1">Trigger 1</string>
+    <!-- EN: Trigger 2 -->
+    <string name="joystick_trigger_2">Trigger 2</string>
+    <!-- EN: Symbols -->
+    <string name="keyboard_symbols">Symbols</string>
+    <!-- EN: Floppy disk -->
+    <string name="floppy_disk">Floppy disk</string>
+    <!-- EN: Cassette tape -->
+    <string name="cassette_tape">Cassette tape</string>
+    <!-- EN: Drive 1 -->
+    <string name="drive_1">Drive 1</string>
+    <!-- EN: Drive 2 -->
+    <string name="drive_2">Drive 2</string>
+    <!-- EN: Cassette -->
+    <string name="cassette">Cassette</string>
+    <!-- EN: Startup commands -->
+    <string name="startup_commands">Startup commands</string>
+    <!-- EN: Lines to type, separated by ; -->
+    <string name="startup_commands_hint">Lines to type, separated by ;</string>
+    <!-- A firmware file's description: %1$s is its file name; %2$s what it does. -->
+    <!-- EN: %1$s · %2$s -->
+    <string name="firmware_part">%1$s · %2$s</string>
+    <!-- EN: N88 extension 0 -->
+    <string name="firmware_n88_extension_0">N88 extension 0</string>
+    <!-- EN: N88 extension 1 -->
+    <string name="firmware_n88_extension_1">N88 extension 1</string>
+    <!-- EN: N88 extension 2 -->
+    <string name="firmware_n88_extension_2">N88 extension 2</string>
+    <!-- EN: N88 extension 3 -->
+    <string name="firmware_n88_extension_3">N88 extension 3</string>
+    <!-- EN: Disk sub-system -->
+    <string name="firmware_disk">Disk sub-system</string>
+    <!-- EN: Kanji font 1 -->
+    <string name="firmware_kanji_1">Kanji font 1</string>
+    <!-- EN: Kanji font 2 -->
+    <string name="firmware_kanji_2">Kanji font 2</string>
+    <!-- EN: Dictionary -->
+    <string name="firmware_dictionary">Dictionary</string>
+    <!-- EN: Character font -->
+    <string name="firmware_font">Character font</string>
+    <!-- EN: the BIOS and BASIC that start the machine -->
+    <string name="firmware_n88_description">the BIOS and BASIC that start the machine</string>
+    <!-- EN: the first extended BASIC bank, needed to boot -->
+    <string name="firmware_n88_0_description">the first extended BASIC bank, needed to boot</string>
+    <!-- EN: an extended BASIC bank some games use -->
+    <string name="firmware_n88_extension_description">an extended BASIC bank some games use</string>
+    <!-- %1$s is the older machine's name, PC-8001. -->
+    <!-- EN: BASIC for the oldest %1$s style games -->
+    <string name="firmware_n80_description">BASIC for the oldest %1$s style games</string>
+    <!-- EN: runs the floppy drives -->
+    <string name="firmware_disk_description">runs the floppy drives</string>
+    <!-- EN: everyday Japanese characters -->
+    <string name="firmware_kanji_1_description">everyday Japanese characters</string>
+    <!-- EN: rarer Japanese characters -->
+    <string name="firmware_kanji_2_description">rarer Japanese characters</string>
+    <!-- EN: kana-to-kanji dictionary for Japanese text entry -->
+    <string name="firmware_dictionary_description">kana-to-kanji dictionary for Japanese text entry</string>
+    <!-- EN: replaces the built-in text font -->
+    <string name="firmware_font_description">replaces the built-in text font</string>
+    <!-- EN: Rhythm samples -->
+    <string name="rhythm_samples">Rhythm samples</string>
+    <!-- EN: Bass drum -->
+    <string name="rhythm_bass_drum">Bass drum</string>
+    <!-- EN: Snare drum -->
+    <string name="rhythm_snare_drum">Snare drum</string>
+    <!-- EN: Top cymbal -->
+    <string name="rhythm_top_cymbal">Top cymbal</string>
+    <!-- EN: Hi-hat -->
+    <string name="rhythm_hi_hat">Hi-hat</string>
+    <!-- EN: Tom -->
+    <string name="rhythm_tom">Tom</string>
+    <!-- EN: Rim shot -->
+    <string name="rhythm_rim_shot">Rim shot</string>
+    <!-- EN: a drum sound for sound board II\'s music -->
+    <string name="rhythm_description">a drum sound for sound board II\'s music</string>
+    <!-- EN: The second disk this game needs is not in the library -->
+    <string name="second_disk_missing">The second disk this game needs is not in the library</string>
+    <!-- EN: the emulator could not read or write the state -->
+    <string name="state_error_io">the emulator could not read or write the state</string>
+    <!-- %1$d is the emulator's error code. -->
+    <!-- EN: code %1$d -->
+    <string name="state_error_code">code %1$d</string>
+    <!-- EN: BASIC mode -->
+    <string name="option_basic">BASIC mode</string>
+    <!-- EN: CPU clock -->
+    <string name="option_clock">CPU clock</string>
+    <!-- %1$s is a clock speed, such as 8. -->
+    <!-- EN: %1$s MHz -->
+    <string name="clock_mhz">%1$s MHz</string>
+    <!-- EN: Sound -->
+    <string name="option_sound">Sound</string>
+    <!-- EN: Sound board -->
+    <string name="sound_board">Sound board</string>
+    <!-- EN: Sound board II -->
+    <string name="sound_board_ii">Sound board II</string>
+    <!-- EN: Port -->
+    <string name="option_port">Port</string>
+    <!-- EN: Disk CPU sync -->
+    <string name="option_disk_cpu_sync">Disk CPU sync</string>
+    <!-- EN: During disk access -->
+    <string name="disk_cpu_sync_disk">During disk access</string>
+    <!-- EN: Always -->
+    <string name="disk_cpu_sync_always">Always</string>
+</resources>
