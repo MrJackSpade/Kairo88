@@ -14,7 +14,7 @@ import com.mrjackspade.kairo.frontend.MachineFirstRun
 import com.mrjackspade.kairo.frontend.StartupCommands
 import com.mrjackspade.kairo.frontend.UiText
 import com.mrjackspade.kairo.frontend.R as FrontendR
-import com.mrjackspade.kairo.frontend.mediaFor
+import com.mrjackspade.kairo.frontend.companionFor
 
 import java.io.File
 import java.util.concurrent.atomic.AtomicBoolean
@@ -109,9 +109,8 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
             mediaStarted(listOf(null, null, entry))
             return
         }
-        val second = game.mediaId("floppyB")?.let { id ->
-            mediaFor(id, entry, libraryEntries) ?: error(getString(FrontendR.string.kairo_second_disk_missing))
-        }
+        val second = companionFor(game.mediaId("floppyB"), entry, launchEntries,
+            UiText.res(FrontendR.string.kairo_second_disk_missing), ::isDisk)
         val diskA = disks.prepare(entry, cancelled, progress)
         val diskB = second?.let { disks.prepare(it, cancelled, progress) }
         check(Pc88Native.machine.start(firmwareDir.absolutePath, home.absolutePath,
