@@ -1,185 +1,725 @@
 {
  "descriptions": {
-  "pc88:187771": "세 작가가 동화풍과 만화풍으로 그린 짧은 에로틱 그림 이야기 네 편을 모은 작품집으로, 그림은 모두 약 45장이다.",
-  "pc88:188579": "게임 요소가 없는 성인용 그림 모음집이다. Return 키로 에로틱한 일러스트 십여 장을 넘겨 보며, 일부에는 짧은 애니메이션이 있다. FairyTale이 롤리타와 여학생부터 오피스 레이디, 간호사, 스튜어디스까지 주제별로 다섯 권으로 출시했다.",
-  "pc88:188742": "관음 게임이다. 번호가 매겨진 창문을 골라 엿보는데, 어떤 창문은 젊은 여성이 옷을 벗는 그림으로 보상하고 어떤 창문은 들켜서 주인에게 꾸지람을 듣는다.",
-  "pc88:196865": "두 막으로 이루어진 성인용 액션 게임이다. 어두운 길에서 여자를 쫓아가 옷을 벗기고, 이어서 성관계 장면이 나온다. 지면 화면에 형법 제177조(강간)가 표시되고 감옥에 가며, 이기면 두 사람은 결혼한다. 1986년 국회에서 문제가 제기되어 판매가 중단되었다.",
-  "pc88:196869": "로리콘 작가 Aki Uchiyama가 그린 Sexy Voice 시리즈의 한 편이다. 어린 노리코는 매일 밤 섹스로이드에게 공격당하는 꿈을 꾸고, 그녀가 찾아간 정신과 의사도 그녀를 학대한다.",
-  "pc88:196870": "세 번째 미소녀 사진관이다. 지뢰, 함정, 무너지는 천장이 설치된 스튜디오에서 뷰파인더로 포즈를 취하는 모델을 촬영한다.",
-  "pc88:196872": "사진 게임이다. 누드 촬영마다 장소, 시간, 조명, 카메라를 올바르게 설정해야 하며, 그렇지 않으면 사진이 흐리게 나온다.",
-  "pc88:196875": "퀴즈가 있는 성인용 어드벤처이다. 악명 높은 불량 학교에 부임한 신임 교사 시라이시 가오리가 여학생 마나미를 불량배로부터 구하고, 두 사람은 가까워진다.",
-  "pc88:196886": "성인용 탐정 어드벤처이다. 사립 탐정이 13세 모델 미키가 감금되어 있다는 편지를 받는다.",
-  "pc88:196888": "에로틱한 어드벤처이다. 납치된 선생님 미나코를 찾아 시라하마 해변을 헤매던 학생 켄타가 만나는 여러 소녀, 인어, 그리고 마지막으로 미나코 본인과 성관계를 한다.",
-  "pc88:196890": "아름다운 마도카와의 성관계를 다룬 짧은 에로틱 게임으로, 애니메이션 성관계 장면으로 끝난다.",
-  "pc88:196902": "성인용 어드벤처이다. 꿈에서 본 이상형 사야카를 찾아 낯선 마을과 해변을 헤매며, 도중에 유혹하는 여자들을 뿌리쳐야 한다.",
-  "pc88:196910": "초기 채팅형 에로틱 게임 Emmy의 속편이다. 금발의 Emmy와 타자로 대화하면 프로그램이 입력한 말을 학습하고, 대화가 잘 풀리면 그녀가 자세를 바꾸고 점점 옷을 벗는다. PC-88판은 첫 작품보다 그림이 훨씬 선명하다.",
-  "pc88:196914": "성인용 어드벤처이다. 저택에 사는 요정 아홉 명을 말로 설득해 성관계를 가지며, 일반, 엿보기, 변태 모드가 있고 조각 그림 맞추기, 슬라이딩 퍼즐, 가위바위보 탈의 게임이 곁들여진다.",
-  "pc88:196915": "PSK의 롤리타 시리즈 마지막 작품이다. 상점가에서 오랫동안 로리콘에게 당해 온 여학생들이 반격에 나서며, 체력과 기술을 겨루는 롤플레잉 게임에서 기술로 그녀들을 사로잡아야 한다.",
-  "pc88:196917": "성인용 게임이다. 다섯 개의 방마다 소녀가 기다리고 있으며, 그녀의 소원을 들어주어 다음 방의 열쇠를 얻는다.",
-  "pc88:196921": "소녀 네 명을 상대로 하는 스트립 포커이다.",
-  "pc88:196927": "Loliventure no Shiro라는 이름으로 출시된 로리콘 어드벤처이다. 마을에서 정보를 모은 뒤, 지인의 어린 여동생이 붙잡혀 있는 함정투성이 성에 잠입한다.",
-  "pc88:196936": "미소녀 사진관, Kudokikata Oshiemasu, 그리고 와타나베 와타루의 신작에서 가져온 HARD의 성인용 그래픽을 디스크 세 장에 모은 작품이다.",
-  "pc88:196943": "가면을 쓴 연쇄 강간범 Pervert No. 29를 다룬 성인용 코미디 어드벤처이다. 천 명까지 여섯 명을 남긴 그의 다음 표적은 아이돌 교코이다.",
-  "pc88:196944": "에로틱한 단어 게임이다. 100개씩 담긴 세 목록에서 누구, 어디서, 무엇을 고르는 단어를 조합해 각 소녀에게 야한 말을 건네고, 알맞은 말이 그녀의 흥분 게이지를 채워 절정에 이르면 노골적인 그림이 나타난다.",
-  "pc88:196946": "도쿄 신주쿠 가부키초를 배경으로 한 성인용 어드벤처이다. 구속, 채찍, 촛불 방이 있는 회원 전용 S&M 클럽을 찾아낸다.",
-  "pc88:196949": "탈의 마작 게임이다. 사이보그 팔을 한 아소 스즈메가 비밀 결사 다이코쿠도와 마작으로 맞서며, 속임수를 쓸 수 있는 부품을 구입하고, 패배한 상대는 정밀하게 그려진 그림 속에서 옷을 벗는다. 자유 마작과 포키를 테마로 한 매치 쓰리 모드도 포함되어 있다.",
-  "pc88:196956": "네 부로 이루어진 성인용 어드벤처이다. 사라진 게이코를 쫓아 쇼난 해안으로 가면 끝에 사랑의 교습이 기다린다.",
-  "pc88:196957": "성인용 어드벤처이다. 드라큘라 백작이 되어 일본 여고생 유미에게 구애하며, 방해가 되는 교사와 학생들을 유혹한다.",
-  "pc88:196964": "PSK의 두 번째 롤리타 게임인 텍스트 어드벤처이다. 하교하는 여학생을 경찰의 눈을 피해 궁지에 몰아 폭행하는 내용으로, 당시 그 내용이 비판을 받았다.",
-  "pc88:196965": "PSK의 성인용 대화 게임이다. 첫 번째가 초등학교 6학년 여학생인 네 소녀의 호감도를 화제와 대답을 입력해 높여 가며, 그녀가 옷을 벗을 때까지 진행한다.",
-  "pc88:196966": "롤리타 어드벤처이다. 곳곳에 소녀들의 함정이 도사린 유럽의 성에서 롤리타 공주를 구출하며, 명령어를 입력해 진행하고 노골적인 장면이 있다.",
-  "pc88:196968": "L♥lita Hime no Densetsu에 이어지는 롤리타 그림책이다. 짧은 이야기와 어린 소녀들의 노골적인 그림이 담겨 있으며 스페이스 바로 넘긴다.",
-  "pc88:196969": "초기 에로틱 유혹 게임이다. 평범한 탈의 가위바위보 대신, 컴퓨터 속 여성의 심리 상태와 바이오리듬을 읽어 그녀를 침대로 유혹한다.",
-  "pc88:196971": "사진 소책자와 함께 판매된 성인용 게임이다. 세 가지 배경과 일곱 가지 포즈의 네 유형 소녀들의 성감대를 정해진 순서로, 각 부위에 맞는 도구로 찾아 자극하며, 소녀의 황홀감이 오르면 그녀가 힌트를 준다.",
-  "pc88:196973": "탈의 블랙잭 게임이다. 산타 의상을 입은 유키를 이기면 열한 라운드에 걸쳐 에로틱한 그림이 공개되고, 마지막 라운드를 클리어하면 그녀가 짧은 애니메이션으로 완전히 옷을 벗는다.",
-  "pc88:196974": "크로스워드 게임이다. 각 격자를 채우면 누드 사진이 드러나며, 퍼즐이 어려워질수록 사진이 더 노골적이 된다.",
-  "pc88:196996": "성인용 게임이다. 시간이 다하기 전에 올림픽 경기장으로 달려가 여자 체조 선수, 레슬러, 수영 선수를 구경한다.",
-  "pc88:197005": "일곱 개의 스토리 장으로 이루어진 탈의 마작 게임이다. 장마다 다섯 라운드에 걸쳐 일련의 상대를 이겨 소녀들의 옷을 벗기며, 승리로 얻은 경험이 패 바꾸기나 패산 쌓기 같은 속임수를 해금한다.",
-  "pc88:197011": "마리코를 상대로 하는 가위바위보이다. 이기면 그녀의 그림을 본다.",
-  "pc88:197012": "성인용 게임이다. 미카와 그녀의 남자 친구의 심야 통화에서 정답을 맞힐 때마다 그녀가 더 흥분한다.",
-  "pc88:197013": "에로틱한 어드벤처이다. 마시면 어떤 소녀든 시키는 대로 하게 된다는 소문의 주스를 조사해 손에 넣어, 사랑하는 소녀를 자신의 것으로 만든다.",
-  "pc88:197022": "Feirie's Residence의 후속작인 로리콘 어드벤처로, 도시 장과 학교 장으로 나뉜다. 주인공은 로리콘의 힘의 원천 Eros를 찾아 만나는 소녀들에게 퀴즈를 낸다.",
-  "pc88:197032": "엘프의 성인용 어드벤처이다. 한 소녀가 남자 친구를 찬 이유를 알아내라는 의뢰를 받은 류지가 예쁜 학생들과 음모를 꾸미는 교감이 있는 그녀의 여자 대학 기숙사에 잠입한다.",
-  "pc88:197036": "맥스 시리즈의 네 번째 성인용 어드벤처이다. 친구의 생일 선물이 세상에 대해 아무것도 모르고 어떤 명령이든 따르는 살아 있는 소녀로 밝혀지며, 결말은 여섯 가지이다.",
-  "pc88:197037": "모델 기타조노 레이나의 프로필, 일기, 메시지를 담은 디지털화된 사진집이다.",
-  "pc88:197054": "성인용 슈팅 게임이다. 거대 UFO가 전 세계의 소녀들을, 그중 친구 세 명을 납치하자, 여고생 우에하라 레이코가 미치광이 과학자인 할아버지의 전투기를 몰고 3,000광년을 날아 구하러 간다.",
-  "pc88:197056": "성인용 어드벤처이다. 이웃 여자 고등학교에 침입해 학생들을 폭행했다는 누명을 쓴 호시다가 진범을 잡아야 한다.",
-  "pc88:197058": "소녀의 은밀한 민감 부위를 찾는 Macadam 계열 게임인 에로틱 어드벤처 Seijo Densetsu의 속편이다. Remia에게서 되찾은 Gold Lady 보물이 가짜로 밝혀져 다시 범인을 쫓으며, 첫 작품의 명령어 입력은 없어졌다.",
-  "pc88:197064": "성인용 어드벤처이다. 여고 3학년생 마이가 여학교에서 할 수 있는 모든 경험을 해 보려고 나서며, 여성 간의 관계도 포함된다.",
-  "pc88:197065": "성인용 롤플레잉 게임이다. 여성들을 꾀어 소프랜드를 세우고 거대한 하렘을 만든다.",
-  "pc88:197066": "두 번째 Soapland Story인 성인용 도시 어드벤처로, 생명, 체력, 경험, 돈을 관리해야 한다.",
-  "pc88:197068": "성인용 어드벤처이다. 도미타 고타가 되어 전화 데이트 클럽을 통해 여고생과 유부녀를 만난다.",
-  "pc88:197070": "성인용 어드벤처이다. 선녀의 후손인 소녀들이 몸에 편지를 숨기고 있으며, 이를 풀면 선녀가 소환된다.",
-  "pc88:197072": "테니스부터 리듬 체조까지 스무 명의 운동하는 소녀들이 나오는 스포츠 퀴즈로, 정답을 맞히면 노골적인 포즈를 취한다.",
-  "pc88:197073": "테니스부터 리듬 체조까지 스무 명의 운동하는 소녀들이 나오는 스포츠 퀴즈로, 정답을 맞히면 노골적인 포즈를 취한다.",
-  "pc88:197074": "테니스부터 리듬 체조까지 스무 명의 운동하는 소녀들이 나오는 스포츠 퀴즈로, 정답을 맞히면 노골적인 포즈를 취한다.",
-  "pc88:197075": "교복 페티시를 위한 그림 모음집이다. 도쿄 여자 고등학교 교복을 입은 여고생들이 에로틱한 포즈로 차례로 등장한다. 동시에 출시된 여러 권 중 1권이다.",
-  "pc88:197076": "교복 페티시를 위한 그림 모음집이다. 도쿄 여자 고등학교 교복을 입은 여고생들이 에로틱한 포즈로 차례로 등장한다. 동시에 출시된 여러 권 중 2권이다.",
-  "pc88:197077": "교복 페티시를 위한 그림 모음집이다. 도쿄 여자 고등학교 교복을 입은 여고생들이 에로틱한 포즈로 차례로 등장한다. 동시에 출시된 여러 권 중 3권이다.",
-  "pc88:197082": "디지털 음성이 들어간 성인용 그림쇼로, 노골적인 그림 35장이 담겨 있다.",
-  "pc88:197083": "두 번째 아름다운 먹잇감들이다. 그림마다 버튼 하나로 넘기는 성인용 그림책으로, 배경이 더 정교하고 일부 판타지 장면이 있다.",
-  "pc88:197084": "세 번째 아름다운 먹잇감들이다. 오기노메 요코의 투나잇과 나카모리 아키나의 난파선 같은 팝 히트곡에 맞춘 성인용 그림이 나온다.",
-  "pc88:197085": "그레이트의 성인용 그림 디스크 시리즈 네 번째 권이다. 아사카 유이의 \"C-Girl\"과 하운드 독의 \"Ambitious\"를 FM으로 커버한 음악이 흐르는 가운데, 스페이스 바를 눌러 노출이 많은 포즈의 소녀들 핀업 사진을 넘겨 본다.",
-  "pc88:197086": "다섯 번째 아름다운 먹잇감들이다. 미나미노 요코와 구도 시즈카의 팝 히트곡에 맞춘 성인용 그림이 나온다.",
-  "pc88:197087": "그레이트의 에로틱 그림 시리즈 여섯 번째 권이다. 귀여운 소녀들이 부끄럽고 노출이 많은 포즈로 포토북처럼 하나씩 등장하며, 아이돌 히트곡이 배경음악으로 흐른다.",
-  "pc88:197089": "성인용 코미디 어드벤처이다. 주인공의 여자 친구가 변태에게 납치되었는데, 그는 요코하마 엑스포의 호스티스들이 갓 입은 팬티 열 장을 요구한다.",
-  "pc88:197090": "성인용 어드벤처이다. 열일곱 번째 생일을 맞은 부유한 청년 마코토가 신붓감 후보로 뽑힌 여고생 세 명의 마음을 얻으라는 말을 듣고, 기이한 사건에 휘말린다.",
-  "pc88:197093": "성관계 장면이 있는 최초의 일본 공포 게임인 공포 어드벤처이다. 한 소녀가 동굴 사원에서 빗을 가져온 뒤 친구들이 하나씩 죽으며, 좀비 사무라이가 소녀를 공격하는 등 잔혹한 장면이 있다.",
-  "pc88:202378": "애니메이션풍 여성 딜러와 겨루는 탈의 블랙잭이다. 여섯 레벨 각각에서 목표 점수에 도달하면 클리어되고, 그때마다 그녀가 옷을 한 겹씩 벗어 마지막에는 누드 그림이 나온다.",
-  "pc88:207462": "성인용 어드벤처이다. 한 여성이 쇼군 성의 안채에 들어가 주군의 총애를 얻어 그의 아이를 낳으려 애쓴다.",
-  "pc88:207467": "승려 Dōkyō와 황후를 다룬 외설 어드벤처이다. 황후가 좋아하는 체위와 성감대를 맞혀 그녀의 신경증을 치료하며, 도중에 역사 퀴즈가 나온다.",
-  "pc88:207505": "소녀 네 명과 하는 세븐스 카드 게임이다. 1등이나 2등으로 끝내면 꼴찌 소녀가 옷을 한 겹 벗는다.",
-  "pc88:207529": "로리콘 작가 Aki Uchiyama가 그린 Sexy Voice 시리즈의 한 편이다. 타락천사 Kyouko는 어린 소녀들을 고민에서 해방시키기 위해 존재한다.",
-  "pc88:207532": "성인용 탐정 어드벤처이다. 부유한 상속자가 탐정에게 500만 엔을 주고 자신의 약혼자인 회사원 히토미 준코와 자 달라고 의뢰하며, 이유는 그 뒤에야 말해 주겠다고 한다.",
-  "pc88:207534": "엘프의 성인용 액션 게임이다. 관음증 환자가 되어 경비원에게 들키지 않고 몰래 다니며 곤란한 순간의 소녀들을 촬영한다.",
-  "pc88:207535": "경비원에게 들키지 않고 몰래 다니며 곤란한 순간의 소녀들을 촬영하는 관음 액션 게임 엘프의 Doki Doki Shutter Chance용 데이터 디스크로, 여고생, 간호사, 버스 안내양 같은 새로운 표적 세트가 추가된다.",
-  "pc88:207548": "로리콘 작가 Aki Uchiyama가 그린 성인용 게임이다. 어린 소녀들이 납치되었고, 공격을 피하면서 패널을 열어 그녀들을 구출한다.",
-  "pc88:207562": "세 번째 Kyapi Kyapi Run 게임이다. 열두 명의 캐디와 하는 골프로, 각 캐디마다 아홉 홀이 있으며, 그녀의 목표 점수를 이기면 그녀가 옷을 벗는다.",
-  "pc88:207567": "지난 대회에서 우승한 주인공이 납치된 치어리더 교코를 구하기 위해 마을 마작 가게에서 일하는 소녀들을 이겨야 한다. 이길 때마다 그 소녀와의 에로틱한 장면이 보상으로 주어지고, 딴 돈으로 패 조작 아이템을 산다. 4인 모드에서는 일곱 소녀 중 세 명과 맞붙는다.",
-  "pc88:207568": "영상에서 디지털화한 성인 비디오 배우 가와이 사토미와 하는 포커로, 이기면 그녀의 누드를 본다.",
-  "pc88:207571": "미로 액션 게임이다. 경비원을 기절시켜 열쇠를 빼앗고 미로 속에서 누드 여성을 쫓으며, 붙잡으면 노골적인 그림이 나온다.",
-  "pc88:207583": "에로틱한 포즈의 소녀들을 음악과 함께 보여 주는 그림쇼이며 게임이 아니다.",
-  "pc88:207587": "다섯 개 분야의 퀴즈 게임으로, 정답을 맞힐 때마다 에로틱한 그림이 서서히 드러난다.",
-  "pc88:207588": "성인용 어드벤처이다. 수줍음 많은 여자 친구를 호텔로 데려가 유혹하며, 프로그램을 제외하면 전부 여성들이 만들었다.",
-  "pc88:207620": "사실상 교토를 배경으로 한 탈의 게임이다. 퀴즈 문제에 답해 여성들을 만나고, 정답을 맞힐 때마다 그림이 더 벗은 에로틱한 장면으로 넘어간다.",
-  "pc88:207718": "Toh Moriyama의 캐릭터가 나오는 성인용 SF 롤플레잉 게임이다. 쾌락의 노예로 만들려는 적들에게서 달아나며, 성적 기교 대결로 그들과 싸운다.",
-  "pc88:207897": "성인용 어드벤처이다. 여자 대학 기숙사에 몰래 들어가 속옷을 훔치며 개와 관리인을 피해야 하고, 어딘가에 숨겨진 수면제를 쓰면 들키지 않고 무엇이든 할 수 있다.",
-  "pc88:207921": "성인용 어드벤처이다. 과장이 되어 12시부터 1시 10분까지의 점심시간에 스물세 살의 동료와 사내 불륜을 즐긴다.",
-  "pc88:207922": "성인용 어드벤처이다. 빚을 갚고 있는 온천 게이샤 하쓰에가 되어 베테랑 단페이와 성적 기교를 겨룬다.",
-  "pc88:207927": "로리콘 성인용 게임이다. 옆집에 직장인, 연상의 여성, 어린 소녀 이렇게 세 여성이 이사 왔으며, 소녀의 아버지가 돌아오기 전에 고장 난 문과 괴짜들이 가득한 건물에서 그녀들의 방을 찾아야 한다.",
-  "pc88:424147": "성인용 어드벤처이다. 여학생 가나코가 여자 친구의 마음을 얻으려 나선다. 대부분의 장면은 보기와 말하기로 진행되며, 선택적인 장면과 경로 몇 개가 이야기에서 갈라진다.",
-  "pc88:456667": "에로틱한 예/아니오 상식 퀴즈이다. 제한 시간 안에 정답을 맞힐 때마다 와타나베 와타루의 섹시한 소녀 중 한 명의 에로틱한 그림을 가린 패널이 더 많이 벗겨진다.",
-  "pc88:457796": "미로에 숨은 열쇠를 찾아 문을 열면 노골적인 디지털 영상 그림이 나온다.",
-  "pc88:461887": "PSK의 첫 번째 롤리타 게임이다. 어린 소녀와 하는 탈의 가위바위보로, 소녀는 옷을 벗으며 얼굴을 붉히고, 너무 빨리 벗기면 경찰에 체포된다.",
-  "pc88:462417": "학교를 배경으로 한 성인용 어드벤처이다. 사치는 500엔 동전을 좋아하고, 주인공은 레즈비언 커플을 포함한 여학생들 사이에서 희귀한 동전을 찾아다닌다.",
-  "pc88:local-014f982311": "하나의 거대한 도시를 지키는 동인 미사일 커맨드 변형작으로, 큰 커서와 화면을 쓸어 버리는 하이퍼 폭탄을 최대 세 개까지 쓴다. 레벨을 클리어할 때마다 화면 속 여성이 옷을 더 벗는다.",
-  "pc88:local-01ea13635f": "ESP 카드 같은 기호가 잠깐 번쩍이면 기억해 내야 하는 카드 기억 게임으로, 스테이지마다 카드가 늘어난다. 보상은 디지털화된 여성들의 그림이며, 두 버전 중 한쪽이 더 야하다.",
-  "pc88:local-060ccd66ef": "리버스 오델로 게임 Rinse의 KOB Soft 속편이다. 스테이지를 클리어하면 세일러문 여주인공들을 패러디한 에로틱한 그림이 열린다.",
-  "pc88:local-09c5dd8711": "Mature의 속편으로, 이번에도 블록을 밀어 길 잃은 젊은 여성을 문으로 이끈다. 다섯 번째 레벨마다 누드 그림이 나온다.",
-  "pc88:local-0cf00e1ddd": "패널 퀴즈 어택 25 스타일의 1988년 핀업 퀴즈이다. 정답을 맞히면 패널이 뒤집혀 그 뒤에 숨은 40명 소녀의 야한 그림이 드러난다.",
-  "pc88:local-112861eb52": "에로틱한 그림이 들어간 퀴즈 게임으로, 주인공이 궁정을 퀴즈로 돌파해 공주를 차지한다.",
-  "pc88:local-11b5f6ebab": "SIVA 집단과 초청 서클이 만든 탈의 퀴즈 게임이다. 소녀마다 담당 작가와 문제 분야가 따로 있다.",
-  "pc88:local-1240ead271": "블랙잭 비슷한 카드 게임으로, 이기면 여성들이 옷을 벗어 각자의 전신 그림이 드러나며, 여성마다 세 번의 기회가 있다.",
-  "pc88:local-1311ce2393": "주인공이 유령이 되어 몸에서 빠져나와 소녀들과 성관계를 하는 Burning Apple의 에로틱 속편으로, 첫 작품보다 노골적이며 액션 어드벤처 요소가 있다.",
-  "pc88:local-14004dcb7f": "폼폼을 찾는 던전 탐험 RPG로, 모든 적이 젊은 여성이며 패배하면 죽는 대신 옷을 벗는다.",
-  "pc88:local-164b4123dd": "Elein Soft의 디스크용 첫 에로틱 어드벤처(1987년)이다. 에로틱 만화가 Miki Kawada가 되어 소재를 찾아다니며 소녀들을 꾀어 성관계를 한다.",
-  "pc88:local-187ec06f9c": "고등학교 1학년 소녀가 공원에서 옛 급우를 만나는 에로틱한 어드벤처이다.",
-  "pc88:local-1b30983a09": "성관계 장면이 있는 어드벤처이다. 주인공이 주운 지갑을 돌려주고, 올바른 길을 고르면 1, 2, 3을 정확한 순서로 눌러 진행하는 성관계 장면으로 이어진다.",
-  "pc88:local-1cc03f0f93": "각 조각이 자기 행과 열의 다른 조각들과 색과 무늬가 달라야 하는 배치 퍼즐로, 스테이지를 클리어할수록 한 여성의 그림이 서서히 드러난다.",
-  "pc88:local-20b0d31cfe": "디스크 세 장짜리 에로틱 던전 RPG로, 적이 소녀들이며 붙잡은 공주를 집으로 데려가 성관계 장면을 볼 수 있다.",
-  "pc88:local-2433618eee": "성인용 연애 게임이다. 네 여성 중 한 명을 골라 대화로 마음을 얻는다.",
-  "pc88:local-2be6088c6c": "45도로 튕기는 알카노이드 스타일의 블록 깨기 게임으로, 화면을 클리어하면 에로틱한 배경 그림에 색이 입혀진다.",
-  "pc88:local-2fae9ca69f": "Sixteens의 두 번째 Sadistic Gamers 퀴즈(1990년)이다. 성적이 부진한 학생이 선생님과 보충 수업을 받다가 충분한 문제를 맞히면 성관계로 이어진다.",
-  "pc88:local-32b6fa36c7": "하트가 스스로 걷는 젊은 여성을 출구로 이끄는 블록 밀기 퍼즐이다. 다섯 번째 레벨마다 그녀가 옷을 벗는 컷신이 나온다.",
-  "pc88:local-32c2ca5469": "Onion Software의 1986년 울티마 스타일 패러디 RPG로 에로틱한 내용이 있다. 던전에 갇힌 공주를 구출하며, 다른 서클의 개그 카메오가 나오고 난이도가 매우 높다.",
-  "pc88:local-345c11bee4": "파트너 유카리와 함께 세 번째 소녀를 상대하는 3인 탈의 가위바위보이다. 혼자 진 사람이 옷을 한 겹 벗는다.",
-  "pc88:local-382fc5f0bc": "체육 수업 후 샤워 중인 여학생을 오빠가 우연히 마주치게 되는 에로틱 어드벤처이다. 그림은 Fozon이 그렸다.",
-  "pc88:local-38c80bbbe1": "물리친 몬스터가 파티에 합류할 수 있는 위저드리 스타일 던전 RPG이다. 별도 판매되는 옵션 디스크를 쓰면 소녀 몬스터들과의 성관계 장면이 추가된다.",
-  "pc88:local-3f88451dc9": "스테이지를 클리어할 때마다 에로틱한 일러스트를 보상으로 주는 세로 스크롤 슈팅 게임으로, Scatter Brain의 성인용 슈팅 시리즈에서 Crinex에 이은 세 번째 작품이다.",
-  "pc88:local-47c885c13b": "마키무라 다다시가 자신의 만화 Micom Love에 나온 것을 바탕으로 만든 Tsukumo의 탈의 야구권 게임이다. 이길 때마다 소녀가 옷을 한 겹 더 벗는다.",
-  "pc88:local-4c63068657": "챔피언 소프트의 성인용 학원 테마 Fairie's Residence Special 외전으로, 부제는 Sailor-fuku to Hitobanjuu이며 관련 만화와 함께 판매되었다.",
-  "pc88:local-5180cd9c16": "디스크 두 장짜리 포커 게임으로, 주인공이 도박 조직을 등에 업은 소녀들과 맞붙는다. 좋은 패로 이기면 상대 소녀들의 에로틱한 그림으로 이어진다.",
-  "pc88:local-53d423428c": "공격 카드로 에로틱한 그림을 드러내는 RPG 풍 카드 게임으로, X68000 같은 다른 기종에서 나온 서클 작품들의 그림을 재사용한다.",
-  "pc88:local-5487435e63": "성인 만화가 Senno Knife의 에로틱한 일러스트 약 열여섯 장을 디스크 두 장에 담은 CG 모음집으로, 마녀 소녀들의 저택에 사는 해골 집주인이 소개한다.",
-  "pc88:local-563034addc": "에로틱 탐정 어드벤처 립스틱 어드벤처 2의 다이제스트판을 포함한 Fairytale 성인 게임들의 1991년 TAKERU 전용 다이제스트 모음집이다.",
-  "pc88:local-58e0335cc1": "고유의 7무늬 카드 덱을 쓰는 디스크 두 장짜리 탈의 포커 게임이다. 상대는 10점마다 옷을 벗으며, 탈의 카드 게임의 초기 사례이다.",
-  "pc88:local-58f4c3a2ea": "에로틱한 단어 맞추기 어드벤처이다. 빈칸을 올바르게 채우면 학교 체육관 창고에서 열다섯 살 여학생 가토 아스카를 유혹하게 되고, 그녀의 에로틱한 애니메이션 장면이 열린다.",
-  "pc88:local-59ad2c7d71": "DB-Soft의 오늘 밤도 아침까지 파워풀 마작을 패러디한 탈의 가위바위보이다. 이길 때마다 세 소녀(와 숨겨진 소녀들) 중 하나가 옷을 벗는다.",
-  "pc88:local-59f5a88433": "챔피언 소프트의 성인용 Fairie's Residence Special 외전 네 편 중 첫 번째로, 부제는 Mariko no Ikenai Daitokkun이며 관련 만화와 함께 판매되었다.",
-  "pc88:local-606b58458f": "성인용 게임이다. Kazuki Kuremoto가 되어 알맞은 대답을 골라 말만으로 소녀들을 절정에 이르게 하며, 틀리면 게임이 끝날 때까지 우유를 마신다.",
-  "pc88:local-61f5bf743e": "바니걸 여덟 명이 나오는 애니메이션 크로스워드 게임으로, 어려운 퍼즐을 풀면 그녀들이 옷을 벗는다.",
-  "pc88:local-650148c957": "마스터마인드 스타일의 코드 맞추기 게임으로, 코드를 풀면 소녀가 옷을 벗는다.",
-  "pc88:local-682f623b30": "여학교의 로리콘 교사가 다른 학생들의 접근을 피하면서 여학생 구미코와 성관계를 가지려 꾀하는 에로틱 어드벤처이다.",
-  "pc88:local-69f28649e9": "Iron Gear의 X68000/MSX2 게임에서 이식한 탈의 블랙잭이다. 매우 강한 딜러를 이기면 세로로 긴 스크롤 에로틱 그림이 드러난다.",
-  "pc88:local-6a9348e87e": "챔피언 소프트의 성인용 연예계 테마 Fairie's Residence Special로, 쌍륙 스타일 보드 게임이며 부제는 Super Mariko Sisters이고 관련 만화와 함께 판매되었다.",
-  "pc88:local-6b731819f9": "라운드를 클리어할 때마다 소녀가 옷을 벗는 패널 밀기 퍼즐 게임이다.",
-  "pc88:local-74a234ab16": "Marionet의 에로틱 Take Out 어드벤처 시리즈 여섯 번째 권이다. 소년이 세일러복 카페를 찾아 가슴이 큰 웨이트리스에게 매우 친밀한 서비스를 받는다.",
-  "pc88:local-7a3b474127": "동인 성인용 어드벤처이다. 도중에 수많은 만남을 거치며 여주인공 Milady를 차지한다.",
-  "pc88:local-7a9eddf314": "Kankyouken의 Aya-chan 어드벤처 중 첫 번째 작품이다. 야한 장면과 S&M 장면이 있지만 본격적인 에로틱 게임은 아니다.",
-  "pc88:local-81109b62c9": "새로운 소녀들의 옷을 벗기는 Medal Jack의 탈의 블랙잭 속편으로, 원작 디스크가 필요하다.",
-  "pc88:local-837968b3a6": "탈의 카드 게임이다. 포커와 블랙잭으로 돈을 따서 소녀들의 옷을 벗기고, 이어서 아이템을 모아 RPG풍 보스전을 치른다. 정교한 속옷 그림으로 유명하다.",
-  "pc88:local-84ec0ef9d2": "조각 그림 맞추기, 짝 맞추기 패널, 퀴즈, 크로스워드, 별자리 운세 다섯 게임이 있으며, 각각 열두 살에서 스물한 살의 소녀가 나와 클리어하면 그녀의 섹시한 그림을 볼 수 있다.",
-  "pc88:local-8787c3adae": "가나미의 일요일이 대부분 레즈비언인 친구들 또는 남자들과의 장면으로 이어지는 에로틱한 짧은 어드벤처이다. 모든 그림을 보려면 다시 플레이한다.",
-  "pc88:local-8ce9cb4b55": "에로틱한 퍼즐 게임이다. 사악한 토끼가 되어 울타리로 길 잃은 소녀를 자기 집으로 몰아넣으며, 예상되는 에로틱한 보상을 얻는다.",
-  "pc88:local-8d1389fca7": "도둑잡기와 마작을 섞은 카드 게임으로, 좋은 패로 이기면 소녀들이 옷을 벗는다.",
-  "pc88:local-8d379d1bed": "완성해야 할 에로틱한 그림이 있는 타일 교환 퍼즐이다. 움직일 때마다 타일이 뒤집히고 스테이지가 갈수록 조각이 늘어난다.",
-  "pc88:local-8e45f5b649": "탈의 블랙잭 게임이다. 슈퍼 리얼 마작 P3에서 빌려 온 아이디어로, 파란 머리 자매를 이기면 애니메이션 풀 컬러 장면에서 그녀들이 옷을 벗는다.",
-  "pc88:local-8f8ebcaa81": "납치된 반 친구를 구하는 매우 노골적인 에로틱 어드벤처로, ONION soft, Fairytale 등 다른 제작사의 그림을 가져와 일부를 구성했다.",
-  "pc88:local-8fdf969fac": "에로틱한 단어 맞추기 어드벤처이다. 루이와 기요미가 고등학교 친구 노리코를 양호실에서 3인 성관계로 이끌며, 이 장면이 촬영되어 이야기로 재생된다. 검열된 단어를 채워 넣어 진행한다.",
-  "pc88:local-907236b647": "성을 오르는 주사위 경주로, 이기면 공주가 노출 있는 그림으로 나온다. 1~5를 굴려 올라가고, 6이 나오면 마지막 거점으로 돌아간다.",
-  "pc88:local-918000a033": "성관계 장면이 가득한 에로틱 판타지 어드벤처이다. 헌신적인 동료 Amil과 함께 마녀 Sadiral의 성으로 가 Eris 공주를 구출하며, 주인공이 게임 속 유일한 남자이다.",
-  "pc88:local-95a99dd08f": "여덟 소녀가 내는 잡지식 성격 퀴즈이다. 그녀들이 좋아하는 대로 답하면 옷을 벗는다.",
-  "pc88:local-969cc3afcf": "에로틱한 짧은 어드벤처이다. 가나미의 토요일이 레즈비언 유미카를 포함한 친구들 또는 배달원과의 장면으로 이어질 수 있다. 모든 성관계 장면을 모으려면 다시 플레이한다.",
-  "pc88:local-9755c596c3": "탈의 Donjara 타일 게임이다. Susumu의 소꿉친구를 붙잡고 있는 무리의 소녀들, 프로레슬링 팬부터 록 밴드 멤버까지를 한 명씩 이기면 그녀가 옷을 벗는다.",
-  "pc88:local-983fa780be": "야한 함정 문제가 음란한 단어를 암시하는 성인용 퀴즈이다. 정답을 맞힐 때마다 여성의 에로틱한 그림이 나온다.",
-  "pc88:local-985005f82a": "탈의 블랙잭 게임이다. 다섯 번 이길 때마다 각 소녀가 입은 다섯 겹의 옷이 한 겹씩 벗겨지며, 여학생 가오리도 그중 하나이다. 그림은 무삭제이지만 수위가 높지 않으며, 모두를 이기면 산타 소녀도 옷을 벗는다.",
-  "pc88:local-98722ec031": "오늘 밤도 아침까지 파워풀 마작을 패러디한 탈의 가위바위보이다. 한 판을 이기면 세 소녀 중 한 명이 하나를 벗는다.",
-  "pc88:local-9a52d415b9": "십대 아이돌 소녀들을 다룬 야한 디스크 매거진이다. 3호에는 체육복 차림의 소녀들을 엿보는 코너, 아이돌 Minaho와의 데이트, 소녀들의 조각 그림 맞추기 등 에로틱한 그림 기획이 들어 있다.",
-  "pc88:local-9d61a798ff": "탈의가 있는 리버스 오델로 게임이다. 열 개 스테이지에 걸쳐 세 소녀를 각각 이기면 2색 그림이 옷을 벗는 풀 컬러 핀업으로 바뀐다.",
-  "pc88:local-a2b3541c41": "Erotic Magical Trip 시리즈를 마무리하는 에로틱 소설풍 판타지 어드벤처로, 이제 왕이 되어 Eris 공주와 결혼한 주인공이 시간을 거슬러 온 전 하인과 아내 안에 숨은 마녀를 상대하며 성관계 장면이 나온다.",
-  "pc88:local-a6c0ce96fb": "상대를 이기면 그녀가 옷을 벗는 백개먼 스타일 보드 게임이다.",
-  "pc88:local-a8dde75b55": "사원에 갇힌 Miyou가 갑작스러운 황당한 전개 속에서 계속 옷이 벗겨지거나 습격당하는 커맨드 어드벤처이다.",
-  "pc88:local-b15e4dceb8": "탈의 세븐 브리지 카드 게임으로, 소녀들이 벗는 란제리는 Cecile 통신 판매 카탈로그에서 가져와 그렸다.",
-  "pc88:local-b2372bc2aa": "탈의 카드 배틀 게임이다. 스테이지를 클리어할 때마다 두 소녀 중 한 명이 옷을 한 겹 벗고, 둘 다 완전히 벗기면 승리한다.",
-  "pc88:local-b2ccdde7d4": "Ikenie no Machi, Lolita Violence, Bunny-chan no Himitsu, Shoujo 303을 비롯한 Adult Inn의 1987~1988년 성인 게임들의 갤러리로, 음악 모드가 있다.",
-  "pc88:local-b3482fbcf4": "Zeta보다 연상의 여성들(여대생, 직장인, 모델)을 다룬 에로틱 디스크 매거진이다. 코너별 질문에 올바르게 답하면 섹시한 그림이 나온다.",
-  "pc88:local-b40024ad29": "옆집으로 이사 온 소녀 Rimi-chan을 억지로 범하기 위해 여러 스테이지를 헤쳐 나가는 에로틱 액션 패러디이다.",
-  "pc88:local-b4687b594f": "Keiko-chan no Himitsu의 에로틱 CG 속편으로, 성인이 된 게이코가 간호사, 회사원, 신부로서 성관계 장면을 보여 주며 각 편에 그림이 약 다섯 장씩 있다. 회사원 편에서는 상사와의 불륜이 나오며 속박과 구강성교가 있다. 실행하려면 다섯 자리 비밀번호가 필요하다.",
-  "pc88:local-b4ad3ac440": "TKO Soft 고유의 하우스 룰이 적용된 탈의 포커 게임이다.",
-  "pc88:local-b4ade00e5b": "십대 아이돌 모델을 중심으로 한 챔피언 소프트의 에로틱 Zeta 디스크 매거진 시리즈의 한 편으로, 야한 그림과 함께 틀린 그림 찾기, 조각 그림 맞추기, 데이트 장면이 있다.",
-  "pc88:local-b4fee200b1": "성인용 슬라이딩 퍼즐이다. 여성의 디지털화된 영상 클립이 조각으로 흩어지고 이를 다시 맞춘다. Peep Show 시리즈의 세 번째 작품이다.",
-  "pc88:local-b5894668a2": "Mad Pierrot가 PC-88로 변환한 Iron Gear의 Nouten Chokugeki 탈의 블랙잭 시리즈의 한 편이다.",
-  "pc88:local-b96a0cf277": "여러 가지 발사 방식을 갖춘 동인 세로 슈팅 게임이다. 스테이지마다 적과 보스를 돌파하며, 클리어할 때마다 에로틱한 애니메이션 그림이 보상으로 주어진다.",
-  "pc88:local-bcff82c26a": "Irohanihoheto의 성인용 속편이다. 시간 여행 전사가 지난번 여행으로 어긋난 역사를 바로잡기 위해 시즈카와 함께 1582년 교토로 가며, 도중에 Lady Kasuga와 오이치 같은 역사 속 여성들을 유혹한다.",
-  "pc88:local-c5c523de00": "Palcom의 Mariko no Heya의 후속작인 야구권 탈의 게임이다. 마리코를 상대로 한 가위바위보(키 1, 2, 3)에서 이기면 그녀가 옷을 벗고, 마지막에는 누드 그림이 나온다.",
-  "pc88:local-e43a6054be": "바이러스로 남자들이 모두 중병에 걸린 20XX년을 배경으로 한 동인 성인용 어드벤처이다. 영웅적인 'Fighting Nurse'가 이를 치료하려 애쓰며, 그녀의 임무에는 다른 여성들과의 성관계 장면이 포함된다.",
-  "pc88:local-ecfa135d29": "성인용 게임이다. 명령으로 유미코의 옷을 벗기며, 거절당할 때마다 미로나 기억력 테스트 같은 미니게임으로 보내진다. F10을 누르면 화면이 영어 교과서로 바뀐다.",
-  "pc88:local-f0d127ca1c": "여섯 권으로 이루어진 성인용 액션 게임이다. 실제 교복을 입은 여학생 스무 명을 쫓아 사다리를 오르며 떨어지는 양동이와 빗자루를 피해 그녀들의 비밀 사진을 본다.",
-  "pc88:local-fb63f9a4d4": "아홉 자리 코드를 외워 요구하는 숫자를 입력하면 소녀들의 그림을 볼 수 있다.",
-  "pc88:local-fbd12fa77e": "한 소녀의 야한 사생활을 담은 디지털화된 그림 모음집으로, 장식과 음악이 있다.",
-  "pc88:local-fc8cae10d8": "롤리타 그림책이다. 블라우스, 세일러복, 테니스복 차림의 여학생들의 노골적인 그림을 키 하나로 한 장씩 넘기며, 처음 몇 장 이후로는 비정상적으로 흘러간다.",
-  "pc88:local-fcfc95b6a3": "로리콘 성인용 어드벤처이다. 가스 회사 직원으로 위장한 팬티 수집가가 혼자 집에 있는 어린 소녀 유미코의 집에 들어가며, 결말은 세 가지이다.",
-  "pc88:moby-58797": "네 장면으로 이루어진 코에이의 롤리타 게임이다. 어린 소녀의 옷을 벗기고, 진찰하고, 병을 진단하고, 관장을 하고 수술하며, 성공하면 그녀를 복제할 수 있다."
+  "pc88:187771": {
+   "en": "A collection of four short erotic picture stories in fairy-tale and comic styles by three artists, about 45 pictures in all.",
+   "text": "세 작가가 동화풍과 만화풍으로 그린 짧은 에로틱 그림 이야기 네 편을 모은 작품집으로, 그림은 모두 약 45장이다."
+  },
+  "pc88:188579": {
+   "en": "An adult picture collection with no game to it: you page through a dozen or so erotic illustrations with the Return key, some with short animations. FairyTale released it in five volumes by theme, from lolita and schoolgirl to office lady, nurse and stewardess.",
+   "text": "게임 요소가 없는 성인용 그림 모음집이다. Return 키로 에로틱한 일러스트 십여 장을 넘겨 보며, 일부에는 짧은 애니메이션이 있다. FairyTale이 롤리타와 여학생부터 오피스 레이디, 간호사, 스튜어디스까지 주제별로 다섯 권으로 출시했다."
+  },
+  "pc88:188742": {
+   "en": "A voyeur game: choose numbered windows to peep through; some reward you with pictures of a young woman undressing, others get you caught and scolded by the occupant.",
+   "text": "관음 게임이다. 번호가 매겨진 창문을 골라 엿보는데, 어떤 창문은 젊은 여성이 옷을 벗는 그림으로 보상하고 어떤 창문은 들켜서 주인에게 꾸지람을 듣는다."
+  },
+  "pc88:196865": {
+   "en": "An adult action game in two acts: chase a woman down a dark road and strip her, then a sex scene. Lose and the screen shows Article 177 of the Penal Code (rape) and sends you to prison; win and the two marry. Raised in the Diet in 1986, it was withdrawn from sale.",
+   "text": "두 막으로 이루어진 성인용 액션 게임이다. 어두운 길에서 여자를 쫓아가 옷을 벗기고, 이어서 성관계 장면이 나온다. 지면 화면에 형법 제177조(강간)가 표시되고 감옥에 가며, 이기면 두 사람은 결혼한다. 1986년 국회에서 문제가 제기되어 판매가 중단되었다."
+  },
+  "pc88:196869": {
+   "en": "Part of the Sexy Voice series, drawn by lolicon artist Aki Uchiyama: the young Noriko dreams every night of being attacked by a sexroid, and the psychiatrist she turns to abuses her too.",
+   "text": "로리콘 작가 Aki Uchiyama가 그린 Sexy Voice 시리즈의 한 편이다. 어린 노리코는 매일 밤 섹스로이드에게 공격당하는 꿈을 꾸고, 그녀가 찾아간 정신과 의사도 그녀를 학대한다."
+  },
+  "pc88:196870": {
+   "en": "The third Bishoujo Shashinkan: photograph posing models through the viewfinder in a studio rigged with mines, pitfalls and a falling ceiling.",
+   "text": "세 번째 미소녀 사진관이다. 지뢰, 함정, 무너지는 천장이 설치된 스튜디오에서 뷰파인더로 포즈를 취하는 모델을 촬영한다."
+  },
+  "pc88:196872": {
+   "en": "A photography game: set the location, time, lighting and camera correctly for each nude shot, or the picture comes out blurred.",
+   "text": "사진 게임이다. 누드 촬영마다 장소, 시간, 조명, 카메라를 올바르게 설정해야 하며, 그렇지 않으면 사진이 흐리게 나온다."
+  },
+  "pc88:196875": {
+   "en": "An adult adventure with quizzes: Kaori Shiraishi, a new teacher at a notorious delinquent school, rescues the schoolgirl Manami from a gang, and the two grow close.",
+   "text": "퀴즈가 있는 성인용 어드벤처이다. 악명 높은 불량 학교에 부임한 신임 교사 시라이시 가오리가 여학생 마나미를 불량배로부터 구하고, 두 사람은 가까워진다."
+  },
+  "pc88:196886": {
+   "en": "An adult detective adventure: a private eye receives a letter saying that Miki, a 13-year-old model, is being held captive.",
+   "text": "성인용 탐정 어드벤처이다. 사립 탐정이 13세 모델 미키가 감금되어 있다는 편지를 받는다."
+  },
+  "pc88:196888": {
+   "en": "An erotic adventure: while hunting for his kidnapped teacher Minako at Shirahama beach, the student Kenta has sex with several girls he meets, a mermaid, and finally Minako herself.",
+   "text": "에로틱한 어드벤처이다. 납치된 선생님 미나코를 찾아 시라하마 해변을 헤매던 학생 켄타가 만나는 여러 소녀, 인어, 그리고 마지막으로 미나코 본인과 성관계를 한다."
+  },
+  "pc88:196890": {
+   "en": "A short erotic game about having sex with the beautiful Madoka, ending in an animated sex scene.",
+   "text": "아름다운 마도카와의 성관계를 다룬 짧은 에로틱 게임으로, 애니메이션 성관계 장면으로 끝난다."
+  },
+  "pc88:196902": {
+   "en": "An adult adventure: in search of Sayaka, the ideal woman from your dreams, wander unfamiliar towns and beaches, resisting the women who try to seduce you on the way.",
+   "text": "성인용 어드벤처이다. 꿈에서 본 이상형 사야카를 찾아 낯선 마을과 해변을 헤매며, 도중에 유혹하는 여자들을 뿌리쳐야 한다."
+  },
+  "pc88:196910": {
+   "en": "Sequel to Emmy, an early chat-based erotic game: you talk with the blonde Emmy by typing, the program learns from what you say, and as the conversation goes well she changes pose and gradually undresses. The PC-88 version has much sharper art than the first game.",
+   "text": "초기 채팅형 에로틱 게임 Emmy의 속편이다. 금발의 Emmy와 타자로 대화하면 프로그램이 입력한 말을 학습하고, 대화가 잘 풀리면 그녀가 자세를 바꾸고 점점 옷을 벗는다. PC-88판은 첫 작품보다 그림이 훨씬 선명하다."
+  },
+  "pc88:196914": {
+   "en": "An adult adventure: talk your way into sex with the nine fairies living in a mansion, in normal, peeping or pervert mode, with jigsaw, sliding and strip rock-paper-scissors games on the side.",
+   "text": "성인용 어드벤처이다. 저택에 사는 요정 아홉 명을 말로 설득해 성관계를 가지며, 일반, 엿보기, 변태 모드가 있고 조각 그림 맞추기, 슬라이딩 퍼즐, 가위바위보 탈의 게임이 곁들여진다."
+  },
+  "pc88:196915": {
+   "en": "The last game in PSK's lolita series: in a shopping district, the schoolgirls long preyed on by lolicons fight back, and you must win them over with technique, in a role-playing game of stamina and skill.",
+   "text": "PSK의 롤리타 시리즈 마지막 작품이다. 상점가에서 오랫동안 로리콘에게 당해 온 여학생들이 반격에 나서며, 체력과 기술을 겨루는 롤플레잉 게임에서 기술로 그녀들을 사로잡아야 한다."
+  },
+  "pc88:196917": {
+   "en": "An adult game: in each of five rooms a girl waits, and you fulfill her wish to win the key to the next.",
+   "text": "성인용 게임이다. 다섯 개의 방마다 소녀가 기다리고 있으며, 그녀의 소원을 들어주어 다음 방의 열쇠를 얻는다."
+  },
+  "pc88:196921": {
+   "en": "Strip poker against four girls.",
+   "text": "소녀 네 명을 상대로 하는 스트립 포커이다."
+  },
+  "pc88:196927": {
+   "en": "A lolicon adventure, released as Loliventure no Shiro: gather information in town, then infiltrate the trap-filled castle where an acquaintance's little sister is held.",
+   "text": "Loliventure no Shiro라는 이름으로 출시된 로리콘 어드벤처이다. 마을에서 정보를 모은 뒤, 지인의 어린 여동생이 붙잡혀 있는 함정투성이 성에 잠입한다."
+  },
+  "pc88:196936": {
+   "en": "A three-disk collection of HARD's adult graphics, from Bishoujo Shashinkan, Kudokikata Oshiemasu and new work by Wataru Watanabe.",
+   "text": "미소녀 사진관, Kudokikata Oshiemasu, 그리고 와타나베 와타루의 신작에서 가져온 HARD의 성인용 그래픽을 디스크 세 장에 모은 작품이다."
+  },
+  "pc88:196943": {
+   "en": "An adult comedy adventure about a masked serial rapist, Pervert No. 29, six victims short of a thousand, whose next target is the idol Kyoko.",
+   "text": "가면을 쓴 연쇄 강간범 Pervert No. 29를 다룬 성인용 코미디 어드벤처이다. 천 명까지 여섯 명을 남긴 그의 다음 표적은 아이돌 교코이다."
+  },
+  "pc88:196944": {
+   "en": "An erotic word game: you combine who, where and what words from three lists of 100 to talk dirty to each girl, and the right lines fill her arousal meter until she climaxes and an explicit picture appears.",
+   "text": "에로틱한 단어 게임이다. 100개씩 담긴 세 목록에서 누구, 어디서, 무엇을 고르는 단어를 조합해 각 소녀에게 야한 말을 건네고, 알맞은 말이 그녀의 흥분 게이지를 채워 절정에 이르면 노골적인 그림이 나타난다."
+  },
+  "pc88:196946": {
+   "en": "An adult adventure in Kabukicho, Shinjuku: track down a members-only S&M club, with its bondage, whip and candle rooms.",
+   "text": "도쿄 신주쿠 가부키초를 배경으로 한 성인용 어드벤처이다. 구속, 채찍, 촛불 방이 있는 회원 전용 S&M 클럽을 찾아낸다."
+  },
+  "pc88:196949": {
+   "en": "A strip mahjong game: cyborg-armed Suzume Aso battles the secret society Daikokudo at mahjong, buying parts that enable cheats, and each defeated opponent undresses in detailed artwork. Free mahjong and a Pocky-themed match-three mode are included.",
+   "text": "탈의 마작 게임이다. 사이보그 팔을 한 아소 스즈메가 비밀 결사 다이코쿠도와 마작으로 맞서며, 속임수를 쓸 수 있는 부품을 구입하고, 패배한 상대는 정밀하게 그려진 그림 속에서 옷을 벗는다. 자유 마작과 포키를 테마로 한 매치 쓰리 모드도 포함되어 있다."
+  },
+  "pc88:196956": {
+   "en": "An adult adventure in four parts: follow the missing Keiko to the Shonan coast for the love lessons waiting at the end.",
+   "text": "네 부로 이루어진 성인용 어드벤처이다. 사라진 게이코를 쫓아 쇼난 해안으로 가면 끝에 사랑의 교습이 기다린다."
+  },
+  "pc88:196957": {
+   "en": "An adult adventure: as Count Dracula, court Yumi, a Japanese high-school girl, seducing the teachers and students who get in the way.",
+   "text": "성인용 어드벤처이다. 드라큘라 백작이 되어 일본 여고생 유미에게 구애하며, 방해가 되는 교사와 학생들을 유혹한다."
+  },
+  "pc88:196964": {
+   "en": "PSK's second lolita game, a text adventure: corner a schoolgirl on her way home from school, away from the police, and assault her; its content drew criticism at the time.",
+   "text": "PSK의 두 번째 롤리타 게임인 텍스트 어드벤처이다. 하교하는 여학생을 경찰의 눈을 피해 궁지에 몰아 폭행하는 내용으로, 당시 그 내용이 비판을 받았다."
+  },
+  "pc88:196965": {
+   "en": "PSK's adult conversation game: raise the affection of four girls, the first a sixth-grade schoolgirl, by typing topics and replies until she undresses.",
+   "text": "PSK의 성인용 대화 게임이다. 첫 번째가 초등학교 6학년 여학생인 네 소녀의 호감도를 화제와 대답을 입력해 높여 가며, 그녀가 옷을 벗을 때까지 진행한다."
+  },
+  "pc88:196966": {
+   "en": "A lolita adventure: rescue Princess Lolita from a castle in Europe, past girls' traps at every turn, in a typed-command game with explicit scenes.",
+   "text": "롤리타 어드벤처이다. 곳곳에 소녀들의 함정이 도사린 유럽의 성에서 롤리타 공주를 구출하며, 명령어를 입력해 진행하고 노골적인 장면이 있다."
+  },
+  "pc88:196968": {
+   "en": "A lolita picture book following L♥lita Hime no Densetsu: explicit pictures of young girls with a little story, advanced with the space bar.",
+   "text": "L♥lita Hime no Densetsu에 이어지는 롤리타 그림책이다. 짧은 이야기와 어린 소녀들의 노골적인 그림이 담겨 있으며 스페이스 바로 넘긴다."
+  },
+  "pc88:196969": {
+   "en": "An early erotic seduction game: rather than a plain strip rock-paper-scissors game, you try to talk a computer woman into bed by reading her psychological state and biorhythm.",
+   "text": "초기 에로틱 유혹 게임이다. 평범한 탈의 가위바위보 대신, 컴퓨터 속 여성의 심리 상태와 바이오리듬을 읽어 그녀를 침대로 유혹한다."
+  },
+  "pc88:196971": {
+   "en": "An adult game sold with a photo booklet: you find and stimulate the erogenous zones of four types of girls across three backgrounds and seven poses, in a set order and with the right tools for each spot; as a girl's ecstasy level rises she gives hints.",
+   "text": "사진 소책자와 함께 판매된 성인용 게임이다. 세 가지 배경과 일곱 가지 포즈의 네 유형 소녀들의 성감대를 정해진 순서로, 각 부위에 맞는 도구로 찾아 자극하며, 소녀의 황홀감이 오르면 그녀가 힌트를 준다."
+  },
+  "pc88:196973": {
+   "en": "A strip blackjack game: beating Santa-costumed Yuki reveals erotic pictures across eleven rounds, and clearing the last one has her undress completely in a short animation.",
+   "text": "탈의 블랙잭 게임이다. 산타 의상을 입은 유키를 이기면 열한 라운드에 걸쳐 에로틱한 그림이 공개되고, 마지막 라운드를 클리어하면 그녀가 짧은 애니메이션으로 완전히 옷을 벗는다."
+  },
+  "pc88:196974": {
+   "en": "A crossword game: fill in each grid to reveal a nude photograph, the pictures growing more explicit as the puzzles get harder.",
+   "text": "크로스워드 게임이다. 각 격자를 채우면 누드 사진이 드러나며, 퍼즐이 어려워질수록 사진이 더 노골적이 된다."
+  },
+  "pc88:196996": {
+   "en": "An adult game: race to the Olympic venues before time runs out to watch the women gymnasts, wrestlers and swimmers.",
+   "text": "성인용 게임이다. 시간이 다하기 전에 올림픽 경기장으로 달려가 여자 체조 선수, 레슬러, 수영 선수를 구경한다."
+  },
+  "pc88:197005": {
+   "en": "A strip mahjong game in seven story chapters: you beat a series of opponents over five rounds each to get the girls undressed, and experience from wins unlocks cheats such as tile swaps and stacking the wall.",
+   "text": "일곱 개의 스토리 장으로 이루어진 탈의 마작 게임이다. 장마다 다섯 라운드에 걸쳐 일련의 상대를 이겨 소녀들의 옷을 벗기며, 승리로 얻은 경험이 패 바꾸기나 패산 쌓기 같은 속임수를 해금한다."
+  },
+  "pc88:197011": {
+   "en": "Rock-paper-scissors against Mariko; win to see her pictures.",
+   "text": "마리코를 상대로 하는 가위바위보이다. 이기면 그녀의 그림을 본다."
+  },
+  "pc88:197012": {
+   "en": "An adult game: Mika and her boyfriend's late-night phone call, where each right answer excites her more.",
+   "text": "성인용 게임이다. 미카와 그녀의 남자 친구의 심야 통화에서 정답을 맞힐 때마다 그녀가 더 흥분한다."
+  },
+  "pc88:197013": {
+   "en": "An erotic adventure: a juice is rumored to make any girl who drinks it do whatever you want, and you investigate to get it and make the girl you love yours.",
+   "text": "에로틱한 어드벤처이다. 마시면 어떤 소녀든 시키는 대로 하게 된다는 소문의 주스를 조사해 손에 넣어, 사랑하는 소녀를 자신의 것으로 만든다."
+  },
+  "pc88:197022": {
+   "en": "A lolicon adventure, the follow-up to Feirie's Residence, in city and school chapters: the hero quizzes the girls he meets in search of Eros, the source of lolicon power.",
+   "text": "Feirie's Residence의 후속작인 로리콘 어드벤처로, 도시 장과 학교 장으로 나뉜다. 주인공은 로리콘의 힘의 원천 Eros를 찾아 만나는 소녀들에게 퀴즈를 낸다."
+  },
+  "pc88:197032": {
+   "en": "An adult adventure by Elf: hired to find out why a girl dumped her boyfriend, Ryuji infiltrates her women's college dormitory, full of pretty students and a scheming vice principal.",
+   "text": "엘프의 성인용 어드벤처이다. 한 소녀가 남자 친구를 찬 이유를 알아내라는 의뢰를 받은 류지가 예쁜 학생들과 음모를 꾸미는 교감이 있는 그녀의 여자 대학 기숙사에 잠입한다."
+  },
+  "pc88:197036": {
+   "en": "An adult adventure, fourth in the Max series: a friend's birthday present turns out to be a living girl who knows nothing of the world and obeys any command, with six endings.",
+   "text": "맥스 시리즈의 네 번째 성인용 어드벤처이다. 친구의 생일 선물이 세상에 대해 아무것도 모르고 어떤 명령이든 따르는 살아 있는 소녀로 밝혀지며, 결말은 여섯 가지이다."
+  },
+  "pc88:197037": {
+   "en": "A digitized picture book of model Reina Kitazono: her profile, diary and messages.",
+   "text": "모델 기타조노 레이나의 프로필, 일기, 메시지를 담은 디지털화된 사진집이다."
+  },
+  "pc88:197054": {
+   "en": "An adult shooting game: when a giant UFO abducts girls across the world, three of them her friends, the schoolgirl Reiko Uehara flies her mad-scientist grandfather's fighter 3,000 light-years to rescue them.",
+   "text": "성인용 슈팅 게임이다. 거대 UFO가 전 세계의 소녀들을, 그중 친구 세 명을 납치하자, 여고생 우에하라 레이코가 미치광이 과학자인 할아버지의 전투기를 몰고 3,000광년을 날아 구하러 간다."
+  },
+  "pc88:197056": {
+   "en": "An adult adventure: framed for breaking into the neighboring girls' high school and assaulting its students, Hoshida must catch the real culprit.",
+   "text": "성인용 어드벤처이다. 이웃 여자 고등학교에 침입해 학생들을 폭행했다는 누명을 쓴 호시다가 진범을 잡아야 한다."
+  },
+  "pc88:197058": {
+   "en": "Sequel to the erotic adventure Seijo Densetsu, a game in the Macadam mold about finding a girl's secret sensitive spots: the Gold Lady treasure taken back from Remia proves fake, so you hunt the culprit again, with the typed commands of the first game removed.",
+   "text": "소녀의 은밀한 민감 부위를 찾는 Macadam 계열 게임인 에로틱 어드벤처 Seijo Densetsu의 속편이다. Remia에게서 되찾은 Gold Lady 보물이 가짜로 밝혀져 다시 범인을 쫓으며, 첫 작품의 명령어 입력은 없어졌다."
+  },
+  "pc88:197064": {
+   "en": "An adult adventure: Mai, a third-year student at a girls' high school, sets out to try every experience a girls' school has to offer, including lesbian relationships.",
+   "text": "성인용 어드벤처이다. 여고 3학년생 마이가 여학교에서 할 수 있는 모든 경험을 해 보려고 나서며, 여성 간의 관계도 포함된다."
+  },
+  "pc88:197065": {
+   "en": "An adult role-playing game: lure women into founding a soapland and build a great harem.",
+   "text": "성인용 롤플레잉 게임이다. 여성들을 꾀어 소프랜드를 세우고 거대한 하렘을 만든다."
+  },
+  "pc88:197066": {
+   "en": "An adult city adventure, the second Soapland Story, with life, strength, experience and money to manage.",
+   "text": "두 번째 Soapland Story인 성인용 도시 어드벤처로, 생명, 체력, 경험, 돈을 관리해야 한다."
+  },
+  "pc88:197068": {
+   "en": "An adult adventure: as Kota Tomita, pick up high-school girls and married women through a telephone dating club.",
+   "text": "성인용 어드벤처이다. 도미타 고타가 되어 전화 데이트 클럽을 통해 여고생과 유부녀를 만난다."
+  },
+  "pc88:197070": {
+   "en": "An adult adventure: girls descended from celestial maidens carry letters hidden on their bodies, and solving them summons a celestial woman.",
+   "text": "성인용 어드벤처이다. 선녀의 후손인 소녀들이 몸에 편지를 숨기고 있으며, 이를 풀면 선녀가 소환된다."
+  },
+  "pc88:197072": {
+   "en": "Sports quizzes with twenty sporting girls, from tennis to rhythmic gymnastics, who strike explicit poses for right answers.",
+   "text": "테니스부터 리듬 체조까지 스무 명의 운동하는 소녀들이 나오는 스포츠 퀴즈로, 정답을 맞히면 노골적인 포즈를 취한다."
+  },
+  "pc88:197073": {
+   "en": "Sports quizzes with twenty sporting girls, from tennis to rhythmic gymnastics, who strike explicit poses for right answers.",
+   "text": "테니스부터 리듬 체조까지 스무 명의 운동하는 소녀들이 나오는 스포츠 퀴즈로, 정답을 맞히면 노골적인 포즈를 취한다."
+  },
+  "pc88:197074": {
+   "en": "Sports quizzes with twenty sporting girls, from tennis to rhythmic gymnastics, who strike explicit poses for right answers.",
+   "text": "테니스부터 리듬 체조까지 스무 명의 운동하는 소녀들이 나오는 스포츠 퀴즈로, 정답을 맞히면 노골적인 포즈를 취한다."
+  },
+  "pc88:197075": {
+   "en": "A picture collection for uniform fetishists: high-school girls wearing the uniforms of Tokyo girls' high schools appear one after another in erotic poses. Part 1 of a set of volumes released at the same time.",
+   "text": "교복 페티시를 위한 그림 모음집이다. 도쿄 여자 고등학교 교복을 입은 여고생들이 에로틱한 포즈로 차례로 등장한다. 동시에 출시된 여러 권 중 1권이다."
+  },
+  "pc88:197076": {
+   "en": "A picture collection for uniform fetishists: high-school girls wearing the uniforms of Tokyo girls' high schools appear one after another in erotic poses. Part 2 of a set of volumes released at the same time.",
+   "text": "교복 페티시를 위한 그림 모음집이다. 도쿄 여자 고등학교 교복을 입은 여고생들이 에로틱한 포즈로 차례로 등장한다. 동시에 출시된 여러 권 중 2권이다."
+  },
+  "pc88:197077": {
+   "en": "A picture collection for uniform fetishists: high-school girls wearing the uniforms of Tokyo girls' high schools appear one after another in erotic poses. Part 3 of a set of volumes released at the same time.",
+   "text": "교복 페티시를 위한 그림 모음집이다. 도쿄 여자 고등학교 교복을 입은 여고생들이 에로틱한 포즈로 차례로 등장한다. 동시에 출시된 여러 권 중 3권이다."
+  },
+  "pc88:197082": {
+   "en": "An adult picture show with digitized voice: 35 explicit pictures.",
+   "text": "디지털 음성이 들어간 성인용 그림쇼로, 노골적인 그림 35장이 담겨 있다."
+  },
+  "pc88:197083": {
+   "en": "The second Utsukushiki Emono-tachi: an adult picture book, one button per picture, with more elaborate backgrounds and some fantasy scenes.",
+   "text": "두 번째 아름다운 먹잇감들이다. 그림마다 버튼 하나로 넘기는 성인용 그림책으로, 배경이 더 정교하고 일부 판타지 장면이 있다."
+  },
+  "pc88:197084": {
+   "en": "The third Utsukushiki Emono-tachi: adult pictures set to pop hits such as Yoko Oginome's Tonight and Akina Nakamori's Nanpasen.",
+   "text": "세 번째 아름다운 먹잇감들이다. 오기노메 요코의 투나잇과 나카모리 아키나의 난파선 같은 팝 히트곡에 맞춘 성인용 그림이 나온다."
+  },
+  "pc88:197085": {
+   "en": "Fourth volume of Great's adult picture-disk series: press space to page through pin-up pictures of girls in revealing poses while FM covers of Yui Asaka's \"C-Girl\" and Hound Dog's \"Ambitious\" play.",
+   "text": "그레이트의 성인용 그림 디스크 시리즈 네 번째 권이다. 아사카 유이의 \"C-Girl\"과 하운드 독의 \"Ambitious\"를 FM으로 커버한 음악이 흐르는 가운데, 스페이스 바를 눌러 노출이 많은 포즈의 소녀들 핀업 사진을 넘겨 본다."
+  },
+  "pc88:197086": {
+   "en": "The fifth Utsukushiki Emono-tachi: adult pictures set to pop hits by Yoko Minamino and Shizuka Kudo.",
+   "text": "다섯 번째 아름다운 먹잇감들이다. 미나미노 요코와 구도 시즈카의 팝 히트곡에 맞춘 성인용 그림이 나온다."
+  },
+  "pc88:197087": {
+   "en": "The sixth volume of Great's erotic picture series: cute girls in embarrassing, revealing poses appear one by one like a photo book, set to idol hit songs as background music.",
+   "text": "그레이트의 에로틱 그림 시리즈 여섯 번째 권이다. 귀여운 소녀들이 부끄럽고 노출이 많은 포즈로 포토북처럼 하나씩 등장하며, 아이돌 히트곡이 배경음악으로 흐른다."
+  },
+  "pc88:197089": {
+   "en": "An adult comedy adventure: the hero's girlfriend has been kidnapped by a pervert who demands ten pairs of panties freshly worn by the hostesses at the Yokohama Expo.",
+   "text": "성인용 코미디 어드벤처이다. 주인공의 여자 친구가 변태에게 납치되었는데, 그는 요코하마 엑스포의 호스티스들이 갓 입은 팬티 열 장을 요구한다."
+  },
+  "pc88:197090": {
+   "en": "An adult adventure: on his seventeenth birthday, the rich young Makoto is told to win over three high-school girls chosen as his bride candidates, and gets caught up in a strange incident.",
+   "text": "성인용 어드벤처이다. 열일곱 번째 생일을 맞은 부유한 청년 마코토가 신붓감 후보로 뽑힌 여고생 세 명의 마음을 얻으라는 말을 듣고, 기이한 사건에 휘말린다."
+  },
+  "pc88:197093": {
+   "en": "A horror adventure, the first Japanese horror game with sex scenes: after a girl takes a comb from a cave temple, her friends die one by one, with brutal scenes including a zombie samurai's attack on a girl.",
+   "text": "성관계 장면이 있는 최초의 일본 공포 게임인 공포 어드벤처이다. 한 소녀가 동굴 사원에서 빗을 가져온 뒤 친구들이 하나씩 죽으며, 좀비 사무라이가 소녀를 공격하는 등 잔혹한 장면이 있다."
+  },
+  "pc88:202378": {
+   "en": "Strip blackjack against an anime-style female dealer: clear each of six levels by reaching the target score, and she removes a piece of clothing each time, ending in nude pictures.",
+   "text": "애니메이션풍 여성 딜러와 겨루는 탈의 블랙잭이다. 여섯 레벨 각각에서 목표 점수에 도달하면 클리어되고, 그때마다 그녀가 옷을 한 겹씩 벗어 마지막에는 누드 그림이 나온다."
+  },
+  "pc88:207462": {
+   "en": "An adult adventure: a woman enters the inner chambers of the shogun's castle and works to win her lord's favor and bear his child.",
+   "text": "성인용 어드벤처이다. 한 여성이 쇼군 성의 안채에 들어가 주군의 총애를 얻어 그의 아이를 낳으려 애쓴다."
+  },
+  "pc88:207467": {
+   "en": "A pornographic adventure about the monk Dōkyō and the empress: guess her favorite positions and erogenous zones to cure her neurosis, with history quizzes along the way.",
+   "text": "승려 Dōkyō와 황후를 다룬 외설 어드벤처이다. 황후가 좋아하는 체위와 성감대를 맞혀 그녀의 신경증을 치료하며, 도중에 역사 퀴즈가 나온다."
+  },
+  "pc88:207505": {
+   "en": "Sevens against four girls; finish first or second and the last-place girl takes off a piece of clothing.",
+   "text": "소녀 네 명과 하는 세븐스 카드 게임이다. 1등이나 2등으로 끝내면 꼴찌 소녀가 옷을 한 겹 벗는다."
+  },
+  "pc88:207529": {
+   "en": "Part of the Sexy Voice series, drawn by lolicon artist Aki Uchiyama: Kyouko, a fallen angel, exists to free young girls from their troubles.",
+   "text": "로리콘 작가 Aki Uchiyama가 그린 Sexy Voice 시리즈의 한 편이다. 타락천사 Kyouko는 어린 소녀들을 고민에서 해방시키기 위해 존재한다."
+  },
+  "pc88:207532": {
+   "en": "An adult detective adventure: a rich heir hires the detective to sleep with his fiancée, office worker Junko Hitomi, for 5 million yen, and will only say why afterwards.",
+   "text": "성인용 탐정 어드벤처이다. 부유한 상속자가 탐정에게 500만 엔을 주고 자신의 약혼자인 회사원 히토미 준코와 자 달라고 의뢰하며, 이유는 그 뒤에야 말해 주겠다고 한다."
+  },
+  "pc88:207534": {
+   "en": "An adult action game by Elf: as a voyeur, sneak around and photograph girls in embarrassing moments without being caught by the guards.",
+   "text": "엘프의 성인용 액션 게임이다. 관음증 환자가 되어 경비원에게 들키지 않고 몰래 다니며 곤란한 순간의 소녀들을 촬영한다."
+  },
+  "pc88:207535": {
+   "en": "A data disk for Elf's Doki Doki Shutter Chance, the voyeur action game in which you sneak around photographing girls in compromising moments without being caught by guards, adding new sets of targets such as high-school girls, nurses and bus guides.",
+   "text": "경비원에게 들키지 않고 몰래 다니며 곤란한 순간의 소녀들을 촬영하는 관음 액션 게임 엘프의 Doki Doki Shutter Chance용 데이터 디스크로, 여고생, 간호사, 버스 안내양 같은 새로운 표적 세트가 추가된다."
+  },
+  "pc88:207548": {
+   "en": "An adult game drawn by lolicon artist Aki Uchiyama: young girls have been kidnapped, and you open panels to free them while dodging attacks.",
+   "text": "로리콘 작가 Aki Uchiyama가 그린 성인용 게임이다. 어린 소녀들이 납치되었고, 공격을 피하면서 패널을 열어 그녀들을 구출한다."
+  },
+  "pc88:207562": {
+   "en": "The third Kyapi Kyapi Run game: golf against twelve caddies, each with her own nine holes; beat her target score and she strips.",
+   "text": "세 번째 Kyapi Kyapi Run 게임이다. 열두 명의 캐디와 하는 골프로, 각 캐디마다 아홉 홀이 있으며, 그녀의 목표 점수를 이기면 그녀가 옷을 벗는다."
+  },
+  "pc88:207567": {
+   "en": "After winning the previous tournament, the hero must rescue his kidnapped cheerleader Kyoko by beating the girls who work at the town's mahjong parlors; each win is rewarded with an erotic scene with the girl, and money won buys tile-tampering items. A four-player mode lets you face three of seven girls.",
+   "text": "지난 대회에서 우승한 주인공이 납치된 치어리더 교코를 구하기 위해 마을 마작 가게에서 일하는 소녀들을 이겨야 한다. 이길 때마다 그 소녀와의 에로틱한 장면이 보상으로 주어지고, 딴 돈으로 패 조작 아이템을 산다. 4인 모드에서는 일곱 소녀 중 세 명과 맞붙는다."
+  },
+  "pc88:207568": {
+   "en": "Poker against adult video actress Satomi Kawai, digitized from video; beat her to see her nude.",
+   "text": "영상에서 디지털화한 성인 비디오 배우 가와이 사토미와 하는 포커로, 이기면 그녀의 누드를 본다."
+  },
+  "pc88:207571": {
+   "en": "A maze action game: stun the guards, take their keys and chase a nude woman through the maze; catch her for an explicit picture.",
+   "text": "미로 액션 게임이다. 경비원을 기절시켜 열쇠를 빼앗고 미로 속에서 누드 여성을 쫓으며, 붙잡으면 노골적인 그림이 나온다."
+  },
+  "pc88:207583": {
+   "en": "A picture show of girls in erotic poses set to music; not a game.",
+   "text": "에로틱한 포즈의 소녀들을 음악과 함께 보여 주는 그림쇼이며 게임이 아니다."
+  },
+  "pc88:207587": {
+   "en": "A quiz game in five categories where right answers gradually reveal an erotic picture.",
+   "text": "다섯 개 분야의 퀴즈 게임으로, 정답을 맞힐 때마다 에로틱한 그림이 서서히 드러난다."
+  },
+  "pc88:207588": {
+   "en": "An adult adventure: take your shy girlfriend to a hotel and seduce her; made, apart from the program, entirely by women.",
+   "text": "성인용 어드벤처이다. 수줍음 많은 여자 친구를 호텔로 데려가 유혹하며, 프로그램을 제외하면 전부 여성들이 만들었다."
+  },
+  "pc88:207620": {
+   "en": "Essentially a strip game set in Kyoto: you pick up women by answering quiz questions, and each correct answer moves the pictures toward more undressed, erotic scenes.",
+   "text": "사실상 교토를 배경으로 한 탈의 게임이다. 퀴즈 문제에 답해 여성들을 만나고, 정답을 맞힐 때마다 그림이 더 벗은 에로틱한 장면으로 넘어간다."
+  },
+  "pc88:207718": {
+   "en": "An adult science-fiction role-playing game with Toh Moriyama's characters: escape enemies who would make you a slave to pleasure, fighting them in contests of sexual technique.",
+   "text": "Toh Moriyama의 캐릭터가 나오는 성인용 SF 롤플레잉 게임이다. 쾌락의 노예로 만들려는 적들에게서 달아나며, 성적 기교 대결로 그들과 싸운다."
+  },
+  "pc88:207897": {
+   "en": "An adult adventure: sneak into a women's college dormitory to steal underwear, dodging the dog and the manager; a sleeping pill hidden somewhere lets you do anything without being caught.",
+   "text": "성인용 어드벤처이다. 여자 대학 기숙사에 몰래 들어가 속옷을 훔치며 개와 관리인을 피해야 하고, 어딘가에 숨겨진 수면제를 쓰면 들키지 않고 무엇이든 할 수 있다."
+  },
+  "pc88:207921": {
+   "en": "An adult adventure: as a section manager, have an office affair with a 23-year-old colleague during the lunch hour from 12:00 to 1:10.",
+   "text": "성인용 어드벤처이다. 과장이 되어 12시부터 1시 10분까지의 점심시간에 스물세 살의 동료와 사내 불륜을 즐긴다."
+  },
+  "pc88:207922": {
+   "en": "An adult adventure: as Hatsue, a hot-spring geisha working off a debt, take on the veteran Danpei in a contest of sexual technique.",
+   "text": "성인용 어드벤처이다. 빚을 갚고 있는 온천 게이샤 하쓰에가 되어 베테랑 단페이와 성적 기교를 겨룬다."
+  },
+  "pc88:207927": {
+   "en": "A lolicon adult game: three women have moved in next door, an office worker, an older woman and a little girl; find their rooms in a building of broken doors and eccentrics before the girl's father gets home.",
+   "text": "로리콘 성인용 게임이다. 옆집에 직장인, 연상의 여성, 어린 소녀 이렇게 세 여성이 이사 왔으며, 소녀의 아버지가 돌아오기 전에 고장 난 문과 괴짜들이 가득한 건물에서 그녀들의 방을 찾아야 한다."
+  },
+  "pc88:424147": {
+   "en": "An adult adventure: a schoolgirl, Kanako, sets out to win over her female friend. Look and Talk carry most scenes, and a few optional scenes and routes branch off the story.",
+   "text": "성인용 어드벤처이다. 여학생 가나코가 여자 친구의 마음을 얻으려 나선다. 대부분의 장면은 보기와 말하기로 진행되며, 선택적인 장면과 경로 몇 개가 이야기에서 갈라진다."
+  },
+  "pc88:456667": {
+   "en": "An erotic yes-or-no trivia quiz: every correct answer under the time limit uncovers more of a panel hiding an erotic picture of one of Wataru Watanabe's sexy girls.",
+   "text": "에로틱한 예/아니오 상식 퀴즈이다. 제한 시간 안에 정답을 맞힐 때마다 와타나베 와타루의 섹시한 소녀 중 한 명의 에로틱한 그림을 가린 패널이 더 많이 벗겨진다."
+  },
+  "pc88:457796": {
+   "en": "Find the keys hidden in a maze and open doors to explicit digitized video pictures.",
+   "text": "미로에 숨은 열쇠를 찾아 문을 열면 노골적인 디지털 영상 그림이 나온다."
+  },
+  "pc88:461887": {
+   "en": "PSK's first lolita game: strip rock-paper-scissors against a young girl, who blushes as she undresses, and undress her too fast and the police arrest you.",
+   "text": "PSK의 첫 번째 롤리타 게임이다. 어린 소녀와 하는 탈의 가위바위보로, 소녀는 옷을 벗으며 얼굴을 붉히고, 너무 빨리 벗기면 경찰에 체포된다."
+  },
+  "pc88:462417": {
+   "en": "An adult adventure at a school: Sachi loves 500-yen coins, and the hero hunts for a rare one among the schoolgirls, who include a lesbian couple.",
+   "text": "학교를 배경으로 한 성인용 어드벤처이다. 사치는 500엔 동전을 좋아하고, 주인공은 레즈비언 커플을 포함한 여학생들 사이에서 희귀한 동전을 찾아다닌다."
+  },
+  "pc88:local-014f982311": {
+   "en": "A doujin Missile Command variant defending one huge city with a big cursor and up to three screen-clearing hyper bombs; after each cleared level a woman on screen takes off more of her clothes.",
+   "text": "하나의 거대한 도시를 지키는 동인 미사일 커맨드 변형작으로, 큰 커서와 화면을 쓸어 버리는 하이퍼 폭탄을 최대 세 개까지 쓴다. 레벨을 클리어할 때마다 화면 속 여성이 옷을 더 벗는다."
+  },
+  "pc88:local-01ea13635f": {
+   "en": "A card-memory game where ESP-style symbols flash briefly and must be recalled, with more cards each stage; the rewards are digitized pictures of women, racier in one of the two versions.",
+   "text": "ESP 카드 같은 기호가 잠깐 번쩍이면 기억해 내야 하는 카드 기억 게임으로, 스테이지마다 카드가 늘어난다. 보상은 디지털화된 여성들의 그림이며, 두 버전 중 한쪽이 더 야하다."
+  },
+  "pc88:local-060ccd66ef": {
+   "en": "KOB Soft's sequel to the reverse-Othello game Rinse; beating stages unlocks erotic pictures of parodies of the Sailor Moon heroines.",
+   "text": "리버스 오델로 게임 Rinse의 KOB Soft 속편이다. 스테이지를 클리어하면 세일러문 여주인공들을 패러디한 에로틱한 그림이 열린다."
+  },
+  "pc88:local-09c5dd8711": {
+   "en": "The sequel to Mature, again steering a wandering young woman to the door by pushing blocks; every fifth level shows nude artwork.",
+   "text": "Mature의 속편으로, 이번에도 블록을 밀어 길 잃은 젊은 여성을 문으로 이끈다. 다섯 번째 레벨마다 누드 그림이 나온다."
+  },
+  "pc88:local-0cf00e1ddd": {
+   "en": "A 1988 pin-up quiz in the style of Panel Quiz Attack 25, where correct answers flip panels to reveal racy pictures of 40 girls behind them.",
+   "text": "패널 퀴즈 어택 25 스타일의 1988년 핀업 퀴즈이다. 정답을 맞히면 패널이 뒤집혀 그 뒤에 숨은 40명 소녀의 야한 그림이 드러난다."
+  },
+  "pc88:local-112861eb52": {
+   "en": "A quiz game with erotic artwork in which the hero quizzes his way past the court to win the princess.",
+   "text": "에로틱한 그림이 들어간 퀴즈 게임으로, 주인공이 궁정을 퀴즈로 돌파해 공주를 차지한다."
+  },
+  "pc88:local-11b5f6ebab": {
+   "en": "A strip quiz game by the SIVA collective and guest circles; each girl has her own artist and question category.",
+   "text": "SIVA 집단과 초청 서클이 만든 탈의 퀴즈 게임이다. 소녀마다 담당 작가와 문제 분야가 따로 있다."
+  },
+  "pc88:local-1240ead271": {
+   "en": "A blackjack-like card game where winning makes the women undress until each one's full picture is revealed, with three tries per woman.",
+   "text": "블랙잭 비슷한 카드 게임으로, 이기면 여성들이 옷을 벗어 각자의 전신 그림이 드러나며, 여성마다 세 번의 기회가 있다."
+  },
+  "pc88:local-1311ce2393": {
+   "en": "Burning Apple's erotic sequel in which the hero leaves his body as a ghost to have sex with girls, more explicit than the first game, with action-adventure elements.",
+   "text": "주인공이 유령이 되어 몸에서 빠져나와 소녀들과 성관계를 하는 Burning Apple의 에로틱 속편으로, 첫 작품보다 노골적이며 액션 어드벤처 요소가 있다."
+  },
+  "pc88:local-14004dcb7f": {
+   "en": "A dungeon-crawling RPG hunting for pompoms where every enemy is a young woman who undresses instead of dying when beaten.",
+   "text": "폼폼을 찾는 던전 탐험 RPG로, 모든 적이 젊은 여성이며 패배하면 죽는 대신 옷을 벗는다."
+  },
+  "pc88:local-164b4123dd": {
+   "en": "An erotic adventure, Elein Soft's first on disk (1987): as erotic manga artist Miki Kawada, pick up girls for sex while hunting for material.",
+   "text": "Elein Soft의 디스크용 첫 에로틱 어드벤처(1987년)이다. 에로틱 만화가 Miki Kawada가 되어 소재를 찾아다니며 소녀들을 꾀어 성관계를 한다."
+  },
+  "pc88:local-187ec06f9c": {
+   "en": "An erotic adventure about a first-year high-school girl who meets her former classmate in a park.",
+   "text": "고등학교 1학년 소녀가 공원에서 옛 급우를 만나는 에로틱한 어드벤처이다."
+  },
+  "pc88:local-1b30983a09": {
+   "en": "An adventure with sex scenes: the hero returns a found purse, and picking the right path leads to a sex scene played by pressing 1, 2 and 3 in the correct order.",
+   "text": "성관계 장면이 있는 어드벤처이다. 주인공이 주운 지갑을 돌려주고, 올바른 길을 고르면 1, 2, 3을 정확한 순서로 눌러 진행하는 성관계 장면으로 이어진다."
+  },
+  "pc88:local-1cc03f0f93": {
+   "en": "A placement puzzle where each piece must differ in color and pattern from its row and column; clearing stages gradually reveals a picture of a woman.",
+   "text": "각 조각이 자기 행과 열의 다른 조각들과 색과 무늬가 달라야 하는 배치 퍼즐로, 스테이지를 클리어할수록 한 여성의 그림이 서서히 드러난다."
+  },
+  "pc88:local-20b0d31cfe": {
+   "en": "A three-disk erotic dungeon RPG with girl enemies; captured princesses can be taken home for sex scenes.",
+   "text": "디스크 세 장짜리 에로틱 던전 RPG로, 적이 소녀들이며 붙잡은 공주를 집으로 데려가 성관계 장면을 볼 수 있다."
+  },
+  "pc88:local-2433618eee": {
+   "en": "An adult dating game: choose one of four women and win her over in conversation.",
+   "text": "성인용 연애 게임이다. 네 여성 중 한 명을 골라 대화로 마음을 얻는다."
+  },
+  "pc88:local-2be6088c6c": {
+   "en": "An Arkanoid-style block breaker with 45-degree rebounds; clearing a screen colors in the erotic background picture.",
+   "text": "45도로 튕기는 알카노이드 스타일의 블록 깨기 게임으로, 화면을 클리어하면 에로틱한 배경 그림에 색이 입혀진다."
+  },
+  "pc88:local-2fae9ca69f": {
+   "en": "The second Sadistic Gamers quiz from Sixteens (1990): a struggling student's supplementary lesson with his teacher turns into sex if he answers enough questions correctly.",
+   "text": "Sixteens의 두 번째 Sadistic Gamers 퀴즈(1990년)이다. 성적이 부진한 학생이 선생님과 보충 수업을 받다가 충분한 문제를 맞히면 성관계로 이어진다."
+  },
+  "pc88:local-32b6fa36c7": {
+   "en": "A block-pushing puzzle where a heart steers a self-walking young woman to the exit; every fifth level a cutscene shows her undressing.",
+   "text": "하트가 스스로 걷는 젊은 여성을 출구로 이끄는 블록 밀기 퍼즐이다. 다섯 번째 레벨마다 그녀가 옷을 벗는 컷신이 나온다."
+  },
+  "pc88:local-32c2ca5469": {
+   "en": "Onion Software's 1986 Ultima-style parody RPG with erotic content: rescue a captive princess from a dungeon, with gag cameos by other circles and very high difficulty.",
+   "text": "Onion Software의 1986년 울티마 스타일 패러디 RPG로 에로틱한 내용이 있다. 던전에 갇힌 공주를 구출하며, 다른 서클의 개그 카메오가 나오고 난이도가 매우 높다."
+  },
+  "pc88:local-345c11bee4": {
+   "en": "Three-way strip rock-paper-scissors with your partner Yukari against a third girl; the one who loses alone gives up a piece of clothing.",
+   "text": "파트너 유카리와 함께 세 번째 소녀를 상대하는 3인 탈의 가위바위보이다. 혼자 진 사람이 옷을 한 겹 벗는다."
+  },
+  "pc88:local-382fc5f0bc": {
+   "en": "An erotic adventure about a schoolgirl and her older brother, who walks in on her in the shower after gym class; art by Fozon.",
+   "text": "체육 수업 후 샤워 중인 여학생을 오빠가 우연히 마주치게 되는 에로틱 어드벤처이다. 그림은 Fozon이 그렸다."
+  },
+  "pc88:local-38c80bbbe1": {
+   "en": "A Wizardry-style dungeon RPG where defeated monsters can join the party; a separately sold option disk adds sex scenes with the girl monsters.",
+   "text": "물리친 몬스터가 파티에 합류할 수 있는 위저드리 스타일 던전 RPG이다. 별도 판매되는 옵션 디스크를 쓰면 소녀 몬스터들과의 성관계 장면이 추가된다."
+  },
+  "pc88:local-3f88451dc9": {
+   "en": "A vertically scrolling shooter that rewards each cleared stage with an erotic illustration; third in Scatter Brain's adult shooter series after Crinex.",
+   "text": "스테이지를 클리어할 때마다 에로틱한 일러스트를 보상으로 주는 세로 스크롤 슈팅 게임으로, Scatter Brain의 성인용 슈팅 시리즈에서 Crinex에 이은 세 번째 작품이다."
+  },
+  "pc88:local-47c885c13b": {
+   "en": "Tsukumo's strip rock-paper-scissors (yakyuuken) game by Tadashi Makimura, based on one in his manga Micom Love; each win makes the girl take off another piece of clothing.",
+   "text": "마키무라 다다시가 자신의 만화 Micom Love에 나온 것을 바탕으로 만든 Tsukumo의 탈의 야구권 게임이다. 이길 때마다 소녀가 옷을 한 겹 더 벗는다."
+  },
+  "pc88:local-4c63068657": {
+   "en": "Champion Soft's adult school-themed Fairie's Residence Special side story, subtitled Sailor-fuku to Hitobanjuu, sold with a tie-in comic.",
+   "text": "챔피언 소프트의 성인용 학원 테마 Fairie's Residence Special 외전으로, 부제는 Sailor-fuku to Hitobanjuu이며 관련 만화와 함께 판매되었다."
+  },
+  "pc88:local-5180cd9c16": {
+   "en": "A poker game on two disks in which the hero takes on girls backed by a gambling syndicate; winning hands lead to erotic artwork of the opponents.",
+   "text": "디스크 두 장짜리 포커 게임으로, 주인공이 도박 조직을 등에 업은 소녀들과 맞붙는다. 좋은 패로 이기면 상대 소녀들의 에로틱한 그림으로 이어진다."
+  },
+  "pc88:local-53d423428c": {
+   "en": "An RPG-flavored card game in which attack cards uncover erotic pictures, reusing artwork from the circles' releases on other machines such as the X68000.",
+   "text": "공격 카드로 에로틱한 그림을 드러내는 RPG 풍 카드 게임으로, X68000 같은 다른 기종에서 나온 서클 작품들의 그림을 재사용한다."
+  },
+  "pc88:local-5487435e63": {
+   "en": "A two-disk CG collection of about sixteen erotic illustrations by adult manga artist Senno Knife, introduced by the skeletal host of a mansion of demon girls.",
+   "text": "성인 만화가 Senno Knife의 에로틱한 일러스트 약 열여섯 장을 디스크 두 장에 담은 CG 모음집으로, 마녀 소녀들의 저택에 사는 해골 집주인이 소개한다."
+  },
+  "pc88:local-563034addc": {
+   "en": "A 1991 TAKERU-exclusive digest collection of Fairytale's adult games, including a digest version of the erotic detective adventure Lipstick Adventure 2.",
+   "text": "에로틱 탐정 어드벤처 립스틱 어드벤처 2의 다이제스트판을 포함한 Fairytale 성인 게임들의 1991년 TAKERU 전용 다이제스트 모음집이다."
+  },
+  "pc88:local-58e0335cc1": {
+   "en": "A two-disk strip poker game with its own seven-suit card deck; the opponent takes off clothing every 10 points, an early example of the strip card game.",
+   "text": "고유의 7무늬 카드 덱을 쓰는 디스크 두 장짜리 탈의 포커 게임이다. 상대는 10점마다 옷을 벗으며, 탈의 카드 게임의 초기 사례이다."
+  },
+  "pc88:local-58f4c3a2ea": {
+   "en": "An erotic word-guessing adventure: filling the blanks correctly seduces 15-year-old schoolgirl Asuka Kato in the school gym storeroom and unlocks animated erotic scenes of her.",
+   "text": "에로틱한 단어 맞추기 어드벤처이다. 빈칸을 올바르게 채우면 학교 체육관 창고에서 열다섯 살 여학생 가토 아스카를 유혹하게 되고, 그녀의 에로틱한 애니메이션 장면이 열린다."
+  },
+  "pc88:local-59ad2c7d71": {
+   "en": "Strip rock-paper-scissors parodying DB-Soft's Konya mo Asa made Powerful Mahjong: each win makes one of three girls (plus hidden ones) take off clothing.",
+   "text": "DB-Soft의 오늘 밤도 아침까지 파워풀 마작을 패러디한 탈의 가위바위보이다. 이길 때마다 세 소녀(와 숨겨진 소녀들) 중 하나가 옷을 벗는다."
+  },
+  "pc88:local-59f5a88433": {
+   "en": "First of Champion Soft's four adult Fairie's Residence Special side stories, subtitled Mariko no Ikenai Daitokkun, sold with a tie-in comic.",
+   "text": "챔피언 소프트의 성인용 Fairie's Residence Special 외전 네 편 중 첫 번째로, 부제는 Mariko no Ikenai Daitokkun이며 관련 만화와 함께 판매되었다."
+  },
+  "pc88:local-606b58458f": {
+   "en": "An adult game: as Kazuki Kuremoto, bring girls to climax with words alone by picking the right replies; wrong answers make you drink milk until the game ends.",
+   "text": "성인용 게임이다. Kazuki Kuremoto가 되어 알맞은 대답을 골라 말만으로 소녀들을 절정에 이르게 하며, 틀리면 게임이 끝날 때까지 우유를 마신다."
+  },
+  "pc88:local-61f5bf743e": {
+   "en": "An animated crossword game with eight bunny girls, who undress as you solve their fiendish puzzles.",
+   "text": "바니걸 여덟 명이 나오는 애니메이션 크로스워드 게임으로, 어려운 퍼즐을 풀면 그녀들이 옷을 벗는다."
+  },
+  "pc88:local-650148c957": {
+   "en": "A Mastermind-style code-breaking game in which the girl undresses as you solve the codes.",
+   "text": "마스터마인드 스타일의 코드 맞추기 게임으로, 코드를 풀면 소녀가 옷을 벗는다."
+  },
+  "pc88:local-682f623b30": {
+   "en": "An erotic adventure in which a lolicon teacher at a girls' school schemes to have sex with schoolgirl Kumiko while dodging the advances of other students.",
+   "text": "여학교의 로리콘 교사가 다른 학생들의 접근을 피하면서 여학생 구미코와 성관계를 가지려 꾀하는 에로틱 어드벤처이다."
+  },
+  "pc88:local-69f28649e9": {
+   "en": "Strip blackjack ported from Iron Gear's X68000/MSX2 game: beating the very strong dealer reveals tall scrolling erotic pictures.",
+   "text": "Iron Gear의 X68000/MSX2 게임에서 이식한 탈의 블랙잭이다. 매우 강한 딜러를 이기면 세로로 긴 스크롤 에로틱 그림이 드러난다."
+  },
+  "pc88:local-6a9348e87e": {
+   "en": "Champion Soft's adult show-business Fairie's Residence Special, a sugoroku-style board game subtitled Super Mariko Sisters, sold with a tie-in comic.",
+   "text": "챔피언 소프트의 성인용 연예계 테마 Fairie's Residence Special로, 쌍륙 스타일 보드 게임이며 부제는 Super Mariko Sisters이고 관련 만화와 함께 판매되었다."
+  },
+  "pc88:local-6b731819f9": {
+   "en": "A panel-sliding puzzle game in which the girl undresses after each cleared round.",
+   "text": "라운드를 클리어할 때마다 소녀가 옷을 벗는 패널 밀기 퍼즐 게임이다."
+  },
+  "pc88:local-74a234ab16": {
+   "en": "Sixth volume of Marionet's erotic Take Out adventures: a boy visits a sailor-uniform café and is given very intimate service by a big-breasted waitress.",
+   "text": "Marionet의 에로틱 Take Out 어드벤처 시리즈 여섯 번째 권이다. 소년이 세일러복 카페를 찾아 가슴이 큰 웨이트리스에게 매우 친밀한 서비스를 받는다."
+  },
+  "pc88:local-7a3b474127": {
+   "en": "A doujin adult adventure: win the heroine Milady, with many encounters along the way.",
+   "text": "동인 성인용 어드벤처이다. 도중에 수많은 만남을 거치며 여주인공 Milady를 차지한다."
+  },
+  "pc88:local-7a9eddf314": {
+   "en": "First of Kankyouken's Aya-chan adventures; it includes risque and S&M scenes, though it is not a full-on erotic game.",
+   "text": "Kankyouken의 Aya-chan 어드벤처 중 첫 번째 작품이다. 야한 장면과 S&M 장면이 있지만 본격적인 에로틱 게임은 아니다."
+  },
+  "pc88:local-81109b62c9": {
+   "en": "A strip blackjack sequel to Medal Jack with a new set of girls to undress; requires the original disk.",
+   "text": "새로운 소녀들의 옷을 벗기는 Medal Jack의 탈의 블랙잭 속편으로, 원작 디스크가 필요하다."
+  },
+  "pc88:local-837968b3a6": {
+   "en": "A strip card game: win money at poker and blackjack to make the girls undress, then collect items for an RPG-style boss fight; noted for its detailed underwear art.",
+   "text": "탈의 카드 게임이다. 포커와 블랙잭으로 돈을 따서 소녀들의 옷을 벗기고, 이어서 아이템을 모아 RPG풍 보스전을 치른다. 정교한 속옷 그림으로 유명하다."
+  },
+  "pc88:local-84ec0ef9d2": {
+   "en": "Five games, a jigsaw, a matching panel, a quiz, a crossword and a horoscope, each with a girl aged 12 to 21 whose sexy picture you see when you clear it.",
+   "text": "조각 그림 맞추기, 짝 맞추기 패널, 퀴즈, 크로스워드, 별자리 운세 다섯 게임이 있으며, 각각 열두 살에서 스물한 살의 소녀가 나와 클리어하면 그녀의 섹시한 그림을 볼 수 있다."
+  },
+  "pc88:local-8787c3adae": {
+   "en": "An erotic short adventure in which Kanami's Sunday leads to scenes with her mostly lesbian friends or with men; replay to see every picture.",
+   "text": "가나미의 일요일이 대부분 레즈비언인 친구들 또는 남자들과의 장면으로 이어지는 에로틱한 짧은 어드벤처이다. 모든 그림을 보려면 다시 플레이한다."
+  },
+  "pc88:local-8ce9cb4b55": {
+   "en": "An erotic puzzle game: as an evil rabbit you herd a lost girl into your house with fences for the expected erotic payoff.",
+   "text": "에로틱한 퍼즐 게임이다. 사악한 토끼가 되어 울타리로 길 잃은 소녀를 자기 집으로 몰아넣으며, 예상되는 에로틱한 보상을 얻는다."
+  },
+  "pc88:local-8d1389fca7": {
+   "en": "An Old Maid and mahjong hybrid card game in which winning hands make the girls undress.",
+   "text": "도둑잡기와 마작을 섞은 카드 게임으로, 좋은 패로 이기면 소녀들이 옷을 벗는다."
+  },
+  "pc88:local-8d379d1bed": {
+   "en": "A tile-swapping puzzle with erotic pictures to complete; tiles flip every move and stages get more pieces.",
+   "text": "완성해야 할 에로틱한 그림이 있는 타일 교환 퍼즐이다. 움직일 때마다 타일이 뒤집히고 스테이지가 갈수록 조각이 늘어난다."
+  },
+  "pc88:local-8e45f5b649": {
+   "en": "A strip blackjack game: beat the blue-haired sisters and they undress in animated full-colour scenes, an idea borrowed from Super Real Mahjong P3.",
+   "text": "탈의 블랙잭 게임이다. 슈퍼 리얼 마작 P3에서 빌려 온 아이디어로, 파란 머리 자매를 이기면 애니메이션 풀 컬러 장면에서 그녀들이 옷을 벗는다."
+  },
+  "pc88:local-8f8ebcaa81": {
+   "en": "A very explicit erotic adventure about rescuing a kidnapped classmate, built partly from art lifted from ONION soft, Fairytale and other makers.",
+   "text": "납치된 반 친구를 구하는 매우 노골적인 에로틱 어드벤처로, ONION soft, Fairytale 등 다른 제작사의 그림을 가져와 일부를 구성했다."
+  },
+  "pc88:local-8fdf969fac": {
+   "en": "An erotic word-guessing adventure: Rui and Kiyomi initiate their high-school friend Noriko in a threesome in the school infirmary, filmed and replayed as the story; fill in the censored words to advance.",
+   "text": "에로틱한 단어 맞추기 어드벤처이다. 루이와 기요미가 고등학교 친구 노리코를 양호실에서 3인 성관계로 이끌며, 이 장면이 촬영되어 이야기로 재생된다. 검열된 단어를 채워 넣어 진행한다."
+  },
+  "pc88:local-907236b647": {
+   "en": "A dice race up a castle in which winning shows the princess in revealing pictures; roll 1-5 to climb, a 6 sends you back to your last stake.",
+   "text": "성을 오르는 주사위 경주로, 이기면 공주가 노출 있는 그림으로 나온다. 1~5를 굴려 올라가고, 6이 나오면 마지막 거점으로 돌아간다."
+  },
+  "pc88:local-918000a033": {
+   "en": "An erotic fantasy adventure packed with sex scenes: with devoted companion Amil you travel to the witch Sadiral's castle to rescue Princess Eris, the hero being the only man in the game.",
+   "text": "성관계 장면이 가득한 에로틱 판타지 어드벤처이다. 헌신적인 동료 Amil과 함께 마녀 Sadiral의 성으로 가 Eris 공주를 구출하며, 주인공이 게임 속 유일한 남자이다."
+  },
+  "pc88:local-95a99dd08f": {
+   "en": "Magazine-style personality quizzes from eight girls; answer the way they like and they undress.",
+   "text": "여덟 소녀가 내는 잡지식 성격 퀴즈이다. 그녀들이 좋아하는 대로 답하면 옷을 벗는다."
+  },
+  "pc88:local-969cc3afcf": {
+   "en": "An erotic short adventure: Kanami's Saturday can turn into scenes with her friends, including lesbian Yumika, or with a delivery man; replay to collect all the sex scenes.",
+   "text": "에로틱한 짧은 어드벤처이다. 가나미의 토요일이 레즈비언 유미카를 포함한 친구들 또는 배달원과의 장면으로 이어질 수 있다. 모든 성관계 장면을 모으려면 다시 플레이한다."
+  },
+  "pc88:local-9755c596c3": {
+   "en": "A strip Donjara tile game: beat each girl of the gang holding Susumu's childhood friend, from a wrestling fan to a rock band member, and she undresses.",
+   "text": "탈의 Donjara 타일 게임이다. Susumu의 소꿉친구를 붙잡고 있는 무리의 소녀들, 프로레슬링 팬부터 록 밴드 멤버까지를 한 명씩 이기면 그녀가 옷을 벗는다."
+  },
+  "pc88:local-983fa780be": {
+   "en": "An adult quiz whose risque trick questions hint at dirty words; each correct answer shows an erotic picture of a woman.",
+   "text": "야한 함정 문제가 음란한 단어를 암시하는 성인용 퀴즈이다. 정답을 맞힐 때마다 여성의 에로틱한 그림이 나온다."
+  },
+  "pc88:local-985005f82a": {
+   "en": "A strip blackjack game: every five wins takes off one of each girl's five pieces of clothing, schoolgirl Kaori among them; pictures are uncensored but tame, and beating everyone makes the Santa girl undress too.",
+   "text": "탈의 블랙잭 게임이다. 다섯 번 이길 때마다 각 소녀가 입은 다섯 겹의 옷이 한 겹씩 벗겨지며, 여학생 가오리도 그중 하나이다. 그림은 무삭제이지만 수위가 높지 않으며, 모두를 이기면 산타 소녀도 옷을 벗는다."
+  },
+  "pc88:local-98722ec031": {
+   "en": "A strip rock-paper-scissors parody of Konya mo Asa made Powerful Maajan: win a round and one of the three girls takes something off.",
+   "text": "오늘 밤도 아침까지 파워풀 마작을 패러디한 탈의 가위바위보이다. 한 판을 이기면 세 소녀 중 한 명이 하나를 벗는다."
+  },
+  "pc88:local-9a52d415b9": {
+   "en": "A racy disk magazine of teenage idol girls: issue 3 includes a corner for peeking at the girls in gym uniforms, a date with idol Minaho, a jigsaw puzzle of the girls and other erotic picture features.",
+   "text": "십대 아이돌 소녀들을 다룬 야한 디스크 매거진이다. 3호에는 체육복 차림의 소녀들을 엿보는 코너, 아이돌 Minaho와의 데이트, 소녀들의 조각 그림 맞추기 등 에로틱한 그림 기획이 들어 있다."
+  },
+  "pc88:local-9d61a798ff": {
+   "en": "A reverse-Othello game with stripping: beat each of the three girls across ten stages and their two-colour pictures turn into full-colour pin-ups as they undress.",
+   "text": "탈의가 있는 리버스 오델로 게임이다. 열 개 스테이지에 걸쳐 세 소녀를 각각 이기면 2색 그림이 옷을 벗는 풀 컬러 핀업으로 바뀐다."
+  },
+  "pc88:local-a2b3541c41": {
+   "en": "An erotic novel-style fantasy adventure concluding the Erotic Magical Trip series, with sex scenes as the hero, now king and married to Princess Eris, deals with a time-travelling former servant and the witch hidden inside his wife.",
+   "text": "Erotic Magical Trip 시리즈를 마무리하는 에로틱 소설풍 판타지 어드벤처로, 이제 왕이 되어 Eris 공주와 결혼한 주인공이 시간을 거슬러 온 전 하인과 아내 안에 숨은 마녀를 상대하며 성관계 장면이 나온다."
+  },
+  "pc88:local-a6c0ce96fb": {
+   "en": "A backgammon-style board game in which beating your opponent makes her undress.",
+   "text": "상대를 이기면 그녀가 옷을 벗는 백개먼 스타일 보드 게임이다."
+  },
+  "pc88:local-a8dde75b55": {
+   "en": "A command adventure in which Miyou, trapped in a temple, keeps ending up undressed or assaulted in sudden absurd turns.",
+   "text": "사원에 갇힌 Miyou가 갑작스러운 황당한 전개 속에서 계속 옷이 벗겨지거나 습격당하는 커맨드 어드벤처이다."
+  },
+  "pc88:local-b15e4dceb8": {
+   "en": "A strip Seven Bridge card game; the lingerie the girls take off was drawn from the Cecile mail-order catalogue.",
+   "text": "탈의 세븐 브리지 카드 게임으로, 소녀들이 벗는 란제리는 Cecile 통신 판매 카탈로그에서 가져와 그렸다."
+  },
+  "pc88:local-b2372bc2aa": {
+   "en": "A strip card-battle game: each cleared stage removes a piece of clothing from one of the two girls, and stripping both completely wins.",
+   "text": "탈의 카드 배틀 게임이다. 스테이지를 클리어할 때마다 두 소녀 중 한 명이 옷을 한 겹 벗고, 둘 다 완전히 벗기면 승리한다."
+  },
+  "pc88:local-b2ccdde7d4": {
+   "en": "A gallery of Adult Inn's 1987-1988 adult games, Ikenie no Machi, Lolita Violence, Bunny-chan no Himitsu and Shoujo 303 among them, with a music mode.",
+   "text": "Ikenie no Machi, Lolita Violence, Bunny-chan no Himitsu, Shoujo 303을 비롯한 Adult Inn의 1987~1988년 성인 게임들의 갤러리로, 음악 모드가 있다."
+  },
+  "pc88:local-b3482fbcf4": {
+   "en": "An erotic disk magazine aimed at older women than Zeta (college students, office workers, models); answering questions correctly in its corners reveals sexy pictures.",
+   "text": "Zeta보다 연상의 여성들(여대생, 직장인, 모델)을 다룬 에로틱 디스크 매거진이다. 코너별 질문에 올바르게 답하면 섹시한 그림이 나온다."
+  },
+  "pc88:local-b40024ad29": {
+   "en": "An erotic action parody in which you brave a series of stages so you can force yourself on Rimi-chan, the girl who moved in next door.",
+   "text": "옆집으로 이사 온 소녀 Rimi-chan을 억지로 범하기 위해 여러 스테이지를 헤쳐 나가는 에로틱 액션 패러디이다."
+  },
+  "pc88:local-b4687b594f": {
+   "en": "An erotic CG sequel to Keiko-chan no Himitsu showing a grown-up Keiko in sex scenes as a nurse, an office worker or a new wife, about five pictures per part; the office part has her in an affair with her boss, with bondage and oral sex. Needs a five-digit password to run.",
+   "text": "Keiko-chan no Himitsu의 에로틱 CG 속편으로, 성인이 된 게이코가 간호사, 회사원, 신부로서 성관계 장면을 보여 주며 각 편에 그림이 약 다섯 장씩 있다. 회사원 편에서는 상사와의 불륜이 나오며 속박과 구강성교가 있다. 실행하려면 다섯 자리 비밀번호가 필요하다."
+  },
+  "pc88:local-b4ad3ac440": {
+   "en": "A strip poker game with TKO Soft's own house rules.",
+   "text": "TKO Soft 고유의 하우스 룰이 적용된 탈의 포커 게임이다."
+  },
+  "pc88:local-b4ade00e5b": {
+   "en": "Part of Champion Soft's erotic Zeta disk magazine series built around teenage idol models, with a spot-the-difference game, jigsaw and a date scene alongside suggestive pictures.",
+   "text": "십대 아이돌 모델을 중심으로 한 챔피언 소프트의 에로틱 Zeta 디스크 매거진 시리즈의 한 편으로, 야한 그림과 함께 틀린 그림 찾기, 조각 그림 맞추기, 데이트 장면이 있다."
+  },
+  "pc88:local-b4fee200b1": {
+   "en": "An adult sliding puzzle: a digitized video clip of a woman breaks into pieces, which you put back together; third in the Peep Show series.",
+   "text": "성인용 슬라이딩 퍼즐이다. 여성의 디지털화된 영상 클립이 조각으로 흩어지고 이를 다시 맞춘다. Peep Show 시리즈의 세 번째 작품이다."
+  },
+  "pc88:local-b5894668a2": {
+   "en": "Part of Iron Gear's Nouten Chokugeki strip blackjack series, converted to the PC-88 by Mad Pierrot.",
+   "text": "Mad Pierrot가 PC-88로 변환한 Iron Gear의 Nouten Chokugeki 탈의 블랙잭 시리즈의 한 편이다."
+  },
+  "pc88:local-b96a0cf277": {
+   "en": "A doujin vertical shooter with several firing options: fight through enemies and a boss in each stage, and every cleared stage is rewarded with an erotic anime picture.",
+   "text": "여러 가지 발사 방식을 갖춘 동인 세로 슈팅 게임이다. 스테이지마다 적과 보스를 돌파하며, 클리어할 때마다 에로틱한 애니메이션 그림이 보상으로 주어진다."
+  },
+  "pc88:local-bcff82c26a": {
+   "en": "The adult sequel to Irohanihoheto: the time-traveling warrior goes to Kyoto in 1582 with Shizuka to repair the history his last trip broke, seducing historical women such as Lady Kasuga and Oichi along the way.",
+   "text": "Irohanihoheto의 성인용 속편이다. 시간 여행 전사가 지난번 여행으로 어긋난 역사를 바로잡기 위해 시즈카와 함께 1582년 교토로 가며, 도중에 Lady Kasuga와 오이치 같은 역사 속 여성들을 유혹한다."
+  },
+  "pc88:local-c5c523de00": {
+   "en": "A yakyuken strip game and follow-up to Palcom's Mariko no Heya: win rounds of rock-paper-scissors against Mariko (keys 1, 2 and 3) and she undresses, ending in nude pictures.",
+   "text": "Palcom의 Mariko no Heya의 후속작인 야구권 탈의 게임이다. 마리코를 상대로 한 가위바위보(키 1, 2, 3)에서 이기면 그녀가 옷을 벗고, 마지막에는 누드 그림이 나온다."
+  },
+  "pc88:local-e43a6054be": {
+   "en": "A doujin adult adventure set in 20XX, when a virus has left every man gravely ill: the heroic 'Fighting Nurse' works to cure it, and her mission includes sex scenes with other women.",
+   "text": "바이러스로 남자들이 모두 중병에 걸린 20XX년을 배경으로 한 동인 성인용 어드벤처이다. 영웅적인 'Fighting Nurse'가 이를 치료하려 애쓰며, 그녀의 임무에는 다른 여성들과의 성관계 장면이 포함된다."
+  },
+  "pc88:local-ecfa135d29": {
+   "en": "An adult game: undress Yumiko by command, and each refusal sends you to a minigame such as a maze or a memory test; F10 swaps the screen for an English textbook.",
+   "text": "성인용 게임이다. 명령으로 유미코의 옷을 벗기며, 거절당할 때마다 미로나 기억력 테스트 같은 미니게임으로 보내진다. F10을 누르면 화면이 영어 교과서로 바뀐다."
+  },
+  "pc88:local-f0d127ca1c": {
+   "en": "An adult action game in six volumes: chase twenty schoolgirls in real school uniforms up a ladder, dodging falling buckets and brooms, to see their secret photos.",
+   "text": "여섯 권으로 이루어진 성인용 액션 게임이다. 실제 교복을 입은 여학생 스무 명을 쫓아 사다리를 오르며 떨어지는 양동이와 빗자루를 피해 그녀들의 비밀 사진을 본다."
+  },
+  "pc88:local-fb63f9a4d4": {
+   "en": "Memorize a nine-digit code and key in the digits asked for to see pictures of girls.",
+   "text": "아홉 자리 코드를 외워 요구하는 숫자를 입력하면 소녀들의 그림을 볼 수 있다."
+  },
+  "pc88:local-fbd12fa77e": {
+   "en": "A digitized picture collection of a girl's racy private life, with decorations and music.",
+   "text": "한 소녀의 야한 사생활을 담은 디지털화된 그림 모음집으로, 장식과 음악이 있다."
+  },
+  "pc88:local-fc8cae10d8": {
+   "en": "A lolita picture book: one key per explicit picture of schoolgirls in blouses, sailor uniforms and tennis wear, turning abnormal after the first few.",
+   "text": "롤리타 그림책이다. 블라우스, 세일러복, 테니스복 차림의 여학생들의 노골적인 그림을 키 하나로 한 장씩 넘기며, 처음 몇 장 이후로는 비정상적으로 흘러간다."
+  },
+  "pc88:local-fcfc95b6a3": {
+   "en": "A lolicon adult adventure: posing as a gas company worker, a panty collector gets into the home of Yumiko, a young girl left home alone, with three endings.",
+   "text": "로리콘 성인용 어드벤처이다. 가스 회사 직원으로 위장한 팬티 수집가가 혼자 집에 있는 어린 소녀 유미코의 집에 들어가며, 결말은 세 가지이다."
+  },
+  "pc88:moby-58797": {
+   "en": "Koei's lolita game in four scenes: undress a young girl, examine her, diagnose her illness, give an enema and operate; succeed and you can clone her.",
+   "text": "네 장면으로 이루어진 코에이의 롤리타 게임이다. 어린 소녀의 옷을 벗기고, 진찰하고, 병을 진단하고, 관장을 하고 수술하며, 성공하면 그녀를 복제할 수 있다."
+  }
  },
  "schemaVersion": 1
 }
