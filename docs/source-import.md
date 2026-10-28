@@ -48,6 +48,8 @@ The archive was extracted unchanged except that QUASI88's sound output section w
 
 ### Local changes
 
+The changes are recorded in `tools/patches.py`, which `shared/tools/local_patches.py .` applies to a fresh snapshot and checks in CI (`--check`: undoing and redoing them must give back the committed tree). Change the snapshot only through it: add or edit a group there, then apply it with `--group`.
+
 Two kinds of machine state that QUASI88 leaves out of its state files are saved in new sections, so a loaded state runs exactly as the saved machine would have. A state file without these sections still loads as before. ROM loading is split out so it can run again.
 
 | File | Change |

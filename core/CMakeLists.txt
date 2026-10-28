@@ -1,4 +1,4 @@
-# The Kairo88 PC-8801 core: QUASI88 (third_party/quasi88, unmodified) with the
+# The Kairo88 PC-8801 core: QUASI88 (third_party/quasi88, with the local changes in tools/patches.py) with the
 # Kairo88 system layer in port/. Builds for Android (from the app's native
 # build) and for the host (boot_test), so the core can be tested without a
 # device.
