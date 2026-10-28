@@ -5,6 +5,7 @@ These notices apply to the emulator code, libraries, and C++ runtime in this pac
 QUASI88 0.7.4 by Showzoh Fukunaga
 Source: third_party/quasi88/doc/manual.txt (著作権／免責)
 ========================================================================
+
 QUASI88, except its sound output section, is free software under terms following the modified
 BSD license. Kairo88 does not include the sound output section (MAME/XMAME code and fmgen); its
 sound comes from ymfm. Some of QUASI88's built-in images use ICOOON MONO icons and the Shinonome
@@ -32,6 +33,7 @@ font, which remain under their authors' copyrights.
 ymfm
 Source: third_party/ymfm/LICENSE
 ========================================================================
+
 BSD 3-Clause License
 
 Copyright (c) 2021, Aaron Giles
@@ -62,11 +64,11 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
 ========================================================================
-Shinonome 16-dot bitmap fonts (public domain)
+Shinonome 16-dot bitmap fonts (public domain), in QUASI88's built-in images
 Source: third_party/shinonome/LICENSE
 ========================================================================
+
 ●東雲フォントライセンス
                                                                     2001
                                      The Electronic Font Open Laboratory
