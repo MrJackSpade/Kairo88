@@ -16,9 +16,7 @@ import org.json.JSONObject
  */
 object Pc88Catalog : LayeredGameCatalog.Schema {
     override val platform = "pc88"
-    override val updateUrl = "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/core-v3.json"
-    override val metadataUrl = "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/core-v3.meta.json"
-    override val coreVersion = 3
+    override val catalogUrl = "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/"
     override val selfHostedArt = "/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/"
     override val contentId = Regex("sha256-(?:fd|tape)-v1:[0-9a-f]{64}")
     override val mediaExtensions = Regex("\\.(?:zip|7z|d88|88d|t88|cmt)$", RegexOption.IGNORE_CASE)
