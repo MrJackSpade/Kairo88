@@ -97,11 +97,6 @@
     <string name="rhythm_description">サウンドボード II の音楽用ドラム音</string>
     <!-- EN: The second disk this game needs is not in the library -->
     <string name="second_disk_missing">このゲームに必要な2枚目のディスクがライブラリにありません</string>
-    <!-- EN: the emulator could not read or write the state -->
-    <string name="state_error_io">エミュレーターがステートを読み書きできませんでした</string>
-    <!-- %1$d is the emulator's error code. -->
-    <!-- EN: code %1$d -->
-    <string name="state_error_code">コード %1$d</string>
     <!-- EN: BASIC mode -->
     <string name="option_basic">BASIC モード</string>
     <!-- EN: CPU clock -->

@@ -97,11 +97,6 @@
     <string name="rhythm_description">звук ударных для музыки звуковой карты II</string>
     <!-- EN: The second disk this game needs is not in the library -->
     <string name="second_disk_missing">Второй диск, нужный этой игре, отсутствует в библиотеке</string>
-    <!-- EN: the emulator could not read or write the state -->
-    <string name="state_error_io">эмулятор не смог прочитать или записать состояние</string>
-    <!-- %1$d is the emulator's error code. -->
-    <!-- EN: code %1$d -->
-    <string name="state_error_code">код %1$d</string>
     <!-- EN: BASIC mode -->
     <string name="option_basic">Режим BASIC</string>
     <!-- EN: CPU clock -->

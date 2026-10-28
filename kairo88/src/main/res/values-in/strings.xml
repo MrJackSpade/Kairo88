@@ -97,11 +97,6 @@
     <string name="rhythm_description">suara drum untuk musik kartu suara II</string>
     <!-- EN: The second disk this game needs is not in the library -->
     <string name="second_disk_missing">Disk kedua yang diperlukan game ini tidak ada di pustaka</string>
-    <!-- EN: the emulator could not read or write the state -->
-    <string name="state_error_io">emulator tidak dapat membaca atau menulis status</string>
-    <!-- %1$d is the emulator's error code. -->
-    <!-- EN: code %1$d -->
-    <string name="state_error_code">kode %1$d</string>
     <!-- EN: BASIC mode -->
     <string name="option_basic">Mode BASIC</string>
     <!-- EN: CPU clock -->

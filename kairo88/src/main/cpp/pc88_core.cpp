@@ -166,16 +166,15 @@ public:
     }
 
     int save_state(const std::string &directory) override {
-        return k88_state_save((directory + kStateFile).c_str()) == 0 ? 0 : kStateFailed;
+        return k88_state_save((directory + kStateFile).c_str()) == 0 ? 0 : kFailed;
     }
 
     int load_state(const std::string &directory) override {
         release_inputs();
-        return k88_state_load((directory + kStateFile).c_str()) == 0 ? 0 : kStateFailed;
+        return k88_state_load((directory + kStateFile).c_str()) == 0 ? 0 : kFailed;
     }
 
     // MainActivity.stateError reads these.
-    static constexpr int kStateFailed = 2;
 
 private:
     Pc88Core() = default;
