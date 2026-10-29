@@ -89,6 +89,9 @@ int k88_tape_running(void);
 /* Whether the floppy controller moved a byte since the last call (a command, its result or a
  * sector's data, which QUASI88's fdc_read and fdc_write mark). Call it once a frame. */
 int k88_disk_busy(void);
+/* How many times the guest has toggled the mouse strobe (port $40 bit 6), as a mouse program does to
+ * read the mouse (patch group kairo88-mouse-strobes). */
+unsigned long k88_mouse_strobes(void);
 /* How far the tape in the deck has been read: bytes read and the image's size. 0 when a tape is in
  * the deck and not at its end, else -1 (QUASI88 forgets both once the tape has been read to its end). */
 int k88_tape_position(long *read, long *size);

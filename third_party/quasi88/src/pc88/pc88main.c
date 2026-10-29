@@ -3161,10 +3161,14 @@ void calendar_stlobe(void)
  * コントロール信号入出力
  *===========================================================================*/
 
+/* Kairo88: toggles of the mouse strobe (k88_mouse_strobes) */
+unsigned long kairo88_mouse_strobes;
+
 static void out_ctrl_signal(byte data)
 {
 	byte  trg_on  = ~ctrl_signal &  data;
 	byte  trg_off =  ctrl_signal & ~data;
+	if ((trg_on | trg_off) & 0x40) kairo88_mouse_strobes++;
 
 	if (trg_on  & 0x01) {
 		printer_stlobe();

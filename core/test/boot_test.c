@@ -134,5 +134,6 @@ int main(int argc, char *argv[])
 	}
 	printf("%s (%u frames)\n", wav_path, wav_frames);
 	printf("disk busy in %d of %d frames, the last at frame %d\n", busy, frames, last_busy);
+	printf("mouse strobes: %lu\n", k88_mouse_strobes());
 	return 0;
 }

@@ -160,6 +160,12 @@ public:
 
     // Caps is bit 0 and Kana bit 1, as Pc88Native lists them.
     int locks() override { return k88_locks(); }
+    // Auto touch mode (Kairo#78): the guest clocking a mouse's data out is the mouse; with no
+    // keyboard signal of its own, the keyboard stays the default.
+    bool guest_input(GuestInput &input) override {
+        input.mouse_reads = k88_mouse_strobes();
+        return true;
+    }
 
     void reset() override {
         release_inputs();

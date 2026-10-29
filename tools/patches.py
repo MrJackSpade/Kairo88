@@ -687,4 +687,14 @@ extern int use_half_interp;					/* 画面サイズ半分時、色補間する */
          'byte fdc_read(void)\n{\n',
          'byte fdc_read(void)\n{\n\tkairo88_fdc_active = 1;\n'),
     ],
+    # Auto touch mode (Kairo#78): a mouse program clocks the mouse's nibbles out with port $40's
+    # bit 6, which a joystick read never toggles. Counted whatever the port holds: the Controls
+    # setting picks the mouse, and Auto is for when nobody did (k88_mouse_strobes).
+    'kairo88-mouse-strobes': [
+        ('quasi88/src/pc88/pc88main.c',
+         'static void out_ctrl_signal(byte data)\n{\n\tbyte  trg_on  = ~ctrl_signal &  data;\n\tbyte  trg_off =  ctrl_signal & ~data;\n',
+         '/* Kairo88: toggles of the mouse strobe (k88_mouse_strobes) */\nunsigned long kairo88_mouse_strobes;\n\n'
+         'static void out_ctrl_signal(byte data)\n{\n\tbyte  trg_on  = ~ctrl_signal &  data;\n\tbyte  trg_off =  ctrl_signal & ~data;\n'
+         '\tif ((trg_on | trg_off) & 0x40) kairo88_mouse_strobes++;\n'),
+    ],
 }

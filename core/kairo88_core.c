@@ -149,6 +149,13 @@ int k88_tape_running(void)
 	return tape_path[0] && (sys_ctrl & 0x08) && sio_tape_pos(&position, &end) && end > 0;
 }
 
+extern unsigned long kairo88_mouse_strobes;
+
+unsigned long k88_mouse_strobes(void)
+{
+	return kairo88_mouse_strobes;
+}
+
 int k88_disk_busy(void)
 {
 	int active = kairo88_fdc_active;
