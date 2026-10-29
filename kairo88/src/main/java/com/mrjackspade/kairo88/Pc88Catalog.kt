@@ -26,7 +26,11 @@ object Pc88Catalog : LayeredGameCatalog.Schema {
         CatalogSetting.Lines(LAUNCH, COMMANDS, UiText.res(FrontendR.string.kairo_startup_commands),
             UiText.res(FrontendR.string.kairo_startup_commands_hint), Regex("[ -~]{1,40}"), 8) { game, options ->
             if (game.contentId.startsWith(TAPE_ID)) defaultLoader(options.getValue(Pc88Native.basic.id)) else emptyList()
-        })
+        }) +
+        // A game's startup menus and disk swaps (shared StartupAutomation).
+        listOf(CatalogSetting.StartupChoices,
+        // Drives 1 and 2 and the cassette (MainActivity.mediaSlots).
+        CatalogSetting.DiskSwaps(3) { drive, id -> id.startsWith(if (drive < 2) FLOPPY else TAPE_ID) })
     override val fields = CatalogSetting.fields(settings)
     /** A mouse game's pointer goes to a point by a push to the corner and counts (pc88_core.cpp mouse_warp). */
     override val directTouch = true
@@ -34,7 +38,7 @@ object Pc88Catalog : LayeredGameCatalog.Schema {
     override fun validMedia(role: String, contentId: String) = role == "floppyB" && contentId.startsWith(FLOPPY)
 
     override fun validField(field: String, value: Any): Boolean =
-        field in fields && CatalogSetting.validSection(settings, field, value)
+        field in fields && CatalogSetting.valid(settings, contentId, field, value)
 
     const val LAUNCH = "launch"
     const val COMMANDS = "commands"

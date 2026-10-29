@@ -102,3 +102,7 @@ def NOT_GAME(path):
 # or from its tape when it has no floppy.
 BOOT_KINDS = ["fd", "tape"]
 COMPANION = {"fd": ("fd", "floppyB", False)}
+
+# The media slots a disk swap can use and the disks each takes (MainActivity.mediaSlots, the
+# catalog schema's CatalogSetting.DiskSwaps; shared/tools/startup_automation.py).
+DISK_SWAPS = {0: {"fd"}, 1: {"fd"}, 2: {"tape"}}
