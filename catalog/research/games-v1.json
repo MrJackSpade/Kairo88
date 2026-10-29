@@ -118,7 +118,10 @@
     "neokobe:Super Mario Bros. Special (Hudson Soft)/Super Mario Bros. Special [FD] [Set 1].7z",
     "neokobe:Super Mario Bros. Special (Hudson Soft)/Super Mario Bros. Special [FD].7z"
    ],
-   "title": "Super Mario Bros. Special"
+   "title": "Super Mario Bros. Special",
+   "titles": {
+    "ja": "スーパーマリオブラザーズ スペシャル"
+   }
   },
   "pc88:128301": {
    "artwork": {
@@ -425,6 +428,9 @@
     "neokobe:Door Door (Enix)/Door Door [FD].7z"
    ],
    "title": "Door-Door",
+   "titles": {
+    "ja": "ドアドア"
+   },
    "year": 1983
   },
   "pc88:139244": {
@@ -1209,7 +1215,10 @@
     "neokobe:Lolita Syndrome (Enix)/Lolita Syndrome [FD] [Set 1].7z",
     "neokobe:Lolita Syndrome (Enix)/Lolita Syndrome [FD].7z"
    ],
-   "title": "L♥lita Syndrome"
+   "title": "L♥lita Syndrome",
+   "titles": {
+    "ja": "ロリータ・シンドローム"
+   }
   },
   "pc88:140889": {
    "aliases": [
@@ -1275,7 +1284,10 @@
    "sourceGroups": [
     "neokobe:Shiryou Sensen - War of the Dead Part 2 (Crossmedia Soft)/Shiryou Sensen - War of the Dead Part 2 [FD].7z"
    ],
-   "title": "Shiryou Sensen 2: War of the Dead Part 2"
+   "title": "Shiryou Sensen 2: War of the Dead Part 2",
+   "titles": {
+    "ja": "死霊戦線 War of the Dead Part 2"
+   }
   },
   "pc88:140890": {
    "artwork": {
@@ -1709,6 +1721,9 @@
     "neokobe:1000-Nen Oukoku (Log)/1000-Nen Oukoku [FD].7z"
    ],
    "title": "1000nen Oukoku",
+   "titles": {
+    "ja": "1000年王国"
+   },
    "year": 1986
   },
   "pc88:157832": {
@@ -2400,6 +2415,9 @@
     "neokobe:Hydlide (T&E Soft)/Hydlide [FD].7z"
    ],
    "title": "Hydlide",
+   "titles": {
+    "ja": "ハイドライド"
+   },
    "year": 1984
   },
   "pc88:163890": {
@@ -2453,6 +2471,9 @@
     "neokobe:King Flappy (dB-Soft)/King Flappy [FD].7z"
    ],
    "title": "King Flappy",
+   "titles": {
+    "ja": "キングフラッピー"
+   },
    "year": 1985
   },
   "pc88:169193": {
@@ -2835,6 +2856,9 @@
     "neokobe:Burning Point (Enix)/Burning Point [FD].7z"
    ],
    "title": "Burning Point",
+   "titles": {
+    "ja": "バーニングポイント"
+   },
    "year": 1989
   },
   "pc88:177854": {
@@ -3243,7 +3267,10 @@
     "neokobe:Crystal Dream (Striker)/Crystal Dream [FD] [Set 2].7z",
     "neokobe:Crystal Dream (Striker)/Crystal Dream [FD].7z"
    ],
-   "title": "Crystal Dream"
+   "title": "Crystal Dream",
+   "titles": {
+    "ja": "クリスタルドリーム"
+   }
   },
   "pc88:180983": {
    "adult": true,
@@ -3313,6 +3340,9 @@
     "neokobe:Crystal Dream 2 (Striker)/Crystal Dream 2 [FD].7z"
    ],
    "title": "Crystal Dream II: Maou no Genei",
+   "titles": {
+    "ja": "クリスタルドリーム Ⅱ ～魔王の幻影～"
+   },
    "year": 1990
   },
   "pc88:180984": {
@@ -3374,7 +3404,10 @@
    "sourceGroups": [
     "neokobe:Hokuto no Ken (Enix)/Hokuto no Ken [FD].7z"
    ],
-   "title": "Hokuto no Ken"
+   "title": "Hokuto no Ken",
+   "titles": {
+    "ja": "北斗の拳 バイオレンス劇画アドベンチャー"
+   }
   },
   "pc88:180985": {
    "artwork": {
@@ -3458,7 +3491,10 @@
     "neokobe:Jesus (Enix)/Jesus [FD] [Set 1].7z",
     "neokobe:Jesus (Enix)/Jesus [FD].7z"
    ],
-   "title": "Jesus"
+   "title": "Jesus",
+   "titles": {
+    "ja": "ジーザス"
+   }
   },
   "pc88:180986": {
    "artwork": {
@@ -3538,6 +3574,9 @@
     "neokobe:Jesus II (Enix)/Jesus II [FD].7z"
    ],
    "title": "Jesus II",
+   "titles": {
+    "ja": "ジーザスII"
+   },
    "year": 1991
   },
   "pc88:180987": {
@@ -3659,7 +3698,10 @@
     "neokobe:Project A-ko (Tatsumi Shuppan)/Project A-ko [FD] [Set 1].7z",
     "neokobe:Project A-ko (Tatsumi Shuppan)/Project A-ko [FD].7z"
    ],
-   "title": "Project A-ko"
+   "title": "Project A-ko",
+   "titles": {
+    "ja": "プロジェクトＡ子"
+   }
   },
   "pc88:180989": {
    "artwork": {
@@ -3709,7 +3751,10 @@
    "sourceGroups": [
     "neokobe:Project A-ko 2 (Tatsumi Shuppan)/Project A-ko 2 [FD].7z"
    ],
-   "title": "Project A-ko 2"
+   "title": "Project A-ko 2",
+   "titles": {
+    "ja": "プロジェクトＡ子２"
+   }
   },
   "pc88:180991": {
    "artwork": {
@@ -3848,7 +3893,10 @@
     "neokobe:The 4th Unit (Data West)/The 4th Unit [FD] [Set 2].7z",
     "neokobe:The 4th Unit (Data West)/The 4th Unit [FD].7z"
    ],
-   "title": "The 4th Unit"
+   "title": "The 4th Unit",
+   "titles": {
+    "ja": "第４のユニット"
+   }
   },
   "pc88:181006": {
    "adult": true,
@@ -3926,7 +3974,10 @@
     "neokobe:The 4th Unit 2 (Data West)/The 4th Unit 2 [FD] [Set 1].7z",
     "neokobe:The 4th Unit 2 (Data West)/The 4th Unit 2 [FD].7z"
    ],
-   "title": "The 4th Unit 2"
+   "title": "The 4th Unit 2",
+   "titles": {
+    "ja": "第４のユニット２"
+   }
   },
   "pc88:181007": {
    "aliases": [
@@ -4001,7 +4052,10 @@
     "neokobe:The 4th Unit 3 - Dual Targets (Data West)/The 4th Unit 3 - Dual Targets [FD] [Set 1].7z",
     "neokobe:The 4th Unit 3 - Dual Targets (Data West)/The 4th Unit 3 - Dual Targets [FD].7z"
    ],
-   "title": "The 4th Unit Act 3: Dual Targets"
+   "title": "The 4th Unit Act 3: Dual Targets",
+   "titles": {
+    "ja": "デュアルターゲット -第４のユニット３-"
+   }
   },
   "pc88:181008": {
    "adult": true,
@@ -4120,6 +4174,9 @@
     "neokobe:Abunai Tengu Densetsu (Alice Soft)/Abunai Tengu Densetsu [FD].7z"
    ],
    "title": "Abunai Tengu Densetsu",
+   "titles": {
+    "ja": "あぶない天狗伝説"
+   },
    "year": 1989
   },
   "pc88:181010": {
@@ -4291,7 +4348,10 @@
     "neokobe:Again (Enix)/Again [FD] [Set 2].7z",
     "neokobe:Again (Enix)/Again [FD].7z"
    ],
-   "title": "Again"
+   "title": "Again",
+   "titles": {
+    "ja": "アゲイン"
+   }
   },
   "pc88:181013": {
    "adult": true,
@@ -4347,6 +4407,9 @@
     "neokobe:Angel Hearts (elf)/Angel Hearts [FD].7z"
    ],
    "title": "Angel Hearts",
+   "titles": {
+    "ja": "エンジェル・ハーツ"
+   },
    "year": 1989
   },
   "pc88:181014": {
@@ -4871,7 +4934,10 @@
    "sourceGroups": [
     "neokobe:The Death Trap (Square)/The Death Trap [FD].7z"
    ],
-   "title": "The Death Trap"
+   "title": "The Death Trap",
+   "titles": {
+    "ja": "ザ・デストラップ"
+   }
   },
   "pc88:181022": {
    "artwork": {
@@ -4990,7 +5056,10 @@
     "neokobe:Kaze no Tani no Nausicaa (Technopolis Soft)/Kaze no Tani no Nausicaa [FD] [Set 2] [b].7z",
     "neokobe:Kaze no Tani no Nausicaa (Technopolis Soft)/Kaze no Tani no Nausicaa [FD] [b].7z"
    ],
-   "title": "Kaze no Tani no Naushika"
+   "title": "Kaze no Tani no Naushika",
+   "titles": {
+    "ja": "風の谷のナウシカ"
+   }
   },
   "pc88:181024": {
    "aliases": [
@@ -5110,7 +5179,10 @@
    "sourceGroups": [
     "neokobe:Lupin Sansei - Babylon no Ougon Densetsu (Toho)/Lupin Sansei - Babylon no Ougon Densetsu [FD].7z"
    ],
-   "title": "Lupin the 3rd: Babylon no Ougon Densetsu"
+   "title": "Lupin the 3rd: Babylon no Ougon Densetsu",
+   "titles": {
+    "ja": "ルパン三世 ～バビロンの黄金伝説～"
+   }
   },
   "pc88:181027": {
    "aliases": [
@@ -5270,6 +5342,9 @@
     "neokobe:Muteki Keiji Daidageki (Family Soft)/Muteki Keiji Daidageki [FD].7z"
    ],
    "title": "Muteki Keiji Daidageki: Shijou Saidai no Hanzai",
+   "titles": {
+    "ja": "無敵刑事 大打撃 ～史上最大の犯罪～"
+   },
    "year": 1990
   },
   "pc88:181029": {
@@ -5544,7 +5619,10 @@
     "neokobe:Salad no Kuni no Tomato-hime (Hudson Soft)/Salad no Kuni no Tomato-hime [FD] [Set 1].7z",
     "neokobe:Salad no Kuni no Tomato-hime (Hudson Soft)/Salad no Kuni no Tomato-hime [FD].7z"
    ],
-   "title": "Salad no Kuni no Tomato-hime"
+   "title": "Salad no Kuni no Tomato-hime",
+   "titles": {
+    "ja": "サラダの国のトマト姫"
+   }
   },
   "pc88:181044": {
    "artwork": {
@@ -6007,7 +6085,10 @@
     "neokobe:Zarth (Enix)/Zarth [FD] [Set 9].7z",
     "neokobe:Zarth (Enix)/Zarth [FD].7z"
    ],
-   "title": "Zarth"
+   "title": "Zarth",
+   "titles": {
+    "ja": "ザース"
+   }
   },
   "pc88:181051": {
    "artwork": {
@@ -6156,7 +6237,10 @@
     "neokobe:Wing Man (Enix)/Wing Man [FD] [Set 4].7z",
     "neokobe:Wing Man (Enix)/Wing Man [FD].7z"
    ],
-   "title": "Wingman"
+   "title": "Wingman",
+   "titles": {
+    "ja": "ウイングマン"
+   }
   },
   "pc88:181064": {
    "aliases": [
@@ -6428,7 +6512,10 @@
     "neokobe:Portopia Renzoku Satsujin Jiken (Enix)/Portopia Renzoku Satsujin Jiken [FD] [Set 1].7z",
     "neokobe:Portopia Renzoku Satsujin Jiken (Enix)/Portopia Renzoku Satsujin Jiken [FD].7z"
    ],
-   "title": "Portopia Renzoku Satsujin Jiken"
+   "title": "Portopia Renzoku Satsujin Jiken",
+   "titles": {
+    "ja": "ポートピア連続殺人事件"
+   }
   },
   "pc88:181072": {
    "aliases": [
@@ -6498,7 +6585,10 @@
    "sourceGroups": [
     "neokobe:Angelus (Enix)/Angelus [FD].7z"
    ],
-   "title": "Angelus: Akuma no Fukuin"
+   "title": "Angelus: Akuma no Fukuin",
+   "titles": {
+    "ja": "アンジェラス 〜悪魔の福音〜"
+   }
   },
   "pc88:181073": {
    "artwork": {
@@ -6566,6 +6656,9 @@
     "neokobe:Misty Blue (Enix)/Misty Blue [FD].7z"
    ],
    "title": "Misty Blue",
+   "titles": {
+    "ja": "ミスティブルー"
+   },
    "year": 1990
   },
   "pc88:181074": {
@@ -6605,7 +6698,10 @@
    "sourceGroups": [
     "neokobe:Seiko's Adventure (Enix)/Seiko's Adventure [FD].7z"
    ],
-   "title": "Seiko no Adventure"
+   "title": "Seiko no Adventure",
+   "titles": {
+    "ja": "星子のアドベンチャー"
+   }
   },
   "pc88:181075": {
    "adult": true,
@@ -6640,7 +6736,10 @@
    "sourceGroups": [
     "neokobe:Joshiryou Panic (Enix)/Joshiryou Panic [FD].7z"
    ],
-   "title": "Joshiryou Panic"
+   "title": "Joshiryou Panic",
+   "titles": {
+    "ja": "女子寮パニック"
+   }
   },
   "pc88:181076": {
    "aliases": [
@@ -6752,7 +6851,10 @@
    "sourceGroups": [
     "neokobe:Eldorado Denki (Enix)/Eldorado Denki [FD].7z"
    ],
-   "title": "El Dorado Denki"
+   "title": "El Dorado Denki",
+   "titles": {
+    "ja": "エルドラド伝奇"
+   }
   },
   "pc88:181078": {
    "aliases": [
@@ -6815,7 +6917,10 @@
     "neokobe:Karuizawa Yuukai Annai (Enix)/Karuizawa Yuukai Annai [FD] [Set 1].7z",
     "neokobe:Karuizawa Yuukai Annai (Enix)/Karuizawa Yuukai Annai [FD].7z"
    ],
-   "title": "Karuizawa Yuukai Annai"
+   "title": "Karuizawa Yuukai Annai",
+   "titles": {
+    "ja": "軽井沢誘拐案内"
+   }
   },
   "pc88:181079": {
    "artwork": {
@@ -6876,7 +6981,10 @@
    "sourceGroups": [
     "neokobe:The Old Village Story (Enix)/The Old Village Story [FD].7z"
    ],
-   "title": "The Old Village Story"
+   "title": "The Old Village Story",
+   "titles": {
+    "ja": "オールド・ヴィレッジ・ストーリー"
+   }
   },
   "pc88:181080": {
    "artwork": {
@@ -7503,7 +7611,10 @@
     "neokobe:Will - The Death Trap II (Square)/Will - The Death Trap II [FD] [Set 3].7z",
     "neokobe:Will - The Death Trap II (Square)/Will - The Death Trap II [FD].7z"
    ],
-   "title": "Will: The Death Trap II"
+   "title": "Will: The Death Trap II",
+   "titles": {
+    "ja": "ウィル デス・トラップII"
+   }
   },
   "pc88:181102": {
    "artwork": {
@@ -8049,7 +8160,10 @@
     "neokobe:Prontis (Crossmedia Soft)/Prontis [FD] [Set 1].7z",
     "neokobe:Prontis (Crossmedia Soft)/Prontis [FD].7z"
    ],
-   "title": "Prontis"
+   "title": "Prontis",
+   "titles": {
+    "ja": "プロンティス"
+   }
   },
   "pc88:182190": {
    "artwork": {
@@ -8279,6 +8393,9 @@
     "neokobe:Alpha (Square)/Alpha [FD].7z"
    ],
    "title": "Alpha",
+   "titles": {
+    "ja": "アルファ"
+   },
    "year": 1986
   },
   "pc88:182534": {
@@ -8371,6 +8488,9 @@
     "neokobe:Haja Taisei Dangaioh (Technopolis Soft)/Haja Taisei Dangaioh [FD].7z"
    ],
    "title": "Haja Taisei Dangaioh",
+   "titles": {
+    "ja": "破邪大星ダンガイオー"
+   },
    "year": 1990
   },
   "pc88:182538": {
@@ -8445,7 +8565,10 @@
    "sourceGroups": [
     "neokobe:Maison Ikkoku Kanketsu-hen (Microcabin)/Maison Ikkoku Kanketsu-hen [FD].7z"
    ],
-   "title": "Maison Ikkoku: Kanketsuhen"
+   "title": "Maison Ikkoku: Kanketsuhen",
+   "titles": {
+    "ja": "めぞん一刻 完結編 ～さよなら、そして…～"
+   }
   },
   "pc88:182539": {
    "artwork": {
@@ -8505,6 +8628,9 @@
     "neokobe:Maison Ikkoku - Omoide no Photograph (Microcabin)/Maison Ikkoku - Omoide no Photograph [FD].7z"
    ],
    "title": "Maison Ikkoku: Omoide no Photograph",
+   "titles": {
+    "ja": "めぞん一刻 ～想いでのフォトグラフ～"
+   },
    "year": 1986
   },
   "pc88:182541": {
@@ -9171,7 +9297,10 @@
    "sourceGroups": [
     "neokobe:Abyss II - Tears of Emperor (Humming Bird Soft)/Abyss II - Tears of Emperor [FD].7z"
    ],
-   "title": "Abyss II: Tears of Emperor"
+   "title": "Abyss II: Tears of Emperor",
+   "titles": {
+    "ja": "アビス Ⅱ ～帝王の涙～"
+   }
   },
   "pc88:186796": {
    "aliases": [
@@ -9303,7 +9432,10 @@
     "neokobe:Asteka (Falcom)/Asteka [FD] [Set 6].7z",
     "neokobe:Asteka (Falcom)/Asteka [FD].7z"
    ],
-   "title": "Asteka"
+   "title": "Asteka",
+   "titles": {
+    "ja": "アステカ"
+   }
   },
   "pc88:186798": {
    "artwork": {
@@ -9476,6 +9608,9 @@
     "neokobe:Battle Skin Panic (Gainax)/Battle Skin Panic [FD].7z"
    ],
    "title": "Battle Skin Panic",
+   "titles": {
+    "ja": "バトルスキンパニック"
+   },
    "year": 1990
   },
   "pc88:186802": {
@@ -9667,7 +9802,10 @@
     "neokobe:Golques (Data West)/Golques [FD] [Set 1].7z",
     "neokobe:Golques (Data West)/Golques [FD].7z"
    ],
-   "title": "Golques"
+   "title": "Golques",
+   "titles": {
+    "ja": "ゴルコス"
+   }
   },
   "pc88:186805": {
    "artwork": {
@@ -9755,7 +9893,10 @@
    "sourceGroups": [
     "neokobe:Imitation City (Data West)/Imitation City [FD].7z"
    ],
-   "title": "Imitation City"
+   "title": "Imitation City",
+   "titles": {
+    "ja": "イミテーションシティ"
+   }
   },
   "pc88:186807": {
    "aliases": [
@@ -9983,7 +10124,10 @@
    "sourceGroups": [
     "neokobe:New Godzilla (Toho)/New Godzilla [FD].7z"
    ],
-   "title": "New Godzilla"
+   "title": "New Godzilla",
+   "titles": {
+    "ja": "ニューゴジラ"
+   }
   },
   "pc88:186812": {
    "aliases": [
@@ -10164,7 +10308,10 @@
    "sourceGroups": [
     "neokobe:Psy-O-Blade (T&E Soft)/Psy-O-Blade [FD].7z"
    ],
-   "title": "Psy-O-Blade"
+   "title": "Psy-O-Blade",
+   "titles": {
+    "ja": "サイオブレード"
+   }
   },
   "pc88:186815": {
    "artwork": {
@@ -10404,6 +10551,9 @@
     "neokobe:Urusei Yatsura - Koi no Survival Birthday (Microcabin)/Urusei Yatsura - Koi no Survival Birthday [FD].7z"
    ],
    "title": "Urusei Yatsura: Koi no Survival Birthday",
+   "titles": {
+    "ja": "うる星やつら 〜恋のサバイバル・バースディ〜"
+   },
    "year": 1987
   },
   "pc88:186819": {
@@ -10515,7 +10665,10 @@
    "developer": "Toho",
    "launchbox": "186890",
    "publisher": "Toho",
-   "title": "Godzilla"
+   "title": "Godzilla",
+   "titles": {
+    "ja": "ゴジラ"
+   }
   },
   "pc88:187769": {
    "artwork": {
@@ -10625,7 +10778,10 @@
    "sourceGroups": [
     "neokobe:Abunai Josei Shinrigaku Nyuumon (Fairytale)/Abunai Josei Shinrigaku Nyuumon [FD].7z"
    ],
-   "title": "Abunai Josei Shinrigaku Nyuumon"
+   "title": "Abunai Josei Shinrigaku Nyuumon",
+   "titles": {
+    "ja": "あぶない女性心理学入門"
+   }
   },
   "pc88:187772": {
    "artwork": {
@@ -10681,7 +10837,10 @@
    "sourceGroups": [
     "neokobe:Adrenalin Connection (Amorphous - Crossmedia Soft)/Adrenalin Connection [FD].7z"
    ],
-   "title": "Adrenalin Connection"
+   "title": "Adrenalin Connection",
+   "titles": {
+    "ja": "アドレナリン・コネクション"
+   }
   },
   "pc88:187773": {
    "artwork": {
@@ -10757,7 +10916,10 @@
    "launchbox": "187774",
    "publisher": "Humming Bird Soft",
    "screenshotUrl": "https://images.launchbox-app.com/c303cedb-499d-4c59-bf64-b9ee7d63754a.png",
-   "title": "Aguni no Ishi"
+   "title": "Aguni no Ishi",
+   "titles": {
+    "ja": "アグニの石"
+   }
   },
   "pc88:187775": {
    "adult": true,
@@ -10828,7 +10990,10 @@
     "neokobe:Akujo Densetsu II - Sailor Fuku Rhapsody (Dot Kikaku)/Akujo Densetsu II - Sailor Fuku Rhapsody [FD] [Set 1].7z",
     "neokobe:Akujo Densetsu II - Sailor Fuku Rhapsody (Dot Kikaku)/Akujo Densetsu II - Sailor Fuku Rhapsody [FD].7z"
    ],
-   "title": "Akujo Densetsu II: Sailor Fuku Rhapsody"
+   "title": "Akujo Densetsu II: Sailor Fuku Rhapsody",
+   "titles": {
+    "ja": "悪女伝説 Ⅱ ～セーラー服ラプソディ～"
+   }
   },
   "pc88:187776": {
    "adult": true,
@@ -10867,7 +11032,10 @@
    "sourceGroups": [
     "neokobe:Akujo Kamakiri (CSK)/Akujo Kamakiri [FD].7z"
    ],
-   "title": "Akujo Kamakiri"
+   "title": "Akujo Kamakiri",
+   "titles": {
+    "ja": "悪女かまきり"
+   }
   },
   "pc88:187777": {
    "artwork": {
@@ -11056,7 +11224,10 @@
    "sourceGroups": [
     "neokobe:Alfaim (Zain Soft)/Alfaim [FD].7z"
    ],
-   "title": "Alfaim"
+   "title": "Alfaim",
+   "titles": {
+    "ja": "アルフェイム"
+   }
   },
   "pc88:187779": {
    "artwork": {
@@ -11519,7 +11690,10 @@
    "mobygames": 264021,
    "publisher": "Leben Pro",
    "screenshotUrl": "https://images.launchbox-app.com/22c600c6-719c-401b-9303-d6f2413528e8.png",
-   "title": "Aoi Uchuu no Bouken"
+   "title": "Aoi Uchuu no Bouken",
+   "titles": {
+    "ja": "青い宇宙の冒険"
+   }
   },
   "pc88:187819": {
    "artwork": {
@@ -12101,7 +12275,10 @@
     "neokobe:Arion (ASCII)/Arion [FD] [Set 1].7z",
     "neokobe:Arion (ASCII)/Arion [FD].7z"
    ],
-   "title": "Arion"
+   "title": "Arion",
+   "titles": {
+    "ja": "アリオン"
+   }
   },
   "pc88:187829": {
    "artwork": {
@@ -12315,7 +12492,10 @@
    "sourceGroups": [
     "neokobe:Ayumi (Technopolis Soft)/Ayumi [FD].7z"
    ],
-   "title": "Ayumi"
+   "title": "Ayumi",
+   "titles": {
+    "ja": "アユミ"
+   }
   },
   "pc88:187833": {
    "artwork": {
@@ -12511,7 +12691,10 @@
     "neokobe:Bishoujo Shashinkan - Moving School (Hard)/Bishoujo Shashinkan - Moving School [FD] [Set 1].7z",
     "neokobe:Bishoujo Shashinkan - Moving School (Hard)/Bishoujo Shashinkan - Moving School [FD].7z"
    ],
-   "title": "Bishoujo Shasinkan: Moving School"
+   "title": "Bishoujo Shasinkan: Moving School",
+   "titles": {
+    "ja": "美少女写真館 ムービング・スクール"
+   }
   },
   "pc88:188151": {
    "artwork": {
@@ -12972,7 +13155,10 @@
    "sourceGroups": [
     "neokobe:The Byouin (PSK)/The Byouin [FD].7z"
    ],
-   "title": "The Byouin"
+   "title": "The Byouin",
+   "titles": {
+    "ja": "ザ・病院"
+   }
   },
   "pc88:188161": {
    "adult": true,
@@ -13052,7 +13238,10 @@
     "neokobe:Can Can Bunny (Cocktail Soft)/Can Can Bunny [FD] [Set 2].7z",
     "neokobe:Can Can Bunny (Cocktail Soft)/Can Can Bunny [FD].7z"
    ],
-   "title": "Can Can Bunny"
+   "title": "Can Can Bunny",
+   "titles": {
+    "ja": "きゃんきゃんバニー"
+   }
   },
   "pc88:188162": {
    "adult": true,
@@ -13135,6 +13324,9 @@
     "neokobe:Can Can Bunny Superior (Cocktail Soft)/Can Can Bunny Superior [FD].7z"
    ],
    "title": "Can Can Bunny Superior",
+   "titles": {
+    "ja": "きゃんきゃんバニー スペリオール"
+   },
    "year": 1990
   },
   "pc88:188163": {
@@ -13515,7 +13707,10 @@
     "neokobe:Chatty (System Sacom)/Chatty [FD] [Set 1].7z",
     "neokobe:Chatty (System Sacom)/Chatty [FD].7z"
    ],
-   "title": "Chátty"
+   "title": "Chátty",
+   "titles": {
+    "ja": "シャティ"
+   }
   },
   "pc88:188389": {
    "artwork": {
@@ -13863,7 +14058,10 @@
    "sourceGroups": [
     "neokobe:Cosmo Angel (PSK)/Cosmo Angel [FD].7z"
    ],
-   "title": "Cosmo Angel"
+   "title": "Cosmo Angel",
+   "titles": {
+    "ja": "コスモエンジェル"
+   }
   },
   "pc88:188395": {
    "artwork": {
@@ -14604,7 +14802,10 @@
     "neokobe:Dezeni Land (Hudson Soft)/Dezeni Land [FD] [Set 1].7z",
     "neokobe:Dezeni Land (Hudson Soft)/Dezeni Land [FD].7z"
    ],
-   "title": "Dezeni Land"
+   "title": "Dezeni Land",
+   "titles": {
+    "ja": "デゼニランド"
+   }
   },
   "pc88:188407": {
    "artwork": {
@@ -14665,7 +14866,10 @@
     "neokobe:Dezeni World (Hudson Soft)/Dezeni World [FD] [Set 3].7z",
     "neokobe:Dezeni World (Hudson Soft)/Dezeni World [FD].7z"
    ],
-   "title": "Dezeni World"
+   "title": "Dezeni World",
+   "titles": {
+    "ja": "デゼニワールド"
+   }
   },
   "pc88:188408": {
    "artwork": {
@@ -15014,7 +15218,10 @@
    "sourceGroups": [
     "neokobe:Cybernetic Hi-School (Dennou Gakuen) (Gainax)/Cybernetic Hi-School (Dennou Gakuen) [FD].7z"
    ],
-   "title": "Dennou Gakuen"
+   "title": "Dennou Gakuen",
+   "titles": {
+    "ja": "電脳学園"
+   }
   },
   "pc88:188425": {
    "adult": true,
@@ -15101,6 +15308,9 @@
     "neokobe:Cybernetic Hi-School (Dennou Gakuen) 2 (Gainax)/Cybernetic Hi-School (Dennou Gakuen) 2 [FD].7z"
    ],
    "title": "Dennou Gakuen II: Highway Buster!!",
+   "titles": {
+    "ja": "電脳学園２ ～ハイウェイバスター！！～"
+   },
    "year": 1989
   },
   "pc88:188427": {
@@ -15290,7 +15500,10 @@
    "sourceGroups": [
     "neokobe:Dragon Eyes (Game Technopolis - Fairytale)/Dragon Eyes [FD].7z"
    ],
-   "title": "Dragon Eyes"
+   "title": "Dragon Eyes",
+   "titles": {
+    "ja": "ドラゴンアイズ"
+   }
   },
   "pc88:188430": {
    "adult": true,
@@ -15357,7 +15570,10 @@
    "sourceGroups": [
     "neokobe:Dragon Knight (elf)/Dragon Knight [FD].7z"
    ],
-   "title": "Dragon Knight"
+   "title": "Dragon Knight",
+   "titles": {
+    "ja": "ドラゴンナイト"
+   }
   },
   "pc88:188431": {
    "adult": true,
@@ -15424,6 +15640,9 @@
     "neokobe:Dragon Knight II (elf)/Dragon Knight II [FD].7z"
    ],
    "title": "Dragon Knight II",
+   "titles": {
+    "ja": "ドラゴンナイトII"
+   },
    "year": 1990
   },
   "pc88:188432": {
@@ -16195,6 +16414,9 @@
     "neokobe:Exterlien (D.O.)/Exterlien [FD].7z"
    ],
    "title": "Exterlien",
+   "titles": {
+    "ja": "エクスタリアン"
+   },
    "year": 1990
   },
   "pc88:188444": {
@@ -17062,6 +17284,9 @@
     "neokobe:Gaudi - Barcelona no Kaze (Wolf Team)/Gaudi - Barcelona no Kaze [FD].7z"
    ],
    "title": "Gaudi: Barcelona no Kaze",
+   "titles": {
+    "ja": "ガウディ ～バルセロナの風～"
+   },
    "year": 1989
   },
   "pc88:188480": {
@@ -17193,7 +17418,10 @@
    "mobygames": 58923,
    "publisher": "Pony Canyon",
    "screenshotUrl": "https://images.launchbox-app.com/27f9cbe7-ffda-47ad-8583-f4038ff3e6d4.png",
-   "title": "Genma Taisen"
+   "title": "Genma Taisen",
+   "titles": {
+    "ja": "幻魔大戦"
+   }
   },
   "pc88:188484": {
    "artwork": {
@@ -17380,6 +17608,9 @@
     "neokobe:Girls Paradise (Great)/Girls Paradise [FD].7z"
    ],
    "title": "Girls Paradise: Rakuen no Tenshitachi",
+   "titles": {
+    "ja": "ガールズパラダイス 楽園の天使たち"
+   },
    "year": 1989
   },
   "pc88:188488": {
@@ -17743,6 +17974,9 @@
     "neokobe:Hatchake Ayayo-san (Hard)/Hatchake Ayayo-san [FD].7z"
    ],
    "title": "Hacchake Ayayo-san",
+   "titles": {
+    "ja": "はっちゃけあやよさん"
+   },
    "year": 1989
   },
   "pc88:188495": {
@@ -18306,6 +18540,9 @@
     "neokobe:Hoshi no Suna Monogatari (D.O.)/Hoshi no Suna Monogatari [FD].7z"
    ],
    "title": "Hoshi no Suna Monogatari",
+   "titles": {
+    "ja": "星の砂物語"
+   },
    "year": 1991
   },
   "pc88:188510": {
@@ -18671,6 +18908,9 @@
     "neokobe:Illumina! (Cocktail Soft)/Illumina! [FD].7z"
    ],
    "title": "Illumina!",
+   "titles": {
+    "ja": "イルミナ！"
+   },
    "year": 1990
   },
   "pc88:188516": {
@@ -18832,6 +19072,9 @@
     "neokobe:Intruder - Sakura Yashiki no Tansaku (Alice Soft)/Intruder - Sakura Yashiki no Tansaku [FD].7z"
    ],
    "title": "Intruder: Sakura Yashiki no Tansaku",
+   "titles": {
+    "ja": "Intruder -桜屋敷の探索-"
+   },
    "year": 1989
   },
   "pc88:188520": {
@@ -19100,7 +19343,10 @@
    "sourceGroups": [
     "neokobe:Jigoku no Renshuu Mondai (Humming Bird Soft)/Jigoku no Renshuu Mondai [FD].7z"
    ],
-   "title": "Jigoku no Renshuu Mondai"
+   "title": "Jigoku no Renshuu Mondai",
+   "titles": {
+    "ja": "地獄の練習問題"
+   }
   },
   "pc88:188525": {
    "adult": true,
@@ -19368,7 +19614,10 @@
     "neokobe:Kimagure Orange Road - Natsu no Mirage (Microcabin)/Kimagure Orange Road - Natsu no Mirage [FD] [Set 1].7z",
     "neokobe:Kimagure Orange Road - Natsu no Mirage (Microcabin)/Kimagure Orange Road - Natsu no Mirage [FD].7z"
    ],
-   "title": "Kimagure Orange Road: Natsu no Mirage"
+   "title": "Kimagure Orange Road: Natsu no Mirage",
+   "titles": {
+    "ja": "きまぐれオレンジロード ～夏のミラージュ～"
+   }
   },
   "pc88:188567": {
    "artwork": {
@@ -19826,7 +20075,10 @@
    "sourceGroups": [
     "neokobe:Las Vegas (Starcraft)/Las Vegas [FD].7z"
    ],
-   "title": "Las Vegas"
+   "title": "Las Vegas",
+   "titles": {
+    "ja": "ラスベガス"
+   }
   },
   "pc88:188577": {
    "artwork": {
@@ -21271,6 +21523,9 @@
     "neokobe:Mirrors (Soft Studio Wing)/Mirrors [FD].7z"
    ],
    "title": "Mirrors",
+   "titles": {
+    "ja": "ミラーズ"
+   },
    "year": 1990
   },
   "pc88:188608": {
@@ -21844,7 +22099,10 @@
    "sourceGroups": [
     "neokobe:Nanako SOS (Technopolis Soft)/Nanako SOS [FD] [b].7z"
    ],
-   "title": "Nanako SOS"
+   "title": "Nanako SOS",
+   "titles": {
+    "ja": "ななこＳＯＳ"
+   }
   },
   "pc88:188616": {
    "adult": true,
@@ -22454,7 +22712,10 @@
     "neokobe:Onryou Senki (Soft Studio Wing)/Onryou Senki (demo) [FD].7z",
     "neokobe:Onryou Senki (Soft Studio Wing)/Onryou Senki [FD].7z"
    ],
-   "title": "Onryou Senki"
+   "title": "Onryou Senki",
+   "titles": {
+    "ja": "怨霊戦記"
+   }
   },
   "pc88:188626": {
    "adult": true,
@@ -23331,7 +23592,10 @@
    "sourceGroups": [
     "neokobe:Pinky Ponky 2 (elf)/Pinky Ponky 2 [FD].7z"
    ],
-   "title": "Pinky Ponky 2: Twilight Games"
+   "title": "Pinky Ponky 2: Twilight Games",
+   "titles": {
+    "ja": "ぴんきぃぽんきぃ２ とわいらいとげぇむず"
+   }
   },
   "pc88:188640": {
    "adult": true,
@@ -23553,7 +23817,10 @@
    "sourceGroups": [
     "neokobe:Pocky (Ponytail Soft)/Pocky [FD].7z"
    ],
-   "title": "Pocky"
+   "title": "Pocky",
+   "titles": {
+    "ja": "ポッキー"
+   }
   },
   "pc88:188645": {
    "adult": true,
@@ -23918,6 +24185,9 @@
     "neokobe:Rance II (Alice Soft)/Rance II [FD].7z"
    ],
    "title": "Rance II: Hangyaku no Shoujotachi",
+   "titles": {
+    "ja": "ランスII　－反逆の少女たち－"
+   },
    "year": 1990
   },
   "pc88:188650": {
@@ -24525,7 +24795,10 @@
    "sourceGroups": [
     "neokobe:Run Run Kyousoukyoku (elf)/Run Run Kyousoukyoku [FD].7z"
    ],
-   "title": "Run Run Kyousoukyoku"
+   "title": "Run Run Kyousoukyoku",
+   "titles": {
+    "ja": "ＲＵＮ・ＲＵＮ　狂走曲"
+   }
   },
   "pc88:188659": {
    "artwork": {
@@ -24880,7 +25153,10 @@
    "sourceGroups": [
     "neokobe:Skapon Tankentai (PSK)/Skapon Tankentai [FD].7z"
    ],
-   "title": "Skapon Taikentai: The Enchanted Hunters"
+   "title": "Skapon Taikentai: The Enchanted Hunters",
+   "titles": {
+    "ja": "SKAPON探検隊"
+   }
   },
   "pc88:188672": {
    "artwork": {
@@ -25867,7 +26143,10 @@
     "neokobe:Tenshi-tachi no Gogo (Jast)/Tenshi-tachi no Gogo [FD] [Set 2].7z",
     "neokobe:Tenshi-tachi no Gogo (Jast)/Tenshi-tachi no Gogo [FD].7z"
    ],
-   "title": "Tenshitachi no Gogo"
+   "title": "Tenshitachi no Gogo",
+   "titles": {
+    "ja": "天使たちの午後"
+   }
   },
   "pc88:188689": {
    "adult": true,
@@ -25967,7 +26246,10 @@
     "neokobe:Tenshi-tachi no Gogo II - Minako (Jast)/Tenshi-tachi no Gogo II - Minako [FD] [Set 1].7z",
     "neokobe:Tenshi-tachi no Gogo II - Minako (Jast)/Tenshi-tachi no Gogo II - Minako [FD].7z"
    ],
-   "title": "Tenshitachi no Gogo II: Minako"
+   "title": "Tenshitachi no Gogo II: Minako",
+   "titles": {
+    "ja": "天使たちの午後ＩＩ -美奈子-"
+   }
   },
   "pc88:188690": {
    "adult": true,
@@ -26041,7 +26323,10 @@
     "neokobe:Tenshi-tachi no Gogo - Bangaihen (Jast)/Tenshi-tachi no Gogo - Bangaihen [FD].7z",
     "neokobe:Tenshi-tachi no Gogo II - Bangaihen (Jast)/Tenshi-tachi no Gogo II - Bangaihen [FD].7z"
    ],
-   "title": "Tenshitachi no Gogo II: Bangai-hen"
+   "title": "Tenshitachi no Gogo II: Bangai-hen",
+   "titles": {
+    "ja": "天使たちの午後II -番外編-"
+   }
   },
   "pc88:188691": {
    "adult": true,
@@ -26121,7 +26406,10 @@
     "neokobe:Tenshi-tachi no Gogo III - Bangaihen (Jast)/Tenshi-tachi no Gogo III - Bangaihen [FD] [Set 1].7z",
     "neokobe:Tenshi-tachi no Gogo III - Bangaihen (Jast)/Tenshi-tachi no Gogo III - Bangaihen [FD].7z"
    ],
-   "title": "Tenshitachi no Gogo III: Bangai-hen"
+   "title": "Tenshitachi no Gogo III: Bangai-hen",
+   "titles": {
+    "ja": "天使たちの午後ＩＩＩ -番外編-"
+   }
   },
   "pc88:188692": {
    "adult": true,
@@ -26180,7 +26468,10 @@
    "sourceGroups": [
     "neokobe:Tenshi-tachi no Gogo III - Ribbon (Jast)/Tenshi-tachi no Gogo III - Ribbon [FD].7z"
    ],
-   "title": "Tenshitachi no Gogo III: Ribbon"
+   "title": "Tenshitachi no Gogo III: Ribbon",
+   "titles": {
+    "ja": "天使たちの午後ＩＩＩ リボン"
+   }
   },
   "pc88:188693": {
    "artwork": {
@@ -26436,7 +26727,10 @@
    "sourceGroups": [
     "neokobe:Time Zone (Starcraft)/Time Zone [FD].7z"
    ],
-   "title": "Time Zone"
+   "title": "Time Zone",
+   "titles": {
+    "ja": "タイムゾーン"
+   }
   },
   "pc88:188696": {
    "aliases": [
@@ -26821,7 +27115,10 @@
    "sourceGroups": [
     "neokobe:Twilight Zone (Great)/Twilight Zone [FD].7z"
    ],
-   "title": "Twilight Zone"
+   "title": "Twilight Zone",
+   "titles": {
+    "ja": "トワイライトゾーン"
+   }
   },
   "pc88:188703": {
    "adult": true,
@@ -27467,6 +27764,9 @@
     "neokobe:Urotsukidouji (Fairytale)/Urotsukidouji [FD].7z"
    ],
    "title": "Urotsuki Douji",
+   "titles": {
+    "ja": "うろつき童子"
+   },
    "year": 1990
   },
   "pc88:188712": {
@@ -28714,6 +29014,9 @@
     "neokobe:Yesterday (System House OH!)/Yesterday [FD].7z"
    ],
    "title": "Yesterday",
+   "titles": {
+    "ja": "イエスタディ"
+   },
    "year": 1990
   },
   "pc88:188731": {
@@ -29341,7 +29644,10 @@
    "sourceGroups": [
     "neokobe:DNA (Gray - Hot-B)/DNA [FD].7z"
    ],
-   "title": "DNA"
+   "title": "DNA",
+   "titles": {
+    "ja": "ドナ"
+   }
   },
   "pc88:188742": {
    "adult": true,
@@ -30359,6 +30665,9 @@
     "neokobe:Boukenshatachi - Kenja no Yuigon (ASCII)/Boukenshatachi - Kenja no Yuigon [FD].7z"
    ],
    "title": "Boukenshatachi: Kenja no Yuigon",
+   "titles": {
+    "ja": "冒険者達 賢者の遺言"
+   },
    "year": 1986
   },
   "pc88:189659": {
@@ -30490,6 +30799,9 @@
     "neokobe:Dororo (Quasar Soft)/Dororo [FD].7z"
    ],
    "title": "Dororo: Jigoku Emaki no shou",
+   "titles": {
+    "ja": "どろろ ～地獄絵巻の章～"
+   },
    "year": 1989
   },
   "pc88:189661": {
@@ -30632,7 +30944,10 @@
    "sourceGroups": [
     "neokobe:Lagrange L-2 (Vehicle Soft - Compac)/Lagrange L-2 [FD].7z"
    ],
-   "title": "Lagrange L-2"
+   "title": "Lagrange L-2",
+   "titles": {
+    "ja": "ラグランジュL2"
+   }
   },
   "pc88:189664": {
    "artwork": {
@@ -30998,7 +31313,10 @@
     "neokobe:Legends of Star Arthur - Planet Mephius (T&E Soft)/Legends of Star Arthur - Planet Mephius [FD] [Set 6].7z",
     "neokobe:Legends of Star Arthur - Planet Mephius (T&E Soft)/Legends of Star Arthur - Planet Mephius [FD].7z"
    ],
-   "title": "Star Arthur Densetsu I: Wakusei Mephius"
+   "title": "Star Arthur Densetsu I: Wakusei Mephius",
+   "titles": {
+    "ja": "スターアーサー伝説I 惑星メフィウス"
+   }
   },
   "pc88:189705": {
    "artwork": {
@@ -31061,7 +31379,10 @@
     "neokobe:Legends of Star Arthur 2 - Dark Nebula (T&E Soft)/Legends of Star Arthur 2 - Dark Nebula [FD] [Set 2].7z",
     "neokobe:Legends of Star Arthur 2 - Dark Nebula (T&E Soft)/Legends of Star Arthur 2 - Dark Nebula [FD].7z"
    ],
-   "title": "Star Arthur Densetsu II: Ankoku Seiun"
+   "title": "Star Arthur Densetsu II: Ankoku Seiun",
+   "titles": {
+    "ja": "スターアーサー伝説 Ⅱ ～暗黒星雲～"
+   }
   },
   "pc88:189805": {
    "aliases": [
@@ -31346,7 +31667,10 @@
     "neokobe:Love Chaser (Champion Soft)/Love Chaser [FD] [Set 1].7z",
     "neokobe:Love Chaser (Champion Soft)/Love Chaser [FD].7z"
    ],
-   "title": "Love Chaser"
+   "title": "Love Chaser",
+   "titles": {
+    "ja": "ラブチェイサー"
+   }
   },
   "pc88:189884": {
    "artwork": {
@@ -31407,7 +31731,10 @@
    "sourceGroups": [
     "neokobe:The Love Story in Kobe (Kobe Renai Monogatari) (Zain Soft)/The Love Story in Kobe (Kobe Renai Monogatari) [FD].7z"
    ],
-   "title": "The Love Story in Kobe"
+   "title": "The Love Story in Kobe",
+   "titles": {
+    "ja": "神戸恋愛物語"
+   }
   },
   "pc88:189885": {
    "artwork": {
@@ -31860,7 +32187,10 @@
    "sourceGroups": [
     "neokobe:Time Paradox (Hudson Soft)/Time Paradox [FD].7z"
    ],
-   "title": "Timeparadox"
+   "title": "Timeparadox",
+   "titles": {
+    "ja": "タイムパラドックス"
+   }
   },
   "pc88:189937": {
    "aliases": [
@@ -31917,7 +32247,10 @@
     "neokobe:Time Tunnel (Bond Soft)/Time Tunnel [FD] [Set 1] [b].7z",
     "neokobe:Time Tunnel (Bond Soft)/Time Tunnel [FD] [b].7z"
    ],
-   "title": "Time Tunnel"
+   "title": "Time Tunnel",
+   "titles": {
+    "ja": "タイムトンネル"
+   }
   },
   "pc88:189939": {
    "aliases": [
@@ -31975,7 +32308,10 @@
    "sourceGroups": [
     "neokobe:Teki wa Kaizoku - Kaizokuban (D-Photon - Victor)/Teki wa Kaizoku - Kaizokuban [FD].7z"
    ],
-   "title": "Teki wa Kaizoku: Kaizokuban"
+   "title": "Teki wa Kaizoku: Kaizokuban",
+   "titles": {
+    "ja": "敵は海賊・海賊版"
+   }
   },
   "pc88:189941": {
    "artwork": {
@@ -32330,7 +32666,10 @@
     "neokobe:Corridor (Koei)/Corridor [FD] [Set 1].7z",
     "neokobe:Corridor (Koei)/Corridor [FD].7z"
    ],
-   "title": "Corridor"
+   "title": "Corridor",
+   "titles": {
+    "ja": "コリドール"
+   }
   },
   "pc88:190006": {
    "artwork": {
@@ -32501,7 +32840,10 @@
    "sourceGroups": [
     "neokobe:Day Dream (Crossmedia Soft)/Day Dream [FD].7z"
    ],
-   "title": "Day Dream"
+   "title": "Day Dream",
+   "titles": {
+    "ja": "デイドリーム"
+   }
   },
   "pc88:190012": {
    "artwork": {
@@ -32554,7 +32896,10 @@
    "sourceGroups": [
     "neokobe:Dennou Suikoden (GAMU - Hot-B)/Dennou Suikoden [FD].7z"
    ],
-   "title": "Dennou Suikoden"
+   "title": "Dennou Suikoden",
+   "titles": {
+    "ja": "電脳水滸伝"
+   }
   },
   "pc88:190013": {
    "artwork": {
@@ -32890,7 +33235,10 @@
     "neokobe:Eiyuu Densetsu Saga (Microcabin)/Eiyuu Densetsu Saga [FD] [Set 1].7z",
     "neokobe:Eiyuu Densetsu Saga (Microcabin)/Eiyuu Densetsu Saga [FD].7z"
    ],
-   "title": "Eiyuu Densetsu Saga"
+   "title": "Eiyuu Densetsu Saga",
+   "titles": {
+    "ja": "英雄伝説サーガ"
+   }
   },
   "pc88:190025": {
    "artwork": {
@@ -33230,7 +33578,10 @@
     "neokobe:Guin Saga - Hyoutou no Kamen (Victor)/Guin Saga - Hyoutou no Kamen [FD] [Set 1].7z",
     "neokobe:Guin Saga - Hyoutou no Kamen (Victor)/Guin Saga - Hyoutou no Kamen [FD].7z"
    ],
-   "title": "Guin Saga: Hyoutou no Kamen"
+   "title": "Guin Saga: Hyoutou no Kamen",
+   "titles": {
+    "ja": "グインサーガ ～豹頭の仮面～"
+   }
   },
   "pc88:190034": {
    "artwork": {
@@ -33490,7 +33841,10 @@
     "neokobe:Hiatari Ryoukou! (Toho)/Hiatari Ryoukou! [FD] [Set 1].7z",
     "neokobe:Hiatari Ryoukou! (Toho)/Hiatari Ryoukou! [FD].7z"
    ],
-   "title": "Hiatari Ryoukou!"
+   "title": "Hiatari Ryoukou!",
+   "titles": {
+    "ja": "陽あたり良好！"
+   }
   },
   "pc88:190040": {
    "artwork": {
@@ -33912,7 +34266,10 @@
    "sourceGroups": [
     "neokobe:Juggler Stone (Riverhill Soft)/Juggler Stone [FD].7z"
    ],
-   "title": "Juggler Stone"
+   "title": "Juggler Stone",
+   "titles": {
+    "ja": "ジャグラーストーン"
+   }
   },
   "pc88:190071": {
    "artwork": {
@@ -34127,7 +34484,10 @@
     "neokobe:Kuroneko-sou Souzoku Satsujin Jiken (Riverhill Soft)/Kuroneko-sou Souzoku Satsujin Jiken [FD] [Set 1].7z",
     "neokobe:Kuroneko-sou Souzoku Satsujin Jiken (Riverhill Soft)/Kuroneko-sou Souzoku Satsujin Jiken [FD].7z"
    ],
-   "title": "Kuronekosou Souzoku Satsujin Jiken"
+   "title": "Kuronekosou Souzoku Satsujin Jiken",
+   "titles": {
+    "ja": "黒猫荘相続殺人事件"
+   }
   },
   "pc88:190074": {
    "artwork": {
@@ -34725,7 +35085,10 @@
    "sourceGroups": [
     "neokobe:Motoko-hime Adventure (Tatsumi Shuppan)/Motoko-hime Adventure [FD].7z"
    ],
-   "title": "Motoko-hime Adventure"
+   "title": "Motoko-hime Adventure",
+   "titles": {
+    "ja": "素子姫アドベンチャー"
+   }
   },
   "pc88:190090": {
    "artwork": {
@@ -35760,7 +36123,10 @@
    "sourceGroups": [
     "neokobe:ReBirth (SPS)/ReBirth [FD].7z"
    ],
-   "title": "Re Birth"
+   "title": "Re Birth",
+   "titles": {
+    "ja": "リ・バース"
+   }
   },
   "pc88:190122": {
    "artwork": {
@@ -36195,6 +36561,9 @@
     "neokobe:Seilane (Microcabin)/Seilane [FD].7z"
    ],
    "title": "Seilane",
+   "titles": {
+    "ja": "セイレーン"
+   },
    "year": 1987
   },
   "pc88:190129": {
@@ -36368,7 +36737,10 @@
    "sourceGroups": [
     "neokobe:Shoumakyou no Densetsu (Starcraft)/Shoumakyou no Densetsu [FD].7z"
    ],
-   "title": "Shoumakyou no Densetsu"
+   "title": "Shoumakyou no Densetsu",
+   "titles": {
+    "ja": "照魔鏡の伝説"
+   }
   },
   "pc88:190132": {
    "aliases": [
@@ -36579,7 +36951,10 @@
     "neokobe:Southern Cross (Bandai)/Southern Cross [FD] [Set 1].7z",
     "neokobe:Southern Cross (Bandai)/Southern Cross [FD].7z"
    ],
-   "title": "Southern Cross"
+   "title": "Southern Cross",
+   "titles": {
+    "ja": "サザンクロス"
+   }
   },
   "pc88:190136": {
    "artwork": {
@@ -36917,7 +37292,10 @@
    "sourceGroups": [
     "neokobe:The Stone of Agni (Humming Bird Soft)/The Stone of Agni [FD].7z"
    ],
-   "title": "The Stone of Agni"
+   "title": "The Stone of Agni",
+   "titles": {
+    "ja": "アグニの石"
+   }
   },
   "pc88:190143": {
    "aliases": [
@@ -37494,7 +37872,10 @@
    "sourceGroups": [
     "neokobe:What's Michael (Microcabin)/What's Michael [FD].7z"
    ],
-   "title": "What's Michael?"
+   "title": "What's Michael?",
+   "titles": {
+    "ja": "ホワッツマイケル"
+   }
   },
   "pc88:190154": {
    "aliases": [
@@ -37568,7 +37949,10 @@
    "sourceGroups": [
     "neokobe:Wizard and the Princess (Starcraft)/Wizard and the Princess [FD].7z"
    ],
-   "title": "Wizard and Princess"
+   "title": "Wizard and Princess",
+   "titles": {
+    "ja": "ウィザードアンドプリンセス"
+   }
   },
   "pc88:190155": {
    "artwork": {
@@ -38134,7 +38518,10 @@
     "neokobe:Touch (Toho)/Touch (demo) [FD].7z",
     "neokobe:Touch (Toho)/Touch [FD].7z"
    ],
-   "title": "Touch"
+   "title": "Touch",
+   "titles": {
+    "ja": "タッチ"
+   }
   },
   "pc88:190716": {
    "artwork": {
@@ -38201,6 +38588,9 @@
     "neokobe:Demon's Ring (Falcom)/Demon's Ring [FD].7z"
    ],
    "title": "Demons Ring",
+   "titles": {
+    "ja": "デーモンズリング"
+   },
    "year": 1984
   },
   "pc88:190717": {
@@ -38924,7 +39314,10 @@
    "sourceGroups": [
     "neokobe:Cranston Manor (Starcraft)/Cranston Manor [FD] [req Starcraft Boot Disk].7z"
    ],
-   "title": "Cranston Manor"
+   "title": "Cranston Manor",
+   "titles": {
+    "ja": "クランストン マナー"
+   }
   },
   "pc88:193368": {
    "artwork": {
@@ -39667,7 +40060,10 @@
     "neokobe:Keyhole Murder (Kagiana Satsujin Jiken) (Thinking Rabbit)/Keyhole Murder (Kagiana Satsujin Jiken) [FD] [Set 2].7z",
     "neokobe:Keyhole Murder (Kagiana Satsujin Jiken) (Thinking Rabbit)/Keyhole Murder (Kagiana Satsujin Jiken) [FD].7z"
    ],
-   "title": "Kagiana Satsujin Jiken"
+   "title": "Kagiana Satsujin Jiken",
+   "titles": {
+    "ja": "鍵穴殺人事件"
+   }
   },
   "pc88:193383": {
    "artwork": {
@@ -40121,7 +40517,10 @@
     "neokobe:Mahoutsukai no Deshi (Teikoku Soft - Tsukumo)/Mahoutsukai no Deshi [FD] [Set 5].7z",
     "neokobe:Mahoutsukai no Deshi (Teikoku Soft - Tsukumo)/Mahoutsukai no Deshi [FD].7z"
    ],
-   "title": "Mahoutsukai no Deshi"
+   "title": "Mahoutsukai no Deshi",
+   "titles": {
+    "ja": "魔法使いの妹子"
+   }
   },
   "pc88:193390": {
    "artwork": {
@@ -40233,7 +40632,10 @@
    "sourceGroups": [
     "neokobe:Makai Fukkatsu (Soft Studio Wing)/Makai Fukkatsu [FD].7z"
    ],
-   "title": "Makai Fukkatsu"
+   "title": "Makai Fukkatsu",
+   "titles": {
+    "ja": "魔界復活"
+   }
   },
   "pc88:193392": {
    "artwork": {
@@ -40540,7 +40942,10 @@
    "sourceGroups": [
     "neokobe:Mission Asteroid (Starcraft)/Mission Asteroid [FD].7z"
    ],
-   "title": "Mission Asteroid"
+   "title": "Mission Asteroid",
+   "titles": {
+    "ja": "ミッションアステロイド"
+   }
   },
   "pc88:193398": {
    "artwork": {
@@ -41179,7 +41584,10 @@
     "neokobe:Tokyo Nampa Street (Enix)/Tokyo Nampa Street [FD] [Set 1] [b].7z",
     "neokobe:Tokyo Nampa Street (Enix)/Tokyo Nampa Street [FD].7z"
    ],
-   "title": "Tokyo Nampa Street"
+   "title": "Tokyo Nampa Street",
+   "titles": {
+    "ja": "Ｔｏｋｙｏナンパストリート"
+   }
   },
   "pc88:193410": {
    "artwork": {
@@ -41809,7 +42217,10 @@
    "sourceGroups": [
     "neokobe:Bishoujo Noriko (New System House OH!)/Bishoujo Noriko [FD].7z"
    ],
-   "title": "Bishoujo Noriko"
+   "title": "Bishoujo Noriko",
+   "titles": {
+    "ja": "媚少女ＮＯＲＩＫＯ"
+   }
   },
   "pc88:196870": {
    "adult": true,
@@ -41950,6 +42361,9 @@
     "neokobe:Bishoujo Shashinkan (Photo Club) - Out Side Story (Hard)/Bishoujo Shashinkan (Photo Club) - Out Side Story [FD].7z"
    ],
    "title": "Bishoujo Shashinkan Bangai-Hen: Outside Story",
+   "titles": {
+    "ja": "美少女写真館 番外編 アウトサイドストーリー"
+   },
    "year": 1990
   },
   "pc88:196872": {
@@ -42006,7 +42420,10 @@
     "neokobe:Bishoujo Shashinkan - Studio Cut (Hard)/Bishoujo Shashinkan - Studio Cut [FD] [Set 1].7z",
     "neokobe:Bishoujo Shashinkan - Studio Cut (Hard)/Bishoujo Shashinkan - Studio Cut [FD].7z"
    ],
-   "title": "Bishoujo Shashinkan: Studio Cut"
+   "title": "Bishoujo Shashinkan: Studio Cut",
+   "titles": {
+    "ja": "美少女写真館 スタジオ・カット"
+   }
   },
   "pc88:196875": {
    "adult": true,
@@ -42122,7 +42539,10 @@
    "sourceGroups": [
     "neokobe:Cabala no Himitsu (Zenryutsu)/Cabala no Himitsu [FD].7z"
    ],
-   "title": "Fukashigi Denshou: Kabara no Himitsu"
+   "title": "Fukashigi Denshou: Kabara no Himitsu",
+   "titles": {
+    "ja": "不可思議伝承 ～カバラの秘密～"
+   }
   },
   "pc88:196877": {
    "adult": true,
@@ -42174,7 +42594,10 @@
    "sourceGroups": [
     "neokobe:Chotto Meitantei (Champion Soft)/Chotto Meitantei [FD].7z"
    ],
-   "title": "Chotto Meitantei: Misa-chan Monogatari Series"
+   "title": "Chotto Meitantei: Misa-chan Monogatari Series",
+   "titles": {
+    "ja": "ちょっと名探偵 ～美砂ちゃん物語シリーズ～"
+   }
   },
   "pc88:196878": {
    "adult": true,
@@ -42292,7 +42715,10 @@
     "neokobe:Christine (PSK)/Christine [FD] [Set 3].7z",
     "neokobe:Christine (PSK)/Christine [FD].7z"
    ],
-   "title": "Christine"
+   "title": "Christine",
+   "titles": {
+    "ja": "クリスチーヌ"
+   }
   },
   "pc88:196881": {
    "adult": true,
@@ -42343,7 +42769,10 @@
    "sourceGroups": [
     "neokobe:Cinderella Perudue (Zenryutsu)/Cinderella Perudue [FD].7z"
    ],
-   "title": "Cinderella Perudue"
+   "title": "Cinderella Perudue",
+   "titles": {
+    "ja": "シンデレラ ペルデュー"
+   }
   },
   "pc88:196882": {
    "adult": true,
@@ -42417,6 +42846,9 @@
     "neokobe:Cosmic Psycho (Cocktail Soft)/Cosmic Psycho [FD].7z"
    ],
    "title": "Cosmic Psycho",
+   "titles": {
+    "ja": "コズミックサイコ"
+   },
    "year": 1991
   },
   "pc88:196883": {
@@ -42492,7 +42924,10 @@
     "neokobe:Cosmos Club (Jast)/Cosmos Club [FD] [Set 1].7z",
     "neokobe:Cosmos Club (Jast)/Cosmos Club [FD].7z"
    ],
-   "title": "Cosmos Club"
+   "title": "Cosmos Club",
+   "titles": {
+    "ja": "コスモスクラブ"
+   }
   },
   "pc88:196884": {
    "adult": true,
@@ -42577,7 +43012,10 @@
     "neokobe:Cream Lemon - Star Trap (Jast)/Cream Lemon - Star Trap [FD] [Set 2].7z",
     "neokobe:Cream Lemon - Star Trap (Jast)/Cream Lemon - Star Trap [FD].7z"
    ],
-   "title": "Cream Lemon: Star Trap"
+   "title": "Cream Lemon: Star Trap",
+   "titles": {
+    "ja": "くりぃむレモン スタートラップ"
+   }
   },
   "pc88:196885": {
    "artwork": {
@@ -42732,7 +43170,10 @@
     "neokobe:Derringer (Jast)/Derringer [FD] [Set 1].7z",
     "neokobe:Derringer (Jast)/Derringer [FD].7z"
    ],
-   "title": "Derringer"
+   "title": "Derringer",
+   "titles": {
+    "ja": "デリンジャー"
+   }
   },
   "pc88:196887": {
    "adult": true,
@@ -42864,7 +43305,10 @@
    "sourceGroups": [
     "neokobe:Dokkin Minako Sensei! (Tect House)/Dokkin Minako Sensei! [FD].7z"
    ],
-   "title": "Dokkin Minako-sensei!"
+   "title": "Dokkin Minako-sensei!",
+   "titles": {
+    "ja": "ドッキン美奈子先生"
+   }
   },
   "pc88:196889": {
    "adult": true,
@@ -43067,7 +43511,10 @@
    "sourceGroups": [
     "neokobe:Meurtre d'un Clown (Doukeshi Satsujin Jiken) (Thinking Rabbit)/Meurtre d'un Clown (Doukeshi Satsujin Jiken) [FD].7z"
    ],
-   "title": "Doukeshi Satsujin Jiken"
+   "title": "Doukeshi Satsujin Jiken",
+   "titles": {
+    "ja": "道化師殺人事件"
+   }
   },
   "pc88:196892": {
    "adult": true,
@@ -43263,7 +43710,10 @@
    "sourceGroups": [
     "neokobe:Dream Girl Sayaka (Bond Soft)/Dream Girl Sayaka [FD].7z"
    ],
-   "title": "Yume Shoujo Sayaka"
+   "title": "Yume Shoujo Sayaka",
+   "titles": {
+    "ja": "夢少女さやか"
+   }
   },
   "pc88:196904": {
    "adult": true,
@@ -43468,7 +43918,10 @@
     "neokobe:Dwelling (Crossmedia Soft)/Dwelling [FD] [Set 1].7z",
     "neokobe:Dwelling (Crossmedia Soft)/Dwelling [FD].7z"
    ],
-   "title": "Dwelling"
+   "title": "Dwelling",
+   "titles": {
+    "ja": "デウリング"
+   }
   },
   "pc88:196909": {
    "boxArtUrl": "https://images.launchbox-app.com/61a238f5-d4b9-4e7e-a765-da09ae9082cf.jpg",
@@ -43487,7 +43940,10 @@
    "launchbox": "196909",
    "publisher": "ASCII",
    "screenshotUrl": "https://images.launchbox-app.com/07bd367e-ea83-497d-9a33-105aa1c99009.png",
-   "title": "Emmy"
+   "title": "Emmy",
+   "titles": {
+    "ja": "エミー"
+   }
   },
   "pc88:196910": {
    "adult": true,
@@ -43626,7 +44082,10 @@
    "developer": "Studio Angel",
    "launchbox": "196912",
    "publisher": "Zenryuutsuu",
-   "title": "Endan Genpei Souranki: Irohanihoheto"
+   "title": "Endan Genpei Souranki: Irohanihoheto",
+   "titles": {
+    "ja": "艶談・源平争乱記 ～いろはにほへと～"
+   }
   },
   "pc88:196913": {
    "adult": true,
@@ -43680,7 +44139,10 @@
    "sourceGroups": [
     "neokobe:Erika (Jast)/Erika [FD].7z"
    ],
-   "title": "Erika"
+   "title": "Erika",
+   "titles": {
+    "ja": "エリカ"
+   }
   },
   "pc88:196914": {
    "adult": true,
@@ -43775,7 +44237,10 @@
     "neokobe:Fairie's Residence (Champion Soft)/Fairie's Residence [FD] [b].7z",
     "neokobe:Fairie's Residence (Champion Soft)/Fairie's Residence [FD].7z"
    ],
-   "title": "Feirie's Residence"
+   "title": "Feirie's Residence",
+   "titles": {
+    "ja": "フェアリーズ・レジデンス"
+   }
   },
   "pc88:196915": {
    "adult": true,
@@ -43932,7 +44397,10 @@
    "sourceGroups": [
     "neokobe:Five Sweet Dream (Great)/Five Sweet Dream [FD].7z"
    ],
-   "title": "Five Sweet Dream"
+   "title": "Five Sweet Dream",
+   "titles": {
+    "ja": "ファイブスイートドリーム"
+   }
   },
   "pc88:196918": {
    "developer": "Sixteens",
@@ -44017,6 +44485,9 @@
     "neokobe:Fruit Cocktail (Cocktail Soft)/Fruit Cocktail [FD].7z"
    ],
    "title": "Fruit Cocktail",
+   "titles": {
+    "ja": "フルーツ・カクテル"
+   },
    "year": 1989
   },
   "pc88:196922": {
@@ -44162,7 +44633,10 @@
    "sourceGroups": [
     "neokobe:Galppo Club (Microcabin)/Galppo Club [FD].7z"
    ],
-   "title": "Galppo Club"
+   "title": "Galppo Club",
+   "titles": {
+    "ja": "ギャルッぽクラブ"
+   }
   },
   "pc88:196926": {
    "adult": true,
@@ -44283,7 +44757,10 @@
     "neokobe:Genmu no Shiro (Champion Soft)/Genmu no Shiro [FD] [Set 1].7z",
     "neokobe:Genmu no Shiro (Champion Soft)/Genmu no Shiro [FD].7z"
    ],
-   "title": "Genmu no Shiro"
+   "title": "Genmu no Shiro",
+   "titles": {
+    "ja": "幻夢の城"
+   }
   },
   "pc88:196928": {
    "adult": true,
@@ -44395,7 +44872,10 @@
    "sourceGroups": [
     "neokobe:Gram Cats (Dot Kikaku)/Gram Cats [FD].7z"
    ],
-   "title": "Gram Cats"
+   "title": "Gram Cats",
+   "titles": {
+    "ja": "グラムキャッツ"
+   }
   },
   "pc88:196930": {
    "artwork": {
@@ -44469,7 +44949,10 @@
    "sourceGroups": [
     "neokobe:Hadou no Hyouteki (Soft Studio Wing)/Hadou no Hyouteki [FD].7z"
    ],
-   "title": "Hadou no Hyouteki"
+   "title": "Hadou no Hyouteki",
+   "titles": {
+    "ja": "波動の標的"
+   }
   },
   "pc88:196934": {
    "artwork": {
@@ -44585,7 +45068,10 @@
    "sourceGroups": [
     "neokobe:Harajuku After Dark (Kogado)/Harajuku After Dark [FD].7z"
    ],
-   "title": "Harajuku After Dark"
+   "title": "Harajuku After Dark",
+   "titles": {
+    "ja": "原宿AfterDARK"
+   }
   },
   "pc88:196936": {
    "adult": true,
@@ -44730,6 +45216,9 @@
     "neokobe:Hare Nochi Oosawagi! (Cocktail Soft)/Hare Nochi Oosawagi! [FD].7z"
    ],
    "title": "Hare Nochi Oosawagi!",
+   "titles": {
+    "ja": "晴れのちおおさわぎ！"
+   },
    "year": 1989
   },
   "pc88:196943": {
@@ -44805,7 +45294,10 @@
    "sourceGroups": [
     "neokobe:Hot Milk (Fairytale)/Hot Milk [FD].7z"
    ],
-   "title": "Hot Milk"
+   "title": "Hot Milk",
+   "titles": {
+    "ja": "ほっとMILK"
+   }
   },
   "pc88:196944": {
    "adult": true,
@@ -44854,7 +45346,10 @@
    "sourceGroups": [
     "neokobe:Idaten Ikase Otoko (Family Soft)/Idaten Ikase Otoko [FD].7z"
    ],
-   "title": "Idaten Ikase Otoko: Mugiko ni Aitai"
+   "title": "Idaten Ikase Otoko: Mugiko ni Aitai",
+   "titles": {
+    "ja": "韋駄天いかせ男 ～麦子に逢いたい～"
+   }
   },
   "pc88:196946": {
    "adult": true,
@@ -44917,7 +45412,10 @@
    "sourceGroups": [
     "neokobe:Ikenie no Machi (Adult Inn)/Ikenie no Machi [FD].7z"
    ],
-   "title": "Ikenie no Machi"
+   "title": "Ikenie no Machi",
+   "titles": {
+    "ja": "いけにえの街"
+   }
   },
   "pc88:196947": {
    "adult": true,
@@ -44979,6 +45477,9 @@
     "neokobe:Imitation wa Aisenai (Great)/Imitation wa Aisenai [FD].7z"
    ],
    "title": "Imitation wa Aisenai",
+   "titles": {
+    "ja": "イミテーションは愛せない"
+   },
    "year": 1989
   },
   "pc88:196948": {
@@ -45173,6 +45674,9 @@
     "neokobe:Kaettekita Tanteidan X (Heart Soft)/Kaettekita Tanteidan X [FD].7z"
    ],
    "title": "Kaettekita Tanteidan X",
+   "titles": {
+    "ja": "帰ってきた探偵団Ｘ"
+   },
    "year": 1990
   },
   "pc88:196955": {
@@ -45281,7 +45785,10 @@
     "neokobe:Kami no Machi (Panther Software)/Kami no Machi (opening story & music mode) [FD].7z",
     "neokobe:Kami no Machi (Panther Software)/Kami no Machi [FD].7z"
    ],
-   "title": "Kami no Machi"
+   "title": "Kami no Machi",
+   "titles": {
+    "ja": "神の聖都"
+   }
   },
   "pc88:196956": {
    "adult": true,
@@ -45350,7 +45857,10 @@
     "neokobe:Keiko-chan no Himitsu (Champion Soft)/Keiko-chan no Himitsu [FD] [Set 1].7z",
     "neokobe:Keiko-chan no Himitsu (Champion Soft)/Keiko-chan no Himitsu [FD].7z"
    ],
-   "title": "Keiko-chan no Himitsu"
+   "title": "Keiko-chan no Himitsu",
+   "titles": {
+    "ja": "慶子ちゃんの秘密"
+   }
   },
   "pc88:196957": {
    "adult": true,
@@ -45423,6 +45933,9 @@
     "neokobe:Kibun wa Pastel Touch (Great)/Kibun wa Pastel Touch [FD].7z"
    ],
    "title": "Kibun wa Pastel Touch!!",
+   "titles": {
+    "ja": "気分はぱすてるたっち"
+   },
    "year": 1989
   },
   "pc88:196958": {
@@ -45486,7 +45999,10 @@
    "sourceGroups": [
     "neokobe:Kind Gal's - Kudokikata Oshiemasu II (Hard)/Kind Gal's - Kudokikata Oshiemasu II [FD].7z"
    ],
-   "title": "Kudokikata Oshiemasu Part II: Kind Gal's"
+   "title": "Kudokikata Oshiemasu Part II: Kind Gal's",
+   "titles": {
+    "ja": "口説き方教えます２ ～カインドゥギャルズ～"
+   }
   },
   "pc88:196959": {
    "artwork": {
@@ -45834,7 +46350,10 @@
     "neokobe:Yellow Lemon (PSK)/Yellow Lemon [FD] [Set 1].7z",
     "neokobe:Yellow Lemon (PSK)/Yellow Lemon [FD].7z"
    ],
-   "title": "Yellow Lemon"
+   "title": "Yellow Lemon",
+   "titles": {
+    "ja": "イエローレモン"
+   }
   },
   "pc88:196966": {
    "adult": true,
@@ -45903,7 +46422,10 @@
     "neokobe:Lolita-hime no Densetsu (Bond Soft)/Lolita-hime no Densetsu [FD] [Set 1].7z",
     "neokobe:Lolita-hime no Densetsu (Bond Soft)/Lolita-hime no Densetsu [FD].7z"
    ],
-   "title": "L♥lita Hime no Densetsu"
+   "title": "L♥lita Hime no Densetsu",
+   "titles": {
+    "ja": "ロリータ姫の伝説"
+   }
   },
   "pc88:196968": {
    "adult": true,
@@ -45949,7 +46471,10 @@
    "sourceGroups": [
     "neokobe:Lolita-hime no Enikki (Bond Soft)/Lolita-hime no Enikki [FD].7z"
    ],
-   "title": "L♥lita Hime no Enikki"
+   "title": "L♥lita Hime no Enikki",
+   "titles": {
+    "ja": "ロリータ姫の絵日記"
+   }
   },
   "pc88:196969": {
    "adult": true,
@@ -46084,7 +46609,10 @@
     "neokobe:Luna City Satsujin Jiken (Bond Soft)/Luna City Satsujin Jiken [FD] [Set 2].7z",
     "neokobe:Luna City Satsujin Jiken (Bond Soft)/Luna City Satsujin Jiken [FD].7z"
    ],
-   "title": "Luna City Satsujin Jiken"
+   "title": "Luna City Satsujin Jiken",
+   "titles": {
+    "ja": "ルナシティ殺人事件"
+   }
   },
   "pc88:196971": {
    "adult": true,
@@ -46386,7 +46914,10 @@
    "sourceGroups": [
     "neokobe:Kudokikata Oshiemasu (Hard)/Kudokikata Oshiemasu [FD].7z"
    ],
-   "title": "Kudokikata Oshiemasu"
+   "title": "Kudokikata Oshiemasu",
+   "titles": {
+    "ja": "口説き方教えます"
+   }
   },
   "pc88:196989": {
    "adult": true,
@@ -46438,7 +46969,10 @@
    "sourceGroups": [
     "neokobe:Kindan no Paradise (Zenryutsu)/Kindan no Paradise [FD].7z"
    ],
-   "title": "Kindan no Paradise"
+   "title": "Kindan no Paradise",
+   "titles": {
+    "ja": "禁断のパラダイス"
+   }
   },
   "pc88:196990": {
    "artwork": {
@@ -46540,7 +47074,10 @@
    "sourceGroups": [
     "neokobe:Kohakuiro no Yuigon (Riverhill Soft)/Kohakuiro no Yuigon [FD].7z"
    ],
-   "title": "Kohakuiro no Yuigon"
+   "title": "Kohakuiro no Yuigon",
+   "titles": {
+    "ja": "琥珀色の遺言"
+   }
   },
   "pc88:196992": {
    "adult": true,
@@ -46978,7 +47515,10 @@
     "neokobe:Koroshi no Dress (Fairytale)/Koroshi no Dress [FD] [Set 1].7z",
     "neokobe:Koroshi no Dress (Fairytale)/Koroshi no Dress [FD].7z"
    ],
-   "title": "Koroshi no Dress"
+   "title": "Koroshi no Dress",
+   "titles": {
+    "ja": "殺しのドレス"
+   }
   },
   "pc88:196998": {
    "adult": true,
@@ -47044,7 +47584,10 @@
    "sourceGroups": [
     "neokobe:Koroshi no Dress 2 (Fairytale)/Koroshi no Dress 2 [FD].7z"
    ],
-   "title": "Koroshi no Dress 2"
+   "title": "Koroshi no Dress 2",
+   "titles": {
+    "ja": "殺しのドレス２"
+   }
   },
   "pc88:197000": {
    "artwork": {
@@ -47569,7 +48112,10 @@
    "sourceGroups": [
     "neokobe:Makenshi Kumiko (New System House OH!)/Makenshi Kumiko [FD].7z"
    ],
-   "title": "Makenshi Kumiko"
+   "title": "Makenshi Kumiko",
+   "titles": {
+    "ja": "魔剣士ＫＵＭＩＫＯ"
+   }
   },
   "pc88:197009": {
    "adult": true,
@@ -47687,6 +48233,9 @@
     "neokobe:Marchen Paradise (Great)/Marchen Paradise [FD].7z"
    ],
    "title": "Märchen Paradise",
+   "titles": {
+    "ja": "メルヘン・パラダイス"
+   },
    "year": 1990
   },
   "pc88:197011": {
@@ -47785,7 +48334,10 @@
    "sourceGroups": [
     "neokobe:Mayonaka no Love Call (Zenryutsu)/Mayonaka no Love Call [FD].7z"
    ],
-   "title": "Mayonaka no Love Call"
+   "title": "Mayonaka no Love Call",
+   "titles": {
+    "ja": "真夜中のラブコール"
+   }
   },
   "pc88:197013": {
    "adult": true,
@@ -47921,7 +48473,10 @@
    "sourceGroups": [
     "neokobe:Meo's Mystery Adventure (SystemSoft)/Meo's Mystery Adventure [FD].7z"
    ],
-   "title": "Meo no Mystery Adventure"
+   "title": "Meo no Mystery Adventure",
+   "titles": {
+    "ja": "ミオのミステリーアドベンチャー"
+   }
   },
   "pc88:197015": {
    "adult": true,
@@ -47992,6 +48547,9 @@
     "neokobe:Mephist (Striker)/Mephist [FD].7z"
    ],
    "title": "Mephist",
+   "titles": {
+    "ja": "メフィスト"
+   },
    "year": 1989
   },
   "pc88:197017": {
@@ -48059,7 +48617,10 @@
     "neokobe:Lovely Horror - Ochame na Yuurei (Zenryutsu)/Lovely Horror - Ochame na Yuurei [FD] [Set 1].7z",
     "neokobe:Lovely Horror - Ochame na Yuurei (Zenryutsu)/Lovely Horror - Ochame na Yuurei [FD].7z"
    ],
-   "title": "Lovely Horror: Ochame na Yuurei"
+   "title": "Lovely Horror: Ochame na Yuurei",
+   "titles": {
+    "ja": "ラブリーホラー おちゃめなゆうれい"
+   }
   },
   "pc88:197018": {
    "adult": true,
@@ -48156,6 +48717,9 @@
     "neokobe:Otome Party (Technopolis Soft)/Otome Party [FD].7z"
    ],
    "title": "Otome Party",
+   "titles": {
+    "ja": "おとめぱーてぃ"
+   },
    "year": 1989
   },
   "pc88:197020": {
@@ -48242,7 +48806,10 @@
     "neokobe:Pension Story - Hana no Kiyosato (Adult Inn)/Pension Story - Hana no Kiyosato [FD] [Set 1].7z",
     "neokobe:Pension Story - Hana no Kiyosato (Adult Inn)/Pension Story - Hana no Kiyosato [FD].7z"
    ],
-   "title": "Pension Story: Hana no Kiyosato"
+   "title": "Pension Story: Hana no Kiyosato",
+   "titles": {
+    "ja": "ペンションストーリー花の清里"
+   }
   },
   "pc88:197022": {
    "adult": true,
@@ -48349,7 +48916,10 @@
     "neokobe:Pop Lemon (Champion Soft)/Pop Lemon [FD] [Set 1].7z",
     "neokobe:Pop Lemon (Champion Soft)/Pop Lemon [FD].7z"
    ],
-   "title": "Pop Lemon"
+   "title": "Pop Lemon",
+   "titles": {
+    "ja": "ポップレモン"
+   }
   },
   "pc88:197029": {
    "adult": true,
@@ -48589,6 +49159,9 @@
     "neokobe:Private School (elf)/Private School [FD].7z"
    ],
    "title": "Private School",
+   "titles": {
+    "ja": "プライベートスクール"
+   },
    "year": 1989
   },
   "pc88:197033": {
@@ -48658,6 +49231,9 @@
     "neokobe:Pure (Queen Soft)/Pure [FD].7z"
    ],
    "title": "Pure",
+   "titles": {
+    "ja": "ピュア"
+   },
    "year": 1989
   },
   "pc88:197035": {
@@ -48846,6 +49422,9 @@
     "neokobe:Pure My Dool (Agumix)/Pure My Dool [FD].7z"
    ],
    "title": "Pure My Dool",
+   "titles": {
+    "ja": "ピュアマイドール"
+   },
    "year": 1991
   },
   "pc88:197037": {
@@ -48993,7 +49572,10 @@
    "sourceGroups": [
     "neokobe:Rakuen no Shoutaijou (Cream Soft)/Rakuen no Shoutaijou [FD].7z"
    ],
-   "title": "Rakuen no Shoutaijou"
+   "title": "Rakuen no Shoutaijou",
+   "titles": {
+    "ja": "楽園の招待状"
+   }
   },
   "pc88:197039": {
    "adult": true,
@@ -49186,6 +49768,9 @@
     "neokobe:Sailor-fuku Senshi Felis (Cocktail Soft)/Sailor-fuku Senshi Felis [FD].7z"
    ],
    "title": "Sailor-fuku Senshi Felis",
+   "titles": {
+    "ja": "セーラー服戦士フェリス"
+   },
    "year": 1990
   },
   "pc88:197055": {
@@ -49327,6 +49912,9 @@
     "neokobe:School Wars (Cream Soft)/School Wars [FD].7z"
    ],
    "title": "School Wars",
+   "titles": {
+    "ja": "スクール☆ウォーズ"
+   },
    "year": 1990
   },
   "pc88:197057": {
@@ -49535,6 +50123,9 @@
     "neokobe:Sekai de Ichiban Kimi ga Suki! (Cocktail Soft)/Sekai de Ichiban Kimi ga Suki! [FD].7z"
    ],
    "title": "Sekai de Ichiban Kimi ga suki!",
+   "titles": {
+    "ja": "世界でいちばん君がすき！"
+   },
    "year": 1990
   },
   "pc88:197060": {
@@ -49590,7 +50181,10 @@
    "sourceGroups": [
     "neokobe:Shadow Hunter (Champion Soft)/Shadow Hunter [FD].7z"
    ],
-   "title": "Shadow Hunter"
+   "title": "Shadow Hunter",
+   "titles": {
+    "ja": "シャドゥハンター"
+   }
   },
   "pc88:197061": {
    "artwork": {
@@ -49754,6 +50348,9 @@
     "neokobe:Shiritsu Tantei Max (Agumix)/Shiritsu Tantei Max [FD].7z"
    ],
    "title": "Shiritsu Tantei Max: Sennyuu!! Nazo no Joshikou",
+   "titles": {
+    "ja": "私立探偵マックス ～潜入！！謎の女子校～"
+   },
    "year": 1987
   },
   "pc88:197063": {
@@ -49853,7 +50450,10 @@
     "neokobe:Shiro to Kuro no Densetsu Series - Destruction (Soft Studio Wing)/Shiro to Kuro no Densetsu Series - Destruction (Joukan) [FD].7z",
     "neokobe:Shiro to Kuro no Densetsu Series - Destruction (Soft Studio Wing)/Shiro to Kuro no Densetsu Series - Destruction (demo) [FD].7z"
    ],
-   "title": "Destruction Gekan"
+   "title": "Destruction Gekan",
+   "titles": {
+    "ja": "デストラクション下巻"
+   }
   },
   "pc88:197064": {
    "adult": true,
@@ -49967,6 +50567,9 @@
     "neokobe:Slope (Queen Soft)/Slope [FD].7z"
    ],
    "title": "Slope",
+   "titles": {
+    "ja": "スロープ"
+   },
    "year": 1990
   },
   "pc88:197065": {
@@ -50051,7 +50654,10 @@
     "neokobe:Soapland Story (Hard)/Soapland Story [FD] [Set 2].7z",
     "neokobe:Soapland Story (Hard)/Soapland Story [FD].7z"
    ],
-   "title": "Soapland Story"
+   "title": "Soapland Story",
+   "titles": {
+    "ja": "ソープランドストーリー"
+   }
   },
   "pc88:197066": {
    "adult": true,
@@ -50125,7 +50731,10 @@
    "sourceGroups": [
     "neokobe:Soapland Story II - Memory (Hard)/Soapland Story II - Memory [FD].7z"
    ],
-   "title": "Soapland Story II: Memory"
+   "title": "Soapland Story II: Memory",
+   "titles": {
+    "ja": "ソープランドストーリー Ⅱ -Memory-"
+   }
   },
   "pc88:197067": {
    "artwork": {
@@ -50249,6 +50858,9 @@
     "neokobe:Telephone Club Story (Computer Brain)/Telephone Club Story [FD].7z"
    ],
    "title": "Telephone Club Story",
+   "titles": {
+    "ja": "テレフォンクラブストーリー"
+   },
    "year": 1988
   },
   "pc88:197069": {
@@ -50300,7 +50912,10 @@
    "sourceGroups": [
     "neokobe:Tenboudai - Murder on the Top (Crossmedia Soft)/Tenboudai - Murder on the Top [FD].7z"
    ],
-   "title": "Tenboudai"
+   "title": "Tenboudai",
+   "titles": {
+    "ja": "展望台"
+   }
   },
   "pc88:197070": {
    "adult": true,
@@ -50370,7 +50985,10 @@
    "sourceGroups": [
     "neokobe:Tennyo Densetsu (Champion Soft)/Tennyo Densetsu [FD].7z"
    ],
-   "title": "Tennyo Densetsu"
+   "title": "Tennyo Densetsu",
+   "titles": {
+    "ja": "天女伝説"
+   }
   },
   "pc88:197071": {
    "adult": true,
@@ -50894,7 +51512,10 @@
    "sourceGroups": [
     "neokobe:Amazoness no Hihou (Studio Lime)/Amazoness no Hihou [FD].7z"
    ],
-   "title": "Amazoness no Hihou"
+   "title": "Amazoness no Hihou",
+   "titles": {
+    "ja": "アマゾネスの秘宝"
+   }
   },
   "pc88:197080": {
    "adult": true,
@@ -50988,7 +51609,10 @@
    "sourceGroups": [
     "neokobe:Trilogy (Hard)/Trilogy [FD].7z"
    ],
-   "title": "Trilogy: Kuki Youka Shinden"
+   "title": "Trilogy: Kuki Youka Shinden",
+   "titles": {
+    "ja": "トリロジー 九鬼妖華真伝"
+   }
   },
   "pc88:197082": {
    "adult": true,
@@ -51417,6 +52041,9 @@
     "neokobe:Waterfront Adventure (Hard)/Waterfront Adventure [FD].7z"
    ],
    "title": "Waterfront Adventure",
+   "titles": {
+    "ja": "ウォーターフロント・アドベンチャー"
+   },
    "year": 1990
   },
   "pc88:197090": {
@@ -51508,6 +52135,9 @@
     "neokobe:Wedding Rhapsody (Queen Soft)/Wedding Rhapsody [FD].7z"
    ],
    "title": "Wedding Rhapsody",
+   "titles": {
+    "ja": "ウエディングラプソディー"
+   },
    "year": 1990
   },
   "pc88:197091": {
@@ -51568,7 +52198,10 @@
    "sourceGroups": [
     "neokobe:Yami no Iyo Densetsu (Hot-B)/Yami no Iyo Densetsu [FD].7z"
    ],
-   "title": "Yami no Iyo Densetsu: Joouzuka Satsujin Jiken"
+   "title": "Yami no Iyo Densetsu: Joouzuka Satsujin Jiken",
+   "titles": {
+    "ja": "闇の壱与伝説 ～女王塚殺人事件～"
+   }
   },
   "pc88:197092": {
    "adult": true,
@@ -51625,7 +52258,10 @@
    "sourceGroups": [
     "neokobe:Yoru no Tenshi-tachi (Jast)/Yoru no Tenshi-tachi [FD].7z"
    ],
-   "title": "Yoru no Tenshi-tachi: Shitetsu Ensen Satsujiin Jiken"
+   "title": "Yoru no Tenshi-tachi: Shitetsu Ensen Satsujiin Jiken",
+   "titles": {
+    "ja": "夜の天使たち ～私鉄沿線殺人事件～"
+   }
   },
   "pc88:197093": {
    "adult": true,
@@ -51688,7 +52324,10 @@
    "sourceGroups": [
     "neokobe:Youkiden (GAMU)/Youkiden [FD].7z"
    ],
-   "title": "Youkiden"
+   "title": "Youkiden",
+   "titles": {
+    "ja": "妖姫伝"
+   }
   },
   "pc88:197097": {
    "artwork": {
@@ -51967,7 +52606,10 @@
    "sourceGroups": [
     "neokobe:Dome (System Sacom)/Dome [FD].7z"
    ],
-   "title": "Dome"
+   "title": "Dome",
+   "titles": {
+    "ja": "ドーム"
+   }
   },
   "pc88:197103": {
    "artwork": {
@@ -53469,6 +54111,9 @@
    "publisher": "Wolf Team",
    "screenshotUrl": "https://images.launchbox-app.com/e8eca8c5-84c9-48a2-8216-4e9bb0654279.png",
    "title": "Arcush: Kagerou no Jidai o Koe te",
+   "titles": {
+    "ja": "あーくしゅ ～陽炎の時代を越えて～"
+   },
    "year": 1989
   },
   "pc88:202373": {
@@ -53588,7 +54233,10 @@
     "neokobe:Super Jack (Doujin - G_Club Software)/Super Jack [FD] [Set 3].7z",
     "neokobe:Super Jack (Doujin - G_Club Software)/Super Jack [FD].7z"
    ],
-   "title": "Super Jack"
+   "title": "Super Jack",
+   "titles": {
+    "ja": "スーパージャック"
+   }
   },
   "pc88:204865": {
    "artwork": {
@@ -53905,7 +54553,10 @@
    "sourceGroups": [
     "neokobe:Shin Tamatori Monogatari (Crossmedia Soft)/Shin Tamatori Monogatari [FD].7z"
    ],
-   "title": "Shin Tamatori Monogatari"
+   "title": "Shin Tamatori Monogatari",
+   "titles": {
+    "ja": "新玉取物語"
+   }
   },
   "pc88:207462": {
    "adult": true,
@@ -53958,6 +54609,9 @@
     "neokobe:Oooku Maruhi Monogatari (CSK)/Oooku Maruhi Monogatari [FD].7z"
    ],
    "title": "Oooku Maruhi Monogatari",
+   "titles": {
+    "ja": "大奥マル秘物語"
+   },
    "year": 1983
   },
   "pc88:207463": {
@@ -54012,7 +54666,10 @@
    "sourceGroups": [
     "neokobe:Gakuen Monogatari (Great)/Gakuen Monogatari [FD].7z"
    ],
-   "title": "Gakuen Monogatari"
+   "title": "Gakuen Monogatari",
+   "titles": {
+    "ja": "学園物語"
+   }
   },
   "pc88:207464": {
    "artwork": {
@@ -54077,7 +54734,10 @@
    "sourceGroups": [
     "neokobe:Shin Taketori Monogatari (Crossmedia Soft)/Shin Taketori Monogatari [FD].7z"
    ],
-   "title": "Shin Taketori Monogatari"
+   "title": "Shin Taketori Monogatari",
+   "titles": {
+    "ja": "新竹取物語"
+   }
   },
   "pc88:207467": {
    "adult": true,
@@ -54119,7 +54779,10 @@
    "sourceGroups": [
     "neokobe:Dokyo (CSK)/Dokyo [FD].7z"
    ],
-   "title": "Doukyou: Kaisou Densetsu"
+   "title": "Doukyou: Kaisou Densetsu",
+   "titles": {
+    "ja": "道鏡 ～怪僧伝説～"
+   }
   },
   "pc88:207468": {
    "artwork": {
@@ -54162,7 +54825,10 @@
    "sourceGroups": [
     "neokobe:Shiro Densetsu (Xtalsoft)/Shiro Densetsu [FD].7z"
    ],
-   "title": "Shiro Densetsu"
+   "title": "Shiro Densetsu",
+   "titles": {
+    "ja": "白伝説"
+   }
   },
   "pc88:207469": {
    "adult": true,
@@ -54502,7 +55168,10 @@
    "sourceGroups": [
     "neokobe:Waga Seishun no Youkai Yashiki (Dot Kikaku)/Waga Seishun no Youkai Yashiki [FD].7z"
    ],
-   "title": "Waga Seishun no Youkai Yashiki"
+   "title": "Waga Seishun no Youkai Yashiki",
+   "titles": {
+    "ja": "わが青春の妖怪屋敷"
+   }
   },
   "pc88:207474": {
    "artwork": {
@@ -54749,7 +55418,10 @@
    "sourceGroups": [
     "neokobe:Review (Orange House)/Review [FD].7z"
    ],
-   "title": "Review: Jashin Fukkatsu"
+   "title": "Review: Jashin Fukkatsu",
+   "titles": {
+    "ja": "ＲＥＶＩＥＷ －邪神復活－"
+   }
   },
   "pc88:207478": {
    "artwork": {
@@ -55004,7 +55676,10 @@
    "sourceGroups": [
     "neokobe:Lovely Gal (Champion Soft)/Lovely Gal [FD].7z"
    ],
-   "title": "Lovely Gal"
+   "title": "Lovely Gal",
+   "titles": {
+    "ja": "ラブリーＧＡＬ"
+   }
   },
   "pc88:207484": {
    "artwork": {
@@ -55231,6 +55906,9 @@
     "neokobe:Alice-tachi no Gogo Vol. 1 (System House OH!)/Alice-tachi no Gogo Vol. 1 [FD].7z"
    ],
    "title": "Alice-tachi no Gogo Vol. 1",
+   "titles": {
+    "ja": "アリスたちの午後 Vol.1"
+   },
    "year": 1989
   },
   "pc88:207505": {
@@ -55612,7 +56290,10 @@
     "neokobe:Datenshi Kyouko (New System House OH!)/Datenshi Kyouko [FD] [Set 1].7z",
     "neokobe:Datenshi Kyouko (New System House OH!)/Datenshi Kyouko [FD].7z"
    ],
-   "title": "Datenshi Kyouko"
+   "title": "Datenshi Kyouko",
+   "titles": {
+    "ja": "堕天使ＫＹＯＵＫＯ Ｐａｒｔ１"
+   }
   },
   "pc88:207530": {
    "artwork": {
@@ -55766,7 +56447,10 @@
    "sourceGroups": [
     "neokobe:Dessert (Queen Soft)/Dessert [FD].7z"
    ],
-   "title": "Dessert"
+   "title": "Dessert",
+   "titles": {
+    "ja": "デザート"
+   }
   },
   "pc88:207533": {
    "aliases": [
@@ -55946,7 +56630,10 @@
     "neokobe:Doki Doki Shutter Chance (elf)/Doki Doki Shutter Chance [FD] [Set 1].7z",
     "neokobe:Doki Doki Shutter Chance (elf)/Doki Doki Shutter Chance [FD].7z"
    ],
-   "title": "Doki Doki Shutter Chance!!"
+   "title": "Doki Doki Shutter Chance!!",
+   "titles": {
+    "ja": "ドキドキシャッターチャンス！！"
+   }
   },
   "pc88:207535": {
    "adult": true,
@@ -56431,7 +57118,10 @@
    "sourceGroups": [
     "neokobe:Ginga o Sukue (Leben Pro - Telenet Japan)/Ginga o Sukue [CT].7z"
    ],
-   "title": "Ginga o Sukue"
+   "title": "Ginga o Sukue",
+   "titles": {
+    "ja": "銀河を救え"
+   }
   },
   "pc88:207562": {
    "adultDescription": "The third Kyapi Kyapi Run game: golf against twelve caddies, each with her own nine holes; beat her target score and she strips.",
@@ -57253,7 +57943,10 @@
    "sourceGroups": [
     "neokobe:Ookami Otoko Satsujin Jiken (Riverhill Soft)/Ookami Otoko Satsujin Jiken [FD] [b].7z"
    ],
-   "title": "Ookami Otoko Satsujin Jiken"
+   "title": "Ookami Otoko Satsujin Jiken",
+   "titles": {
+    "ja": "狼男殺人事件"
+   }
   },
   "pc88:207576": {
    "artwork": {
@@ -57550,7 +58243,10 @@
    "sourceGroups": [
     "neokobe:Princess wa Story Girl (Zenryutsu)/Princess wa Story Girl [FD].7z"
    ],
-   "title": "Princess wa Street Girl?"
+   "title": "Princess wa Street Girl?",
+   "titles": {
+    "ja": "プリンセスはストリートガール？"
+   }
   },
   "pc88:207583": {
    "adultDescription": "A picture show of girls in erotic poses set to music; not a game.",
@@ -57735,7 +58431,10 @@
     "neokobe:Satsujin wa Tegami ni Notte (Twin Soft)/Satsujin wa Tegami ni Notte [FD] [Set 1] [b].7z",
     "neokobe:Satsujin wa Tegami ni Notte (Twin Soft)/Satsujin wa Tegami ni Notte [FD].7z"
    ],
-   "title": "Satsujin wa Tegami ni Notte"
+   "title": "Satsujin wa Tegami ni Notte",
+   "titles": {
+    "ja": "殺人は手紙にのって"
+   }
   },
   "pc88:207587": {
    "adultDescription": "A quiz game in five categories where right answers gradually reveal an erotic picture.",
@@ -57850,6 +58549,9 @@
     "neokobe:Sematte Mitai (Hard)/Sematte Mitai [FD].7z"
    ],
    "title": "Sematte Mitai",
+   "titles": {
+    "ja": "せまってみたい"
+   },
    "year": 1989
   },
   "pc88:207589": {
@@ -57972,7 +58674,10 @@
    "sourceGroups": [
     "neokobe:Shirobara Renzoku Satsujin Jiken (Riverhill Soft)/Shirobara Renzoku Satsujin Jiken [FD].7z"
    ],
-   "title": "Shirobara Renzoku Satsujin Jiken"
+   "title": "Shirobara Renzoku Satsujin Jiken",
+   "titles": {
+    "ja": "白バラ連続殺人事件"
+   }
   },
   "pc88:207592": {
    "aliases": [
@@ -59309,7 +60014,10 @@
     "neokobe:Zenkoku Nanpa Shuugyou (Zenryutsu)/Zenkoku Nanpa Shuugyou [FD] [Set 1].7z",
     "neokobe:Zenkoku Nanpa Shuugyou (Zenryutsu)/Zenkoku Nanpa Shuugyou [FD].7z"
    ],
-   "title": "Zenkoku Nanpa Shugyou: Tasogare no Kyoto Hen"
+   "title": "Zenkoku Nanpa Shugyou: Tasogare no Kyoto Hen",
+   "titles": {
+    "ja": "全国ナンパ修行 ～たそがれの京都編～"
+   }
   },
   "pc88:207621": {
    "aliases": [
@@ -60433,7 +61141,10 @@
    "launchbox": "207921",
    "publisher": "CSK Research Institute",
    "screenshotUrl": "https://images.launchbox-app.com/f13d3545-42d2-4792-a5e6-8cb3cfd99b2a.png",
-   "title": "Office Love no Tehodoki: Lunch Time Hen"
+   "title": "Office Love no Tehodoki: Lunch Time Hen",
+   "titles": {
+    "ja": "オフィスラブの手ほどき ランチタイム編"
+   }
   },
   "pc88:207922": {
    "adult": true,
@@ -60460,7 +61171,10 @@
    "developer": "CSK Research Institute",
    "launchbox": "207922",
    "publisher": "CSK Research Institute",
-   "title": "Onsen Mimizu Geisha"
+   "title": "Onsen Mimizu Geisha",
+   "titles": {
+    "ja": "温泉みみず芸者"
+   }
   },
   "pc88:207923": {
    "artwork": {
@@ -60770,7 +61484,10 @@
    "sourceGroups": [
     "neokobe:Mission Impossible (Starcraft)/Mission Impossible [FD].7z"
    ],
-   "title": "Mission Impossible"
+   "title": "Mission Impossible",
+   "titles": {
+    "ja": "ミッション インポシブル"
+   }
   },
   "pc88:209127": {
    "boxArtUrl": "https://images.launchbox-app.com/c003c388-6ba0-4599-aa3c-c97a871c4923.jpg",
@@ -61226,6 +61943,9 @@
     "neokobe:Karei naru Erotic Memory (Dot Kikaku)/Karei naru Erotic Memory [FD].7z"
    ],
    "title": "Karei Naru Er♥chikku Memorī",
+   "titles": {
+    "ja": "華麗なるえろちっくめもりー"
+   },
    "year": 1987
   },
   "pc88:453654": {
@@ -61489,7 +62209,10 @@
    "launchbox": "456641",
    "publisher": "Zenryuutsuu",
    "screenshotUrl": "https://images.launchbox-app.com/29b5d14c-e865-4cb3-91d3-ceceeaf95950.png",
-   "title": "Evil Stone"
+   "title": "Evil Stone",
+   "titles": {
+    "ja": "イーヴルストーン"
+   }
   },
   "pc88:456647": {
    "aliases": [
@@ -61571,6 +62294,9 @@
    "publisher": "Zenryuutsuu",
    "screenshotUrl": "https://images.launchbox-app.com/5a7294cc-f55e-4e8e-b758-322004fe6573.png",
    "title": "Tsuukai Gag Aventure: Narutomaki Hichou",
+   "titles": {
+    "ja": "鳴門巻秘帖　～痛快ぎゃぐあばんちゅーる～"
+   },
    "year": 1990
   },
   "pc88:456667": {
@@ -62952,7 +63678,10 @@
    "sourceGroups": [
     "neokobe:Satchan no Daibouken!! (Agumix)/Satchan no Daibouken!! [FD].7z"
    ],
-   "title": "Sacchan no Daibouken"
+   "title": "Sacchan no Daibouken",
+   "titles": {
+    "ja": "サッちゃんの大冒険"
+   }
   },
   "pc88:462447": {
    "adult": true,
@@ -63003,7 +63732,10 @@
     "neokobe:Saotome Military Academy of U.N. Space Force Nyuugaku Annai (Zenryutsu)/Saotome Military Academy of U.N. Space Force Nyuugaku Annai [FD] [Set 1].7z",
     "neokobe:Saotome Military Academy of U.N. Space Force Nyuugaku Annai (Zenryutsu)/Saotome Military Academy of U.N. Space Force Nyuugaku Annai [FD].7z"
    ],
-   "title": "Kokuren Uchuu Gun Shikan Gakkou: Saotome Gakuen Nyuugaku Annai"
+   "title": "Kokuren Uchuu Gun Shikan Gakkou: Saotome Gakuen Nyuugaku Annai",
+   "titles": {
+    "ja": "国連宇宙軍士官学校 早乙女学園 入学案内"
+   }
   },
   "pc88:462448": {
    "aliases": [
@@ -63226,7 +63958,10 @@
    "developer": "Soft Studio Wing",
    "launchbox": "462679",
    "publisher": "Soft Studio Wing",
-   "title": "Destruction Joukan"
+   "title": "Destruction Joukan",
+   "titles": {
+    "ja": "デストラクション上巻"
+   }
   },
   "pc88:464628": {
    "boxArtUrl": "https://images.launchbox-app.com/9f4965fe-7506-42f8-9e34-199c35d64a95.jpg",
@@ -66742,7 +67477,10 @@
    "sourceGroups": [
     "neokobe:Yaritai Houdai (Lucifer Soft - Zenryutsu)/Yaritai Houdai [FD].7z"
    ],
-   "title": "Yaritai Houdai"
+   "title": "Yaritai Houdai",
+   "titles": {
+    "ja": "やりたい放題"
+   }
   },
   "pc88:local-24aeb034e9": {
    "contentIds": [
@@ -67588,7 +68326,10 @@
     "neokobe:Yuugekitai (Doujin - TKO Soft)/Yuugekitai [FD] [Set 1].7z",
     "neokobe:Yuugekitai (Doujin - TKO Soft)/Yuugekitai [FD].7z"
    ],
-   "title": "Yuugekitai"
+   "title": "Yuugekitai",
+   "titles": {
+    "ja": "遊撃隊"
+   }
   },
   "pc88:local-2fa01f5cc6": {
    "contentIds": [
@@ -71233,7 +71974,10 @@
    "sourceGroups": [
     "neokobe:Tanteidan X (Heart Soft)/Tanteidan X [FD].7z"
    ],
-   "title": "Tanteidan X"
+   "title": "Tanteidan X",
+   "titles": {
+    "ja": "探偵団Ｘ"
+   }
   },
   "pc88:local-5b017d7b55": {
    "contentIds": [
@@ -71716,7 +72460,10 @@
    "sourceGroups": [
     "neokobe:Ikase Otoko Nyuumon - Ai o Arigatou (Family Soft)/Ikase Otoko Nyuumon - Ai o Arigatou [FD].7z"
    ],
-   "title": "Ikase Otoko Nyuumon - Ai o Arigatou"
+   "title": "Ikase Otoko Nyuumon - Ai o Arigatou",
+   "titles": {
+    "ja": "イカセ男入門 ～愛をありがとう～"
+   }
   },
   "pc88:local-60726ab1fe": {
    "contentIds": [
@@ -72180,7 +72927,10 @@
    "sourceGroups": [
     "neokobe:Morina (Doujin - Active Gamers)/Morina [FD].7z"
    ],
-   "title": "Morina"
+   "title": "Morina",
+   "titles": {
+    "ja": "もりな"
+   }
   },
   "pc88:local-650148c957": {
    "adult": true,
@@ -72309,7 +73059,10 @@
    "sourceGroups": [
     "neokobe:Yuugekitai Bangaihen (Doujin - TKO Soft)/Yuugekitai Bangaihen [FD].7z"
    ],
-   "title": "Yuugekitai Bangaihen"
+   "title": "Yuugekitai Bangaihen",
+   "titles": {
+    "ja": "遊撃隊・番外編"
+   }
   },
   "pc88:local-66af29c47a": {
    "contentIds": [
@@ -73166,7 +73919,10 @@
     "neokobe:Akazukin-chan (System Delta)/Akazukin-chan (demo) [FD].7z",
     "neokobe:Akazukin-chan (System Delta)/Akazukin-chan [FD].7z"
    ],
-   "title": "Akazukin-chan"
+   "title": "Akazukin-chan",
+   "titles": {
+    "ja": "あかずきんちゃん"
+   }
   },
   "pc88:local-6ea944e674": {
    "contentIds": [
@@ -73373,7 +74129,10 @@
    "sourceGroups": [
     "neokobe:Time Secret (Bond Soft)/Time Secret [CT].7z"
    ],
-   "title": "Time Secret"
+   "title": "Time Secret",
+   "titles": {
+    "ja": "タイムシークレット"
+   }
   },
   "pc88:local-71069a4604": {
    "contentIds": [
@@ -73692,7 +74451,10 @@
    "sourceGroups": [
     "neokobe:SD Toki no Kagi (Doujin - Hypa Soft)/SD Toki no Kagi [FD] [missing Disk C].7z"
    ],
-   "title": "SD Toki no Kagi"
+   "title": "SD Toki no Kagi",
+   "titles": {
+    "ja": "SD時の鍵"
+   }
   },
   "pc88:local-76beaf6729": {
    "contentIds": [
@@ -76559,7 +77321,10 @@
    "sourceGroups": [
     "neokobe:Ningyo no Namida (Doujin - Teikoku Soft)/Ningyo no Namida [FD].7z"
    ],
-   "title": "Ningyo no Namida"
+   "title": "Ningyo no Namida",
+   "titles": {
+    "ja": "人魚の涙"
+   }
   },
   "pc88:local-969cc3afcf": {
    "adult": true,
@@ -80152,7 +80917,10 @@
    "sourceGroups": [
     "neokobe:Irowanioedo (Zenryutsu)/Irowanioedo [FD].7z"
    ],
-   "title": "Irowanioedo"
+   "title": "Irowanioedo",
+   "titles": {
+    "ja": "艶談・源平争乱記 ～いろはにほへと～"
+   }
   },
   "pc88:local-be32b19eb9": {
    "contentIds": [
@@ -80766,7 +81534,10 @@
    "sourceGroups": [
     "neokobe:Manji (CSK)/Manji [FD].7z"
    ],
-   "title": "Manji"
+   "title": "Manji",
+   "titles": {
+    "ja": "卍 -まんじ-"
+   }
   },
   "pc88:local-cb0625802e": {
    "contentIds": [
@@ -84758,7 +85529,10 @@
    "sourceGroups": [
     "neokobe:Fairytale (Fairytale)/Fairytale [FD].7z"
    ],
-   "title": "Fairytale"
+   "title": "Fairytale",
+   "titles": {
+    "ja": "ふぇありぃてぃる"
+   }
   },
   "pc88:local-fd3192d4ce": {
    "contentIds": [
@@ -84801,7 +85575,10 @@
    "sourceGroups": [
     "neokobe:Lonely Heart (Doujin - Swing)/Lonely Heart [FD].7z"
    ],
-   "title": "Lonely Heart"
+   "title": "Lonely Heart",
+   "titles": {
+    "ja": "ロンリーハート"
+   }
   },
   "pc88:local-fdce77548d": {
    "contentIds": [
@@ -84992,6 +85769,9 @@
    },
    "mobygames": 115841,
    "title": "The Coveted Mirror",
+   "titles": {
+    "ja": "照魔鏡の伝説"
+   },
    "year": 1986
   },
   "pc88:moby-116585": {
@@ -85096,6 +85876,9 @@
    },
    "mobygames": 119799,
    "title": "Maison Ikkoku",
+   "titles": {
+    "ja": "めぞん一刻 ～想いでのフォトグラフ～"
+   },
    "year": 1986
   },
   "pc88:moby-119833": {
@@ -85232,6 +86015,9 @@
    },
    "mobygames": 149498,
    "title": "Happy Bushman",
+   "titles": {
+    "ja": "ハッピーブッシュマン"
+   },
    "year": 1983
   },
   "pc88:moby-149959": {
@@ -85878,6 +86664,9 @@
    },
    "mobygames": 219220,
    "title": "Wonder House",
+   "titles": {
+    "ja": "ワンダーハウス"
+   },
    "year": 1983
   },
   "pc88:moby-220163": {
@@ -87063,6 +87852,9 @@
    },
    "mobygames": 45871,
    "title": "Alice-tachi no Gogo Vol. 2",
+   "titles": {
+    "ja": "アリスたちの午後 Vol.2"
+   },
    "year": 1989
   },
   "pc88:moby-47141": {
@@ -87664,6 +88456,9 @@
    },
    "mobygames": 59190,
    "title": "Crescent Moon Girl",
+   "titles": {
+    "ja": "CRESCENT MOON がぁる"
+   },
    "year": 1989
   },
   "pc88:moby-5960": {
