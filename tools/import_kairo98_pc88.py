@@ -17,15 +17,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "catalog/research"
+sys.path.insert(0, str(ROOT / "shared/tools"))
+import catalog_files  # noqa: E402
 
 
 def read(path):
-    return json.loads(path.read_text(encoding="utf-8"))
+    return catalog_files.read(path)
 
 
 def write(path, value):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    catalog_files.write(path, value)
 
 
 def main():
@@ -56,10 +57,10 @@ def main():
     missing = sorted(set(folders) - placed)
 
     keys = {f"pc88:{entry['databaseId']}" for entry in matches}
-    reviewed = read(source / "catalog/research/descriptions-v1.json")["descriptions"]
+    reviewed = read(source / "catalog/research/descriptions-v1.json.gz")["descriptions"]
     descriptions = {"schemaVersion": 1, "descriptions": {}}
-    if (RESEARCH / "descriptions-v1.json").is_file():
-        descriptions = read(RESEARCH / "descriptions-v1.json")
+    if (RESEARCH / "descriptions-v1.json.gz").is_file():
+        descriptions = read(RESEARCH / "descriptions-v1.json.gz")
     for entry in matches:
         key = f"pc88:{entry['databaseId']}"
         text = reviewed.get(key, entry.get("description"))
@@ -104,7 +105,7 @@ def main():
     review["approvedArtwork"].update(approved)
 
     write(RESEARCH / "media-matches-v1.json", media)
-    write(RESEARCH / "descriptions-v1.json", descriptions)
+    write(RESEARCH / "descriptions-v1.json.gz", descriptions)
     write(RESEARCH / "overrides-v1.json", overrides)
     write(ROOT / "catalog/core-review-v1.json", review)
     print(f"{len(matches)} games, {len(folders)} folders ({len(missing)} without scanned media: {missing[:5]}), "
