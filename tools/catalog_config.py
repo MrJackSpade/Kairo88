@@ -106,3 +106,7 @@ COMPANION = {"fd": ("fd", "floppyB", False)}
 # The media slots a disk swap can use and the disks each takes (MainActivity.mediaSlots, the
 # catalog schema's CatalogSetting.DiskSwaps; shared/tools/startup_automation.py).
 DISK_SWAPS = {0: {"fd"}, 1: {"fd"}, 2: {"tape"}}
+
+# The extensions the app removes from a file's name before looking it up (the catalog schema's
+# mediaExtensions); the name index is built the same way (shared app_catalog.lookup_name).
+MEDIA_EXTENSIONS = r"\.(?:zip|7z|d88|88d|t88|cmt)$"
