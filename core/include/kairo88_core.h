@@ -92,6 +92,8 @@ int k88_disk_busy(void);
 /* How many times the guest has toggled the mouse strobe (port $40 bit 6), as a mouse program does to
  * read the mouse (patch group kairo88-mouse-strobes). */
 unsigned long k88_mouse_strobes(void);
+/* Whether the guest has taken all the motion the mouse was given (patch group kairo88-mouse-pending). */
+int k88_mouse_idle(void);
 /* How far the tape in the deck has been read: bytes read and the image's size. 0 when a tape is in
  * the deck and not at its end, else -1 (QUASI88 forgets both once the tape has been read to its end). */
 int k88_tape_position(long *read, long *size);

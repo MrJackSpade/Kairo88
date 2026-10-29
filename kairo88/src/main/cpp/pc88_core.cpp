@@ -8,6 +8,7 @@
 #include <vector>
 
 #include "kairo/machine_core.h"
+#include "kairo/relative_warp.h"
 #include "kairo88_core.h"
 #include "kairo88_typing.h"
 
@@ -67,6 +68,11 @@ public:
     ~Pc88Core() override { release_inputs(); }
 
     bool run_frame() override {
+        if (warp_.running()) {
+            int dx, dy;
+            warp_.step(k88_mouse_idle() != 0, dx, dy);
+            if (dx || dy) k88_mouse_move(dx, dy);
+        }
         if (k88_run_frame() != 0) {
             error_ = "QUASI88 stopped";
             return false;
@@ -143,7 +149,18 @@ public:
         k88_pad(kJoystick[control], down ? 1 : 0);
     }
 
-    void mouse_move(int dx, int dy) override { k88_mouse_move(dx, dy); }
+    void mouse_move(int dx, int dy) override {
+        // A drag after a direct tap goes with the warp's counts until they are given.
+        if (!warp_.hold(dx, dy)) k88_mouse_move(dx, dy);
+    }
+    // Direct touch: a push past the screen's top-left corner and the counts from there, in the
+    // picture's own pixels (kairo::RelativeWarp), for a game that moves its pointer a pixel a count.
+    void mouse_warp(int x, int y) override {
+        uint32_t width = 0, height = 0;
+        if (!frame(width, height)) return;
+        warp_.start(x, y, int(width), int(height));
+    }
+    bool mouse_warp_done() override { return warp_.done(); }
 
     void mouse_button(int button, bool down) override {
         buttons_[button - 1] = down;
@@ -192,6 +209,8 @@ private:
     std::array<bool, 256> keys_{};
     std::array<bool, kJoystick.size()> pads_{};
     std::array<bool, 2> buttons_{};
+    // Direct touch (mouse_warp).
+    kairo::RelativeWarp warp_;
 };
 
 } // namespace

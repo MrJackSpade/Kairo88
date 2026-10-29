@@ -1369,6 +1369,12 @@ void keyboard_jop1_reset(void)
 /*  (8MHzの場合は 1440state なんだけどまあいっか) */
 #define JOP1_STROBE_LIMIT				((int)(720 * 1.25))
 
+/* Kairo88: whether the guest has motion of the mouse still to take (k88_mouse_idle) */
+int kairo88_mouse_pending(void)
+{
+	return mouse_dx != 0 || mouse_dy != 0;
+}
+
 void keyboard_jop1_strobe(void)
 {
 	if (mouse_mode == MOUSE_MOUSE       &&

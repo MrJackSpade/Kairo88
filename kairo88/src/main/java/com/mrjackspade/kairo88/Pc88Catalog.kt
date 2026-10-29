@@ -28,6 +28,8 @@ object Pc88Catalog : LayeredGameCatalog.Schema {
             if (game.contentId.startsWith(TAPE_ID)) defaultLoader(options.getValue(Pc88Native.basic.id)) else emptyList()
         })
     override val fields = CatalogSetting.fields(settings)
+    /** A mouse game's pointer goes to a point by a push to the corner and counts (pc88_core.cpp mouse_warp). */
+    override val directTouch = true
 
     override fun validMedia(role: String, contentId: String) = role == "floppyB" && contentId.startsWith(FLOPPY)
 

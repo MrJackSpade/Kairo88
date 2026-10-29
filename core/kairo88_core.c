@@ -151,6 +151,13 @@ int k88_tape_running(void)
 
 extern unsigned long kairo88_mouse_strobes;
 
+extern int kairo88_mouse_pending(void);
+
+int k88_mouse_idle(void)
+{
+	return !kairo88_mouse_pending();
+}
+
 unsigned long k88_mouse_strobes(void)
 {
 	return kairo88_mouse_strobes;

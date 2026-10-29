@@ -690,6 +690,15 @@ extern int use_half_interp;					/* 画面サイズ半分時、色補間する */
     # Auto touch mode (Kairo#78): a mouse program clocks the mouse's nibbles out with port $40's
     # bit 6, which a joystick read never toggles. Counted whatever the port holds: the Controls
     # setting picks the mouse, and Auto is for when nobody did (k88_mouse_strobes).
+    # Direct touch (Kairo#79) gives the mouse a warp's push before its counts, each once the guest
+    # has taken the motion before it (k88_mouse_idle).
+    'kairo88-mouse-pending': [
+        ('quasi88/src/pc88/keyboard.c',
+         'void keyboard_jop1_strobe(void)\n{\n',
+         '/* Kairo88: whether the guest has motion of the mouse still to take (k88_mouse_idle) */\n'
+         'int kairo88_mouse_pending(void)\n{\n\treturn mouse_dx != 0 || mouse_dy != 0;\n}\n\n'
+         'void keyboard_jop1_strobe(void)\n{\n'),
+    ],
     'kairo88-mouse-strobes': [
         ('quasi88/src/pc88/pc88main.c',
          'static void out_ctrl_signal(byte data)\n{\n\tbyte  trg_on  = ~ctrl_signal &  data;\n\tbyte  trg_off =  ctrl_signal & ~data;\n',
