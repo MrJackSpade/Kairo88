@@ -20,6 +20,9 @@ object Pc88Catalog : LayeredGameCatalog.Schema {
     override val catalogUrl = "https://raw.githubusercontent.com/MrJackSpade/Kairo88/main/catalog/"
     override val selfHostedArt = "/MrJackSpade/Kairo88/main/catalog/artwork/art/catalog/"
     override val contentId = Regex("sha256-(?:fd|tape)-v1:[0-9a-f]{64}")
+    /** The PC-88 keyboard's Esc and Return. */
+    override val escapeKeys = setOf(Pc88Keys.ESC)
+    override val enterKeys = setOf(Pc88Keys.RETURN)
     override val mediaExtensions = Regex("\\.(?:zip|7z|d88|88d|t88|cmt)$", RegexOption.IGNORE_CASE)
     override val settings: List<CatalogSetting> = Pc88Native.options.map(CatalogSetting::Choice) + listOf(
         CatalogSetting.Drive("floppyB", UiText.res(FrontendR.string.kairo_drive_2)) { it.startsWith(FLOPPY) },
