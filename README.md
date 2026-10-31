@@ -72,6 +72,7 @@ Kairo88 needs N88-BASIC (`n88.rom`), its extension 0 (`n88_0.rom`) and the disk 
 
 ## Documentation
 
+- [Add a game](docs/add-a-game.md): set up a game the catalog doesn't know, such as your own copy of a multi-disk game
 - [Create a game](docs/create-a-game.md): make a new game on a blank floppy, such as a game's user disk
 - [Licensing and credits](docs/licensing.md): code license and third-party components
 - [Source provenance](docs/source-import.md): where the emulator sources came from and what was copied
