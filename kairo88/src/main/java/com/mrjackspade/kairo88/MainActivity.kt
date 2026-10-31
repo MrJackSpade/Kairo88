@@ -47,6 +47,9 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     override fun createLibrary(catalog: LayeredGameCatalog) = disks
 
     override val machineOptions = Pc88Native.options
+    // Unformatted, as a new floppy was: a game's own menu makes it a user disk, or N88-DISK BASIC formats it.
+    override val blankDisks = listOf(
+        coreBlankDisk("2d", UiText.res(FrontendR.string.kairo_blank_floppy, "320 KB · 2D"), "d88"))
     private fun isDisk(entry: DiskImageEntry) = format.kind(entry.displayName) == "fd"
     private fun isTape(entry: DiskImageEntry) = format.kind(entry.displayName) == "tape"
 

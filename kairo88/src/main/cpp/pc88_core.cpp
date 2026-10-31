@@ -2,6 +2,7 @@
 // (shared/frontend/src/main/cpp/kairo/machine_core.h).
 
 #include <array>
+#include <cstdio>
 #include <cstdlib>
 #include <memory>
 #include <string>
@@ -217,4 +218,20 @@ private:
 
 std::unique_ptr<kairo::MachineCore> kairo::create_core(const kairo::Launch &launch, std::string &error) {
     return Pc88Core::boot(launch, error);
+}
+
+// The blank disks MainActivity.blankDisks lists: "2d", a 320 KB floppy as QUASI88 makes one
+// (32-byte header, 164 track offsets, 84 tracks of 0x1600 bytes).
+std::string kairo::create_blank_disk(const std::string &kind, const std::string &path) {
+    if (kind != "2d") return "Kairo88 makes no blank disk " + kind;
+    if (k88_create_blank_disk(path.c_str()) != 0) return "QUASI88 could not write a blank disk at " + path;
+    FILE *file = std::fopen(path.c_str(), "rb");
+    if (!file) return "The blank disk " + path + " is not there after QUASI88 wrote it";
+    std::fseek(file, 0, SEEK_END);
+    const long size = std::ftell(file);
+    std::fclose(file);
+    constexpr long kSize = 32 + 164 * 4 + 84 * 0x1600;
+    if (size != kSize)
+        return "QUASI88 wrote " + std::to_string(size) + " bytes for a blank 2D disk, not " + std::to_string(kSize);
+    return "";
 }

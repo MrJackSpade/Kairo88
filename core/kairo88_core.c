@@ -18,6 +18,8 @@
 #include "keyboard.h"
 #include "drive.h"
 #include "fdc.h"
+#include "file-op.h"
+#include "image.h"
 #include "fname.h"
 #include "crtcdmac.h"
 #include "screen.h"
@@ -250,6 +252,28 @@ int k88_state_save(const char *path)
 {
 	filename_set_state(path);
 	return quasi88_statesave(-1) ? 0 : -1;
+}
+
+int k88_create_blank_disk(const char *path)
+{
+	FILE *file;
+	OSD_FILE *fp;
+	int result;
+
+	/* d88_append_blank appends to an open image: start with an empty file. */
+	file = fopen(path, "wb");
+	if (file == NULL || fclose(file) != 0) {
+		return -1;
+	}
+	fp = osd_fopen(FTYPE_DISK, path, "r+b");
+	if (fp == NULL) {
+		return -1;
+	}
+	result = d88_append_blank(fp, -1);
+	if (osd_fclose(fp) != 0) {
+		return -1;
+	}
+	return result == D88_SUCCESS ? 0 : -1;
 }
 
 int k88_state_load(const char *path)

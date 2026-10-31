@@ -131,6 +131,10 @@ void k88_reset(void);
 int k88_state_save(const char *path);
 int k88_state_load(const char *path);
 
+/* Writes a new, unformatted 2D floppy (D88) at `path` with QUASI88's own blank-disk
+ * writer, as its monitor's "file create" does. Returns 0, or -1 when it could not. */
+int k88_create_blank_disk(const char *path);
+
 /* Audio: stereo 16-bit frames at k88_audio_rate() Hz, produced as frames run.
  * k88_audio_read copies up to `max_frames` frames into `stereo` (interleaved)
  * and returns how many it copied. Unread audio is kept for one second; older
