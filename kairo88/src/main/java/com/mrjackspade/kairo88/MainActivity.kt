@@ -50,8 +50,8 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     // Unformatted, as a new floppy was: a game's own menu makes it a user disk, or N88-DISK BASIC formats it.
     override val blankDisks = listOf(
         coreBlankDisk("2d", UiText.res(FrontendR.string.kairo_blank_floppy, "320 KB · 2D"), "d88"))
-    private fun isDisk(entry: DiskImageEntry) = format.kind(entry.displayName) == "fd"
-    private fun isTape(entry: DiskImageEntry) = format.kind(entry.displayName) == "tape"
+    private fun isDisk(entry: DiskImageEntry) = entry.kind == "fd"
+    private fun isTape(entry: DiskImageEntry) = entry.kind == "tape"
 
     override val mediaSlots = listOf(MediaSlot(UiText.res(R.string.drive_1), ::isDisk),
         MediaSlot(UiText.res(FrontendR.string.kairo_drive_2), ::isDisk), MediaSlot(UiText.res(FrontendR.string.kairo_cassette), ::isTape))
