@@ -39,9 +39,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
     override val bindingsCodec = Pc88Keys.bindings
     override val artworkDownloadsEnabled: Boolean get() = resources.getBoolean(R.bool.catalog_art_download_enabled)
 
-    private val format = DiskImageLibrary.Format(mapOf("d88" to "fd", "88d" to "fd", "t88" to "tape", "cmt" to "tape"),
-        mapOf("fd" to UiText.res(FrontendR.string.kairo_floppy_disk), "tape" to UiText.res(R.string.cassette_tape)), mapOf("fd" to 64L * 1024 * 1024, "tape" to 16L * 1024 * 1024),
-        "PC-88")
+    private val format = Pc88Media.format
     private val disks by lazy { DiskImageLibrary(this, format) }
     override fun createCatalog() = LayeredGameCatalog(this, Pc88Catalog)
     override fun createLibrary(catalog: LayeredGameCatalog) = disks
@@ -57,41 +55,7 @@ class MainActivity : MachineActivity<DiskImageEntry>() {
         MediaSlot(UiText.res(FrontendR.string.kairo_drive_2), ::isDisk), MediaSlot(UiText.res(FrontendR.string.kairo_cassette), ::isTape))
 
     private val firmwareDir by lazy { File(filesDir, "firmware") }
-    override val firmwareSets by lazy {
-        fun description(name: String, what: UiText) = UiText.res(FrontendR.string.kairo_firmware_part, name, what)
-        fun rom(name: String, label: UiText, description: UiText, required: Boolean, sizes: Set<Int>,
-                vararg aliases: String) = FirmwareSet.Part(name, label, description(name, description), setOf(name) + aliases,
-            required, sizes.map(Int::toLong).toSet())
-        fun rom(name: String, label: Int, description: Int, required: Boolean, sizes: Set<Int>, vararg aliases: String) =
-            rom(name, UiText.res(label), UiText.res(description), required, sizes, *aliases)
-        listOf(UiText.res(FrontendR.string.kairo_firmware_title, "PC-88") to FirmwareSet(firmwareDir, listOf(
-            rom("n88.rom", UiText.fixed("N88-BASIC"), UiText.res(R.string.firmware_n88_description), true, setOf(0x8000)),
-            rom("n88_0.rom", R.string.firmware_n88_extension_0, R.string.firmware_n88_0_description, true, setOf(0x2000),
-                "n88ext0.rom"),
-            rom("n88_1.rom", R.string.firmware_n88_extension_1, R.string.firmware_n88_extension_description, false,
-                setOf(0x2000), "n88ext1.rom"),
-            rom("n88_2.rom", R.string.firmware_n88_extension_2, R.string.firmware_n88_extension_description, false,
-                setOf(0x2000), "n88ext2.rom"),
-            rom("n88_3.rom", R.string.firmware_n88_extension_3, R.string.firmware_n88_extension_description, false,
-                setOf(0x2000), "n88ext3.rom"),
-            rom("n80.rom", UiText.fixed("N-BASIC"), UiText.res(R.string.firmware_n80_description, "PC-8001"), false,
-                setOf(0x8000), "n88n.rom"),
-            rom("disk.rom", R.string.firmware_disk, R.string.firmware_disk_description, true, setOf(0x800, 0x2000),
-                "n88sub.rom"),
-            rom("kanji1.rom", R.string.firmware_kanji_1, R.string.firmware_kanji_1_description, false, setOf(0x20000),
-                "n88knj1.rom"),
-            rom("kanji2.rom", R.string.firmware_kanji_2, R.string.firmware_kanji_2_description, false, setOf(0x20000),
-                "n88knj2.rom"),
-            rom("jisyo.rom", FrontendR.string.kairo_firmware_dictionary, R.string.firmware_dictionary_description, false,
-                setOf(0x80000), "n88jisho.rom"),
-            rom("font.rom", R.string.firmware_font, R.string.firmware_font_description, false, setOf(0x800, 0x1000)))),
-            UiText.res(R.string.rhythm_samples) to FirmwareSet(firmwareDir, listOf("bd" to R.string.rhythm_bass_drum,
-                "sd" to R.string.rhythm_snare_drum, "top" to R.string.rhythm_top_cymbal, "hh" to R.string.rhythm_hi_hat,
-                "tom" to R.string.rhythm_tom, "rim" to R.string.rhythm_rim_shot).map { (name, label) ->
-                FirmwareSet.Part("2608_$name.wav", UiText.res(label), description("2608_$name.wav", UiText.res(R.string.rhythm_description)),
-                    setOf("2608_$name.wav"), true)
-            }))
-    }
+    override val firmwareSets by lazy { Pc88Firmware.sets(firmwareDir) }
 
     override fun startGame(entry: DiskImageEntry, game: CatalogGame, cancelled: AtomicBoolean,
                            progress: (String) -> Unit) {
