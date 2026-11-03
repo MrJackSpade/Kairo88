@@ -969,8 +969,10 @@ int osd_file_config_init(void)
 
 	home = getenv("HOME");
 
+	/* Kairo88: or a drive's absolute path, on a Windows host */
 	if (home    == NULL ||
-		home[0] != '/') {
+		(home[0] != '/' &&
+		 !(home[0] != '\0' && home[1] == ':' && (home[2] == '/' || home[2] == '\\')))) {
 		/* 未定義とか絶対パスでない場合は NG */
 		fprintf(stderr, "error: can't get HOME\n");
 		home = NULL;

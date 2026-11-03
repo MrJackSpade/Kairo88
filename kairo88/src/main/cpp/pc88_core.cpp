@@ -4,6 +4,7 @@
 #include <array>
 #include <cstdio>
 #include <cstdlib>
+#include <fstream>
 #include <memory>
 #include <string>
 #include <vector>
@@ -23,6 +24,8 @@ constexpr int kPad1A = 228;
 // The frontend's joystick controls, in JoystickInputRouter.DEFAULT_CONTROLS order.
 constexpr std::array<int, 6> kJoystick = {kPad1Up, kPad1Up + 1, kPad1Up + 2, kPad1Up + 3, kPad1A, kPad1A + 1};
 constexpr const char *kStateFile = "/state.q88";
+// The lock keys a state was saved with (Kairo88#51), beside it: QUASI88's state holds none.
+constexpr const char *kLocksFile = "/locks.txt";
 // MainActivity's media slots: drives 1 and 2, then the cassette deck.
 constexpr size_t kTapeSlot = 2;
 
@@ -34,7 +37,12 @@ public:
         static bool initialized = false;
         if (!initialized) {
             // QUASI88 keeps its own folders under $HOME/.quasi88.
+#ifdef _WIN32
+            // The shared PC boot test's Windows build (Kairo#115): the CRT's own environment.
+            _putenv_s("HOME", launch.home.c_str());
+#else
             setenv("HOME", launch.home.c_str(), 1);
+#endif
             std::vector<std::string> args = {"kairo88", "-romdir", launch.firmware, "-notool", "-nostatus",
                                              "-noconfig"};
             std::vector<char *> argv;
@@ -68,6 +76,15 @@ public:
 
     ~Pc88Core() override { release_inputs(); }
 
+    // QUASI88 lives for the process, so the session's images are closed with it: the next session
+    // boots its own working copies, and one that removes these (the shared PC boot test on
+    // Windows, where an open file cannot be deleted) finds them free.
+    std::string close() override {
+        if (k88_disk(0, nullptr) != 0 || k88_disk(1, nullptr) != 0) return "QUASI88 could not eject a disk";
+        if (k88_tape(nullptr) != 0) return "QUASI88 could not empty the cassette deck";
+        return "";
+    }
+
     bool run_frame() override {
         if (warp_.running()) {
             int dx, dy;
@@ -78,13 +95,16 @@ public:
             error_ = "QUASI88 stopped";
             return false;
         }
+        // k88_disk_busy reports the FDC's work since it was last asked, so it is asked once a frame:
+        // loading() is a question about the last frame, which the frame host asks several times.
+        disk_read_ = k88_disk_busy() != 0;
         return true;
     }
 
     // While the tape is read, the frame host runs the machine as fast as it can: a cassette loads in
     // minutes at its real speed. (It does so while a startup command goes in, too.)
-    // Flat out while the tape runs or a disk loads (Kairo#82).
-    bool loading() override { return k88_tape_running() != 0 || k88_disk_busy() != 0; }
+    // Flat out while the tape runs or the last frame read or wrote a disk (Kairo#82, Kairo88#48).
+    bool loading() override { return k88_tape_running() != 0 || disk_read_; }
 
     // The startup commands go in at BASIC's prompts (kairo88_typing.h).
     kairo::Prompt prompt() override { return typing_.prompt(); }
@@ -191,12 +211,20 @@ public:
     }
 
     int save_state(const std::string &directory) override {
-        return k88_state_save((directory + kStateFile).c_str()) == 0 ? 0 : kFailed;
+        if (k88_state_save((directory + kStateFile).c_str()) != 0) return kFailed;
+        std::ofstream locks(directory + kLocksFile, std::ios::binary);
+        locks << k88_locks() << '\n';
+        return locks.good() ? 0 : kFailed;
     }
 
     int load_state(const std::string &directory) override {
         release_inputs();
-        return k88_state_load((directory + kStateFile).c_str()) == 0 ? 0 : kFailed;
+        if (k88_state_load((directory + kStateFile).c_str()) != 0) return kFailed;
+        // A state saved before the locks were recorded has none to restore.
+        std::ifstream locks(directory + kLocksFile, std::ios::binary);
+        int saved = 0;
+        if (locks && locks >> saved) k88_set_locks(saved);
+        return 0;
     }
 
     // MainActivity.stateError reads these.
@@ -205,6 +233,8 @@ private:
     Pc88Core() = default;
 
     std::string error_;
+    // Whether the last frame read or wrote a disk (run_frame).
+    bool disk_read_ = false;
     Pc88Typing typing_;
     uint32_t stride_ = 0, repeat_ = 1;
     std::array<bool, 256> keys_{};

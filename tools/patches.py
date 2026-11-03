@@ -706,4 +706,13 @@ extern int use_half_interp;					/* 画面サイズ半分時、色補間する */
          'static void out_ctrl_signal(byte data)\n{\n\tbyte  trg_on  = ~ctrl_signal &  data;\n\tbyte  trg_off =  ctrl_signal & ~data;\n'
          '\tif ((trg_on | trg_off) & 0x40) kairo88_mouse_strobes++;\n'),
     ],
+    # The shared PC boot test's Windows build (Kairo#115): a home is a drive's absolute path there
+    # (C:\...), which the unix file layer took for a relative one and ran without its folders.
+    'kairo88-windows-home': [
+        ('quasi88/src/osdepend/unix/file-op.c',
+         "\tif (home    == NULL ||\n\t\thome[0] != '/') {\n",
+         "\t/* Kairo88: or a drive's absolute path, on a Windows host */\n"
+         "\tif (home    == NULL ||\n\t\t(home[0] != '/' &&\n"
+         "\t\t !(home[0] != '\\0' && home[1] == ':' && (home[2] == '/' || home[2] == '\\\\')))) {\n"),
+    ],
 }

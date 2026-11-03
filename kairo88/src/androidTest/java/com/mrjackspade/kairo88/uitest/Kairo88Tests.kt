@@ -22,8 +22,8 @@ import org.junit.Test
 /**
  * Kairo88 as the shared UI tests see it. Its test resources (uitest/resources.json) are Neo Kobe
  * archives: Thunder Force's whole folder (V1 and SR versions, dump sets, a tape and extras),
- * Angelus (two disks and alternate dumps), the first two 100 Yen Disks and a utility, with the
- * PC-88 BIOS and rhythm samples.
+ * Angelus (two disks and alternate dumps), the first two 100 Yen Disks, a utility and Ishido (which
+ * reads the mouse), with the PC-88 BIOS and rhythm samples.
  */
 object Kairo88App : AppUnderTest() {
     override val name = "Kairo88"
@@ -49,6 +49,8 @@ object Kairo88App : AppUnderTest() {
     override val otherGame = "100 Yen Disk No. 1"
     override val defaultOption = "sound"
     override val mediaSwap = MediaSwap("Angelus: Akuma no Fukuin", "Drive 2", "(Disk C)", filler = "d88")
+    override val mouseGame = "Ishido: The Way of Stones"
+    override val keyboardGame = "Thunder Force"
 }
 
 class Kairo88FirstRunTests : FirstRunTests() { override val app = Kairo88App }

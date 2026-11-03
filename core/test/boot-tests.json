@@ -1,0 +1,245 @@
+{
+  "tests": [
+    {
+      "name": "Thunder Force",
+      "firmware": "bios",
+      "media": [
+        "games/Thunder Force (Tecno Soft)/Thunder Force [FD]/Thunder Force {V1 mode}.d88",
+        "",
+        ""
+      ],
+      "settings": {
+        "basic": "1",
+        "clock": "8",
+        "sound": "1",
+        "port": "0",
+        "subcpu": "0"
+      },
+      "checks": {
+        "boot": {
+          "frames": 1800,
+          "audio": true
+        },
+        "guestInput": {
+          "frames": 2400,
+          "expect": "keyboard"
+        },
+        "sessions": {
+          "frames": 600,
+          "prompt": {
+            "media": [
+              "",
+              "",
+              ""
+            ]
+          }
+        },
+        "state": {
+          "at": 300,
+          "frames": 120,
+          "sound": true
+        },
+        "loading": {
+          "startsBy": 120,
+          "doneBy": 1800,
+          "settled": 120,
+          "idle": {
+            "media": [
+              "",
+              "",
+              ""
+            ],
+            "frames": 600
+          }
+        }
+      }
+    },
+    {
+      "name": "Angelus",
+      "firmware": "bios",
+      "media": [
+        "games/Angelus (Enix)/Angelus [FD]/Angelus (Disk A).d88",
+        "games/Angelus (Enix)/Angelus [FD]/Angelus (Disk B).d88",
+        ""
+      ],
+      "settings": {
+        "basic": "3",
+        "clock": "8",
+        "sound": "1",
+        "port": "0",
+        "subcpu": "0"
+      },
+      "checks": {
+        "boot": {
+          "frames": 1800
+        },
+        "stateDisks": {
+          "drive": 1,
+          "at": 900,
+          "swap": "games/Angelus (Enix)/Angelus [FD]/Angelus (Disk C).d88"
+        }
+      }
+    },
+    {
+      "name": "Angelus drive 1",
+      "firmware": "bios",
+      "media": [
+        "games/Angelus (Enix)/Angelus [FD]/Angelus (Disk A).d88",
+        "games/Angelus (Enix)/Angelus [FD]/Angelus (Disk B).d88",
+        ""
+      ],
+      "settings": {
+        "basic": "3",
+        "clock": "8",
+        "sound": "1",
+        "port": "0",
+        "subcpu": "0"
+      },
+      "checks": {
+        "stateDisks": {
+          "drive": 0,
+          "at": 900,
+          "swap": "games/Angelus (Enix)/Angelus [FD]/Angelus (Disk D).d88"
+        }
+      }
+    },
+    {
+      "name": "Tropical Boy",
+      "firmware": "bios",
+      "media": [
+        "",
+        "",
+        "games/Tropical Boy (Enix)/Tropical Boy [CT]/Tropical Boy {V1 mode, MON R GE702}.t88"
+      ],
+      "settings": {
+        "basic": "1",
+        "clock": "8",
+        "sound": "1",
+        "port": "0",
+        "subcpu": "0"
+      },
+      "checks": {
+        "stateDisks": {
+          "drive": 2,
+          "at": 600,
+          "swap": "games/Thunder Force (Tecno Soft)/Thunder Force [CT]/Thunder Force {V1 mode}.cmt"
+        }
+      }
+    },
+    {
+      "name": "N88-BASIC commands",
+      "firmware": "bios",
+      "media": [
+        "",
+        "",
+        ""
+      ],
+      "settings": {
+        "basic": "3",
+        "clock": "8",
+        "sound": "1",
+        "port": "0",
+        "subcpu": "0"
+      },
+      "checks": {
+        "commands": {
+          "commands": "PRINT 6*7",
+          "typedBy": 1800,
+          "answerBy": 300,
+          "screens": [
+            "23ba4c6308f31dfb"
+          ]
+        }
+      }
+    },
+    {
+      "name": "N88-BASIC locks",
+      "firmware": "bios",
+      "media": [
+        "",
+        "",
+        ""
+      ],
+      "settings": {
+        "basic": "3",
+        "clock": "8",
+        "sound": "1",
+        "port": "0",
+        "subcpu": "0"
+      },
+      "checks": {
+        "locks": {
+          "at": 900,
+          "keys": [
+            {
+              "code": 162,
+              "bit": 0
+            },
+            {
+              "code": 151,
+              "bit": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "N88-BASIC clock",
+      "firmware": "bios",
+      "media": [
+        "",
+        "",
+        ""
+      ],
+      "settings": {
+        "basic": "3",
+        "clock": "8",
+        "sound": "1",
+        "port": "0",
+        "subcpu": "0"
+      },
+      "checks": {
+        "clock": {
+          "setting": "clock",
+          "values": [
+            "8",
+            "4"
+          ],
+          "commands": "FOR I=1 TO 3000:NEXT:CLS",
+          "typedBy": 1800,
+          "doneBy": 3600,
+          "ratio": 2.11,
+          "margin": 0.05,
+          "screens": [
+            "12fb5f487e88cdab"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ishido",
+      "firmware": "bios",
+      "media": [
+        "games/Ishido (ASCII)/Ishido [FD]/Ishido.d88",
+        "",
+        ""
+      ],
+      "settings": {
+        "basic": "3",
+        "clock": "8",
+        "sound": "1",
+        "port": "1",
+        "subcpu": "0"
+      },
+      "checks": {
+        "boot": {
+          "frames": 1800
+        },
+        "guestInput": {
+          "frames": 2400,
+          "expect": "mouse"
+        }
+      }
+    }
+  ]
+}

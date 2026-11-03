@@ -12,7 +12,7 @@
 | `core/kairo88_core.c` | The API over QUASI88's `quasi88_start()` / `quasi88_loop()`, its disk, reset and state functions. |
 | `core/port/` | The QUASI88 system layer (`config.h`, `device.h`, graphics, events, wait, state and menu hooks). It stands in for one of QUASI88's `sysdepend/` ports. |
 | `core/sound/snddrv_ymfm.cpp` | QUASI88's sound driver interface (`snddrv.h`) on ymfm. |
-| `core/test/boot_test.c` | A headless host program that boots a machine and writes frames and audio. |
+| `core/test/boot-tests.json` | Kairo88's table for the shared PC boot test (`shared\tools\test-core.ps1`): its games, media and settings as the app passes them, and the checks each runs. |
 | `core/test/restart_test.c` | Boots several games in one process and checks that a save state round trip reproduces the picture and audio exactly. |
 
 QUASI88's own OS layer for Unix (`osdepend/unix/file-op.c`) is used as it is.
@@ -41,15 +41,14 @@ Output is 16-bit stereo at 48 kHz. The host reads it with `k88_audio_read()`; on
 
 ## Host test
 
-`boot_test` builds wherever CMake and a C/C++ compiler are available. On Windows the build used [llvm-mingw](https://github.com/mstorsjo/llvm-mingw):
+`shared\tools\test-core.ps1` builds the core into the shared PC boot test and runs `core/test/boot-tests.json`: the boot and its sound's timing, guest input, loading, sessions in one process, save states (picture and sound), both drives' and the tape's states, typed commands, the lock keys and the clock.
+
+The tests below build wherever CMake and a C/C++ compiler are available. On Windows the build used [llvm-mingw](https://github.com/mstorsjo/llvm-mingw):
 
 ```sh
 cmake -S core -B .build/host -G Ninja -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_BUILD_TYPE=Release
 cmake --build .build/host
-.build/host/boot_test 1800 300 .build/out/game -- -romdir bios/ -notool -nostatus -sd2 game.d88
 ```
-
-Arguments after `--` are QUASI88 options. It writes `game-NNNNN.ppm` every 300 frames and `game.wav` with all audio.
 
 ```sh
 .build/host/restart_test 900 .build/out/restart .build/out/restart.sta bios/ v2-game.d88 v1-game.d88

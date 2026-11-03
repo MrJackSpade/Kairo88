@@ -63,6 +63,9 @@ void k88_key(int key88, int pressed);
 
 /* The lock keys that are on: bit 0 Caps, bit 1 Kana. */
 int k88_locks(void);
+/* Turns the lock keys on or off as [locks] has them (bit 0 Caps, bit 1 Kana): a state does not hold
+ * them, as QUASI88 keeps its keyboard outside the machine (Kairo88#51). */
+void k88_set_locks(int locks);
 
 /* A joypad control (QUASI88 KEY88_PAD1_* or KEY88_PAD2_* code) going down or up.
  * The machine reads it while a joystick is in its port. */

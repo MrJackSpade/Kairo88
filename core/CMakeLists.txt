@@ -1,7 +1,7 @@
 # The Kairo88 PC-8801 core: QUASI88 (third_party/quasi88, with the local changes in tools/patches.py) with the
 # Kairo88 system layer in port/. Builds for Android (from the app's native
-# build) and for the host (boot_test), so the core can be tested without a
-# device.
+# build) and for the host (the shared PC boot test, shared/tools/test-core.ps1, and the tests in
+# core/test), so the core can be tested without a device.
 
 cmake_minimum_required(VERSION 3.22)
 project(kairo88_core C CXX)
@@ -62,8 +62,6 @@ endif()
 if(NOT ANDROID)
     # The app links the shared state paths through its machine library; the host tests link them here.
     target_sources(kairo88_core PRIVATE "${CMAKE_CURRENT_LIST_DIR}/../shared/frontend/src/main/cpp/kairo/state_paths.cpp")
-    add_executable(boot_test test/boot_test.c)
-    target_link_libraries(boot_test PRIVATE kairo88_core)
     add_executable(restart_test test/restart_test.c)
     target_link_libraries(restart_test PRIVATE kairo88_core)
     add_executable(tape_test test/tape_test.c)
@@ -72,7 +70,6 @@ if(NOT ANDROID)
     add_executable(sweep_test test/sweep_test.c)
     target_link_libraries(sweep_test PRIVATE kairo88_core)
     if(WIN32)
-        target_link_options(boot_test PRIVATE -static)
         target_link_options(restart_test PRIVATE -static)
         target_link_options(sweep_test PRIVATE -static)
         target_link_options(tape_test PRIVATE -static)

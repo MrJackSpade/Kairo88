@@ -93,6 +93,12 @@ int k88_locks(void)
 	return (quasi88_now_key_caps() ? 1 : 0) | (quasi88_now_key_kana() ? 2 : 0);
 }
 
+void k88_set_locks(int locks)
+{
+	quasi88_cfg_key_caps((locks & 1) != 0);
+	quasi88_cfg_key_kana((locks & 2) != 0);
+}
+
 void k88_mouse_move(int dx, int dy)
 {
 	quasi88_mouse_moved_rel(dx, dy);
@@ -122,33 +128,31 @@ int k88_disk(int drive, const char *path)
 	return quasi88_disk_insert(drive, path, 0, FALSE) ? 0 : -1;
 }
 
-static char tape_path[1024];
-
+/* The tape is QUASI88's own (file_tape[CLOAD]), inserted and ejected as its menu does: a state
+ * records it and a load reopens it (Kairo88#43), as for the disks. */
 int k88_tape(const char *path)
 {
 	if (path == NULL) {
-		sio_close_tapeload();
-		tape_path[0] = '\0';
+		quasi88_load_tape_eject();
 		return 0;
 	}
-	if (strlen(path) >= sizeof(tape_path) || !sio_open_tapeload(path)) {
+	if (!quasi88_load_tape_insert(path)) {
 		fprintf(stderr, "kairo88: could not open tape %s\n", path);
 		return -1;
 	}
-	strcpy(tape_path, path);
 	return 0;
 }
 
 const char *k88_tape_path(void)
 {
-	return tape_path;
+	return file_tape[CLOAD];
 }
 
 int k88_tape_running(void)
 {
 	long position, end;
 	/* OUT 30h bit 3 is the cassette motor relay; at the tape's end QUASI88 reports position 0 of 0. */
-	return tape_path[0] && (sys_ctrl & 0x08) && sio_tape_pos(&position, &end) && end > 0;
+	return file_tape[CLOAD][0] && (sys_ctrl & 0x08) && sio_tape_pos(&position, &end) && end > 0;
 }
 
 extern unsigned long kairo88_mouse_strobes;
@@ -174,7 +178,7 @@ int k88_disk_busy(void)
 
 int k88_tape_position(long *read, long *size)
 {
-	return tape_path[0] && sio_tape_pos(read, size) && *size > 0 ? 0 : -1;
+	return file_tape[CLOAD][0] && sio_tape_pos(read, size) && *size > 0 ? 0 : -1;
 }
 
 int k88_screen_text(char *out, int size)
@@ -286,6 +290,10 @@ int k88_state_load(const char *path)
 	if (kairo_sound_load_end() != 0) {
 		return -1;
 	}
+	/* The picture is the machine before the load until it is drawn again: QUASI88 redraws what its
+	 * dirty flags mark, which a load leaves as they were, so the first frame after it (the one the
+	 * paused game shows under the menu) showed the old picture (Kairo88#43). All of it is redrawn. */
+	if (loaded) set_screen_dirty_palette();
 	return loaded ? 0 : -1;
 }
 
