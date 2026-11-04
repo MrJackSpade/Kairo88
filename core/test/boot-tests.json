@@ -240,6 +240,75 @@
           "expect": "mouse"
         }
       }
+    },
+    {
+      "name": "PC-88 mouse program",
+      "firmware": "bios",
+      "media": [
+        "",
+        "",
+        ""
+      ],
+      "settings": {
+        "basic": "3",
+        "clock": "8",
+        "sound": "1",
+        "port": "1",
+        "subcpu": "0"
+      },
+      "checks": {
+        "directTap": {
+          "commands": "WIDTH 80,25\nCLEAR 300,&HBFFF\nP=&HC000\nA$=\"F33E07D3443E3FD3453E00D3402140012240C12164002242C12100002244C13E013247C1DB40E62020FADB40E62028FA3E0ED3443E40D340DB4507070707E6F0473E00D340DB45E60FB0ED444F793249\":FOR I=1 TO LEN(A$) STEP 2:POKE P,VAL(\"&H\"+MID$(A$,I,2)):P=P+1:NEXT\nA$=\"C13E40D340DB4507070707E6F0473E00D340DB45E60FB0ED44573E0FD344DB453248C13A49C15F2A40C17B4F879F4709CB7C2803210000E50180FD09E13003217F022240C12A42C17A4F879F4709CB7C\":FOR I=1 TO LEN(A$) STEP 2:POKE P,VAL(\"&H\"+MID$(A$,I,2)):P=P+1:NEXT\nA$=\"2803210000E50138FF09E1300321C7002242C13A42C1CB3FCB3FCB3F6F2600292929545D29292929B7ED5211C8F319EB2A40C1CB3CCB1DCB3CCB1DCB3CCB1D19ED5B44C1B7ED521928117AB328043A46\":FOR I=1 TO LEN(A$) STEP 2:POKE P,VAL(\"&H\"+MID$(A$,I,2)):P=P+1:NEXT\nA$=\"C1127E3246C1362A2244C13A48C1E601473A47C1B82836783247C1B7202F2A40C1294C3A42C10707E6034787878081C6413246C14F21C8F31128000619C50650712310FC19C110F52A44C1362AC324C0\":FOR I=1 TO LEN(A$) STEP 2:POKE P,VAL(\"&H\"+MID$(A$,I,2)):P=P+1:NEXT\nDEF USR=&HC000:A=USR(0)",
+          "typedBy": 18000,
+          "frames": 120,
+          "warpBy": 600,
+          "tolerance": 0,
+          "ownPointer": true,
+          "clickFrames": 42,
+          "points": [
+            {
+              "x": 4,
+              "y": 4,
+              "screens": [
+                "f97d97d74132547a"
+              ],
+              "selectedBy": 60
+            },
+            {
+              "x": 636,
+              "y": 4,
+              "screens": [
+                "cac8736b02232920"
+              ],
+              "selectedBy": 60
+            },
+            {
+              "x": 4,
+              "y": 196,
+              "screens": [
+                "71bc53511506c253"
+              ],
+              "selectedBy": 60
+            },
+            {
+              "x": 636,
+              "y": 196,
+              "screens": [
+                "dad7f159d2779edd"
+              ],
+              "selectedBy": 60
+            },
+            {
+              "x": 320,
+              "y": 100,
+              "screens": [
+                "6707fd899d8f8b06"
+              ],
+              "selectedBy": 60
+            }
+          ]
+        }
+      }
     }
   ]
 }
