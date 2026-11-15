@@ -2,16 +2,16 @@
   "schemaVersion": 2,
   "controller": {
     "bindings": [
-      {"input": "virtual:up", "keys": [147, 136], "joystick": "up"},
-      {"input": "virtual:down", "keys": [158, 130], "joystick": "down"},
-      {"input": "virtual:left", "keys": [159, 132], "joystick": "left"},
-      {"input": "virtual:right", "keys": [148, 134], "joystick": "right"},
+      {"input": "virtual:up", "keys": [147]},
+      {"input": "virtual:down", "keys": [158]},
+      {"input": "virtual:left", "keys": [159]},
+      {"input": "virtual:right", "keys": [148]},
       {"input": "virtual:a", "keys": [145]},
       {"input": "virtual:b", "keys": [32]},
-      {"input": "virtual:x", "keys": [90], "joystick": "button1"},
-      {"input": "virtual:y", "keys": [88], "joystick": "button2"},
-      {"input": "virtual:c", "keys": [90], "joystick": "button1"},
-      {"input": "virtual:z", "keys": [88], "joystick": "button2"},
+      {"input": "virtual:x", "keys": [90]},
+      {"input": "virtual:y", "keys": [88]},
+      {"input": "virtual:c", "joystick": "button1"},
+      {"input": "virtual:z", "joystick": "button2"},
       {"input": "virtual:l1", "keys": [165]},
       {"input": "virtual:r1", "keys": [166]},
       {"input": "virtual:l2", "keys": [167]},
@@ -25,10 +25,10 @@
       {"input": "virtual:lsdown", "joystick": "down"},
       {"input": "virtual:lsleft", "joystick": "left"},
       {"input": "virtual:lsright", "joystick": "right"},
-      {"input": "virtual:rsup", "keys": [147]},
-      {"input": "virtual:rsdown", "keys": [158]},
-      {"input": "virtual:rsleft", "keys": [159]},
-      {"input": "virtual:rsright", "keys": [148]}
+      {"input": "virtual:rsup", "keys": [136]},
+      {"input": "virtual:rsdown", "keys": [130]},
+      {"input": "virtual:rsleft", "keys": [132]},
+      {"input": "virtual:rsright", "keys": [134]}
     ]
   }
 }

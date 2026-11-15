@@ -41,8 +41,6 @@ object Kairo88App : AppUnderTest() {
     override val separateGames = listOf("100 Yen Disk No. 1", "100 Yen Disk No. 2")
     override val hiddenFiles = listOf("[Utility] Magic Copy II", "Thunder Force [CT]", "Thunder Force [extras]")
     override val searchTerm = "Thunder"
-    override val arrowKeys = listOf(com.mrjackspade.kairo88.Pc88Keys.UP, com.mrjackspade.kairo88.Pc88Keys.DOWN,
-        com.mrjackspade.kairo88.Pc88Keys.LEFT, com.mrjackspade.kairo88.Pc88Keys.RIGHT)
     override val returnKey = com.mrjackspade.kairo88.Pc88Keys.RETURN
     override val spaceKey = com.mrjackspade.kairo88.Pc88Keys.SPACE
     override val bootGameFile = "games/Thunder Force (Tecno Soft)/Thunder Force [FD].7z"
