@@ -1,0 +1,70 @@
+{
+  "tests": [
+    {
+      "name": "Thunder Force",
+      "firmware": "bios",
+      "media": [
+        "games/Thunder Force (Tecno Soft)/Thunder Force [FD]/Thunder Force {V1 mode}.d88",
+        "",
+        ""
+      ],
+      "settings": {
+        "basic": "1",
+        "clock": "8",
+        "sound": "1",
+        "port": "0",
+        "subcpu": "0"
+      },
+      "checks": {
+        "profile": {
+          "boot": 1800,
+          "frames": 20000
+        }
+      }
+    },
+    {
+      "name": "Angelus",
+      "firmware": "bios",
+      "media": [
+        "games/Angelus (Enix)/Angelus [FD]/Angelus (Disk A).d88",
+        "games/Angelus (Enix)/Angelus [FD]/Angelus (Disk B).d88",
+        ""
+      ],
+      "settings": {
+        "basic": "3",
+        "clock": "8",
+        "sound": "1",
+        "port": "0",
+        "subcpu": "0"
+      },
+      "checks": {
+        "profile": {
+          "boot": 1800,
+          "frames": 20000
+        }
+      }
+    },
+    {
+      "name": "Ishido",
+      "firmware": "bios",
+      "media": [
+        "games/Ishido (ASCII)/Ishido [FD]/Ishido.d88",
+        "",
+        ""
+      ],
+      "settings": {
+        "basic": "3",
+        "clock": "8",
+        "sound": "1",
+        "port": "1",
+        "subcpu": "0"
+      },
+      "checks": {
+        "profile": {
+          "boot": 1800,
+          "frames": 20000
+        }
+      }
+    }
+  ]
+}
