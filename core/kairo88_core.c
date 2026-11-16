@@ -247,6 +247,11 @@ void k88_draw_every(int frames)
 	quasi88_cfg_set_frameskip_rate(frames);
 }
 
+void k88_repeatable(int on)
+{
+	calendar_kairo_repeatable(on);
+}
+
 void k88_reset(void)
 {
 	quasi88_reset(NULL);

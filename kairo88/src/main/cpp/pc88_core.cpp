@@ -53,6 +53,7 @@ public:
             }
             initialized = true;
         }
+        k88_repeatable(launch.repeatable ? 1 : 0);
         // The settings Pc88Native.Machine names; every launch passes all of them.
         k88_machine machine{std::stoi(launch.settings.at("basic")), launch.settings.at("clock") == "8" ? 1 : 0,
                             std::stoi(launch.settings.at("sound")), std::stoi(launch.settings.at("port")),

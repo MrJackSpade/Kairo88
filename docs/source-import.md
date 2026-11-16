@@ -63,6 +63,7 @@ Two kinds of machine state that QUASI88 leaves out of its state files are saved 
 | `src/screen/putimage.c`, `src/screen/screen.h` | `screen_drawn_400` records whether the last VRAM transfer drew 400 lines (`V_HIRESO`). The core runs QUASI88 with `-skipline` drawing (each 200-line row once, on the buffer's even lines) and hands those 200 rows over with `line_repeat()` 2; this says which kind of frame the buffer holds (Kairo#50). |
 | `src/osdepend/unix/file-op.c` | A file already open is found by its device and inode, and where the system has no inode numbers (Windows, where `st_ino` is 0) also by the path it was opened by. Without the path, every disk on a Windows host is taken for the one already open, so drive 2 reads drive 1's disk. |
 | `src/osdepend/unix/file-op.c` | A home (`$HOME`) may be a drive's absolute path (`C:\...`), as on the shared PC boot test's Windows build; the unix layer took only a path from `/` for absolute and ran without its `.quasi88` folders. |
+| `src/pc88/pc88main.c`, `src/pc88/pc88main.h` | `calendar_kairo_repeatable` (Kairo88#56): a run that must repeat exactly (`kairo::Launch::repeatable`, the shared tests; `k88_repeatable`, set for each launch) reads QUASI88's own stopped clock (`calendar_stop`, its `-timestop`) at 1993-01-01 00:00:00 instead of the host's time, which the calendar otherwise reads at every read. QUASI88's state holds no calendar, so a stopped clock is also the same after a state load and in a second session. The app keeps the host's time. |
 
 Each change is marked with a `Kairo88` comment.
 

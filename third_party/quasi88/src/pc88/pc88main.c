@@ -3053,6 +3053,15 @@ void calendar_init(void)
 	calendar_diff = 0;
 }
 
+/* Kairo88#56: a run that must repeat exactly reads the clock stopped at 1993-01-01 (a Friday)
+ * 00:00:00, QUASI88's own timestop, instead of the host's time; on is FALSE for the host's time. */
+void calendar_kairo_repeatable(int on)
+{
+	static const char start[7] = { 93, 0, 1, 5, 0, 0, 0 };
+	calendar_stop = on;
+	if (on) memcpy(calendar_data, start, sizeof(calendar_data));
+}
+
 void calendar_shift_clock(void)
 {
 	byte x = (common_out_data >> 3) & 0x01;

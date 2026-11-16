@@ -90,6 +90,7 @@ extern  byte    jisho_rom_ctrl;                 /* OUT[F1] 辞書ROMバンク  *
 /**** カレンダー ****/
 
 extern  int     calendar_stop;                  /* 時計停止フラグ       */
+void calendar_kairo_repeatable(int on);      /* Kairo88#56 */
 
 
 /**** シリアル、パラレル ****/

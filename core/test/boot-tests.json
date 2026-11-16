@@ -153,6 +153,32 @@
       }
     },
     {
+      "name": "N88-BASIC clock read",
+      "firmware": "bios",
+      "media": [
+        "",
+        "",
+        ""
+      ],
+      "settings": {
+        "basic": "3",
+        "clock": "8",
+        "sound": "1",
+        "port": "0",
+        "subcpu": "0"
+      },
+      "checks": {
+        "commands": {
+          "commands": "PRINT DATE$;\" \";TIME$",
+          "typedBy": 1800,
+          "answerBy": 300,
+          "screens": [
+            "04c619ff00bdb246"
+          ]
+        }
+      }
+    },
+    {
       "name": "N88-BASIC locks",
       "firmware": "bios",
       "media": [

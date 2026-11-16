@@ -715,4 +715,14 @@ extern int use_half_interp;					/* 画面サイズ半分時、色補間する */
          "\tif (home    == NULL ||\n\t\t(home[0] != '/' &&\n"
          "\t\t !(home[0] != '\\0' && home[1] == ':' && (home[2] == '/' || home[2] == '\\\\')))) {\n"),
     ],
+    # A run that must repeat exactly reads QUASI88's own stopped clock at 1993-01-01 00:00:00 instead of
+    # the host's time (Kairo88#56): calendar_kairo_repeatable, which k88_repeatable sets for each launch.
+    'kairo88-repeatable-calendar': [
+        ('quasi88/src/pc88/pc88main.c',
+         '\nvoid calendar_shift_clock(void)\n',
+         "\n/* Kairo88#56: a run that must repeat exactly reads the clock stopped at 1993-01-01 (a Friday)\n * 00:00:00, QUASI88's own timestop, instead of the host's time; on is FALSE for the host's time. */\nvoid calendar_kairo_repeatable(int on)\n{\n\tstatic const char start[7] = { 93, 0, 1, 5, 0, 0, 0 };\n\tcalendar_stop = on;\n\tif (on) memcpy(calendar_data, start, sizeof(calendar_data));\n}\n\nvoid calendar_shift_clock(void)\n"),
+        ('quasi88/src/pc88/pc88main.h',
+         'extern  int     calendar_stop;                  /* 時計停止フラグ       */\n\n',
+         'extern  int     calendar_stop;                  /* 時計停止フラグ       */\nvoid calendar_kairo_repeatable(int on);      /* Kairo88#56 */\n\n'),
+    ],
 }

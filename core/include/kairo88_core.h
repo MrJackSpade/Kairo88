@@ -156,6 +156,10 @@ void k88_audio_clear(void);
 void k88_sound_output(int on);
 void k88_draw_every(int frames);
 
+/* A run that must repeat exactly (kairo::Launch::repeatable): the calendar reads a clock stopped at
+ * 1993-01-01 00:00:00 instead of the host's time (Kairo88#56). Set for each launch. */
+void k88_repeatable(int on);
+
 #ifdef __cplusplus
 }
 #endif
